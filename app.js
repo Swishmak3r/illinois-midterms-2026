@@ -1028,6 +1028,108 @@
     `;
   }
 
+  // Render Interactive "How to Use This Guide" Tab (Tab 6)
+  function renderGuideTab() {
+    const container = document.getElementById("tab-content-container");
+    if (!container) return;
+
+    container.innerHTML = `
+      <div class="p-6 rounded-xl bg-elevated-custom border border-subtle-custom space-y-6">
+        <div class="pb-4 border-b border-subtle-custom flex flex-wrap items-center justify-between gap-4">
+          <div>
+            <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded bg-blue-600 text-white">INTERACTIVE USER MANUAL</span>
+            <h3 class="text-xl md:text-2xl font-serif-display font-bold text-primary-custom mt-2">How to Use the 2026 Illinois Midterm Elections & PAC Guide</h3>
+            <p class="text-xs md:text-sm text-secondary-custom mt-1">Follow the steps below or click any of the blue <strong>"Try Example"</strong> buttons to jump straight to that feature.</p>
+          </div>
+          <button type="button" data-tab-btn="ballot" class="px-4 py-2 rounded-lg text-xs font-semibold bg-blue-600 text-white hover:bg-blue-700 transition">
+            Return to All Races & Ballot View
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Step 1 -->
+          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600/15 text-blue-600 dark:text-blue-400">Step 1 • Local Ballot Builder</span>
+                <span class="text-xs font-mono text-muted-custom">Control #1 in Top Bar</span>
+              </div>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Sort by Your Illinois Town, Suburb, or Chicago Neighborhood</h4>
+              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
+                Select your community from the <strong>"1. Sort by Your Illinois Town..."</strong> dropdown at the top-left (or browse the <strong>Town & Neighborhood Ballot Directory</strong> tab). The guide immediately filters out the rest of the state and displays <strong>only</strong> your exact ballot: U.S. Senate, your U.S. House district(s), all 5 Statewide Executive offices, your State Senator, your State Representative, and your County offices & referendums, plus your current Mayor and local policy flashpoints.
+              </p>
+            </div>
+            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
+              <button type="button" data-quick-town="naperville" class="btn-compare-sm">Try Example: Naperville Ballot</button>
+              <button type="button" data-quick-town="chicago-lincoln-park-lakeview" class="btn-compare-sm">Try Example: Chicago North Lakefront</button>
+              <button type="button" data-quick-town="springfield" class="btn-compare-sm">Try Example: Springfield Ballot</button>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-amber-500/15 text-amber-700 dark:text-amber-300">Step 2 • Follow the PAC Money</span>
+                <span class="text-xs font-mono text-muted-custom">Control #3 & PAC Tab</span>
+              </div>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">See Which PACs, Super PACs & Unions Pay or Back Each Candidate</h4>
+              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
+                Every candidate card includes a verified <strong>FEC / IL SBE Campaign Finance Box</strong> showing Total Raised, Cash on Hand, PAC Policy, and a line-by-line list of associated PACs with dollar amounts. Notice the green vs. red tags: green shows PACs <strong>Supporting</strong> the candidate, while red flags Super PACs that spent money <strong>Opposing</strong> them in the primary or general election. Use dropdown <strong>#3 (Filter by PAC)</strong> to isolate candidates by donor network.
+              </p>
+            </div>
+            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
+              <button type="button" data-guide-pac="fairshake" class="btn-compare-sm">Filter: Fairshake Crypto Backed</button>
+              <button type="button" data-guide-pac="aipac" class="btn-compare-sm">Filter: AIPAC / UDP Backed</button>
+              <button type="button" data-guide-pac="local150" class="btn-compare-sm">Filter: IUOE Local 150 Backed</button>
+              <button type="button" data-tab-btn="pacs" class="btn-secondary-sm">Open PAC Directory</button>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-emerald-500/15 text-emerald-700 dark:text-emerald-300">Step 3 • 23 Policy Issues</span>
+                <span class="text-xs font-mono text-muted-custom">Federal, State & Local Tiers</span>
+              </div>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Inspect Where Candidates Stand on Every Key Issue</h4>
+              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
+                We track <strong>23 distinct policy issues</strong> tailored to the office level:
+                <br/>• <strong>8 Federal Issues</strong>: Economy, Healthcare/Medicare, Immigration, Climate/Grid, Taxes & SALT Cap, Reproductive Rights, Foreign Policy (Israel/Gaza/Ukraine), and Gun Policy.
+                <br/>• <strong>8 State Issues</strong>: Property Taxes & EBF School Aid, SAFE-T Act & Cashless Bail, State Budget ($53B+), Tier 2 Pensions, CEJA & AI Data Centers, NITA Transit ($1.5B), State Healthcare, and School Vouchers.
+                <br/>• <strong>7 Local/County Issues</strong>: Commercial vs. Homeowner Assessments, Local Transit/Roads, Lead Water Pipes & Flooding, Municipal Budgets/Elections, Data Center Zoning, Solar/Wind Siting, and County Sheriffs/708 Mental Health Boards.
+              </p>
+            </div>
+            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
+              <button type="button" data-guide-issue="state:propertyTaxes" class="btn-compare-sm">Compare on Property Taxes</button>
+              <button type="button" data-guide-issue="state:safetAct" class="btn-compare-sm">Compare on SAFE-T Act</button>
+              <button type="button" data-guide-issue="local:assessmentBurden" class="btn-compare-sm">Compare on County Assessments</button>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • Side-by-Side Comparison & Sharing</span>
+                <span class="text-xs font-mono text-muted-custom">Up to 4 Candidates at Once</span>
+              </div>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates Head-to-Head & Share Custom Links</h4>
+              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
+                Click <strong>"+ Compare Candidate"</strong> at the bottom of any candidate card to add them to your comparison tray (up to 4 candidates at a time), then click the <strong>Compare Candidates</strong> tab to view a side-by-side matrix of their fundraising, PAC backers, and every issue position. Want to send a specific town's ballot or comparison to a friend? Click <strong>"Share This View"</strong> in the top-right corner to copy the exact deep-link URL!
+              </p>
+            </div>
+            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
+              <button type="button" data-compare-preset="juliana-stratton,don-tracy,jb-pritzker,darren-bailey" class="btn-compare-sm">Compare Senate & Governor Nominees</button>
+              <button type="button" data-compare-preset="doris-turner,frank-lesko,darby-hills,nabeela-syed" class="btn-compare-sm">Compare Top State Senate Toss-Ups</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   // Update Compare Tray Floating Pill
   function updateCompareBadge() {
     const countEl = document.getElementById("compare-count-badge");
@@ -1068,7 +1170,7 @@
         state.selectedTownId = townParam;
       }
       const tabParam = params.get("tab");
-      if (tabParam && ["ballot", "towns", "issues", "pacs", "compare"].includes(tabParam)) {
+      if (tabParam && ["ballot", "towns", "issues", "pacs", "compare", "guide"].includes(tabParam)) {
         state.activeTab = tabParam;
       }
       const levelParam = params.get("level");
@@ -1149,6 +1251,8 @@
       renderPacsTab();
     } else if (state.activeTab === "compare") {
       renderCompareTab();
+    } else if (state.activeTab === "guide") {
+      renderGuideTab();
     }
 
     renderModal();
@@ -1308,6 +1412,26 @@
         state.selectedTownId = quickTown.getAttribute("data-quick-town");
         state.activeTab = "ballot";
         renderApp();
+        return;
+      }
+
+      const guidePac = e.target.closest("[data-guide-pac]");
+      if (guidePac) {
+        state.pacFilter = guidePac.getAttribute("data-guide-pac");
+        state.activeTab = "ballot";
+        renderApp();
+        return;
+      }
+
+      const guideIssue = e.target.closest("[data-guide-issue]");
+      if (guideIssue) {
+        const parts = (guideIssue.getAttribute("data-guide-issue") || "").split(":");
+        if (parts.length === 2) {
+          state.issueLevel = parts[0];
+          state.selectedIssueKey = parts[1];
+          state.activeTab = "issues";
+          renderApp();
+        }
         return;
       }
 
