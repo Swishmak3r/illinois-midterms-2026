@@ -1,0 +1,1234 @@
+// 2026 Illinois Midterm Elections - Issue Definitions, 110+ Towns/Cities Ballot Directory & PAC Power Broker Database
+
+// 1. Multi-Tier Policy Issue Definitions (Federal, State, Local)
+window.IL_ISSUE_DEFINITIONS = {
+  federal: [
+    {
+      key: "economy",
+      label: "Economy & Cost of Living",
+      shortLabel: "Economy",
+      summary: "Inflation, tariffs, child tax credits, housing supply, minimum wage, and manufacturing/agricultural trade."
+    },
+    {
+      key: "healthcare",
+      label: "Healthcare, Medicare & Rx",
+      shortLabel: "Healthcare",
+      summary: "Medicare for All vs. ACA public option vs. market plans, insulin/Rx price caps, PBM reform, and rural hospital survival."
+    },
+    {
+      key: "immigration",
+      label: "Immigration & Border Security",
+      shortLabel: "Immigration",
+      summary: "Border enforcement, asylum reform, DACA/Dreamers pathways, federal reimbursement for municipal migrant shelters, and ICE cooperation."
+    },
+    {
+      key: "climate",
+      label: "Climate, Energy & Grid",
+      shortLabel: "Climate & Energy",
+      summary: "Inflation Reduction Act (IRA) clean energy tax credits, nuclear baseload power, EV mandates, biofuels (E15), and PJM/MISO utility rates."
+    },
+    {
+      key: "taxesSalt",
+      label: "Federal Taxes & SALT Cap",
+      shortLabel: "Taxes & SALT",
+      summary: "Lifting or modifying the $10,000 State and Local Tax (SALT) deduction cap for Illinois homeowners, 2017 TCJA extensions, and corporate tax rates."
+    },
+    {
+      key: "reproductiveRights",
+      label: "Reproductive Rights & IVF",
+      shortLabel: "Reproductive Rights",
+      summary: "Codifying Roe v. Wade federally vs. national abortion restrictions, protecting interstate patient travel to Illinois, and IVF/contraception access."
+    },
+    {
+      key: "foreignPolicy",
+      label: "Foreign Policy (Israel/Gaza, Ukraine, Trade)",
+      shortLabel: "Foreign Policy",
+      summary: "U.S. military aid conditions to Israel, Gaza ceasefire debates, Ukraine defense funding, NATO alliances, and China trade/tariffs."
+    },
+    {
+      key: "gunSafety",
+      label: "Gun Safety & 2nd Amendment",
+      shortLabel: "Gun Policy",
+      summary: "Federal assault weapons bans, universal background checks, ghost gun/Glock switch crackdowns vs. national concealed-carry reciprocity."
+    }
+  ],
+  state: [
+    {
+      key: "propertyTaxes",
+      label: "Property Taxes & EBF School Funding",
+      shortLabel: "Property Taxes",
+      summary: "Illinois holds the 2nd-highest effective property tax rate in the U.S. (2.07%). Debate centers on state Evidence-Based Funding (EBF) increases vs. hard local levy caps."
+    },
+    {
+      key: "safetAct",
+      label: "SAFE-T Act & Pretrial Detention",
+      shortLabel: "SAFE-T Act",
+      summary: "Illinois became the first state to abolish cash bail under the Pretrial Fairness Act (Sept 2023). Candidates clash over expanding detainable offenses vs. full repeal."
+    },
+    {
+      key: "budgetTaxes",
+      label: "State Budget ($53B+), Taxes & Spending",
+      shortLabel: "State Budget",
+      summary: "Graduated vs. flat 4.95% income tax, corporate tax credits (REV Illinois), non-citizen healthcare elimination, and eliminating the 1% statewide grocery tax."
+    },
+    {
+      key: "pensions",
+      label: "Pension Debt ($144B) & Tier 2 Reform",
+      shortLabel: "Pensions & Tier 2",
+      summary: "Fixing the Tier 2 pension benefit gap for post-2011 teachers, police, and state workers to meet federal Social Security Safe Harbor rules without spiking state debt."
+    },
+    {
+      key: "energyGrid",
+      label: "CEJA, Nuclear, AI Data Centers & ComEd/Ameren Bills",
+      shortLabel: "Grid & Data Centers",
+      summary: "Climate and Equitable Jobs Act (CEJA) plant closure timelines, lifting the nuclear moratorium for SMRs, and forcing AI data centers to pay for grid upgrades."
+    },
+    {
+      key: "transit",
+      label: "NITA Transit Overhaul (CTA, Metra & Pace)",
+      shortLabel: "Transit (NITA)",
+      summary: "Implementation of SB 2111 replacing the RTA with the Northern Illinois Transit Authority (NITA) and $1.5B in road-fund/sales-tax transfers vs. downstate highway priorities."
+    },
+    {
+      key: "healthcare",
+      label: "Reproductive Shield Laws, Rx Boards & Medicaid",
+      shortLabel: "State Healthcare",
+      summary: "Illinois interstate abortion/gender-affirming care shield laws, Prescription Drug Affordability Board (PDAB), prior-authorization bans, and safety-net hospital rates."
+    },
+    {
+      key: "education",
+      label: "K-12 Schools, Higher Ed & Invest in Kids Vouchers",
+      shortLabel: "Education & Vouchers",
+      summary: "Public K-12 EBF funding, MAP college grants, and Chicago elected school board vs. reviving the expired Invest in Kids private school scholarship tax credit."
+    }
+  ],
+  local: [
+    {
+      key: "assessmentBurden",
+      label: "Property Tax Assessments (Commercial vs. Residential)",
+      shortLabel: "Assessments & Levies",
+      summary: "Cook County's 10%/25% split classification and commercial appeal reductions shifting taxes onto homeowners, plus Collar and Downstate county levy caps."
+    },
+    {
+      key: "transitMma",
+      label: "Local Transit, Metra/CTA Safety & Commuter Roads",
+      shortLabel: "Local Transit & Roads",
+      summary: "CTA/Metra/Pace frequency and policing, suburban NITA board representation, Downstate passenger rail (Rockford/Peoria/Quad Cities), and county highway widening."
+    },
+    {
+      key: "leadWaterFlood",
+      label: "Lead Water Pipe Replacement & Flood Control",
+      shortLabel: "Water & Flooding",
+      summary: "Replacing Illinois's 1.04 million toxic lead water service lines (400k in Chicago, plus Cicero/Aurora/Joliet/Rockford), MWRD reservoirs, and protecting the Mahomet Aquifer."
+    },
+    {
+      key: "migrantBudgets",
+      label: "Municipal Budgets, Election Admin & Shelter Costs",
+      shortLabel: "Budgets & Elections",
+      summary: "Structural municipal deficits, pension obligations, migrant healthcare/shelter costs vs. non-sanctuary county resolutions, and on-time tax bill/election administration."
+    },
+    {
+      key: "dataCenterZoning",
+      label: "AI Data Center & Logistics Warehouse Zoning",
+      shortLabel: "Data Centers & Zoning",
+      summary: "Zoning battles over hyperscale data centers (Elk Grove, Hoffman Estates, Aurora, DeKalb, Joliet) and semi-truck logistics warehouses vs. Class 6b/7 tax incentives."
+    },
+    {
+      key: "solarWindSiting",
+      label: "Commercial Solar/Wind Siting & Open Space",
+      shortLabel: "Solar/Wind & Land",
+      summary: "Downstate county frustration over Illinois's 2023 law preempting county bans on commercial wind/solar farms vs. Forest Preserve conservation and green energy revenue."
+    },
+    {
+      key: "localPublicSafety",
+      label: "County Sheriffs, Jails & 708 Mental Health Boards",
+      shortLabel: "Sheriffs & 708 Boards",
+      summary: "County Sheriff accountability (post-Sonya Massey reforms in Sangamon County), SAFE-T Act implementation, retail theft task forces, and voter-approved 708 Mental Health Boards."
+    }
+  ]
+};
+
+// 2. Comprehensive Directory of 105+ Illinois Towns, Cities, Suburbs & Chicago Neighborhoods
+// Maps every community to its exact Federal, State Senate, State House, and County/Local races
+window.IL_TOWNS_DIRECTORY = [
+  // ================= CHICAGO NEIGHBORHOODS & CORRIDORS =================
+  {
+    id: "chicago-all",
+    name: "Chicago (Citywide Overview)",
+    region: "Chicago",
+    county: "Cook",
+    population: "2,665,000",
+    mayor: "Mayor Brandon Johnson (D - Term through 2027)",
+    usHouse: ["IL-01", "IL-02", "IL-03", "IL-04", "IL-05", "IL-06", "IL-07", "IL-09"],
+    stateSenate: ["SD-8", "SD-9", "SD-39"],
+    stateHouse: ["HD-26", "HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Chicago voters cast ballots in the open U.S. Senate race, 8 different Congressional districts (including open seats in IL-02, IL-04, IL-07, and IL-09), Cook County President (Toni Preckwinkle), Cook County Assessor (where Pat Hynes upset Fritz Kaegi), and the fully elected 21-member Chicago Board of Education transition."
+  },
+  {
+    id: "chicago-loop-downtown",
+    name: "Chicago - The Loop, River North, Gold Coast, Streeterville & South Loop",
+    region: "Chicago",
+    county: "Cook",
+    population: "245,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Brendan Reilly (42), Bill Conway (34), Pat Dowell (3), Brian Hopkins (2)",
+    usHouse: ["IL-07", "IL-05"],
+    stateSenate: ["SD-8", "SD-39"],
+    stateHouse: ["HD-26"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Downtown Chicago is the epicenter of the open IL-07 Congressional race (won by State Rep. La Shawn Ford after Richard Boykin, Jason Friedman, and Rory Hoskins split the moderate vote), Speaker Pro Tempore Kam Buckner's HD-26, LaSalle Street office-to-residential conversions, and CTA NITA transit safety."
+  },
+  {
+    id: "chicago-lincoln-park-lakeview",
+    name: "Chicago - Lincoln Park, Lakeview, Old Town & Uptown (North Lakefront)",
+    region: "Chicago",
+    county: "Cook",
+    population: "285,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Timmy Knudsen (43), Bennett Lawson (44), Angela Clay (46)",
+    usHouse: ["IL-05", "IL-09"],
+    stateSenate: ["SD-8", "SD-9"],
+    stateHouse: ["HD-26", "HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "North Lakefront voters are split between Rep. Mike Quigley (IL-05) and the open IL-09 seat (Daniel Biss vs. John Elleson). In the March 2026 primary, urban planner Drake Warren unseated longtime Cook County Commissioner Bridget Gainer in Dist. 10 and Liz Nicholson unseated Board of Review Commissioner Samantha Steele."
+  },
+  {
+    id: "chicago-rogers-park-edgewater",
+    name: "Chicago - Rogers Park, Edgewater, Andersonville & West Ridge (Far North Side)",
+    region: "Chicago",
+    county: "Cook",
+    population: "215,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Maria Hadden (49), Leni Manaa-Hoppenworth (48), Debra Silverstein (50)",
+    usHouse: ["IL-09", "IL-05"],
+    stateSenate: ["SD-8", "SD-9"],
+    stateHouse: ["HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Anchor of the open IL-09 Congressional race (where Evanston Mayor Daniel Biss defeated Kat Abughazaleh and Laura Fine in a $12M+ primary featuring heavy AIPAC/Elect Chicago Women spending) and Senate Transportation Chair Ram Villivalam's SD-8."
+  },
+  {
+    id: "chicago-logan-square-avondale",
+    name: "Chicago - Logan Square, Humboldt Park, Avondale, West Town & Bucktown (NW Side)",
+    region: "Chicago",
+    county: "Cook",
+    population: "260,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Carlos Ramirez-Rosa / Jessie Fuentes (26), Daniel La Spata (1)",
+    usHouse: ["IL-03", "IL-05", "IL-07"],
+    stateSenate: ["SD-8", "SD-39"],
+    stateHouse: ["HD-7", "HD-26"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Heart of Rep. Delia Ramirez's IL-03 district, where gentrification, 606 Trail property tax assessments, rent stabilization, and lead water service line replacement dominate voter priorities."
+  },
+  {
+    id: "chicago-jefferson-park-norwood",
+    name: "Chicago - Jefferson Park, Norwood Park, Edison Park, Portage Park & Dunning (Far NW Side)",
+    region: "Chicago",
+    county: "Cook",
+    population: "220,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Anthony Napolitano (41), Jim Gardiner (45), Nicholas Sposato / Samantha Nugent (39)",
+    usHouse: ["IL-05", "IL-03"],
+    stateSenate: ["SD-8", "SD-39"],
+    stateHouse: ["HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Home to thousands of Chicago police officers, firefighters, and city workers (41st, 45th, 38th Wards). Key issues include Tier 2 police/fire pension reform, opposing the SAFE-T Act, O'Hare aircraft noise, and property tax assessments."
+  },
+  {
+    id: "chicago-pilsen-little-village",
+    name: "Chicago - Pilsen, Little Village, Brighton Park, Gage Park & Midway (SW Side)",
+    region: "Chicago",
+    county: "Cook",
+    population: "275,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Byron Sigcho-Lopez (25), Michael Rodriguez (22), Julia Ramirez (12)",
+    usHouse: ["IL-04", "IL-07"],
+    stateSenate: ["SD-39"],
+    stateHouse: ["HD-26", "HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Core of the open IL-04 Congressional race to succeed retiring Rep. Jesus 'Chuy' Garcia: Democratic nominee Patty Garcia faces Working Class Party nominee Lupe Castillo and Republican Chris Getty, while CTU-backed teacher Miranda Hernandez won the Cook County Board Dist. 16 primary."
+  },
+  {
+    id: "chicago-west-side-austin",
+    name: "Chicago - Austin, Garfield Park, North Lawndale & West Loop (West Side)",
+    region: "Chicago",
+    county: "Cook",
+    population: "210,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Jason Ervin (28), Chris Taliaferro (29), Monique Scott (24), Walter Burnett (27)",
+    usHouse: ["IL-07"],
+    stateSenate: ["SD-39"],
+    stateHouse: ["HD-7", "HD-26"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "il-ballot-referendums-2026"],
+    localContext: "Home base of IL-07 Democratic nominee State Rep. La Shawn Ford (who defeated 12 primary rivals with $1.2M+ in Fairshake/Protect Progress Super PAC backing to succeed retiring Rep. Danny Davis), Senate President Don Harmon (SD-39), and House Speaker Chris Welch (HD-7)."
+  },
+  {
+    id: "chicago-hyde-park-bronzeville",
+    name: "Chicago - Hyde Park, Bronzeville, Kenwood, Woodlawn & South Shore (South Lakefront)",
+    region: "Chicago",
+    county: "Cook",
+    population: "230,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Desmon Yancy (5), Lamont Robinson (4), Jeanette Taylor (20), Greg Mitchell (7)",
+    usHouse: ["IL-01", "IL-02", "IL-07"],
+    stateSenate: ["SD-39"],
+    stateHouse: ["HD-26"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "il-ballot-referendums-2026"],
+    localContext: "Home to U.S. Senate nominee Lt. Gov. Juliana Stratton, Cook County Board President Toni Preckwinkle, U.S. Rep. Jonathan Jackson (IL-01), Speaker Pro Tempore Kam Buckner (HD-26), the Obama Presidential Center (opening 2026), and the new Illinois Quantum & Microelectronics Park at the former South Works steel site."
+  },
+  {
+    id: "chicago-chatham-englewood",
+    name: "Chicago - Chatham, Auburn Gresham, Englewood, Roseland & Pullman (South & Far South Side)",
+    region: "Chicago",
+    county: "Cook",
+    population: "250,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. William Hall (6), Ronnie Mosley (21), Anthony Beale (9), Stephanie Coleman (16)",
+    usHouse: ["IL-01", "IL-02"],
+    stateSenate: ["SD-19"],
+    stateHouse: ["HD-26"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "il-ballot-referendums-2026"],
+    localContext: "Split between Rep. Jonathan Jackson (IL-01) and the open IL-02 seat (won by Cook County Commissioner Donna Miller over Jesse Jackson Jr. and Robert Peters). Voters are focused on the CTA Red Line Extension to 130th Street, South Side homeowner assessment spikes, and community violence prevention."
+  },
+  {
+    id: "chicago-beverly-mt-greenwood",
+    name: "Chicago - Beverly, Mount Greenwood, Morgan Park & Clearing (19th & 23rd Wards)",
+    region: "Chicago",
+    county: "Cook",
+    population: "135,000",
+    mayor: "Mayor Brandon Johnson (D) | Alds. Matt O'Shea (19), Silvana Tabares (23)",
+    usHouse: ["IL-06", "IL-01"],
+    stateSenate: ["SD-19"],
+    stateHouse: ["HD-37"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Home to Cook County Sheriff Tom Dart and thousands of union police, firefighters, and building trades families in Rep. Sean Casten's IL-06 district. Key issues include Tier 2 first-responder pensions, property tax assessments, and SAFE-T Act revisions."
+  },
+
+  // ================= SUBURBAN COOK COUNTY (NORTH, NW, WEST & SOUTH SUBURBS) =================
+  {
+    id: "evanston",
+    name: "Evanston",
+    region: "Suburban Cook (North Shore)",
+    county: "Cook",
+    population: "76,500",
+    mayor: "Mayor Daniel Biss (D - 2026 Democratic Nominee for Congress in IL-09)",
+    usHouse: ["IL-09"],
+    stateSenate: ["SD-9"],
+    stateHouse: ["HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Home to IL-09 Democratic Congressional nominee Mayor Daniel Biss (who won the March 2026 primary to succeed retiring 14-term Rep. Jan Schakowsky), House Majority Leader Robyn Gabel (HD-18), Sen. Laura Fine (SD-9), and Northwestern University."
+  },
+  {
+    id: "skokie",
+    name: "Skokie",
+    region: "Suburban Cook (Near North Suburbs)",
+    county: "Cook",
+    population: "66,000",
+    mayor: "Mayor Ann Tennes (Elected 2025, Succeeding George Van Dusen)",
+    usHouse: ["IL-09"],
+    stateSenate: ["SD-8", "SD-9"],
+    stateHouse: ["HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Key battleground in the March 2026 IL-09 primary; represented by Senate Transportation Chair Ram Villivalam (SD-8) and Sen. Laura Fine (SD-9), with major focus on CTA Yellow Line safety, Illinois Science + Technology Park growth, and Niles Township property taxes."
+  },
+  {
+    id: "glenview",
+    name: "Glenview",
+    region: "Suburban Cook (North Shore)",
+    county: "Cook",
+    population: "48,000",
+    mayor: "Village President Mike Jenny",
+    usHouse: ["IL-09", "IL-05", "IL-10"],
+    stateSenate: ["SD-9", "SD-8"],
+    stateHouse: ["HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Hometown of State Sen. Laura Fine (SD-9); voters prioritize lifting the federal $10,000 SALT deduction cap, New Trier/Glenbrook school excellence, and Northfield Township property tax relief."
+  },
+  {
+    id: "northbrook",
+    name: "Northbrook",
+    region: "Suburban Cook (North Shore)",
+    county: "Cook",
+    population: "34,800",
+    mayor: "Village President Kathryn Ciesla",
+    usHouse: ["IL-10", "IL-09"],
+    stateSenate: ["SD-9"],
+    stateHouse: ["HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Split between Rep. Brad Schneider (IL-10) and the open IL-09 race; home to major corporate campuses, Glenbrook North High School, and strong voter focus on SALT cap repeal and gun safety."
+  },
+  {
+    id: "wilmette-winnetka",
+    name: "Wilmette, Winnetka, Glencoe & Kenilworth (New Trier Township)",
+    region: "Suburban Cook (North Shore)",
+    county: "Cook",
+    population: "56,000",
+    mayor: "Village Presidents Senta Plunkett (Wilmette) & Chris Rintz (Winnetka)",
+    usHouse: ["IL-09", "IL-10"],
+    stateSenate: ["SD-9"],
+    stateHouse: ["HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Affluent North Shore lakefront communities represented by House Majority Leader Robyn Gabel (HD-18) and Sen. Laura Fine (SD-9), where lifting the federal SALT cap, Lake Michigan shoreline erosion, and Metra UP-N service are top priorities."
+  },
+  {
+    id: "niles-morton-grove",
+    name: "Niles, Morton Grove & Lincolnwood",
+    region: "Suburban Cook (Near North Suburbs)",
+    county: "Cook",
+    population: "68,000",
+    mayor: "Mayors George Alpogianis (Niles) & Dan DiMaria (Morton Grove)",
+    usHouse: ["IL-09", "IL-05"],
+    stateSenate: ["SD-8"],
+    stateHouse: ["HD-18"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Represented by Senate Transportation Chair Ram Villivalam (SD-8) vs. Niles Republican Vince Romano; key issues include senior property tax freezes, Golf Mill Mall redevelopment, and Pace Pulse bus rapid transit."
+  },
+  {
+    id: "park-ridge",
+    name: "Park Ridge",
+    region: "Suburban Cook (Northwest Suburbs)",
+    county: "Cook",
+    population: "39,000",
+    mayor: "Mayor Marty Maloney",
+    usHouse: ["IL-05", "IL-09"],
+    stateSenate: ["SD-27", "SD-39"],
+    stateHouse: ["HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Anchored in Rep. Mike Quigley's IL-05 and the open Cook County Board Dist. 17 battleground (Elyse Hoffenberg vs. Liz Gorman); voters focus on Maine Township property taxes, O'Hare runway noise, and storm sewer flood relief."
+  },
+  {
+    id: "des-plaines",
+    name: "Des Plaines",
+    region: "Suburban Cook (Northwest Suburbs)",
+    county: "Cook",
+    population: "59,500",
+    mayor: "Mayor Andrew Goczkowski",
+    usHouse: ["IL-08", "IL-09", "IL-05"],
+    stateSenate: ["SD-27", "SD-8"],
+    stateHouse: ["HD-52"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Pivotal battleground in the open IL-08 Congressional race (Melissa Bean vs. Jennifer Davis) and the open SD-27 State Senate race (Carina Santa Maria vs. David Mathis). Des Plaines River flooding, Rivers Casino revenues, and Metra UP-NW upgrades are key local issues."
+  },
+  {
+    id: "arlington-heights",
+    name: "Arlington Heights",
+    region: "Suburban Cook (Northwest Suburbs)",
+    county: "Cook",
+    population: "76,000",
+    mayor: "Mayor Jim Tinaglia (Elected 2025, Succeeding Tom Hayes)",
+    usHouse: ["IL-08", "IL-05", "IL-09"],
+    stateSenate: ["SD-27"],
+    stateHouse: ["HD-52"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Home to the 326-acre former Arlington International Racecourse owned by the Chicago Bears. Voters in the open IL-08 Congressional race (Melissa Bean vs. Jennifer Davis) and open SD-27 Senate race (Carina Santa Maria vs. David Mathis) are closely watching property tax pilot agreements for the stadium site and D214 schools."
+  },
+  {
+    id: "schaumburg",
+    name: "Schaumburg & Hoffman Estates",
+    region: "Suburban Cook (Northwest Suburbs)",
+    county: "Cook",
+    population: "128,000",
+    mayor: "Mayors Tom Dailly (Schaumburg) & Bill McLeod (Hoffman Estates)",
+    usHouse: ["IL-08"],
+    stateSenate: ["SD-27", "SD-26", "SD-24"],
+    stateHouse: ["HD-52"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Economic engine of the open IL-08 Congressional district (where former Rep. Melissa Bean faces Republican Jennifer Davis to succeed Raja Krishnamoorthi). Woodfield commercial corridor redevelopment, Bell Works / Compass data center campus in Hoffman Estates, and Schaumburg Airport/STAR Line transit lead local issues."
+  },
+  {
+    id: "mount-prospect-palatine",
+    name: "Mount Prospect, Palatine & Rolling Meadows",
+    region: "Suburban Cook (Northwest Suburbs)",
+    county: "Cook",
+    population: "147,000",
+    mayor: "Mayors Paul Hoefert (Mount Prospect), Jim Schwantz (Palatine) & Lara Sanoica (Rolling Meadows)",
+    usHouse: ["IL-08", "IL-05", "IL-06"],
+    stateSenate: ["SD-27", "SD-26"],
+    stateHouse: ["HD-52"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-board-review-2", "il-ballot-referendums-2026"],
+    localContext: "Key Northwest Suburban battleground in both the open IL-08 Congressional race (Melissa Bean vs. Jennifer Davis), the open SD-27 Senate race (Carina Santa Maria vs. David Mathis), and the SD-26 toss-up (Darby Hills vs. Palatine State Rep. Nabeela Syed)."
+  },
+  {
+    id: "elk-grove-village",
+    name: "Elk Grove Village",
+    region: "Suburban Cook & DuPage (Northwest Suburbs)",
+    county: "Cook",
+    population: "32,500",
+    mayor: "Mayor Craig Johnson",
+    usHouse: ["IL-08"],
+    stateSenate: ["SD-24", "SD-27"],
+    stateHouse: ["HD-52"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "dupage-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Home to the largest industrial park in North America and the #1 concentration of hyperscale AI data centers in the Midwest. Central to statewide debates over data center ComEd grid capacity, water usage, and industrial property tax revenue."
+  },
+  {
+    id: "oak-park-river-forest",
+    name: "Oak Park, River Forest & Forest Park",
+    region: "Suburban Cook (Near West Suburbs)",
+    county: "Cook",
+    population: "78,000",
+    mayor: "Village Presidents Vicki Scaman (Oak Park), Cathy Adduci (River Forest) & Rory Hoskins (Forest Park)",
+    usHouse: ["IL-07"],
+    stateSenate: ["SD-39"],
+    stateHouse: ["HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "il-ballot-referendums-2026"],
+    localContext: "Powerhouse political corridor: hometown of Senate President Don Harmon (SD-39), anchored in Speaker Chris Welch's HD-7 and the open IL-07 Congressional race (won by State Rep. La Shawn Ford over Oak Park President Danalem/Rory Hoskins/Richard Boykin). High Oak Park residential property tax bills and CTA Blue/Green Line safety are top concerns."
+  },
+  {
+    id: "maywood-proviso",
+    name: "Maywood, Bellwood, Hillside, Broadview & Westchester (Proviso Township)",
+    region: "Suburban Cook (West Suburbs)",
+    county: "Cook",
+    population: "82,000",
+    mayor: "Mayors Nathaniel Booker (Maywood), Andre Harvey (Bellwood) & Katrina Thompson (Broadview)",
+    usHouse: ["IL-07", "IL-04"],
+    stateSenate: ["SD-39"],
+    stateHouse: ["HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Home base of Illinois House Speaker Emanuel 'Chris' Welch (HD-7) and part of the open IL-07 Congressional district. Key local issues include lead service line replacement, Proviso Township High School D209 funding, and West Cook commercial tax base revitalization."
+  },
+  {
+    id: "cicero-berwyn",
+    name: "Cicero & Berwyn",
+    region: "Suburban Cook (Near West Suburbs)",
+    county: "Cook",
+    population: "136,000",
+    mayor: "Town President Larry Dominick (Cicero) & Mayor Robert Lovero (Berwyn)",
+    usHouse: ["IL-04"],
+    stateSenate: ["SD-39"],
+    stateHouse: ["HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Largest suburban anchor of the open IL-04 Congressional race (Patty Garcia vs. Lupe Castillo vs. Chris Getty). Cicero holds the highest number of lead water service lines of any Illinois suburb, and urban flooding, Morton J. Sterling D201 property taxes, and Miranda Hernandez's Dist. 16 County Board win dominate local politics."
+  },
+  {
+    id: "la-grange-western-springs",
+    name: "La Grange, Western Springs, Brookfield & Riverside (Lyons Township)",
+    region: "Suburban Cook (West Suburbs)",
+    county: "Cook",
+    population: "61,000",
+    mayor: "Village Presidents Mark Kuchler (La Grange), Heidi Rudolph (Western Springs) & Michael Garvey (Brookfield)",
+    usHouse: ["IL-04", "IL-06"],
+    stateSenate: ["SD-41", "SD-39"],
+    stateHouse: ["HD-7"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Hometown of newly nominated Cook County Assessor Patrick 'Pat' Hynes (Lyons Township Assessor who upset Fritz Kaegi) and Cook County Board Dist. 17 Democratic nominee Elyse Hoffenberg, as well as IL-04 GOP nominee former Lyons Mayor Chris Getty."
+  },
+  {
+    id: "orland-park",
+    name: "Orland Park",
+    region: "Suburban Cook (Southwest Suburbs)",
+    county: "Cook",
+    population: "58,000",
+    mayor: "Mayor Jim Dodge (Defeated Keith Pekau in April 2025 Municipal Election)",
+    usHouse: ["IL-06", "IL-01"],
+    stateSenate: ["SD-19"],
+    stateHouse: ["HD-37"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Bellwether Southwest Suburban battleground: after former GOP Mayor Keith Pekau lost his 2025 municipal re-election bid to Jim Dodge, Orland Park is at the center of Rep. Sean Casten vs. Niki Conforti (IL-06), Sen. Michael Hastings vs. Hillary Kurzawa (SD-19), Rep. Patrick Sheehan vs. David Maher (HD-37), and the open Cook County Board Dist. 17 race (Elyse Hoffenberg vs. Orland Park's Liz Doody Gorman)."
+  },
+  {
+    id: "tinley-park",
+    name: "Tinley Park & Oak Forest",
+    region: "Suburban Cook & Will (Southwest Suburbs)",
+    county: "Cook",
+    population: "83,000",
+    mayor: "Mayors Michael Glotz (Tinley Park) & Henry Kuspa (Oak Forest)",
+    usHouse: ["IL-01", "IL-06"],
+    stateSenate: ["SD-19"],
+    stateHouse: ["HD-37"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Split between Cook and Will counties and competitive legislative races (SD-19 Michael Hastings vs. Hillary Kurzawa; HD-37 Patrick Sheehan vs. David Maher). Key local issues include remediation of the former Tinley Park Mental Health Center site and South Suburban property tax relief."
+  },
+  {
+    id: "oak-lawn-palos",
+    name: "Oak Lawn, Palos Heights, Palos Hills, Worth & Evergreen Park",
+    region: "Suburban Cook (Southwest Suburbs)",
+    county: "Cook",
+    population: "118,000",
+    mayor: "Mayors Terry Vorderer (Oak Lawn), Bob Straz (Palos Heights) & Kelly Burke (Evergreen Park)",
+    usHouse: ["IL-06"],
+    stateSenate: ["SD-19"],
+    stateHouse: ["HD-37"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "cook-comm-17", "il-ballot-referendums-2026"],
+    localContext: "Core of Rep. Sean Casten's IL-06 district and the open Cook County Board Dist. 17 race. Voters focus on Advocate Christ Medical Center healthcare workforce, Lake Michigan water supply regional rates, and Southwest Cook property taxes."
+  },
+  {
+    id: "chicago-heights-flossmoor",
+    name: "Chicago Heights, Flossmoor, Homewood, Matteson & Olympia Fields (South Suburbs)",
+    region: "Suburban Cook (South Suburbs)",
+    county: "Cook",
+    population: "95,000",
+    mayor: "Mayors David Gonzalez (Chicago Heights), Michelle Nelson (Flossmoor) & Rich Hofeld (Homewood)",
+    usHouse: ["IL-02"],
+    stateSenate: ["SD-19"],
+    stateHouse: ["HD-37"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "il-ballot-referendums-2026"],
+    localContext: "Heart of the open IL-02 Congressional race (won by South Suburban Cook County Commissioner Donna Miller, who faces Republican Mike Noack to succeed Robin Kelly) and hometown of Cook County Clerk Monica Gordon. Top issues include South Suburban property tax rates (often 4% to 6% of home value), the South Suburban Airport in Peotone, and Metra Electric TOD."
+  },
+  {
+    id: "calumet-city-harvey-dolton",
+    name: "Calumet City, Harvey, Dolton, Lansing & South Holland (Thornton Township)",
+    region: "Suburban Cook (South Suburbs)",
+    county: "Cook",
+    population: "145,000",
+    mayor: "Mayors Thaddeus Jones (Calumet City), Christopher Clark (Harvey) & Jason House (Dolton - Defeated Tiffany Henyard in 2025)",
+    usHouse: ["IL-02", "IL-01"],
+    stateSenate: ["SD-19"],
+    stateHouse: ["HD-26"],
+    localRaces: ["cook-president", "cook-assessor", "cook-sheriff-clerk-treasurer", "il-ballot-referendums-2026"],
+    localContext: "Following Dolton Trustee Jason House's landslide 2025 victory unseating controversial Mayor Tiffany Henyard in Dolton and Thornton Township, Southland voters in Donna Miller's IL-02 district are focused on municipal ethics reform, Cook County Scavenger Sale reform, flood reservoirs, and property tax relief."
+  },
+
+  // ================= COLLAR COUNTIES (DUPAGE, LAKE, WILL, KANE & MCHENRY) =================
+  {
+    id: "naperville",
+    name: "Naperville",
+    region: "Collar Counties (DuPage & Will)",
+    county: "DuPage",
+    population: "150,500",
+    mayor: "Mayor Scott Wehrli",
+    usHouse: ["IL-11", "IL-14", "IL-08"],
+    stateSenate: ["SD-41", "SD-24"],
+    stateHouse: ["HD-47", "HD-84", "HD-97"],
+    localRaces: ["dupage-county-2026", "will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Illinois's 3rd-largest city, split between DuPage and Will counties and represented by Rep. Bill Foster (IL-11) and Rep. Lauren Underwood (IL-14). Features the toss-up open HD-47 House race (Erica Bray-Parker vs. Robert Vrankovich), HD-97 toss-up (Jessica Dixon Heitman vs. Gabby Shanahan), DuPage Chair Deb Conroy vs. Gary Grasso, and major debate over Naperville's municipal electric utility contract with IMEA coal power."
+  },
+  {
+    id: "aurora",
+    name: "Aurora",
+    region: "Collar Counties (Kane, DuPage, Will & Kendall)",
+    county: "Kane",
+    population: "180,500",
+    mayor: "Mayor John Laesch (Defeated Richard Irvin in April 2025 Municipal Election)",
+    usHouse: ["IL-11", "IL-14"],
+    stateSenate: ["SD-33", "SD-43"],
+    stateHouse: ["HD-84", "HD-97"],
+    localRaces: ["kane-county-2026", "dupage-county-2026", "will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Illinois's 2nd-largest city ('City of Lights'), spanning four counties (Kane, DuPage, Kendall, Will) and anchored by Rep. Bill Foster (IL-11), Rep. Lauren Underwood (IL-14), and State Rep. Stephanie Kifowit (HD-84). Key issues include lead service line replacement, Hollywood Casino Aurora redevelopment, I-88 data centers, and the Kane County Sheriff/Treasurer elections."
+  },
+  {
+    id: "joliet",
+    name: "Joliet",
+    region: "Collar Counties (Will & Kendall)",
+    county: "Will",
+    population: "151,000",
+    mayor: "Mayor Terry D'Arcy",
+    usHouse: ["IL-14", "IL-01"],
+    stateSenate: ["SD-43", "SD-19"],
+    stateHouse: ["HD-97", "HD-37"],
+    localRaces: ["will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Anchor of Rep. Lauren Underwood's IL-14 battleground against former GOP State Sen. Jim Marter, Sen. Rachel Ventura's SD-43, the HD-97 toss-up (Jessica Dixon Heitman vs. Gabby Shanahan), and the toss-up Will County Sheriff race (Patrick Jones vs. Jim Reilly). Key issues include the $1B+ Grand Prairie Lake Michigan water pipeline, I-80 Des Plaines River bridge replacement, and NorthPoint intermodal truck traffic."
+  },
+  {
+    id: "elgin",
+    name: "Elgin",
+    region: "Collar Counties (Kane & Cook)",
+    county: "Kane",
+    population: "114,500",
+    mayor: "Mayor David Kaptain",
+    usHouse: ["IL-08", "IL-11"],
+    stateSenate: ["SD-33"],
+    stateHouse: ["HD-52"],
+    localRaces: ["kane-county-2026", "cook-president", "cook-assessor", "il-ballot-referendums-2026"],
+    localContext: "Pivotal Fox River city at the heart of the open IL-08 Congressional race (Melissa Bean vs. Jennifer Davis) and the open SD-33 State Senate battleground (Michele Clark vs. Danielle Penman to succeed retiring GOP Sen. Don DeWitte). Elgin School District U-46 funding, lead water pipe replacement, and Fox River dam removal are top local issues."
+  },
+  {
+    id: "waukegan-north-chicago",
+    name: "Waukegan & North Chicago",
+    region: "Collar Counties (Lake County)",
+    county: "Lake",
+    population: "119,000",
+    mayor: "Mayors Sam Cunningham (Waukegan - Elected 2025) & Leon Rockingham Jr. (North Chicago)",
+    usHouse: ["IL-10"],
+    stateSenate: ["SD-30"],
+    stateHouse: ["HD-52"],
+    localRaces: ["lake-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Lake County's largest city and home to Naval Station Great Lakes (the U.S. Navy's only boot camp), represented by Rep. Brad Schneider (IL-10) and Sen. Adrienne Johnson (SD-30). Key issues include Waukegan lakefront coal-ash remediation, high Lake County property taxes, and Vista Medical Center healthcare stability."
+  },
+  {
+    id: "wheaton-glen-ellyn",
+    name: "Wheaton, Glen Ellyn, Warrenville & Winfield",
+    region: "Collar Counties (DuPage County)",
+    county: "DuPage",
+    population: "106,000",
+    mayor: "Mayors Philip Suess (Wheaton), Mark Senak (Glen Ellyn) & Andrew Johnson (Warrenville)",
+    usHouse: ["IL-03", "IL-06", "IL-11"],
+    stateSenate: ["SD-24", "SD-41"],
+    stateHouse: ["HD-47"],
+    localRaces: ["dupage-county-2026", "il-ballot-referendums-2026"],
+    localContext: "County seat of DuPage County and ground zero for two of the closest legislative races in Illinois: the SD-24 Senate toss-up (Incumbent Sen. Seth Lewis [R] vs. Ben McAdams [D]) and the open HD-47 House toss-up (Wheaton Councilwoman Erica Bray-Parker [D] vs. Robert Vrankovich [R]), plus DuPage Board Chair Deb Conroy vs. Gary Grasso."
+  },
+  {
+    id: "downers-grove-hinsdale",
+    name: "Downers Grove, Hinsdale, Burr Ridge, Lisle, Woodridge & Darien",
+    region: "Collar Counties (SE DuPage County)",
+    county: "DuPage",
+    population: "152,000",
+    mayor: "Mayors Bob Barnett (Downers Grove), Greg Hart (Hinsdale) & Tony Ragucci (Oakbrook Terrace)",
+    usHouse: ["IL-06", "IL-11"],
+    stateSenate: ["SD-41"],
+    stateHouse: ["HD-47"],
+    localRaces: ["dupage-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Home base of Senate Minority Leader John Curran (R, SD-41) and competitive battleground in Rep. Sean Casten vs. Niki Conforti (IL-06) and DuPage County Board Chair Deb Conroy (D) vs. former Burr Ridge Mayor Gary Grasso (R)."
+  },
+  {
+    id: "elmhurst-lombard-oak-brook",
+    name: "Elmhurst, Lombard, Villa Park & Oak Brook",
+    region: "Collar Counties (East DuPage County)",
+    county: "DuPage",
+    population: "123,000",
+    mayor: "Mayors Scott Levin (Elmhurst), Anthony Puccio (Lombard) & Laurence Herman (Oak Brook)",
+    usHouse: ["IL-06", "IL-03", "IL-08"],
+    stateSenate: ["SD-24", "SD-39"],
+    stateHouse: ["HD-47"],
+    localRaces: ["dupage-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Villa Park is the hometown of DuPage County Board Chair Deb Conroy (D), while Oak Brook is the hometown of IL-06 GOP nominee Niki Conforti (challenging Rep. Sean Casten). Key issues include Oakbrook Center retail theft policing, SALT cap relief, and Salt Creek stormwater control."
+  },
+  {
+    id: "carol-stream-bloomingdale-bartlett",
+    name: "Carol Stream, Bloomingdale, Roselle, Bartlett, Addison & Bensenville",
+    region: "Collar Counties (North DuPage & NW Cook)",
+    county: "DuPage",
+    population: "168,000",
+    mayor: "Mayors Frank Saverino (Carol Stream), Franco Coladipietro (Bloomingdale) & Dan Gunsteen (Bartlett)",
+    usHouse: ["IL-08", "IL-03"],
+    stateSenate: ["SD-24"],
+    stateHouse: ["HD-47"],
+    localRaces: ["dupage-county-2026", "cook-president", "il-ballot-referendums-2026"],
+    localContext: "Core battleground for both the open IL-08 Congressional race (Melissa Bean vs. Jennifer Davis) and the SD-24 State Senate toss-up (Bartlett incumbent Sen. Seth Lewis [R] vs. Ben McAdams [D])."
+  },
+  {
+    id: "bolingbrook-romeoville",
+    name: "Bolingbrook & Romeoville",
+    region: "Collar Counties (North Will County)",
+    county: "Will",
+    population: "115,000",
+    mayor: "Mayors Mary Alexander-Basta (Bolingbrook) & John Noak (Romeoville)",
+    usHouse: ["IL-11", "IL-14"],
+    stateSenate: ["SD-43"],
+    stateHouse: ["HD-97"],
+    localRaces: ["will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Diverse, fast-growing I-55 corridor communities in Sen. Rachel Ventura's SD-43, the HD-97 House toss-up (Jessica Dixon Heitman vs. Gabby Shanahan), and the Will County Sheriff/Clerk battlegrounds. Key issues include Valley View D365U school funding, warehouse truck traffic, and Metra Heritage Corridor expansion."
+  },
+  {
+    id: "plainfield-oswego-shorewood",
+    name: "Plainfield, Shorewood, Oswego & Yorkville (Will & Kendall Corridor)",
+    region: "Collar Counties (Will & Kendall)",
+    county: "Will",
+    population: "125,000",
+    mayor: "Village Presidents John Argoudelis (Plainfield), Ryan Kauffman (Oswego) & Clarence DeBold (Shorewood)",
+    usHouse: ["IL-14"],
+    stateSenate: ["SD-43"],
+    stateHouse: ["HD-97", "HD-84"],
+    localRaces: ["will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Epicenter of two marquee 2026 races: Rep. Lauren Underwood vs. Oswego Republican Jim Marter in IL-14, and the HD-97 State House toss-up between newly appointed Plainfield Democrat Jessica Dixon Heitman and Republican Gabby Shanahan."
+  },
+  {
+    id: "new-lenox-frankfort-mokena",
+    name: "New Lenox, Frankfort, Mokena, Homer Glen & Lockport (Lincoln-Way Corridor)",
+    region: "Collar Counties (Will County)",
+    county: "Will",
+    population: "112,000",
+    mayor: "Mayors Tim Baldermann (New Lenox), Keith Ogle (Frankfort), George Metanias (Mokena) & Steven Streit (Lockport)",
+    usHouse: ["IL-01", "IL-02"],
+    stateSenate: ["SD-19", "SD-41"],
+    stateHouse: ["HD-37"],
+    localRaces: ["will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Hometown corridor of Sen. Michael Hastings (D, Frankfort) vs. Hillary Kurzawa (R) in SD-19 and Lockport police officer Rep. Patrick Sheehan (R) vs. David Maher (D) in HD-37, plus the toss-up Will County Sheriff and Clerk races."
+  },
+  {
+    id: "st-charles-geneva-batavia",
+    name: "St. Charles, Geneva & Batavia (Tri-Cities Fox Valley)",
+    region: "Collar Counties (Kane County)",
+    county: "Kane",
+    population: "82,000",
+    mayor: "Mayors Lora Vitek (St. Charles), Kevin Burns (Geneva) & Jeffery Schielke (Batavia)",
+    usHouse: ["IL-11", "IL-08"],
+    stateSenate: ["SD-33"],
+    stateHouse: ["HD-84"],
+    localRaces: ["kane-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Heart of the open SD-33 State Senate toss-up between Democrat Michele Clark and St. Charles Republican Danielle Penman (daughter of former Sen. Karen McConnaughay), as well as the Kane County Sheriff, Clerk, and Treasurer races. All three cities operate municipal electric utilities (NIMPA) focused on grid capacity rates."
+  },
+  {
+    id: "carpentersville-dundee-algonquin",
+    name: "Carpentersville, West Dundee, East Dundee, Algonquin & Huntley",
+    region: "Collar Counties (North Kane & SE McHenry)",
+    county: "Kane",
+    population: "108,000",
+    mayor: "Village Presidents John Skillman (Carpentersville), Chris Nelson (West Dundee) & Debby Sosine (Algonquin)",
+    usHouse: ["IL-08", "IL-11"],
+    stateSenate: ["SD-33", "SD-26"],
+    stateHouse: ["HD-52"],
+    localRaces: ["kane-county-2026", "mchenry-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Battleground corridor spanning the open IL-08 Congressional race, open SD-33 Senate race (Michele Clark vs. Danielle Penman), SD-26 Senate toss-up (Darby Hills vs. Nabeela Syed), and HD-52 House rematch (Martin McLaughlin vs. Maria Peterson). Voters celebrated the removal of tolls on the new Longmeadow Parkway Fox River Bridge."
+  },
+  {
+    id: "crystal-lake-cary-mchenry",
+    name: "Crystal Lake, Cary, McHenry, Woodstock & Fox River Grove",
+    region: "Collar Counties (McHenry County)",
+    county: "McHenry",
+    population: "118,000",
+    mayor: "Mayors Haig Haleblian (Crystal Lake), Wayne Jett (McHenry), Mike Turner (Woodstock) & Mark Kownick (Cary)",
+    usHouse: ["IL-11", "IL-10", "IL-16"],
+    stateSenate: ["SD-26", "SD-33"],
+    stateHouse: ["HD-52"],
+    localRaces: ["mchenry-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Decisive McHenry County turf for two of the closest legislative races in Illinois: the HD-52 rematch (decided by 47 votes in 2024 between Rep. Martin McLaughlin [R] and Maria Peterson [D]) and the SD-26 Senate race (appointed Sen. Darby Hills [R] vs. Rep. Nabeela Syed [D]), plus McHenry County Clerk and Treasurer contests."
+  },
+  {
+    id: "barrington-lake-zurich-wauconda",
+    name: "Barrington, Barrington Hills, Lake Zurich, Wauconda & Hawthorn Woods",
+    region: "Collar Counties (SW Lake, NW Cook & SE McHenry)",
+    county: "Lake",
+    population: "68,000",
+    mayor: "Village Presidents Karen Darch (Barrington), Tom Poynton (Lake Zurich) & Jeff Sode (Wauconda)",
+    usHouse: ["IL-08", "IL-09", "IL-10"],
+    stateSenate: ["SD-26"],
+    stateHouse: ["HD-52"],
+    localRaces: ["lake-county-2026", "cook-president", "mchenry-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Hometown area of both SD-26 GOP Sen. Darby Hills and HD-52 GOP Rep. Martin McLaughlin (who faces North Barrington Democrat Maria Peterson in a rematch of their 47-vote 2024 race)."
+  },
+  {
+    id: "highland-park-deerfield-lake-forest",
+    name: "Highland Park, Deerfield, Lake Forest, Libertyville & Lincolnshire",
+    region: "Collar Counties (SE Lake County)",
+    county: "Lake",
+    population: "98,000",
+    mayor: "Mayors Nancy Rotering (Highland Park), Dan Shapiro (Deerfield) & Stanford Tack (Lake Forest)",
+    usHouse: ["IL-10"],
+    stateSenate: ["SD-30", "SD-9"],
+    stateHouse: ["HD-18", "HD-52"],
+    localRaces: ["lake-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Hometown of U.S. Rep. Brad Schneider (D, IL-10) and Lake County Treasurer nominee Sandy Hart. Voters strongly prioritize federal/state gun violence prevention (following the 2022 Highland Park parade shooting), lifting the $10,000 SALT deduction cap, and reproductive freedom."
+  },
+  {
+    id: "buffalo-grove-mundelein-gurnee",
+    name: "Buffalo Grove, Vernon Hills, Mundelein, Gurnee, Grayslake & Round Lake",
+    region: "Collar Counties (Central & North Lake County)",
+    county: "Lake",
+    population: "165,000",
+    mayor: "Mayors Eric Smith (Buffalo Grove), Robin Meier (Mundelein) & Tom Hood (Gurnee)",
+    usHouse: ["IL-10", "IL-09"],
+    stateSenate: ["SD-30", "SD-26"],
+    stateHouse: ["HD-52"],
+    localRaces: ["lake-county-2026", "cook-president", "il-ballot-referendums-2026"],
+    localContext: "Represented by Rep. Brad Schneider (IL-10) and Sen. Adrienne Johnson (SD-30), with Mundelein split into the competitive SD-26 and HD-52 legislative battlegrounds. Lake County property taxes and Sheriff John Idleburg vs. Roman Buchberger are top local issues."
+  },
+
+  // ================= NORTHERN & NORTHWEST ILLINOIS =================
+  {
+    id: "rockford-loves-park",
+    name: "Rockford, Loves Park, Machesney Park & Roscoe (Winnebago County)",
+    region: "Northern Illinois",
+    county: "Winnebago",
+    population: "212,000",
+    mayor: "Mayors Tom McNamara (Rockford) & Greg Jury (Loves Park)",
+    usHouse: ["IL-17", "IL-16"],
+    stateSenate: ["SD-34"],
+    stateHouse: ["HD-68", "HD-89"],
+    localRaces: ["winnebago-peoria-2026", "il-ballot-referendums-2026"],
+    localContext: "Northern Illinois's largest metro area and crucial battleground in Rep. Eric Sorensen vs. Dillan Vancil (IL-17), Rep. Dave Vella vs. Kathy Easton (HD-68), Sen. Steve Stadelman (SD-34), and Winnebago Sheriff Gary Caruana vs. Dominick Barcellona. Key issues include the $5B Belvidere Stellantis auto plant reopening, Rockford-to-Chicago passenger rail, and Winnebago property taxes."
+  },
+  {
+    id: "belvidere-boone",
+    name: "Belvidere (Boone County)",
+    region: "Northern Illinois",
+    county: "Boone",
+    population: "25,300",
+    mayor: "Mayor Clint Morris",
+    usHouse: ["IL-16", "IL-11"],
+    stateSenate: ["SD-34"],
+    stateHouse: ["HD-68"],
+    localRaces: ["winnebago-peoria-2026", "il-ballot-referendums-2026"],
+    localContext: "Home to the Belvidere Assembly Plant (UAW Local 1268), where state REV Illinois and federal IRA incentives are funding a massive Stellantis reopening and battery hub."
+  },
+  {
+    id: "dekalb-sycamore",
+    name: "DeKalb & Sycamore (DeKalb County - NIU)",
+    region: "Northern Illinois",
+    county: "DeKalb",
+    population: "59,000",
+    mayor: "Mayors Cohen Barnes (DeKalb) & Steve Braser (Sycamore)",
+    usHouse: ["IL-14", "IL-16", "IL-11"],
+    stateSenate: ["SD-33"],
+    stateHouse: ["HD-76", "HD-89"],
+    localRaces: ["il-ballot-referendums-2026"],
+    localContext: "Home to Northern Illinois University (NIU) and Meta's $1B+ DeKalb Data Center campus. DeKalb's NIU student precincts are decisive in both Rep. Lauren Underwood's IL-14 race and the razor-thin HD-76 State House rematch between Rep. Amy 'Murri' Briel (D) and Liz Bishop (R)."
+  },
+  {
+    id: "ottawa-lasalle-peru",
+    name: "Ottawa, LaSalle, Peru, Streator & Mendota (Illinois Valley - Starved Rock)",
+    region: "Northern Illinois & Illinois Valley",
+    county: "LaSalle",
+    population: "62,000",
+    mayor: "Mayors Robb Hasty (Ottawa), Jeff Grove (LaSalle) & Ken Kolowski (Peru)",
+    usHouse: ["IL-14", "IL-16"],
+    stateSenate: ["SD-36"],
+    stateHouse: ["HD-76"],
+    localRaces: ["il-ballot-referendums-2026"],
+    localContext: "Heart of the #1 downstate House battleground in Northern Illinois: HD-76 incumbent Rep. Amy 'Murri' Briel (D, Ottawa) vs. Peru Republican Liz Bishop (R), alongside Rep. Lauren Underwood vs. Jim Marter (IL-14). Key issues include the LaSalle County Nuclear Station, Illinois Valley hospital reopening, and Starved Rock infrastructure."
+  },
+  {
+    id: "freeport-galena-savanna",
+    name: "Freeport, Galena, Savanna, Dixon & Sterling-Rock Falls (NW Illinois)",
+    region: "Northern & Northwest Illinois",
+    county: "Stephenson",
+    population: "85,000",
+    mayor: "Mayors Jodi Miller (Freeport), Mark Moran (Galena) & Diana Merdian (Sterling)",
+    usHouse: ["IL-16", "IL-17"],
+    stateSenate: ["SD-36", "SD-34"],
+    stateHouse: ["HD-89"],
+    localRaces: ["il-ballot-referendums-2026"],
+    localContext: "Home base of Illinois House Minority Leader Tony McCombie (R, HD-89, former Mayor of Savanna) and split between Rep. Darin LaHood (IL-16) and Rep. Eric Sorensen (IL-17). Key issues include the Byron Nuclear Station, rural hospital survival, and agricultural trade."
+  },
+
+  // ================= CENTRAL & WESTERN ILLINOIS =================
+  {
+    id: "springfield",
+    name: "Springfield, Chatham & Rochester (Sangamon County - State Capital)",
+    region: "Central Illinois",
+    county: "Sangamon",
+    population: "136,000",
+    mayor: "Mayor Misty Buscher (R)",
+    usHouse: ["IL-13", "IL-15"],
+    stateSenate: ["SD-48"],
+    stateHouse: ["HD-92"],
+    localRaces: ["sangamon-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Illinois's State Capital is the #1 downstate battleground in 2026 across all three levels: U.S. Rep. Nikki Budzinski (D) vs. Joshua Loyd (R) in IL-13; the #1 State Senate race in Illinois between Sen. Doris Turner (D) and Sangamon Recorder Frank Lesko (R) in SD-48 ($4M+ race); and the post-Sonya Massey Sangamon County Sheriff race between appointed GOP Sheriff Paula Crouch and retired ISP Master Sgt. Marc Bell (D)."
+  },
+  {
+    id: "champaign-urbana",
+    name: "Champaign, Urbana, Savoy, Rantoul & Mahomet (Champaign County - UIUC)",
+    region: "Central Illinois",
+    county: "Champaign",
+    population: "158,000",
+    mayor: "Mayors Deborah Feinen (Champaign) & DeShawn Williams (Urbana - Elected 2025)",
+    usHouse: ["IL-13", "IL-15", "IL-02"],
+    stateSenate: ["SD-52"],
+    stateHouse: ["HD-104"],
+    localRaces: ["champaign-mclean-2026", "il-ballot-referendums-2026"],
+    localContext: "Home to the flagship University of Illinois Urbana-Champaign (UIUC) campus. Anchors Rep. Nikki Budzinski's IL-13 margin, Sen. Paul Faraci's SD-52, and the toss-up HD-104 State House race (Rep. Brandun Schweizer [R] vs. Mary Catherine Roberson [D]), plus Champaign Sheriff Dustin Heuerman (D) vs. Gregory Worrell (R). Protecting the Mahomet Aquifer and fixing Tier 2 SURS pensions are top priorities."
+  },
+  {
+    id: "danville",
+    name: "Danville (Vermilion County)",
+    region: "Central Illinois",
+    county: "Vermilion",
+    population: "28,500",
+    mayor: "Mayor Rickey Williams Jr.",
+    usHouse: ["IL-02", "IL-15"],
+    stateSenate: ["SD-52"],
+    stateHouse: ["HD-104"],
+    localRaces: ["champaign-mclean-2026", "il-ballot-referendums-2026"],
+    localContext: "Hometown of HD-104 GOP Rep. Brandun Schweizer (facing Democrat Mary Catherine Roberson in a top House battleground) and southern anchor of the open IL-02 Congressional district (Donna Miller vs. Mike Noack)."
+  },
+  {
+    id: "bloomington-normal",
+    name: "Bloomington & Normal (McLean County - ISU & Rivian)",
+    region: "Central Illinois",
+    county: "McLean",
+    population: "132,000",
+    mayor: "Mayors Dan Brady (Bloomington - Elected 2025) & Chris Koos (Normal)",
+    usHouse: ["IL-17", "IL-16"],
+    stateSenate: ["SD-52", "SD-36"],
+    stateHouse: ["HD-91"],
+    localRaces: ["champaign-mclean-2026", "il-ballot-referendums-2026"],
+    localContext: "Home to State Farm headquarters, Illinois State University (ISU), and Rivian's EV manufacturing plant. Key battleground in Rep. Eric Sorensen vs. Dillan Vancil (IL-17), Rep. Sharon Chung (HD-91), and the McLean County Clerk race (incumbent Kathy Michael [R] vs. Joshua Crockett [D]) alongside a 10D-10R tied McLean County Board."
+  },
+  {
+    id: "peoria-east-peoria",
+    name: "Peoria, East Peoria, Pekin, Morton & Washington (Tri-County Area)",
+    region: "Central Illinois",
+    county: "Peoria",
+    population: "185,000",
+    mayor: "Mayors Rita Ali (Peoria), John Kahl (East Peoria) & Mary Burress (Pekin)",
+    usHouse: ["IL-17", "IL-16"],
+    stateSenate: ["SD-36"],
+    stateHouse: ["HD-92", "HD-91"],
+    localRaces: ["winnebago-peoria-2026", "il-ballot-referendums-2026"],
+    localContext: "Central anchor of the toss-up IL-17 Congressional race (Rep. Eric Sorensen vs. Dillan Vancil), Chief House Budget Negotiator Rep. Jehan Gordon-Booth (HD-92), Rep. Sharon Chung (HD-91), and the Peoria County Clerk race (Rachael Parker [D] vs. Kari Gabbert [R])."
+  },
+  {
+    id: "decatur",
+    name: "Decatur, Forsyth & Mt. Zion (Macon County)",
+    region: "Central Illinois",
+    county: "Macon",
+    population: "79,000",
+    mayor: "Mayor Julie Moore Wolfe",
+    usHouse: ["IL-13", "IL-15"],
+    stateSenate: ["SD-48"],
+    stateHouse: ["HD-104"],
+    localRaces: ["sangamon-county-2026", "il-ballot-referendums-2026"],
+    localContext: "North America's agribusiness processing hub (ADM, Primient) and crucial battleground in both Rep. Nikki Budzinski vs. Joshua Loyd (IL-13) and the #1 State Senate race in Illinois: Sen. Doris Turner (D) vs. Frank Lesko (R) in SD-48."
+  },
+  {
+    id: "quad-cities-rock-island-moline",
+    name: "Rock Island, Moline, East Moline & Silvis (Quad Cities - Rock Island County)",
+    region: "Western Illinois & Quad Cities",
+    county: "Rock Island",
+    population: "142,000",
+    mayor: "Mayors Mike Thoms (Rock Island), Sangeetha Rayapati (Moline) & Reggie Freeman (East Moline)",
+    usHouse: ["IL-17"],
+    stateSenate: ["SD-36"],
+    stateHouse: ["HD-76"],
+    localRaces: ["metro-east-quad-south-2026", "il-ballot-referendums-2026"],
+    localContext: "Home base of U.S. Rep. Eric Sorensen (D, Moline) in his top-tier IL-17 battleground against Republican Dillan Vancil (R, Monmouth), State Sen. Mike Halpin (D, SD-36), and the open Rock Island County Sheriff race (Marcus Herbert [D] vs. Jamie Shoemaker [R]). Key issues include Rock Island Arsenal jobs, John Deere UAW manufacturing, and Quad Cities-to-Chicago passenger rail."
+  },
+  {
+    id: "galesburg-monmouth-macomb",
+    name: "Galesburg, Monmouth & Macomb (Western Illinois - WIU)",
+    region: "Western Illinois",
+    county: "Knox",
+    population: "56,000",
+    mayor: "Mayors Peter Schwartzman (Galesburg), Rod Davies (Monmouth) & Mike Inman (Macomb)",
+    usHouse: ["IL-17", "IL-15"],
+    stateSenate: ["SD-36"],
+    stateHouse: ["HD-76"],
+    localRaces: ["metro-east-quad-south-2026", "il-ballot-referendums-2026"],
+    localContext: "Monmouth is the hometown of IL-17 GOP Congressional nominee Dillan Vancil (challenging Rep. Eric Sorensen), while Macomb and Galesburg voters in Sen. Mike Halpin's SD-36 are focused on reversing faculty layoffs at Western Illinois University (WIU), BNSF rail jobs, and rural hospital stability."
+  },
+  {
+    id: "quincy-jacksonville",
+    name: "Quincy & Jacksonville (Adams & Morgan Counties - West-Central IL)",
+    region: "Central & Western Illinois",
+    county: "Adams",
+    population: "59,000",
+    mayor: "Mayors Mike Troup (Quincy) & Andy Ezard (Jacksonville)",
+    usHouse: ["IL-15"],
+    stateSenate: ["SD-48"],
+    stateHouse: ["HD-92"],
+    localRaces: ["il-ballot-referendums-2026"],
+    localContext: "Largest cities in Rep. Mary Miller's R+22 IL-15 district, where farmers and business leaders backed Ryan Tebrugge's 41% primary challenge over Miller's vote against the Farm Bill and lack of district infrastructure earmarks."
+  },
+  {
+    id: "kankakee-bourbonnais-bradley",
+    name: "Kankakee, Bourbonnais, Bradley & Manteno (Kankakee County)",
+    region: "Suburban/Downstate Transition (Kankakee County)",
+    county: "Kankakee",
+    population: "74,000",
+    mayor: "Mayors Chris Curtis (Kankakee), Paul Schore / Jeff Keast (Bourbonnais) & Mike Watson (Bradley)",
+    usHouse: ["IL-02", "IL-01"],
+    stateSenate: ["SD-43", "SD-19"],
+    stateHouse: ["HD-37"],
+    localRaces: ["will-county-2026", "il-ballot-referendums-2026"],
+    localContext: "Anchor of the open IL-02 Congressional race (Donna Miller vs. Mike Noack) and home to the controversial $2B Gotion EV battery plant in Manteno, which is a central flashpoint in the 2026 Governor's race (Pritzker defending 2,600 EV jobs vs. Bailey attacking Chinese-linked corporate subsidies)."
+  },
+
+  // ================= METRO EAST & SOUTHERN ILLINOIS =================
+  {
+    id: "edwardsville-alton-granite-city",
+    name: "Edwardsville, Alton, Granite City, Collinsville & Godfrey (Madison County - Metro East)",
+    region: "Metro East & Southern Illinois",
+    county: "Madison",
+    population: "145,000",
+    mayor: "Mayors Art Risavy (Edwardsville), David Goins (Alton), Mike Parkinson (Granite City) & Jeff Stehman (Collinsville)",
+    usHouse: ["IL-13", "IL-15"],
+    stateSenate: ["SD-56"],
+    stateHouse: ["HD-112"],
+    localRaces: ["metro-east-quad-south-2026", "il-ballot-referendums-2026"],
+    localContext: "Triple battleground in the St. Louis Metro East: Rep. Nikki Budzinski (D) vs. Joshua Loyd (R, Collinsville) in IL-13; the SD-56 State Senate toss-up between incumbent Sen. Erica Harriss (R) and civil engineer Marsia Geldert-Murphey (D); the HD-112 House race between Rep. Katie Stuart (D) and Jimmy Ford (R); and the Madison County Clerk race (Linda Andreas [R] vs. Rachelle Bauerle [D]). Key issues include SIU Edwardsville (SIUE), U.S. Steel Granite City Works, and Ameren electric rates."
+  },
+  {
+    id: "belleville-ofallon-east-st-louis",
+    name: "Belleville, O'Fallon, East St. Louis, Cahokia Heights, Fairview Heights & Mascoutah (St. Clair County)",
+    region: "Metro East & Southern Illinois",
+    county: "St. Clair",
+    population: "162,000",
+    mayor: "Mayors Jenny Gain Meyer (Belleville - Elected 2025), Herb Roach (O'Fallon), Charles Powell III (East St. Louis) & Curtis McCall Sr. (Cahokia Heights)",
+    usHouse: ["IL-13", "IL-12"],
+    stateSenate: ["SD-56"],
+    stateHouse: ["HD-114", "HD-112"],
+    localRaces: ["metro-east-quad-south-2026", "il-ballot-referendums-2026"],
+    localContext: "Home to Scott Air Force Base (Illinois's largest Downstate employer) and two marquee State House battlegrounds: HD-114 (incumbent Rep. Kevin Schmidt [R] vs. George McClellan Jr. [D]) and HD-112 (Rep. Katie Stuart [D] vs. O'Fallon Councilman Jimmy Ford [R]), plus St. Clair County Clerk and Treasurer races. Key issues include Cahokia Heights / East St. Louis sanitary sewer and flood reconstruction, MetroLink expansion to MidAmerica Airport, and property taxes."
+  },
+  {
+    id: "carbondale-marion-herrin",
+    name: "Carbondale, Murphysboro, Marion & Herrin (Jackson & Williamson Counties - SIU)",
+    region: "Southern Illinois",
+    county: "Jackson",
+    population: "78,000",
+    mayor: "Mayors Carolin Harvey (Carbondale), Will Stephens (Murphysboro) & Mike Absher (Marion)",
+    usHouse: ["IL-12"],
+    stateSenate: ["SD-59"],
+    stateHouse: ["HD-114"],
+    localRaces: ["metro-east-quad-south-2026", "il-ballot-referendums-2026"],
+    localContext: "Home to Southern Illinois University Carbondale (SIUC), represented in Congress by Rep. Mike Bost (R) vs. Carbondale nurse Julie Fortier (D) in IL-12, and in the open SD-59 State Senate race by State Rep. Paul Jacobs (R) vs. Carbondale educator Tamiko Mueller (D), plus Jackson County Sheriff Robert Burns (D) vs. Jay Wittenborn (R)."
+  },
+  {
+    id: "mt-vernon-effingham-centralia-cairo",
+    name: "Mt. Vernon, Effingham, Centralia, Olney, Harrisburg & Cairo (Deep Southern & SE Illinois)",
+    region: "Southern Illinois",
+    county: "Jefferson",
+    population: "82,000",
+    mayor: "Mayors John Lewis (Mt. Vernon), Mike Schutzbach (Effingham), Bryan Kuder (Centralia) & Thomas Simpson (Cairo)",
+    usHouse: ["IL-12"],
+    stateSenate: ["SD-59"],
+    stateHouse: ["HD-114"],
+    localRaces: ["il-ballot-referendums-2026"],
+    localContext: "Home base of GOP Governor nominee Darren Bailey (Xenia / Clay County) and Comptroller nominee Bryan Drew (Benton), represented by Rep. Mike Bost (IL-12) and Paul Jacobs (SD-59). Voters focus on coal/oil/gas energy jobs, Farm Bill crop insurance, the Cairo Mississippi-Ohio River port terminal, and SAFE-T Act repeal."
+  }
+];
+
+// 3. Comprehensive Directory of 25 Major PACs, Super PACs, Labor Unions & Megadonor Networks in Illinois (2026 Cycle)
+window.IL_PACS_DIRECTORY = [
+  {
+    id: "pac-pritzker-future",
+    name: "JB for Governor & Illinois Future PAC (JB Pritzker Network)",
+    category: "Megadonor / Executive Apparatus",
+    alignment: "Democratic",
+    cycle2026Spending: "$100,000,000+ (2026 Cycle Commitment; $365M+ Lifetime)",
+    leaderOrSource: "Gov. JB Pritzker (Self-Funded Billionaire Heir & Democratic Megadonor)",
+    description: "The financial bedrock of the Illinois Democratic Party. Gov. Pritzker self-funds his own re-election campaign ($40M+ deposited in Q1 2026 alone) while transferring millions to the Democratic Party of Illinois (DPI), ISDF, legislative battlegrounds, and his national Think Big America abortion-rights PAC.",
+    keyBackedCandidates: ["JB Pritzker & Christian Mitchell (Gov)", "Juliana Stratton (U.S. Senate - $5M+ to Illinois Future PAC)", "Margaret Croke (Comptroller)", "Democrats for the Illinois House & ISDF"],
+    keyOpposedCandidates: ["Darren Bailey (R - Gov)", "Don Tracy (R - U.S. Senate)", "Raja Krishnamoorthi & Robin Kelly (Opposed in Senate Primary)"],
+    issueFocus: "Graduated income tax, reproductive rights & shield laws, CEJA clean energy, Smart Start pre-K, NITA transit reform, and gun safety."
+  },
+  {
+    id: "pac-fairshake-crypto",
+    name: "Fairshake / Protect Progress (Cryptocurrency Industry Super PAC Network)",
+    category: "Corporate / Tech Super PAC",
+    alignment: "Bipartisan Pro-Crypto (Heavily Active in 2026 IL Dem Primaries)",
+    cycle2026Spending: "$11,500,000+ in March 2026 Illinois Congressional Primaries",
+    leaderOrSource: "Backed by Coinbase, Ripple, Andreessen Horowitz (a16z) & Jump Crypto (Chicago)",
+    description: "The single largest outside Super PAC spender in the March 2026 Illinois Congressional primaries. Via its Democratic affiliate Protect Progress, Fairshake spent over $11M+ in independent expenditures to elect pro-digital-asset Democrats in four open Chicago-area House primaries.",
+    keyBackedCandidates: ["Melissa Bean (IL-08 - $4.5M+ IE)", "Donna Miller (IL-02 - $2.8M+ IE)", "Patty Garcia (IL-04 - $2.1M+ IE)", "La Shawn Ford (IL-07 - $1.2M+ IE)"],
+    keyOpposedCandidates: ["Robert Peters (IL-02)", "Junaid Ahmed & Kevin Morrison (IL-08)", "Richard Boykin (IL-07)"],
+    issueFocus: "Federal market-structure legislation for digital assets (FIT21), CFTC/SEC regulatory clarity, and Chicago fintech/derivatives jobs."
+  },
+  {
+    id: "pac-aipac-udp",
+    name: "AIPAC, United Democracy Project (UDP), Elect Chicago Women & Affordable Chicago Now",
+    category: "Foreign Policy & Ideological Super PAC Network",
+    alignment: "Bipartisan Pro-Israel (Major Force in IL-09, IL-02, IL-07 & IL-08 Primaries)",
+    cycle2026Spending: "$14,000,000+ Across 2026 Illinois Federal Races",
+    leaderOrSource: "American Israel Public Affairs Committee (AIPAC) & Affiliated Super PACs",
+    description: "One of the most influential financial forces in Illinois congressional politics. Direct AIPAC PAC bundles supports incumbents like Brad Schneider (IL-10), Mike Quigley (IL-05), Nikki Budzinski (IL-13), Eric Sorensen (IL-17), and Darin LaHood (IL-16), while satellite Super PACs (UDP, Elect Chicago Women, Affordable Chicago Now) spent millions in the open IL-09, IL-02, IL-07, and IL-08 primaries.",
+    keyBackedCandidates: ["Brad Schneider (IL-10 - $415k+)", "Nikki Budzinski (IL-13)", "Eric Sorensen (IL-17)", "Donna Miller (IL-02 - $3.2M+ IE)", "Melissa Bean (IL-08)", "Darin LaHood (IL-16)", "Laura Fine (IL-09 Primary)"],
+    keyOpposedCandidates: ["Daniel Biss & Kat Abughazaleh (Opposed in IL-09 Primary - $4.8M+ IE)", "Robert Peters (IL-02 Primary)", "Delia Ramirez (IL-03)"],
+    issueFocus: "Unconditional U.S.-Israel defense funding (Iron Dome), countering Iran, and defeating candidates who back conditioning military aid to Israel."
+  },
+  {
+    id: "pac-jstreet-justice-dems",
+    name: "J Street PAC, Justice Democrats, Working Families Party & Progressive Caucus PAC",
+    category: "Ideological / Progressive PACs",
+    alignment: "Progressive Democratic",
+    cycle2026Spending: "$3,800,000+ Across Illinois Federal & Local Races",
+    leaderOrSource: "J Street, Congressional Progressive Caucus PAC & United Working Families",
+    description: "Provides critical fundraising bundling and field mobilization for Illinois progressives who reject corporate PACs or AIPAC funding, particularly in Chicago and the North Shore.",
+    keyBackedCandidates: ["Daniel Biss (IL-09 - $380k+ J Street Bundling)", "Delia Ramirez (IL-03)", "Sean Casten (IL-06 - J Street)", "Lauren Underwood (IL-14 - J Street)", "Drake Warren & Miranda Hernandez (Cook County Board)"],
+    keyOpposedCandidates: ["AIPAC/UDP-backed primary challengers"],
+    issueFocus: "Conditioning offensive military aid on human rights, Medicare for All / public option, Green New Deal, housing affordability, and rejecting corporate PAC money."
+  },
+  {
+    id: "pac-iuoe-local-150",
+    name: "IUOE Local 150 PAC (International Union of Operating Engineers)",
+    category: "Labor Union Megapower (Bipartisan Infrastructure)",
+    alignment: "Bipartisan Pro-Labor (Supports Both Democrats & Pro-Prevailing-Wage Republicans)",
+    cycle2026Spending: "$12,500,000+ (Over $15M+ Cash on Hand in Countryside HQ PACs)",
+    leaderOrSource: "President-Business Manager James M. Sweeney (Countryside, IL)",
+    description: "Widely considered the single most feared and effective independent labor PAC in Illinois.Representing 23,000+ heavy-equipment operators, Local 150 backs the 2022 Workers' Rights Amendment and Rebuild Illinois capital spending, heavily funding both Democrats (Pritzker, Welch, Harmon, Giannoulias, Preckwinkle, Pat Hynes) and pro-labor Republicans (Curran, McCombie, Seth Lewis, Darby Hills, Brandun Schweizer, Patrick Sheehan).",
+    keyBackedCandidates: ["JB Pritzker (Gov)", "Alexi Giannoulias (SOS)", "Pat Hynes (Cook Assessor)", "Don Harmon & Chris Welch", "John Curran & Tony McCombie (GOP Leaders)", "Darby Hills (SD-26)", "Brandun Schweizer (HD-104)", "Dave Vella (HD-68)"],
+    keyOpposedCandidates: ["Anti-prevailing-wage / Right-to-Work candidates", "Fritz Kaegi (Opposed in Cook Assessor Primary)"],
+    issueFocus: "Prevailing wage laws, Project Labor Agreements (PLAs), Rebuild Illinois road/bridge/transit construction, nuclear/baseload power plants, and opposing Right-to-Work."
+  },
+  {
+    id: "pac-teachers-iea-ift-ctu",
+    name: "IEA/IPACE, Illinois Federation of Teachers (IFT) & Chicago Teachers Union (CTU) PACs",
+    category: "Public Education Labor Unions",
+    alignment: "Democratic",
+    cycle2026Spending: "$14,000,000+ Combined Across State, Local & Federal Races",
+    leaderOrSource: "Illinois Education Association (IPACE), IFT (Dan Montgomery) & CTU (Stacy Davis Gates)",
+    description: "The backbone of Democratic ground campaigns and legislative fundraising in Illinois. IEA (suburban/downstate educators) and IFT/CTU (Chicago and metro teachers) pour millions into DPI, ISDF, statewide offices, and suburban legislative battlegrounds while successfully lobbying to end the Invest in Kids private voucher program and fix Tier 2 teacher pensions.",
+    keyBackedCandidates: ["Juliana Stratton (U.S. Senate)", "JB Pritzker, Kwame Raoul, Alexi Giannoulias, Margaret Croke, Mike Frerichs", "Doris Turner (SD-48)", "Nabeela Syed (SD-26)", "Maria Peterson (HD-52)", "Erica Bray-Parker (HD-47)", "Katie Stuart (HD-112)", "Miranda Hernandez (Cook Board 16)"],
+    keyOpposedCandidates: ["Darren Bailey (Gov)", "Pro-voucher Republican legislative candidates"],
+    issueFocus: "Evidence-Based Funding ($350M+/yr increases), fixing Tier 2 TRS/SURS pensions, opposing private school vouchers (Invest in Kids), and fully funding Chicago and downstate public schools."
+  },
+  {
+    id: "pac-seiu-aflcio-cfl",
+    name: "SEIU Healthcare IL, SEIU Local 73, Illinois AFL-CIO & Chicago Federation of Labor (CFL)",
+    category: "Labor Union Coalition",
+    alignment: "Democratic",
+    cycle2026Spending: "$11,000,000+ Combined",
+    leaderOrSource: "SEIU State Council, Illinois AFL-CIO (Tim Drea) & CFL (Bob Reiter)",
+    description: "Unites over 800,000 union workers across healthcare, service, public sector (AFSCME Council 31), and building trades (LIUNA, IBEW, Plumbers Local 130). Provides massive financial and door-knocking muscle for statewide Democrats, Cook County Board President Toni Preckwinkle, and downstate battlegrounds.",
+    keyBackedCandidates: ["Juliana Stratton (U.S. Senate)", "JB Pritzker & Statewide Democratic Slate", "Toni Preckwinkle (Cook President)", "Nikki Budzinski (IL-13)", "Eric Sorensen (IL-17)", "Doris Turner (SD-48)", "Marsia Geldert-Murphey (SD-56)"],
+    keyOpposedCandidates: ["Darren Bailey (Gov)", "Don Tracy (Senate)", "Frank Lesko (SD-48)"],
+    issueFocus: "Medicaid home-care & hospital reimbursement rates, Workers' Rights Amendment protections, Tier 2 SERS/IMRF pension reform, and paid family leave."
+  },
+  {
+    id: "pac-isdf-dpi",
+    name: "Democrats for the Illinois House, DPI & Illinois Senate Democratic Fund (ISDF)",
+    category: "Legislative & State Party Committees",
+    alignment: "Democratic",
+    cycle2026Spending: "$35,000,000+ Combined War Chests",
+    leaderOrSource: "Speaker Emanuel 'Chris' Welch (House) & Senate President Don Harmon (Senate)",
+    description: "In Illinois's high-limit campaign finance system (where party committees can make unlimited transfers in the general election), Speaker Welch's House committees and President Harmon's ISDF act as the central clearinghouses funneling labor, trial lawyer, and Pritzker funds into the 12 most competitive suburban and downstate legislative districts.",
+    keyBackedCandidates: ["Doris Turner (SD-48 - $1.4M+)", "Marsia Geldert-Murphey (SD-56 - $1.2M+)", "Nabeela Syed (SD-26 - $1.1M+)", "Michele Clark (SD-33)", "Ben McAdams (SD-24)", "Maria Peterson (HD-52)", "Erica Bray-Parker (HD-47)", "Amy 'Murri' Briel (HD-76)", "Jessica Dixon Heitman (HD-97)", "Katie Stuart (HD-112)"],
+    keyOpposedCandidates: ["Frank Lesko (SD-48)", "Erica Harriss (SD-56)", "Darby Hills (SD-26)", "Seth Lewis (SD-24)", "Martin McLaughlin (HD-52)", "Brandun Schweizer (HD-104)"],
+    issueFocus: "Protecting and expanding the 40-19 Senate and 78-40 House Democratic supermajorities."
+  },
+  {
+    id: "pac-srcc-hro",
+    name: "Senate Republican Campaign Committee (SRCC/SRVF) & House Republican Organization (HRO)",
+    category: "Legislative Party Committees",
+    alignment: "Republican",
+    cycle2026Spending: "$16,500,000+ Combined War Chests",
+    leaderOrSource: "Senate Minority Leader John Curran (SD-41) & House Minority Leader Tony McCombie (HD-89)",
+    description: "The primary campaign arms for Illinois Senate and House Republicans, funded by business trade associations (IMA, Illinois Chamber, Realtors RPAC), conservative donors (Uihlein/Griffin networks), and bipartisan trades (IUOE Local 150) to break the Democratic supermajorities.",
+    keyBackedCandidates: ["Frank Lesko (SD-48 - $1.2M+)", "Erica Harriss (SD-56 - $1.3M+)", "Darby Hills (SD-26 - $1.05M+)", "Seth Lewis (SD-24)", "Danielle Penman (SD-33)", "Martin McLaughlin (HD-52)", "Gabby Shanahan (HD-97)", "Liz Bishop (HD-76)", "Brandun Schweizer (HD-104)", "Jimmy Ford (HD-112)", "Kevin Schmidt (HD-114)"],
+    keyOpposedCandidates: ["Doris Turner (SD-48)", "Nabeela Syed (SD-26)", "Amy 'Murri' Briel (HD-76)", "Katie Stuart (HD-112)"],
+    issueFocus: "Property tax caps, repealing cashless bail under the SAFE-T Act, stopping progressive tax hikes, and defending nuclear/coal/gas grid reliability."
+  },
+  {
+    id: "pac-itla-trial-lawyers",
+    name: "Illinois Trial Lawyers Association PAC (ITLA PAC)",
+    category: "Legal / Trade PAC",
+    alignment: "Democratic (95%+ to Democrats)",
+    cycle2026Spending: "$4,500,000+",
+    leaderOrSource: "Illinois Plaintiff & Personal Injury Bar (Springfield / Chicago)",
+    description: "One of the top four institutional funders of the Illinois Democratic Party alongside Pritzker, teachers' unions, and building trades. Heavily funds Senate President Don Harmon, Speaker Chris Welch, Attorney General Kwame Raoul, and appellate/supreme court candidates.",
+    keyBackedCandidates: ["Don Harmon (SD-39)", "Emanuel 'Chris' Welch (HD-7)", "Kwame Raoul (Attorney General)", "Dave Vella (HD-68)", "Michael Hastings (SD-19)", "Kam Buckner (HD-26)"],
+    keyOpposedCandidates: ["Pro-tort-reform Republican candidates", "Bob Fioretti (R - AG)"],
+    issueFocus: "Protecting civil jury trial rights, opposing medical malpractice/punitive damage caps, and workers' compensation protections."
+  },
+  {
+    id: "pac-realtors-rpac",
+    name: "Illinois Realtors PAC (RPAC) & Neighborhood Building Owners Alliance (NBOA)",
+    category: "Real Estate & Property Trade PAC",
+    alignment: "Bipartisan (Supports Pro-Property-Rights Democrats & Republicans)",
+    cycle2026Spending: "$6,200,000+",
+    leaderOrSource: "Illinois Realtors (Springfield) & NBOA (Chicago)",
+    description: "One of the largest trade PACs in Illinois. Strongly backs House GOP Leader Tony McCombie (a broker/appraiser) alongside bipartisan legislators of both parties who oppose rent control and real estate transfer tax hikes. Played a decisive role in helping Pat Hynes unseat Cook County Assessor Fritz Kaegi in March 2026.",
+    keyBackedCandidates: ["Pat Hynes (Cook County Assessor)", "Liz Nicholson (Cook Board of Review)", "Tony McCombie (HD-89)", "John Curran (SD-41)", "Doris Turner (SD-48)", "Erica Harriss (SD-56)", "Darby Hills (SD-26)", "Martin McLaughlin (HD-52)", "Brandun Schweizer (HD-104)"],
+    keyOpposedCandidates: ["Fritz Kaegi & Samantha Steele (Opposed in Cook County Primaries)", "Pro-rent-control candidates"],
+    issueFocus: "Opposing rent control and real estate transfer taxes, reforming Cook County property tax assessments, and expanding first-time homebuyer assistance."
+  },
+  {
+    id: "pac-personal-pac-gpac",
+    name: "Personal PAC, EMILYs List & Gun Violence Prevention PAC (G-PAC / Giffords)",
+    category: "Ideological PACs (Reproductive Rights & Gun Safety)",
+    alignment: "Democratic",
+    cycle2026Spending: "$5,400,000+ Combined",
+    leaderOrSource: "Personal PAC (Sarah Garza Resnick) & G-PAC (Kathleen Sances)",
+    description: "Premier ideological kingmakers in suburban collar-county and downstate battlegrounds. Personal PAC (100% pro-choice) and G-PAC (architects of the Protect Illinois Communities Act assault weapons ban) pour hundreds of thousands into suburban swing districts in DuPage, Lake, Kane, Will, and Metro East.",
+    keyBackedCandidates: ["Juliana Stratton (U.S. Senate)", "JB Pritzker (Gov)", "Margaret Croke (Comptroller)", "Lauren Underwood (IL-14)", "Sean Casten (IL-06)", "Nabeela Syed (SD-26)", "Maria Peterson (HD-52)", "Erica Bray-Parker (HD-47)", "Ben McAdams (SD-24)", "Deb Conroy & Sandy Hart (DuPage/Lake)"],
+    keyOpposedCandidates: ["Darren Bailey (Gov)", "Don Tracy (Senate)", "Seth Lewis (SD-24)", "Martin McLaughlin (HD-52)"],
+    issueFocus: "Protecting Illinois's Reproductive Health Act, IVF access, interstate abortion shield laws, and defending Illinois's assault weapons and ghost gun bans."
+  },
+  {
+    id: "pac-ima-chamber-farm",
+    name: "Illinois Manufacturers' Association (IMA), Illinois Chamber, NFIB & Farm Bureau ACTIVATOR",
+    category: "Business & Agriculture Trade PACs",
+    alignment: "Center-Right / Bipartisan Pro-Business",
+    cycle2026Spending: "$5,800,000+ Combined",
+    leaderOrSource: "IMA (Mark Denzler), IL Chamber (Lou Sandoval), NFIB & Illinois Farm Bureau (Bloomington)",
+    description: "Represent Illinois's industrial, small-business, and agricultural employers. While IMA, Chamber, and NFIB predominantly back Republicans (Don Tracy, Bryan Drew, John Curran, Tony McCombie, Frank Lesko, Erica Harriss), Farm Bureau ACTIVATOR also crosses party lines to back Agriculture Chairs like Rep. Nikki Budzinski (IL-13) and Sen. Doris Turner (SD-48).",
+    keyBackedCandidates: ["Don Tracy (U.S. Senate)", "Bryan Drew (Comptroller)", "John Curran & Tony McCombie", "Frank Lesko (SD-48)", "Erica Harriss (SD-56)", "Darin LaHood (IL-16)", "Mike Bost (IL-12)", "Nikki Budzinski & Doris Turner (Farm Bureau Endorsed)"],
+    keyOpposedCandidates: ["Progressive tax and corporate tax-hike advocates"],
+    issueFocus: "Preventing nuclear/gas power plant closures that spike industrial electric bills, R&D tax credits, workers' comp reform, E15 year-round ethanol, and protecting family farms from estate taxes."
+  },
+  {
+    id: "pac-fop-isra-right-to-life",
+    name: "Fraternal Order of Police (FOP), Illinois State Rifle Assoc. (ISRA) & Illinois Right to Life",
+    category: "Law Enforcement & Conservative Ideological PACs",
+    alignment: "Republican & Pro-Police Bipartisan",
+    cycle2026Spending: "$3,900,000+ Combined",
+    leaderOrSource: "FOP Chicago Lodge 7 / IL State Lodge, ISRA PVF & Illinois Right to Life Action",
+    description: "Drive voter turnout and endorsements on public safety, gun rights, and social issues. FOP backs Republicans statewide and in suburban Sheriff/legislative races (plus pro-police Democrats like Rep. Dave Vella in Rockford), while ISRA and Right to Life anchor conservative grassroots campaigns downstate.",
+    keyBackedCandidates: ["Darren Bailey & Aaron Del Mar (Gov)", "Don Tracy (U.S. Senate)", "Bob Fioretti (AG)", "Patrick Sheehan (HD-37)", "Dillan Vancil (IL-17)", "Joshua Loyd (IL-13)", "Jim Reilly (Will Sheriff)", "Liz Doody Gorman (Cook Dist. 17)", "Dave Vella (HD-68 - Police PBPA)"],
+    keyOpposedCandidates: ["JB Pritzker & Kwame Raoul", "SAFE-T Act and assault-weapons-ban sponsors"],
+    issueFocus: "Repealing cashless bail under the SAFE-T Act, protecting police qualified immunity, fixing Tier 2 police pensions, overturning the Protect Illinois Communities Act gun ban, and pro-life protections."
+  }
+];

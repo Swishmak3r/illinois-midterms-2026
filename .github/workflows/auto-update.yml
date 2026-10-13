@@ -1,0 +1,41 @@
+name: Daily Illinois 2026 FEC & Election Auto-Sync
+
+on:
+  schedule:
+    # Runs automatically every day at 11:00 UTC (6:00 AM Central Time) - 100% Free on GitHub Actions
+    - cron: '0 11 * * *'
+  workflow_dispatch: # Allows manual 1-click trigger in GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch latest 2026 OpenFEC filings and rebuild index.html
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY || 'DEMO_KEY' }}
+        run: |
+          python scripts/update_live_data.py
+          python build.py
+
+      - name: Commit and push if election data updated (Triggers automatic Vercel deploy)
+        run: |
+          git config user.name "illinois-2026-auto-sync[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html data-live-sync.js
+          if git diff --staged --quiet; then
+            echo "No new FEC filing changes since last sync."
+          else
+            git commit -m "chore(data): automated daily 2026 OpenFEC campaign finance sync"
+            git push
+          fi

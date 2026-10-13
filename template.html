@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026 Illinois Midterm Elections - Complete Federal, State & Local Voter Guide & PAC Tracker</title>
+  <meta name="description" content="Interactive 2026 Illinois Midterm Elections voter guide and PAC money tracker. Sort by your Illinois town, suburb, or Chicago neighborhood to inspect Federal, Statewide, General Assembly, and County candidates, 23 policy issue stances, and FEC/IL SBE PAC backers." />
+  <meta name="theme-color" content="#1D4ED8" />
+
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="2026 Illinois Midterm Elections - Voter Guide, Issue Matrix & PAC Money Tracker" />
+  <meta property="og:description" content="Find every Federal, State, and Local candidate on your 2026 Illinois ballot by town or neighborhood. Compare 23 policy stances and see which PACs, Super PACs, and unions fund each campaign." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="2026 Illinois Midterm Elections - Complete Voter & PAC Money Guide" />
+  <meta name="twitter:description" content="Sort by your Illinois town or Chicago neighborhood to see every Federal, State, and County candidate, 23 issue stances, and verified FEC/IL SBE PAC funding." />
+
+  <!-- Inline SVG Civic Star Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231D4ED8'/%3E%3Cpath d='M16 5l3.09 6.26L26 12.27l-5 4.87 1.18 6.88L16 20.77l-6.18 3.25L11 17.14 6 12.27l6.91-1.01L16 5z' fill='%23FFFFFF'/%3E%3C/svg%3E" />
+
+  <!-- Dual Tailwind Support (Public Web CDN + Antigravity Preview Engine) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root,
+    html[data-theme="light"] {
+      --bg-primary: #F8F7F4;
+      --bg-elevated: #FFFFFF;
+      --bg-subtle: #F1EFEA;
+      --text-primary: #0F172A;
+      --text-secondary: #334155;
+      --text-muted: #64748B;
+      --border-subtle: #E2DFD7;
+      --border-strong: #CBD5E1;
+      --accent-dem-bg: rgba(29, 78, 216, 0.10);
+      --accent-dem-text: #1E40AF;
+      --accent-dem-border: #2563EB;
+      --accent-gop-bg: rgba(185, 28, 28, 0.10);
+      --accent-gop-text: #991B1B;
+      --accent-gop-border: #DC2626;
+      --accent-ind-bg: rgba(109, 40, 217, 0.10);
+      --accent-ind-text: #5B21B6;
+      --accent-ind-border: #7C3AED;
+      --shadow-card: 0 2px 8px -2px rgba(15, 23, 42, 0.06), 0 1px 3px -1px rgba(15, 23, 42, 0.04);
+    }
+
+    html[data-theme="dark"] {
+      --bg-primary: #0B0F17;
+      --bg-elevated: #131B2E;
+      --bg-subtle: #1A243B;
+      --text-primary: #F8FAFC;
+      --text-secondary: #CBD5E1;
+      --text-muted: #94A3B8;
+      --border-subtle: #26334D;
+      --border-strong: #334155;
+      --accent-dem-bg: rgba(59, 130, 246, 0.18);
+      --accent-dem-text: #93C5FD;
+      --accent-dem-border: #3B82F6;
+      --accent-gop-bg: rgba(239, 68, 68, 0.18);
+      --accent-gop-text: #FCA5A5;
+      --accent-gop-border: #EF4444;
+      --accent-ind-bg: rgba(167, 139, 250, 0.18);
+      --accent-ind-text: #DDD6FE;
+      --accent-ind-border: #8B5CF6;
+      --shadow-card: 0 4px 16px -2px rgba(0, 0, 0, 0.45);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.5;
+    }
+
+    /* Native Pre-Compiled Layout & Utility Fallbacks for Instant Zero-FOUC Public Web Rendering */
+    .max-w-7xl { max-width: 80rem; }
+    .max-w-3xl { max-width: 48rem; }
+    .mx-auto { margin-left: auto; margin-right: auto; }
+    .px-4 { padding-left: 1rem; padding-right: 1rem; }
+    .py-5 { padding-top: 1.25rem; padding-bottom: 1.25rem; }
+    .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+    .py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+    .p-4 { padding: 1rem; }
+    .p-3 { padding: 0.75rem; }
+    .p-2\.5 { padding: 0.625rem; }
+    .p-1\.5 { padding: 0.375rem; }
+    .flex { display: flex; }
+    .flex-col { flex-direction: column; }
+    .flex-wrap { flex-wrap: wrap; }
+    .items-center { align-items: center; }
+    .items-start { align-items: flex-start; }
+    .justify-between { justify-content: space-between; }
+    .justify-center { justify-content: center; }
+    .gap-1 { gap: 0.25rem; }
+    .gap-1\.5 { gap: 0.375rem; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-2\.5 { gap: 0.625rem; }
+    .gap-3 { gap: 0.75rem; }
+    .gap-4 { gap: 1rem; }
+    .gap-6 { gap: 1.5rem; }
+    .grid { display: grid; }
+    .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+    .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .space-y-6 > * + * { margin-top: 1.5rem; }
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .space-y-2 > * + * { margin-top: 0.5rem; }
+    .space-y-1\.5 > * + * { margin-top: 0.375rem; }
+    .w-full { width: 100%; }
+    .rounded { border-radius: 0.25rem; }
+    .rounded-lg { border-radius: 0.5rem; }
+    .rounded-xl { border-radius: 0.75rem; }
+    .border { border-width: 1px; border-style: solid; }
+    .border-b { border-bottom-width: 1px; border-bottom-style: solid; }
+    .border-t { border-top-width: 1px; border-top-style: solid; }
+    .text-xs { font-size: 0.75rem; line-height: 1rem; }
+    .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+    .text-base { font-size: 1rem; line-height: 1.5rem; }
+    .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+    .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+    .text-2xl { font-size: 1.5rem; line-height: 2rem; }
+    .font-bold { font-weight: 700; }
+    .font-semibold { font-weight: 600; }
+    .font-medium { font-weight: 500; }
+    .uppercase { text-transform: uppercase; }
+    .leading-relaxed { line-height: 1.625; }
+    .leading-tight { line-height: 1.25; }
+    .overflow-x-auto { overflow-x: auto; }
+    @media (min-width: 768px) {
+      .md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .md\:grid-cols-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+      .md\:col-span-4 { grid-column: span 4 / span 4; }
+      .md\:col-span-2 { grid-column: span 2 / span 2; }
+    }
+    @media (min-width: 1024px) {
+      .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .lg\:grid-cols-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+      .lg\:col-span-8 { grid-column: span 8 / span 8; }
+      .lg\:col-span-4 { grid-column: span 4 / span 4; }
+    }
+
+    .font-serif-display {
+      font-family: 'Fraunces', Georgia, Cambria, "Times New Roman", serif;
+      letter-spacing: -0.02em;
+    }
+
+    .font-mono {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .bg-primary-custom { background-color: var(--bg-primary); }
+    .bg-elevated-custom { background-color: var(--bg-elevated); }
+    .text-primary-custom { color: var(--text-primary); }
+    .text-secondary-custom { color: var(--text-secondary); }
+    .text-muted-custom { color: var(--text-muted); }
+    .border-subtle-custom { border-color: var(--border-subtle); }
+
+    /* Header & Hero */
+    .civic-masthead {
+      background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-primary) 100%);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    /* Sticky Filter Bar */
+    .sticky-command-bar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background-color: var(--bg-elevated);
+      border-bottom: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-card);
+    }
+
+    .filter-select,
+    .filter-input {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 0.5rem;
+      padding: 0.45rem 0.65rem;
+      font-size: 0.775rem;
+      font-weight: 500;
+      width: 100%;
+      transition: border-color 0.15s ease;
+    }
+
+    .filter-select:focus,
+    .filter-input:focus {
+      outline: none;
+      border-color: #2563EB;
+    }
+
+    /* Navigation Tabs */
+    .nav-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 0.5rem;
+      border: 1px solid transparent;
+      color: var(--text-secondary);
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .nav-tab-btn:hover {
+      color: var(--text-primary);
+      background-color: var(--bg-primary);
+    }
+
+    .nav-tab-btn.tab-btn-active {
+      background-color: #1D4ED8;
+      color: #FFFFFF;
+      border-color: #1E40AF;
+      box-shadow: 0 1px 3px rgba(29, 78, 216, 0.3);
+    }
+
+    /* Town Banners */
+    .town-banner-default {
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 0.75rem;
+      padding: 1rem 1.25rem;
+      box-shadow: var(--shadow-card);
+    }
+
+    .town-banner-active {
+      background-color: var(--bg-elevated);
+      border: 2px solid #2563EB;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      box-shadow: var(--shadow-card);
+    }
+
+    .icon-badge-accent {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 0.6rem;
+      background-color: rgba(37, 99, 235, 0.12);
+      color: #2563EB;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .quick-town-pill {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.3rem 0.65rem;
+      border-radius: 9999px;
+      background-color: var(--bg-primary);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .quick-town-pill:hover {
+      border-color: #2563EB;
+      color: #2563EB;
+    }
+
+    /* Race Cards & Candidate Cards */
+    .race-section-card {
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: 0.875rem;
+      box-shadow: var(--shadow-card);
+      overflow: hidden;
+    }
+
+    .race-card-header {
+      padding: 1.25rem 1.25rem 1rem 1.25rem;
+      background-color: var(--bg-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .candidate-card {
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+      border-top-width: 4px;
+      border-radius: 0.75rem;
+      padding: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-card);
+    }
+
+    .party-border-dem { border-top-color: var(--accent-dem-border); }
+    .party-border-gop { border-top-color: var(--accent-gop-border); }
+    .party-border-ind { border-top-color: var(--accent-ind-border); }
+
+    .party-badge-dem {
+      background-color: var(--accent-dem-bg);
+      color: var(--accent-dem-text);
+      border: 1px solid var(--accent-dem-border);
+    }
+
+    .party-badge-gop {
+      background-color: var(--accent-gop-bg);
+      color: var(--accent-gop-text);
+      border: 1px solid var(--accent-gop-border);
+    }
+
+    .party-badge-ind {
+      background-color: var(--accent-ind-bg);
+      color: var(--accent-ind-text);
+      border: 1px solid var(--accent-ind-border);
+    }
+
+    .badge-level-fed {
+      background-color: rgba(30, 64, 175, 0.12);
+      color: #1D4ED8;
+      border: 1px solid rgba(30, 64, 175, 0.3);
+    }
+    html[data-theme="dark"] .badge-level-fed {
+      color: #93C5FD;
+    }
+
+    .badge-level-state {
+      background-color: rgba(180, 83, 9, 0.12);
+      color: #B45309;
+      border: 1px solid rgba(180, 83, 9, 0.3);
+    }
+    html[data-theme="dark"] .badge-level-state {
+      color: #FCD34D;
+    }
+
+    .badge-level-leg {
+      background-color: rgba(4, 120, 87, 0.12);
+      color: #047857;
+      border: 1px solid rgba(4, 120, 87, 0.3);
+    }
+    html[data-theme="dark"] .badge-level-leg {
+      color: #6EE7B7;
+    }
+
+    .badge-level-local {
+      background-color: rgba(109, 40, 217, 0.12);
+      color: #6D28D9;
+      border: 1px solid rgba(109, 40, 217, 0.3);
+    }
+    html[data-theme="dark"] .badge-level-local {
+      color: #C4B5FD;
+    }
+
+    .avatar-monogram {
+      width: 2.6rem;
+      height: 2.6rem;
+      border-radius: 0.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+
+    /* PAC Rows */
+    .pac-row-item {
+      padding: 0.45rem 0.6rem;
+      border-radius: 0.4rem;
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .pac-row-opposing {
+      border-left: 3px solid #DC2626;
+    }
+
+    .pac-stance-sup {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #047857;
+      white-space: nowrap;
+    }
+    html[data-theme="dark"] .pac-stance-sup { color: #34D399; }
+
+    .pac-stance-opp {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #DC2626;
+      white-space: nowrap;
+    }
+    html[data-theme="dark"] .pac-stance-opp { color: #F87171; }
+
+    .endorsement-tag {
+      font-size: 0.68rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 0.3rem;
+      background-color: var(--bg-subtle);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-subtle);
+    }
+
+    /* Issue Details Accordion */
+    .issue-details-box {
+      background-color: var(--bg-primary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 0.5rem;
+      padding: 0.65rem 0.75rem;
+    }
+
+    .issue-details-summary {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+    .issue-details-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .issue-stance-row {
+      padding: 0.45rem 0;
+      border-bottom: 1px dashed var(--border-subtle);
+    }
+    .issue-stance-row:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .issue-stance-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.15rem;
+    }
+
+    .issue-stance-text {
+      font-size: 0.74rem;
+      color: var(--text-secondary);
+      line-height: 1.45;
+    }
+
+    /* Buttons */
+    .btn-secondary-sm {
+      font-size: 0.73rem;
+      font-weight: 600;
+      padding: 0.4rem 0.75rem;
+      border-radius: 0.45rem;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      border: 1px solid var(--border-subtle);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .btn-secondary-sm:hover {
+      border-color: #2563EB;
+      color: #2563EB;
+    }
+
+    .btn-compare-sm {
+      font-size: 0.73rem;
+      font-weight: 600;
+      padding: 0.4rem 0.75rem;
+      border-radius: 0.45rem;
+      background-color: rgba(37, 99, 235, 0.1);
+      color: #2563EB;
+      border: 1px solid rgba(37, 99, 235, 0.3);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .btn-compare-sm.btn-compare-active {
+      background-color: #059669;
+      color: #FFFFFF;
+      border-color: #047857;
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      background-color: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .modal-backdrop.hidden {
+      display: none;
+    }
+    .modal-dialog-box {
+      width: 100%;
+      max-width: 56rem;
+      background-color: var(--bg-primary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.45);
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Masthead -->
+  <header class="civic-masthead">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-5">
+      <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-subtle-custom">
+        <div class="flex items-center gap-2.5">
+          <span class="px-2.5 py-1 text-xs font-mono font-bold uppercase rounded bg-blue-600 text-white">ILLINOIS 2026 MIDTERMS</span>
+          <span class="text-xs font-mono text-secondary-custom">General Election: Tuesday, November 3, 2026 • Primary Certified: March 17, 2026</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <button type="button" id="live-fec-sync-btn" class="px-3 py-1.5 rounded-lg text-xs font-mono font-semibold bg-elevated-custom border border-subtle-custom text-emerald-700 dark:text-emerald-400 hover:border-emerald-500 transition flex items-center gap-1.5" title="Fetch latest real-time 2026 OpenFEC campaign finance filings">
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
+            <span id="live-fec-sync-label">Live FEC Auto-Sync: Active</span>
+          </button>
+          <button type="button" id="share-link-btn" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-elevated-custom border border-subtle-custom text-primary-custom hover:border-blue-500 transition flex items-center gap-1.5" title="Copy direct link to current town ballot or view">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <span id="share-link-label">Share This View</span>
+          </button>
+          <button type="button" id="theme-toggle-btn" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-elevated-custom border border-subtle-custom text-primary-custom hover:border-blue-500 transition flex items-center gap-1.5">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+            <span>Light / Dark</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mt-4 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+        <div class="lg:col-span-8">
+          <h1 class="text-2xl sm:text-4xl font-serif-display font-bold text-primary-custom tracking-tight">
+            The Complete 2026 Illinois Elections & PAC Money Intelligence Guide
+          </h1>
+          <p class="mt-2 text-xs sm:text-sm text-secondary-custom max-w-3xl leading-relaxed">
+            Every federal, statewide constitutional, General Assembly battleground, and county election across all 102 Illinois counties. Sort by your town, city, or Chicago neighborhood to inspect your exact ballot, compare candidate stances across 23 federal, state, and local policy issues, and trace every PAC, Super PAC, union, and megadonor association.
+          </p>
+        </div>
+        <div class="lg:col-span-4 grid grid-cols-2 gap-2.5">
+          <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
+            <div class="text-[10px] font-mono uppercase text-muted-custom">Federal & State Races</div>
+            <div class="text-lg font-mono font-bold text-primary-custom">U.S. Sen + 17 CDs</div>
+            <div class="text-[11px] text-secondary-custom">5 Open U.S. House Seats</div>
+          </div>
+          <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
+            <div class="text-[10px] font-mono uppercase text-muted-custom">State & Local Coverage</div>
+            <div class="text-lg font-mono font-bold text-primary-custom">5 Exec + GA + 102 Co.</div>
+            <div class="text-[11px] text-secondary-custom">23 Policy Issues & 25+ PACs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sticky Filter & Town Selector Command Bar -->
+  <section class="sticky-command-bar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+      <!-- Primary Row: Town Sorter + Search + Navigation Tabs -->
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5 items-center">
+        <div class="md:col-span-4">
+          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Sort by Your Illinois Town, City or Chicago Neighborhood</label>
+          <select id="town-select-control" class="filter-select font-semibold"></select>
+        </div>
+        <div class="md:col-span-2">
+          <label for="level-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">2. Government Level</label>
+          <select id="level-select-control" class="filter-select">
+            <option value="all">All Levels (Federal, State, Local)</option>
+            <option value="federal">Federal (U.S. Senate + 17 House CDs)</option>
+            <option value="statewide">Statewide Executive (Gov, AG, SOS, Comp, Treas)</option>
+            <option value="state_legislature">State Legislature (IL Senate & House)</option>
+            <option value="local">County, Local & Ballot Referendums</option>
+          </select>
+        </div>
+        <div class="md:col-span-2">
+          <label for="pac-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">3. Filter by PAC / Money Backer</label>
+          <select id="pac-select-control" class="filter-select">
+            <option value="all">All PAC Policies & Backers</option>
+            <option value="no-corp">Rejects Corporate PACs / Grassroots</option>
+            <option value="fairshake">Fairshake / Protect Progress (Crypto)</option>
+            <option value="aipac">AIPAC / UDP / Elect Chicago Women</option>
+            <option value="jstreet">J Street / Justice Dems / Progressive</option>
+            <option value="local150">IUOE Local 150 (Operating Engineers)</option>
+            <option value="teachers">Teachers Unions (IEA / IFT / CTU)</option>
+            <option value="seiu-afl">SEIU / AFL-CIO / CFL / AFSCME</option>
+            <option value="itla">Trial Lawyers (ITLA PAC)</option>
+            <option value="realtors">Illinois Realtors RPAC / NBOA</option>
+            <option value="business">Business & Ag (IMA / Chamber / Farm Bureau)</option>
+            <option value="fop-isra">FOP Police / ISRA / Right to Life</option>
+          </select>
+        </div>
+        <div class="md:col-span-2">
+          <label for="racetype-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">4. Competitiveness & Party</label>
+          <div class="flex gap-1.5">
+            <select id="racetype-select-control" class="filter-select">
+              <option value="all">All Races</option>
+              <option value="battleground">Battlegrounds Only</option>
+              <option value="open">Open Seats Only</option>
+            </select>
+            <select id="party-select-control" class="filter-select">
+              <option value="all">All Parties</option>
+              <option value="dem">Democrat</option>
+              <option value="gop">Republican</option>
+              <option value="ind">Independent / 3rd</option>
+            </select>
+          </div>
+        </div>
+        <div class="md:col-span-2">
+          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Instant Keyword Search</label>
+          <input id="global-search-input" type="search" placeholder="Candidate, city, PAC, issue..." class="filter-input" />
+        </div>
+      </div>
+
+      <!-- Navigation Mode Bar -->
+      <div class="mt-3 pt-2.5 border-t border-subtle-custom flex flex-wrap items-center justify-between gap-2">
+        <nav class="flex flex-wrap items-center gap-1.5" aria-label="Main Views">
+          <button type="button" data-tab-btn="ballot" class="nav-tab-btn tab-btn-active">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="7" y1="16" x2="12" y2="16"/></svg>
+            <span>All Races, Candidates & PACs</span>
+          </button>
+          <button type="button" data-tab-btn="towns" class="nav-tab-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Town & Neighborhood Ballot Directory</span>
+          </button>
+          <button type="button" data-tab-btn="issues" class="nav-tab-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            <span>Issue Stance Matrix (Federal / State / Local)</span>
+          </button>
+          <button type="button" data-tab-btn="pacs" class="nav-tab-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+            <span>PAC & Super PAC Power Broker Directory</span>
+          </button>
+          <button type="button" data-tab-btn="compare" class="nav-tab-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            <span>Compare Candidates (<span id="compare-count-badge">4</span>)</span>
+          </button>
+        </nav>
+
+        <div class="flex items-center gap-2">
+          <select id="region-select-control" class="filter-select !w-auto !py-1 text-xs">
+            <option value="all">Region: All Illinois</option>
+            <option value="chicago">Chicago</option>
+            <option value="suburban_cook">Suburban Cook</option>
+            <option value="collar">Collar Counties (DuPage/Lake/Will/Kane/McHenry)</option>
+            <option value="northern">Northern IL (Rockford/DeKalb/IL Valley)</option>
+            <option value="central">Central & Western IL (Springfield/UIUC/Peoria/Quad Cities)</option>
+            <option value="southern">Metro East & Southern IL (Belleville/Alton/Carbondale)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Area -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6">
+    <!-- Active Town / Ballot Context Banner -->
+    <div id="active-town-banner"></div>
+
+    <!-- Dynamic Tab Content -->
+    <div id="tab-content-container"></div>
+  </main>
+
+  <!-- Candidate Full Dossier Modal -->
+  <div id="candidate-modal-backdrop" class="modal-backdrop hidden"></div>
+
+  <!-- Footer -->
+  <footer class="mt-16 border-t border-subtle-custom bg-elevated-custom py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-wrap items-center justify-between gap-4 text-xs text-muted-custom">
+      <div>
+        <strong class="text-primary-custom">2026 Illinois Midterm Elections Nonpartisan Voter & Campaign Finance Guide</strong>
+        <p class="mt-0.5">Covers U.S. Senate, all 17 Illinois Congressional Districts, 5 Statewide Executive Offices, Illinois General Assembly Battlegrounds & Leadership, and County/Local Elections.</p>
+      </div>
+      <div class="font-mono">
+        Sources: FEC Filings • IL State Board of Elections (SBE) • March 17, 2026 Certified Primary Results
+      </div>
+    </div>
+  </footer>
+
+  <!-- Inlined Datasets & Application Script -->
+  <script>
+/*__INJECT_DATA_AND_APP__*/
+  </script>
+</body>
+</html>
