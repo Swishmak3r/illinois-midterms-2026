@@ -1,6 +1,6 @@
 // Automated Live FEC Sync Snapshot (Updated by scripts/update_live_data.py)
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-10-13 18:33 UTC",
+  "lastAutomatedSync": "2026-10-14 15:46 UTC",
   "source": "OpenFEC API + IL State Board of Elections (SBE)",
   "recordCount": 100,
   "records": [
@@ -671,7 +671,7 @@ window.IL_LIVE_SYNC_META = {
       "district": "12",
       "party": "DEM",
       "receipts": 145608.25,
-      "cash_on_hand_end_period": "42135.39",
+      "cash_on_hand_end_period": "42115.39",
       "coverage_end_date": "2026-09-30"
     },
     {
