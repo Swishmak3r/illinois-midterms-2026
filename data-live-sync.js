@@ -1,6 +1,6 @@
 // Automated Live FEC Sync Snapshot (Updated by scripts/update_live_data.py)
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-10-14 15:46 UTC",
+  "lastAutomatedSync": "2026-10-15 15:33 UTC",
   "source": "OpenFEC API + IL State Board of Elections (SBE)",
   "recordCount": 100,
   "records": [
@@ -270,8 +270,8 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "02",
       "party": "DEM",
-      "receipts": 1324471.6,
-      "cash_on_hand_end_period": "8373.73",
+      "receipts": 1324599.87,
+      "cash_on_hand_end_period": "7503.00",
       "coverage_end_date": "2026-06-30"
     },
     {
@@ -281,8 +281,8 @@ window.IL_LIVE_SYNC_META = {
       "district": "00",
       "party": "REP",
       "receipts": 1308510.17,
-      "cash_on_hand_end_period": "3368.91",
-      "coverage_end_date": "2026-06-30"
+      "cash_on_hand_end_period": "3335.82",
+      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL09236",
@@ -401,8 +401,8 @@ window.IL_LIVE_SYNC_META = {
       "district": "09",
       "party": "DEM",
       "receipts": 466250.84,
-      "cash_on_hand_end_period": "7196.04",
-      "coverage_end_date": "2026-06-30"
+      "cash_on_hand_end_period": "7151.04",
+      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL07370",
@@ -460,9 +460,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "08",
       "party": "DEM",
-      "receipts": 391918.43,
-      "cash_on_hand_end_period": "592.81",
-      "coverage_end_date": "2026-06-30"
+      "receipts": 392018.43,
+      "cash_on_hand_end_period": "270.81",
+      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL09343",
@@ -495,14 +495,24 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-06-30"
     },
     {
+      "candidate_id": "H6IL07503",
+      "name": "SHOWALTER, REED",
+      "office": "H",
+      "district": "07",
+      "party": "DEM",
+      "receipts": 368347.51,
+      "cash_on_hand_end_period": "288.36",
+      "coverage_end_date": "2026-09-30"
+    },
+    {
       "candidate_id": "H6IL02124",
       "name": "JACKSON, JESSE L. JR",
       "office": "H",
       "district": "02",
       "party": "DEM",
-      "receipts": 366890.47,
-      "cash_on_hand_end_period": "2625.08",
-      "coverage_end_date": "2026-06-30"
+      "receipts": 366890.77,
+      "cash_on_hand_end_period": "2625.38",
+      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL04153",
@@ -512,16 +522,6 @@ window.IL_LIVE_SYNC_META = {
       "party": "DEM",
       "receipts": 358667.1,
       "cash_on_hand_end_period": "185499.02",
-      "coverage_end_date": "2026-06-30"
-    },
-    {
-      "candidate_id": "H6IL07503",
-      "name": "SHOWALTER, REED",
-      "office": "H",
-      "district": "07",
-      "party": "DEM",
-      "receipts": 356347.51,
-      "cash_on_hand_end_period": "333.36",
       "coverage_end_date": "2026-06-30"
     },
     {
@@ -785,6 +785,16 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-09-30"
     },
     {
+      "candidate_id": "H4IL07037",
+      "name": "DAVIS, DANNY K. MR.",
+      "office": "H",
+      "district": "07",
+      "party": "DEM",
+      "receipts": 97091.35,
+      "cash_on_hand_end_period": "478.63",
+      "coverage_end_date": "2026-09-30"
+    },
+    {
       "candidate_id": "H2IL14086",
       "name": "PIERCE, MICHAEL DAVID LTC (RET.)",
       "office": "H",
@@ -793,16 +803,6 @@ window.IL_LIVE_SYNC_META = {
       "receipts": 94282.3,
       "cash_on_hand_end_period": "0.00",
       "coverage_end_date": "2026-04-15"
-    },
-    {
-      "candidate_id": "H4IL07037",
-      "name": "DAVIS, DANNY K. MR.",
-      "office": "H",
-      "district": "07",
-      "party": "DEM",
-      "receipts": 93030.75,
-      "cash_on_hand_end_period": "521.52",
-      "coverage_end_date": "2026-06-30"
     },
     {
       "candidate_id": "H6IL15100",
@@ -865,6 +865,16 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-04-14"
     },
     {
+      "candidate_id": "H4IL11245",
+      "name": "KIM, CHARLES",
+      "office": "H",
+      "district": "11",
+      "party": "REP",
+      "receipts": 58994.9,
+      "cash_on_hand_end_period": "64.50",
+      "coverage_end_date": "2026-09-30"
+    },
+    {
       "candidate_id": "H2IL08203",
       "name": "KOPPIE, CHAD",
       "office": "H",
@@ -873,16 +883,6 @@ window.IL_LIVE_SYNC_META = {
       "receipts": 58215.06,
       "cash_on_hand_end_period": "42.20",
       "coverage_end_date": "2026-09-30"
-    },
-    {
-      "candidate_id": "H4IL11245",
-      "name": "KIM, CHARLES",
-      "office": "H",
-      "district": "11",
-      "party": "REP",
-      "receipts": 55994.9,
-      "cash_on_hand_end_period": "10.39",
-      "coverage_end_date": "2026-06-30"
     },
     {
       "candidate_id": "H6IL07511",
@@ -902,7 +902,7 @@ window.IL_LIVE_SYNC_META = {
       "party": "DEM",
       "receipts": 42028.81,
       "cash_on_hand_end_period": "0.00",
-      "coverage_end_date": "2026-06-30"
+      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL15118",
