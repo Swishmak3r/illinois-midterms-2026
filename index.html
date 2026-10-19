@@ -493,6 +493,79 @@
       border-color: #047857;
     }
 
+    /* Hero City / ZIP Code Lookup Card */
+    .hero-lookup-card {
+      background-color: var(--bg-elevated);
+      border: 2px solid #2563EB;
+      border-radius: 1rem;
+      padding: 1.15rem 1.25rem;
+      box-shadow: 0 10px 25px -5px rgba(29, 78, 216, 0.12), 0 4px 10px -2px rgba(15, 23, 42, 0.05);
+      position: relative;
+    }
+
+    .hero-lookup-input {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      border: 1.5px solid var(--border-strong);
+      border-radius: 0.65rem;
+      padding: 0.7rem 0.95rem 0.7rem 2.5rem;
+      font-size: 0.925rem;
+      font-weight: 500;
+      width: 100%;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .hero-lookup-input:focus {
+      outline: none;
+      border-color: #2563EB;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+    }
+
+    .autocomplete-dropdown {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: calc(100% + 0.35rem);
+      z-index: 60;
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-strong);
+      border-radius: 0.75rem;
+      box-shadow: 0 20px 30px -10px rgba(15, 23, 42, 0.28);
+      max-height: 22rem;
+      overflow-y: auto;
+    }
+    .autocomplete-dropdown.hidden {
+      display: none;
+    }
+    .autocomplete-item {
+      width: 100%;
+      text-align: left;
+      padding: 0.65rem 0.9rem;
+      border-bottom: 1px solid var(--border-subtle);
+      background: transparent;
+      color: var(--text-primary);
+      cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      transition: background-color 0.12s ease;
+    }
+    .autocomplete-item:last-child {
+      border-bottom: none;
+    }
+    .autocomplete-item:hover,
+    .autocomplete-item.autocomplete-active {
+      background-color: rgba(37, 99, 235, 0.10);
+    }
+
+    .ballot-tier-section-header {
+      background: linear-gradient(90deg, rgba(37, 99, 235, 0.10) 0%, transparent 100%);
+      border-left: 4px solid #2563EB;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+    }
+
     /* Modal */
     .modal-backdrop {
       position: fixed;
@@ -551,13 +624,14 @@
       <div class="mt-4 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
         <div class="lg:col-span-8">
           <h1 class="text-2xl sm:text-4xl font-serif-display font-bold text-primary-custom tracking-tight">
-            The Complete 2026 Illinois Elections & PAC Money Intelligence Guide
+            The Complete 2026 Illinois Elections & PAC Money Voter Guide
           </h1>
           <p class="mt-2 text-xs sm:text-sm text-secondary-custom max-w-3xl leading-relaxed">
-            Every federal, statewide constitutional, General Assembly battleground, and county election across all 102 Illinois counties. Sort by your town, city, or Chicago neighborhood to inspect your exact ballot, compare candidate stances across 23 federal, state, and local policy issues, and trace every PAC, Super PAC, union, and megadonor association.
+            Enter your Illinois city, suburb, neighborhood, or 5-digit ZIP code below to personalize this dashboard for your exact ballot. Inspect your Federal, Statewide, General Assembly, and County candidates, compare their stances across 23 key issues, and see every PAC, Super PAC, and union funding their campaigns.
           </p>
         </div>
-        <div class="lg:col-span-4 grid grid-cols-2 gap-2.5">
+        <!-- Dynamic Hero Summary Cards (Automatically updates to user's area + federal ballot) -->
+        <div id="hero-kpi-container" class="lg:col-span-4 grid grid-cols-2 gap-2.5">
           <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
             <div class="text-[10px] font-mono uppercase text-muted-custom">Federal & State Races</div>
             <div class="text-lg font-mono font-bold text-primary-custom">U.S. Sen + 17 CDs</div>
@@ -570,6 +644,67 @@
           </div>
         </div>
       </div>
+
+      <!-- Front-and-Center City or 5-Digit ZIP Code Ballot Finder -->
+      <div class="mt-5 hero-lookup-card" id="hero-zip-city-card">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">START HERE</span>
+            <label for="hero-location-input" class="text-sm sm:text-base font-bold text-primary-custom">
+              Enter Your Illinois City, Neighborhood, or 5-Digit ZIP Code
+            </label>
+          </div>
+          <span id="hero-location-status-badge" class="text-xs font-mono text-secondary-custom">
+            Covers all Illinois ZIP codes (60001-62999) & 400+ cities/neighborhoods
+          </span>
+        </div>
+
+        <form id="hero-location-form" class="relative" autocomplete="off">
+          <div class="flex flex-col sm:flex-row gap-2">
+            <div class="relative flex-1">
+              <svg class="w-4 h-4 text-muted-custom pointer-events-none" style="position:absolute;left:0.85rem;top:50%;transform:translateY(-50%);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <input
+                id="hero-location-input"
+                type="text"
+                placeholder="Type an Illinois ZIP code or city (e.g., 60614, Naperville, 60201, Oak Park, Springfield, 62220)..."
+                class="hero-lookup-input"
+                aria-label="Enter your Illinois city, neighborhood, or 5-digit ZIP code"
+              />
+              <div id="hero-location-suggestions" class="autocomplete-dropdown hidden" role="listbox"></div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button type="submit" id="hero-location-submit-btn" class="px-4 py-2.5 rounded-lg text-xs sm:text-sm font-bold bg-blue-600 text-white hover:bg-blue-700 transition whitespace-nowrap">
+                Show My Area & Federal Ballot
+              </button>
+              <button type="button" id="hero-location-clear-btn" class="px-3 py-2.5 rounded-lg text-xs font-semibold bg-primary-custom border border-subtle-custom text-secondary-custom hover:text-red-600 hover:border-red-500/40 transition whitespace-nowrap hidden">
+                Reset to All Illinois
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div id="hero-location-feedback" class="mt-2 text-xs text-secondary-custom hidden"></div>
+
+        <!-- Popular 1-Click City & ZIP Chips -->
+        <div class="mt-3 pt-2.5 border-t border-subtle-custom flex flex-wrap items-center gap-1.5">
+          <span class="text-[11px] font-mono uppercase text-muted-custom mr-1">Popular Areas & ZIPs:</span>
+          <button type="button" data-quick-town="chicago-loop-downtown" data-quick-label="Chicago Loop (60601)" class="quick-town-pill">Chicago Loop (60601)</button>
+          <button type="button" data-quick-town="chicago-lincoln-park-lakeview" data-quick-label="Lincoln Park / Lakeview (60614)" class="quick-town-pill">Lincoln Park (60614)</button>
+          <button type="button" data-quick-town="chicago-hyde-park-bronzeville" data-quick-label="Hyde Park / Bronzeville (60615)" class="quick-town-pill">Hyde Park (60615)</button>
+          <button type="button" data-quick-town="evanston" data-quick-label="Evanston (60201)" class="quick-town-pill">Evanston (60201)</button>
+          <button type="button" data-quick-town="oak-park-river-forest" data-quick-label="Oak Park (60302)" class="quick-town-pill">Oak Park (60302)</button>
+          <button type="button" data-quick-town="schaumburg" data-quick-label="Schaumburg (60173)" class="quick-town-pill">Schaumburg (60173)</button>
+          <button type="button" data-quick-town="orland-park" data-quick-label="Orland Park (60462)" class="quick-town-pill">Orland Park (60462)</button>
+          <button type="button" data-quick-town="naperville" data-quick-label="Naperville (60540)" class="quick-town-pill">Naperville (60540)</button>
+          <button type="button" data-quick-town="aurora" data-quick-label="Aurora (60504)" class="quick-town-pill">Aurora (60504)</button>
+          <button type="button" data-quick-town="joliet" data-quick-label="Joliet (60435)" class="quick-town-pill">Joliet (60435)</button>
+          <button type="button" data-quick-town="rockford-loves-park" data-quick-label="Rockford (61101)" class="quick-town-pill">Rockford (61101)</button>
+          <button type="button" data-quick-town="springfield" data-quick-label="Springfield (62701)" class="quick-town-pill">Springfield (62701)</button>
+          <button type="button" data-quick-town="champaign-urbana" data-quick-label="Champaign-Urbana (61820)" class="quick-town-pill">Champaign (61820)</button>
+          <button type="button" data-quick-town="peoria-east-peoria" data-quick-label="Peoria (61602)" class="quick-town-pill">Peoria (61602)</button>
+          <button type="button" data-quick-town="belleville-ofallon-east-st-louis" data-quick-label="Metro East / Belleville (62220)" class="quick-town-pill">Metro East (62220)</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -579,7 +714,7 @@
       <!-- Primary Row: Town Sorter + Search + Navigation Tabs -->
       <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5 items-center">
         <div class="md:col-span-4">
-          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Sort by Your Illinois Town, City or Chicago Neighborhood</label>
+          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Browse or Switch Illinois Area / Community</label>
           <select id="town-select-control" class="filter-select font-semibold"></select>
         </div>
         <div class="md:col-span-2">
@@ -626,8 +761,8 @@
           </div>
         </div>
         <div class="md:col-span-2">
-          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Instant Keyword Search</label>
-          <input id="global-search-input" type="search" placeholder="Candidate, city, PAC, issue..." class="filter-input" />
+          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Filter by Candidate, PAC or Issue</label>
+          <input id="global-search-input" type="search" placeholder="Candidate, ZIP, city, PAC..." class="filter-input" />
         </div>
       </div>
 
@@ -636,23 +771,23 @@
         <nav class="flex flex-wrap items-center gap-1.5" aria-label="Main Views">
           <button type="button" data-tab-btn="ballot" class="nav-tab-btn tab-btn-active">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="7" y1="16" x2="12" y2="16"/></svg>
-            <span>All Races, Candidates & PACs</span>
+            <span id="ballot-tab-btn-label">All Races, Candidates & PACs</span>
           </button>
           <button type="button" data-tab-btn="towns" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Town & Neighborhood Ballot Directory</span>
+            <span>Town & ZIP Ballot Directory</span>
           </button>
           <button type="button" data-tab-btn="issues" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-            <span>Issue Stance Matrix (Federal / State / Local)</span>
+            <span>Compare on 23 Issues</span>
           </button>
           <button type="button" data-tab-btn="pacs" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
-            <span>PAC & Super PAC Power Broker Directory</span>
+            <span>PAC Money Directory</span>
           </button>
           <button type="button" data-tab-btn="compare" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-            <span>Compare Candidates (<span id="compare-count-badge">4</span>)</span>
+            <span>Side-by-Side Compare (<span id="compare-count-badge">4</span>)</span>
           </button>
           <button type="button" data-tab-btn="guide" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
@@ -681,36 +816,36 @@
     <details class="rounded-xl bg-elevated-custom border border-subtle-custom p-3.5 group">
       <summary class="issue-details-summary">
         <div class="flex flex-wrap items-center gap-2">
-          <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">QUICK START GUIDE</span>
-          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Use This 2026 Illinois Voter & PAC Money Guide in 5 Easy Steps</span>
+          <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">FAMILY & FRIENDS QUICK GUIDE</span>
+          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Check Your 2026 Ballot in 30 Seconds</span>
         </div>
         <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Click to Expand / Collapse ▼</span>
       </summary>
       <div class="mt-3 pt-3 border-t border-subtle-custom grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3 text-xs">
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 1: Pick Your Town</div>
-          <div class="font-bold text-primary-custom mt-0.5">Build Your Local Ballot</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Use dropdown <strong>#1 (Sort by Town/City)</strong> or click any city pill below to see only the Federal, State, Legislative, and County races for your exact community.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 1: Enter City or ZIP</div>
+          <div class="font-bold text-primary-custom mt-0.5">Type Your Illinois ZIP or City</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Type your <strong>5-digit ZIP code (60001-62999)</strong> or city name into the blue <strong>Start Here</strong> box above. The dashboard updates automatically with your Federal, State, and Local ballot.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 2: Follow the Money</div>
-          <div class="font-bold text-primary-custom mt-0.5">Filter by PAC or Donor</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Use dropdown <strong>#3 (Filter by PAC)</strong> to isolate candidates backed by Fairshake Crypto, AIPAC/UDP, J Street, IUOE Local 150, Teachers Unions, or Grassroots-only.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 2: Scan Your Ballot</div>
+          <div class="font-bold text-primary-custom mt-0.5">Use the At-a-Glance Summary</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Your personalized dashboard shows a <strong>Complete Ballot At-a-Glance</strong> table grouped into Federal, Statewide, State Legislature, and County/Local races.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
           <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 3: Check 23 Issues</div>
           <div class="font-bold text-primary-custom mt-0.5">Compare Policy Stances</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card lists their positions across 8 Federal, 8 State, or 7 Local issues. Or open the <strong>Issue Stance Matrix</strong> tab to compare one issue across all races.</p>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card lists their positions across 8 Federal, 8 State, or 7 Local issues. Or open <strong>Compare on 23 Issues</strong> to view one issue across all candidates.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Side-by-Side</div>
-          <div class="font-bold text-primary-custom mt-0.5">Compare Up to 4 Candidates</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Click <strong>+ Compare Candidate</strong> on any card, then switch to the <strong>Compare Candidates</strong> tab for a head-to-head table of money, PACs, and stances.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Follow the Money</div>
+          <div class="font-bold text-primary-custom mt-0.5">Inspect PACs & Donors</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows verified FEC / IL SBE fundraising and which PACs or unions support (green) or oppose (red) them.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 5: Share & Auto-Sync</div>
-          <div class="font-bold text-primary-custom mt-0.5">Share Direct Town Links</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Click <strong>Share This View</strong> at the top right to copy a direct URL to your town's ballot, or click the <strong>How to Use Guide</strong> tab for interactive examples.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 5: Compare & Share</div>
+          <div class="font-bold text-primary-custom mt-0.5">1-Click Race Compare & Link</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Click <strong>Compare Candidates in This Race</strong> on any race header, or click <strong>Share This View</strong> at the top right to text or email your area's ballot to family and friends.</p>
         </div>
       </div>
     </details>
@@ -5977,6 +6112,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-all",
     name: "Chicago (Citywide Overview)",
+    zips: ["60601", "60602", "60603", "60604", "60699"],
+    aliases: ["Chicago", "All of Chicago", "City of Chicago", "Chicago Citywide", "Downtown Chicago"],
     region: "Chicago",
     county: "Cook",
     population: "2,665,000",
@@ -5990,6 +6127,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-loop-downtown",
     name: "Chicago - The Loop, River North, Gold Coast, Streeterville & South Loop",
+    zips: ["60601", "60602", "60603", "60604", "60605", "60606", "60607", "60610", "60611", "60654", "60661"],
+    aliases: ["The Loop", "Chicago Loop", "Downtown", "River North", "Gold Coast", "Streeterville", "South Loop", "Near North Side", "Printer's Row", "Magnificent Mile", "Fulton Market", "Old Town South", "Lakeshore East", "Grant Park", "Millennium Park", "Chicago - River North", "Chicago - Gold Coast", "Chicago - Streeterville", "Chicago - South Loop", "Chicago - The Loop"],
     region: "Chicago",
     county: "Cook",
     population: "245,000",
@@ -6003,6 +6142,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-lincoln-park-lakeview",
     name: "Chicago - Lincoln Park, Lakeview, Old Town & Uptown (North Lakefront)",
+    zips: ["60613", "60614", "60618", "60625", "60640", "60657"],
+    aliases: ["Lincoln Park", "Lakeview", "Old Town", "Uptown", "North Center", "Lincoln Square", "Ravenswood", "Roscoe Village", "Wrigleyville", "Boystown", "Buena Park", "North Halsted", "St. Ben's", "Bowmanville", "North Side", "Chicago - North Side", "Chicago - Lakeview", "Chicago - North Center", "Chicago - Lincoln Square", "Chicago - Uptown", "Chicago - Lincoln Park"],
     region: "Chicago",
     county: "Cook",
     population: "285,000",
@@ -6016,6 +6157,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-rogers-park-edgewater",
     name: "Chicago - Rogers Park, Edgewater, Andersonville & West Ridge (Far North Side)",
+    zips: ["60626", "60645", "60646", "60659", "60660"],
+    aliases: ["Rogers Park", "Edgewater", "Andersonville", "West Ridge", "West Rogers Park", "Peterson Park", "Sauganash", "Albany Park", "North Park", "Hollywood Park", "Loyola", "Devon Avenue", "Far North Side", "Chicago - Edgewater", "Chicago - Andersonville", "Chicago - Sauganash", "Chicago - Albany Park", "Chicago - West Ridge", "Chicago - Rogers Park"],
     region: "Chicago",
     county: "Cook",
     population: "215,000",
@@ -6029,6 +6172,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-logan-square-avondale",
     name: "Chicago - Logan Square, Humboldt Park, Avondale, West Town & Bucktown (NW Side)",
+    zips: ["60622", "60639", "60641", "60647", "60651"],
+    aliases: ["Logan Square", "Humboldt Park", "Avondale", "West Town", "Wicker Park", "Bucktown", "Ukrainian Village", "East Village", "Noble Square", "Palmer Square", "Hermosa", "Belmont Cragin", "Irving Park", "Old Irving Park", "Kelvyn Park", "Chicago - Humboldt Park", "Chicago - West Town", "Chicago - Avondale", "Chicago - Irving Park", "Chicago - Belmont Cragin", "Chicago - Logan Square"],
     region: "Chicago",
     county: "Cook",
     population: "260,000",
@@ -6042,6 +6187,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-jefferson-park-norwood",
     name: "Chicago - Jefferson Park, Norwood Park, Edison Park, Portage Park & Dunning (Far NW Side)",
+    zips: ["60630", "60631", "60634", "60656", "60666", "60706"],
+    aliases: ["Jefferson Park", "Norwood Park", "Edison Park", "Portage Park", "Dunning", "Montclare", "Oriole Park", "O'Hare", "Edgebrook", "Forest Glen", "Mayfair", "Belmont Heights", "Belmont Terrace", "Schorsch Village", "Far Northwest Side", "Chicago - Portage Park", "Chicago - Norwood Park", "Chicago - Edison Park", "Chicago - Jefferson Park"],
     region: "Chicago",
     county: "Cook",
     population: "220,000",
@@ -6055,6 +6202,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-pilsen-little-village",
     name: "Chicago - Pilsen, Little Village, Brighton Park, Gage Park & Midway (SW Side)",
+    zips: ["60608", "60609", "60616", "60623", "60629", "60632"],
+    aliases: ["Pilsen", "Little Village", "La Villita", "Brighton Park", "Gage Park", "Midway", "Bridgeport", "Chinatown", "McKinley Park", "Back of the Yards", "New City", "Archer Heights", "West Elsdon", "West Lawn", "Chicago Lawn", "Marquette Park", "Heart of Chicago", "Armour Square", "Canaryville", "Chicago - Little Village", "Chicago - Brighton Park", "Chicago - Gage Park", "Chicago - West Lawn", "Chicago - Bridgeport", "Chicago - Chinatown", "Chicago - Pilsen"],
     region: "Chicago",
     county: "Cook",
     population: "275,000",
@@ -6068,6 +6217,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-west-side-austin",
     name: "Chicago - Austin, Garfield Park, North Lawndale & West Loop (West Side)",
+    zips: ["60612", "60624", "60644"],
+    aliases: ["Austin", "Garfield Park", "East Garfield Park", "West Garfield Park", "North Lawndale", "West Loop", "Near West Side", "Illinois Medical District", "Tri-Taylor", "Galewood", "United Center", "Greek Town", "Little Italy", "West Side", "Chicago - West Loop", "Chicago - Garfield Park", "Chicago - North Lawndale", "Chicago - Austin"],
     region: "Chicago",
     county: "Cook",
     population: "210,000",
@@ -6081,6 +6232,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-hyde-park-bronzeville",
     name: "Chicago - Hyde Park, Bronzeville, Kenwood, Woodlawn & South Shore (South Lakefront)",
+    zips: ["60615", "60617", "60633", "60637", "60649", "60653"],
+    aliases: ["Hyde Park", "Bronzeville", "Kenwood", "Woodlawn", "South Shore", "Oakland", "Douglas", "Grand Boulevard", "Washington Park", "South Chicago", "East Side", "Hegewisch", "South Deering", "Jeffrey Manor", "Calumet Heights", "Avalon Park", "Jackson Park", "Chicago - Bronzeville", "Chicago - Kenwood", "Chicago - South Shore", "Chicago - Hegewisch", "Chicago - Hyde Park"],
     region: "Chicago",
     county: "Cook",
     population: "230,000",
@@ -6094,6 +6247,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-chatham-englewood",
     name: "Chicago - Chatham, Auburn Gresham, Englewood, Roseland & Pullman (South & Far South Side)",
+    zips: ["60619", "60620", "60621", "60628", "60636"],
+    aliases: ["Chatham", "Auburn Gresham", "Englewood", "West Englewood", "Roseland", "Pullman", "West Pullman", "Greater Grand Crossing", "Park Manor", "Burnside", "Washington Heights", "Riverdale Chicago", "Altgeld Gardens", "Rosemoor", "Gresham", "Far South Side", "Chicago - Roseland", "Chicago - Pullman", "Chicago - Englewood", "Chicago - Chatham"],
     region: "Chicago",
     county: "Cook",
     population: "250,000",
@@ -6107,6 +6262,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-beverly-mt-greenwood",
     name: "Chicago - Beverly, Mount Greenwood, Morgan Park & Clearing (19th & 23rd Wards)",
+    zips: ["60638", "60643", "60652", "60655"],
+    aliases: ["Beverly", "Mount Greenwood", "Mt. Greenwood", "Morgan Park", "Clearing", "Garfield Ridge", "Ashburn", "Wrightwood", "Scottsdale", "Vittum Park", "Sleepy Hollow Chicago", "19th Ward", "23rd Ward", "Chicago - Morgan Park", "Chicago - Garfield Ridge", "Chicago - Mount Greenwood", "Chicago - Beverly"],
     region: "Chicago",
     county: "Cook",
     population: "135,000",
@@ -6122,6 +6279,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "evanston",
     name: "Evanston",
+    zips: ["60201", "60202", "60203", "60204", "60208", "60209"],
+    aliases: ["Evanston", "Northwestern University", "Rogers Park Border"],
     region: "Suburban Cook (North Shore)",
     county: "Cook",
     population: "76,500",
@@ -6135,6 +6294,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "skokie",
     name: "Skokie",
+    zips: ["60076", "60077"],
+    aliases: ["Skokie", "Niles Township", "Devon-McCormick"],
     region: "Suburban Cook (Near North Suburbs)",
     county: "Cook",
     population: "66,000",
@@ -6148,6 +6309,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "glenview",
     name: "Glenview",
+    zips: ["60025", "60026", "60029"],
+    aliases: ["Glenview", "Golf", "The Glen", "Northfield Township"],
     region: "Suburban Cook (North Shore)",
     county: "Cook",
     population: "48,000",
@@ -6161,6 +6324,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "northbrook",
     name: "Northbrook",
+    zips: ["60062", "60065"],
+    aliases: ["Northbrook", "Techny"],
     region: "Suburban Cook (North Shore)",
     county: "Cook",
     population: "34,800",
@@ -6174,6 +6339,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "wilmette-winnetka",
     name: "Wilmette, Winnetka, Glencoe & Kenilworth (New Trier Township)",
+    zips: ["60022", "60043", "60091", "60093"],
+    aliases: ["Wilmette", "Winnetka", "Glencoe", "Kenilworth", "Northfield", "New Trier", "New Trier Township"],
     region: "Suburban Cook (North Shore)",
     county: "Cook",
     population: "56,000",
@@ -6187,6 +6354,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "niles-morton-grove",
     name: "Niles, Morton Grove & Lincolnwood",
+    zips: ["60053", "60712", "60714"],
+    aliases: ["Niles", "Morton Grove", "Lincolnwood"],
     region: "Suburban Cook (Near North Suburbs)",
     county: "Cook",
     population: "68,000",
@@ -6200,6 +6369,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "park-ridge",
     name: "Park Ridge",
+    zips: ["60068", "60706"],
+    aliases: ["Park Ridge", "Norridge", "Harwood Heights", "Maine Township"],
     region: "Suburban Cook (Northwest Suburbs)",
     county: "Cook",
     population: "39,000",
@@ -6213,6 +6384,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "des-plaines",
     name: "Des Plaines",
+    zips: ["60016", "60017", "60018", "60019"],
+    aliases: ["Des Plaines", "Rosemont"],
     region: "Suburban Cook (Northwest Suburbs)",
     county: "Cook",
     population: "59,500",
@@ -6226,6 +6399,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "arlington-heights",
     name: "Arlington Heights",
+    zips: ["60004", "60005", "60006", "60070", "60090"],
+    aliases: ["Arlington Heights", "Prospect Heights", "Wheeling", "Wheeling Township"],
     region: "Suburban Cook (Northwest Suburbs)",
     county: "Cook",
     population: "76,000",
@@ -6239,6 +6414,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "schaumburg",
     name: "Schaumburg & Hoffman Estates",
+    zips: ["60107", "60133", "60168", "60169", "60173", "60179", "60192", "60193", "60194", "60195", "60196"],
+    aliases: ["Schaumburg", "Hoffman Estates", "Streamwood", "Hanover Park", "Schaumburg Township", "Woodfield"],
     region: "Suburban Cook (Northwest Suburbs)",
     county: "Cook",
     population: "128,000",
@@ -6252,6 +6429,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "mount-prospect-palatine",
     name: "Mount Prospect, Palatine & Rolling Meadows",
+    zips: ["60008", "60056", "60067", "60074", "60078"],
+    aliases: ["Mount Prospect", "Mt. Prospect", "Palatine", "Rolling Meadows", "Inverness", "Palatine Township"],
     region: "Suburban Cook (Northwest Suburbs)",
     county: "Cook",
     population: "147,000",
@@ -6265,6 +6444,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "elk-grove-village",
     name: "Elk Grove Village",
+    zips: ["60007", "60009", "60143"],
+    aliases: ["Elk Grove Village", "Elk Grove", "Itasca", "Elk Grove Township"],
     region: "Suburban Cook & DuPage (Northwest Suburbs)",
     county: "Cook",
     population: "32,500",
@@ -6278,6 +6459,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "oak-park-river-forest",
     name: "Oak Park, River Forest & Forest Park",
+    zips: ["60130", "60301", "60302", "60303", "60304", "60305", "60707"],
+    aliases: ["Oak Park", "River Forest", "Forest Park", "Elmwood Park", "All Cook County Suburbs", "All of Cook County"],
     region: "Suburban Cook (Near West Suburbs)",
     county: "Cook",
     population: "78,000",
@@ -6291,6 +6474,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "maywood-proviso",
     name: "Maywood, Bellwood, Hillside, Broadview & Westchester (Proviso Township)",
+    zips: ["60104", "60131", "60153", "60154", "60155", "60160", "60162", "60163", "60164", "60165", "60171", "60176"],
+    aliases: ["Maywood", "Bellwood", "Hillside", "Broadview", "Westchester", "Proviso Township", "Melrose Park", "Franklin Park", "Northlake", "Stone Park", "Schiller Park", "Berkeley", "River Grove", "Leyden Township"],
     region: "Suburban Cook (West Suburbs)",
     county: "Cook",
     population: "82,000",
@@ -6304,6 +6489,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "cicero-berwyn",
     name: "Cicero & Berwyn",
+    zips: ["60402", "60804"],
+    aliases: ["Cicero", "Berwyn", "Stickney", "Forest View"],
     region: "Suburban Cook (Near West Suburbs)",
     county: "Cook",
     population: "136,000",
@@ -6317,6 +6504,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "la-grange-western-springs",
     name: "La Grange, Western Springs, Brookfield & Riverside (Lyons Township)",
+    zips: ["60439", "60458", "60480", "60501", "60513", "60525", "60526", "60534", "60546", "60558"],
+    aliases: ["La Grange", "LaGrange", "La Grange Park", "Western Springs", "Brookfield", "Riverside", "North Riverside", "Lyons", "Lyons Township", "Summit", "Countryside", "Indian Head Park", "Hodgkins", "McCook", "Bedford Park", "Justice", "Willow Springs"],
     region: "Suburban Cook (West Suburbs)",
     county: "Cook",
     population: "61,000",
@@ -6330,6 +6519,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "orland-park",
     name: "Orland Park",
+    zips: ["60462", "60464", "60467"],
+    aliases: ["Orland Park", "Orland Hills", "Palos Park", "Orland Township"],
     region: "Suburban Cook (Southwest Suburbs)",
     county: "Cook",
     population: "58,000",
@@ -6343,6 +6534,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "tinley-park",
     name: "Tinley Park & Oak Forest",
+    zips: ["60445", "60452", "60477", "60478", "60487"],
+    aliases: ["Tinley Park", "Oak Forest", "Midlothian", "Crestwood", "Country Club Hills", "Bremen Township"],
     region: "Suburban Cook & Will (Southwest Suburbs)",
     county: "Cook",
     population: "83,000",
@@ -6356,6 +6549,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "oak-lawn-palos",
     name: "Oak Lawn, Palos Heights, Palos Hills, Worth & Evergreen Park",
+    zips: ["60406", "60415", "60453", "60455", "60456", "60457", "60459", "60463", "60465", "60482", "60803", "60805"],
+    aliases: ["Oak Lawn", "Palos Heights", "Palos Hills", "Worth", "Evergreen Park", "Alsip", "Blue Island", "Bridgeview", "Burbank", "Chicago Ridge", "Hickory Hills", "Hometown", "Merrionette Park", "Worth Township", "Palos Township"],
     region: "Suburban Cook (Southwest Suburbs)",
     county: "Cook",
     population: "118,000",
@@ -6369,6 +6564,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "chicago-heights-flossmoor",
     name: "Chicago Heights, Flossmoor, Homewood, Matteson & Olympia Fields (South Suburbs)",
+    zips: ["60401", "60411", "60417", "60422", "60423", "60425", "60429", "60430", "60443", "60449", "60461", "60466", "60468", "60471", "60475", "60484"],
+    aliases: ["Chicago Heights", "Flossmoor", "Homewood", "Matteson", "Olympia Fields", "Park Forest", "Richton Park", "University Park", "Crete", "Monee", "Peotone", "Beecher", "Steger", "Sauk Village", "Glenwood", "Lynwood", "Hazel Crest", "East Hazel Crest", "Ford Heights", "South Chicago Heights", "Bloom Township", "Rich Township"],
     region: "Suburban Cook (South Suburbs)",
     county: "Cook",
     population: "95,000",
@@ -6382,6 +6579,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "calumet-city-harvey-dolton",
     name: "Calumet City, Harvey, Dolton, Lansing & South Holland (Thornton Township)",
+    zips: ["60409", "60419", "60426", "60428", "60438", "60469", "60472", "60473", "60476", "60827"],
+    aliases: ["Calumet City", "Harvey", "Dolton", "Lansing", "South Holland", "Thornton", "Thornton Township", "Riverdale", "Robbins", "Markham", "Posen", "Dixmoor", "Phoenix", "Burnham", "Calumet Park"],
     region: "Suburban Cook (South Suburbs)",
     county: "Cook",
     population: "145,000",
@@ -6397,6 +6596,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "naperville",
     name: "Naperville",
+    zips: ["60540", "60563", "60564", "60565", "60566", "60567"],
+    aliases: ["Naperville", "Naperville Township", "Wheatland Township"],
     region: "Collar Counties (DuPage & Will)",
     county: "DuPage",
     population: "150,500",
@@ -6410,6 +6611,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "aurora",
     name: "Aurora",
+    zips: ["60502", "60503", "60504", "60505", "60506", "60507", "60538", "60542", "60554"],
+    aliases: ["Aurora", "North Aurora", "Montgomery", "Sugar Grove", "Boulder Hill", "Fox Valley"],
     region: "Collar Counties (Kane, DuPage, Will & Kendall)",
     county: "Kane",
     population: "180,500",
@@ -6423,6 +6626,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "joliet",
     name: "Joliet",
+    zips: ["60403", "60404", "60408", "60410", "60416", "60421", "60431", "60432", "60433", "60434", "60435", "60436", "60447", "60481"],
+    aliases: ["Joliet", "Crest Hill", "Rockdale", "Elwood", "Channahon", "Minooka", "Wilmington", "Braidwood", "Coal City", "diamond", "Will County"],
     region: "Collar Counties (Will & Kendall)",
     county: "Will",
     population: "151,000",
@@ -6436,6 +6641,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "elgin",
     name: "Elgin",
+    zips: ["60120", "60121", "60123", "60124", "60136", "60140", "60170", "60177"],
+    aliases: ["Elgin", "South Elgin", "Hampshire", "Pingree Grove", "Gilberts", "Burlington", "Plato Center"],
     region: "Collar Counties (Kane & Cook)",
     county: "Kane",
     population: "114,500",
@@ -6449,6 +6656,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "waukegan-north-chicago",
     name: "Waukegan & North Chicago",
+    zips: ["60064", "60083", "60085", "60087", "60088", "60096", "60099"],
+    aliases: ["Waukegan", "North Chicago", "Park City", "Zion", "Beach Park", "Winthrop Harbor", "Wadsworth", "Great Lakes"],
     region: "Collar Counties (Lake County)",
     county: "Lake",
     population: "119,000",
@@ -6462,6 +6671,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "wheaton-glen-ellyn",
     name: "Wheaton, Glen Ellyn, Warrenville & Winfield",
+    zips: ["60137", "60138", "60185", "60186", "60187", "60189", "60190", "60555"],
+    aliases: ["Wheaton", "Glen Ellyn", "Warrenville", "Winfield", "West Chicago", "Milton Township"],
     region: "Collar Counties (DuPage County)",
     county: "DuPage",
     population: "106,000",
@@ -6475,6 +6686,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "downers-grove-hinsdale",
     name: "Downers Grove, Hinsdale, Burr Ridge, Lisle, Woodridge & Darien",
+    zips: ["60514", "60515", "60516", "60517", "60521", "60527", "60532", "60559", "60561"],
+    aliases: ["Downers Grove", "Hinsdale", "Burr Ridge", "Lisle", "Woodridge", "Darien", "Clarendon Hills", "Westmont", "Willowbrook", "Oakbrook Terrace", "Downers Grove Township"],
     region: "Collar Counties (SE DuPage County)",
     county: "DuPage",
     population: "152,000",
@@ -6488,6 +6701,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "elmhurst-lombard-oak-brook",
     name: "Elmhurst, Lombard, Villa Park & Oak Brook",
+    zips: ["60126", "60148", "60181", "60523"],
+    aliases: ["Elmhurst", "Lombard", "Villa Park", "Oak Brook", "Oakbrook", "York Township"],
     region: "Collar Counties (East DuPage County)",
     county: "DuPage",
     population: "123,000",
@@ -6501,6 +6716,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "carol-stream-bloomingdale-bartlett",
     name: "Carol Stream, Bloomingdale, Roselle, Bartlett, Addison & Bensenville",
+    zips: ["60101", "60103", "60106", "60108", "60139", "60157", "60172", "60184", "60188", "60191"],
+    aliases: ["Carol Stream", "Bloomingdale", "Roselle", "Bartlett", "Addison", "Bensenville", "Wood Dale", "Glendale Heights", "Medinah", "Wayne", "Bloomingdale Township", "Addison Township"],
     region: "Collar Counties (North DuPage & NW Cook)",
     county: "DuPage",
     population: "168,000",
@@ -6514,6 +6731,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "bolingbrook-romeoville",
     name: "Bolingbrook & Romeoville",
+    zips: ["60439", "60440", "60446", "60490"],
+    aliases: ["Bolingbrook", "Romeoville", "Lemont", "DuPage Township"],
     region: "Collar Counties (North Will County)",
     county: "Will",
     population: "115,000",
@@ -6527,6 +6746,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "plainfield-oswego-shorewood",
     name: "Plainfield, Shorewood, Oswego & Yorkville (Will & Kendall Corridor)",
+    zips: ["60543", "60544", "60545", "60548", "60560", "60585", "60586"],
+    aliases: ["Plainfield", "Shorewood", "Oswego", "Yorkville", "Plano", "Sandwich", "Kendall County", "Bristol", "Newark"],
     region: "Collar Counties (Will & Kendall)",
     county: "Will",
     population: "125,000",
@@ -6540,6 +6761,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "new-lenox-frankfort-mokena",
     name: "New Lenox, Frankfort, Mokena, Homer Glen & Lockport (Lincoln-Way Corridor)",
+    zips: ["60423", "60441", "60442", "60448", "60451", "60491"],
+    aliases: ["New Lenox", "Frankfort", "Mokena", "Homer Glen", "Lockport", "Manhattan", "Lincoln-Way"],
     region: "Collar Counties (Will County)",
     county: "Will",
     population: "112,000",
@@ -6553,6 +6776,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "st-charles-geneva-batavia",
     name: "St. Charles, Geneva & Batavia (Tri-Cities Fox Valley)",
+    zips: ["60119", "60134", "60144", "60151", "60174", "60175", "60510"],
+    aliases: ["St. Charles", "Saint Charles", "Geneva", "Batavia", "Elburn", "Campton Hills", "Maple Park", "Kaneville"],
     region: "Collar Counties (Kane County)",
     county: "Kane",
     population: "82,000",
@@ -6566,6 +6791,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "carpentersville-dundee-algonquin",
     name: "Carpentersville, West Dundee, East Dundee, Algonquin & Huntley",
+    zips: ["60102", "60110", "60118", "60142", "60156"],
+    aliases: ["Carpentersville", "West Dundee", "East Dundee", "Dundee", "Algonquin", "Huntley", "Lake in the Hills", "Sleepy Hollow"],
     region: "Collar Counties (North Kane & SE McHenry)",
     county: "Kane",
     population: "108,000",
@@ -6579,6 +6806,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "crystal-lake-cary-mchenry",
     name: "Crystal Lake, Cary, McHenry, Woodstock & Fox River Grove",
+    zips: ["60012", "60013", "60014", "60021", "60033", "60050", "60051", "60071", "60072", "60081", "60097", "60098", "60152"],
+    aliases: ["Crystal Lake", "Cary", "McHenry", "Woodstock", "Fox River Grove", "Marengo", "Harvard", "Johnsburg", "Wonder Lake", "Richmond", "Spring Grove", "Hebron", "Union", "Oakwood Hills", "Bull Valley"],
     region: "Collar Counties (McHenry County)",
     county: "McHenry",
     population: "118,000",
@@ -6592,6 +6821,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "barrington-lake-zurich-wauconda",
     name: "Barrington, Barrington Hills, Lake Zurich, Wauconda & Hawthorn Woods",
+    zips: ["60010", "60011", "60042", "60047", "60084"],
+    aliases: ["Barrington", "Barrington Hills", "North Barrington", "South Barrington", "Lake Barrington", "Tower Lakes", "Lake Zurich", "Wauconda", "Hawthorn Woods", "Kildeer", "Deer Park", "Island Lake"],
     region: "Collar Counties (SW Lake, NW Cook & SE McHenry)",
     county: "Lake",
     population: "68,000",
@@ -6605,6 +6836,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "highland-park-deerfield-lake-forest",
     name: "Highland Park, Deerfield, Lake Forest, Libertyville & Lincolnshire",
+    zips: ["60015", "60035", "60037", "60040", "60044", "60045", "60048", "60069"],
+    aliases: ["Highland Park", "Deerfield", "Lake Forest", "Libertyville", "Lincolnshire", "Lake Bluff", "Highwood", "Riverwoods", "Bannockburn", "Green Oaks", "Mettawa", "Fort Sheridan"],
     region: "Collar Counties (SE Lake County)",
     county: "Lake",
     population: "98,000",
@@ -6618,6 +6851,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "buffalo-grove-mundelein-gurnee",
     name: "Buffalo Grove, Vernon Hills, Mundelein, Gurnee, Grayslake & Round Lake",
+    zips: ["60002", "60020", "60030", "60031", "60041", "60046", "60060", "60061", "60073", "60089"],
+    aliases: ["Buffalo Grove", "Vernon Hills", "Mundelein", "Gurnee", "Grayslake", "Round Lake", "Round Lake Beach", "Round Lake Park", "Round Lake Heights", "Hainesville", "Long Grove", "Antioch", "Fox Lake", "Lake Villa", "Lindenhurst", "Ingleside", "Volo", "Lakemoor"],
     region: "Collar Counties (Central & North Lake County)",
     county: "Lake",
     population: "165,000",
@@ -6633,6 +6868,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "rockford-loves-park",
     name: "Rockford, Loves Park, Machesney Park & Roscoe (Winnebago County)",
+    zips: ["61010", "61016", "61061", "61063", "61072", "61073", "61080", "61088", "61101", "61102", "61103", "61104", "61107", "61108", "61109", "61111", "61114", "61115"],
+    aliases: ["Rockford", "Loves Park", "Machesney Park", "Roscoe", "Rockton", "Cherry Valley", "Pecatonica", "Winnebago", "South Beloit", "Byron", "Oregon", "Durand", "Shirland", "New Milford"],
     region: "Northern Illinois",
     county: "Winnebago",
     population: "212,000",
@@ -6646,6 +6883,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "belvidere-boone",
     name: "Belvidere (Boone County)",
+    zips: ["61008", "61011", "61012", "61065"],
+    aliases: ["Belvidere", "Poplar Grove", "Caledonia", "Capron", "Boone County", "Candlewick Lake"],
     region: "Northern Illinois",
     county: "Boone",
     population: "25,300",
@@ -6659,6 +6898,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "dekalb-sycamore",
     name: "DeKalb & Sycamore (DeKalb County - NIU)",
+    zips: ["60111", "60112", "60115", "60135", "60145", "60146", "60178", "60520", "60550", "60556", "61068"],
+    aliases: ["DeKalb", "Sycamore", "Rochelle", "Genoa", "Cortland", "Hinckley", "Shabbona", "Waterman", "Kingston", "Kirkland", "Malta", "NIU"],
     region: "Northern Illinois",
     county: "DeKalb",
     population: "59,000",
@@ -6672,6 +6913,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "ottawa-lasalle-peru",
     name: "Ottawa, LaSalle, Peru, Streator & Mendota (Illinois Valley - Starved Rock)",
+    zips: ["60444", "60450", "60479", "61301", "61341", "61342", "61348", "61350", "61354", "61356", "61362", "61364", "61373"],
+    aliases: ["Ottawa", "LaSalle", "La Salle", "Peru", "Streator", "Mendota", "Morris", "Princeton", "Spring Valley", "Oglesby", "Utica", "Marseilles", "Seneca", "Ladd", "Hennepin", "Starved Rock"],
     region: "Northern Illinois & Illinois Valley",
     county: "LaSalle",
     population: "62,000",
@@ -6685,6 +6928,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "freeport-galena-savanna",
     name: "Freeport, Galena, Savanna, Dixon & Sterling-Rock Falls (NW Illinois)",
+    zips: ["61021", "61025", "61030", "61032", "61036", "61048", "61053", "61071", "61074", "61081", "61252", "61270"],
+    aliases: ["Freeport", "Galena", "Savanna", "Dixon", "Sterling", "Rock Falls", "Sterling-Rock Falls", "Mount Carroll", "Mt. Carroll", "East Dubuque", "Forreston", "Lena", "Stockton", "Warren", "Fulton", "Morrison", "Amboy", "Polo", "Prophetstown"],
     region: "Northern & Northwest Illinois",
     county: "Stephenson",
     population: "85,000",
@@ -6700,6 +6945,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "springfield",
     name: "Springfield, Chatham & Rochester (Sangamon County - State Capital)",
+    zips: ["62056", "62510", "62520", "62557", "62558", "62563", "62568", "62615", "62626", "62629", "62640", "62656", "62670", "62675", "62684", "62701", "62702", "62703", "62704", "62707", "62711", "62712"],
+    aliases: ["Springfield", "Chatham", "Rochester", "Sherman", "Riverton", "Jerome", "Leland Grove", "Southern View", "Grandview", "Williamsville", "Auburn", "Pawnee", "New Berlin", "Pleasant Plains", "Petersburg", "Lincoln", "Taylorville", "Pana", "Litchfield", "Hillsboro", "Carlinville", "Girard", "Virden"],
     region: "Central Illinois",
     county: "Sangamon",
     population: "136,000",
@@ -6713,6 +6960,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "champaign-urbana",
     name: "Champaign, Urbana, Savoy, Rantoul & Mahomet (Champaign County - UIUC)",
+    zips: ["60936", "60957", "61801", "61802", "61803", "61820", "61821", "61822", "61824", "61847", "61853", "61856", "61866", "61873", "61874", "61880", "61953"],
+    aliases: ["Champaign", "Urbana", "Champaign-Urbana", "Savoy", "Rantoul", "Mahomet", "Gifford", "St. Joseph", "Tolono", "Philo", "Sidney", "Homer", "Fisher", "Monticello", "Tuscola", "Arcola", "Villa Grove", "Paxton", "Gibson City", "UIUC"],
     region: "Central Illinois",
     county: "Champaign",
     population: "158,000",
@@ -6726,6 +6975,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "danville",
     name: "Danville (Vermilion County)",
+    zips: ["60942", "61817", "61832", "61834", "61846", "61858", "61883", "61944"],
+    aliases: ["Danville", "Tilton", "Westville", "Georgetown", "Hoopeston", "Catlin", "Oakwood", "Paris", "Marshall"],
     region: "Central Illinois",
     county: "Vermilion",
     population: "28,500",
@@ -6739,6 +6990,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "bloomington-normal",
     name: "Bloomington & Normal (McLean County - ISU & Rivian)",
+    zips: ["61701", "61702", "61704", "61705", "61727", "61736", "61738", "61745", "61752", "61761", "61764", "61776"],
+    aliases: ["Bloomington", "Normal", "Bloomington-Normal", "Pontiac", "Clinton", "Le Roy", "Heyworth", "Downs", "Towanda", "Hudson", "El Paso", "Fairbury", "Dwight", "ISU"],
     region: "Central Illinois",
     county: "McLean",
     population: "132,000",
@@ -6752,6 +7005,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "peoria-east-peoria",
     name: "Peoria, East Peoria, Pekin, Morton & Washington (Tri-County Area)",
+    zips: ["61520", "61523", "61525", "61530", "61548", "61550", "61554", "61571", "61601", "61602", "61603", "61604", "61605", "61606", "61607", "61611", "61614", "61615", "61616"],
+    aliases: ["Peoria", "East Peoria", "Pekin", "Morton", "Washington", "West Peoria", "Peoria Heights", "Bartonville", "Creve Coeur", "Chillicothe", "Dunlap", "Eureka", "Metamora", "Germantown Hills", "Canton", "Lewistown", "Havana", "Hopedale", "Tremont", "Mackinaw"],
     region: "Central Illinois",
     county: "Peoria",
     population: "185,000",
@@ -6765,6 +7020,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "decatur",
     name: "Decatur, Forsyth & Mt. Zion (Macon County)",
+    zips: ["61920", "61938", "62521", "62522", "62523", "62526", "62535", "62549", "62565"],
+    aliases: ["Decatur", "Forsyth", "Mt. Zion", "Mount Zion", "Maroa", "Harristown", "Long Creek", "Mattoon", "Charleston", "Shelbyville", "Sullivan"],
     region: "Central Illinois",
     county: "Macon",
     population: "79,000",
@@ -6778,6 +7035,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "quad-cities-rock-island-moline",
     name: "Rock Island, Moline, East Moline & Silvis (Quad Cities - Rock Island County)",
+    zips: ["61201", "61239", "61240", "61241", "61244", "61254", "61256", "61264", "61265", "61275", "61282", "61443"],
+    aliases: ["Rock Island", "Moline", "East Moline", "Silvis", "Quad Cities", "Milan", "Coal Valley", "Hampton", "Carbon Cliff", "Port Byron", "Rapids City", "Colona", "Geneseo", "Kewanee", "Orion", "Andalusia"],
     region: "Western Illinois & Quad Cities",
     county: "Rock Island",
     population: "142,000",
@@ -6791,6 +7050,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "galesburg-monmouth-macomb",
     name: "Galesburg, Monmouth & Macomb (Western Illinois - WIU)",
+    zips: ["61231", "61401", "61410", "61422", "61448", "61455", "61462", "62321"],
+    aliases: ["Galesburg", "Monmouth", "Macomb", "Knoxville", "Abingdon", "Bushnell", "Aledo", "Carthage", "Hamilton", "Warsaw", "WIU"],
     region: "Western Illinois",
     county: "Knox",
     population: "56,000",
@@ -6804,6 +7065,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "quincy-jacksonville",
     name: "Quincy & Jacksonville (Adams & Morgan Counties - West-Central IL)",
+    zips: ["62052", "62301", "62305", "62353", "62363", "62618", "62650", "62681"],
+    aliases: ["Quincy", "Jacksonville", "South Jacksonville", "Beardstown", "Jerseyville", "Pittsfield", "Rushville", "Mt. Sterling", "Mount Sterling", "Carrollton", "White Hall"],
     region: "Central & Western Illinois",
     county: "Adams",
     population: "59,000",
@@ -6817,6 +7080,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "kankakee-bourbonnais-bradley",
     name: "Kankakee, Bourbonnais, Bradley & Manteno (Kankakee County)",
+    zips: ["60901", "60914", "60915", "60941", "60950", "60954", "60964", "60970"],
+    aliases: ["Kankakee", "Bourbonnais", "Bradley", "Manteno", "Momence", "Watseka", "St. Anne", "Herscher", "Aroma Park", "Grant Park Village"],
     region: "Suburban/Downstate Transition (Kankakee County)",
     county: "Kankakee",
     population: "74,000",
@@ -6832,6 +7097,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "edwardsville-alton-granite-city",
     name: "Edwardsville, Alton, Granite City, Collinsville & Godfrey (Madison County - Metro East)",
+    zips: ["62002", "62010", "62018", "62024", "62025", "62034", "62035", "62040", "62048", "62060", "62062", "62084", "62090", "62095", "62234", "62246", "62249", "62294", "62471"],
+    aliases: ["Edwardsville", "Alton", "Granite City", "Collinsville", "Godfrey", "Glen Carbon", "Wood River", "Bethalto", "East Alton", "Roxana", "Hartford", "South Roxana", "Maryville", "Troy", "Highland", "Madison", "Venice", "Pontoon Beach", "Greenville", "Vandalia", "Staunton", "Gillespie"],
     region: "Metro East & Southern Illinois",
     county: "Madison",
     population: "145,000",
@@ -6845,6 +7112,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "belleville-ofallon-east-st-louis",
     name: "Belleville, O'Fallon, East St. Louis, Cahokia Heights, Fairview Heights & Mascoutah (St. Clair County)",
+    zips: ["62201", "62203", "62204", "62205", "62206", "62207", "62208", "62220", "62221", "62222", "62223", "62225", "62226", "62232", "62233", "62236", "62239", "62243", "62254", "62257", "62258", "62260", "62264", "62269", "62278", "62286", "62293", "62298"],
+    aliases: ["Belleville", "O'Fallon", "OFallon", "East St. Louis", "East Saint Louis", "Cahokia Heights", "Cahokia", "Fairview Heights", "Mascoutah", "Swansea", "Shiloh", "Lebanon", "Caseyville", "Dupo", "Millstadt", "Freeburg", "New Athens", "Marissa", "Columbia", "Waterloo", "Red Bud", "Chester", "Sparta", "Breese", "Carlyle", "Trenton", "Scott AFB", "Metro East"],
     region: "Metro East & Southern Illinois",
     county: "St. Clair",
     population: "162,000",
@@ -6858,6 +7127,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "carbondale-marion-herrin",
     name: "Carbondale, Murphysboro, Marion & Herrin (Jackson & Williamson Counties - SIU)",
+    zips: ["62812", "62832", "62896", "62901", "62902", "62903", "62906", "62918", "62924", "62933", "62948", "62951", "62952", "62959", "62966", "62974"],
+    aliases: ["Carbondale", "Murphysboro", "Marion", "Herrin", "Carterville", "West Frankfort", "Benton", "Du Quoin", "Pinckneyville", "Johnston City", "Energy", "Crainville", "De Soto", "Anna", "Jonesboro", "Cobden", "SIU", "SIUC"],
     region: "Southern Illinois",
     county: "Jackson",
     population: "78,000",
@@ -6871,6 +7142,8 @@ window.IL_TOWNS_DIRECTORY = [
   {
     id: "mt-vernon-effingham-centralia-cairo",
     name: "Mt. Vernon, Effingham, Centralia, Olney, Harrisburg & Cairo (Deep Southern & SE Illinois)",
+    zips: ["62401", "62439", "62450", "62454", "62801", "62821", "62837", "62839", "62859", "62864", "62881", "62914", "62930", "62946", "62960", "62964", "62984", "62995"],
+    aliases: ["Mt. Vernon", "Mount Vernon", "Effingham", "Centralia", "Olney", "Harrisburg", "Cairo", "Salem", "Metropolis", "Vienna", "Robinson", "Lawrenceville", "Flora", "Fairfield", "Carmi", "McLeansboro", "Eldorado", "Shawneetown", "Mound City", "Xenia", "Newton", "Albion", "Golconda"],
     region: "Southern Illinois",
     county: "Jefferson",
     population: "82,000",
@@ -8069,7 +8342,7 @@ window.IL_LIVE_SYNC_META = {
 
 // ===== FILE: app.js =====
 // 2026 Illinois Midterm Elections - Interactive Application Engine
-// Handles Town/City Ballot Sorting, Multi-Level Race Filtering, Issue Stance Matrix, PAC Power Tracker & Candidate Comparison
+// Handles City & 5-Digit ZIP Code Ballot Lookup, Dynamic Area + Federal Dashboard, Issue Stance Matrix, PAC Power Tracker & Candidate Comparison
 
 (function () {
   "use strict";
@@ -8106,10 +8379,314 @@ window.IL_LIVE_SYNC_META = {
     });
   });
 
+  // Build fast ZIP code & Municipality Alias Lookup Index
+  const ZIP_TO_TOWN_MAP = new Map();
+  TOWNS.forEach((town) => {
+    (town.zips || []).forEach((z) => {
+      const zipStr = String(z).trim();
+      // Prefer specific Chicago neighborhood hubs over citywide 'chicago-all' for specific ZIPs
+      if (!ZIP_TO_TOWN_MAP.has(zipStr) || ZIP_TO_TOWN_MAP.get(zipStr).id === "chicago-all") {
+        ZIP_TO_TOWN_MAP.set(zipStr, town);
+      }
+    });
+  });
+
+  // Complete deterministic fallback resolver for all Illinois 5-digit ZIP codes (60001 - 62999)
+  function resolveIllinoisZipFallback(zip5) {
+    if (!/^\d{5}$/.test(zip5)) return null;
+    if (ZIP_TO_TOWN_MAP.has(zip5)) {
+      return { town: ZIP_TO_TOWN_MAP.get(zip5), exactZip: true };
+    }
+    const num = Number(zip5);
+    if (num < 60001 || num > 62999) {
+      return { outOfState: true, zip: zip5 };
+    }
+    const prefix3 = Math.floor(num / 100);
+    let fallbackId = "chicago-all";
+
+    if (prefix3 === 600) {
+      if ([60004, 60005, 60006, 60070, 60090].includes(num)) fallbackId = "arlington-heights";
+      else if ([60007, 60009].includes(num)) fallbackId = "elk-grove-village";
+      else if ([60008, 60056, 60067, 60074, 60078].includes(num)) fallbackId = "mount-prospect-palatine";
+      else if ([60010, 60011, 60042, 60047, 60084].includes(num)) fallbackId = "barrington-lake-zurich-wauconda";
+      else if ([60012, 60013, 60014, 60021, 60033, 60034, 60050, 60051, 60071, 60072, 60081, 60097, 60098].includes(num)) fallbackId = "crystal-lake-cary-mchenry";
+      else if ([60015, 60035, 60037, 60040, 60044, 60045, 60048, 60069].includes(num)) fallbackId = "highland-park-deerfield-lake-forest";
+      else if (num >= 60016 && num <= 60019) fallbackId = "des-plaines";
+      else if ([60022, 60043, 60091, 60093].includes(num)) fallbackId = "wilmette-winnetka";
+      else if ([60025, 60026, 60029].includes(num)) fallbackId = "glenview";
+      else if (num === 60053) fallbackId = "niles-morton-grove";
+      else if ([60062, 60065].includes(num)) fallbackId = "northbrook";
+      else if (num === 60068) fallbackId = "park-ridge";
+      else if ([60076, 60077].includes(num)) fallbackId = "skokie";
+      else if ([60064, 60083, 60085, 60087, 60088, 60096, 60099].includes(num)) fallbackId = "waukegan-north-chicago";
+      else fallbackId = "buffalo-grove-mundelein-gurnee";
+    } else if (prefix3 === 601) {
+      if ([60101, 60103, 60106, 60108, 60139, 60157, 60172, 60184, 60188, 60191].includes(num)) fallbackId = "carol-stream-bloomingdale-bartlett";
+      else if ([60102, 60110, 60118, 60142, 60156].includes(num)) fallbackId = "carpentersville-dundee-algonquin";
+      else if ((num >= 60153 && num <= 60165) || [60104, 60131, 60171, 60176].includes(num)) fallbackId = "maywood-proviso";
+      else if ((num >= 60192 && num <= 60196) || [60107, 60133, 60168, 60169, 60173, 60179].includes(num)) fallbackId = "schaumburg";
+      else if ((num >= 60111 && num <= 60115) || [60135, 60145, 60146, 60150, 60178].includes(num)) fallbackId = "dekalb-sycamore";
+      else if ([60119, 60134, 60144, 60147, 60151, 60174, 60175, 60183].includes(num)) fallbackId = "st-charles-geneva-batavia";
+      else if ((num >= 60120 && num <= 60124) || [60136, 60140, 60170, 60177].includes(num)) fallbackId = "elgin";
+      else if ([60126, 60148, 60181].includes(num)) fallbackId = "elmhurst-lombard-oak-brook";
+      else if (num === 60130) fallbackId = "oak-park-river-forest";
+      else if (num === 60143) fallbackId = "elk-grove-village";
+      else if (num === 60152) fallbackId = "crystal-lake-cary-mchenry";
+      else fallbackId = "wheaton-glen-ellyn";
+    } else if (prefix3 === 602) {
+      fallbackId = "evanston";
+    } else if (prefix3 === 603) {
+      fallbackId = "oak-park-river-forest";
+    } else if (prefix3 === 604) {
+      if (num === 60402) fallbackId = "cicero-berwyn";
+      else if ((num >= 60431 && num <= 60436) || [60403, 60404, 60408, 60410, 60416, 60420, 60421, 60442, 60447, 60481].includes(num)) fallbackId = "joliet";
+      else if ((num >= 60453 && num <= 60459) || [60406, 60415, 60463, 60465, 60482].includes(num)) fallbackId = "oak-lawn-palos";
+      else if ([60409, 60419, 60426, 60428, 60438, 60469, 60472, 60473, 60476].includes(num)) fallbackId = "calumet-city-harvey-dolton";
+      else if ([60401, 60411, 60417, 60422, 60425, 60429, 60430, 60443, 60449, 60461, 60466, 60468, 60471, 60475, 60484].includes(num)) fallbackId = "chicago-heights-flossmoor";
+      else if ([60423, 60441, 60448, 60451, 60491].includes(num)) fallbackId = "new-lenox-frankfort-mokena";
+      else if ([60439, 60440, 60446, 60490].includes(num)) fallbackId = "bolingbrook-romeoville";
+      else if ([60444, 60450, 60470, 60474, 60479].includes(num)) fallbackId = "ottawa-lasalle-peru";
+      else if ([60445, 60452, 60477, 60478, 60487].includes(num)) fallbackId = "tinley-park";
+      else if (num === 60480) fallbackId = "la-grange-western-springs";
+      else fallbackId = "orland-park";
+    } else if (prefix3 === 605) {
+      if ([60501, 60513, 60525, 60526, 60534, 60546, 60558].includes(num)) fallbackId = "la-grange-western-springs";
+      else if ((num >= 60502 && num <= 60507) || [60511, 60538, 60539, 60542, 60554].includes(num)) fallbackId = "aurora";
+      else if (num === 60510) fallbackId = "st-charles-geneva-batavia";
+      else if ((num >= 60514 && num <= 60517) || [60521, 60527, 60532, 60559, 60561].includes(num)) fallbackId = "downers-grove-hinsdale";
+      else if ([60518, 60531, 60549, 60551, 60552, 60557].includes(num)) fallbackId = "ottawa-lasalle-peru";
+      else if ([60520, 60550, 60556].includes(num)) fallbackId = "dekalb-sycamore";
+      else if (num === 60523) fallbackId = "elmhurst-lombard-oak-brook";
+      else if ([60543, 60544, 60545, 60548, 60560, 60585, 60586].includes(num)) fallbackId = "plainfield-oswego-shorewood";
+      else if (num === 60555) fallbackId = "wheaton-glen-ellyn";
+      else fallbackId = "naperville";
+    } else if (prefix3 === 606) {
+      fallbackId = "chicago-all";
+    } else if (prefix3 === 607) {
+      if ([60712, 60714].includes(num)) fallbackId = "niles-morton-grove";
+      else fallbackId = "chicago-jefferson-park-norwood";
+    } else if (prefix3 === 608) {
+      if (num === 60804) fallbackId = "cicero-berwyn";
+      else if (num === 60827) fallbackId = "calumet-city-harvey-dolton";
+      else fallbackId = "oak-lawn-palos";
+    } else if (prefix3 === 609) {
+      if ([60936, 60957].includes(num)) fallbackId = "champaign-urbana";
+      else if (num === 60942) fallbackId = "danville";
+      else fallbackId = "kankakee-bourbonnais-bradley";
+    } else if (prefix3 === 610) {
+      if ([61008, 61011, 61012, 61065].includes(num)) fallbackId = "belvidere-boone";
+      else if ([61010, 61016, 61061, 61063, 61072, 61073, 61080, 61088].includes(num)) fallbackId = "rockford-loves-park";
+      else if (num === 61068) fallbackId = "dekalb-sycamore";
+      else fallbackId = "freeport-galena-savanna";
+    } else if (prefix3 === 611) {
+      fallbackId = "rockford-loves-park";
+    } else if (prefix3 === 612) {
+      fallbackId = "quad-cities-rock-island-moline";
+    } else if (prefix3 === 613) {
+      fallbackId = "ottawa-lasalle-peru";
+    } else if (prefix3 === 614) {
+      fallbackId = "galesburg-monmouth-macomb";
+    } else if (prefix3 === 615 || prefix3 === 616) {
+      fallbackId = "peoria-east-peoria";
+    } else if (prefix3 === 617) {
+      fallbackId = "bloomington-normal";
+    } else if (prefix3 === 618) {
+      if ([61817, 61832, 61833, 61834, 61844, 61846, 61858, 61870, 61876, 61883].includes(num)) fallbackId = "danville";
+      else fallbackId = "champaign-urbana";
+    } else if (prefix3 === 619) {
+      if (num === 61944) fallbackId = "danville";
+      else if (num === 61953) fallbackId = "champaign-urbana";
+      else fallbackId = "decatur";
+    } else if (prefix3 === 620 || prefix3 === 621) {
+      if (num === 62052) fallbackId = "quincy-jacksonville";
+      else if (num === 62056) fallbackId = "springfield";
+      else fallbackId = "edwardsville-alton-granite-city";
+    } else if (prefix3 === 622) {
+      if ([62234, 62246, 62249, 62294].includes(num)) fallbackId = "edwardsville-alton-granite-city";
+      else fallbackId = "belleville-ofallon-east-st-louis";
+    } else if (prefix3 === 623) {
+      fallbackId = "quincy-jacksonville";
+    } else if (prefix3 === 624) {
+      fallbackId = "mt-vernon-effingham-centralia-cairo";
+    } else if (prefix3 === 625) {
+      if ((num >= 62521 && num <= 62526) || [62535, 62549, 62565].includes(num)) fallbackId = "decatur";
+      else fallbackId = "springfield";
+    } else if (prefix3 === 626 || prefix3 === 627) {
+      if ([62618, 62650, 62681].includes(num)) fallbackId = "quincy-jacksonville";
+      else fallbackId = "springfield";
+    } else if (prefix3 === 628) {
+      if ([62812, 62832, 62896].includes(num)) fallbackId = "carbondale-marion-herrin";
+      else fallbackId = "mt-vernon-effingham-centralia-cairo";
+    } else if (prefix3 === 629) {
+      if ([62914, 62930, 62946, 62960, 62964, 62984, 62995].includes(num)) fallbackId = "mt-vernon-effingham-centralia-cairo";
+      else fallbackId = "carbondale-marion-herrin";
+    }
+
+    const town = TOWNS.find((t) => t.id === fallbackId) || TOWNS[0];
+    return { town, exactZip: false };
+  }
+
+  // Resolve any user-typed city name, neighborhood, or 5-digit ZIP code into a matching town hub
+  function resolveLocationQuery(rawQuery) {
+    const cleaned = String(rawQuery || "").trim();
+    if (!cleaned) return null;
+
+    // 1. Check if input is or contains a 5-digit ZIP code
+    const zipMatch = cleaned.match(/\b(\d{5})\b/);
+    if (zipMatch) {
+      const zip5 = zipMatch[1];
+      const res = resolveIllinoisZipFallback(zip5);
+      if (res && res.outOfState) {
+        return { error: "out_of_state_zip", zip: zip5 };
+      }
+      if (res && res.town) {
+        return {
+          town: res.town,
+          matchedLabel: `ZIP ${zip5} (${res.town.name.split("(")[0].trim()})`,
+          matchedZip: zip5
+        };
+      }
+    }
+
+    const q = cleaned.toLowerCase();
+
+    // 2. Check exact match on town.id, town.name, or town.aliases
+    for (const t of TOWNS) {
+      if (t.id.toLowerCase() === q || t.name.toLowerCase() === q) {
+        return { town: t, matchedLabel: t.name.split("(")[0].trim() };
+      }
+      for (const alias of t.aliases || []) {
+        if (alias.toLowerCase() === q) {
+          return { town: t, matchedLabel: `${alias} (${t.county} County)` };
+        }
+      }
+    }
+
+    // 3. Check prefix match on aliases or town name
+    for (const t of TOWNS) {
+      const shortName = t.name.split("(")[0].trim();
+      if (shortName.toLowerCase().startsWith(q)) {
+        return { town: t, matchedLabel: shortName };
+      }
+      for (const alias of t.aliases || []) {
+        if (alias.toLowerCase().startsWith(q)) {
+          return { town: t, matchedLabel: `${alias} (${t.county} County)` };
+        }
+      }
+    }
+
+    // 4. Check substring match on aliases, town name, county, or localContext
+    for (const t of TOWNS) {
+      const matchedAlias = (t.aliases || []).find((a) => a.toLowerCase().includes(q));
+      if (matchedAlias) {
+        return { town: t, matchedLabel: `${matchedAlias} (${t.county} County)` };
+      }
+      if (t.name.toLowerCase().includes(q) || (t.county + " county").toLowerCase().includes(q)) {
+        return { town: t, matchedLabel: t.name.split("(")[0].trim() };
+      }
+    }
+
+    return null;
+  }
+
+  // Generate autocomplete suggestions for a partial city, neighborhood, or ZIP query
+  function getAutocompleteSuggestions(rawQuery) {
+    const cleaned = String(rawQuery || "").trim();
+    if (!cleaned) return [];
+    const q = cleaned.toLowerCase();
+    const isDigits = /^\d+$/.test(cleaned);
+    const results = [];
+    const seenTownIds = new Set();
+
+    if (isDigits) {
+      // If 5 digits, resolve directly first
+      if (cleaned.length === 5) {
+        const res = resolveIllinoisZipFallback(cleaned);
+        if (res && res.town) {
+          results.push({
+            town: res.town,
+            displayTitle: `ZIP ${cleaned} - ${res.town.name.split("(")[0].trim()}`,
+            matchedLabel: `ZIP ${cleaned} (${res.town.name.split("(")[0].trim()})`,
+            zip: cleaned
+          });
+          seenTownIds.add(res.town.id);
+        }
+      }
+      // Also find towns with ZIPs starting with these digits
+      TOWNS.forEach((t) => {
+        if (seenTownIds.has(t.id)) return;
+        const matchingZip = (t.zips || []).find((z) => String(z).startsWith(cleaned));
+        if (matchingZip) {
+          results.push({
+            town: t,
+            displayTitle: `ZIP ${matchingZip} - ${t.name.split("(")[0].trim()}`,
+            matchedLabel: `ZIP ${matchingZip} (${t.name.split("(")[0].trim()})`,
+            zip: matchingZip
+          });
+          seenTownIds.add(t.id);
+        }
+      });
+      return results.slice(0, 8);
+    }
+
+    // Text search across aliases, names, and counties
+    const scored = [];
+    TOWNS.forEach((t) => {
+      const shortName = t.name.split("(")[0].trim();
+      let bestScore = 0;
+      let matchedAlias = null;
+
+      for (const alias of t.aliases || []) {
+        const al = alias.toLowerCase();
+        if (al === q) {
+          bestScore = Math.max(bestScore, 100);
+          matchedAlias = alias;
+        } else if (al.startsWith(q)) {
+          if (85 > bestScore) {
+            bestScore = 85;
+            matchedAlias = alias;
+          }
+        } else if (al.includes(q)) {
+          if (65 > bestScore) {
+            bestScore = 65;
+            matchedAlias = alias;
+          }
+        }
+      }
+
+      const nl = t.name.toLowerCase();
+      if (nl.startsWith(q) && bestScore < 90) {
+        bestScore = 90;
+      } else if (nl.includes(q) && bestScore < 70) {
+        bestScore = 70;
+      } else if ((t.county + " county").toLowerCase().includes(q) && bestScore < 50) {
+        bestScore = 50;
+      }
+
+      if (bestScore > 0) {
+        const label =
+          matchedAlias && !shortName.toLowerCase().includes(matchedAlias.toLowerCase())
+            ? `${matchedAlias} - ${shortName}`
+            : t.name;
+        scored.push({
+          score: bestScore,
+          town: t,
+          displayTitle: label,
+          matchedLabel: matchedAlias ? `${matchedAlias} (${t.county} County)` : shortName
+        });
+      }
+    });
+
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, 8);
+  }
+
   // Application State
   const state = {
-    activeTab: "ballot", // 'ballot' | 'towns' | 'issues' | 'pacs' | 'compare'
+    activeTab: "ballot", // 'ballot' | 'towns' | 'issues' | 'pacs' | 'compare' | 'guide'
     selectedTownId: "all", // 'all' or town.id
+    enteredLocationLabel: "", // e.g., 'ZIP 60540 (Naperville)' or 'Hinsdale'
+    locationNotice: "", // Out-of-state ZIP or helpful feedback notice
     levelFilter: "all", // 'all' | 'federal' | 'statewide' | 'state_legislature' | 'local'
     regionFilter: "all",
     partyFilter: "all",
@@ -8121,10 +8698,13 @@ window.IL_LIVE_SYNC_META = {
     pacCategoryFilter: "all",
     pacSearchQuery: "",
     compareIds: ["juliana-stratton", "don-tracy", "jb-pritzker", "darren-bailey"],
-    expandedRaces: new Set(),
+    compactIssues: false,
     modalCandidateId: null,
     theme: "light"
   };
+
+  // Expose resolver helper on window for automated verification tests
+  window.IL_RESOLVE_LOCATION = resolveLocationQuery;
 
   // Utility: Escape HTML safely
   function esc(str) {
@@ -8196,7 +8776,7 @@ window.IL_LIVE_SYNC_META = {
     if (race.level === "local" && (town.localRaces || []).includes(race.id)) {
       return true;
     }
-    // Also check if town name or county matches race cities
+    // Check if town name or aliases match race cities
     const townBase = town.name.split("(")[0].split("-")[0].trim().toLowerCase();
     if ((race.cities || []).some((c) => c.toLowerCase().includes(townBase))) {
       return true;
@@ -8245,11 +8825,30 @@ window.IL_LIVE_SYNC_META = {
 
   // Filter races based on current state
   function getFilteredRaces() {
-    const selectedTown = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
+    let selectedTown = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
     const q = state.searchQuery.trim().toLowerCase();
 
+    // If user typed a 5-digit Illinois ZIP code or exact city name into the secondary search box while town is "all", resolve their full town ballot
+    let resolvedSearchTown = null;
+    if (!selectedTown && q) {
+      if (/^\d{5}$/.test(q)) {
+        const res = resolveLocationQuery(q);
+        if (res && res.town) resolvedSearchTown = res.town;
+      } else {
+        // Check if q is an exact match for a town name or alias
+        const exactTown = TOWNS.find(
+          (t) =>
+            t.name.split("(")[0].trim().toLowerCase() === q ||
+            (t.aliases || []).some((a) => a.toLowerCase() === q)
+        );
+        if (exactTown) resolvedSearchTown = exactTown;
+      }
+    }
+
+    const activeTownForBallot = selectedTown || resolvedSearchTown;
+
     return ALL_RACES.filter((race) => {
-      if (selectedTown && !raceMatchesTown(race, selectedTown)) return false;
+      if (activeTownForBallot && !raceMatchesTown(race, activeTownForBallot)) return false;
       if (state.levelFilter !== "all" && race.level !== state.levelFilter) return false;
 
       if (state.regionFilter !== "all") {
@@ -8266,7 +8865,7 @@ window.IL_LIVE_SYNC_META = {
       if (state.raceTypeFilter === "battleground" && !race.isBattleground) return false;
       if (state.raceTypeFilter === "open" && !race.isOpenSeat) return false;
 
-      // Check candidate-level filters (Party, PAC, Search)
+      // Check candidate-level filters (Party, PAC)
       const matchingCands = (race.candidates || []).filter((c) => {
         if (state.partyFilter !== "all") {
           const p = (c.party || "").toLowerCase();
@@ -8280,7 +8879,8 @@ window.IL_LIVE_SYNC_META = {
 
       if (matchingCands.length === 0) return false;
 
-      if (q) {
+      // Only apply raw substring filter if q wasn't already resolved as a full town/ZIP ballot
+      if (q && !resolvedSearchTown) {
         const raceBlob = [
           race.office,
           race.districtCode,
@@ -8316,7 +8916,108 @@ window.IL_LIVE_SYNC_META = {
     });
   }
 
-  // Render Top Summary Metrics & Active Town Banner
+  // Select a town (with optional user-entered label like "ZIP 60540 (Naperville)") and reset conflicting filters
+  function activateTownBallot(townId, customLabel) {
+    state.selectedTownId = townId;
+    state.enteredLocationLabel = customLabel || "";
+    state.locationNotice = "";
+    state.levelFilter = "all";
+    state.regionFilter = "all";
+    state.searchQuery = "";
+    const gSearch = document.getElementById("global-search-input");
+    if (gSearch) gSearch.value = "";
+    state.activeTab = "ballot";
+    renderApp();
+  }
+
+  // Render Dynamic Top Hero KPI Cards & Hero Location Bar Status
+  function renderHeroKpis() {
+    const kpiEl = document.getElementById("hero-kpi-container");
+    const statusBadge = document.getElementById("hero-location-status-badge");
+    const clearBtn = document.getElementById("hero-location-clear-btn");
+    const feedbackEl = document.getElementById("hero-location-feedback");
+    const ballotTabLabel = document.getElementById("ballot-tab-btn-label");
+    const heroInput = document.getElementById("hero-location-input");
+
+    const town = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
+
+    if (clearBtn) {
+      if (town) clearBtn.classList.remove("hidden");
+      else clearBtn.classList.add("hidden");
+    }
+
+    if (feedbackEl) {
+      if (state.locationNotice) {
+        feedbackEl.classList.remove("hidden");
+        feedbackEl.innerHTML = `<span class="text-amber-700 dark:text-amber-300 font-semibold">${esc(state.locationNotice)}</span>`;
+      } else if (town) {
+        const displayLoc = state.enteredLocationLabel || town.name.split("(")[0].trim();
+        const sampleZips = (town.zips || []).slice(0, 6).join(", ");
+        feedbackEl.classList.remove("hidden");
+        feedbackEl.innerHTML = `
+          <span class="text-emerald-700 dark:text-emerald-400 font-semibold">✓ Active Area Ballot: ${esc(displayLoc)}</span>
+          <span class="text-secondary-custom"> • Showing Federal (U.S. Senate + ${esc((town.usHouse || []).join(", "))}), Statewide Executive, IL Legislature (${esc((town.stateSenate || []).join(", "))} / ${esc((town.stateHouse || []).join(", "))}), and ${esc(town.county)} County races (ZIPs: ${esc(sampleZips)})</span>
+        `;
+      } else {
+        feedbackEl.classList.add("hidden");
+        feedbackEl.innerHTML = "";
+      }
+    }
+
+    if (!town) {
+      if (statusBadge) {
+        statusBadge.textContent = "Covers all Illinois ZIP codes (60001-62999) & 400+ cities/neighborhoods";
+      }
+      if (ballotTabLabel) {
+        ballotTabLabel.textContent = "All Races, Candidates & PACs";
+      }
+      if (kpiEl) {
+        kpiEl.innerHTML = `
+          <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
+            <div class="text-[10px] font-mono uppercase text-muted-custom">Federal & State Races</div>
+            <div class="text-lg font-mono font-bold text-primary-custom">U.S. Sen + 17 CDs</div>
+            <div class="text-[11px] text-secondary-custom">5 Open U.S. House Seats</div>
+          </div>
+          <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
+            <div class="text-[10px] font-mono uppercase text-muted-custom">State & Local Coverage</div>
+            <div class="text-lg font-mono font-bold text-primary-custom">5 Exec + GA + 102 Co.</div>
+            <div class="text-[11px] text-secondary-custom">23 Policy Issues & 25+ PACs</div>
+          </div>
+        `;
+      }
+      return;
+    }
+
+    const shortLabel = state.enteredLocationLabel || town.name.split("(")[0].trim();
+    if (statusBadge) {
+      statusBadge.textContent = `Active Ballot: ${shortLabel} (${town.county} County)`;
+    }
+    if (ballotTabLabel) {
+      ballotTabLabel.textContent = `Your ${shortLabel.split("(")[0].trim()} Ballot`;
+    }
+    if (heroInput && document.activeElement !== heroInput) {
+      heroInput.value = shortLabel;
+    }
+
+    if (kpiEl) {
+      const usHouseStr = (town.usHouse || []).join(", ");
+      const legStr = [...(town.stateSenate || []), ...(town.stateHouse || [])].join(", ");
+      kpiEl.innerHTML = `
+        <a href="#ballot-tier-federal" class="p-3 rounded-xl bg-elevated-custom border-2 border-blue-600/60 hover:border-blue-600 transition block no-underline">
+          <div class="text-[10px] font-mono uppercase text-blue-600 dark:text-blue-400 font-bold">Your Federal Level Ballot</div>
+          <div class="text-base sm:text-lg font-mono font-bold text-primary-custom mt-0.5">U.S. Sen + ${esc(usHouseStr)}</div>
+          <div class="text-[11px] text-secondary-custom">Click to jump to Federal candidates ↓</div>
+        </a>
+        <a href="#ballot-tier-state_legislature" class="p-3 rounded-xl bg-elevated-custom border-2 border-emerald-600/60 hover:border-emerald-600 transition block no-underline">
+          <div class="text-[10px] font-mono uppercase text-emerald-700 dark:text-emerald-400 font-bold">Your State & Local Ballot</div>
+          <div class="text-base sm:text-lg font-mono font-bold text-primary-custom mt-0.5">${esc(legStr)} + ${esc(town.county)} Co.</div>
+          <div class="text-[11px] text-secondary-custom">5 Statewide + Local & Referendums ↓</div>
+        </a>
+      `;
+    }
+  }
+
+  // Render Top Summary Metrics & Active Town Personalized Dashboard Banner
   function renderTownBanner() {
     const bannerEl = document.getElementById("active-town-banner");
     if (!bannerEl) return;
@@ -8331,22 +9032,12 @@ window.IL_LIVE_SYNC_META = {
               </div>
               <div>
                 <div class="text-xs font-mono uppercase tracking-wider text-muted-custom">Statewide Illinois View Active (All 102 Counties)</div>
-                <div class="text-sm font-semibold text-primary-custom">Select any Illinois city, suburb, or Chicago neighborhood above to build your exact local, state, and federal ballot.</div>
+                <div class="text-sm font-semibold text-primary-custom">Type your Illinois city or 5-digit ZIP code in the "Start Here" box above to customize this dashboard with your exact local, state, and federal candidates.</div>
               </div>
             </div>
-            <div class="flex flex-wrap gap-2">
-              <button type="button" data-quick-town="chicago-loop-downtown" class="quick-town-pill">Chicago Loop</button>
-              <button type="button" data-quick-town="chicago-lincoln-park-lakeview" class="quick-town-pill">Lincoln Park / Lakeview</button>
-              <button type="button" data-quick-town="evanston" class="quick-town-pill">Evanston</button>
-              <button type="button" data-quick-town="naperville" class="quick-town-pill">Naperville</button>
-              <button type="button" data-quick-town="aurora" class="quick-town-pill">Aurora</button>
-              <button type="button" data-quick-town="joliet" class="quick-town-pill">Joliet</button>
-              <button type="button" data-quick-town="orland-park" class="quick-town-pill">Orland Park</button>
-              <button type="button" data-quick-town="rockford-loves-park" class="quick-town-pill">Rockford</button>
-              <button type="button" data-quick-town="springfield" class="quick-town-pill">Springfield</button>
-              <button type="button" data-quick-town="champaign-urbana" class="quick-town-pill">Champaign-Urbana</button>
-              <button type="button" data-quick-town="belleville-ofallon-east-st-louis" class="quick-town-pill">Metro East</button>
-            </div>
+            <button type="button" data-tab-btn="towns" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white hover:bg-blue-700 transition">
+              Browse All 69 Illinois Area & ZIP Hubs →
+            </button>
           </div>
         </div>
       `;
@@ -8357,43 +9048,123 @@ window.IL_LIVE_SYNC_META = {
     if (!town) return;
 
     const matchingRaces = getFilteredRaces();
+    const fedRaces = matchingRaces.filter((r) => r.level === "federal");
+    const stateExecRaces = matchingRaces.filter((r) => r.level === "statewide");
+    const legRaces = matchingRaces.filter((r) => r.level === "state_legislature");
+    const localRaces = matchingRaces.filter((r) => r.level === "local");
+
+    const headingTitle = state.enteredLocationLabel
+      ? `${state.enteredLocationLabel} - Your 2026 General Election Dashboard`
+      : `${town.name} - Your 2026 General Election Dashboard`;
+
+    const zipsListStr = (town.zips || []).join(", ");
+
+    // Build At-a-Glance Ballot Cheat Sheet rows
+    const cheatSheetRowsHtml = matchingRaces
+      .map((r) => {
+        const levelMeta = getLevelMeta(r.level);
+        const candsSummary = (r.candidates || [])
+          .map((c) => {
+            const pm = getPartyMeta(c.party);
+            return `<span class="inline-flex items-center gap-1 mr-2 mb-1 px-2 py-0.5 rounded text-xs font-medium ${pm.badgeClass}">${esc(c.name)} (${pm.short})</span>`;
+          })
+          .join("");
+
+        return `
+          <div class="p-2.5 rounded-lg bg-elevated-custom border border-subtle-custom flex flex-wrap items-center justify-between gap-2">
+            <div class="min-w-[210px] flex-1">
+              <div class="flex flex-wrap items-center gap-1.5">
+                <span class="px-1.5 py-0.5 text-[10px] font-mono font-bold uppercase rounded ${levelMeta.badge}">${esc(r.districtCode)}</span>
+                <a href="#race-${esc(r.id)}" class="text-xs sm:text-sm font-bold text-primary-custom hover:text-blue-600 no-underline">${esc(r.office)}</a>
+              </div>
+              <div class="mt-1 flex flex-wrap items-center">${candsSummary}</div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <a href="#race-${esc(r.id)}" class="btn-secondary-sm no-underline">View Details ↓</a>
+              ${
+                (r.candidates || []).length >= 2
+                  ? `<button type="button" data-compare-race="${esc(r.id)}" class="btn-compare-sm">Compare Race</button>`
+                  : ""
+              }
+            </div>
+          </div>
+        `;
+      })
+      .join("");
+
     bannerEl.innerHTML = `
       <div class="town-banner-active">
         <div class="flex flex-wrap items-start justify-between gap-4 pb-3 border-b border-subtle-custom">
           <div>
-            <div class="flex items-center gap-2 mb-1">
-              <span class="px-2 py-0.5 text-xs font-mono font-semibold uppercase rounded bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30">Personalized Town Ballot</span>
+            <div class="flex flex-wrap items-center gap-2 mb-1">
+              <span class="px-2 py-0.5 text-xs font-mono font-semibold uppercase rounded bg-blue-600 text-white">YOUR PERSONALIZED 2026 BALLOT</span>
               <span class="text-xs font-mono text-muted-custom">${esc(town.region)} | ${esc(town.county)} County | Pop. ${esc(town.population)}</span>
             </div>
-            <h2 class="text-xl md:text-2xl font-serif-display font-bold text-primary-custom">${esc(town.name)} - 2026 General Election Ballot</h2>
-            <p class="text-xs md:text-sm text-secondary-custom mt-1">Current Municipal Leadership: <strong class="text-primary-custom">${esc(town.mayor)}</strong></p>
+            <h2 class="text-xl md:text-2xl font-serif-display font-bold text-primary-custom">${esc(headingTitle)}</h2>
+            <p class="text-xs md:text-sm text-secondary-custom mt-1">
+              Current Local Leadership: <strong class="text-primary-custom">${esc(town.mayor)}</strong>
+              ${zipsListStr ? `<span class="text-muted-custom font-mono text-xs"> • ZIP Codes: ${esc(zipsListStr)}</span>` : ""}
+            </p>
           </div>
-          <div class="flex items-center gap-2">
-            <span class="text-xs font-mono px-2.5 py-1 rounded bg-elevated-custom border border-subtle-custom text-primary-custom">${matchingRaces.length} Ballot Races Shown</span>
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="text-xs font-mono px-2.5 py-1 rounded bg-elevated-custom border border-subtle-custom text-primary-custom">${matchingRaces.length} Ballot Races Loaded</span>
             <button type="button" id="clear-town-btn" class="px-3 py-1.5 text-xs font-semibold rounded border border-subtle-custom hover:bg-red-500/10 hover:text-red-600 hover:border-red-500/30 transition">Reset to All Illinois</button>
           </div>
         </div>
+
+        <!-- 4 Clickable Ballot Level Summary Cards (Federal, Statewide, State Legislature, County/Local) -->
         <div class="grid grid-cols-1 md:grid-cols-4 gap-3 pt-3 text-xs">
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">Federal Congressional</div>
-            <div class="font-semibold text-primary-custom mt-0.5">U.S. Senate + ${(town.usHouse || []).join(", ")}</div>
-          </div>
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">IL State Senate</div>
-            <div class="font-semibold text-primary-custom mt-0.5">${(town.stateSenate || []).join(", ")}</div>
-          </div>
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">IL State House</div>
-            <div class="font-semibold text-primary-custom mt-0.5">${(town.stateHouse || []).join(", ")}</div>
-          </div>
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">County & Local Jurisdiction</div>
-            <div class="font-semibold text-primary-custom mt-0.5">${esc(town.county)} County Offices & Referendums</div>
-          </div>
+          <a href="#ballot-tier-federal" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-blue-600 dark:text-blue-400 font-bold">1. Federal Ballot (${fedRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">U.S. Senate + ${esc((town.usHouse || []).join(", "))}</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">U.S. Senator & Your U.S. House Rep</div>
+          </a>
+          <a href="#ballot-tier-statewide" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-amber-700 dark:text-amber-300 font-bold">2. Statewide Ballot (${stateExecRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">Gov, AG, SOS, Comp & Treas</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">All 5 Illinois Executive Offices</div>
+          </a>
+          <a href="#ballot-tier-state_legislature" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-emerald-700 dark:text-emerald-400 font-bold">3. State Legislature (${legRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">Senate: ${esc((town.stateSenate || []).join(", "))} | House: ${esc((town.stateHouse || []).join(", "))}</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">Your IL State Senator & State Rep</div>
+          </a>
+          <a href="#ballot-tier-local" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-purple-700 dark:text-purple-300 font-bold">4. County & Local (${localRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">${esc(town.county)} County & Referendums</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">County Offices & 2026 Ballot Measures</div>
+          </a>
         </div>
-        <div class="mt-3 p-3 rounded bg-primary-custom/70 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
-          <strong class="text-primary-custom font-semibold">Local 2026 Election Context for ${esc(town.name)}:</strong> ${esc(town.localContext)}
+
+        <div class="mt-3 p-3 rounded-lg bg-primary-custom/70 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
+          <strong class="text-primary-custom font-semibold">Local 2026 Election Context for ${esc(town.name.split("(")[0].trim())}:</strong> ${esc(town.localContext)}
         </div>
+
+        <!-- Quick At-a-Glance Ballot Summary Cheat Sheet -->
+        <details class="mt-3 rounded-xl bg-primary-custom border border-subtle-custom p-3 group" open>
+          <summary class="issue-details-summary">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded bg-emerald-600 text-white">QUICK BALLOT SUMMARY</span>
+              <span class="text-xs sm:text-sm font-bold text-primary-custom">All ${matchingRaces.length} Races & Candidates on Your Ballot At-a-Glance (Federal, State & Local)</span>
+            </div>
+            <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Show / Hide Summary ▼</span>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-subtle-custom grid grid-cols-1 md:grid-cols-2 gap-2.5">
+            ${cheatSheetRowsHtml}
+          </div>
+        </details>
       </div>
     `;
   }
@@ -8437,69 +9208,71 @@ window.IL_LIVE_SYNC_META = {
 
     return `
       <div class="candidate-card ${partyMeta.borderClass}" data-cand-id="${esc(cand.id)}">
-        <div class="flex items-start justify-between gap-3">
-          <div class="flex items-start gap-3">
-            <div class="avatar-monogram ${partyMeta.badgeClass}">
-              ${esc(cand.photoInitials || cand.name.slice(0, 2).toUpperCase())}
-            </div>
-            <div>
-              <div class="flex flex-wrap items-center gap-2">
-                <h4 class="text-base md:text-lg font-bold text-primary-custom leading-tight">${esc(cand.name)}</h4>
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded ${partyMeta.badgeClass}">${esc(cand.party)}</span>
-                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-elevated-custom border border-subtle-custom text-secondary-custom">${esc(cand.incumbentStatus)}</span>
+        <div>
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex items-start gap-3">
+              <div class="avatar-monogram ${partyMeta.badgeClass}">
+                ${esc(cand.photoInitials || cand.name.slice(0, 2).toUpperCase())}
               </div>
-              <p class="text-xs text-secondary-custom mt-1">${esc(cand.role)}</p>
-              <p class="text-[11px] font-mono text-muted-custom mt-0.5">Hometown: ${esc(cand.hometown)}</p>
+              <div>
+                <div class="flex flex-wrap items-center gap-2">
+                  <h4 class="text-base md:text-lg font-bold text-primary-custom leading-tight">${esc(cand.name)}</h4>
+                  <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded ${partyMeta.badgeClass}">${esc(cand.party)}</span>
+                  <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-elevated-custom border border-subtle-custom text-secondary-custom">${esc(cand.incumbentStatus)}</span>
+                </div>
+                <p class="text-xs text-secondary-custom mt-1">${esc(cand.role)}</p>
+                <p class="text-[11px] font-mono text-muted-custom mt-0.5">Hometown: ${esc(cand.hometown)}</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Campaign Finance & PAC Policy Strip -->
-        <div class="mt-3 p-2.5 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="grid grid-cols-2 gap-2 pb-2 mb-2 border-b border-subtle-custom">
-            <div>
-              <div class="text-[10px] font-mono uppercase text-muted-custom">Total Raised (FEC / IL SBE)</div>
-              <div class="text-xs md:text-sm font-mono font-bold text-primary-custom tabular-nums">${esc(cand.fecRaised || "N/A")}</div>
+          <!-- Campaign Finance & PAC Policy Strip -->
+          <div class="mt-3 p-2.5 rounded-lg bg-primary-custom border border-subtle-custom">
+            <div class="grid grid-cols-2 gap-2 pb-2 mb-2 border-b border-subtle-custom">
+              <div>
+                <div class="text-[10px] font-mono uppercase text-muted-custom">Total Raised (FEC / IL SBE)</div>
+                <div class="text-xs md:text-sm font-mono font-bold text-primary-custom tabular-nums">${esc(cand.fecRaised || "N/A")}</div>
+              </div>
+              <div>
+                <div class="text-[10px] font-mono uppercase text-muted-custom">Cash on Hand</div>
+                <div class="text-xs md:text-sm font-mono font-semibold text-secondary-custom tabular-nums">${esc(cand.fecCashOnHand || "N/A")}</div>
+              </div>
             </div>
-            <div>
-              <div class="text-[10px] font-mono uppercase text-muted-custom">Cash on Hand</div>
-              <div class="text-xs md:text-sm font-mono font-semibold text-secondary-custom tabular-nums">${esc(cand.fecCashOnHand || "N/A")}</div>
+            <div class="flex items-center gap-1.5 text-xs font-semibold text-primary-custom mb-1">
+              <svg class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+              <span>PAC Policy: ${esc(cand.pacPolicy)}</span>
+            </div>
+            <p class="text-xs text-secondary-custom leading-relaxed">${esc(cand.pacSummary)}</p>
+
+            <!-- Detailed PAC List -->
+            <div class="mt-2.5 space-y-1.5">
+              <div class="text-[10px] font-mono uppercase tracking-wider text-muted-custom">Associated PACs, Super PACs & Donors:</div>
+              ${pacPillsHtml}
             </div>
           </div>
-          <div class="flex items-center gap-1.5 text-xs font-semibold text-primary-custom mb-1">
-            <svg class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
-            <span>PAC Policy: ${esc(cand.pacPolicy)}</span>
-          </div>
-          <p class="text-xs text-secondary-custom leading-relaxed">${esc(cand.pacSummary)}</p>
 
-          <!-- Detailed PAC List -->
-          <div class="mt-2.5 space-y-1.5">
-            <div class="text-[10px] font-mono uppercase tracking-wider text-muted-custom">Associated PACs, Super PACs & Donors:</div>
-            ${pacPillsHtml}
+          <!-- Endorsements -->
+          <div class="mt-2.5 flex flex-wrap items-center gap-1">
+            <span class="text-[10px] font-mono uppercase text-muted-custom mr-1">Key Endorsements:</span>
+            ${(cand.endorsements || [])
+              .map((e) => `<span class="endorsement-tag">${esc(e)}</span>`)
+              .join("")}
           </div>
+
+          <!-- Issue Stances Accordion -->
+          <details class="mt-3 group issue-details-box" ${state.compactIssues ? "" : "open"}>
+            <summary class="issue-details-summary">
+              <span class="flex items-center gap-1.5 font-semibold text-xs text-primary-custom">
+                <svg class="w-4 h-4 text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Where ${esc(cand.name)} Stands on All ${issueDefs.length} ${levelMeta.issueTier.toUpperCase()} Issues
+              </span>
+              <span class="text-[11px] font-mono text-muted-custom group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <div class="mt-2 space-y-2 pt-2 border-t border-subtle-custom">
+              ${issuesPreviewHtml}
+            </div>
+          </details>
         </div>
-
-        <!-- Endorsements -->
-        <div class="mt-2.5 flex flex-wrap items-center gap-1">
-          <span class="text-[10px] font-mono uppercase text-muted-custom mr-1">Key Endorsements:</span>
-          ${(cand.endorsements || [])
-            .map((e) => `<span class="endorsement-tag">${esc(e)}</span>`)
-            .join("")}
-        </div>
-
-        <!-- Issue Stances Accordion -->
-        <details class="mt-3 group issue-details-box" open>
-          <summary class="issue-details-summary">
-            <span class="flex items-center gap-1.5 font-semibold text-xs text-primary-custom">
-              <svg class="w-4 h-4 text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-              Where ${esc(cand.name)} Stands on All ${issueDefs.length} ${levelMeta.issueTier.toUpperCase()} Issues
-            </span>
-            <span class="text-[11px] font-mono text-muted-custom group-open:rotate-180 transition-transform">▼</span>
-          </summary>
-          <div class="mt-2 space-y-2 pt-2 border-t border-subtle-custom">
-            ${issuesPreviewHtml}
-          </div>
-        </details>
 
         <!-- Action Footer -->
         <div class="mt-3 pt-2.5 border-t border-subtle-custom flex items-center justify-between gap-2">
@@ -8514,13 +9287,77 @@ window.IL_LIVE_SYNC_META = {
     `;
   }
 
-  // Render Races List (Tab 1)
+  // Render a single Race Card
+  function renderRaceCard(race) {
+    const levelMeta = getLevelMeta(race.level);
+    const citiesPreview = (race.cities || []).slice(0, 10).join(", ") + ((race.cities || []).length > 10 ? ` + ${(race.cities || []).length - 10} more` : "");
+
+    // Filter candidates inside the race if party or PAC filter is active
+    const visibleCandidates = (race.candidates || []).filter((c) => {
+      if (state.partyFilter !== "all") {
+        const p = (c.party || "").toLowerCase();
+        if (state.partyFilter === "dem" && !p.includes("democrat")) return false;
+        if (state.partyFilter === "gop" && !p.includes("republican") && !p.includes("gop")) return false;
+        if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
+      }
+      if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
+      return true;
+    });
+
+    const gridCols = visibleCandidates.length >= 3 ? "grid-cols-1 lg:grid-cols-3" : visibleCandidates.length === 2 ? "grid-cols-1 lg:grid-cols-2" : "grid-cols-1";
+
+    return `
+      <article class="race-section-card" id="race-${esc(race.id)}">
+        <!-- Race Header -->
+        <div class="race-card-header">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded ${levelMeta.badge}">${esc(levelMeta.label)}</span>
+              <span class="px-2 py-0.5 text-xs font-mono font-bold rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.districtCode)}</span>
+              <span class="px-2 py-0.5 text-xs font-mono rounded bg-primary-custom border border-subtle-custom text-secondary-custom">PVI: ${esc(race.pvi)}</span>
+              ${race.isBattleground ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30">Marquee Battleground</span>` : ""}
+              ${race.isOpenSeat ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-purple-500/15 text-purple-700 dark:text-purple-300 border border-purple-500/30">Open Seat</span>` : ""}
+            </div>
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.rating)}</span>
+              ${
+                (race.candidates || []).length >= 2
+                  ? `<button type="button" data-compare-race="${esc(race.id)}" class="btn-compare-sm">Compare Candidates in This Race →</button>`
+                  : ""
+              }
+            </div>
+          </div>
+
+          <h3 class="text-lg md:text-xl font-serif-display font-bold text-primary-custom">${esc(race.office)}</h3>
+          <p class="text-xs md:text-sm text-secondary-custom mt-0.5">${esc(race.districtName)}</p>
+
+          <div class="mt-2.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-custom">
+            <span><strong class="text-secondary-custom">Current Incumbent:</strong> ${esc(race.incumbent)}</span>
+            <span><strong class="text-secondary-custom">Towns & Neighborhoods:</strong> ${esc(citiesPreview)}</span>
+          </div>
+
+          <div class="mt-2.5 p-2.5 rounded bg-primary-custom/80 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
+            <strong class="text-primary-custom">March 17, 2026 Primary & Race Dynamics:</strong> ${esc(race.primarySummary)}
+          </div>
+        </div>
+
+        <!-- Candidates Grid -->
+        <div class="p-4 grid ${gridCols} gap-4">
+          ${visibleCandidates.map((cand) => renderCandidateCard(cand, race)).join("")}
+        </div>
+      </article>
+    `;
+  }
+
+  // Render Races List Grouped by Ballot Tier (Tab 1)
   function renderBallotTab() {
     const container = document.getElementById("tab-content-container");
     if (!container) return;
 
     const races = getFilteredRaces();
     const totalCandidates = races.reduce((acc, r) => acc + (r.candidates ? r.candidates.length : 0), 0);
+    const activeTown = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
+    const areaShortName = activeTown ? state.enteredLocationLabel || activeTown.name.split("(")[0].trim() : "All of Illinois";
 
     if (races.length === 0) {
       container.innerHTML = `
@@ -8533,78 +9370,78 @@ window.IL_LIVE_SYNC_META = {
       return;
     }
 
-    const raceCardsHtml = races
-      .map((race) => {
-        const levelMeta = getLevelMeta(race.level);
-        const citiesPreview = (race.cities || []).slice(0, 10).join(", ") + ((race.cities || []).length > 10 ? ` + ${(race.cities || []).length - 10} more` : "");
+    const tierGroups = [
+      {
+        key: "federal",
+        title: activeTown
+          ? `1. Federal Level Candidates for ${areaShortName} (U.S. Senate & U.S. House ${(activeTown.usHouse || []).join(", ")})`
+          : "1. Federal Level Elections (U.S. Senate + All 17 Illinois Congressional Districts)",
+        subtitle: "Represents your area in Washington, D.C. Covers Federal Taxes & SALT Cap, Economy, Healthcare/Medicare, Immigration, Climate/Grid, Reproductive Rights, Foreign Policy, and Gun Policy.",
+        items: races.filter((r) => r.level === "federal")
+      },
+      {
+        key: "statewide",
+        title: "2. Illinois Statewide Constitutional Executive Elections (All 102 Counties)",
+        subtitle: "Represents every Illinois voter statewide. Covers Governor & Lt. Governor, Attorney General, Secretary of State, Comptroller, and State Treasurer.",
+        items: races.filter((r) => r.level === "statewide")
+      },
+      {
+        key: "state_legislature",
+        title: activeTown
+          ? `3. Illinois General Assembly Candidates for ${areaShortName} (State Senate ${(activeTown.stateSenate || []).join(", ")} & State House ${(activeTown.stateHouse || []).join(", ")})`
+          : "3. Illinois General Assembly (State Senate & State House Leadership, Battlegrounds & Regional Anchors)",
+        subtitle: "Represents your district in Springfield. Covers Property Taxes & EBF School Aid, SAFE-T Act, State Budget ($53B+), Tier 2 Pensions, CEJA & Data Centers, and NITA Transit.",
+        items: races.filter((r) => r.level === "state_legislature")
+      },
+      {
+        key: "local",
+        title: activeTown
+          ? `4. County, Municipal & Ballot Referendums for ${areaShortName} (${activeTown.county} County)`
+          : "4. County, Municipal & 2026 Ballot Referendums Across Illinois",
+        subtitle: "Directly governs county property tax assessments, County Sheriffs & Clerks, lead water service lines, data center zoning, and local ballot referendums.",
+        items: races.filter((r) => r.level === "local")
+      }
+    ].filter((g) => g.items.length > 0);
 
-        // Filter candidates inside the race if party or PAC filter is active
-        const visibleCandidates = (race.candidates || []).filter((c) => {
-          if (state.partyFilter !== "all") {
-            const p = (c.party || "").toLowerCase();
-            if (state.partyFilter === "dem" && !p.includes("democrat")) return false;
-            if (state.partyFilter === "gop" && !p.includes("republican") && !p.includes("gop")) return false;
-            if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
-          }
-          if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
-          return true;
-        });
-
-        const gridCols = visibleCandidates.length >= 3 ? "grid-cols-1 lg:grid-cols-3" : visibleCandidates.length === 2 ? "grid-cols-1 lg:grid-cols-2" : "grid-cols-1";
-
-        return `
-          <article class="race-section-card" id="race-${esc(race.id)}">
-            <!-- Race Header -->
-            <div class="race-card-header">
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <div class="flex flex-wrap items-center gap-2">
-                  <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded ${levelMeta.badge}">${esc(levelMeta.label)}</span>
-                  <span class="px-2 py-0.5 text-xs font-mono font-bold rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.districtCode)}</span>
-                  <span class="px-2 py-0.5 text-xs font-mono rounded bg-primary-custom border border-subtle-custom text-secondary-custom">PVI: ${esc(race.pvi)}</span>
-                  ${race.isBattleground ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30">Marquee Battleground</span>` : ""}
-                  ${race.isOpenSeat ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-purple-500/15 text-purple-700 dark:text-purple-300 border border-purple-500/30">Open Seat</span>` : ""}
-                </div>
-                <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.rating)}</span>
-              </div>
-
-              <h3 class="text-lg md:text-xl font-serif-display font-bold text-primary-custom">${esc(race.office)}</h3>
-              <p class="text-xs md:text-sm text-secondary-custom mt-0.5">${esc(race.districtName)}</p>
-
-              <div class="mt-2.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-custom">
-                <span><strong class="text-secondary-custom">Current Incumbent:</strong> ${esc(race.incumbent)}</span>
-                <span><strong class="text-secondary-custom">Towns & Neighborhoods:</strong> ${esc(citiesPreview)}</span>
-              </div>
-
-              <div class="mt-2.5 p-2.5 rounded bg-primary-custom/80 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
-                <strong class="text-primary-custom">March 17, 2026 Primary & Race Dynamics:</strong> ${esc(race.primarySummary)}
-              </div>
+    const groupedHtml = tierGroups
+      .map(
+        (group) => `
+        <section id="ballot-tier-${esc(group.key)}" class="space-y-4 pt-2">
+          <div class="ballot-tier-section-header flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h2 class="text-base sm:text-lg font-serif-display font-bold text-primary-custom">${esc(group.title)}</h2>
+              <p class="text-xs text-secondary-custom mt-0.5">${esc(group.subtitle)}</p>
             </div>
-
-            <!-- Candidates Grid -->
-            <div class="p-4 grid ${gridCols} gap-4">
-              ${visibleCandidates.map((cand) => renderCandidateCard(cand, race)).join("")}
-            </div>
-          </article>
-        `;
-      })
+            <span class="px-2.5 py-1 rounded bg-elevated-custom border border-subtle-custom text-xs font-mono font-semibold text-primary-custom">
+              ${group.items.length} ${group.items.length === 1 ? "Race" : "Races"}
+            </span>
+          </div>
+          <div class="space-y-6">
+            ${group.items.map((race) => renderRaceCard(race)).join("")}
+          </div>
+        </section>
+      `
+      )
       .join("");
 
     container.innerHTML = `
-      <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-4 p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
         <div class="text-xs font-mono text-secondary-custom">
-          Showing <strong class="text-primary-custom">${races.length}</strong> Elections & <strong class="text-primary-custom">${totalCandidates}</strong> Candidates with Verified FEC/IL SBE PAC Profiles & Issue Stances
+          Showing <strong class="text-primary-custom">${races.length}</strong> Elections & <strong class="text-primary-custom">${totalCandidates}</strong> Candidates for <strong class="text-blue-600 dark:text-blue-400">${esc(areaShortName)}</strong>
         </div>
-        <div class="text-xs text-muted-custom">
-          Click any candidate's <strong>+ Compare</strong> button to compare up to 4 candidates side-by-side.
+        <div class="flex flex-wrap items-center gap-2">
+          <button type="button" id="toggle-compact-issues-btn" class="btn-secondary-sm">
+            ${state.compactIssues ? "Expand All Candidate Issue Lists ▼" : "Compact View (Collapse Issue Lists ▲)"}
+          </button>
         </div>
       </div>
-      <div class="space-y-6">
-        ${raceCardsHtml}
+      <div class="space-y-8">
+        ${groupedHtml}
       </div>
     `;
   }
 
-  // Render Town / City Ballot Directory (Tab 2)
+  // Render Town / City & ZIP Ballot Directory (Tab 2)
   function renderTownsTab() {
     const container = document.getElementById("tab-content-container");
     if (!container) return;
@@ -8618,6 +9455,8 @@ window.IL_LIVE_SYNC_META = {
         t.county,
         t.mayor,
         t.localContext,
+        ...(t.zips || []),
+        ...(t.aliases || []),
         ...(t.usHouse || []),
         ...(t.stateSenate || []),
         ...(t.stateHouse || [])
@@ -8630,6 +9469,7 @@ window.IL_LIVE_SYNC_META = {
     const cardsHtml = filteredTowns
       .map((t) => {
         const isSelected = state.selectedTownId === t.id;
+        const zipsPreview = (t.zips || []).slice(0, 8).join(", ") + ((t.zips || []).length > 8 ? ` + ${(t.zips || []).length - 8} more` : "");
         return `
           <div class="p-4 rounded-xl bg-elevated-custom border ${isSelected ? "border-blue-600 ring-2 ring-blue-500/20" : "border-subtle-custom"} flex flex-col justify-between gap-3">
             <div>
@@ -8639,6 +9479,7 @@ window.IL_LIVE_SYNC_META = {
               </div>
               <h3 class="text-base font-serif-display font-bold text-primary-custom">${esc(t.name)}</h3>
               <p class="text-xs text-secondary-custom mt-1"><strong>Mayor / Local Exec:</strong> ${esc(t.mayor)}</p>
+              <p class="text-[11px] font-mono text-muted-custom mt-1"><strong>ZIP Codes:</strong> ${esc(zipsPreview)}</p>
 
               <div class="mt-3 grid grid-cols-3 gap-1.5 text-[11px] font-mono">
                 <div class="p-1.5 rounded bg-primary-custom border border-subtle-custom">
@@ -8669,10 +9510,10 @@ window.IL_LIVE_SYNC_META = {
     container.innerHTML = `
       <div class="mb-4 p-4 rounded-xl bg-elevated-custom border border-subtle-custom flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h3 class="text-lg font-serif-display font-bold text-primary-custom">Illinois Town, Suburb & Chicago Neighborhood Ballot Directory</h3>
-          <p class="text-xs text-secondary-custom">Click any community below to assemble its exact Federal, State Executive, State Senate, State House, and County/Local ballot.</p>
+          <h3 class="text-lg font-serif-display font-bold text-primary-custom">Illinois Town, Suburb, Chicago Neighborhood & ZIP Code Ballot Directory</h3>
+          <p class="text-xs text-secondary-custom">Click any community below (or type any Illinois ZIP code above) to load its exact Federal, Statewide Executive, State Senate, State House, and County/Local ballot.</p>
         </div>
-        <span class="text-xs font-mono px-3 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${filteredTowns.length} Communities Indexed</span>
+        <span class="text-xs font-mono px-3 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${filteredTowns.length} Communities & 400+ Cities/ZIPs Indexed</span>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         ${cardsHtml}
@@ -8881,7 +9722,7 @@ window.IL_LIVE_SYNC_META = {
       container.innerHTML = `
         <div class="p-8 rounded-xl bg-elevated-custom border border-subtle-custom text-center">
           <h3 class="text-lg font-serif-display font-bold text-primary-custom">No Candidates Selected for Comparison</h3>
-          <p class="text-xs text-secondary-custom mt-1">Click "+ Compare Candidate" on any candidate card or choose a preset below:</p>
+          <p class="text-xs text-secondary-custom mt-1">Click "+ Compare Candidate" on any candidate card, "Compare Race" on any race header, or choose a preset below:</p>
           <div class="flex justify-center mt-4">${presetsHtml}</div>
         </div>
       `;
@@ -8976,7 +9817,10 @@ window.IL_LIVE_SYNC_META = {
             <h3 class="text-lg font-serif-display font-bold text-primary-custom">Side-by-Side Candidate Comparison Matrix (${comparedCands.length}/4 Selected)</h3>
             <p class="text-xs text-secondary-custom">Compare fundraising, PAC backers, and exact policy stances across candidates.</p>
           </div>
-          <button type="button" id="clear-compare-btn" class="px-3 py-1.5 text-xs font-semibold rounded border border-subtle-custom hover:bg-red-500/10 hover:text-red-500">Clear All</button>
+          <div class="flex items-center gap-2">
+            <button type="button" data-tab-btn="ballot" class="btn-secondary-sm">← Back to Ballot</button>
+            <button type="button" id="clear-compare-btn" class="px-3 py-1.5 text-xs font-semibold rounded border border-subtle-custom hover:bg-red-500/10 hover:text-red-500">Clear All</button>
+          </div>
         </div>
         ${presetsHtml}
       </div>
@@ -9107,12 +9951,12 @@ window.IL_LIVE_SYNC_META = {
       <div class="p-6 rounded-xl bg-elevated-custom border border-subtle-custom space-y-6">
         <div class="pb-4 border-b border-subtle-custom flex flex-wrap items-center justify-between gap-4">
           <div>
-            <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded bg-blue-600 text-white">INTERACTIVE USER MANUAL</span>
+            <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded bg-blue-600 text-white">FAMILY & FRIENDS USER MANUAL</span>
             <h3 class="text-xl md:text-2xl font-serif-display font-bold text-primary-custom mt-2">How to Use the 2026 Illinois Midterm Elections & PAC Guide</h3>
             <p class="text-xs md:text-sm text-secondary-custom mt-1">Follow the steps below or click any of the blue <strong>"Try Example"</strong> buttons to jump straight to that feature.</p>
           </div>
           <button type="button" data-tab-btn="ballot" class="px-4 py-2 rounded-lg text-xs font-semibold bg-blue-600 text-white hover:bg-blue-700 transition">
-            Return to All Races & Ballot View
+            Return to Your Ballot View
           </button>
         </div>
 
@@ -9121,18 +9965,18 @@ window.IL_LIVE_SYNC_META = {
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600/15 text-blue-600 dark:text-blue-400">Step 1 • Local Ballot Builder</span>
-                <span class="text-xs font-mono text-muted-custom">Control #1 in Top Bar</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600/15 text-blue-600 dark:text-blue-400">Step 1 • Enter Your City or 5-Digit ZIP Code</span>
+                <span class="text-xs font-mono text-muted-custom">Hero "Start Here" Box</span>
               </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Sort by Your Illinois Town, Suburb, or Chicago Neighborhood</h4>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Type Your Illinois ZIP Code (60001-62999) or City Name</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Select your community from the <strong>"1. Sort by Your Illinois Town..."</strong> dropdown at the top-left (or browse the <strong>Town & Neighborhood Ballot Directory</strong> tab). The guide immediately filters out the rest of the state and displays <strong>only</strong> your exact ballot: U.S. Senate, your U.S. House district(s), all 5 Statewide Executive offices, your State Senator, your State Representative, and your County offices & referendums, plus your current Mayor and local policy flashpoints.
+                Type your <strong>5-digit Illinois ZIP code</strong> (like <code>60614</code>, <code>60540</code>, <code>60201</code>, <code>62701</code>) or your <strong>city, suburb, or Chicago neighborhood</strong> into the blue <strong>Start Here</strong> search box at the top of the page. The entire dashboard immediately updates to display your exact ballot across all 4 levels: <strong>Federal</strong> (U.S. Senate + your U.S. House district), <strong>Statewide Executive</strong> (Governor, AG, SOS, Comptroller, Treasurer), <strong>State Legislature</strong> (your State Senator and State Rep), and <strong>County/Local</strong> offices.
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
-              <button type="button" data-quick-town="naperville" class="btn-compare-sm">Try Example: Naperville Ballot</button>
-              <button type="button" data-quick-town="chicago-lincoln-park-lakeview" class="btn-compare-sm">Try Example: Chicago North Lakefront</button>
-              <button type="button" data-quick-town="springfield" class="btn-compare-sm">Try Example: Springfield Ballot</button>
+              <button type="button" data-quick-town="naperville" data-quick-label="ZIP 60540 (Naperville)" class="btn-compare-sm">Try ZIP 60540 (Naperville)</button>
+              <button type="button" data-quick-town="chicago-lincoln-park-lakeview" data-quick-label="ZIP 60614 (Lincoln Park)" class="btn-compare-sm">Try ZIP 60614 (Chicago)</button>
+              <button type="button" data-quick-town="springfield" data-quick-label="ZIP 62701 (Springfield)" class="btn-compare-sm">Try ZIP 62701 (Springfield)</button>
             </div>
           </div>
 
@@ -9145,7 +9989,7 @@ window.IL_LIVE_SYNC_META = {
               </div>
               <h4 class="text-base font-serif-display font-bold text-primary-custom">See Which PACs, Super PACs & Unions Pay or Back Each Candidate</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Every candidate card includes a verified <strong>FEC / IL SBE Campaign Finance Box</strong> showing Total Raised, Cash on Hand, PAC Policy, and a line-by-line list of associated PACs with dollar amounts. Notice the green vs. red tags: green shows PACs <strong>Supporting</strong> the candidate, while red flags Super PACs that spent money <strong>Opposing</strong> them in the primary or general election. Use dropdown <strong>#3 (Filter by PAC)</strong> to isolate candidates by donor network.
+                Every candidate card includes a verified <strong>FEC / IL SBE Campaign Finance Box</strong> showing Total Raised, Cash on Hand, PAC Policy, and a line-by-line list of associated PACs with dollar amounts. Green tags show PACs <strong>Supporting</strong> the candidate; red tags flag Super PACs that spent money <strong>Opposing</strong> them. Use dropdown <strong>#3 (Filter by PAC)</strong> to isolate candidates by donor network.
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
@@ -9182,12 +10026,12 @@ window.IL_LIVE_SYNC_META = {
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • Side-by-Side Comparison & Sharing</span>
-                <span class="text-xs font-mono text-muted-custom">Up to 4 Candidates at Once</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • 1-Click Race Compare & Sharing</span>
+                <span class="text-xs font-mono text-muted-custom">Shareable Family & Friends Links</span>
               </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates Head-to-Head & Share Custom Links</h4>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates in Any Race & Share Direct Links</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Click <strong>"+ Compare Candidate"</strong> at the bottom of any candidate card to add them to your comparison tray (up to 4 candidates at a time), then click the <strong>Compare Candidates</strong> tab to view a side-by-side matrix of their fundraising, PAC backers, and every issue position. Want to send a specific town's ballot or comparison to a friend? Click <strong>"Share This View"</strong> in the top-right corner to copy the exact deep-link URL!
+                Click <strong>"Compare Candidates in This Race"</strong> on any race header (or <strong>"+ Compare Candidate"</strong> on up to 4 cards) to view a side-by-side table of fundraising, PAC backers, and issue stances. Want to text or email a specific town or ZIP code's ballot to family and friends? Click <strong>"Share This View"</strong> in the top-right corner to copy the exact link!
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
@@ -9200,7 +10044,7 @@ window.IL_LIVE_SYNC_META = {
     `;
   }
 
-  // Update Compare Tray Floating Pill
+  // Update Compare Tray Badge
   function updateCompareBadge() {
     const countEl = document.getElementById("compare-count-badge");
     if (countEl) {
@@ -9223,7 +10067,8 @@ window.IL_LIVE_SYNC_META = {
     groups.forEach((townList, regionName) => {
       html += `<optgroup label="${esc(regionName)}">`;
       townList.forEach((t) => {
-        html += `<option value="${esc(t.id)}" ${state.selectedTownId === t.id ? "selected" : ""}>${esc(t.name)} (${esc(t.county)} Co.)</option>`;
+        const sampleZips = (t.zips || []).slice(0, 3).join(", ");
+        html += `<option value="${esc(t.id)}" ${state.selectedTownId === t.id ? "selected" : ""}>${esc(t.name)} (${esc(t.county)} Co.${sampleZips ? " - " + esc(sampleZips) : ""})</option>`;
       });
       html += `</optgroup>`;
     });
@@ -9235,10 +10080,32 @@ window.IL_LIVE_SYNC_META = {
   function loadStateFromUrl() {
     try {
       const params = new URLSearchParams(window.location.search);
+      const zipParam = params.get("zip") || params.get("q");
       const townParam = params.get("town");
-      if (townParam && (townParam === "all" || TOWNS.some((t) => t.id === townParam))) {
-        state.selectedTownId = townParam;
+
+      if (zipParam) {
+        const res = resolveLocationQuery(zipParam);
+        if (res && res.town) {
+          state.selectedTownId = res.town.id;
+          state.enteredLocationLabel = res.matchedLabel || "";
+        }
+      } else if (townParam) {
+        if (townParam === "all" || TOWNS.some((t) => t.id === townParam)) {
+          state.selectedTownId = townParam;
+        } else {
+          const res = resolveLocationQuery(townParam);
+          if (res && res.town) {
+            state.selectedTownId = res.town.id;
+            state.enteredLocationLabel = res.matchedLabel || "";
+          }
+        }
       }
+
+      const labelParam = params.get("label");
+      if (labelParam && state.selectedTownId !== "all") {
+        state.enteredLocationLabel = labelParam;
+      }
+
       const tabParam = params.get("tab");
       if (tabParam && ["ballot", "towns", "issues", "pacs", "compare", "guide"].includes(tabParam)) {
         state.activeTab = tabParam;
@@ -9265,7 +10132,12 @@ window.IL_LIVE_SYNC_META = {
     try {
       if (window.location.protocol === "file:") return;
       const params = new URLSearchParams();
-      if (state.selectedTownId !== "all") params.set("town", state.selectedTownId);
+      if (state.selectedTownId !== "all") {
+        params.set("town", state.selectedTownId);
+        if (state.enteredLocationLabel) {
+          params.set("label", state.enteredLocationLabel);
+        }
+      }
       if (state.activeTab !== "ballot") params.set("tab", state.activeTab);
       if (state.levelFilter !== "all") params.set("level", state.levelFilter);
       if (state.pacFilter !== "all") params.set("pac", state.pacFilter);
@@ -9278,6 +10150,65 @@ window.IL_LIVE_SYNC_META = {
     } catch (_) {
       // Ignore in sandboxed iframe environments
     }
+  }
+
+  // Render Autocomplete Dropdown under Hero Location Input
+  function renderHeroAutocomplete(rawVal) {
+    const dropdownEl = document.getElementById("hero-location-suggestions");
+    if (!dropdownEl) return;
+
+    const cleaned = String(rawVal || "").trim();
+    if (!cleaned) {
+      dropdownEl.classList.add("hidden");
+      dropdownEl.innerHTML = "";
+      return;
+    }
+
+    // Check if user typed a 5-digit non-Illinois ZIP code
+    if (/^\d{5}$/.test(cleaned)) {
+      const num = Number(cleaned);
+      if (num < 60001 || num > 62999) {
+        dropdownEl.classList.remove("hidden");
+        dropdownEl.innerHTML = `
+          <div class="p-3 text-xs text-amber-700 dark:text-amber-300">
+            <strong>ZIP ${esc(cleaned)} is outside Illinois.</strong> Please enter an Illinois 5-digit ZIP code between <strong>60001 and 62999</strong> (for example: 60614, 60540, 60201, 61820, or 62701).
+          </div>
+        `;
+        return;
+      }
+    }
+
+    const suggestions = getAutocompleteSuggestions(cleaned);
+    if (suggestions.length === 0) {
+      dropdownEl.classList.add("hidden");
+      dropdownEl.innerHTML = "";
+      return;
+    }
+
+    dropdownEl.classList.remove("hidden");
+    dropdownEl.innerHTML = suggestions
+      .map((item) => {
+        const t = item.town;
+        const zipsSample = (t.zips || []).slice(0, 4).join(", ");
+        const districtsInfo = `U.S. House: ${(t.usHouse || []).join(", ")} • IL Sen: ${(t.stateSenate || []).join(", ")} • IL House: ${(t.stateHouse || []).join(", ")}`;
+        return `
+          <button
+            type="button"
+            class="autocomplete-item"
+            data-suggest-town="${esc(t.id)}"
+            data-suggest-label="${esc(item.matchedLabel)}"
+          >
+            <div>
+              <div class="text-xs sm:text-sm font-bold text-primary-custom">${esc(item.displayTitle)}</div>
+              <div class="text-[11px] text-secondary-custom font-mono mt-0.5">${esc(t.county)} County • ZIPs: ${esc(zipsSample)}</div>
+            </div>
+            <div class="text-[11px] font-mono text-blue-600 dark:text-blue-400 font-semibold">
+              ${esc(districtsInfo)} →
+            </div>
+          </button>
+        `;
+      })
+      .join("");
   }
 
   // Main Render Dispatcher
@@ -9308,6 +10239,7 @@ window.IL_LIVE_SYNC_META = {
       pacSelect.value = state.pacFilter;
     }
 
+    renderHeroKpis();
     renderTownBanner();
     updateCompareBadge();
 
@@ -9333,6 +10265,67 @@ window.IL_LIVE_SYNC_META = {
     loadStateFromUrl();
     populateTownDropdown();
 
+    // Hero City / ZIP Code Form & Input
+    const heroForm = document.getElementById("hero-location-form");
+    const heroInput = document.getElementById("hero-location-input");
+    const heroSuggestions = document.getElementById("hero-location-suggestions");
+
+    heroInput?.addEventListener("input", (e) => {
+      const val = e.target.value;
+      renderHeroAutocomplete(val);
+      // If user typed a valid 5-digit Illinois ZIP code, immediately resolve and update the dashboard!
+      const trimmed = val.trim();
+      if (/^\d{5}$/.test(trimmed)) {
+        const res = resolveLocationQuery(trimmed);
+        if (res && res.town) {
+          state.selectedTownId = res.town.id;
+          state.enteredLocationLabel = res.matchedLabel;
+          state.locationNotice = "";
+          state.activeTab = "ballot";
+          renderApp();
+        } else if (res && res.error === "out_of_state_zip") {
+          state.locationNotice = `ZIP ${res.zip} is outside Illinois. Please enter an Illinois 5-digit ZIP code between 60001 and 62999 (e.g., 60614, 60540, 60201, 61820, 62701).`;
+          renderHeroKpis();
+        }
+      }
+    });
+
+    heroForm?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const raw = heroInput ? heroInput.value.trim() : "";
+      if (!raw) {
+        state.selectedTownId = "all";
+        state.enteredLocationLabel = "";
+        state.locationNotice = "";
+        if (heroSuggestions) heroSuggestions.classList.add("hidden");
+        renderApp();
+        return;
+      }
+      const res = resolveLocationQuery(raw);
+      if (heroSuggestions) heroSuggestions.classList.add("hidden");
+      if (res && res.town) {
+        activateTownBallot(res.town.id, res.matchedLabel);
+      } else if (res && res.error === "out_of_state_zip") {
+        state.locationNotice = `ZIP ${res.zip} is outside Illinois. Illinois ZIP codes run from 60001 to 62999 (try 60614, 60540, 60201, 61820, or 62701).`;
+        renderHeroKpis();
+      } else {
+        state.locationNotice = `No exact Illinois city or ZIP match for "${raw}". Showing matching keyword results below, or pick from the Town & ZIP Directory.`;
+        state.searchQuery = raw;
+        const gSearch = document.getElementById("global-search-input");
+        if (gSearch) gSearch.value = raw;
+        renderApp();
+      }
+    });
+
+    document.getElementById("hero-location-clear-btn")?.addEventListener("click", () => {
+      state.selectedTownId = "all";
+      state.enteredLocationLabel = "";
+      state.locationNotice = "";
+      if (heroInput) heroInput.value = "";
+      if (heroSuggestions) heroSuggestions.classList.add("hidden");
+      renderApp();
+    });
+
     // Share / Copy Direct Link button
     document.getElementById("share-link-btn")?.addEventListener("click", () => {
       const btnSpan = document.getElementById("share-link-label");
@@ -9357,11 +10350,9 @@ window.IL_LIVE_SYNC_META = {
       }
       try {
         let records = [];
-        // 1. Check pre-synced daily build snapshot first
         if (window.IL_LIVE_SYNC_META && Array.isArray(window.IL_LIVE_SYNC_META.records)) {
           records = window.IL_LIVE_SYNC_META.records;
         }
-        // 2. Try Vercel Edge-Cached endpoint if hosted on web, or direct OpenFEC API
         const endpoint =
           window.location.protocol.startsWith("http") && !window.location.hostname.includes("gstatic")
             ? "/api/fec-live"
@@ -9418,12 +10409,15 @@ window.IL_LIVE_SYNC_META = {
       syncLiveFecData(true);
     });
 
-    // Run non-blocking background FEC check 800ms after initial render
     setTimeout(() => syncLiveFecData(false), 800);
 
     // Controls change
     document.getElementById("town-select-control")?.addEventListener("change", (e) => {
-      state.selectedTownId = e.target.value;
+      const val = e.target.value;
+      state.selectedTownId = val;
+      state.enteredLocationLabel = "";
+      state.locationNotice = "";
+      if (val === "all" && heroInput) heroInput.value = "";
       renderApp();
     });
 
@@ -9453,7 +10447,18 @@ window.IL_LIVE_SYNC_META = {
     });
 
     document.getElementById("global-search-input")?.addEventListener("input", (e) => {
-      state.searchQuery = e.target.value;
+      const val = e.target.value;
+      state.searchQuery = val;
+      // If user types a 5-digit Illinois ZIP code in global search, auto-load that town ballot
+      const trimmed = val.trim();
+      if (/^\d{5}$/.test(trimmed)) {
+        const res = resolveLocationQuery(trimmed);
+        if (res && res.town) {
+          state.selectedTownId = res.town.id;
+          state.enteredLocationLabel = res.matchedLabel;
+          state.searchQuery = "";
+        }
+      }
       renderApp();
     });
 
@@ -9470,6 +10475,20 @@ window.IL_LIVE_SYNC_META = {
 
     // Delegated Clicks
     document.addEventListener("click", (e) => {
+      // Hide autocomplete if clicking outside hero form
+      if (heroSuggestions && !e.target.closest("#hero-location-form")) {
+        heroSuggestions.classList.add("hidden");
+      }
+
+      const suggestBtn = e.target.closest("[data-suggest-town]");
+      if (suggestBtn) {
+        const tid = suggestBtn.getAttribute("data-suggest-town");
+        const tlabel = suggestBtn.getAttribute("data-suggest-label") || "";
+        if (heroSuggestions) heroSuggestions.classList.add("hidden");
+        activateTownBallot(tid, tlabel);
+        return;
+      }
+
       const tabBtn = e.target.closest("[data-tab-btn]");
       if (tabBtn) {
         state.activeTab = tabBtn.getAttribute("data-tab-btn");
@@ -9479,8 +10498,27 @@ window.IL_LIVE_SYNC_META = {
 
       const quickTown = e.target.closest("[data-quick-town]");
       if (quickTown) {
-        state.selectedTownId = quickTown.getAttribute("data-quick-town");
-        state.activeTab = "ballot";
+        const tid = quickTown.getAttribute("data-quick-town");
+        const qlabel = quickTown.getAttribute("data-quick-label") || "";
+        activateTownBallot(tid, qlabel);
+        return;
+      }
+
+      const compareRaceBtn = e.target.closest("[data-compare-race]");
+      if (compareRaceBtn) {
+        const rid = compareRaceBtn.getAttribute("data-compare-race");
+        const raceObj = ALL_RACES.find((r) => r.id === rid);
+        if (raceObj && Array.isArray(raceObj.candidates) && raceObj.candidates.length > 0) {
+          state.compareIds = raceObj.candidates.slice(0, 4).map((c) => c.id);
+          state.activeTab = "compare";
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          renderApp();
+        }
+        return;
+      }
+
+      if (e.target.closest("#toggle-compact-issues-btn")) {
+        state.compactIssues = !state.compactIssues;
         renderApp();
         return;
       }
@@ -9507,21 +10545,25 @@ window.IL_LIVE_SYNC_META = {
 
       const loadTown = e.target.closest("[data-load-town]");
       if (loadTown) {
-        state.selectedTownId = loadTown.getAttribute("data-load-town");
-        state.activeTab = "ballot";
+        const tid = loadTown.getAttribute("data-load-town");
         window.scrollTo({ top: 0, behavior: "smooth" });
-        renderApp();
+        activateTownBallot(tid, "");
         return;
       }
 
       if (e.target.closest("#clear-town-btn")) {
         state.selectedTownId = "all";
+        state.enteredLocationLabel = "";
+        state.locationNotice = "";
+        if (heroInput) heroInput.value = "";
         renderApp();
         return;
       }
 
       if (e.target.closest("#reset-all-filters-btn")) {
         state.selectedTownId = "all";
+        state.enteredLocationLabel = "";
+        state.locationNotice = "";
         state.levelFilter = "all";
         state.regionFilter = "all";
         state.partyFilter = "all";
@@ -9534,6 +10576,7 @@ window.IL_LIVE_SYNC_META = {
         });
         const sEl = document.getElementById("global-search-input");
         if (sEl) sEl.value = "";
+        if (heroInput) heroInput.value = "";
         renderApp();
         return;
       }
@@ -9617,9 +10660,14 @@ window.IL_LIVE_SYNC_META = {
     });
 
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && state.modalCandidateId) {
-        state.modalCandidateId = null;
-        renderModal();
+      if (e.key === "Escape") {
+        if (state.modalCandidateId) {
+          state.modalCandidateId = null;
+          renderModal();
+        }
+        if (heroSuggestions && !heroSuggestions.classList.contains("hidden")) {
+          heroSuggestions.classList.add("hidden");
+        }
       }
     });
 

@@ -493,6 +493,79 @@
       border-color: #047857;
     }
 
+    /* Hero City / ZIP Code Lookup Card */
+    .hero-lookup-card {
+      background-color: var(--bg-elevated);
+      border: 2px solid #2563EB;
+      border-radius: 1rem;
+      padding: 1.15rem 1.25rem;
+      box-shadow: 0 10px 25px -5px rgba(29, 78, 216, 0.12), 0 4px 10px -2px rgba(15, 23, 42, 0.05);
+      position: relative;
+    }
+
+    .hero-lookup-input {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      border: 1.5px solid var(--border-strong);
+      border-radius: 0.65rem;
+      padding: 0.7rem 0.95rem 0.7rem 2.5rem;
+      font-size: 0.925rem;
+      font-weight: 500;
+      width: 100%;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .hero-lookup-input:focus {
+      outline: none;
+      border-color: #2563EB;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+    }
+
+    .autocomplete-dropdown {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: calc(100% + 0.35rem);
+      z-index: 60;
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-strong);
+      border-radius: 0.75rem;
+      box-shadow: 0 20px 30px -10px rgba(15, 23, 42, 0.28);
+      max-height: 22rem;
+      overflow-y: auto;
+    }
+    .autocomplete-dropdown.hidden {
+      display: none;
+    }
+    .autocomplete-item {
+      width: 100%;
+      text-align: left;
+      padding: 0.65rem 0.9rem;
+      border-bottom: 1px solid var(--border-subtle);
+      background: transparent;
+      color: var(--text-primary);
+      cursor: pointer;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      transition: background-color 0.12s ease;
+    }
+    .autocomplete-item:last-child {
+      border-bottom: none;
+    }
+    .autocomplete-item:hover,
+    .autocomplete-item.autocomplete-active {
+      background-color: rgba(37, 99, 235, 0.10);
+    }
+
+    .ballot-tier-section-header {
+      background: linear-gradient(90deg, rgba(37, 99, 235, 0.10) 0%, transparent 100%);
+      border-left: 4px solid #2563EB;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+    }
+
     /* Modal */
     .modal-backdrop {
       position: fixed;
@@ -551,13 +624,14 @@
       <div class="mt-4 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
         <div class="lg:col-span-8">
           <h1 class="text-2xl sm:text-4xl font-serif-display font-bold text-primary-custom tracking-tight">
-            The Complete 2026 Illinois Elections & PAC Money Intelligence Guide
+            The Complete 2026 Illinois Elections & PAC Money Voter Guide
           </h1>
           <p class="mt-2 text-xs sm:text-sm text-secondary-custom max-w-3xl leading-relaxed">
-            Every federal, statewide constitutional, General Assembly battleground, and county election across all 102 Illinois counties. Sort by your town, city, or Chicago neighborhood to inspect your exact ballot, compare candidate stances across 23 federal, state, and local policy issues, and trace every PAC, Super PAC, union, and megadonor association.
+            Enter your Illinois city, suburb, neighborhood, or 5-digit ZIP code below to personalize this dashboard for your exact ballot. Inspect your Federal, Statewide, General Assembly, and County candidates, compare their stances across 23 key issues, and see every PAC, Super PAC, and union funding their campaigns.
           </p>
         </div>
-        <div class="lg:col-span-4 grid grid-cols-2 gap-2.5">
+        <!-- Dynamic Hero Summary Cards (Automatically updates to user's area + federal ballot) -->
+        <div id="hero-kpi-container" class="lg:col-span-4 grid grid-cols-2 gap-2.5">
           <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
             <div class="text-[10px] font-mono uppercase text-muted-custom">Federal & State Races</div>
             <div class="text-lg font-mono font-bold text-primary-custom">U.S. Sen + 17 CDs</div>
@@ -570,6 +644,67 @@
           </div>
         </div>
       </div>
+
+      <!-- Front-and-Center City or 5-Digit ZIP Code Ballot Finder -->
+      <div class="mt-5 hero-lookup-card" id="hero-zip-city-card">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">START HERE</span>
+            <label for="hero-location-input" class="text-sm sm:text-base font-bold text-primary-custom">
+              Enter Your Illinois City, Neighborhood, or 5-Digit ZIP Code
+            </label>
+          </div>
+          <span id="hero-location-status-badge" class="text-xs font-mono text-secondary-custom">
+            Covers all Illinois ZIP codes (60001-62999) & 400+ cities/neighborhoods
+          </span>
+        </div>
+
+        <form id="hero-location-form" class="relative" autocomplete="off">
+          <div class="flex flex-col sm:flex-row gap-2">
+            <div class="relative flex-1">
+              <svg class="w-4 h-4 text-muted-custom pointer-events-none" style="position:absolute;left:0.85rem;top:50%;transform:translateY(-50%);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <input
+                id="hero-location-input"
+                type="text"
+                placeholder="Type an Illinois ZIP code or city (e.g., 60614, Naperville, 60201, Oak Park, Springfield, 62220)..."
+                class="hero-lookup-input"
+                aria-label="Enter your Illinois city, neighborhood, or 5-digit ZIP code"
+              />
+              <div id="hero-location-suggestions" class="autocomplete-dropdown hidden" role="listbox"></div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button type="submit" id="hero-location-submit-btn" class="px-4 py-2.5 rounded-lg text-xs sm:text-sm font-bold bg-blue-600 text-white hover:bg-blue-700 transition whitespace-nowrap">
+                Show My Area & Federal Ballot
+              </button>
+              <button type="button" id="hero-location-clear-btn" class="px-3 py-2.5 rounded-lg text-xs font-semibold bg-primary-custom border border-subtle-custom text-secondary-custom hover:text-red-600 hover:border-red-500/40 transition whitespace-nowrap hidden">
+                Reset to All Illinois
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div id="hero-location-feedback" class="mt-2 text-xs text-secondary-custom hidden"></div>
+
+        <!-- Popular 1-Click City & ZIP Chips -->
+        <div class="mt-3 pt-2.5 border-t border-subtle-custom flex flex-wrap items-center gap-1.5">
+          <span class="text-[11px] font-mono uppercase text-muted-custom mr-1">Popular Areas & ZIPs:</span>
+          <button type="button" data-quick-town="chicago-loop-downtown" data-quick-label="Chicago Loop (60601)" class="quick-town-pill">Chicago Loop (60601)</button>
+          <button type="button" data-quick-town="chicago-lincoln-park-lakeview" data-quick-label="Lincoln Park / Lakeview (60614)" class="quick-town-pill">Lincoln Park (60614)</button>
+          <button type="button" data-quick-town="chicago-hyde-park-bronzeville" data-quick-label="Hyde Park / Bronzeville (60615)" class="quick-town-pill">Hyde Park (60615)</button>
+          <button type="button" data-quick-town="evanston" data-quick-label="Evanston (60201)" class="quick-town-pill">Evanston (60201)</button>
+          <button type="button" data-quick-town="oak-park-river-forest" data-quick-label="Oak Park (60302)" class="quick-town-pill">Oak Park (60302)</button>
+          <button type="button" data-quick-town="schaumburg" data-quick-label="Schaumburg (60173)" class="quick-town-pill">Schaumburg (60173)</button>
+          <button type="button" data-quick-town="orland-park" data-quick-label="Orland Park (60462)" class="quick-town-pill">Orland Park (60462)</button>
+          <button type="button" data-quick-town="naperville" data-quick-label="Naperville (60540)" class="quick-town-pill">Naperville (60540)</button>
+          <button type="button" data-quick-town="aurora" data-quick-label="Aurora (60504)" class="quick-town-pill">Aurora (60504)</button>
+          <button type="button" data-quick-town="joliet" data-quick-label="Joliet (60435)" class="quick-town-pill">Joliet (60435)</button>
+          <button type="button" data-quick-town="rockford-loves-park" data-quick-label="Rockford (61101)" class="quick-town-pill">Rockford (61101)</button>
+          <button type="button" data-quick-town="springfield" data-quick-label="Springfield (62701)" class="quick-town-pill">Springfield (62701)</button>
+          <button type="button" data-quick-town="champaign-urbana" data-quick-label="Champaign-Urbana (61820)" class="quick-town-pill">Champaign (61820)</button>
+          <button type="button" data-quick-town="peoria-east-peoria" data-quick-label="Peoria (61602)" class="quick-town-pill">Peoria (61602)</button>
+          <button type="button" data-quick-town="belleville-ofallon-east-st-louis" data-quick-label="Metro East / Belleville (62220)" class="quick-town-pill">Metro East (62220)</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -579,7 +714,7 @@
       <!-- Primary Row: Town Sorter + Search + Navigation Tabs -->
       <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5 items-center">
         <div class="md:col-span-4">
-          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Sort by Your Illinois Town, City or Chicago Neighborhood</label>
+          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Browse or Switch Illinois Area / Community</label>
           <select id="town-select-control" class="filter-select font-semibold"></select>
         </div>
         <div class="md:col-span-2">
@@ -626,8 +761,8 @@
           </div>
         </div>
         <div class="md:col-span-2">
-          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Instant Keyword Search</label>
-          <input id="global-search-input" type="search" placeholder="Candidate, city, PAC, issue..." class="filter-input" />
+          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Filter by Candidate, PAC or Issue</label>
+          <input id="global-search-input" type="search" placeholder="Candidate, ZIP, city, PAC..." class="filter-input" />
         </div>
       </div>
 
@@ -636,23 +771,23 @@
         <nav class="flex flex-wrap items-center gap-1.5" aria-label="Main Views">
           <button type="button" data-tab-btn="ballot" class="nav-tab-btn tab-btn-active">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="7" y1="16" x2="12" y2="16"/></svg>
-            <span>All Races, Candidates & PACs</span>
+            <span id="ballot-tab-btn-label">All Races, Candidates & PACs</span>
           </button>
           <button type="button" data-tab-btn="towns" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Town & Neighborhood Ballot Directory</span>
+            <span>Town & ZIP Ballot Directory</span>
           </button>
           <button type="button" data-tab-btn="issues" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-            <span>Issue Stance Matrix (Federal / State / Local)</span>
+            <span>Compare on 23 Issues</span>
           </button>
           <button type="button" data-tab-btn="pacs" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
-            <span>PAC & Super PAC Power Broker Directory</span>
+            <span>PAC Money Directory</span>
           </button>
           <button type="button" data-tab-btn="compare" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-            <span>Compare Candidates (<span id="compare-count-badge">4</span>)</span>
+            <span>Side-by-Side Compare (<span id="compare-count-badge">4</span>)</span>
           </button>
           <button type="button" data-tab-btn="guide" class="nav-tab-btn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
@@ -681,36 +816,36 @@
     <details class="rounded-xl bg-elevated-custom border border-subtle-custom p-3.5 group">
       <summary class="issue-details-summary">
         <div class="flex flex-wrap items-center gap-2">
-          <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">QUICK START GUIDE</span>
-          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Use This 2026 Illinois Voter & PAC Money Guide in 5 Easy Steps</span>
+          <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">FAMILY & FRIENDS QUICK GUIDE</span>
+          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Check Your 2026 Ballot in 30 Seconds</span>
         </div>
         <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Click to Expand / Collapse ▼</span>
       </summary>
       <div class="mt-3 pt-3 border-t border-subtle-custom grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3 text-xs">
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 1: Pick Your Town</div>
-          <div class="font-bold text-primary-custom mt-0.5">Build Your Local Ballot</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Use dropdown <strong>#1 (Sort by Town/City)</strong> or click any city pill below to see only the Federal, State, Legislative, and County races for your exact community.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 1: Enter City or ZIP</div>
+          <div class="font-bold text-primary-custom mt-0.5">Type Your Illinois ZIP or City</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Type your <strong>5-digit ZIP code (60001-62999)</strong> or city name into the blue <strong>Start Here</strong> box above. The dashboard updates automatically with your Federal, State, and Local ballot.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 2: Follow the Money</div>
-          <div class="font-bold text-primary-custom mt-0.5">Filter by PAC or Donor</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Use dropdown <strong>#3 (Filter by PAC)</strong> to isolate candidates backed by Fairshake Crypto, AIPAC/UDP, J Street, IUOE Local 150, Teachers Unions, or Grassroots-only.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 2: Scan Your Ballot</div>
+          <div class="font-bold text-primary-custom mt-0.5">Use the At-a-Glance Summary</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Your personalized dashboard shows a <strong>Complete Ballot At-a-Glance</strong> table grouped into Federal, Statewide, State Legislature, and County/Local races.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
           <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 3: Check 23 Issues</div>
           <div class="font-bold text-primary-custom mt-0.5">Compare Policy Stances</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card lists their positions across 8 Federal, 8 State, or 7 Local issues. Or open the <strong>Issue Stance Matrix</strong> tab to compare one issue across all races.</p>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card lists their positions across 8 Federal, 8 State, or 7 Local issues. Or open <strong>Compare on 23 Issues</strong> to view one issue across all candidates.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Side-by-Side</div>
-          <div class="font-bold text-primary-custom mt-0.5">Compare Up to 4 Candidates</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Click <strong>+ Compare Candidate</strong> on any card, then switch to the <strong>Compare Candidates</strong> tab for a head-to-head table of money, PACs, and stances.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Follow the Money</div>
+          <div class="font-bold text-primary-custom mt-0.5">Inspect PACs & Donors</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows verified FEC / IL SBE fundraising and which PACs or unions support (green) or oppose (red) them.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 5: Share & Auto-Sync</div>
-          <div class="font-bold text-primary-custom mt-0.5">Share Direct Town Links</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Click <strong>Share This View</strong> at the top right to copy a direct URL to your town's ballot, or click the <strong>How to Use Guide</strong> tab for interactive examples.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 5: Compare & Share</div>
+          <div class="font-bold text-primary-custom mt-0.5">1-Click Race Compare & Link</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Click <strong>Compare Candidates in This Race</strong> on any race header, or click <strong>Share This View</strong> at the top right to text or email your area's ballot to family and friends.</p>
         </div>
       </div>
     </details>

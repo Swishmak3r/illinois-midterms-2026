@@ -1,5 +1,5 @@
 // 2026 Illinois Midterm Elections - Interactive Application Engine
-// Handles Town/City Ballot Sorting, Multi-Level Race Filtering, Issue Stance Matrix, PAC Power Tracker & Candidate Comparison
+// Handles City & 5-Digit ZIP Code Ballot Lookup, Dynamic Area + Federal Dashboard, Issue Stance Matrix, PAC Power Tracker & Candidate Comparison
 
 (function () {
   "use strict";
@@ -36,10 +36,314 @@
     });
   });
 
+  // Build fast ZIP code & Municipality Alias Lookup Index
+  const ZIP_TO_TOWN_MAP = new Map();
+  TOWNS.forEach((town) => {
+    (town.zips || []).forEach((z) => {
+      const zipStr = String(z).trim();
+      // Prefer specific Chicago neighborhood hubs over citywide 'chicago-all' for specific ZIPs
+      if (!ZIP_TO_TOWN_MAP.has(zipStr) || ZIP_TO_TOWN_MAP.get(zipStr).id === "chicago-all") {
+        ZIP_TO_TOWN_MAP.set(zipStr, town);
+      }
+    });
+  });
+
+  // Complete deterministic fallback resolver for all Illinois 5-digit ZIP codes (60001 - 62999)
+  function resolveIllinoisZipFallback(zip5) {
+    if (!/^\d{5}$/.test(zip5)) return null;
+    if (ZIP_TO_TOWN_MAP.has(zip5)) {
+      return { town: ZIP_TO_TOWN_MAP.get(zip5), exactZip: true };
+    }
+    const num = Number(zip5);
+    if (num < 60001 || num > 62999) {
+      return { outOfState: true, zip: zip5 };
+    }
+    const prefix3 = Math.floor(num / 100);
+    let fallbackId = "chicago-all";
+
+    if (prefix3 === 600) {
+      if ([60004, 60005, 60006, 60070, 60090].includes(num)) fallbackId = "arlington-heights";
+      else if ([60007, 60009].includes(num)) fallbackId = "elk-grove-village";
+      else if ([60008, 60056, 60067, 60074, 60078].includes(num)) fallbackId = "mount-prospect-palatine";
+      else if ([60010, 60011, 60042, 60047, 60084].includes(num)) fallbackId = "barrington-lake-zurich-wauconda";
+      else if ([60012, 60013, 60014, 60021, 60033, 60034, 60050, 60051, 60071, 60072, 60081, 60097, 60098].includes(num)) fallbackId = "crystal-lake-cary-mchenry";
+      else if ([60015, 60035, 60037, 60040, 60044, 60045, 60048, 60069].includes(num)) fallbackId = "highland-park-deerfield-lake-forest";
+      else if (num >= 60016 && num <= 60019) fallbackId = "des-plaines";
+      else if ([60022, 60043, 60091, 60093].includes(num)) fallbackId = "wilmette-winnetka";
+      else if ([60025, 60026, 60029].includes(num)) fallbackId = "glenview";
+      else if (num === 60053) fallbackId = "niles-morton-grove";
+      else if ([60062, 60065].includes(num)) fallbackId = "northbrook";
+      else if (num === 60068) fallbackId = "park-ridge";
+      else if ([60076, 60077].includes(num)) fallbackId = "skokie";
+      else if ([60064, 60083, 60085, 60087, 60088, 60096, 60099].includes(num)) fallbackId = "waukegan-north-chicago";
+      else fallbackId = "buffalo-grove-mundelein-gurnee";
+    } else if (prefix3 === 601) {
+      if ([60101, 60103, 60106, 60108, 60139, 60157, 60172, 60184, 60188, 60191].includes(num)) fallbackId = "carol-stream-bloomingdale-bartlett";
+      else if ([60102, 60110, 60118, 60142, 60156].includes(num)) fallbackId = "carpentersville-dundee-algonquin";
+      else if ((num >= 60153 && num <= 60165) || [60104, 60131, 60171, 60176].includes(num)) fallbackId = "maywood-proviso";
+      else if ((num >= 60192 && num <= 60196) || [60107, 60133, 60168, 60169, 60173, 60179].includes(num)) fallbackId = "schaumburg";
+      else if ((num >= 60111 && num <= 60115) || [60135, 60145, 60146, 60150, 60178].includes(num)) fallbackId = "dekalb-sycamore";
+      else if ([60119, 60134, 60144, 60147, 60151, 60174, 60175, 60183].includes(num)) fallbackId = "st-charles-geneva-batavia";
+      else if ((num >= 60120 && num <= 60124) || [60136, 60140, 60170, 60177].includes(num)) fallbackId = "elgin";
+      else if ([60126, 60148, 60181].includes(num)) fallbackId = "elmhurst-lombard-oak-brook";
+      else if (num === 60130) fallbackId = "oak-park-river-forest";
+      else if (num === 60143) fallbackId = "elk-grove-village";
+      else if (num === 60152) fallbackId = "crystal-lake-cary-mchenry";
+      else fallbackId = "wheaton-glen-ellyn";
+    } else if (prefix3 === 602) {
+      fallbackId = "evanston";
+    } else if (prefix3 === 603) {
+      fallbackId = "oak-park-river-forest";
+    } else if (prefix3 === 604) {
+      if (num === 60402) fallbackId = "cicero-berwyn";
+      else if ((num >= 60431 && num <= 60436) || [60403, 60404, 60408, 60410, 60416, 60420, 60421, 60442, 60447, 60481].includes(num)) fallbackId = "joliet";
+      else if ((num >= 60453 && num <= 60459) || [60406, 60415, 60463, 60465, 60482].includes(num)) fallbackId = "oak-lawn-palos";
+      else if ([60409, 60419, 60426, 60428, 60438, 60469, 60472, 60473, 60476].includes(num)) fallbackId = "calumet-city-harvey-dolton";
+      else if ([60401, 60411, 60417, 60422, 60425, 60429, 60430, 60443, 60449, 60461, 60466, 60468, 60471, 60475, 60484].includes(num)) fallbackId = "chicago-heights-flossmoor";
+      else if ([60423, 60441, 60448, 60451, 60491].includes(num)) fallbackId = "new-lenox-frankfort-mokena";
+      else if ([60439, 60440, 60446, 60490].includes(num)) fallbackId = "bolingbrook-romeoville";
+      else if ([60444, 60450, 60470, 60474, 60479].includes(num)) fallbackId = "ottawa-lasalle-peru";
+      else if ([60445, 60452, 60477, 60478, 60487].includes(num)) fallbackId = "tinley-park";
+      else if (num === 60480) fallbackId = "la-grange-western-springs";
+      else fallbackId = "orland-park";
+    } else if (prefix3 === 605) {
+      if ([60501, 60513, 60525, 60526, 60534, 60546, 60558].includes(num)) fallbackId = "la-grange-western-springs";
+      else if ((num >= 60502 && num <= 60507) || [60511, 60538, 60539, 60542, 60554].includes(num)) fallbackId = "aurora";
+      else if (num === 60510) fallbackId = "st-charles-geneva-batavia";
+      else if ((num >= 60514 && num <= 60517) || [60521, 60527, 60532, 60559, 60561].includes(num)) fallbackId = "downers-grove-hinsdale";
+      else if ([60518, 60531, 60549, 60551, 60552, 60557].includes(num)) fallbackId = "ottawa-lasalle-peru";
+      else if ([60520, 60550, 60556].includes(num)) fallbackId = "dekalb-sycamore";
+      else if (num === 60523) fallbackId = "elmhurst-lombard-oak-brook";
+      else if ([60543, 60544, 60545, 60548, 60560, 60585, 60586].includes(num)) fallbackId = "plainfield-oswego-shorewood";
+      else if (num === 60555) fallbackId = "wheaton-glen-ellyn";
+      else fallbackId = "naperville";
+    } else if (prefix3 === 606) {
+      fallbackId = "chicago-all";
+    } else if (prefix3 === 607) {
+      if ([60712, 60714].includes(num)) fallbackId = "niles-morton-grove";
+      else fallbackId = "chicago-jefferson-park-norwood";
+    } else if (prefix3 === 608) {
+      if (num === 60804) fallbackId = "cicero-berwyn";
+      else if (num === 60827) fallbackId = "calumet-city-harvey-dolton";
+      else fallbackId = "oak-lawn-palos";
+    } else if (prefix3 === 609) {
+      if ([60936, 60957].includes(num)) fallbackId = "champaign-urbana";
+      else if (num === 60942) fallbackId = "danville";
+      else fallbackId = "kankakee-bourbonnais-bradley";
+    } else if (prefix3 === 610) {
+      if ([61008, 61011, 61012, 61065].includes(num)) fallbackId = "belvidere-boone";
+      else if ([61010, 61016, 61061, 61063, 61072, 61073, 61080, 61088].includes(num)) fallbackId = "rockford-loves-park";
+      else if (num === 61068) fallbackId = "dekalb-sycamore";
+      else fallbackId = "freeport-galena-savanna";
+    } else if (prefix3 === 611) {
+      fallbackId = "rockford-loves-park";
+    } else if (prefix3 === 612) {
+      fallbackId = "quad-cities-rock-island-moline";
+    } else if (prefix3 === 613) {
+      fallbackId = "ottawa-lasalle-peru";
+    } else if (prefix3 === 614) {
+      fallbackId = "galesburg-monmouth-macomb";
+    } else if (prefix3 === 615 || prefix3 === 616) {
+      fallbackId = "peoria-east-peoria";
+    } else if (prefix3 === 617) {
+      fallbackId = "bloomington-normal";
+    } else if (prefix3 === 618) {
+      if ([61817, 61832, 61833, 61834, 61844, 61846, 61858, 61870, 61876, 61883].includes(num)) fallbackId = "danville";
+      else fallbackId = "champaign-urbana";
+    } else if (prefix3 === 619) {
+      if (num === 61944) fallbackId = "danville";
+      else if (num === 61953) fallbackId = "champaign-urbana";
+      else fallbackId = "decatur";
+    } else if (prefix3 === 620 || prefix3 === 621) {
+      if (num === 62052) fallbackId = "quincy-jacksonville";
+      else if (num === 62056) fallbackId = "springfield";
+      else fallbackId = "edwardsville-alton-granite-city";
+    } else if (prefix3 === 622) {
+      if ([62234, 62246, 62249, 62294].includes(num)) fallbackId = "edwardsville-alton-granite-city";
+      else fallbackId = "belleville-ofallon-east-st-louis";
+    } else if (prefix3 === 623) {
+      fallbackId = "quincy-jacksonville";
+    } else if (prefix3 === 624) {
+      fallbackId = "mt-vernon-effingham-centralia-cairo";
+    } else if (prefix3 === 625) {
+      if ((num >= 62521 && num <= 62526) || [62535, 62549, 62565].includes(num)) fallbackId = "decatur";
+      else fallbackId = "springfield";
+    } else if (prefix3 === 626 || prefix3 === 627) {
+      if ([62618, 62650, 62681].includes(num)) fallbackId = "quincy-jacksonville";
+      else fallbackId = "springfield";
+    } else if (prefix3 === 628) {
+      if ([62812, 62832, 62896].includes(num)) fallbackId = "carbondale-marion-herrin";
+      else fallbackId = "mt-vernon-effingham-centralia-cairo";
+    } else if (prefix3 === 629) {
+      if ([62914, 62930, 62946, 62960, 62964, 62984, 62995].includes(num)) fallbackId = "mt-vernon-effingham-centralia-cairo";
+      else fallbackId = "carbondale-marion-herrin";
+    }
+
+    const town = TOWNS.find((t) => t.id === fallbackId) || TOWNS[0];
+    return { town, exactZip: false };
+  }
+
+  // Resolve any user-typed city name, neighborhood, or 5-digit ZIP code into a matching town hub
+  function resolveLocationQuery(rawQuery) {
+    const cleaned = String(rawQuery || "").trim();
+    if (!cleaned) return null;
+
+    // 1. Check if input is or contains a 5-digit ZIP code
+    const zipMatch = cleaned.match(/\b(\d{5})\b/);
+    if (zipMatch) {
+      const zip5 = zipMatch[1];
+      const res = resolveIllinoisZipFallback(zip5);
+      if (res && res.outOfState) {
+        return { error: "out_of_state_zip", zip: zip5 };
+      }
+      if (res && res.town) {
+        return {
+          town: res.town,
+          matchedLabel: `ZIP ${zip5} (${res.town.name.split("(")[0].trim()})`,
+          matchedZip: zip5
+        };
+      }
+    }
+
+    const q = cleaned.toLowerCase();
+
+    // 2. Check exact match on town.id, town.name, or town.aliases
+    for (const t of TOWNS) {
+      if (t.id.toLowerCase() === q || t.name.toLowerCase() === q) {
+        return { town: t, matchedLabel: t.name.split("(")[0].trim() };
+      }
+      for (const alias of t.aliases || []) {
+        if (alias.toLowerCase() === q) {
+          return { town: t, matchedLabel: `${alias} (${t.county} County)` };
+        }
+      }
+    }
+
+    // 3. Check prefix match on aliases or town name
+    for (const t of TOWNS) {
+      const shortName = t.name.split("(")[0].trim();
+      if (shortName.toLowerCase().startsWith(q)) {
+        return { town: t, matchedLabel: shortName };
+      }
+      for (const alias of t.aliases || []) {
+        if (alias.toLowerCase().startsWith(q)) {
+          return { town: t, matchedLabel: `${alias} (${t.county} County)` };
+        }
+      }
+    }
+
+    // 4. Check substring match on aliases, town name, county, or localContext
+    for (const t of TOWNS) {
+      const matchedAlias = (t.aliases || []).find((a) => a.toLowerCase().includes(q));
+      if (matchedAlias) {
+        return { town: t, matchedLabel: `${matchedAlias} (${t.county} County)` };
+      }
+      if (t.name.toLowerCase().includes(q) || (t.county + " county").toLowerCase().includes(q)) {
+        return { town: t, matchedLabel: t.name.split("(")[0].trim() };
+      }
+    }
+
+    return null;
+  }
+
+  // Generate autocomplete suggestions for a partial city, neighborhood, or ZIP query
+  function getAutocompleteSuggestions(rawQuery) {
+    const cleaned = String(rawQuery || "").trim();
+    if (!cleaned) return [];
+    const q = cleaned.toLowerCase();
+    const isDigits = /^\d+$/.test(cleaned);
+    const results = [];
+    const seenTownIds = new Set();
+
+    if (isDigits) {
+      // If 5 digits, resolve directly first
+      if (cleaned.length === 5) {
+        const res = resolveIllinoisZipFallback(cleaned);
+        if (res && res.town) {
+          results.push({
+            town: res.town,
+            displayTitle: `ZIP ${cleaned} - ${res.town.name.split("(")[0].trim()}`,
+            matchedLabel: `ZIP ${cleaned} (${res.town.name.split("(")[0].trim()})`,
+            zip: cleaned
+          });
+          seenTownIds.add(res.town.id);
+        }
+      }
+      // Also find towns with ZIPs starting with these digits
+      TOWNS.forEach((t) => {
+        if (seenTownIds.has(t.id)) return;
+        const matchingZip = (t.zips || []).find((z) => String(z).startsWith(cleaned));
+        if (matchingZip) {
+          results.push({
+            town: t,
+            displayTitle: `ZIP ${matchingZip} - ${t.name.split("(")[0].trim()}`,
+            matchedLabel: `ZIP ${matchingZip} (${t.name.split("(")[0].trim()})`,
+            zip: matchingZip
+          });
+          seenTownIds.add(t.id);
+        }
+      });
+      return results.slice(0, 8);
+    }
+
+    // Text search across aliases, names, and counties
+    const scored = [];
+    TOWNS.forEach((t) => {
+      const shortName = t.name.split("(")[0].trim();
+      let bestScore = 0;
+      let matchedAlias = null;
+
+      for (const alias of t.aliases || []) {
+        const al = alias.toLowerCase();
+        if (al === q) {
+          bestScore = Math.max(bestScore, 100);
+          matchedAlias = alias;
+        } else if (al.startsWith(q)) {
+          if (85 > bestScore) {
+            bestScore = 85;
+            matchedAlias = alias;
+          }
+        } else if (al.includes(q)) {
+          if (65 > bestScore) {
+            bestScore = 65;
+            matchedAlias = alias;
+          }
+        }
+      }
+
+      const nl = t.name.toLowerCase();
+      if (nl.startsWith(q) && bestScore < 90) {
+        bestScore = 90;
+      } else if (nl.includes(q) && bestScore < 70) {
+        bestScore = 70;
+      } else if ((t.county + " county").toLowerCase().includes(q) && bestScore < 50) {
+        bestScore = 50;
+      }
+
+      if (bestScore > 0) {
+        const label =
+          matchedAlias && !shortName.toLowerCase().includes(matchedAlias.toLowerCase())
+            ? `${matchedAlias} - ${shortName}`
+            : t.name;
+        scored.push({
+          score: bestScore,
+          town: t,
+          displayTitle: label,
+          matchedLabel: matchedAlias ? `${matchedAlias} (${t.county} County)` : shortName
+        });
+      }
+    });
+
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, 8);
+  }
+
   // Application State
   const state = {
-    activeTab: "ballot", // 'ballot' | 'towns' | 'issues' | 'pacs' | 'compare'
+    activeTab: "ballot", // 'ballot' | 'towns' | 'issues' | 'pacs' | 'compare' | 'guide'
     selectedTownId: "all", // 'all' or town.id
+    enteredLocationLabel: "", // e.g., 'ZIP 60540 (Naperville)' or 'Hinsdale'
+    locationNotice: "", // Out-of-state ZIP or helpful feedback notice
     levelFilter: "all", // 'all' | 'federal' | 'statewide' | 'state_legislature' | 'local'
     regionFilter: "all",
     partyFilter: "all",
@@ -51,10 +355,13 @@
     pacCategoryFilter: "all",
     pacSearchQuery: "",
     compareIds: ["juliana-stratton", "don-tracy", "jb-pritzker", "darren-bailey"],
-    expandedRaces: new Set(),
+    compactIssues: false,
     modalCandidateId: null,
     theme: "light"
   };
+
+  // Expose resolver helper on window for automated verification tests
+  window.IL_RESOLVE_LOCATION = resolveLocationQuery;
 
   // Utility: Escape HTML safely
   function esc(str) {
@@ -126,7 +433,7 @@
     if (race.level === "local" && (town.localRaces || []).includes(race.id)) {
       return true;
     }
-    // Also check if town name or county matches race cities
+    // Check if town name or aliases match race cities
     const townBase = town.name.split("(")[0].split("-")[0].trim().toLowerCase();
     if ((race.cities || []).some((c) => c.toLowerCase().includes(townBase))) {
       return true;
@@ -175,11 +482,30 @@
 
   // Filter races based on current state
   function getFilteredRaces() {
-    const selectedTown = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
+    let selectedTown = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
     const q = state.searchQuery.trim().toLowerCase();
 
+    // If user typed a 5-digit Illinois ZIP code or exact city name into the secondary search box while town is "all", resolve their full town ballot
+    let resolvedSearchTown = null;
+    if (!selectedTown && q) {
+      if (/^\d{5}$/.test(q)) {
+        const res = resolveLocationQuery(q);
+        if (res && res.town) resolvedSearchTown = res.town;
+      } else {
+        // Check if q is an exact match for a town name or alias
+        const exactTown = TOWNS.find(
+          (t) =>
+            t.name.split("(")[0].trim().toLowerCase() === q ||
+            (t.aliases || []).some((a) => a.toLowerCase() === q)
+        );
+        if (exactTown) resolvedSearchTown = exactTown;
+      }
+    }
+
+    const activeTownForBallot = selectedTown || resolvedSearchTown;
+
     return ALL_RACES.filter((race) => {
-      if (selectedTown && !raceMatchesTown(race, selectedTown)) return false;
+      if (activeTownForBallot && !raceMatchesTown(race, activeTownForBallot)) return false;
       if (state.levelFilter !== "all" && race.level !== state.levelFilter) return false;
 
       if (state.regionFilter !== "all") {
@@ -196,7 +522,7 @@
       if (state.raceTypeFilter === "battleground" && !race.isBattleground) return false;
       if (state.raceTypeFilter === "open" && !race.isOpenSeat) return false;
 
-      // Check candidate-level filters (Party, PAC, Search)
+      // Check candidate-level filters (Party, PAC)
       const matchingCands = (race.candidates || []).filter((c) => {
         if (state.partyFilter !== "all") {
           const p = (c.party || "").toLowerCase();
@@ -210,7 +536,8 @@
 
       if (matchingCands.length === 0) return false;
 
-      if (q) {
+      // Only apply raw substring filter if q wasn't already resolved as a full town/ZIP ballot
+      if (q && !resolvedSearchTown) {
         const raceBlob = [
           race.office,
           race.districtCode,
@@ -246,7 +573,108 @@
     });
   }
 
-  // Render Top Summary Metrics & Active Town Banner
+  // Select a town (with optional user-entered label like "ZIP 60540 (Naperville)") and reset conflicting filters
+  function activateTownBallot(townId, customLabel) {
+    state.selectedTownId = townId;
+    state.enteredLocationLabel = customLabel || "";
+    state.locationNotice = "";
+    state.levelFilter = "all";
+    state.regionFilter = "all";
+    state.searchQuery = "";
+    const gSearch = document.getElementById("global-search-input");
+    if (gSearch) gSearch.value = "";
+    state.activeTab = "ballot";
+    renderApp();
+  }
+
+  // Render Dynamic Top Hero KPI Cards & Hero Location Bar Status
+  function renderHeroKpis() {
+    const kpiEl = document.getElementById("hero-kpi-container");
+    const statusBadge = document.getElementById("hero-location-status-badge");
+    const clearBtn = document.getElementById("hero-location-clear-btn");
+    const feedbackEl = document.getElementById("hero-location-feedback");
+    const ballotTabLabel = document.getElementById("ballot-tab-btn-label");
+    const heroInput = document.getElementById("hero-location-input");
+
+    const town = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
+
+    if (clearBtn) {
+      if (town) clearBtn.classList.remove("hidden");
+      else clearBtn.classList.add("hidden");
+    }
+
+    if (feedbackEl) {
+      if (state.locationNotice) {
+        feedbackEl.classList.remove("hidden");
+        feedbackEl.innerHTML = `<span class="text-amber-700 dark:text-amber-300 font-semibold">${esc(state.locationNotice)}</span>`;
+      } else if (town) {
+        const displayLoc = state.enteredLocationLabel || town.name.split("(")[0].trim();
+        const sampleZips = (town.zips || []).slice(0, 6).join(", ");
+        feedbackEl.classList.remove("hidden");
+        feedbackEl.innerHTML = `
+          <span class="text-emerald-700 dark:text-emerald-400 font-semibold">✓ Active Area Ballot: ${esc(displayLoc)}</span>
+          <span class="text-secondary-custom"> • Showing Federal (U.S. Senate + ${esc((town.usHouse || []).join(", "))}), Statewide Executive, IL Legislature (${esc((town.stateSenate || []).join(", "))} / ${esc((town.stateHouse || []).join(", "))}), and ${esc(town.county)} County races (ZIPs: ${esc(sampleZips)})</span>
+        `;
+      } else {
+        feedbackEl.classList.add("hidden");
+        feedbackEl.innerHTML = "";
+      }
+    }
+
+    if (!town) {
+      if (statusBadge) {
+        statusBadge.textContent = "Covers all Illinois ZIP codes (60001-62999) & 400+ cities/neighborhoods";
+      }
+      if (ballotTabLabel) {
+        ballotTabLabel.textContent = "All Races, Candidates & PACs";
+      }
+      if (kpiEl) {
+        kpiEl.innerHTML = `
+          <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
+            <div class="text-[10px] font-mono uppercase text-muted-custom">Federal & State Races</div>
+            <div class="text-lg font-mono font-bold text-primary-custom">U.S. Sen + 17 CDs</div>
+            <div class="text-[11px] text-secondary-custom">5 Open U.S. House Seats</div>
+          </div>
+          <div class="p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
+            <div class="text-[10px] font-mono uppercase text-muted-custom">State & Local Coverage</div>
+            <div class="text-lg font-mono font-bold text-primary-custom">5 Exec + GA + 102 Co.</div>
+            <div class="text-[11px] text-secondary-custom">23 Policy Issues & 25+ PACs</div>
+          </div>
+        `;
+      }
+      return;
+    }
+
+    const shortLabel = state.enteredLocationLabel || town.name.split("(")[0].trim();
+    if (statusBadge) {
+      statusBadge.textContent = `Active Ballot: ${shortLabel} (${town.county} County)`;
+    }
+    if (ballotTabLabel) {
+      ballotTabLabel.textContent = `Your ${shortLabel.split("(")[0].trim()} Ballot`;
+    }
+    if (heroInput && document.activeElement !== heroInput) {
+      heroInput.value = shortLabel;
+    }
+
+    if (kpiEl) {
+      const usHouseStr = (town.usHouse || []).join(", ");
+      const legStr = [...(town.stateSenate || []), ...(town.stateHouse || [])].join(", ");
+      kpiEl.innerHTML = `
+        <a href="#ballot-tier-federal" class="p-3 rounded-xl bg-elevated-custom border-2 border-blue-600/60 hover:border-blue-600 transition block no-underline">
+          <div class="text-[10px] font-mono uppercase text-blue-600 dark:text-blue-400 font-bold">Your Federal Level Ballot</div>
+          <div class="text-base sm:text-lg font-mono font-bold text-primary-custom mt-0.5">U.S. Sen + ${esc(usHouseStr)}</div>
+          <div class="text-[11px] text-secondary-custom">Click to jump to Federal candidates ↓</div>
+        </a>
+        <a href="#ballot-tier-state_legislature" class="p-3 rounded-xl bg-elevated-custom border-2 border-emerald-600/60 hover:border-emerald-600 transition block no-underline">
+          <div class="text-[10px] font-mono uppercase text-emerald-700 dark:text-emerald-400 font-bold">Your State & Local Ballot</div>
+          <div class="text-base sm:text-lg font-mono font-bold text-primary-custom mt-0.5">${esc(legStr)} + ${esc(town.county)} Co.</div>
+          <div class="text-[11px] text-secondary-custom">5 Statewide + Local & Referendums ↓</div>
+        </a>
+      `;
+    }
+  }
+
+  // Render Top Summary Metrics & Active Town Personalized Dashboard Banner
   function renderTownBanner() {
     const bannerEl = document.getElementById("active-town-banner");
     if (!bannerEl) return;
@@ -261,22 +689,12 @@
               </div>
               <div>
                 <div class="text-xs font-mono uppercase tracking-wider text-muted-custom">Statewide Illinois View Active (All 102 Counties)</div>
-                <div class="text-sm font-semibold text-primary-custom">Select any Illinois city, suburb, or Chicago neighborhood above to build your exact local, state, and federal ballot.</div>
+                <div class="text-sm font-semibold text-primary-custom">Type your Illinois city or 5-digit ZIP code in the "Start Here" box above to customize this dashboard with your exact local, state, and federal candidates.</div>
               </div>
             </div>
-            <div class="flex flex-wrap gap-2">
-              <button type="button" data-quick-town="chicago-loop-downtown" class="quick-town-pill">Chicago Loop</button>
-              <button type="button" data-quick-town="chicago-lincoln-park-lakeview" class="quick-town-pill">Lincoln Park / Lakeview</button>
-              <button type="button" data-quick-town="evanston" class="quick-town-pill">Evanston</button>
-              <button type="button" data-quick-town="naperville" class="quick-town-pill">Naperville</button>
-              <button type="button" data-quick-town="aurora" class="quick-town-pill">Aurora</button>
-              <button type="button" data-quick-town="joliet" class="quick-town-pill">Joliet</button>
-              <button type="button" data-quick-town="orland-park" class="quick-town-pill">Orland Park</button>
-              <button type="button" data-quick-town="rockford-loves-park" class="quick-town-pill">Rockford</button>
-              <button type="button" data-quick-town="springfield" class="quick-town-pill">Springfield</button>
-              <button type="button" data-quick-town="champaign-urbana" class="quick-town-pill">Champaign-Urbana</button>
-              <button type="button" data-quick-town="belleville-ofallon-east-st-louis" class="quick-town-pill">Metro East</button>
-            </div>
+            <button type="button" data-tab-btn="towns" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white hover:bg-blue-700 transition">
+              Browse All 69 Illinois Area & ZIP Hubs →
+            </button>
           </div>
         </div>
       `;
@@ -287,43 +705,123 @@
     if (!town) return;
 
     const matchingRaces = getFilteredRaces();
+    const fedRaces = matchingRaces.filter((r) => r.level === "federal");
+    const stateExecRaces = matchingRaces.filter((r) => r.level === "statewide");
+    const legRaces = matchingRaces.filter((r) => r.level === "state_legislature");
+    const localRaces = matchingRaces.filter((r) => r.level === "local");
+
+    const headingTitle = state.enteredLocationLabel
+      ? `${state.enteredLocationLabel} - Your 2026 General Election Dashboard`
+      : `${town.name} - Your 2026 General Election Dashboard`;
+
+    const zipsListStr = (town.zips || []).join(", ");
+
+    // Build At-a-Glance Ballot Cheat Sheet rows
+    const cheatSheetRowsHtml = matchingRaces
+      .map((r) => {
+        const levelMeta = getLevelMeta(r.level);
+        const candsSummary = (r.candidates || [])
+          .map((c) => {
+            const pm = getPartyMeta(c.party);
+            return `<span class="inline-flex items-center gap-1 mr-2 mb-1 px-2 py-0.5 rounded text-xs font-medium ${pm.badgeClass}">${esc(c.name)} (${pm.short})</span>`;
+          })
+          .join("");
+
+        return `
+          <div class="p-2.5 rounded-lg bg-elevated-custom border border-subtle-custom flex flex-wrap items-center justify-between gap-2">
+            <div class="min-w-[210px] flex-1">
+              <div class="flex flex-wrap items-center gap-1.5">
+                <span class="px-1.5 py-0.5 text-[10px] font-mono font-bold uppercase rounded ${levelMeta.badge}">${esc(r.districtCode)}</span>
+                <a href="#race-${esc(r.id)}" class="text-xs sm:text-sm font-bold text-primary-custom hover:text-blue-600 no-underline">${esc(r.office)}</a>
+              </div>
+              <div class="mt-1 flex flex-wrap items-center">${candsSummary}</div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <a href="#race-${esc(r.id)}" class="btn-secondary-sm no-underline">View Details ↓</a>
+              ${
+                (r.candidates || []).length >= 2
+                  ? `<button type="button" data-compare-race="${esc(r.id)}" class="btn-compare-sm">Compare Race</button>`
+                  : ""
+              }
+            </div>
+          </div>
+        `;
+      })
+      .join("");
+
     bannerEl.innerHTML = `
       <div class="town-banner-active">
         <div class="flex flex-wrap items-start justify-between gap-4 pb-3 border-b border-subtle-custom">
           <div>
-            <div class="flex items-center gap-2 mb-1">
-              <span class="px-2 py-0.5 text-xs font-mono font-semibold uppercase rounded bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30">Personalized Town Ballot</span>
+            <div class="flex flex-wrap items-center gap-2 mb-1">
+              <span class="px-2 py-0.5 text-xs font-mono font-semibold uppercase rounded bg-blue-600 text-white">YOUR PERSONALIZED 2026 BALLOT</span>
               <span class="text-xs font-mono text-muted-custom">${esc(town.region)} | ${esc(town.county)} County | Pop. ${esc(town.population)}</span>
             </div>
-            <h2 class="text-xl md:text-2xl font-serif-display font-bold text-primary-custom">${esc(town.name)} - 2026 General Election Ballot</h2>
-            <p class="text-xs md:text-sm text-secondary-custom mt-1">Current Municipal Leadership: <strong class="text-primary-custom">${esc(town.mayor)}</strong></p>
+            <h2 class="text-xl md:text-2xl font-serif-display font-bold text-primary-custom">${esc(headingTitle)}</h2>
+            <p class="text-xs md:text-sm text-secondary-custom mt-1">
+              Current Local Leadership: <strong class="text-primary-custom">${esc(town.mayor)}</strong>
+              ${zipsListStr ? `<span class="text-muted-custom font-mono text-xs"> • ZIP Codes: ${esc(zipsListStr)}</span>` : ""}
+            </p>
           </div>
-          <div class="flex items-center gap-2">
-            <span class="text-xs font-mono px-2.5 py-1 rounded bg-elevated-custom border border-subtle-custom text-primary-custom">${matchingRaces.length} Ballot Races Shown</span>
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="text-xs font-mono px-2.5 py-1 rounded bg-elevated-custom border border-subtle-custom text-primary-custom">${matchingRaces.length} Ballot Races Loaded</span>
             <button type="button" id="clear-town-btn" class="px-3 py-1.5 text-xs font-semibold rounded border border-subtle-custom hover:bg-red-500/10 hover:text-red-600 hover:border-red-500/30 transition">Reset to All Illinois</button>
           </div>
         </div>
+
+        <!-- 4 Clickable Ballot Level Summary Cards (Federal, Statewide, State Legislature, County/Local) -->
         <div class="grid grid-cols-1 md:grid-cols-4 gap-3 pt-3 text-xs">
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">Federal Congressional</div>
-            <div class="font-semibold text-primary-custom mt-0.5">U.S. Senate + ${(town.usHouse || []).join(", ")}</div>
-          </div>
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">IL State Senate</div>
-            <div class="font-semibold text-primary-custom mt-0.5">${(town.stateSenate || []).join(", ")}</div>
-          </div>
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">IL State House</div>
-            <div class="font-semibold text-primary-custom mt-0.5">${(town.stateHouse || []).join(", ")}</div>
-          </div>
-          <div class="p-2.5 rounded bg-primary-custom border border-subtle-custom">
-            <div class="font-mono uppercase text-[10px] text-muted-custom">County & Local Jurisdiction</div>
-            <div class="font-semibold text-primary-custom mt-0.5">${esc(town.county)} County Offices & Referendums</div>
-          </div>
+          <a href="#ballot-tier-federal" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-blue-600 dark:text-blue-400 font-bold">1. Federal Ballot (${fedRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">U.S. Senate + ${esc((town.usHouse || []).join(", "))}</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">U.S. Senator & Your U.S. House Rep</div>
+          </a>
+          <a href="#ballot-tier-statewide" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-amber-700 dark:text-amber-300 font-bold">2. Statewide Ballot (${stateExecRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">Gov, AG, SOS, Comp & Treas</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">All 5 Illinois Executive Offices</div>
+          </a>
+          <a href="#ballot-tier-state_legislature" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-emerald-700 dark:text-emerald-400 font-bold">3. State Legislature (${legRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">Senate: ${esc((town.stateSenate || []).join(", "))} | House: ${esc((town.stateHouse || []).join(", "))}</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">Your IL State Senator & State Rep</div>
+          </a>
+          <a href="#ballot-tier-local" class="p-3 rounded-lg bg-primary-custom border border-subtle-custom hover:border-blue-500 transition block no-underline">
+            <div class="flex items-center justify-between">
+              <span class="font-mono uppercase text-[10px] text-purple-700 dark:text-purple-300 font-bold">4. County & Local (${localRaces.length})</span>
+              <span class="text-[10px] font-mono text-muted-custom">Jump ↓</span>
+            </div>
+            <div class="font-bold text-primary-custom mt-1">${esc(town.county)} County & Referendums</div>
+            <div class="text-[11px] text-secondary-custom mt-0.5">County Offices & 2026 Ballot Measures</div>
+          </a>
         </div>
-        <div class="mt-3 p-3 rounded bg-primary-custom/70 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
-          <strong class="text-primary-custom font-semibold">Local 2026 Election Context for ${esc(town.name)}:</strong> ${esc(town.localContext)}
+
+        <div class="mt-3 p-3 rounded-lg bg-primary-custom/70 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
+          <strong class="text-primary-custom font-semibold">Local 2026 Election Context for ${esc(town.name.split("(")[0].trim())}:</strong> ${esc(town.localContext)}
         </div>
+
+        <!-- Quick At-a-Glance Ballot Summary Cheat Sheet -->
+        <details class="mt-3 rounded-xl bg-primary-custom border border-subtle-custom p-3 group" open>
+          <summary class="issue-details-summary">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded bg-emerald-600 text-white">QUICK BALLOT SUMMARY</span>
+              <span class="text-xs sm:text-sm font-bold text-primary-custom">All ${matchingRaces.length} Races & Candidates on Your Ballot At-a-Glance (Federal, State & Local)</span>
+            </div>
+            <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Show / Hide Summary ▼</span>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-subtle-custom grid grid-cols-1 md:grid-cols-2 gap-2.5">
+            ${cheatSheetRowsHtml}
+          </div>
+        </details>
       </div>
     `;
   }
@@ -367,69 +865,71 @@
 
     return `
       <div class="candidate-card ${partyMeta.borderClass}" data-cand-id="${esc(cand.id)}">
-        <div class="flex items-start justify-between gap-3">
-          <div class="flex items-start gap-3">
-            <div class="avatar-monogram ${partyMeta.badgeClass}">
-              ${esc(cand.photoInitials || cand.name.slice(0, 2).toUpperCase())}
-            </div>
-            <div>
-              <div class="flex flex-wrap items-center gap-2">
-                <h4 class="text-base md:text-lg font-bold text-primary-custom leading-tight">${esc(cand.name)}</h4>
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded ${partyMeta.badgeClass}">${esc(cand.party)}</span>
-                <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-elevated-custom border border-subtle-custom text-secondary-custom">${esc(cand.incumbentStatus)}</span>
+        <div>
+          <div class="flex items-start justify-between gap-3">
+            <div class="flex items-start gap-3">
+              <div class="avatar-monogram ${partyMeta.badgeClass}">
+                ${esc(cand.photoInitials || cand.name.slice(0, 2).toUpperCase())}
               </div>
-              <p class="text-xs text-secondary-custom mt-1">${esc(cand.role)}</p>
-              <p class="text-[11px] font-mono text-muted-custom mt-0.5">Hometown: ${esc(cand.hometown)}</p>
+              <div>
+                <div class="flex flex-wrap items-center gap-2">
+                  <h4 class="text-base md:text-lg font-bold text-primary-custom leading-tight">${esc(cand.name)}</h4>
+                  <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded ${partyMeta.badgeClass}">${esc(cand.party)}</span>
+                  <span class="px-2 py-0.5 text-[11px] font-mono rounded bg-elevated-custom border border-subtle-custom text-secondary-custom">${esc(cand.incumbentStatus)}</span>
+                </div>
+                <p class="text-xs text-secondary-custom mt-1">${esc(cand.role)}</p>
+                <p class="text-[11px] font-mono text-muted-custom mt-0.5">Hometown: ${esc(cand.hometown)}</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Campaign Finance & PAC Policy Strip -->
-        <div class="mt-3 p-2.5 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="grid grid-cols-2 gap-2 pb-2 mb-2 border-b border-subtle-custom">
-            <div>
-              <div class="text-[10px] font-mono uppercase text-muted-custom">Total Raised (FEC / IL SBE)</div>
-              <div class="text-xs md:text-sm font-mono font-bold text-primary-custom tabular-nums">${esc(cand.fecRaised || "N/A")}</div>
+          <!-- Campaign Finance & PAC Policy Strip -->
+          <div class="mt-3 p-2.5 rounded-lg bg-primary-custom border border-subtle-custom">
+            <div class="grid grid-cols-2 gap-2 pb-2 mb-2 border-b border-subtle-custom">
+              <div>
+                <div class="text-[10px] font-mono uppercase text-muted-custom">Total Raised (FEC / IL SBE)</div>
+                <div class="text-xs md:text-sm font-mono font-bold text-primary-custom tabular-nums">${esc(cand.fecRaised || "N/A")}</div>
+              </div>
+              <div>
+                <div class="text-[10px] font-mono uppercase text-muted-custom">Cash on Hand</div>
+                <div class="text-xs md:text-sm font-mono font-semibold text-secondary-custom tabular-nums">${esc(cand.fecCashOnHand || "N/A")}</div>
+              </div>
             </div>
-            <div>
-              <div class="text-[10px] font-mono uppercase text-muted-custom">Cash on Hand</div>
-              <div class="text-xs md:text-sm font-mono font-semibold text-secondary-custom tabular-nums">${esc(cand.fecCashOnHand || "N/A")}</div>
+            <div class="flex items-center gap-1.5 text-xs font-semibold text-primary-custom mb-1">
+              <svg class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+              <span>PAC Policy: ${esc(cand.pacPolicy)}</span>
+            </div>
+            <p class="text-xs text-secondary-custom leading-relaxed">${esc(cand.pacSummary)}</p>
+
+            <!-- Detailed PAC List -->
+            <div class="mt-2.5 space-y-1.5">
+              <div class="text-[10px] font-mono uppercase tracking-wider text-muted-custom">Associated PACs, Super PACs & Donors:</div>
+              ${pacPillsHtml}
             </div>
           </div>
-          <div class="flex items-center gap-1.5 text-xs font-semibold text-primary-custom mb-1">
-            <svg class="w-3.5 h-3.5 text-amber-600 dark:text-amber-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
-            <span>PAC Policy: ${esc(cand.pacPolicy)}</span>
-          </div>
-          <p class="text-xs text-secondary-custom leading-relaxed">${esc(cand.pacSummary)}</p>
 
-          <!-- Detailed PAC List -->
-          <div class="mt-2.5 space-y-1.5">
-            <div class="text-[10px] font-mono uppercase tracking-wider text-muted-custom">Associated PACs, Super PACs & Donors:</div>
-            ${pacPillsHtml}
+          <!-- Endorsements -->
+          <div class="mt-2.5 flex flex-wrap items-center gap-1">
+            <span class="text-[10px] font-mono uppercase text-muted-custom mr-1">Key Endorsements:</span>
+            ${(cand.endorsements || [])
+              .map((e) => `<span class="endorsement-tag">${esc(e)}</span>`)
+              .join("")}
           </div>
+
+          <!-- Issue Stances Accordion -->
+          <details class="mt-3 group issue-details-box" ${state.compactIssues ? "" : "open"}>
+            <summary class="issue-details-summary">
+              <span class="flex items-center gap-1.5 font-semibold text-xs text-primary-custom">
+                <svg class="w-4 h-4 text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Where ${esc(cand.name)} Stands on All ${issueDefs.length} ${levelMeta.issueTier.toUpperCase()} Issues
+              </span>
+              <span class="text-[11px] font-mono text-muted-custom group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <div class="mt-2 space-y-2 pt-2 border-t border-subtle-custom">
+              ${issuesPreviewHtml}
+            </div>
+          </details>
         </div>
-
-        <!-- Endorsements -->
-        <div class="mt-2.5 flex flex-wrap items-center gap-1">
-          <span class="text-[10px] font-mono uppercase text-muted-custom mr-1">Key Endorsements:</span>
-          ${(cand.endorsements || [])
-            .map((e) => `<span class="endorsement-tag">${esc(e)}</span>`)
-            .join("")}
-        </div>
-
-        <!-- Issue Stances Accordion -->
-        <details class="mt-3 group issue-details-box" open>
-          <summary class="issue-details-summary">
-            <span class="flex items-center gap-1.5 font-semibold text-xs text-primary-custom">
-              <svg class="w-4 h-4 text-blue-600 dark:text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-              Where ${esc(cand.name)} Stands on All ${issueDefs.length} ${levelMeta.issueTier.toUpperCase()} Issues
-            </span>
-            <span class="text-[11px] font-mono text-muted-custom group-open:rotate-180 transition-transform">▼</span>
-          </summary>
-          <div class="mt-2 space-y-2 pt-2 border-t border-subtle-custom">
-            ${issuesPreviewHtml}
-          </div>
-        </details>
 
         <!-- Action Footer -->
         <div class="mt-3 pt-2.5 border-t border-subtle-custom flex items-center justify-between gap-2">
@@ -444,13 +944,77 @@
     `;
   }
 
-  // Render Races List (Tab 1)
+  // Render a single Race Card
+  function renderRaceCard(race) {
+    const levelMeta = getLevelMeta(race.level);
+    const citiesPreview = (race.cities || []).slice(0, 10).join(", ") + ((race.cities || []).length > 10 ? ` + ${(race.cities || []).length - 10} more` : "");
+
+    // Filter candidates inside the race if party or PAC filter is active
+    const visibleCandidates = (race.candidates || []).filter((c) => {
+      if (state.partyFilter !== "all") {
+        const p = (c.party || "").toLowerCase();
+        if (state.partyFilter === "dem" && !p.includes("democrat")) return false;
+        if (state.partyFilter === "gop" && !p.includes("republican") && !p.includes("gop")) return false;
+        if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
+      }
+      if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
+      return true;
+    });
+
+    const gridCols = visibleCandidates.length >= 3 ? "grid-cols-1 lg:grid-cols-3" : visibleCandidates.length === 2 ? "grid-cols-1 lg:grid-cols-2" : "grid-cols-1";
+
+    return `
+      <article class="race-section-card" id="race-${esc(race.id)}">
+        <!-- Race Header -->
+        <div class="race-card-header">
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded ${levelMeta.badge}">${esc(levelMeta.label)}</span>
+              <span class="px-2 py-0.5 text-xs font-mono font-bold rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.districtCode)}</span>
+              <span class="px-2 py-0.5 text-xs font-mono rounded bg-primary-custom border border-subtle-custom text-secondary-custom">PVI: ${esc(race.pvi)}</span>
+              ${race.isBattleground ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30">Marquee Battleground</span>` : ""}
+              ${race.isOpenSeat ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-purple-500/15 text-purple-700 dark:text-purple-300 border border-purple-500/30">Open Seat</span>` : ""}
+            </div>
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.rating)}</span>
+              ${
+                (race.candidates || []).length >= 2
+                  ? `<button type="button" data-compare-race="${esc(race.id)}" class="btn-compare-sm">Compare Candidates in This Race →</button>`
+                  : ""
+              }
+            </div>
+          </div>
+
+          <h3 class="text-lg md:text-xl font-serif-display font-bold text-primary-custom">${esc(race.office)}</h3>
+          <p class="text-xs md:text-sm text-secondary-custom mt-0.5">${esc(race.districtName)}</p>
+
+          <div class="mt-2.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-custom">
+            <span><strong class="text-secondary-custom">Current Incumbent:</strong> ${esc(race.incumbent)}</span>
+            <span><strong class="text-secondary-custom">Towns & Neighborhoods:</strong> ${esc(citiesPreview)}</span>
+          </div>
+
+          <div class="mt-2.5 p-2.5 rounded bg-primary-custom/80 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
+            <strong class="text-primary-custom">March 17, 2026 Primary & Race Dynamics:</strong> ${esc(race.primarySummary)}
+          </div>
+        </div>
+
+        <!-- Candidates Grid -->
+        <div class="p-4 grid ${gridCols} gap-4">
+          ${visibleCandidates.map((cand) => renderCandidateCard(cand, race)).join("")}
+        </div>
+      </article>
+    `;
+  }
+
+  // Render Races List Grouped by Ballot Tier (Tab 1)
   function renderBallotTab() {
     const container = document.getElementById("tab-content-container");
     if (!container) return;
 
     const races = getFilteredRaces();
     const totalCandidates = races.reduce((acc, r) => acc + (r.candidates ? r.candidates.length : 0), 0);
+    const activeTown = state.selectedTownId !== "all" ? TOWNS.find((t) => t.id === state.selectedTownId) : null;
+    const areaShortName = activeTown ? state.enteredLocationLabel || activeTown.name.split("(")[0].trim() : "All of Illinois";
 
     if (races.length === 0) {
       container.innerHTML = `
@@ -463,78 +1027,78 @@
       return;
     }
 
-    const raceCardsHtml = races
-      .map((race) => {
-        const levelMeta = getLevelMeta(race.level);
-        const citiesPreview = (race.cities || []).slice(0, 10).join(", ") + ((race.cities || []).length > 10 ? ` + ${(race.cities || []).length - 10} more` : "");
+    const tierGroups = [
+      {
+        key: "federal",
+        title: activeTown
+          ? `1. Federal Level Candidates for ${areaShortName} (U.S. Senate & U.S. House ${(activeTown.usHouse || []).join(", ")})`
+          : "1. Federal Level Elections (U.S. Senate + All 17 Illinois Congressional Districts)",
+        subtitle: "Represents your area in Washington, D.C. Covers Federal Taxes & SALT Cap, Economy, Healthcare/Medicare, Immigration, Climate/Grid, Reproductive Rights, Foreign Policy, and Gun Policy.",
+        items: races.filter((r) => r.level === "federal")
+      },
+      {
+        key: "statewide",
+        title: "2. Illinois Statewide Constitutional Executive Elections (All 102 Counties)",
+        subtitle: "Represents every Illinois voter statewide. Covers Governor & Lt. Governor, Attorney General, Secretary of State, Comptroller, and State Treasurer.",
+        items: races.filter((r) => r.level === "statewide")
+      },
+      {
+        key: "state_legislature",
+        title: activeTown
+          ? `3. Illinois General Assembly Candidates for ${areaShortName} (State Senate ${(activeTown.stateSenate || []).join(", ")} & State House ${(activeTown.stateHouse || []).join(", ")})`
+          : "3. Illinois General Assembly (State Senate & State House Leadership, Battlegrounds & Regional Anchors)",
+        subtitle: "Represents your district in Springfield. Covers Property Taxes & EBF School Aid, SAFE-T Act, State Budget ($53B+), Tier 2 Pensions, CEJA & Data Centers, and NITA Transit.",
+        items: races.filter((r) => r.level === "state_legislature")
+      },
+      {
+        key: "local",
+        title: activeTown
+          ? `4. County, Municipal & Ballot Referendums for ${areaShortName} (${activeTown.county} County)`
+          : "4. County, Municipal & 2026 Ballot Referendums Across Illinois",
+        subtitle: "Directly governs county property tax assessments, County Sheriffs & Clerks, lead water service lines, data center zoning, and local ballot referendums.",
+        items: races.filter((r) => r.level === "local")
+      }
+    ].filter((g) => g.items.length > 0);
 
-        // Filter candidates inside the race if party or PAC filter is active
-        const visibleCandidates = (race.candidates || []).filter((c) => {
-          if (state.partyFilter !== "all") {
-            const p = (c.party || "").toLowerCase();
-            if (state.partyFilter === "dem" && !p.includes("democrat")) return false;
-            if (state.partyFilter === "gop" && !p.includes("republican") && !p.includes("gop")) return false;
-            if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
-          }
-          if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
-          return true;
-        });
-
-        const gridCols = visibleCandidates.length >= 3 ? "grid-cols-1 lg:grid-cols-3" : visibleCandidates.length === 2 ? "grid-cols-1 lg:grid-cols-2" : "grid-cols-1";
-
-        return `
-          <article class="race-section-card" id="race-${esc(race.id)}">
-            <!-- Race Header -->
-            <div class="race-card-header">
-              <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <div class="flex flex-wrap items-center gap-2">
-                  <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded ${levelMeta.badge}">${esc(levelMeta.label)}</span>
-                  <span class="px-2 py-0.5 text-xs font-mono font-bold rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.districtCode)}</span>
-                  <span class="px-2 py-0.5 text-xs font-mono rounded bg-primary-custom border border-subtle-custom text-secondary-custom">PVI: ${esc(race.pvi)}</span>
-                  ${race.isBattleground ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-500/30">Marquee Battleground</span>` : ""}
-                  ${race.isOpenSeat ? `<span class="px-2 py-0.5 text-xs font-mono font-semibold rounded bg-purple-500/15 text-purple-700 dark:text-purple-300 border border-purple-500/30">Open Seat</span>` : ""}
-                </div>
-                <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${esc(race.rating)}</span>
-              </div>
-
-              <h3 class="text-lg md:text-xl font-serif-display font-bold text-primary-custom">${esc(race.office)}</h3>
-              <p class="text-xs md:text-sm text-secondary-custom mt-0.5">${esc(race.districtName)}</p>
-
-              <div class="mt-2.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-custom">
-                <span><strong class="text-secondary-custom">Current Incumbent:</strong> ${esc(race.incumbent)}</span>
-                <span><strong class="text-secondary-custom">Towns & Neighborhoods:</strong> ${esc(citiesPreview)}</span>
-              </div>
-
-              <div class="mt-2.5 p-2.5 rounded bg-primary-custom/80 border border-subtle-custom text-xs text-secondary-custom leading-relaxed">
-                <strong class="text-primary-custom">March 17, 2026 Primary & Race Dynamics:</strong> ${esc(race.primarySummary)}
-              </div>
+    const groupedHtml = tierGroups
+      .map(
+        (group) => `
+        <section id="ballot-tier-${esc(group.key)}" class="space-y-4 pt-2">
+          <div class="ballot-tier-section-header flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h2 class="text-base sm:text-lg font-serif-display font-bold text-primary-custom">${esc(group.title)}</h2>
+              <p class="text-xs text-secondary-custom mt-0.5">${esc(group.subtitle)}</p>
             </div>
-
-            <!-- Candidates Grid -->
-            <div class="p-4 grid ${gridCols} gap-4">
-              ${visibleCandidates.map((cand) => renderCandidateCard(cand, race)).join("")}
-            </div>
-          </article>
-        `;
-      })
+            <span class="px-2.5 py-1 rounded bg-elevated-custom border border-subtle-custom text-xs font-mono font-semibold text-primary-custom">
+              ${group.items.length} ${group.items.length === 1 ? "Race" : "Races"}
+            </span>
+          </div>
+          <div class="space-y-6">
+            ${group.items.map((race) => renderRaceCard(race)).join("")}
+          </div>
+        </section>
+      `
+      )
       .join("");
 
     container.innerHTML = `
-      <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-4 p-3 rounded-xl bg-elevated-custom border border-subtle-custom">
         <div class="text-xs font-mono text-secondary-custom">
-          Showing <strong class="text-primary-custom">${races.length}</strong> Elections & <strong class="text-primary-custom">${totalCandidates}</strong> Candidates with Verified FEC/IL SBE PAC Profiles & Issue Stances
+          Showing <strong class="text-primary-custom">${races.length}</strong> Elections & <strong class="text-primary-custom">${totalCandidates}</strong> Candidates for <strong class="text-blue-600 dark:text-blue-400">${esc(areaShortName)}</strong>
         </div>
-        <div class="text-xs text-muted-custom">
-          Click any candidate's <strong>+ Compare</strong> button to compare up to 4 candidates side-by-side.
+        <div class="flex flex-wrap items-center gap-2">
+          <button type="button" id="toggle-compact-issues-btn" class="btn-secondary-sm">
+            ${state.compactIssues ? "Expand All Candidate Issue Lists ▼" : "Compact View (Collapse Issue Lists ▲)"}
+          </button>
         </div>
       </div>
-      <div class="space-y-6">
-        ${raceCardsHtml}
+      <div class="space-y-8">
+        ${groupedHtml}
       </div>
     `;
   }
 
-  // Render Town / City Ballot Directory (Tab 2)
+  // Render Town / City & ZIP Ballot Directory (Tab 2)
   function renderTownsTab() {
     const container = document.getElementById("tab-content-container");
     if (!container) return;
@@ -548,6 +1112,8 @@
         t.county,
         t.mayor,
         t.localContext,
+        ...(t.zips || []),
+        ...(t.aliases || []),
         ...(t.usHouse || []),
         ...(t.stateSenate || []),
         ...(t.stateHouse || [])
@@ -560,6 +1126,7 @@
     const cardsHtml = filteredTowns
       .map((t) => {
         const isSelected = state.selectedTownId === t.id;
+        const zipsPreview = (t.zips || []).slice(0, 8).join(", ") + ((t.zips || []).length > 8 ? ` + ${(t.zips || []).length - 8} more` : "");
         return `
           <div class="p-4 rounded-xl bg-elevated-custom border ${isSelected ? "border-blue-600 ring-2 ring-blue-500/20" : "border-subtle-custom"} flex flex-col justify-between gap-3">
             <div>
@@ -569,6 +1136,7 @@
               </div>
               <h3 class="text-base font-serif-display font-bold text-primary-custom">${esc(t.name)}</h3>
               <p class="text-xs text-secondary-custom mt-1"><strong>Mayor / Local Exec:</strong> ${esc(t.mayor)}</p>
+              <p class="text-[11px] font-mono text-muted-custom mt-1"><strong>ZIP Codes:</strong> ${esc(zipsPreview)}</p>
 
               <div class="mt-3 grid grid-cols-3 gap-1.5 text-[11px] font-mono">
                 <div class="p-1.5 rounded bg-primary-custom border border-subtle-custom">
@@ -599,10 +1167,10 @@
     container.innerHTML = `
       <div class="mb-4 p-4 rounded-xl bg-elevated-custom border border-subtle-custom flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h3 class="text-lg font-serif-display font-bold text-primary-custom">Illinois Town, Suburb & Chicago Neighborhood Ballot Directory</h3>
-          <p class="text-xs text-secondary-custom">Click any community below to assemble its exact Federal, State Executive, State Senate, State House, and County/Local ballot.</p>
+          <h3 class="text-lg font-serif-display font-bold text-primary-custom">Illinois Town, Suburb, Chicago Neighborhood & ZIP Code Ballot Directory</h3>
+          <p class="text-xs text-secondary-custom">Click any community below (or type any Illinois ZIP code above) to load its exact Federal, Statewide Executive, State Senate, State House, and County/Local ballot.</p>
         </div>
-        <span class="text-xs font-mono px-3 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${filteredTowns.length} Communities Indexed</span>
+        <span class="text-xs font-mono px-3 py-1 rounded bg-primary-custom border border-subtle-custom text-primary-custom">${filteredTowns.length} Communities & 400+ Cities/ZIPs Indexed</span>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         ${cardsHtml}
@@ -811,7 +1379,7 @@
       container.innerHTML = `
         <div class="p-8 rounded-xl bg-elevated-custom border border-subtle-custom text-center">
           <h3 class="text-lg font-serif-display font-bold text-primary-custom">No Candidates Selected for Comparison</h3>
-          <p class="text-xs text-secondary-custom mt-1">Click "+ Compare Candidate" on any candidate card or choose a preset below:</p>
+          <p class="text-xs text-secondary-custom mt-1">Click "+ Compare Candidate" on any candidate card, "Compare Race" on any race header, or choose a preset below:</p>
           <div class="flex justify-center mt-4">${presetsHtml}</div>
         </div>
       `;
@@ -906,7 +1474,10 @@
             <h3 class="text-lg font-serif-display font-bold text-primary-custom">Side-by-Side Candidate Comparison Matrix (${comparedCands.length}/4 Selected)</h3>
             <p class="text-xs text-secondary-custom">Compare fundraising, PAC backers, and exact policy stances across candidates.</p>
           </div>
-          <button type="button" id="clear-compare-btn" class="px-3 py-1.5 text-xs font-semibold rounded border border-subtle-custom hover:bg-red-500/10 hover:text-red-500">Clear All</button>
+          <div class="flex items-center gap-2">
+            <button type="button" data-tab-btn="ballot" class="btn-secondary-sm">← Back to Ballot</button>
+            <button type="button" id="clear-compare-btn" class="px-3 py-1.5 text-xs font-semibold rounded border border-subtle-custom hover:bg-red-500/10 hover:text-red-500">Clear All</button>
+          </div>
         </div>
         ${presetsHtml}
       </div>
@@ -1037,12 +1608,12 @@
       <div class="p-6 rounded-xl bg-elevated-custom border border-subtle-custom space-y-6">
         <div class="pb-4 border-b border-subtle-custom flex flex-wrap items-center justify-between gap-4">
           <div>
-            <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded bg-blue-600 text-white">INTERACTIVE USER MANUAL</span>
+            <span class="px-2.5 py-0.5 text-xs font-mono font-bold uppercase rounded bg-blue-600 text-white">FAMILY & FRIENDS USER MANUAL</span>
             <h3 class="text-xl md:text-2xl font-serif-display font-bold text-primary-custom mt-2">How to Use the 2026 Illinois Midterm Elections & PAC Guide</h3>
             <p class="text-xs md:text-sm text-secondary-custom mt-1">Follow the steps below or click any of the blue <strong>"Try Example"</strong> buttons to jump straight to that feature.</p>
           </div>
           <button type="button" data-tab-btn="ballot" class="px-4 py-2 rounded-lg text-xs font-semibold bg-blue-600 text-white hover:bg-blue-700 transition">
-            Return to All Races & Ballot View
+            Return to Your Ballot View
           </button>
         </div>
 
@@ -1051,18 +1622,18 @@
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600/15 text-blue-600 dark:text-blue-400">Step 1 • Local Ballot Builder</span>
-                <span class="text-xs font-mono text-muted-custom">Control #1 in Top Bar</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600/15 text-blue-600 dark:text-blue-400">Step 1 • Enter Your City or 5-Digit ZIP Code</span>
+                <span class="text-xs font-mono text-muted-custom">Hero "Start Here" Box</span>
               </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Sort by Your Illinois Town, Suburb, or Chicago Neighborhood</h4>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Type Your Illinois ZIP Code (60001-62999) or City Name</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Select your community from the <strong>"1. Sort by Your Illinois Town..."</strong> dropdown at the top-left (or browse the <strong>Town & Neighborhood Ballot Directory</strong> tab). The guide immediately filters out the rest of the state and displays <strong>only</strong> your exact ballot: U.S. Senate, your U.S. House district(s), all 5 Statewide Executive offices, your State Senator, your State Representative, and your County offices & referendums, plus your current Mayor and local policy flashpoints.
+                Type your <strong>5-digit Illinois ZIP code</strong> (like <code>60614</code>, <code>60540</code>, <code>60201</code>, <code>62701</code>) or your <strong>city, suburb, or Chicago neighborhood</strong> into the blue <strong>Start Here</strong> search box at the top of the page. The entire dashboard immediately updates to display your exact ballot across all 4 levels: <strong>Federal</strong> (U.S. Senate + your U.S. House district), <strong>Statewide Executive</strong> (Governor, AG, SOS, Comptroller, Treasurer), <strong>State Legislature</strong> (your State Senator and State Rep), and <strong>County/Local</strong> offices.
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
-              <button type="button" data-quick-town="naperville" class="btn-compare-sm">Try Example: Naperville Ballot</button>
-              <button type="button" data-quick-town="chicago-lincoln-park-lakeview" class="btn-compare-sm">Try Example: Chicago North Lakefront</button>
-              <button type="button" data-quick-town="springfield" class="btn-compare-sm">Try Example: Springfield Ballot</button>
+              <button type="button" data-quick-town="naperville" data-quick-label="ZIP 60540 (Naperville)" class="btn-compare-sm">Try ZIP 60540 (Naperville)</button>
+              <button type="button" data-quick-town="chicago-lincoln-park-lakeview" data-quick-label="ZIP 60614 (Lincoln Park)" class="btn-compare-sm">Try ZIP 60614 (Chicago)</button>
+              <button type="button" data-quick-town="springfield" data-quick-label="ZIP 62701 (Springfield)" class="btn-compare-sm">Try ZIP 62701 (Springfield)</button>
             </div>
           </div>
 
@@ -1075,7 +1646,7 @@
               </div>
               <h4 class="text-base font-serif-display font-bold text-primary-custom">See Which PACs, Super PACs & Unions Pay or Back Each Candidate</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Every candidate card includes a verified <strong>FEC / IL SBE Campaign Finance Box</strong> showing Total Raised, Cash on Hand, PAC Policy, and a line-by-line list of associated PACs with dollar amounts. Notice the green vs. red tags: green shows PACs <strong>Supporting</strong> the candidate, while red flags Super PACs that spent money <strong>Opposing</strong> them in the primary or general election. Use dropdown <strong>#3 (Filter by PAC)</strong> to isolate candidates by donor network.
+                Every candidate card includes a verified <strong>FEC / IL SBE Campaign Finance Box</strong> showing Total Raised, Cash on Hand, PAC Policy, and a line-by-line list of associated PACs with dollar amounts. Green tags show PACs <strong>Supporting</strong> the candidate; red tags flag Super PACs that spent money <strong>Opposing</strong> them. Use dropdown <strong>#3 (Filter by PAC)</strong> to isolate candidates by donor network.
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
@@ -1112,12 +1683,12 @@
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • Side-by-Side Comparison & Sharing</span>
-                <span class="text-xs font-mono text-muted-custom">Up to 4 Candidates at Once</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • 1-Click Race Compare & Sharing</span>
+                <span class="text-xs font-mono text-muted-custom">Shareable Family & Friends Links</span>
               </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates Head-to-Head & Share Custom Links</h4>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates in Any Race & Share Direct Links</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Click <strong>"+ Compare Candidate"</strong> at the bottom of any candidate card to add them to your comparison tray (up to 4 candidates at a time), then click the <strong>Compare Candidates</strong> tab to view a side-by-side matrix of their fundraising, PAC backers, and every issue position. Want to send a specific town's ballot or comparison to a friend? Click <strong>"Share This View"</strong> in the top-right corner to copy the exact deep-link URL!
+                Click <strong>"Compare Candidates in This Race"</strong> on any race header (or <strong>"+ Compare Candidate"</strong> on up to 4 cards) to view a side-by-side table of fundraising, PAC backers, and issue stances. Want to text or email a specific town or ZIP code's ballot to family and friends? Click <strong>"Share This View"</strong> in the top-right corner to copy the exact link!
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
@@ -1130,7 +1701,7 @@
     `;
   }
 
-  // Update Compare Tray Floating Pill
+  // Update Compare Tray Badge
   function updateCompareBadge() {
     const countEl = document.getElementById("compare-count-badge");
     if (countEl) {
@@ -1153,7 +1724,8 @@
     groups.forEach((townList, regionName) => {
       html += `<optgroup label="${esc(regionName)}">`;
       townList.forEach((t) => {
-        html += `<option value="${esc(t.id)}" ${state.selectedTownId === t.id ? "selected" : ""}>${esc(t.name)} (${esc(t.county)} Co.)</option>`;
+        const sampleZips = (t.zips || []).slice(0, 3).join(", ");
+        html += `<option value="${esc(t.id)}" ${state.selectedTownId === t.id ? "selected" : ""}>${esc(t.name)} (${esc(t.county)} Co.${sampleZips ? " - " + esc(sampleZips) : ""})</option>`;
       });
       html += `</optgroup>`;
     });
@@ -1165,10 +1737,32 @@
   function loadStateFromUrl() {
     try {
       const params = new URLSearchParams(window.location.search);
+      const zipParam = params.get("zip") || params.get("q");
       const townParam = params.get("town");
-      if (townParam && (townParam === "all" || TOWNS.some((t) => t.id === townParam))) {
-        state.selectedTownId = townParam;
+
+      if (zipParam) {
+        const res = resolveLocationQuery(zipParam);
+        if (res && res.town) {
+          state.selectedTownId = res.town.id;
+          state.enteredLocationLabel = res.matchedLabel || "";
+        }
+      } else if (townParam) {
+        if (townParam === "all" || TOWNS.some((t) => t.id === townParam)) {
+          state.selectedTownId = townParam;
+        } else {
+          const res = resolveLocationQuery(townParam);
+          if (res && res.town) {
+            state.selectedTownId = res.town.id;
+            state.enteredLocationLabel = res.matchedLabel || "";
+          }
+        }
       }
+
+      const labelParam = params.get("label");
+      if (labelParam && state.selectedTownId !== "all") {
+        state.enteredLocationLabel = labelParam;
+      }
+
       const tabParam = params.get("tab");
       if (tabParam && ["ballot", "towns", "issues", "pacs", "compare", "guide"].includes(tabParam)) {
         state.activeTab = tabParam;
@@ -1195,7 +1789,12 @@
     try {
       if (window.location.protocol === "file:") return;
       const params = new URLSearchParams();
-      if (state.selectedTownId !== "all") params.set("town", state.selectedTownId);
+      if (state.selectedTownId !== "all") {
+        params.set("town", state.selectedTownId);
+        if (state.enteredLocationLabel) {
+          params.set("label", state.enteredLocationLabel);
+        }
+      }
       if (state.activeTab !== "ballot") params.set("tab", state.activeTab);
       if (state.levelFilter !== "all") params.set("level", state.levelFilter);
       if (state.pacFilter !== "all") params.set("pac", state.pacFilter);
@@ -1208,6 +1807,65 @@
     } catch (_) {
       // Ignore in sandboxed iframe environments
     }
+  }
+
+  // Render Autocomplete Dropdown under Hero Location Input
+  function renderHeroAutocomplete(rawVal) {
+    const dropdownEl = document.getElementById("hero-location-suggestions");
+    if (!dropdownEl) return;
+
+    const cleaned = String(rawVal || "").trim();
+    if (!cleaned) {
+      dropdownEl.classList.add("hidden");
+      dropdownEl.innerHTML = "";
+      return;
+    }
+
+    // Check if user typed a 5-digit non-Illinois ZIP code
+    if (/^\d{5}$/.test(cleaned)) {
+      const num = Number(cleaned);
+      if (num < 60001 || num > 62999) {
+        dropdownEl.classList.remove("hidden");
+        dropdownEl.innerHTML = `
+          <div class="p-3 text-xs text-amber-700 dark:text-amber-300">
+            <strong>ZIP ${esc(cleaned)} is outside Illinois.</strong> Please enter an Illinois 5-digit ZIP code between <strong>60001 and 62999</strong> (for example: 60614, 60540, 60201, 61820, or 62701).
+          </div>
+        `;
+        return;
+      }
+    }
+
+    const suggestions = getAutocompleteSuggestions(cleaned);
+    if (suggestions.length === 0) {
+      dropdownEl.classList.add("hidden");
+      dropdownEl.innerHTML = "";
+      return;
+    }
+
+    dropdownEl.classList.remove("hidden");
+    dropdownEl.innerHTML = suggestions
+      .map((item) => {
+        const t = item.town;
+        const zipsSample = (t.zips || []).slice(0, 4).join(", ");
+        const districtsInfo = `U.S. House: ${(t.usHouse || []).join(", ")} • IL Sen: ${(t.stateSenate || []).join(", ")} • IL House: ${(t.stateHouse || []).join(", ")}`;
+        return `
+          <button
+            type="button"
+            class="autocomplete-item"
+            data-suggest-town="${esc(t.id)}"
+            data-suggest-label="${esc(item.matchedLabel)}"
+          >
+            <div>
+              <div class="text-xs sm:text-sm font-bold text-primary-custom">${esc(item.displayTitle)}</div>
+              <div class="text-[11px] text-secondary-custom font-mono mt-0.5">${esc(t.county)} County • ZIPs: ${esc(zipsSample)}</div>
+            </div>
+            <div class="text-[11px] font-mono text-blue-600 dark:text-blue-400 font-semibold">
+              ${esc(districtsInfo)} →
+            </div>
+          </button>
+        `;
+      })
+      .join("");
   }
 
   // Main Render Dispatcher
@@ -1238,6 +1896,7 @@
       pacSelect.value = state.pacFilter;
     }
 
+    renderHeroKpis();
     renderTownBanner();
     updateCompareBadge();
 
@@ -1263,6 +1922,67 @@
     loadStateFromUrl();
     populateTownDropdown();
 
+    // Hero City / ZIP Code Form & Input
+    const heroForm = document.getElementById("hero-location-form");
+    const heroInput = document.getElementById("hero-location-input");
+    const heroSuggestions = document.getElementById("hero-location-suggestions");
+
+    heroInput?.addEventListener("input", (e) => {
+      const val = e.target.value;
+      renderHeroAutocomplete(val);
+      // If user typed a valid 5-digit Illinois ZIP code, immediately resolve and update the dashboard!
+      const trimmed = val.trim();
+      if (/^\d{5}$/.test(trimmed)) {
+        const res = resolveLocationQuery(trimmed);
+        if (res && res.town) {
+          state.selectedTownId = res.town.id;
+          state.enteredLocationLabel = res.matchedLabel;
+          state.locationNotice = "";
+          state.activeTab = "ballot";
+          renderApp();
+        } else if (res && res.error === "out_of_state_zip") {
+          state.locationNotice = `ZIP ${res.zip} is outside Illinois. Please enter an Illinois 5-digit ZIP code between 60001 and 62999 (e.g., 60614, 60540, 60201, 61820, 62701).`;
+          renderHeroKpis();
+        }
+      }
+    });
+
+    heroForm?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const raw = heroInput ? heroInput.value.trim() : "";
+      if (!raw) {
+        state.selectedTownId = "all";
+        state.enteredLocationLabel = "";
+        state.locationNotice = "";
+        if (heroSuggestions) heroSuggestions.classList.add("hidden");
+        renderApp();
+        return;
+      }
+      const res = resolveLocationQuery(raw);
+      if (heroSuggestions) heroSuggestions.classList.add("hidden");
+      if (res && res.town) {
+        activateTownBallot(res.town.id, res.matchedLabel);
+      } else if (res && res.error === "out_of_state_zip") {
+        state.locationNotice = `ZIP ${res.zip} is outside Illinois. Illinois ZIP codes run from 60001 to 62999 (try 60614, 60540, 60201, 61820, or 62701).`;
+        renderHeroKpis();
+      } else {
+        state.locationNotice = `No exact Illinois city or ZIP match for "${raw}". Showing matching keyword results below, or pick from the Town & ZIP Directory.`;
+        state.searchQuery = raw;
+        const gSearch = document.getElementById("global-search-input");
+        if (gSearch) gSearch.value = raw;
+        renderApp();
+      }
+    });
+
+    document.getElementById("hero-location-clear-btn")?.addEventListener("click", () => {
+      state.selectedTownId = "all";
+      state.enteredLocationLabel = "";
+      state.locationNotice = "";
+      if (heroInput) heroInput.value = "";
+      if (heroSuggestions) heroSuggestions.classList.add("hidden");
+      renderApp();
+    });
+
     // Share / Copy Direct Link button
     document.getElementById("share-link-btn")?.addEventListener("click", () => {
       const btnSpan = document.getElementById("share-link-label");
@@ -1287,11 +2007,9 @@
       }
       try {
         let records = [];
-        // 1. Check pre-synced daily build snapshot first
         if (window.IL_LIVE_SYNC_META && Array.isArray(window.IL_LIVE_SYNC_META.records)) {
           records = window.IL_LIVE_SYNC_META.records;
         }
-        // 2. Try Vercel Edge-Cached endpoint if hosted on web, or direct OpenFEC API
         const endpoint =
           window.location.protocol.startsWith("http") && !window.location.hostname.includes("gstatic")
             ? "/api/fec-live"
@@ -1348,12 +2066,15 @@
       syncLiveFecData(true);
     });
 
-    // Run non-blocking background FEC check 800ms after initial render
     setTimeout(() => syncLiveFecData(false), 800);
 
     // Controls change
     document.getElementById("town-select-control")?.addEventListener("change", (e) => {
-      state.selectedTownId = e.target.value;
+      const val = e.target.value;
+      state.selectedTownId = val;
+      state.enteredLocationLabel = "";
+      state.locationNotice = "";
+      if (val === "all" && heroInput) heroInput.value = "";
       renderApp();
     });
 
@@ -1383,7 +2104,18 @@
     });
 
     document.getElementById("global-search-input")?.addEventListener("input", (e) => {
-      state.searchQuery = e.target.value;
+      const val = e.target.value;
+      state.searchQuery = val;
+      // If user types a 5-digit Illinois ZIP code in global search, auto-load that town ballot
+      const trimmed = val.trim();
+      if (/^\d{5}$/.test(trimmed)) {
+        const res = resolveLocationQuery(trimmed);
+        if (res && res.town) {
+          state.selectedTownId = res.town.id;
+          state.enteredLocationLabel = res.matchedLabel;
+          state.searchQuery = "";
+        }
+      }
       renderApp();
     });
 
@@ -1400,6 +2132,20 @@
 
     // Delegated Clicks
     document.addEventListener("click", (e) => {
+      // Hide autocomplete if clicking outside hero form
+      if (heroSuggestions && !e.target.closest("#hero-location-form")) {
+        heroSuggestions.classList.add("hidden");
+      }
+
+      const suggestBtn = e.target.closest("[data-suggest-town]");
+      if (suggestBtn) {
+        const tid = suggestBtn.getAttribute("data-suggest-town");
+        const tlabel = suggestBtn.getAttribute("data-suggest-label") || "";
+        if (heroSuggestions) heroSuggestions.classList.add("hidden");
+        activateTownBallot(tid, tlabel);
+        return;
+      }
+
       const tabBtn = e.target.closest("[data-tab-btn]");
       if (tabBtn) {
         state.activeTab = tabBtn.getAttribute("data-tab-btn");
@@ -1409,8 +2155,27 @@
 
       const quickTown = e.target.closest("[data-quick-town]");
       if (quickTown) {
-        state.selectedTownId = quickTown.getAttribute("data-quick-town");
-        state.activeTab = "ballot";
+        const tid = quickTown.getAttribute("data-quick-town");
+        const qlabel = quickTown.getAttribute("data-quick-label") || "";
+        activateTownBallot(tid, qlabel);
+        return;
+      }
+
+      const compareRaceBtn = e.target.closest("[data-compare-race]");
+      if (compareRaceBtn) {
+        const rid = compareRaceBtn.getAttribute("data-compare-race");
+        const raceObj = ALL_RACES.find((r) => r.id === rid);
+        if (raceObj && Array.isArray(raceObj.candidates) && raceObj.candidates.length > 0) {
+          state.compareIds = raceObj.candidates.slice(0, 4).map((c) => c.id);
+          state.activeTab = "compare";
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          renderApp();
+        }
+        return;
+      }
+
+      if (e.target.closest("#toggle-compact-issues-btn")) {
+        state.compactIssues = !state.compactIssues;
         renderApp();
         return;
       }
@@ -1437,21 +2202,25 @@
 
       const loadTown = e.target.closest("[data-load-town]");
       if (loadTown) {
-        state.selectedTownId = loadTown.getAttribute("data-load-town");
-        state.activeTab = "ballot";
+        const tid = loadTown.getAttribute("data-load-town");
         window.scrollTo({ top: 0, behavior: "smooth" });
-        renderApp();
+        activateTownBallot(tid, "");
         return;
       }
 
       if (e.target.closest("#clear-town-btn")) {
         state.selectedTownId = "all";
+        state.enteredLocationLabel = "";
+        state.locationNotice = "";
+        if (heroInput) heroInput.value = "";
         renderApp();
         return;
       }
 
       if (e.target.closest("#reset-all-filters-btn")) {
         state.selectedTownId = "all";
+        state.enteredLocationLabel = "";
+        state.locationNotice = "";
         state.levelFilter = "all";
         state.regionFilter = "all";
         state.partyFilter = "all";
@@ -1464,6 +2233,7 @@
         });
         const sEl = document.getElementById("global-search-input");
         if (sEl) sEl.value = "";
+        if (heroInput) heroInput.value = "";
         renderApp();
         return;
       }
@@ -1547,9 +2317,14 @@
     });
 
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && state.modalCandidateId) {
-        state.modalCandidateId = null;
-        renderModal();
+      if (e.key === "Escape") {
+        if (state.modalCandidateId) {
+          state.modalCandidateId = null;
+          renderModal();
+        }
+        if (heroSuggestions && !heroSuggestions.classList.contains("hidden")) {
+          heroSuggestions.classList.add("hidden");
+        }
       }
     });
 
