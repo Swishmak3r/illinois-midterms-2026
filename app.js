@@ -15,11 +15,40 @@
   const TOWNS = window.IL_TOWNS_DIRECTORY || [];
   const PACS = window.IL_PACS_DIRECTORY || [];
   const ISSUES = window.IL_ISSUE_DEFINITIONS || { federal: [], state: [], local: [] };
+  const TRUMP_INDEX = window.IL_TRUMP_ALIGNMENT_DIRECTORY || {};
 
-  // Build flat candidate lookup map
+  function computeFallbackTrumpAlignment(cand) {
+    const p = (cand.party || "").toLowerCase();
+    if (p.includes("republican") || p.includes("gop")) {
+      return {
+        score: 80,
+        tier: "Mainstream GOP Aligned",
+        rationale: "Aligns with the Republican platform on extending the 2017 Trump tax cuts, border enforcement, and deregulation."
+      };
+    }
+    if (p.includes("democrat")) {
+      return {
+        score: 8,
+        tier: "Strong Trump Opponent",
+        rationale: "Opposes Trump administration policies on healthcare, tariffs, immigration enforcement, and federal agency cuts."
+      };
+    }
+    return {
+      score: 45,
+      tier: "Independent / Mixed",
+      rationale: "Independent or third-party candidate with mixed alignment across fiscal, trade, and governance issues."
+    };
+  }
+
+  // Build flat candidate lookup map and enrich every candidate with 0-100% Trump Alignment data
   const CANDIDATE_MAP = new Map();
   ALL_RACES.forEach((race) => {
     (race.candidates || []).forEach((cand) => {
+      const tData = TRUMP_INDEX[cand.id] || computeFallbackTrumpAlignment(cand);
+      cand.trumpScore = typeof tData.score === "number" ? tData.score : 50;
+      cand.trumpTier = tData.tier || "Independent / Mixed";
+      cand.trumpRationale = tData.rationale || "";
+
       CANDIDATE_MAP.set(cand.id, {
         ...cand,
         raceId: race.id,
@@ -349,12 +378,13 @@
     partyFilter: "all",
     raceTypeFilter: "all", // 'all' | 'battleground' | 'open'
     pacFilter: "all",
+    trumpFilter: "all", // 'all' | 'maga' | 'gop' | 'high70' | 'mixed' | 'mod_dem' | 'opp' | 'low30'
     searchQuery: "",
     issueLevel: "federal", // 'federal' | 'state' | 'local'
     selectedIssueKey: "economy",
     pacCategoryFilter: "all",
     pacSearchQuery: "",
-    compareIds: ["juliana-stratton", "don-tracy", "jb-pritzker", "darren-bailey"],
+    compareIds: ["juliana-stratton", "don-tracy", "jb-pritzker-christian-mitchell", "darren-bailey-aaron-del-mar"],
     compactIssues: false,
     modalCandidateId: null,
     theme: "light"
@@ -371,6 +401,104 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  // Utility: Trump Alignment (0% to 100%) Styling & Metadata
+  function getTrumpAlignmentMeta(cand) {
+    const score = typeof cand.trumpScore === "number" ? cand.trumpScore : 50;
+    const tier = cand.trumpTier || "Independent / Mixed";
+    const rationale = cand.trumpRationale || "";
+    if (score >= 85) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-maga",
+        barColor: "#DC2626"
+      };
+    }
+    if (score >= 65) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-gop",
+        barColor: "#D97706"
+      };
+    }
+    if (score >= 35) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-mixed",
+        barColor: "#7C3AED"
+      };
+    }
+    if (score >= 15) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-mod-dem",
+        barColor: "#0284C7"
+      };
+    }
+    return {
+      score,
+      tier,
+      rationale,
+      badgeClass: "trump-tier-opp",
+      barColor: "#2563EB"
+    };
+  }
+
+  // Render the 0% to 100% Trump Alignment Scale Box
+  function renderTrumpAlignmentBox(cand) {
+    const tMeta = getTrumpAlignmentMeta(cand);
+    return `
+      <div class="mt-3 trump-scale-box" data-trump-score="${tMeta.score}">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div class="text-[10px] font-mono uppercase tracking-wider text-muted-custom font-bold">
+            Trump Policy & Voting Alignment (0% - 100%)
+          </div>
+          <span class="trump-badge-pill ${tMeta.badgeClass}">${tMeta.score}% • ${esc(tMeta.tier)}</span>
+        </div>
+        <div class="trump-scale-track mt-1.5" role="progressbar" aria-valuenow="${tMeta.score}" aria-valuemin="0" aria-valuemax="100" aria-label="Trump alignment ${tMeta.score} percent">
+          <div class="trump-scale-fill" style="width:${tMeta.score}%;background-color:${tMeta.barColor};"></div>
+        </div>
+        <div class="flex items-center justify-between text-[10px] font-mono text-muted-custom mt-1">
+          <span>0% (Strong Opponent)</span>
+          <span>50% (Mixed)</span>
+          <span>100% (Core MAGA)</span>
+        </div>
+        <p class="mt-1.5 text-xs text-secondary-custom leading-relaxed">${esc(tMeta.rationale)}</p>
+      </div>
+    `;
+  }
+
+  // Check if a candidate matches the Trump Alignment filter
+  function candidateMatchesTrumpFilter(cand, trumpFilter) {
+    if (!trumpFilter || trumpFilter === "all") return true;
+    const score = typeof cand.trumpScore === "number" ? cand.trumpScore : 50;
+    switch (trumpFilter) {
+      case "maga":
+        return score >= 85;
+      case "gop":
+        return score >= 65 && score <= 84;
+      case "high70":
+        return score >= 70;
+      case "mixed":
+        return score >= 35 && score <= 64;
+      case "mod_dem":
+        return score >= 15 && score <= 34;
+      case "opp":
+        return score <= 14;
+      case "low30":
+        return score <= 29;
+      default:
+        return true;
+    }
   }
 
   // Utility: Party Badge Styling
@@ -522,7 +650,7 @@
       if (state.raceTypeFilter === "battleground" && !race.isBattleground) return false;
       if (state.raceTypeFilter === "open" && !race.isOpenSeat) return false;
 
-      // Check candidate-level filters (Party, PAC)
+      // Check candidate-level filters (Party, PAC, Trump Alignment)
       const matchingCands = (race.candidates || []).filter((c) => {
         if (state.partyFilter !== "all") {
           const p = (c.party || "").toLowerCase();
@@ -531,6 +659,7 @@
           if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
         }
         if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
+        if (!candidateMatchesTrumpFilter(c, state.trumpFilter)) return false;
         return true;
       });
 
@@ -559,6 +688,9 @@
             c.hometown,
             c.pacPolicy,
             c.pacSummary,
+            c.trumpTier,
+            c.trumpRationale,
+            `${c.trumpScore}%`,
             ...(c.endorsements || []),
             ...(c.pacs || []).map((p) => p.name),
             ...Object.values(c.issues || {})
@@ -723,7 +855,8 @@
         const candsSummary = (r.candidates || [])
           .map((c) => {
             const pm = getPartyMeta(c.party);
-            return `<span class="inline-flex items-center gap-1 mr-2 mb-1 px-2 py-0.5 rounded text-xs font-medium ${pm.badgeClass}">${esc(c.name)} (${pm.short})</span>`;
+            const tMeta = getTrumpAlignmentMeta(c);
+            return `<span class="inline-flex items-center gap-1 mr-2 mb-1 px-2 py-0.5 rounded text-xs font-medium ${pm.badgeClass}">${esc(c.name)} (${pm.short} • Trump: ${tMeta.score}%)</span>`;
           })
           .join("");
 
@@ -814,7 +947,7 @@
           <summary class="issue-details-summary">
             <div class="flex flex-wrap items-center gap-2">
               <span class="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded bg-emerald-600 text-white">QUICK BALLOT SUMMARY</span>
-              <span class="text-xs sm:text-sm font-bold text-primary-custom">All ${matchingRaces.length} Races & Candidates on Your Ballot At-a-Glance (Federal, State & Local)</span>
+              <span class="text-xs sm:text-sm font-bold text-primary-custom">All ${matchingRaces.length} Races & Candidates on Your Ballot At-a-Glance (with 0%-100% Trump Alignment)</span>
             </div>
             <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Show / Hide Summary ▼</span>
           </summary>
@@ -832,6 +965,7 @@
     const levelMeta = getLevelMeta(race.level);
     const issueDefs = ISSUES[levelMeta.issueTier] || ISSUES.state;
     const isCompared = state.compareIds.includes(cand.id);
+    const trumpBoxHtml = renderTrumpAlignmentBox(cand);
 
     const pacPillsHtml = (cand.pacs || [])
       .map((p) => {
@@ -882,6 +1016,9 @@
               </div>
             </div>
           </div>
+
+          <!-- 0% to 100% Trump Alignment Scale -->
+          ${trumpBoxHtml}
 
           <!-- Campaign Finance & PAC Policy Strip -->
           <div class="mt-3 p-2.5 rounded-lg bg-primary-custom border border-subtle-custom">
@@ -949,7 +1086,7 @@
     const levelMeta = getLevelMeta(race.level);
     const citiesPreview = (race.cities || []).slice(0, 10).join(", ") + ((race.cities || []).length > 10 ? ` + ${(race.cities || []).length - 10} more` : "");
 
-    // Filter candidates inside the race if party or PAC filter is active
+    // Filter candidates inside the race if party, PAC, or Trump alignment filter is active
     const visibleCandidates = (race.candidates || []).filter((c) => {
       if (state.partyFilter !== "all") {
         const p = (c.party || "").toLowerCase();
@@ -958,6 +1095,7 @@
         if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
       }
       if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
+      if (!candidateMatchesTrumpFilter(c, state.trumpFilter)) return false;
       return true;
     });
 
@@ -1213,15 +1351,18 @@
     const rowsHtml = matchingRaces
       .map((race) => {
         const candsHtml = (race.candidates || [])
+          .filter((cand) => candidateMatchesTrumpFilter(cand, state.trumpFilter))
           .map((cand) => {
             const partyMeta = getPartyMeta(cand.party);
+            const tMeta = getTrumpAlignmentMeta(cand);
             const stance = (cand.issues && cand.issues[activeIssue.key]) || "Position aligned with party platform.";
             return `
               <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom ${partyMeta.borderClass}">
                 <div class="flex flex-wrap items-center justify-between gap-2 mb-1.5">
-                  <div class="flex items-center gap-2">
+                  <div class="flex flex-wrap items-center gap-1.5">
                     <span class="font-bold text-sm text-primary-custom">${esc(cand.name)}</span>
                     <span class="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded ${partyMeta.badgeClass}">${esc(cand.party)}</span>
+                    <span class="trump-badge-pill ${tMeta.badgeClass}">Trump: ${tMeta.score}%</span>
                   </div>
                   <span class="text-[11px] font-mono text-muted-custom">${esc(cand.pacPolicy)}</span>
                 </div>
@@ -1366,10 +1507,10 @@
       <div class="flex flex-wrap items-center gap-2 mt-3">
         <span class="text-xs font-mono uppercase text-muted-custom">Quick Compare Presets:</span>
         <button type="button" data-compare-preset="juliana-stratton,don-tracy,whitfield-harrington" class="quick-town-pill">U.S. Senate (Stratton vs. Tracy vs. Harrington)</button>
-        <button type="button" data-compare-preset="jb-pritzker,darren-bailey,collin-corbett" class="quick-town-pill">Governor (Pritzker vs. Bailey vs. Corbett)</button>
+        <button type="button" data-compare-preset="jb-pritzker-christian-mitchell,darren-bailey-aaron-del-mar,collin-corbett-carolyn-schofield" class="quick-town-pill">Governor (Pritzker vs. Bailey vs. Corbett)</button>
         <button type="button" data-compare-preset="margaret-croke,bryan-drew,kwame-raoul,bob-fioretti" class="quick-town-pill">Comptroller & AG Showdowns</button>
         <button type="button" data-compare-preset="donna-miller,melissa-bean,daniel-biss,la-shawn-ford" class="quick-town-pill">Open Congress Seats (IL-02, IL-08, IL-09, IL-07)</button>
-        <button type="button" data-compare-preset="eric-sorensen,dillan-vancil,nikki-budzinski,joshua-loyd" class="quick-town-pill">Downstate Congress (IL-17 & IL-13)</button>
+        <button type="button" data-compare-preset="eric-sorensen,dillan-vancil,nikki-budzinski,jeff-wilson" class="quick-town-pill">Downstate Congress (IL-17 & IL-13)</button>
         <button type="button" data-compare-preset="doris-turner,frank-lesko,darby-hills,nabeela-syed" class="quick-town-pill">Top State Senate Toss-Ups (SD-48 & SD-26)</button>
         <button type="button" data-compare-preset="toni-preckwinkle,pat-hynes,elyse-hoffenberg,liz-doody-gorman" class="quick-town-pill">Cook County President, Assessor & Dist. 17</button>
       </div>
@@ -1406,6 +1547,24 @@
             <div class="text-xs font-semibold text-blue-600 dark:text-blue-400 mt-0.5">${esc(c.raceOffice)}</div>
             <div class="text-[11px] text-secondary-custom mt-0.5">${esc(c.role)}</div>
           </th>
+        `;
+      })
+      .join("");
+
+    const trumpCols = comparedCands
+      .map((c) => {
+        const tMeta = getTrumpAlignmentMeta(c);
+        return `
+          <td class="p-3 align-top border-b border-l border-subtle-custom text-xs">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-sm font-bold text-primary-custom">${tMeta.score}% Alignment</span>
+              <span class="trump-badge-pill ${tMeta.badgeClass}">${esc(tMeta.tier)}</span>
+            </div>
+            <div class="trump-scale-track mt-1.5">
+              <div class="trump-scale-fill" style="width:${tMeta.score}%;background-color:${tMeta.barColor};"></div>
+            </div>
+            <p class="mt-1.5 text-secondary-custom leading-relaxed">${esc(tMeta.rationale)}</p>
+          </td>
         `;
       })
       .join("");
@@ -1472,7 +1631,7 @@
         <div class="flex flex-wrap items-center justify-between gap-2">
           <div>
             <h3 class="text-lg font-serif-display font-bold text-primary-custom">Side-by-Side Candidate Comparison Matrix (${comparedCands.length}/4 Selected)</h3>
-            <p class="text-xs text-secondary-custom">Compare fundraising, PAC backers, and exact policy stances across candidates.</p>
+            <p class="text-xs text-secondary-custom">Compare 0%-100% Trump alignment, fundraising, PAC backers, and exact policy stances across candidates.</p>
           </div>
           <div class="flex items-center gap-2">
             <button type="button" data-tab-btn="ballot" class="btn-secondary-sm">← Back to Ballot</button>
@@ -1491,6 +1650,13 @@
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td class="p-3 align-top border-b border-subtle-custom bg-elevated-custom/60 font-semibold text-xs text-primary-custom">
+                <span class="block text-[10px] font-mono text-blue-600 dark:text-blue-400">0% TO 100% SCALE</span>
+                Trump Policy & Voting Alignment
+              </td>
+              ${trumpCols}
+            </tr>
             <tr>
               <td class="p-3 align-top border-b border-subtle-custom bg-elevated-custom/60 font-semibold text-xs text-primary-custom">Fundraising & PAC Policy</td>
               ${financeCols}
@@ -1526,6 +1692,7 @@
     const partyMeta = getPartyMeta(cand.party);
     const levelMeta = getLevelMeta(cand.level);
     const issueDefs = ISSUES[levelMeta.issueTier] || ISSUES.state;
+    const trumpBoxHtml = renderTrumpAlignmentBox(cand);
 
     modalEl.classList.remove("hidden");
     modalEl.innerHTML = `
@@ -1544,6 +1711,8 @@
         </div>
 
         <div class="p-5 space-y-5 max-h-[75vh] overflow-y-auto">
+          ${trumpBoxHtml}
+
           <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div class="p-3 rounded-lg bg-elevated-custom border border-subtle-custom">
               <div class="text-[10px] font-mono uppercase text-muted-custom">Total Raised (FEC / IL SBE)</div>
@@ -1641,7 +1810,26 @@
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-amber-500/15 text-amber-700 dark:text-amber-300">Step 2 • Follow the PAC Money</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-red-600/15 text-red-700 dark:text-red-300">Step 2 • 0% to 100% Trump Alignment Scale</span>
+                <span class="text-xs font-mono text-muted-custom">Control #4 & Candidate Cards</span>
+              </div>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Check How Every Candidate Aligns with Donald Trump (0% - 100%)</h4>
+              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
+                Every candidate card and comparison table displays a <strong>0% to 100% Trump Policy & Voting Alignment Scale</strong> combining congressional roll-call votes, Trump endorsements, and documented stances on the 2017 TCJA tax cuts, tariffs, ICE / Illinois TRUST Act cooperation, DOGE spending cuts, and energy deregulation. Use dropdown <strong>#4 (Trump Alignment)</strong> to filter candidates by alignment tier.
+              </p>
+            </div>
+            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
+              <button type="button" data-guide-trump="maga" class="btn-compare-sm">Filter: 85%-100% Core MAGA Allies</button>
+              <button type="button" data-guide-trump="mod_dem" class="btn-compare-sm">Filter: 15%-34% Bipartisan Swing Dems</button>
+              <button type="button" data-guide-trump="opp" class="btn-compare-sm">Filter: 0%-14% Strong Trump Opponents</button>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-amber-500/15 text-amber-700 dark:text-amber-300">Step 3 • Follow the PAC Money</span>
                 <span class="text-xs font-mono text-muted-custom">Control #3 & PAC Tab</span>
               </div>
               <h4 class="text-base font-serif-display font-bold text-primary-custom">See Which PACs, Super PACs & Unions Pay or Back Each Candidate</h4>
@@ -1657,43 +1845,21 @@
             </div>
           </div>
 
-          <!-- Step 3 -->
-          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
-            <div>
-              <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-emerald-500/15 text-emerald-700 dark:text-emerald-300">Step 3 • 23 Policy Issues</span>
-                <span class="text-xs font-mono text-muted-custom">Federal, State & Local Tiers</span>
-              </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Inspect Where Candidates Stand on Every Key Issue</h4>
-              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                We track <strong>23 distinct policy issues</strong> tailored to the office level:
-                <br/>• <strong>8 Federal Issues</strong>: Economy, Healthcare/Medicare, Immigration, Climate/Grid, Taxes & SALT Cap, Reproductive Rights, Foreign Policy (Israel/Gaza/Ukraine), and Gun Policy.
-                <br/>• <strong>8 State Issues</strong>: Property Taxes & EBF School Aid, SAFE-T Act & Cashless Bail, State Budget ($53B+), Tier 2 Pensions, CEJA & AI Data Centers, NITA Transit ($1.5B), State Healthcare, and School Vouchers.
-                <br/>• <strong>7 Local/County Issues</strong>: Commercial vs. Homeowner Assessments, Local Transit/Roads, Lead Water Pipes & Flooding, Municipal Budgets/Elections, Data Center Zoning, Solar/Wind Siting, and County Sheriffs/708 Mental Health Boards.
-              </p>
-            </div>
-            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
-              <button type="button" data-guide-issue="state:propertyTaxes" class="btn-compare-sm">Compare on Property Taxes</button>
-              <button type="button" data-guide-issue="state:safetAct" class="btn-compare-sm">Compare on SAFE-T Act</button>
-              <button type="button" data-guide-issue="local:assessmentBurden" class="btn-compare-sm">Compare on County Assessments</button>
-            </div>
-          </div>
-
           <!-- Step 4 -->
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • 1-Click Race Compare & Sharing</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • 23 Issues, 1-Click Compare & Sharing</span>
                 <span class="text-xs font-mono text-muted-custom">Shareable Family & Friends Links</span>
               </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates in Any Race & Share Direct Links</h4>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates on 23 Issues & Share Direct Links</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Click <strong>"Compare Candidates in This Race"</strong> on any race header (or <strong>"+ Compare Candidate"</strong> on up to 4 cards) to view a side-by-side table of fundraising, PAC backers, and issue stances. Want to text or email a specific town or ZIP code's ballot to family and friends? Click <strong>"Share This View"</strong> in the top-right corner to copy the exact link!
+                Click <strong>"Compare Candidates in This Race"</strong> on any race header (or open <strong>Compare on 23 Issues</strong>) to view a side-by-side table of Trump alignment, fundraising, PAC backers, and 8 Federal, 8 State, and 7 Local issue stances. Click <strong>"Share This View"</strong> in the top-right corner to copy a direct link to your area's ballot!
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
-              <button type="button" data-compare-preset="juliana-stratton,don-tracy,jb-pritzker,darren-bailey" class="btn-compare-sm">Compare Senate & Governor Nominees</button>
-              <button type="button" data-compare-preset="doris-turner,frank-lesko,darby-hills,nabeela-syed" class="btn-compare-sm">Compare Top State Senate Toss-Ups</button>
+              <button type="button" data-compare-preset="juliana-stratton,don-tracy,jb-pritzker-christian-mitchell,darren-bailey-aaron-del-mar" class="btn-compare-sm">Compare Senate & Governor Nominees</button>
+              <button type="button" data-guide-issue="state:propertyTaxes" class="btn-compare-sm">Compare on Property Taxes</button>
             </div>
           </div>
         </div>
@@ -1775,6 +1941,10 @@
       if (pacParam) {
         state.pacFilter = pacParam;
       }
+      const trumpParam = params.get("trump");
+      if (trumpParam && ["all", "maga", "gop", "high70", "mixed", "mod_dem", "opp", "low30"].includes(trumpParam)) {
+        state.trumpFilter = trumpParam;
+      }
       const compareParam = params.get("compare");
       if (compareParam) {
         const ids = compareParam.split(",").filter((id) => CANDIDATE_MAP.has(id));
@@ -1798,6 +1968,7 @@
       if (state.activeTab !== "ballot") params.set("tab", state.activeTab);
       if (state.levelFilter !== "all") params.set("level", state.levelFilter);
       if (state.pacFilter !== "all") params.set("pac", state.pacFilter);
+      if (state.trumpFilter !== "all") params.set("trump", state.trumpFilter);
       if (state.activeTab === "compare" && state.compareIds.length > 0) {
         params.set("compare", state.compareIds.join(","));
       }
@@ -1894,6 +2065,11 @@
     const pacSelect = document.getElementById("pac-select-control");
     if (pacSelect && pacSelect.value !== state.pacFilter) {
       pacSelect.value = state.pacFilter;
+    }
+
+    const trumpSelect = document.getElementById("trump-select-control");
+    if (trumpSelect && trumpSelect.value !== state.trumpFilter) {
+      trumpSelect.value = state.trumpFilter;
     }
 
     renderHeroKpis();
@@ -2103,6 +2279,11 @@
       renderApp();
     });
 
+    document.getElementById("trump-select-control")?.addEventListener("change", (e) => {
+      state.trumpFilter = e.target.value;
+      renderApp();
+    });
+
     document.getElementById("global-search-input")?.addEventListener("input", (e) => {
       const val = e.target.value;
       state.searchQuery = val;
@@ -2188,6 +2369,14 @@
         return;
       }
 
+      const guideTrump = e.target.closest("[data-guide-trump]");
+      if (guideTrump) {
+        state.trumpFilter = guideTrump.getAttribute("data-guide-trump");
+        state.activeTab = "ballot";
+        renderApp();
+        return;
+      }
+
       const guideIssue = e.target.closest("[data-guide-issue]");
       if (guideIssue) {
         const parts = (guideIssue.getAttribute("data-guide-issue") || "").split(":");
@@ -2226,8 +2415,9 @@
         state.partyFilter = "all";
         state.raceTypeFilter = "all";
         state.pacFilter = "all";
+        state.trumpFilter = "all";
         state.searchQuery = "";
-        ["level-select-control", "region-select-control", "party-select-control", "racetype-select-control", "pac-select-control"].forEach((id) => {
+        ["level-select-control", "region-select-control", "party-select-control", "racetype-select-control", "pac-select-control", "trump-select-control"].forEach((id) => {
           const el = document.getElementById(id);
           if (el) el.value = "all";
         });

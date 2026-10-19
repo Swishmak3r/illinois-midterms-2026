@@ -1370,3 +1370,664 @@ window.IL_PACS_DIRECTORY = [
     issueFocus: "Repealing cashless bail under the SAFE-T Act, protecting police qualified immunity, fixing Tier 2 police pensions, overturning the Protect Illinois Communities Act gun ban, and pro-life protections."
   }
 ];
+
+// ============================================================================
+// 2026 ILLINOIS CANDIDATE TRUMP ALIGNMENT INDEX (0% TO 100%)
+// ============================================================================
+window.IL_TRUMP_ALIGNMENT_DIRECTORY = {
+  "juliana-stratton": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Co-leads Illinois's executive resistance to Trump administration federal funding freezes, tariffs, and mass-deportation operations; campaigns on repealing the 2017 Trump corporate tax cuts and codifying Roe."
+  },
+  "don-tracy": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Former IL GOP Chair who supports making Trump's 2017 Tax Cuts and Jobs Act permanent, finishing the border wall, and energy deregulation, while pitching an institutional business-conservative tone statewide."
+  },
+  "whitfield-harrington": {
+    "score": 42,
+    "tier": "Independent / Mixed",
+    "rationale": "American Center Party nominee who backs fiscal restraint and border security while opposing partisan executive overreach and blanket trade tariffs."
+  },
+  "jonathan-jackson": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Votes against nearly all Trump legislative priorities in the U.S. House, opposing DOGE agency cuts, SNAP/Medicaid work requirements, and mass deportation while backing select bipartisan farm supply bills."
+  },
+  "christian-maxwell": {
+    "score": 88,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "America First Republican campaigning on school choice, Trump border enforcement, and federal deregulation across the South Side and south suburbs."
+  },
+  "donna-miller": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Mainstream Democratic nominee who opposes Trump Medicaid cuts, agricultural tariff retaliation, and federal abortion restrictions while emphasizing pragmatic suburban infrastructure investment."
+  },
+  "mike-noack": {
+    "score": 93,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Populist commercial truck driver running on an explicitly pro-Trump working-class platform of trade protection, diesel and energy deregulation, and southern border closure."
+  },
+  "delia-ramirez": {
+    "score": 1,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Congressional Progressive Caucus Vice Chair with one of the lowest Trump-alignment records in Congress; leads DHS oversight opposition to ICE deportation raids and Trump budget cuts."
+  },
+  "angel-oakley": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Runs on the Trump economic and border-security platform, supporting ICE cooperation, repealing Illinois sanctuary laws, and extending the 2017 tax cuts."
+  },
+  "patty-garcia": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Democratic nominee campaigning to defend working-class immigrant neighborhoods from Trump deportation operations and protect federal healthcare and transit funding."
+  },
+  "lupe-castillo": {
+    "score": 87,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Working-class conservative aligned with Trump's populist appeal to Hispanic voters on border enforcement, inflation relief, and traditional social values."
+  },
+  "christopher-getty": {
+    "score": 38,
+    "tier": "Independent / Mixed",
+    "rationale": "Suburban Lyons Mayor running as an independent focused on local policing and property tax relief, splitting between Trump border enforcement and Democratic federal infrastructure grants."
+  },
+  "mike-quigley": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Senior House Appropriator and Intelligence Committee member who strongly opposes Trump on Ukraine/NATO policy, DOJ independence, and environmental rollbacks."
+  },
+  "tommy-hanson": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Chicago Republican nominee campaigning on extending the 2017 Trump tax cuts, rolling back sanctuary city ordinances, and backing federal law enforcement surges."
+  },
+  "sean-casten": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Leading congressional clean-energy advocate who vocally opposes Trump's fossil-fuel executive orders, IRA clean-energy rollbacks, tariffs, and executive branch actions."
+  },
+  "niki-conforti": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Energy consultant campaigning on Trump's energy deregulation agenda, border wall completion, and making the 2017 TCJA tax cuts permanent."
+  },
+  "la-shawn-ford": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "West Side Democratic legislator who opposes Trump cuts to Medicaid, SNAP, and public housing while supporting bipartisan criminal-justice reentry reforms similar to the First Step Act."
+  },
+  "chad-koppie": {
+    "score": 92,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Grassroots social and fiscal conservative aligned with the pro-Trump wing of the Illinois GOP on border enforcement, gun rights, and federal agency reductions."
+  },
+  "melissa-bean": {
+    "score": 18,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Pro-business Blue Dog and New Democrat alumna who opposes Trump tariffs, reproductive restrictions, and Medicaid cuts, while sharing centrist pro-business views on regulatory certainty."
+  },
+  "jennifer-davis": {
+    "score": 83,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Suburban tech entrepreneur aligned with Trump's 2017 tax cuts, deregulation, and border security agenda while emphasizing suburban manufacturing and business growth."
+  },
+  "daniel-biss": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Evanston Mayor who has led municipal resistance to Trump administration immigration enforcement and champions Medicare for All and green climate policy."
+  },
+  "john-elleson": {
+    "score": 90,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Evangelical pastor aligned with Trump's social conservative, pro-Israel, and southern border enforcement platform."
+  },
+  "brad-schneider": {
+    "score": 16,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Chair of the New Democrat Coalition; strongly opposes Trump on tariffs, ACA/Medicaid cuts, and democratic norms, with occasional bipartisan overlap on U.S.-Israel defense and border fentanyl interdiction."
+  },
+  "carl-lambrecht": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "North Shore CPA focused on fiscal restraint, extending the 2017 Trump tax cuts (with suburban SALT relief), and federal border enforcement."
+  },
+  "bill-foster": {
+    "score": 15,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Fermilab physicist who opposes Trump cuts to federal science labs (DOE/NSF), clean energy, and tariffs, while voting for select bipartisan border-security and financial regulatory bills."
+  },
+  "jeff-walter": {
+    "score": 81,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Elburn Mayor and retired Navy Master Chief who backs Trump's border security, defense rebuilding, and 2017 tax cut extensions alongside pragmatic suburban infrastructure priorities."
+  },
+  "mike-bost": {
+    "score": 94,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Trump-endorsed House Veterans' Affairs Chair who consistently votes with President Trump (over 93% roll-call alignment) on border wall funding, fossil-fuel production, tariffs, and DOGE spending cuts."
+  },
+  "julie-fortier": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Air Force veteran and cancer researcher who opposes Trump administration cuts to NIH/VA research, Medicaid, and rural hospitals while supporting strong military readiness."
+  },
+  "nikki-budzinski": {
+    "score": 22,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Swing-district Democrat who opposes Trump on Medicaid/SNAP cuts, Social Security, and labor rollbacks, but has voted across the aisle on bipartisan border enforcement, year-round E15 ethanol, and farm bills."
+  },
+  "jeff-wilson": {
+    "score": 89,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Navy veteran and nuclear engineer running with national GOP backing on the Trump economic, border security, and baseload energy-abundance agenda."
+  },
+  "lauren-underwood": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "House Democratic leadership co-chair who leads legislative opposition to Trump ACA/Medicaid changes and federal reproductive health restrictions."
+  },
+  "james-marter": {
+    "score": 96,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Kendall County GOP Chair and vocal America First activist who campaigns on near-total fidelity to Donald Trump's border, tariff, DOGE, and cultural platform."
+  },
+  "mary-miller": {
+    "score": 98,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Trump-endorsed House Freedom Caucus member and Illinois's closest congressional Trump ally; votes in near-100% lockstep with Trump's America First legislative and cultural agenda."
+  },
+  "jennifer-todd": {
+    "score": 9,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Rural nurse campaigning against Trump administration rural hospital and Medicaid cuts and agricultural tariff retaliation, while respecting rural Second Amendment traditions."
+  },
+  "darin-lahood": {
+    "score": 89,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Trump-endorsed Ways and Means senior member who champions making Trump's 2017 TCJA tax cuts permanent and backs Trump border enforcement, while balancing agricultural export trade concerns."
+  },
+  "paul-nolley": {
+    "score": 11,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Pro-labor Democrat who opposes Trump administration rollbacks of Davis-Bacon prevailing wages, clean-energy union jobs, and Medicaid funding."
+  },
+  "eric-sorensen": {
+    "score": 20,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Frontline swing-district Democrat who opposes Trump tariffs hurting Midwest ag equipment manufacturing and defends Medicare/ACA, while voting for select bipartisan border and defense bills."
+  },
+  "dillan-vancil": {
+    "score": 90,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "NRCC Young Guns small-business owner campaigning directly to northwestern and central Illinois Trump voters on deregulation, border enforcement, and extending the 2017 Trump tax cuts."
+  },
+  "jb-pritzker-christian-mitchell": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Governor Pritzker is one of Donald Trump's leading national Democratic critics, signing state laws to block federal immigration and abortion enforcement cooperation and challenging Trump tariffs and funding freezes."
+  },
+  "darren-bailey-aaron-del-mar": {
+    "score": 96,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Endorsed by Donald Trump in 2022 and closely aligned with the MAGA movement; pledges to repeal the Illinois TRUST Act, partner state police with ICE deportation operations, and run a state-level DOGE audit."
+  },
+  "collin-corbett-carolyn-schofield": {
+    "score": 45,
+    "tier": "Independent / Mixed",
+    "rationale": "Centrist independent ticket that shares conservative critiques of Illinois property taxes and spending while rejecting both Trump's tariff/culture-war politics and Pritzker's progressive mandates."
+  },
+  "kwame-raoul": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Has filed or joined dozens of multistate lawsuits challenging Trump administration executive actions on birthright citizenship, federal grant freezes, EPA rollbacks, and reproductive rights."
+  },
+  "bob-fioretti": {
+    "score": 79,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Former Democratic alderman turned Republican nominee who backs repealing the SAFE-T Act and cooperating with Trump federal prosecutors and ICE on violent crime, while maintaining pragmatic urban roots."
+  },
+  "alexi-giannoulias": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Opposes Trump-backed federal proof-of-citizenship voting mandates (SAVE Act) and library book restrictions, expanding automatic voter registration in Illinois."
+  },
+  "diane-harris": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Campaigns on Trump-aligned election integrity priorities including strict photo voter ID, non-citizen voter roll audits, and ending automatic voter registration."
+  },
+  "margaret-croke": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Pritzker-aligned Democrat who supports prioritizing state payments to shield healthcare clinics and social services from Trump administration federal funding freezes."
+  },
+  "bryan-drew": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Downstate conservative attorney campaigning for a DOGE-style forensic audit of Illinois state spending and ending state funding for migrant programs."
+  },
+  "mike-frerichs": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Champions ESG sustainable investment criteria and opposes Trump-aligned anti-ESG boycott laws and federal rollbacks of consumer financial protections."
+  },
+  "max-solomon": {
+    "score": 91,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Social and fiscal conservative who pledges to eliminate ESG sustainability mandates from Illinois's state portfolio in alignment with Trump's energy and financial agenda."
+  },
+  "don-harmon": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois Senate President who leads the Democratic supermajority in passing reproductive shield laws, clean energy mandates (CEJA), and the Illinois TRUST Act blocking local ICE detainers."
+  },
+  "john-curran": {
+    "score": 74,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Suburban Senate Minority Leader who aligns with GOP priorities on tax relief, repealing sanctuary state rules, and public safety, while focusing on pragmatic suburban issues rather than national culture wars."
+  },
+  "emanuel-chris-welch": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois House Speaker who spearheads legislative efforts to counter Trump federal policies on voting access, labor unions, reproductive rights, and Medicaid funding."
+  },
+  "tony-mccombie": {
+    "score": 78,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "House Minority Leader from northwestern Illinois who backs Trump-aligned border security, repeal of Illinois sanctuary funding, and deregulation while recruiting moderate suburban Republicans."
+  },
+  "doris-turner": {
+    "score": 14,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Central Illinois Democrat who opposes Trump Medicaid and SNAP cuts and protects state worker pensions, while working across the aisle on agricultural biofuels and farm-to-market infrastructure."
+  },
+  "frank-lesko": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Sangamon County Republican campaigning on repealing the SAFE-T Act, ending state migrant spending, and aligning central Illinois energy policy with fossil-fuel baseload reliability."
+  },
+  "erica-harriss": {
+    "score": 80,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Metro East Republican Senator who supports ending state sanctuary policies, keeping coal and gas plants online, and capping property taxes."
+  },
+  "marsia-geldert-murphey": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Civil engineer and Democratic nominee who supports federal infrastructure investment, public school funding, and reproductive rights against Trump administration rollbacks."
+  },
+  "darby-hills": {
+    "score": 72,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Suburban Barrington Hills Republican and former prosecutor who focuses on property tax caps and public safety while moderating her tone for swing suburban voters."
+  },
+  "nabeela-syed": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Suburban Democratic legislator who champions prescription drug caps, reproductive freedom, and immigrant civil rights in opposition to the Trump platform."
+  },
+  "michele-clark": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Fox Valley Democratic nominee aligned with Governor Pritzker's public education, healthcare protection, and reproductive rights platform."
+  },
+  "danielle-penman": {
+    "score": 74,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Fox Valley Republican campaigning on suburban property tax relief, repealing the SAFE-T Act pre-trial provisions, and fiscal restraint."
+  },
+  "seth-lewis": {
+    "score": 75,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "DuPage County Republican Senator who supports ending Illinois sanctuary spending, cutting business taxes, and reforming the SAFE-T Act."
+  },
+  "ben-mcadams": {
+    "score": 9,
+    "tier": "Strong Trump Opponent",
+    "rationale": "DuPage Democratic nominee who opposes Trump-aligned school voucher proposals, federal healthcare cuts, and rollbacks of Illinois gun safety laws."
+  },
+  "carina-santa-maria": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Northwest suburban social worker and Democratic nominee who defends Medicaid social services, public schools, and reproductive healthcare access."
+  },
+  "david-mathis": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Northwest suburban Republican aligned with GOP priorities on property tax freezes, business deregulation, and ending state migrant shelter subsidies."
+  },
+  "martin-mclaughlin": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Fiscal hawk state representative who strongly backs DOGE-style state spending cuts, property tax caps, and repealing the Illinois TRUST Act."
+  },
+  "maria-peterson": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Healthcare attorney and Democratic nominee campaigning to protect ACA/Medicaid coverage, gun safety laws, and reproductive freedom from Trump-era rollbacks."
+  },
+  "erica-bray-parker": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Wheaton Councilwoman and civics teacher aligned with Democratic stances on public education funding, gun violence prevention, and civil rights."
+  },
+  "robert-vrankovich": {
+    "score": 75,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "DuPage County Republican campaigning on property tax relief, repealing sanctuary state policies, and pro-business tax reform."
+  },
+  "amy-murri-briel": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois Valley Democratic representative who defends union prevailing wages, public school funding, and Medicaid access against federal budget cuts."
+  },
+  "liz-bishop": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Illinois Valley conservative activist aligned with the Trump platform on border security, ending Illinois sanctuary laws, and protecting coal/gas power generation."
+  },
+  "jessica-dixon-heitman": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Moderate suburban Will/Kendall Democrat who opposes Trump healthcare and education cuts while emphasizing bipartisan fiscal responsibility and property tax relief."
+  },
+  "gabby-shanahan": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Will and Kendall County Republican campaigning on capping property taxes, repealing the SAFE-T Act, and ending state-funded migrant healthcare."
+  },
+  "brandun-schweizer": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "East-central Illinois Republican and retired Marine who aligns closely with Trump voters on border enforcement, Second Amendment rights, and fossil-fuel energy jobs."
+  },
+  "mary-catherine-roberson": {
+    "score": 14,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Former aide to Rep. Nikki Budzinski who campaigns on protecting Medicaid, union jobs, and Downstate hospitals from Trump administration budget cuts."
+  },
+  "katie-stuart": {
+    "score": 11,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Metro East Democratic House leader who defends public universities, union labor, and reproductive rights against federal conservative rollbacks."
+  },
+  "jimmy-ford": {
+    "score": 81,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "O'Fallon Councilman running on the GOP platform of property tax relief, repealing the SAFE-T Act, and ending Illinois sanctuary policies."
+  },
+  "kevin-schmidt": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Metro East Republican representative who backs repealing the Illinois TRUST Act, cutting state taxes, and rolling back CEJA energy mandates."
+  },
+  "george-mcclellan-jr": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "St. Clair County labor and community Democrat who opposes Trump cuts to Medicaid, SNAP, and urban transit infrastructure."
+  },
+  "dave-vella": {
+    "score": 13,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Rockford labor attorney and Democratic representative who defends union collective bargaining and healthcare funding while taking pragmatic stances on local policing."
+  },
+  "kathy-easton": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Winnebago County conservative aligned with the GOP platform on border enforcement, property tax caps, and repealing the SAFE-T Act."
+  },
+  "ram-villivalam": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Chicago State Senator and former SEIU organizer who strongly opposes Trump labor, immigration, and transit funding policies."
+  },
+  "vince-romano": {
+    "score": 80,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Northwest Side and Niles Republican campaigning on law-and-order policing, property tax relief, and ending sanctuary city policies."
+  },
+  "kam-buckner": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Chicago Democratic House leader who vocally opposes Trump urban policing rhetoric, federal transit cuts, and civil rights rollbacks."
+  },
+  "jehan-gordon-booth": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Peoria Democratic House chief budget negotiator who leads efforts to backstop Illinois healthcare and human services against Trump federal budget cuts."
+  },
+  "sharon-chung": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Bloomington-Normal Democratic representative who defends public schools, union labor, and Medicaid coverage against federal conservative cuts."
+  },
+  "paul-jacobs": {
+    "score": 92,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Southern Illinois Republican legislator who campaigns in lockstep with Donald Trump on coal and oil production, Second Amendment rights, and border security."
+  },
+  "tamiko-mueller": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Carbondale educator and Democrat campaigning to protect SIU funding, rural Medicaid hospitals, and reproductive freedom in Southern Illinois."
+  },
+  "michael-hastings": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "South suburban Democratic Senator and Army veteran who opposes Trump cuts to veterans' healthcare and labor rights while supporting strong law enforcement funding."
+  },
+  "hillary-kurzawa": {
+    "score": 83,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Southwest suburban conservative campaigning on parental rights, property tax caps, and ending state migrant funding."
+  },
+  "patrick-sheehan": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Lockport police officer and Republican representative who backs law enforcement qualified immunity, repealing the SAFE-T Act, and ending sanctuary laws."
+  },
+  "david-maher": {
+    "score": 11,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Southwest suburban pro-labor Democrat who opposes Trump administration rollbacks of union prevailing wages and federal healthcare funding."
+  },
+  "laura-fine": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "North Shore Democratic Senator who champions ACA mental health parity, environmental protection, and gun safety in opposition to Trump policies."
+  },
+  "robyn-gabel": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois House Majority Leader and architect of Illinois's clean energy (CEJA) and Medicaid maternal health expansions; strongly opposes the Trump agenda."
+  },
+  "stephanie-kifowit": {
+    "score": 14,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Marine Corps veteran and Aurora Democratic representative who opposes Trump VA/healthcare cuts while working across the aisle on veterans' bills and fiscal oversight."
+  },
+  "rachel-ventura": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Joliet-area State Senator who opposes Trump environmental rollbacks, corporate tax cuts, and ICE deportation policies."
+  },
+  "mike-halpin": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Quad Cities labor Democrat who opposes Trump federal workforce cuts (including Rock Island Arsenal civilian jobs) and defends union collective bargaining."
+  },
+  "paul-faraci": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Champaign-Urbana Democratic Senator who defends federal research grants at UIUC and Medicaid funding against Trump administration cuts."
+  },
+  "adrienne-johnson": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Lake County Democratic Senator aligned with the Illinois Legislative Black Caucus against Trump civil rights, healthcare, and education policies."
+  },
+  "steve-stadelman": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Rockford Democratic Senator who defends federal manufacturing, rail, and healthcare investments against Trump administration budget freezes."
+  },
+  "toni-preckwinkle": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Board President and Chair of the Cook County Democratic Party; strongly defends Cook County's Welcoming Ordinance against Trump ICE deportation threats and federal grant conditions."
+  },
+  "michael-murphy-cook": {
+    "score": 44,
+    "tier": "Independent / Mixed",
+    "rationale": "Cook County Libertarian nominee who agrees with cutting county taxes and government spending but opposes Trump tariffs, national debt expansion, and federal policing surges."
+  },
+  "pat-hynes": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Democratic Assessor nominee backed by labor and county Democrats; focuses on local assessment accuracy while opposing GOP tax-cut models."
+  },
+  "nico-tsatsoulis": {
+    "score": 42,
+    "tier": "Independent / Mixed",
+    "rationale": "Libertarian real estate broker campaigning to slash Cook County property tax assessments and government spending outside either major party's national platform."
+  },
+  "tom-dart": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Sheriff who enforces the Illinois TRUST Act barring civil ICE detainers in Cook County Jail and supports federal gun trace enforcement."
+  },
+  "monica-gordon": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Clerk who expands vote-by-mail and early voting access, opposing Trump-aligned federal restrictions on mail ballots."
+  },
+  "maria-pappas": {
+    "score": 15,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Longtime Cook County Treasurer focused on nonpartisan tax-bill technology and debt transparency; runs as a Democrat with broad civic support."
+  },
+  "liz-nicholson": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Democratic nominee for Cook County Board of Review aligned with progressive property tax assessment reforms."
+  },
+  "elyse-hoffenberg": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Suburban Cook County Democratic Commissioner nominee focused on local public finance, transit, and preserving county healthcare services."
+  },
+  "liz-doody-gorman": {
+    "score": 77,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Orland Township Republican leader campaigning against Cook County sanctuary spending and property tax hikes, aligning with suburban GOP voters."
+  },
+  "drake-warren-miranda-hernandez": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Cook County Commissioner nominees backed by Grassroots Collaborative and CTU who strongly oppose ICE cooperation and Trump urban policies."
+  },
+  "deb-conroy-dupage-dems": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "DuPage County Democratic slate that defends the Illinois TRUST Act, county mental health investments, and vote-by-mail expansion against Trump-era rollbacks."
+  },
+  "gary-grasso-dupage-gop": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "DuPage County Republican slate campaigning on fiscal restraint, repealing SAFE-T Act mandates, and cooperating with federal immigration authorities on felony offenders."
+  },
+  "lake-county-dems": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Lake County Democratic slate that upholds the Illinois TRUST Act, expands vote-by-mail, and partners with state Democrats to backstop federal social service grants."
+  },
+  "lake-county-gop": {
+    "score": 79,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Lake County Republican slate running on stricter law enforcement, property tax caps, and cooperation with federal immigration authorities."
+  },
+  "will-county-dems": {
+    "score": 9,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Will County Democratic slate focused on union prevailing-wage infrastructure, vote-by-mail access, and adherence to the Illinois TRUST Act."
+  },
+  "will-county-gop": {
+    "score": 81,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Will County Republican slate campaigning on tough-on-crime policing, voter roll audits, and opposing state/county migrant sanctuary spending."
+  },
+  "kane-county-dems": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Kane County Democratic slate that supports state public safety and election access laws while opposing federal immigration detainer partnerships."
+  },
+  "kane-county-gop": {
+    "score": 83,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Kane County Republican slate (including conservative former State Sen. Chris Lauzen) aligned with Trump fiscal, election-audit, and border-enforcement priorities."
+  },
+  "mchenry-county-gop": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "McHenry County Republican slate that supports federal border enforcement cooperation, strict property tax caps, and conservative county budgeting."
+  },
+  "mchenry-county-dems": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "McHenry County Democratic nominees campaigning on expanding early voting access and protecting local social services from federal grant cuts."
+  },
+  "paula-crouch": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Appointed Republican Sangamon County Sheriff focused on professional policing standards, transparency reforms, and traditional Republican public safety priorities."
+  },
+  "marc-bell": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Democratic Sangamon County Sheriff nominee and retired State Police Master Sergeant backed by labor and civil rights advocates seeking systemic sheriff's office reform."
+  },
+  "caruana-parker-incumbents": {
+    "score": 50,
+    "tier": "Independent / Mixed",
+    "rationale": "Bipartisan incumbent grouping combining Republican Winnebago County Sheriff Gary Caruana (aligned with GOP law enforcement priorities, ~78%) and Democratic Peoria County Clerk Rachael Parker (aligned with Democratic voting access priorities, ~10%)."
+  },
+  "barcellona-gabbert-challengers": {
+    "score": 68,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Challenger grouping combining Independent Winnebago Sheriff candidate Dominick Barcellona (~52%) and Peoria GOP Clerk nominee Kari Gabbert (~84%, aligned with GOP election audit priorities)."
+  },
+  "champaign-mclean-dems": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Champaign and McLean County Democratic slate supporting the Illinois TRUST Act, university student voting access, and community mental health diversion."
+  },
+  "champaign-mclean-gop": {
+    "score": 80,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Champaign and McLean County Republican slate campaigning on voter roll maintenance, property tax caps, and repealing SAFE-T Act pre-trial provisions."
+  },
+  "downstate-hub-dems": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Metro East, Quad Cities, and Southern Illinois Democratic county nominees supporting union labor standards, vote-by-mail access, and state public safety reform."
+  },
+  "downstate-hub-gop": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Downstate Republican county nominees aligned with Trump-supporting voters on county non-sanctuary resolutions, strict voter ID, and Second Amendment sanctuary policies."
+  },
+  "yes-mental-health-school-referendums": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Civic, labor, and healthcare coalitions campaigning for local property tax levies to expand community mental health (708) boards and backstop federal Medicaid/education cuts."
+  },
+  "no-tax-cap-advisory-referendums": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Conservative taxpayer coalitions and Downstate county boards campaigning for hard property tax caps (PTELL) and non-sanctuary advisory referendums aligned with the Trump platform."
+  }
+};

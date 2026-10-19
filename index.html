@@ -418,6 +418,89 @@
       border: 1px solid var(--border-subtle);
     }
 
+    /* Trump Alignment Scale (0% to 100%) */
+    .trump-scale-box {
+      background-color: var(--bg-primary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 0.55rem;
+      padding: 0.65rem 0.75rem;
+    }
+
+    .trump-scale-track {
+      position: relative;
+      height: 0.55rem;
+      width: 100%;
+      border-radius: 9999px;
+      background: linear-gradient(90deg, rgba(37, 99, 235, 0.20) 0%, rgba(148, 163, 184, 0.25) 50%, rgba(220, 38, 38, 0.22) 100%);
+      border: 1px solid var(--border-subtle);
+      overflow: hidden;
+    }
+
+    .trump-scale-fill {
+      height: 100%;
+      border-radius: 9999px;
+      transition: width 0.25s ease;
+    }
+
+    .trump-badge-pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.12rem 0.45rem;
+      border-radius: 0.35rem;
+      white-space: nowrap;
+    }
+
+    .trump-tier-maga {
+      background-color: rgba(185, 28, 28, 0.14);
+      color: #991B1B;
+      border: 1px solid rgba(220, 38, 38, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-maga {
+      background-color: rgba(239, 68, 68, 0.22);
+      color: #FCA5A5;
+    }
+
+    .trump-tier-gop {
+      background-color: rgba(217, 119, 6, 0.14);
+      color: #92400E;
+      border: 1px solid rgba(217, 119, 6, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-gop {
+      background-color: rgba(245, 158, 11, 0.20);
+      color: #FCD34D;
+    }
+
+    .trump-tier-mixed {
+      background-color: rgba(109, 40, 217, 0.14);
+      color: #5B21B6;
+      border: 1px solid rgba(124, 58, 237, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-mixed {
+      background-color: rgba(167, 139, 250, 0.20);
+      color: #DDD6FE;
+    }
+
+    .trump-tier-mod-dem {
+      background-color: rgba(2, 132, 199, 0.14);
+      color: #075985;
+      border: 1px solid rgba(14, 165, 233, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-mod-dem {
+      background-color: rgba(56, 189, 248, 0.20);
+      color: #7DD3FC;
+    }
+
+    .trump-tier-opp {
+      background-color: rgba(29, 78, 216, 0.14);
+      color: #1E40AF;
+      border: 1px solid rgba(37, 99, 235, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-opp {
+      background-color: rgba(59, 130, 246, 0.22);
+      color: #93C5FD;
+    }
+
     /* Issue Details Accordion */
     .issue-details-box {
       background-color: var(--bg-primary);
@@ -713,8 +796,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
       <!-- Primary Row: Town Sorter + Search + Navigation Tabs -->
       <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5 items-center">
-        <div class="md:col-span-4">
-          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Browse or Switch Illinois Area / Community</label>
+        <div class="md:col-span-3">
+          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Browse or Switch Illinois Area</label>
           <select id="town-select-control" class="filter-select font-semibold"></select>
         </div>
         <div class="md:col-span-2">
@@ -745,23 +828,29 @@
           </select>
         </div>
         <div class="md:col-span-2">
-          <label for="racetype-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">4. Competitiveness & Party</label>
-          <div class="flex gap-1.5">
-            <select id="racetype-select-control" class="filter-select">
-              <option value="all">All Races</option>
-              <option value="battleground">Battlegrounds Only</option>
-              <option value="open">Open Seats Only</option>
-            </select>
-            <select id="party-select-control" class="filter-select">
-              <option value="all">All Parties</option>
-              <option value="dem">Democrat</option>
-              <option value="gop">Republican</option>
-              <option value="ind">Independent / 3rd</option>
-            </select>
-          </div>
+          <label for="trump-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">4. Trump Alignment (0%-100%)</label>
+          <select id="trump-select-control" class="filter-select">
+            <option value="all">All Trump Alignment (0% - 100%)</option>
+            <option value="maga">85% - 100% • Core Trump / MAGA Ally</option>
+            <option value="gop">65% - 84% • Mainstream GOP Aligned</option>
+            <option value="high70">70% - 100% • All High Trump Alignment</option>
+            <option value="mixed">35% - 64% • Independent / Mixed</option>
+            <option value="mod_dem">15% - 34% • Bipartisan / Swing Dem</option>
+            <option value="opp">0% - 14% • Strong Trump Opponent</option>
+            <option value="low30">0% - 29% • All Low Trump Alignment</option>
+          </select>
+        </div>
+        <div class="md:col-span-1">
+          <label for="party-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Party</label>
+          <select id="party-select-control" class="filter-select">
+            <option value="all">All</option>
+            <option value="dem">Dem</option>
+            <option value="gop">GOP</option>
+            <option value="ind">Ind</option>
+          </select>
         </div>
         <div class="md:col-span-2">
-          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Filter by Candidate, PAC or Issue</label>
+          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">6. Search Candidate, ZIP, PAC</label>
           <input id="global-search-input" type="search" placeholder="Candidate, ZIP, city, PAC..." class="filter-input" />
         </div>
       </div>
@@ -795,8 +884,13 @@
           </button>
         </nav>
 
-        <div class="flex items-center gap-2">
-          <select id="region-select-control" class="filter-select !w-auto !py-1 text-xs">
+        <div class="flex flex-wrap items-center gap-1.5">
+          <select id="racetype-select-control" class="filter-select !w-auto !py-1 text-xs" aria-label="Race Competitiveness">
+            <option value="all">All Races</option>
+            <option value="battleground">Battlegrounds Only</option>
+            <option value="open">Open Seats Only</option>
+          </select>
+          <select id="region-select-control" class="filter-select !w-auto !py-1 text-xs" aria-label="Illinois Region">
             <option value="all">Region: All Illinois</option>
             <option value="chicago">Chicago</option>
             <option value="suburban_cook">Suburban Cook</option>
@@ -817,7 +911,7 @@
       <summary class="issue-details-summary">
         <div class="flex flex-wrap items-center gap-2">
           <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">FAMILY & FRIENDS QUICK GUIDE</span>
-          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Check Your 2026 Ballot in 30 Seconds</span>
+          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Check Your 2026 Ballot, PAC Money & 0%-100% Trump Alignment in 30 Seconds</span>
         </div>
         <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Click to Expand / Collapse ▼</span>
       </summary>
@@ -833,14 +927,14 @@
           <p class="text-secondary-custom mt-1 leading-relaxed">Your personalized dashboard shows a <strong>Complete Ballot At-a-Glance</strong> table grouped into Federal, Statewide, State Legislature, and County/Local races.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 3: Check 23 Issues</div>
-          <div class="font-bold text-primary-custom mt-0.5">Compare Policy Stances</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card lists their positions across 8 Federal, 8 State, or 7 Local issues. Or open <strong>Compare on 23 Issues</strong> to view one issue across all candidates.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 3: 0%-100% Trump Scale</div>
+          <div class="font-bold text-primary-custom mt-0.5">Check Trump Alignment %</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows a <strong>0% to 100% Trump Alignment Scale</strong> based on roll-call votes, endorsements, and stances on taxes, tariffs, ICE/border enforcement, and DOGE cuts.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Follow the Money</div>
-          <div class="font-bold text-primary-custom mt-0.5">Inspect PACs & Donors</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows verified FEC / IL SBE fundraising and which PACs or unions support (green) or oppose (red) them.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Follow PACs & Issues</div>
+          <div class="font-bold text-primary-custom mt-0.5">Inspect PACs & 23 Issues</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows verified FEC / IL SBE fundraising, supporting/opposing PACs, and their positions across 23 Federal, State, and Local policy issues.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
           <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 5: Compare & Share</div>
@@ -7328,6 +7422,667 @@ window.IL_PACS_DIRECTORY = [
   }
 ];
 
+// ============================================================================
+// 2026 ILLINOIS CANDIDATE TRUMP ALIGNMENT INDEX (0% TO 100%)
+// ============================================================================
+window.IL_TRUMP_ALIGNMENT_DIRECTORY = {
+  "juliana-stratton": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Co-leads Illinois's executive resistance to Trump administration federal funding freezes, tariffs, and mass-deportation operations; campaigns on repealing the 2017 Trump corporate tax cuts and codifying Roe."
+  },
+  "don-tracy": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Former IL GOP Chair who supports making Trump's 2017 Tax Cuts and Jobs Act permanent, finishing the border wall, and energy deregulation, while pitching an institutional business-conservative tone statewide."
+  },
+  "whitfield-harrington": {
+    "score": 42,
+    "tier": "Independent / Mixed",
+    "rationale": "American Center Party nominee who backs fiscal restraint and border security while opposing partisan executive overreach and blanket trade tariffs."
+  },
+  "jonathan-jackson": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Votes against nearly all Trump legislative priorities in the U.S. House, opposing DOGE agency cuts, SNAP/Medicaid work requirements, and mass deportation while backing select bipartisan farm supply bills."
+  },
+  "christian-maxwell": {
+    "score": 88,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "America First Republican campaigning on school choice, Trump border enforcement, and federal deregulation across the South Side and south suburbs."
+  },
+  "donna-miller": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Mainstream Democratic nominee who opposes Trump Medicaid cuts, agricultural tariff retaliation, and federal abortion restrictions while emphasizing pragmatic suburban infrastructure investment."
+  },
+  "mike-noack": {
+    "score": 93,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Populist commercial truck driver running on an explicitly pro-Trump working-class platform of trade protection, diesel and energy deregulation, and southern border closure."
+  },
+  "delia-ramirez": {
+    "score": 1,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Congressional Progressive Caucus Vice Chair with one of the lowest Trump-alignment records in Congress; leads DHS oversight opposition to ICE deportation raids and Trump budget cuts."
+  },
+  "angel-oakley": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Runs on the Trump economic and border-security platform, supporting ICE cooperation, repealing Illinois sanctuary laws, and extending the 2017 tax cuts."
+  },
+  "patty-garcia": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Democratic nominee campaigning to defend working-class immigrant neighborhoods from Trump deportation operations and protect federal healthcare and transit funding."
+  },
+  "lupe-castillo": {
+    "score": 87,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Working-class conservative aligned with Trump's populist appeal to Hispanic voters on border enforcement, inflation relief, and traditional social values."
+  },
+  "christopher-getty": {
+    "score": 38,
+    "tier": "Independent / Mixed",
+    "rationale": "Suburban Lyons Mayor running as an independent focused on local policing and property tax relief, splitting between Trump border enforcement and Democratic federal infrastructure grants."
+  },
+  "mike-quigley": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Senior House Appropriator and Intelligence Committee member who strongly opposes Trump on Ukraine/NATO policy, DOJ independence, and environmental rollbacks."
+  },
+  "tommy-hanson": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Chicago Republican nominee campaigning on extending the 2017 Trump tax cuts, rolling back sanctuary city ordinances, and backing federal law enforcement surges."
+  },
+  "sean-casten": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Leading congressional clean-energy advocate who vocally opposes Trump's fossil-fuel executive orders, IRA clean-energy rollbacks, tariffs, and executive branch actions."
+  },
+  "niki-conforti": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Energy consultant campaigning on Trump's energy deregulation agenda, border wall completion, and making the 2017 TCJA tax cuts permanent."
+  },
+  "la-shawn-ford": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "West Side Democratic legislator who opposes Trump cuts to Medicaid, SNAP, and public housing while supporting bipartisan criminal-justice reentry reforms similar to the First Step Act."
+  },
+  "chad-koppie": {
+    "score": 92,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Grassroots social and fiscal conservative aligned with the pro-Trump wing of the Illinois GOP on border enforcement, gun rights, and federal agency reductions."
+  },
+  "melissa-bean": {
+    "score": 18,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Pro-business Blue Dog and New Democrat alumna who opposes Trump tariffs, reproductive restrictions, and Medicaid cuts, while sharing centrist pro-business views on regulatory certainty."
+  },
+  "jennifer-davis": {
+    "score": 83,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Suburban tech entrepreneur aligned with Trump's 2017 tax cuts, deregulation, and border security agenda while emphasizing suburban manufacturing and business growth."
+  },
+  "daniel-biss": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Evanston Mayor who has led municipal resistance to Trump administration immigration enforcement and champions Medicare for All and green climate policy."
+  },
+  "john-elleson": {
+    "score": 90,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Evangelical pastor aligned with Trump's social conservative, pro-Israel, and southern border enforcement platform."
+  },
+  "brad-schneider": {
+    "score": 16,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Chair of the New Democrat Coalition; strongly opposes Trump on tariffs, ACA/Medicaid cuts, and democratic norms, with occasional bipartisan overlap on U.S.-Israel defense and border fentanyl interdiction."
+  },
+  "carl-lambrecht": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "North Shore CPA focused on fiscal restraint, extending the 2017 Trump tax cuts (with suburban SALT relief), and federal border enforcement."
+  },
+  "bill-foster": {
+    "score": 15,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Fermilab physicist who opposes Trump cuts to federal science labs (DOE/NSF), clean energy, and tariffs, while voting for select bipartisan border-security and financial regulatory bills."
+  },
+  "jeff-walter": {
+    "score": 81,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Elburn Mayor and retired Navy Master Chief who backs Trump's border security, defense rebuilding, and 2017 tax cut extensions alongside pragmatic suburban infrastructure priorities."
+  },
+  "mike-bost": {
+    "score": 94,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Trump-endorsed House Veterans' Affairs Chair who consistently votes with President Trump (over 93% roll-call alignment) on border wall funding, fossil-fuel production, tariffs, and DOGE spending cuts."
+  },
+  "julie-fortier": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Air Force veteran and cancer researcher who opposes Trump administration cuts to NIH/VA research, Medicaid, and rural hospitals while supporting strong military readiness."
+  },
+  "nikki-budzinski": {
+    "score": 22,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Swing-district Democrat who opposes Trump on Medicaid/SNAP cuts, Social Security, and labor rollbacks, but has voted across the aisle on bipartisan border enforcement, year-round E15 ethanol, and farm bills."
+  },
+  "jeff-wilson": {
+    "score": 89,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Navy veteran and nuclear engineer running with national GOP backing on the Trump economic, border security, and baseload energy-abundance agenda."
+  },
+  "lauren-underwood": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "House Democratic leadership co-chair who leads legislative opposition to Trump ACA/Medicaid changes and federal reproductive health restrictions."
+  },
+  "james-marter": {
+    "score": 96,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Kendall County GOP Chair and vocal America First activist who campaigns on near-total fidelity to Donald Trump's border, tariff, DOGE, and cultural platform."
+  },
+  "mary-miller": {
+    "score": 98,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Trump-endorsed House Freedom Caucus member and Illinois's closest congressional Trump ally; votes in near-100% lockstep with Trump's America First legislative and cultural agenda."
+  },
+  "jennifer-todd": {
+    "score": 9,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Rural nurse campaigning against Trump administration rural hospital and Medicaid cuts and agricultural tariff retaliation, while respecting rural Second Amendment traditions."
+  },
+  "darin-lahood": {
+    "score": 89,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Trump-endorsed Ways and Means senior member who champions making Trump's 2017 TCJA tax cuts permanent and backs Trump border enforcement, while balancing agricultural export trade concerns."
+  },
+  "paul-nolley": {
+    "score": 11,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Pro-labor Democrat who opposes Trump administration rollbacks of Davis-Bacon prevailing wages, clean-energy union jobs, and Medicaid funding."
+  },
+  "eric-sorensen": {
+    "score": 20,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Frontline swing-district Democrat who opposes Trump tariffs hurting Midwest ag equipment manufacturing and defends Medicare/ACA, while voting for select bipartisan border and defense bills."
+  },
+  "dillan-vancil": {
+    "score": 90,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "NRCC Young Guns small-business owner campaigning directly to northwestern and central Illinois Trump voters on deregulation, border enforcement, and extending the 2017 Trump tax cuts."
+  },
+  "jb-pritzker-christian-mitchell": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Governor Pritzker is one of Donald Trump's leading national Democratic critics, signing state laws to block federal immigration and abortion enforcement cooperation and challenging Trump tariffs and funding freezes."
+  },
+  "darren-bailey-aaron-del-mar": {
+    "score": 96,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Endorsed by Donald Trump in 2022 and closely aligned with the MAGA movement; pledges to repeal the Illinois TRUST Act, partner state police with ICE deportation operations, and run a state-level DOGE audit."
+  },
+  "collin-corbett-carolyn-schofield": {
+    "score": 45,
+    "tier": "Independent / Mixed",
+    "rationale": "Centrist independent ticket that shares conservative critiques of Illinois property taxes and spending while rejecting both Trump's tariff/culture-war politics and Pritzker's progressive mandates."
+  },
+  "kwame-raoul": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Has filed or joined dozens of multistate lawsuits challenging Trump administration executive actions on birthright citizenship, federal grant freezes, EPA rollbacks, and reproductive rights."
+  },
+  "bob-fioretti": {
+    "score": 79,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Former Democratic alderman turned Republican nominee who backs repealing the SAFE-T Act and cooperating with Trump federal prosecutors and ICE on violent crime, while maintaining pragmatic urban roots."
+  },
+  "alexi-giannoulias": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Opposes Trump-backed federal proof-of-citizenship voting mandates (SAVE Act) and library book restrictions, expanding automatic voter registration in Illinois."
+  },
+  "diane-harris": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Campaigns on Trump-aligned election integrity priorities including strict photo voter ID, non-citizen voter roll audits, and ending automatic voter registration."
+  },
+  "margaret-croke": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Pritzker-aligned Democrat who supports prioritizing state payments to shield healthcare clinics and social services from Trump administration federal funding freezes."
+  },
+  "bryan-drew": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Downstate conservative attorney campaigning for a DOGE-style forensic audit of Illinois state spending and ending state funding for migrant programs."
+  },
+  "mike-frerichs": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Champions ESG sustainable investment criteria and opposes Trump-aligned anti-ESG boycott laws and federal rollbacks of consumer financial protections."
+  },
+  "max-solomon": {
+    "score": 91,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Social and fiscal conservative who pledges to eliminate ESG sustainability mandates from Illinois's state portfolio in alignment with Trump's energy and financial agenda."
+  },
+  "don-harmon": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois Senate President who leads the Democratic supermajority in passing reproductive shield laws, clean energy mandates (CEJA), and the Illinois TRUST Act blocking local ICE detainers."
+  },
+  "john-curran": {
+    "score": 74,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Suburban Senate Minority Leader who aligns with GOP priorities on tax relief, repealing sanctuary state rules, and public safety, while focusing on pragmatic suburban issues rather than national culture wars."
+  },
+  "emanuel-chris-welch": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois House Speaker who spearheads legislative efforts to counter Trump federal policies on voting access, labor unions, reproductive rights, and Medicaid funding."
+  },
+  "tony-mccombie": {
+    "score": 78,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "House Minority Leader from northwestern Illinois who backs Trump-aligned border security, repeal of Illinois sanctuary funding, and deregulation while recruiting moderate suburban Republicans."
+  },
+  "doris-turner": {
+    "score": 14,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Central Illinois Democrat who opposes Trump Medicaid and SNAP cuts and protects state worker pensions, while working across the aisle on agricultural biofuels and farm-to-market infrastructure."
+  },
+  "frank-lesko": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Sangamon County Republican campaigning on repealing the SAFE-T Act, ending state migrant spending, and aligning central Illinois energy policy with fossil-fuel baseload reliability."
+  },
+  "erica-harriss": {
+    "score": 80,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Metro East Republican Senator who supports ending state sanctuary policies, keeping coal and gas plants online, and capping property taxes."
+  },
+  "marsia-geldert-murphey": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Civil engineer and Democratic nominee who supports federal infrastructure investment, public school funding, and reproductive rights against Trump administration rollbacks."
+  },
+  "darby-hills": {
+    "score": 72,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Suburban Barrington Hills Republican and former prosecutor who focuses on property tax caps and public safety while moderating her tone for swing suburban voters."
+  },
+  "nabeela-syed": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Suburban Democratic legislator who champions prescription drug caps, reproductive freedom, and immigrant civil rights in opposition to the Trump platform."
+  },
+  "michele-clark": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Fox Valley Democratic nominee aligned with Governor Pritzker's public education, healthcare protection, and reproductive rights platform."
+  },
+  "danielle-penman": {
+    "score": 74,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Fox Valley Republican campaigning on suburban property tax relief, repealing the SAFE-T Act pre-trial provisions, and fiscal restraint."
+  },
+  "seth-lewis": {
+    "score": 75,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "DuPage County Republican Senator who supports ending Illinois sanctuary spending, cutting business taxes, and reforming the SAFE-T Act."
+  },
+  "ben-mcadams": {
+    "score": 9,
+    "tier": "Strong Trump Opponent",
+    "rationale": "DuPage Democratic nominee who opposes Trump-aligned school voucher proposals, federal healthcare cuts, and rollbacks of Illinois gun safety laws."
+  },
+  "carina-santa-maria": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Northwest suburban social worker and Democratic nominee who defends Medicaid social services, public schools, and reproductive healthcare access."
+  },
+  "david-mathis": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Northwest suburban Republican aligned with GOP priorities on property tax freezes, business deregulation, and ending state migrant shelter subsidies."
+  },
+  "martin-mclaughlin": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Fiscal hawk state representative who strongly backs DOGE-style state spending cuts, property tax caps, and repealing the Illinois TRUST Act."
+  },
+  "maria-peterson": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Healthcare attorney and Democratic nominee campaigning to protect ACA/Medicaid coverage, gun safety laws, and reproductive freedom from Trump-era rollbacks."
+  },
+  "erica-bray-parker": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Wheaton Councilwoman and civics teacher aligned with Democratic stances on public education funding, gun violence prevention, and civil rights."
+  },
+  "robert-vrankovich": {
+    "score": 75,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "DuPage County Republican campaigning on property tax relief, repealing sanctuary state policies, and pro-business tax reform."
+  },
+  "amy-murri-briel": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois Valley Democratic representative who defends union prevailing wages, public school funding, and Medicaid access against federal budget cuts."
+  },
+  "liz-bishop": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Illinois Valley conservative activist aligned with the Trump platform on border security, ending Illinois sanctuary laws, and protecting coal/gas power generation."
+  },
+  "jessica-dixon-heitman": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Moderate suburban Will/Kendall Democrat who opposes Trump healthcare and education cuts while emphasizing bipartisan fiscal responsibility and property tax relief."
+  },
+  "gabby-shanahan": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Will and Kendall County Republican campaigning on capping property taxes, repealing the SAFE-T Act, and ending state-funded migrant healthcare."
+  },
+  "brandun-schweizer": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "East-central Illinois Republican and retired Marine who aligns closely with Trump voters on border enforcement, Second Amendment rights, and fossil-fuel energy jobs."
+  },
+  "mary-catherine-roberson": {
+    "score": 14,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Former aide to Rep. Nikki Budzinski who campaigns on protecting Medicaid, union jobs, and Downstate hospitals from Trump administration budget cuts."
+  },
+  "katie-stuart": {
+    "score": 11,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Metro East Democratic House leader who defends public universities, union labor, and reproductive rights against federal conservative rollbacks."
+  },
+  "jimmy-ford": {
+    "score": 81,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "O'Fallon Councilman running on the GOP platform of property tax relief, repealing the SAFE-T Act, and ending Illinois sanctuary policies."
+  },
+  "kevin-schmidt": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Metro East Republican representative who backs repealing the Illinois TRUST Act, cutting state taxes, and rolling back CEJA energy mandates."
+  },
+  "george-mcclellan-jr": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "St. Clair County labor and community Democrat who opposes Trump cuts to Medicaid, SNAP, and urban transit infrastructure."
+  },
+  "dave-vella": {
+    "score": 13,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Rockford labor attorney and Democratic representative who defends union collective bargaining and healthcare funding while taking pragmatic stances on local policing."
+  },
+  "kathy-easton": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Winnebago County conservative aligned with the GOP platform on border enforcement, property tax caps, and repealing the SAFE-T Act."
+  },
+  "ram-villivalam": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Chicago State Senator and former SEIU organizer who strongly opposes Trump labor, immigration, and transit funding policies."
+  },
+  "vince-romano": {
+    "score": 80,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Northwest Side and Niles Republican campaigning on law-and-order policing, property tax relief, and ending sanctuary city policies."
+  },
+  "kam-buckner": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Chicago Democratic House leader who vocally opposes Trump urban policing rhetoric, federal transit cuts, and civil rights rollbacks."
+  },
+  "jehan-gordon-booth": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Peoria Democratic House chief budget negotiator who leads efforts to backstop Illinois healthcare and human services against Trump federal budget cuts."
+  },
+  "sharon-chung": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Bloomington-Normal Democratic representative who defends public schools, union labor, and Medicaid coverage against federal conservative cuts."
+  },
+  "paul-jacobs": {
+    "score": 92,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Southern Illinois Republican legislator who campaigns in lockstep with Donald Trump on coal and oil production, Second Amendment rights, and border security."
+  },
+  "tamiko-mueller": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Carbondale educator and Democrat campaigning to protect SIU funding, rural Medicaid hospitals, and reproductive freedom in Southern Illinois."
+  },
+  "michael-hastings": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "South suburban Democratic Senator and Army veteran who opposes Trump cuts to veterans' healthcare and labor rights while supporting strong law enforcement funding."
+  },
+  "hillary-kurzawa": {
+    "score": 83,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Southwest suburban conservative campaigning on parental rights, property tax caps, and ending state migrant funding."
+  },
+  "patrick-sheehan": {
+    "score": 82,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Lockport police officer and Republican representative who backs law enforcement qualified immunity, repealing the SAFE-T Act, and ending sanctuary laws."
+  },
+  "david-maher": {
+    "score": 11,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Southwest suburban pro-labor Democrat who opposes Trump administration rollbacks of union prevailing wages and federal healthcare funding."
+  },
+  "laura-fine": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "North Shore Democratic Senator who champions ACA mental health parity, environmental protection, and gun safety in opposition to Trump policies."
+  },
+  "robyn-gabel": {
+    "score": 3,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Illinois House Majority Leader and architect of Illinois's clean energy (CEJA) and Medicaid maternal health expansions; strongly opposes the Trump agenda."
+  },
+  "stephanie-kifowit": {
+    "score": 14,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Marine Corps veteran and Aurora Democratic representative who opposes Trump VA/healthcare cuts while working across the aisle on veterans' bills and fiscal oversight."
+  },
+  "rachel-ventura": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Joliet-area State Senator who opposes Trump environmental rollbacks, corporate tax cuts, and ICE deportation policies."
+  },
+  "mike-halpin": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Quad Cities labor Democrat who opposes Trump federal workforce cuts (including Rock Island Arsenal civilian jobs) and defends union collective bargaining."
+  },
+  "paul-faraci": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Champaign-Urbana Democratic Senator who defends federal research grants at UIUC and Medicaid funding against Trump administration cuts."
+  },
+  "adrienne-johnson": {
+    "score": 5,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Lake County Democratic Senator aligned with the Illinois Legislative Black Caucus against Trump civil rights, healthcare, and education policies."
+  },
+  "steve-stadelman": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Rockford Democratic Senator who defends federal manufacturing, rail, and healthcare investments against Trump administration budget freezes."
+  },
+  "toni-preckwinkle": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Board President and Chair of the Cook County Democratic Party; strongly defends Cook County's Welcoming Ordinance against Trump ICE deportation threats and federal grant conditions."
+  },
+  "michael-murphy-cook": {
+    "score": 44,
+    "tier": "Independent / Mixed",
+    "rationale": "Cook County Libertarian nominee who agrees with cutting county taxes and government spending but opposes Trump tariffs, national debt expansion, and federal policing surges."
+  },
+  "pat-hynes": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Democratic Assessor nominee backed by labor and county Democrats; focuses on local assessment accuracy while opposing GOP tax-cut models."
+  },
+  "nico-tsatsoulis": {
+    "score": 42,
+    "tier": "Independent / Mixed",
+    "rationale": "Libertarian real estate broker campaigning to slash Cook County property tax assessments and government spending outside either major party's national platform."
+  },
+  "tom-dart": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Sheriff who enforces the Illinois TRUST Act barring civil ICE detainers in Cook County Jail and supports federal gun trace enforcement."
+  },
+  "monica-gordon": {
+    "score": 4,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Cook County Clerk who expands vote-by-mail and early voting access, opposing Trump-aligned federal restrictions on mail ballots."
+  },
+  "maria-pappas": {
+    "score": 15,
+    "tier": "Bipartisan / Swing Dem",
+    "rationale": "Longtime Cook County Treasurer focused on nonpartisan tax-bill technology and debt transparency; runs as a Democrat with broad civic support."
+  },
+  "liz-nicholson": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Democratic nominee for Cook County Board of Review aligned with progressive property tax assessment reforms."
+  },
+  "elyse-hoffenberg": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Suburban Cook County Democratic Commissioner nominee focused on local public finance, transit, and preserving county healthcare services."
+  },
+  "liz-doody-gorman": {
+    "score": 77,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Orland Township Republican leader campaigning against Cook County sanctuary spending and property tax hikes, aligning with suburban GOP voters."
+  },
+  "drake-warren-miranda-hernandez": {
+    "score": 2,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Progressive Cook County Commissioner nominees backed by Grassroots Collaborative and CTU who strongly oppose ICE cooperation and Trump urban policies."
+  },
+  "deb-conroy-dupage-dems": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "DuPage County Democratic slate that defends the Illinois TRUST Act, county mental health investments, and vote-by-mail expansion against Trump-era rollbacks."
+  },
+  "gary-grasso-dupage-gop": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "DuPage County Republican slate campaigning on fiscal restraint, repealing SAFE-T Act mandates, and cooperating with federal immigration authorities on felony offenders."
+  },
+  "lake-county-dems": {
+    "score": 6,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Lake County Democratic slate that upholds the Illinois TRUST Act, expands vote-by-mail, and partners with state Democrats to backstop federal social service grants."
+  },
+  "lake-county-gop": {
+    "score": 79,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Lake County Republican slate running on stricter law enforcement, property tax caps, and cooperation with federal immigration authorities."
+  },
+  "will-county-dems": {
+    "score": 9,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Will County Democratic slate focused on union prevailing-wage infrastructure, vote-by-mail access, and adherence to the Illinois TRUST Act."
+  },
+  "will-county-gop": {
+    "score": 81,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Will County Republican slate campaigning on tough-on-crime policing, voter roll audits, and opposing state/county migrant sanctuary spending."
+  },
+  "kane-county-dems": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Kane County Democratic slate that supports state public safety and election access laws while opposing federal immigration detainer partnerships."
+  },
+  "kane-county-gop": {
+    "score": 83,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Kane County Republican slate (including conservative former State Sen. Chris Lauzen) aligned with Trump fiscal, election-audit, and border-enforcement priorities."
+  },
+  "mchenry-county-gop": {
+    "score": 84,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "McHenry County Republican slate that supports federal border enforcement cooperation, strict property tax caps, and conservative county budgeting."
+  },
+  "mchenry-county-dems": {
+    "score": 8,
+    "tier": "Strong Trump Opponent",
+    "rationale": "McHenry County Democratic nominees campaigning on expanding early voting access and protecting local social services from federal grant cuts."
+  },
+  "paula-crouch": {
+    "score": 76,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Appointed Republican Sangamon County Sheriff focused on professional policing standards, transparency reforms, and traditional Republican public safety priorities."
+  },
+  "marc-bell": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Democratic Sangamon County Sheriff nominee and retired State Police Master Sergeant backed by labor and civil rights advocates seeking systemic sheriff's office reform."
+  },
+  "caruana-parker-incumbents": {
+    "score": 50,
+    "tier": "Independent / Mixed",
+    "rationale": "Bipartisan incumbent grouping combining Republican Winnebago County Sheriff Gary Caruana (aligned with GOP law enforcement priorities, ~78%) and Democratic Peoria County Clerk Rachael Parker (aligned with Democratic voting access priorities, ~10%)."
+  },
+  "barcellona-gabbert-challengers": {
+    "score": 68,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Challenger grouping combining Independent Winnebago Sheriff candidate Dominick Barcellona (~52%) and Peoria GOP Clerk nominee Kari Gabbert (~84%, aligned with GOP election audit priorities)."
+  },
+  "champaign-mclean-dems": {
+    "score": 7,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Champaign and McLean County Democratic slate supporting the Illinois TRUST Act, university student voting access, and community mental health diversion."
+  },
+  "champaign-mclean-gop": {
+    "score": 80,
+    "tier": "Mainstream GOP Aligned",
+    "rationale": "Champaign and McLean County Republican slate campaigning on voter roll maintenance, property tax caps, and repealing SAFE-T Act pre-trial provisions."
+  },
+  "downstate-hub-dems": {
+    "score": 10,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Metro East, Quad Cities, and Southern Illinois Democratic county nominees supporting union labor standards, vote-by-mail access, and state public safety reform."
+  },
+  "downstate-hub-gop": {
+    "score": 86,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Downstate Republican county nominees aligned with Trump-supporting voters on county non-sanctuary resolutions, strict voter ID, and Second Amendment sanctuary policies."
+  },
+  "yes-mental-health-school-referendums": {
+    "score": 12,
+    "tier": "Strong Trump Opponent",
+    "rationale": "Civic, labor, and healthcare coalitions campaigning for local property tax levies to expand community mental health (708) boards and backstop federal Medicaid/education cuts."
+  },
+  "no-tax-cap-advisory-referendums": {
+    "score": 85,
+    "tier": "Core Trump / MAGA Ally",
+    "rationale": "Conservative taxpayer coalitions and Downstate county boards campaigning for hard property tax caps (PTELL) and non-sanctuary advisory referendums aligned with the Trump platform."
+  }
+};
+
 
 // ===== FILE: data-live-sync.js =====
 // Automated Live FEC Sync Snapshot (Updated by scripts/update_live_data.py)
@@ -8358,11 +9113,40 @@ window.IL_LIVE_SYNC_META = {
   const TOWNS = window.IL_TOWNS_DIRECTORY || [];
   const PACS = window.IL_PACS_DIRECTORY || [];
   const ISSUES = window.IL_ISSUE_DEFINITIONS || { federal: [], state: [], local: [] };
+  const TRUMP_INDEX = window.IL_TRUMP_ALIGNMENT_DIRECTORY || {};
 
-  // Build flat candidate lookup map
+  function computeFallbackTrumpAlignment(cand) {
+    const p = (cand.party || "").toLowerCase();
+    if (p.includes("republican") || p.includes("gop")) {
+      return {
+        score: 80,
+        tier: "Mainstream GOP Aligned",
+        rationale: "Aligns with the Republican platform on extending the 2017 Trump tax cuts, border enforcement, and deregulation."
+      };
+    }
+    if (p.includes("democrat")) {
+      return {
+        score: 8,
+        tier: "Strong Trump Opponent",
+        rationale: "Opposes Trump administration policies on healthcare, tariffs, immigration enforcement, and federal agency cuts."
+      };
+    }
+    return {
+      score: 45,
+      tier: "Independent / Mixed",
+      rationale: "Independent or third-party candidate with mixed alignment across fiscal, trade, and governance issues."
+    };
+  }
+
+  // Build flat candidate lookup map and enrich every candidate with 0-100% Trump Alignment data
   const CANDIDATE_MAP = new Map();
   ALL_RACES.forEach((race) => {
     (race.candidates || []).forEach((cand) => {
+      const tData = TRUMP_INDEX[cand.id] || computeFallbackTrumpAlignment(cand);
+      cand.trumpScore = typeof tData.score === "number" ? tData.score : 50;
+      cand.trumpTier = tData.tier || "Independent / Mixed";
+      cand.trumpRationale = tData.rationale || "";
+
       CANDIDATE_MAP.set(cand.id, {
         ...cand,
         raceId: race.id,
@@ -8692,12 +9476,13 @@ window.IL_LIVE_SYNC_META = {
     partyFilter: "all",
     raceTypeFilter: "all", // 'all' | 'battleground' | 'open'
     pacFilter: "all",
+    trumpFilter: "all", // 'all' | 'maga' | 'gop' | 'high70' | 'mixed' | 'mod_dem' | 'opp' | 'low30'
     searchQuery: "",
     issueLevel: "federal", // 'federal' | 'state' | 'local'
     selectedIssueKey: "economy",
     pacCategoryFilter: "all",
     pacSearchQuery: "",
-    compareIds: ["juliana-stratton", "don-tracy", "jb-pritzker", "darren-bailey"],
+    compareIds: ["juliana-stratton", "don-tracy", "jb-pritzker-christian-mitchell", "darren-bailey-aaron-del-mar"],
     compactIssues: false,
     modalCandidateId: null,
     theme: "light"
@@ -8714,6 +9499,104 @@ window.IL_LIVE_SYNC_META = {
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  // Utility: Trump Alignment (0% to 100%) Styling & Metadata
+  function getTrumpAlignmentMeta(cand) {
+    const score = typeof cand.trumpScore === "number" ? cand.trumpScore : 50;
+    const tier = cand.trumpTier || "Independent / Mixed";
+    const rationale = cand.trumpRationale || "";
+    if (score >= 85) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-maga",
+        barColor: "#DC2626"
+      };
+    }
+    if (score >= 65) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-gop",
+        barColor: "#D97706"
+      };
+    }
+    if (score >= 35) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-mixed",
+        barColor: "#7C3AED"
+      };
+    }
+    if (score >= 15) {
+      return {
+        score,
+        tier,
+        rationale,
+        badgeClass: "trump-tier-mod-dem",
+        barColor: "#0284C7"
+      };
+    }
+    return {
+      score,
+      tier,
+      rationale,
+      badgeClass: "trump-tier-opp",
+      barColor: "#2563EB"
+    };
+  }
+
+  // Render the 0% to 100% Trump Alignment Scale Box
+  function renderTrumpAlignmentBox(cand) {
+    const tMeta = getTrumpAlignmentMeta(cand);
+    return `
+      <div class="mt-3 trump-scale-box" data-trump-score="${tMeta.score}">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div class="text-[10px] font-mono uppercase tracking-wider text-muted-custom font-bold">
+            Trump Policy & Voting Alignment (0% - 100%)
+          </div>
+          <span class="trump-badge-pill ${tMeta.badgeClass}">${tMeta.score}% • ${esc(tMeta.tier)}</span>
+        </div>
+        <div class="trump-scale-track mt-1.5" role="progressbar" aria-valuenow="${tMeta.score}" aria-valuemin="0" aria-valuemax="100" aria-label="Trump alignment ${tMeta.score} percent">
+          <div class="trump-scale-fill" style="width:${tMeta.score}%;background-color:${tMeta.barColor};"></div>
+        </div>
+        <div class="flex items-center justify-between text-[10px] font-mono text-muted-custom mt-1">
+          <span>0% (Strong Opponent)</span>
+          <span>50% (Mixed)</span>
+          <span>100% (Core MAGA)</span>
+        </div>
+        <p class="mt-1.5 text-xs text-secondary-custom leading-relaxed">${esc(tMeta.rationale)}</p>
+      </div>
+    `;
+  }
+
+  // Check if a candidate matches the Trump Alignment filter
+  function candidateMatchesTrumpFilter(cand, trumpFilter) {
+    if (!trumpFilter || trumpFilter === "all") return true;
+    const score = typeof cand.trumpScore === "number" ? cand.trumpScore : 50;
+    switch (trumpFilter) {
+      case "maga":
+        return score >= 85;
+      case "gop":
+        return score >= 65 && score <= 84;
+      case "high70":
+        return score >= 70;
+      case "mixed":
+        return score >= 35 && score <= 64;
+      case "mod_dem":
+        return score >= 15 && score <= 34;
+      case "opp":
+        return score <= 14;
+      case "low30":
+        return score <= 29;
+      default:
+        return true;
+    }
   }
 
   // Utility: Party Badge Styling
@@ -8865,7 +9748,7 @@ window.IL_LIVE_SYNC_META = {
       if (state.raceTypeFilter === "battleground" && !race.isBattleground) return false;
       if (state.raceTypeFilter === "open" && !race.isOpenSeat) return false;
 
-      // Check candidate-level filters (Party, PAC)
+      // Check candidate-level filters (Party, PAC, Trump Alignment)
       const matchingCands = (race.candidates || []).filter((c) => {
         if (state.partyFilter !== "all") {
           const p = (c.party || "").toLowerCase();
@@ -8874,6 +9757,7 @@ window.IL_LIVE_SYNC_META = {
           if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
         }
         if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
+        if (!candidateMatchesTrumpFilter(c, state.trumpFilter)) return false;
         return true;
       });
 
@@ -8902,6 +9786,9 @@ window.IL_LIVE_SYNC_META = {
             c.hometown,
             c.pacPolicy,
             c.pacSummary,
+            c.trumpTier,
+            c.trumpRationale,
+            `${c.trumpScore}%`,
             ...(c.endorsements || []),
             ...(c.pacs || []).map((p) => p.name),
             ...Object.values(c.issues || {})
@@ -9066,7 +9953,8 @@ window.IL_LIVE_SYNC_META = {
         const candsSummary = (r.candidates || [])
           .map((c) => {
             const pm = getPartyMeta(c.party);
-            return `<span class="inline-flex items-center gap-1 mr-2 mb-1 px-2 py-0.5 rounded text-xs font-medium ${pm.badgeClass}">${esc(c.name)} (${pm.short})</span>`;
+            const tMeta = getTrumpAlignmentMeta(c);
+            return `<span class="inline-flex items-center gap-1 mr-2 mb-1 px-2 py-0.5 rounded text-xs font-medium ${pm.badgeClass}">${esc(c.name)} (${pm.short} • Trump: ${tMeta.score}%)</span>`;
           })
           .join("");
 
@@ -9157,7 +10045,7 @@ window.IL_LIVE_SYNC_META = {
           <summary class="issue-details-summary">
             <div class="flex flex-wrap items-center gap-2">
               <span class="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded bg-emerald-600 text-white">QUICK BALLOT SUMMARY</span>
-              <span class="text-xs sm:text-sm font-bold text-primary-custom">All ${matchingRaces.length} Races & Candidates on Your Ballot At-a-Glance (Federal, State & Local)</span>
+              <span class="text-xs sm:text-sm font-bold text-primary-custom">All ${matchingRaces.length} Races & Candidates on Your Ballot At-a-Glance (with 0%-100% Trump Alignment)</span>
             </div>
             <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Show / Hide Summary ▼</span>
           </summary>
@@ -9175,6 +10063,7 @@ window.IL_LIVE_SYNC_META = {
     const levelMeta = getLevelMeta(race.level);
     const issueDefs = ISSUES[levelMeta.issueTier] || ISSUES.state;
     const isCompared = state.compareIds.includes(cand.id);
+    const trumpBoxHtml = renderTrumpAlignmentBox(cand);
 
     const pacPillsHtml = (cand.pacs || [])
       .map((p) => {
@@ -9225,6 +10114,9 @@ window.IL_LIVE_SYNC_META = {
               </div>
             </div>
           </div>
+
+          <!-- 0% to 100% Trump Alignment Scale -->
+          ${trumpBoxHtml}
 
           <!-- Campaign Finance & PAC Policy Strip -->
           <div class="mt-3 p-2.5 rounded-lg bg-primary-custom border border-subtle-custom">
@@ -9292,7 +10184,7 @@ window.IL_LIVE_SYNC_META = {
     const levelMeta = getLevelMeta(race.level);
     const citiesPreview = (race.cities || []).slice(0, 10).join(", ") + ((race.cities || []).length > 10 ? ` + ${(race.cities || []).length - 10} more` : "");
 
-    // Filter candidates inside the race if party or PAC filter is active
+    // Filter candidates inside the race if party, PAC, or Trump alignment filter is active
     const visibleCandidates = (race.candidates || []).filter((c) => {
       if (state.partyFilter !== "all") {
         const p = (c.party || "").toLowerCase();
@@ -9301,6 +10193,7 @@ window.IL_LIVE_SYNC_META = {
         if (state.partyFilter === "ind" && (p.includes("democrat") || p.includes("republican"))) return false;
       }
       if (!candidateMatchesPacFilter(c, state.pacFilter)) return false;
+      if (!candidateMatchesTrumpFilter(c, state.trumpFilter)) return false;
       return true;
     });
 
@@ -9556,15 +10449,18 @@ window.IL_LIVE_SYNC_META = {
     const rowsHtml = matchingRaces
       .map((race) => {
         const candsHtml = (race.candidates || [])
+          .filter((cand) => candidateMatchesTrumpFilter(cand, state.trumpFilter))
           .map((cand) => {
             const partyMeta = getPartyMeta(cand.party);
+            const tMeta = getTrumpAlignmentMeta(cand);
             const stance = (cand.issues && cand.issues[activeIssue.key]) || "Position aligned with party platform.";
             return `
               <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom ${partyMeta.borderClass}">
                 <div class="flex flex-wrap items-center justify-between gap-2 mb-1.5">
-                  <div class="flex items-center gap-2">
+                  <div class="flex flex-wrap items-center gap-1.5">
                     <span class="font-bold text-sm text-primary-custom">${esc(cand.name)}</span>
                     <span class="px-2 py-0.5 text-[10px] font-mono font-bold uppercase rounded ${partyMeta.badgeClass}">${esc(cand.party)}</span>
+                    <span class="trump-badge-pill ${tMeta.badgeClass}">Trump: ${tMeta.score}%</span>
                   </div>
                   <span class="text-[11px] font-mono text-muted-custom">${esc(cand.pacPolicy)}</span>
                 </div>
@@ -9709,10 +10605,10 @@ window.IL_LIVE_SYNC_META = {
       <div class="flex flex-wrap items-center gap-2 mt-3">
         <span class="text-xs font-mono uppercase text-muted-custom">Quick Compare Presets:</span>
         <button type="button" data-compare-preset="juliana-stratton,don-tracy,whitfield-harrington" class="quick-town-pill">U.S. Senate (Stratton vs. Tracy vs. Harrington)</button>
-        <button type="button" data-compare-preset="jb-pritzker,darren-bailey,collin-corbett" class="quick-town-pill">Governor (Pritzker vs. Bailey vs. Corbett)</button>
+        <button type="button" data-compare-preset="jb-pritzker-christian-mitchell,darren-bailey-aaron-del-mar,collin-corbett-carolyn-schofield" class="quick-town-pill">Governor (Pritzker vs. Bailey vs. Corbett)</button>
         <button type="button" data-compare-preset="margaret-croke,bryan-drew,kwame-raoul,bob-fioretti" class="quick-town-pill">Comptroller & AG Showdowns</button>
         <button type="button" data-compare-preset="donna-miller,melissa-bean,daniel-biss,la-shawn-ford" class="quick-town-pill">Open Congress Seats (IL-02, IL-08, IL-09, IL-07)</button>
-        <button type="button" data-compare-preset="eric-sorensen,dillan-vancil,nikki-budzinski,joshua-loyd" class="quick-town-pill">Downstate Congress (IL-17 & IL-13)</button>
+        <button type="button" data-compare-preset="eric-sorensen,dillan-vancil,nikki-budzinski,jeff-wilson" class="quick-town-pill">Downstate Congress (IL-17 & IL-13)</button>
         <button type="button" data-compare-preset="doris-turner,frank-lesko,darby-hills,nabeela-syed" class="quick-town-pill">Top State Senate Toss-Ups (SD-48 & SD-26)</button>
         <button type="button" data-compare-preset="toni-preckwinkle,pat-hynes,elyse-hoffenberg,liz-doody-gorman" class="quick-town-pill">Cook County President, Assessor & Dist. 17</button>
       </div>
@@ -9749,6 +10645,24 @@ window.IL_LIVE_SYNC_META = {
             <div class="text-xs font-semibold text-blue-600 dark:text-blue-400 mt-0.5">${esc(c.raceOffice)}</div>
             <div class="text-[11px] text-secondary-custom mt-0.5">${esc(c.role)}</div>
           </th>
+        `;
+      })
+      .join("");
+
+    const trumpCols = comparedCands
+      .map((c) => {
+        const tMeta = getTrumpAlignmentMeta(c);
+        return `
+          <td class="p-3 align-top border-b border-l border-subtle-custom text-xs">
+            <div class="flex items-center justify-between gap-2">
+              <span class="font-mono text-sm font-bold text-primary-custom">${tMeta.score}% Alignment</span>
+              <span class="trump-badge-pill ${tMeta.badgeClass}">${esc(tMeta.tier)}</span>
+            </div>
+            <div class="trump-scale-track mt-1.5">
+              <div class="trump-scale-fill" style="width:${tMeta.score}%;background-color:${tMeta.barColor};"></div>
+            </div>
+            <p class="mt-1.5 text-secondary-custom leading-relaxed">${esc(tMeta.rationale)}</p>
+          </td>
         `;
       })
       .join("");
@@ -9815,7 +10729,7 @@ window.IL_LIVE_SYNC_META = {
         <div class="flex flex-wrap items-center justify-between gap-2">
           <div>
             <h3 class="text-lg font-serif-display font-bold text-primary-custom">Side-by-Side Candidate Comparison Matrix (${comparedCands.length}/4 Selected)</h3>
-            <p class="text-xs text-secondary-custom">Compare fundraising, PAC backers, and exact policy stances across candidates.</p>
+            <p class="text-xs text-secondary-custom">Compare 0%-100% Trump alignment, fundraising, PAC backers, and exact policy stances across candidates.</p>
           </div>
           <div class="flex items-center gap-2">
             <button type="button" data-tab-btn="ballot" class="btn-secondary-sm">← Back to Ballot</button>
@@ -9834,6 +10748,13 @@ window.IL_LIVE_SYNC_META = {
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td class="p-3 align-top border-b border-subtle-custom bg-elevated-custom/60 font-semibold text-xs text-primary-custom">
+                <span class="block text-[10px] font-mono text-blue-600 dark:text-blue-400">0% TO 100% SCALE</span>
+                Trump Policy & Voting Alignment
+              </td>
+              ${trumpCols}
+            </tr>
             <tr>
               <td class="p-3 align-top border-b border-subtle-custom bg-elevated-custom/60 font-semibold text-xs text-primary-custom">Fundraising & PAC Policy</td>
               ${financeCols}
@@ -9869,6 +10790,7 @@ window.IL_LIVE_SYNC_META = {
     const partyMeta = getPartyMeta(cand.party);
     const levelMeta = getLevelMeta(cand.level);
     const issueDefs = ISSUES[levelMeta.issueTier] || ISSUES.state;
+    const trumpBoxHtml = renderTrumpAlignmentBox(cand);
 
     modalEl.classList.remove("hidden");
     modalEl.innerHTML = `
@@ -9887,6 +10809,8 @@ window.IL_LIVE_SYNC_META = {
         </div>
 
         <div class="p-5 space-y-5 max-h-[75vh] overflow-y-auto">
+          ${trumpBoxHtml}
+
           <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div class="p-3 rounded-lg bg-elevated-custom border border-subtle-custom">
               <div class="text-[10px] font-mono uppercase text-muted-custom">Total Raised (FEC / IL SBE)</div>
@@ -9984,7 +10908,26 @@ window.IL_LIVE_SYNC_META = {
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-amber-500/15 text-amber-700 dark:text-amber-300">Step 2 • Follow the PAC Money</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-red-600/15 text-red-700 dark:text-red-300">Step 2 • 0% to 100% Trump Alignment Scale</span>
+                <span class="text-xs font-mono text-muted-custom">Control #4 & Candidate Cards</span>
+              </div>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Check How Every Candidate Aligns with Donald Trump (0% - 100%)</h4>
+              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
+                Every candidate card and comparison table displays a <strong>0% to 100% Trump Policy & Voting Alignment Scale</strong> combining congressional roll-call votes, Trump endorsements, and documented stances on the 2017 TCJA tax cuts, tariffs, ICE / Illinois TRUST Act cooperation, DOGE spending cuts, and energy deregulation. Use dropdown <strong>#4 (Trump Alignment)</strong> to filter candidates by alignment tier.
+              </p>
+            </div>
+            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
+              <button type="button" data-guide-trump="maga" class="btn-compare-sm">Filter: 85%-100% Core MAGA Allies</button>
+              <button type="button" data-guide-trump="mod_dem" class="btn-compare-sm">Filter: 15%-34% Bipartisan Swing Dems</button>
+              <button type="button" data-guide-trump="opp" class="btn-compare-sm">Filter: 0%-14% Strong Trump Opponents</button>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-amber-500/15 text-amber-700 dark:text-amber-300">Step 3 • Follow the PAC Money</span>
                 <span class="text-xs font-mono text-muted-custom">Control #3 & PAC Tab</span>
               </div>
               <h4 class="text-base font-serif-display font-bold text-primary-custom">See Which PACs, Super PACs & Unions Pay or Back Each Candidate</h4>
@@ -10000,43 +10943,21 @@ window.IL_LIVE_SYNC_META = {
             </div>
           </div>
 
-          <!-- Step 3 -->
-          <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
-            <div>
-              <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-emerald-500/15 text-emerald-700 dark:text-emerald-300">Step 3 • 23 Policy Issues</span>
-                <span class="text-xs font-mono text-muted-custom">Federal, State & Local Tiers</span>
-              </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Inspect Where Candidates Stand on Every Key Issue</h4>
-              <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                We track <strong>23 distinct policy issues</strong> tailored to the office level:
-                <br/>• <strong>8 Federal Issues</strong>: Economy, Healthcare/Medicare, Immigration, Climate/Grid, Taxes & SALT Cap, Reproductive Rights, Foreign Policy (Israel/Gaza/Ukraine), and Gun Policy.
-                <br/>• <strong>8 State Issues</strong>: Property Taxes & EBF School Aid, SAFE-T Act & Cashless Bail, State Budget ($53B+), Tier 2 Pensions, CEJA & AI Data Centers, NITA Transit ($1.5B), State Healthcare, and School Vouchers.
-                <br/>• <strong>7 Local/County Issues</strong>: Commercial vs. Homeowner Assessments, Local Transit/Roads, Lead Water Pipes & Flooding, Municipal Budgets/Elections, Data Center Zoning, Solar/Wind Siting, and County Sheriffs/708 Mental Health Boards.
-              </p>
-            </div>
-            <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
-              <button type="button" data-guide-issue="state:propertyTaxes" class="btn-compare-sm">Compare on Property Taxes</button>
-              <button type="button" data-guide-issue="state:safetAct" class="btn-compare-sm">Compare on SAFE-T Act</button>
-              <button type="button" data-guide-issue="local:assessmentBurden" class="btn-compare-sm">Compare on County Assessments</button>
-            </div>
-          </div>
-
           <!-- Step 4 -->
           <div class="p-4 rounded-xl bg-primary-custom border border-subtle-custom flex flex-col justify-between gap-3">
             <div>
               <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • 1-Click Race Compare & Sharing</span>
+                <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-purple-500/15 text-purple-700 dark:text-purple-300">Step 4 • 23 Issues, 1-Click Compare & Sharing</span>
                 <span class="text-xs font-mono text-muted-custom">Shareable Family & Friends Links</span>
               </div>
-              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates in Any Race & Share Direct Links</h4>
+              <h4 class="text-base font-serif-display font-bold text-primary-custom">Compare Candidates on 23 Issues & Share Direct Links</h4>
               <p class="text-xs text-secondary-custom mt-1.5 leading-relaxed">
-                Click <strong>"Compare Candidates in This Race"</strong> on any race header (or <strong>"+ Compare Candidate"</strong> on up to 4 cards) to view a side-by-side table of fundraising, PAC backers, and issue stances. Want to text or email a specific town or ZIP code's ballot to family and friends? Click <strong>"Share This View"</strong> in the top-right corner to copy the exact link!
+                Click <strong>"Compare Candidates in This Race"</strong> on any race header (or open <strong>Compare on 23 Issues</strong>) to view a side-by-side table of Trump alignment, fundraising, PAC backers, and 8 Federal, 8 State, and 7 Local issue stances. Click <strong>"Share This View"</strong> in the top-right corner to copy a direct link to your area's ballot!
               </p>
             </div>
             <div class="pt-2 border-t border-subtle-custom flex flex-wrap gap-2">
-              <button type="button" data-compare-preset="juliana-stratton,don-tracy,jb-pritzker,darren-bailey" class="btn-compare-sm">Compare Senate & Governor Nominees</button>
-              <button type="button" data-compare-preset="doris-turner,frank-lesko,darby-hills,nabeela-syed" class="btn-compare-sm">Compare Top State Senate Toss-Ups</button>
+              <button type="button" data-compare-preset="juliana-stratton,don-tracy,jb-pritzker-christian-mitchell,darren-bailey-aaron-del-mar" class="btn-compare-sm">Compare Senate & Governor Nominees</button>
+              <button type="button" data-guide-issue="state:propertyTaxes" class="btn-compare-sm">Compare on Property Taxes</button>
             </div>
           </div>
         </div>
@@ -10118,6 +11039,10 @@ window.IL_LIVE_SYNC_META = {
       if (pacParam) {
         state.pacFilter = pacParam;
       }
+      const trumpParam = params.get("trump");
+      if (trumpParam && ["all", "maga", "gop", "high70", "mixed", "mod_dem", "opp", "low30"].includes(trumpParam)) {
+        state.trumpFilter = trumpParam;
+      }
       const compareParam = params.get("compare");
       if (compareParam) {
         const ids = compareParam.split(",").filter((id) => CANDIDATE_MAP.has(id));
@@ -10141,6 +11066,7 @@ window.IL_LIVE_SYNC_META = {
       if (state.activeTab !== "ballot") params.set("tab", state.activeTab);
       if (state.levelFilter !== "all") params.set("level", state.levelFilter);
       if (state.pacFilter !== "all") params.set("pac", state.pacFilter);
+      if (state.trumpFilter !== "all") params.set("trump", state.trumpFilter);
       if (state.activeTab === "compare" && state.compareIds.length > 0) {
         params.set("compare", state.compareIds.join(","));
       }
@@ -10237,6 +11163,11 @@ window.IL_LIVE_SYNC_META = {
     const pacSelect = document.getElementById("pac-select-control");
     if (pacSelect && pacSelect.value !== state.pacFilter) {
       pacSelect.value = state.pacFilter;
+    }
+
+    const trumpSelect = document.getElementById("trump-select-control");
+    if (trumpSelect && trumpSelect.value !== state.trumpFilter) {
+      trumpSelect.value = state.trumpFilter;
     }
 
     renderHeroKpis();
@@ -10446,6 +11377,11 @@ window.IL_LIVE_SYNC_META = {
       renderApp();
     });
 
+    document.getElementById("trump-select-control")?.addEventListener("change", (e) => {
+      state.trumpFilter = e.target.value;
+      renderApp();
+    });
+
     document.getElementById("global-search-input")?.addEventListener("input", (e) => {
       const val = e.target.value;
       state.searchQuery = val;
@@ -10531,6 +11467,14 @@ window.IL_LIVE_SYNC_META = {
         return;
       }
 
+      const guideTrump = e.target.closest("[data-guide-trump]");
+      if (guideTrump) {
+        state.trumpFilter = guideTrump.getAttribute("data-guide-trump");
+        state.activeTab = "ballot";
+        renderApp();
+        return;
+      }
+
       const guideIssue = e.target.closest("[data-guide-issue]");
       if (guideIssue) {
         const parts = (guideIssue.getAttribute("data-guide-issue") || "").split(":");
@@ -10569,8 +11513,9 @@ window.IL_LIVE_SYNC_META = {
         state.partyFilter = "all";
         state.raceTypeFilter = "all";
         state.pacFilter = "all";
+        state.trumpFilter = "all";
         state.searchQuery = "";
-        ["level-select-control", "region-select-control", "party-select-control", "racetype-select-control", "pac-select-control"].forEach((id) => {
+        ["level-select-control", "region-select-control", "party-select-control", "racetype-select-control", "pac-select-control", "trump-select-control"].forEach((id) => {
           const el = document.getElementById(id);
           if (el) el.value = "all";
         });

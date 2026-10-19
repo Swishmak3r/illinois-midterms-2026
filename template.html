@@ -418,6 +418,89 @@
       border: 1px solid var(--border-subtle);
     }
 
+    /* Trump Alignment Scale (0% to 100%) */
+    .trump-scale-box {
+      background-color: var(--bg-primary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 0.55rem;
+      padding: 0.65rem 0.75rem;
+    }
+
+    .trump-scale-track {
+      position: relative;
+      height: 0.55rem;
+      width: 100%;
+      border-radius: 9999px;
+      background: linear-gradient(90deg, rgba(37, 99, 235, 0.20) 0%, rgba(148, 163, 184, 0.25) 50%, rgba(220, 38, 38, 0.22) 100%);
+      border: 1px solid var(--border-subtle);
+      overflow: hidden;
+    }
+
+    .trump-scale-fill {
+      height: 100%;
+      border-radius: 9999px;
+      transition: width 0.25s ease;
+    }
+
+    .trump-badge-pill {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.12rem 0.45rem;
+      border-radius: 0.35rem;
+      white-space: nowrap;
+    }
+
+    .trump-tier-maga {
+      background-color: rgba(185, 28, 28, 0.14);
+      color: #991B1B;
+      border: 1px solid rgba(220, 38, 38, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-maga {
+      background-color: rgba(239, 68, 68, 0.22);
+      color: #FCA5A5;
+    }
+
+    .trump-tier-gop {
+      background-color: rgba(217, 119, 6, 0.14);
+      color: #92400E;
+      border: 1px solid rgba(217, 119, 6, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-gop {
+      background-color: rgba(245, 158, 11, 0.20);
+      color: #FCD34D;
+    }
+
+    .trump-tier-mixed {
+      background-color: rgba(109, 40, 217, 0.14);
+      color: #5B21B6;
+      border: 1px solid rgba(124, 58, 237, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-mixed {
+      background-color: rgba(167, 139, 250, 0.20);
+      color: #DDD6FE;
+    }
+
+    .trump-tier-mod-dem {
+      background-color: rgba(2, 132, 199, 0.14);
+      color: #075985;
+      border: 1px solid rgba(14, 165, 233, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-mod-dem {
+      background-color: rgba(56, 189, 248, 0.20);
+      color: #7DD3FC;
+    }
+
+    .trump-tier-opp {
+      background-color: rgba(29, 78, 216, 0.14);
+      color: #1E40AF;
+      border: 1px solid rgba(37, 99, 235, 0.35);
+    }
+    html[data-theme="dark"] .trump-tier-opp {
+      background-color: rgba(59, 130, 246, 0.22);
+      color: #93C5FD;
+    }
+
     /* Issue Details Accordion */
     .issue-details-box {
       background-color: var(--bg-primary);
@@ -713,8 +796,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
       <!-- Primary Row: Town Sorter + Search + Navigation Tabs -->
       <div class="grid grid-cols-1 md:grid-cols-12 gap-2.5 items-center">
-        <div class="md:col-span-4">
-          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Browse or Switch Illinois Area / Community</label>
+        <div class="md:col-span-3">
+          <label for="town-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">1. Browse or Switch Illinois Area</label>
           <select id="town-select-control" class="filter-select font-semibold"></select>
         </div>
         <div class="md:col-span-2">
@@ -745,23 +828,29 @@
           </select>
         </div>
         <div class="md:col-span-2">
-          <label for="racetype-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">4. Competitiveness & Party</label>
-          <div class="flex gap-1.5">
-            <select id="racetype-select-control" class="filter-select">
-              <option value="all">All Races</option>
-              <option value="battleground">Battlegrounds Only</option>
-              <option value="open">Open Seats Only</option>
-            </select>
-            <select id="party-select-control" class="filter-select">
-              <option value="all">All Parties</option>
-              <option value="dem">Democrat</option>
-              <option value="gop">Republican</option>
-              <option value="ind">Independent / 3rd</option>
-            </select>
-          </div>
+          <label for="trump-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">4. Trump Alignment (0%-100%)</label>
+          <select id="trump-select-control" class="filter-select">
+            <option value="all">All Trump Alignment (0% - 100%)</option>
+            <option value="maga">85% - 100% • Core Trump / MAGA Ally</option>
+            <option value="gop">65% - 84% • Mainstream GOP Aligned</option>
+            <option value="high70">70% - 100% • All High Trump Alignment</option>
+            <option value="mixed">35% - 64% • Independent / Mixed</option>
+            <option value="mod_dem">15% - 34% • Bipartisan / Swing Dem</option>
+            <option value="opp">0% - 14% • Strong Trump Opponent</option>
+            <option value="low30">0% - 29% • All Low Trump Alignment</option>
+          </select>
+        </div>
+        <div class="md:col-span-1">
+          <label for="party-select-control" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Party</label>
+          <select id="party-select-control" class="filter-select">
+            <option value="all">All</option>
+            <option value="dem">Dem</option>
+            <option value="gop">GOP</option>
+            <option value="ind">Ind</option>
+          </select>
         </div>
         <div class="md:col-span-2">
-          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">5. Filter by Candidate, PAC or Issue</label>
+          <label for="global-search-input" class="block text-[10px] font-mono uppercase text-muted-custom mb-0.5">6. Search Candidate, ZIP, PAC</label>
           <input id="global-search-input" type="search" placeholder="Candidate, ZIP, city, PAC..." class="filter-input" />
         </div>
       </div>
@@ -795,8 +884,13 @@
           </button>
         </nav>
 
-        <div class="flex items-center gap-2">
-          <select id="region-select-control" class="filter-select !w-auto !py-1 text-xs">
+        <div class="flex flex-wrap items-center gap-1.5">
+          <select id="racetype-select-control" class="filter-select !w-auto !py-1 text-xs" aria-label="Race Competitiveness">
+            <option value="all">All Races</option>
+            <option value="battleground">Battlegrounds Only</option>
+            <option value="open">Open Seats Only</option>
+          </select>
+          <select id="region-select-control" class="filter-select !w-auto !py-1 text-xs" aria-label="Illinois Region">
             <option value="all">Region: All Illinois</option>
             <option value="chicago">Chicago</option>
             <option value="suburban_cook">Suburban Cook</option>
@@ -817,7 +911,7 @@
       <summary class="issue-details-summary">
         <div class="flex flex-wrap items-center gap-2">
           <span class="px-2 py-0.5 text-[11px] font-mono font-bold uppercase rounded bg-blue-600 text-white">FAMILY & FRIENDS QUICK GUIDE</span>
-          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Check Your 2026 Ballot in 30 Seconds</span>
+          <span class="text-xs sm:text-sm font-semibold text-primary-custom">How to Check Your 2026 Ballot, PAC Money & 0%-100% Trump Alignment in 30 Seconds</span>
         </div>
         <span class="text-xs font-mono text-blue-600 dark:text-blue-400 font-semibold">Click to Expand / Collapse ▼</span>
       </summary>
@@ -833,14 +927,14 @@
           <p class="text-secondary-custom mt-1 leading-relaxed">Your personalized dashboard shows a <strong>Complete Ballot At-a-Glance</strong> table grouped into Federal, Statewide, State Legislature, and County/Local races.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 3: Check 23 Issues</div>
-          <div class="font-bold text-primary-custom mt-0.5">Compare Policy Stances</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card lists their positions across 8 Federal, 8 State, or 7 Local issues. Or open <strong>Compare on 23 Issues</strong> to view one issue across all candidates.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 3: 0%-100% Trump Scale</div>
+          <div class="font-bold text-primary-custom mt-0.5">Check Trump Alignment %</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows a <strong>0% to 100% Trump Alignment Scale</strong> based on roll-call votes, endorsements, and stances on taxes, tariffs, ICE/border enforcement, and DOGE cuts.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
-          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Follow the Money</div>
-          <div class="font-bold text-primary-custom mt-0.5">Inspect PACs & Donors</div>
-          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows verified FEC / IL SBE fundraising and which PACs or unions support (green) or oppose (red) them.</p>
+          <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 4: Follow PACs & Issues</div>
+          <div class="font-bold text-primary-custom mt-0.5">Inspect PACs & 23 Issues</div>
+          <p class="text-secondary-custom mt-1 leading-relaxed">Every candidate card shows verified FEC / IL SBE fundraising, supporting/opposing PACs, and their positions across 23 Federal, State, and Local policy issues.</p>
         </div>
         <div class="p-3 rounded-lg bg-primary-custom border border-subtle-custom">
           <div class="font-mono font-bold text-blue-600 dark:text-blue-400 uppercase text-[10px]">Step 5: Compare & Share</div>
