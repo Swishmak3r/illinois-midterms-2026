@@ -1,6 +1,6 @@
 // Automated Live FEC Sync Snapshot (Updated by scripts/update_live_data.py)
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-10-22 15:50 UTC",
+  "lastAutomatedSync": "2026-10-23 15:41 UTC",
   "source": "OpenFEC API + IL State Board of Elections (SBE)",
   "recordCount": 100,
   "records": [
@@ -20,19 +20,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "S",
       "district": "00",
       "party": "DEM",
-      "receipts": 7089488.11,
-      "cash_on_hand_end_period": "1645967.22",
-      "coverage_end_date": "2026-09-30"
-    },
-    {
-      "candidate_id": "H6IL18088",
-      "name": "LAHOOD, DARIN MCKAY",
-      "office": "H",
-      "district": "16",
-      "party": "REP",
-      "receipts": 4159073.74,
-      "cash_on_hand_end_period": "6318518.90",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 7230576.52,
+      "cash_on_hand_end_period": "1541584.80",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "S6IL00615",
@@ -40,9 +30,19 @@ window.IL_LIVE_SYNC_META = {
       "office": "S",
       "district": "00",
       "party": "REP",
-      "receipts": 4145964.36,
-      "cash_on_hand_end_period": "1145405.83",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 4914363.45,
+      "cash_on_hand_end_period": "483017.38",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "H6IL18088",
+      "name": "LAHOOD, DARIN MCKAY",
+      "office": "H",
+      "district": "16",
+      "party": "REP",
+      "receipts": 4205602.32,
+      "cash_on_hand_end_period": "5988458.85",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL09178",
@@ -70,9 +70,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "10",
       "party": "DEM",
-      "receipts": 3575300.49,
-      "cash_on_hand_end_period": "1675786.72",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 3657881.54,
+      "cash_on_hand_end_period": "1707158.21",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H2IL13153",
@@ -80,9 +80,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "13",
       "party": "DEM",
-      "receipts": 3527069.13,
-      "cash_on_hand_end_period": "2904527.99",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 3654995.97,
+      "cash_on_hand_end_period": "2951806.45",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "S6IL00474",
@@ -100,9 +100,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "09",
       "party": "DEM",
-      "receipts": 3380216.72,
-      "cash_on_hand_end_period": "568445.98",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 3446462.65,
+      "cash_on_hand_end_period": "608882.79",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL08212",
@@ -120,9 +120,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "14",
       "party": "DEM",
-      "receipts": 2814329.4,
-      "cash_on_hand_end_period": "1178244.54",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 2848041.74,
+      "cash_on_hand_end_period": "1155856.49",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL09194",
@@ -140,9 +140,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "02",
       "party": "DEM",
-      "receipts": 2679838.58,
-      "cash_on_hand_end_period": "101987.66",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 2700312.85,
+      "cash_on_hand_end_period": "92406.74",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H2IL17147",
@@ -150,9 +150,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "17",
       "party": "DEM",
-      "receipts": 2615272.3,
-      "cash_on_hand_end_period": "1342977.73",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 2657085.16,
+      "cash_on_hand_end_period": "1289862.49",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H8IL14067",
@@ -160,9 +160,19 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "11",
       "party": "DEM",
-      "receipts": 2535531.9,
-      "cash_on_hand_end_period": "2617546.93",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 2588027.45,
+      "cash_on_hand_end_period": "2629689.37",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "H8IL06139",
+      "name": "CASTEN, SEAN",
+      "office": "H",
+      "district": "06",
+      "party": "DEM",
+      "receipts": 2516549.09,
+      "cash_on_hand_end_period": "1022382.81",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL07339",
@@ -175,24 +185,14 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-02-25"
     },
     {
-      "candidate_id": "H8IL06139",
-      "name": "CASTEN, SEAN",
-      "office": "H",
-      "district": "06",
-      "party": "DEM",
-      "receipts": 2471914.21,
-      "cash_on_hand_end_period": "1240180.54",
-      "coverage_end_date": "2026-09-30"
-    },
-    {
       "candidate_id": "H6IL08329",
       "name": "BEAN, MELISSA LUBURICH",
       "office": "H",
       "district": "08",
       "party": "DEM",
-      "receipts": 2421586.28,
-      "cash_on_hand_end_period": "277513.65",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 2457207.28,
+      "cash_on_hand_end_period": "301713.53",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "S6IL00151",
@@ -210,9 +210,19 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "15",
       "party": "REP",
-      "receipts": 1777786.52,
-      "cash_on_hand_end_period": "940054.71",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 1862237.52,
+      "cash_on_hand_end_period": "910536.07",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "H6IL08311",
+      "name": "DAVIS, JENNIFER",
+      "office": "H",
+      "district": "08",
+      "party": "REP",
+      "receipts": 1782174.57,
+      "cash_on_hand_end_period": "279746.97",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H2IL08146",
@@ -225,24 +235,14 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-09-30"
     },
     {
-      "candidate_id": "H6IL08311",
-      "name": "DAVIS, JENNIFER",
-      "office": "H",
-      "district": "08",
-      "party": "REP",
-      "receipts": 1713426.25,
-      "cash_on_hand_end_period": "444522.08",
-      "coverage_end_date": "2026-09-30"
-    },
-    {
       "candidate_id": "H2IL03162",
       "name": "RAMIREZ, DELIA",
       "office": "H",
       "district": "03",
       "party": "DEM",
-      "receipts": 1603319.81,
-      "cash_on_hand_end_period": "927412.22",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 1626337.17,
+      "cash_on_hand_end_period": "913892.20",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H4IL12060",
@@ -250,9 +250,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "12",
       "party": "REP",
-      "receipts": 1598844.7,
-      "cash_on_hand_end_period": "845783.06",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 1617352.95,
+      "cash_on_hand_end_period": "844808.76",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL09301",
@@ -310,9 +310,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "05",
       "party": "DEM",
-      "receipts": 995514.45,
-      "cash_on_hand_end_period": "1130501.07",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 998074.45,
+      "cash_on_hand_end_period": "1102663.88",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL07438",
@@ -350,9 +350,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "07",
       "party": "DEM",
-      "receipts": 816412.56,
-      "cash_on_hand_end_period": "102272.04",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 819320.56,
+      "cash_on_hand_end_period": "93472.06",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL09376",
@@ -410,9 +410,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "01",
       "party": "DEM",
-      "receipts": 514698.04,
-      "cash_on_hand_end_period": "32484.20",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 539051.41,
+      "cash_on_hand_end_period": "40069.83",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL13154",
@@ -420,9 +420,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "13",
       "party": "REP",
-      "receipts": 495129.97,
-      "cash_on_hand_end_period": "24877.12",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 532329.74,
+      "cash_on_hand_end_period": "48166.81",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL04153",
@@ -470,9 +470,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "11",
       "party": "REP",
-      "receipts": 420243.48,
-      "cash_on_hand_end_period": "13906.62",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 431415.26,
+      "cash_on_hand_end_period": "7779.82",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H8IL09067",
@@ -481,8 +481,18 @@ window.IL_LIVE_SYNC_META = {
       "district": "09",
       "party": "DEM",
       "receipts": 415384.72,
-      "cash_on_hand_end_period": "157516.84",
-      "coverage_end_date": "2026-09-30"
+      "cash_on_hand_end_period": "145957.81",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "H6IL17247",
+      "name": "VANCIL, DILLAN",
+      "office": "H",
+      "district": "17",
+      "party": "REP",
+      "receipts": 406023.47,
+      "cash_on_hand_end_period": "52481.85",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL04195",
@@ -492,16 +502,6 @@ window.IL_LIVE_SYNC_META = {
       "party": "IND",
       "receipts": 400432.94,
       "cash_on_hand_end_period": "138500.21",
-      "coverage_end_date": "2026-09-30"
-    },
-    {
-      "candidate_id": "H6IL17247",
-      "name": "VANCIL, DILLAN",
-      "office": "H",
-      "district": "17",
-      "party": "REP",
-      "receipts": 398099.02,
-      "cash_on_hand_end_period": "51281.09",
       "coverage_end_date": "2026-09-30"
     },
     {
@@ -561,8 +561,8 @@ window.IL_LIVE_SYNC_META = {
       "district": "02",
       "party": "DEM",
       "receipts": 366890.77,
-      "cash_on_hand_end_period": "2625.38",
-      "coverage_end_date": "2026-09-30"
+      "cash_on_hand_end_period": "2125.38",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H2IL06090",
@@ -570,9 +570,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "06",
       "party": "REP",
-      "receipts": 346267.77,
-      "cash_on_hand_end_period": "17955.88",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 348452.74,
+      "cash_on_hand_end_period": "7638.59",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL04179",
@@ -630,9 +630,19 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "14",
       "party": "REP",
-      "receipts": 203012.03,
-      "cash_on_hand_end_period": "41693.25",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 214272.03,
+      "cash_on_hand_end_period": "37832.43",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
+      "candidate_id": "H6IL15092",
+      "name": "TODD, JENNIFER ANN",
+      "office": "H",
+      "district": "15",
+      "party": "DEM",
+      "receipts": 210096.75,
+      "cash_on_hand_end_period": "37185.60",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "S6IL00466",
@@ -643,16 +653,6 @@ window.IL_LIVE_SYNC_META = {
       "receipts": 202000.0,
       "cash_on_hand_end_period": "27.46",
       "coverage_end_date": "2026-07-27"
-    },
-    {
-      "candidate_id": "H6IL15092",
-      "name": "TODD, JENNIFER ANN",
-      "office": "H",
-      "district": "15",
-      "party": "DEM",
-      "receipts": 198972.81,
-      "cash_on_hand_end_period": "56741.93",
-      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL04161",
@@ -790,9 +790,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "10",
       "party": "DEM",
-      "receipts": 98043.87,
-      "cash_on_hand_end_period": "198.96",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 99043.87,
+      "cash_on_hand_end_period": "73.89",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H2IL14086",
@@ -880,9 +880,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "07",
       "party": "REP",
-      "receipts": 58215.06,
+      "receipts": 58290.06,
       "cash_on_hand_end_period": "42.20",
-      "coverage_end_date": "2026-09-30"
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL07511",
