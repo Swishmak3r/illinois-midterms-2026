@@ -1,6 +1,6 @@
 // Automated Live FEC Sync Snapshot (Updated by scripts/update_live_data.py)
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-10-23 15:41 UTC",
+  "lastAutomatedSync": "2026-10-24 14:24 UTC",
   "source": "OpenFEC API + IL State Board of Elections (SBE)",
   "recordCount": 100,
   "records": [
@@ -50,9 +50,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "09",
       "party": "DEM",
-      "receipts": 4073733.41,
-      "cash_on_hand_end_period": "0.00",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 4073993.41,
+      "cash_on_hand_end_period": "2.40",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL08147",
@@ -231,8 +231,8 @@ window.IL_LIVE_SYNC_META = {
       "district": "08",
       "party": "DEM",
       "receipts": 1720112.48,
-      "cash_on_hand_end_period": "16210.30",
-      "coverage_end_date": "2026-09-30"
+      "cash_on_hand_end_period": "14897.09",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H2IL03162",
@@ -390,9 +390,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "16",
       "party": "DEM",
-      "receipts": 603606.19,
-      "cash_on_hand_end_period": "287654.33",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 639225.21,
+      "cash_on_hand_end_period": "59059.47",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL08253",
@@ -430,9 +430,9 @@ window.IL_LIVE_SYNC_META = {
       "office": "H",
       "district": "04",
       "party": "DEM",
-      "receipts": 481883.49,
-      "cash_on_hand_end_period": "172569.74",
-      "coverage_end_date": "2026-09-30"
+      "receipts": 526691.49,
+      "cash_on_hand_end_period": "156711.17",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL09293",
@@ -485,6 +485,16 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-10-14"
     },
     {
+      "candidate_id": "H6IL04195",
+      "name": "GETTY, CHRISTOPHER ROMAN",
+      "office": "H",
+      "district": "04",
+      "party": "IND",
+      "receipts": 412837.66,
+      "cash_on_hand_end_period": "103170.35",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
       "candidate_id": "H6IL17247",
       "name": "VANCIL, DILLAN",
       "office": "H",
@@ -493,16 +503,6 @@ window.IL_LIVE_SYNC_META = {
       "receipts": 406023.47,
       "cash_on_hand_end_period": "52481.85",
       "coverage_end_date": "2026-10-14"
-    },
-    {
-      "candidate_id": "H6IL04195",
-      "name": "GETTY, CHRISTOPHER ROMAN",
-      "office": "H",
-      "district": "04",
-      "party": "IND",
-      "receipts": 400432.94,
-      "cash_on_hand_end_period": "138500.21",
-      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL08246",
@@ -531,8 +531,8 @@ window.IL_LIVE_SYNC_META = {
       "district": "04",
       "party": "DEM",
       "receipts": 375959.31,
-      "cash_on_hand_end_period": "17352.94",
-      "coverage_end_date": "2026-09-30"
+      "cash_on_hand_end_period": "16866.44",
+      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "S6IL00656",
@@ -795,6 +795,16 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-10-14"
     },
     {
+      "candidate_id": "H6IL01191",
+      "name": "MAXWELL, CHRISTIAN",
+      "office": "H",
+      "district": "01",
+      "party": "REP",
+      "receipts": 94709.38,
+      "cash_on_hand_end_period": "62200.44",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
       "candidate_id": "H2IL14086",
       "name": "PIERCE, MICHAEL DAVID LTC (RET.)",
       "office": "H",
@@ -803,16 +813,6 @@ window.IL_LIVE_SYNC_META = {
       "receipts": 94282.3,
       "cash_on_hand_end_period": "0.00",
       "coverage_end_date": "2026-04-15"
-    },
-    {
-      "candidate_id": "H6IL01191",
-      "name": "MAXWELL, CHRISTIAN",
-      "office": "H",
-      "district": "01",
-      "party": "REP",
-      "receipts": 88080.16,
-      "cash_on_hand_end_period": "55571.22",
-      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H6IL15100",
