@@ -1,6 +1,6 @@
 // Automated Live FEC Sync Snapshot (Updated by scripts/update_live_data.py)
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-10-24 14:24 UTC",
+  "lastAutomatedSync": "2026-10-25 14:54 UTC",
   "source": "OpenFEC API + IL State Board of Elections (SBE)",
   "recordCount": 100,
   "records": [
@@ -705,6 +705,16 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-03-31"
     },
     {
+      "candidate_id": "S6IL00680",
+      "name": "HARRINGTON, WHITFIELD MR JR",
+      "office": "S",
+      "district": "00",
+      "party": "IND",
+      "receipts": 143381.62,
+      "cash_on_hand_end_period": "19484.15",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
       "candidate_id": "H4IL08159",
       "name": "RICE, MARK",
       "office": "H",
@@ -723,16 +733,6 @@ window.IL_LIVE_SYNC_META = {
       "receipts": 139010.63,
       "cash_on_hand_end_period": "-3837.70",
       "coverage_end_date": "2026-10-15"
-    },
-    {
-      "candidate_id": "S6IL00680",
-      "name": "HARRINGTON, WHITFIELD MR JR",
-      "office": "S",
-      "district": "00",
-      "party": "IND",
-      "receipts": 137949.62,
-      "cash_on_hand_end_period": "22299.09",
-      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "S6IL00623",
@@ -855,6 +855,16 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-06-30"
     },
     {
+      "candidate_id": "H2IL08203",
+      "name": "KOPPIE, CHAD",
+      "office": "H",
+      "district": "07",
+      "party": "REP",
+      "receipts": 60408.81,
+      "cash_on_hand_end_period": "42.20",
+      "coverage_end_date": "2026-10-14"
+    },
+    {
       "candidate_id": "S6IL00607",
       "name": "DELGADO, ADAM",
       "office": "S",
@@ -873,16 +883,6 @@ window.IL_LIVE_SYNC_META = {
       "receipts": 58994.9,
       "cash_on_hand_end_period": "64.50",
       "coverage_end_date": "2026-09-30"
-    },
-    {
-      "candidate_id": "H2IL08203",
-      "name": "KOPPIE, CHAD",
-      "office": "H",
-      "district": "07",
-      "party": "REP",
-      "receipts": 58290.06,
-      "cash_on_hand_end_period": "42.20",
-      "coverage_end_date": "2026-10-14"
     },
     {
       "candidate_id": "H6IL07511",
