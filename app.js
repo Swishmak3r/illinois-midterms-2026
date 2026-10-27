@@ -2331,6 +2331,10 @@
       if (tabBtn) {
         state.activeTab = tabBtn.getAttribute("data-tab-btn");
         renderApp();
+        const contentEl = document.getElementById("tab-content-container");
+        if (contentEl && typeof contentEl.scrollIntoView === "function") {
+          contentEl.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
         return;
       }
 
