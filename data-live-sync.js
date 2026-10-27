@@ -1,6 +1,6 @@
 // Automated Live FEC Sync Snapshot (Updated by scripts/update_live_data.py)
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-10-26 17:14 UTC",
+  "lastAutomatedSync": "2026-10-27 16:21 UTC",
   "source": "OpenFEC API + IL State Board of Elections (SBE)",
   "recordCount": 100,
   "records": [
