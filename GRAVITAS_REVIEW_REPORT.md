@@ -1,3 +1,5 @@
+> **Historical report — superseded by QA_REPORT.md.** The previous ZIP coverage claim treated all numbers from 60001 through 62999 as valid ZIPs and assigned districts by prefix. That approach was removed. Current coverage uses 1,575 listed Illinois postal codes and never treats a ZIP as a verified personal ballot. Refer to README.md and GEOGRAPHY_SOURCES.md for the current behavior.
+
 # Gravitas Review and Verification Report: 2026 Illinois Midterm Elections Voter Guide
 
 ## 1. Executive Summary

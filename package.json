@@ -1,0 +1,23 @@
+{
+  "name": "illinois-midterms-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Illinois election research guide and browser regression checks",
+  "scripts": {
+    "test": "node scripts/browser-checks.cjs",
+    "test:data": "node scripts/browser-checks.cjs --data-only --output output/playwright/data",
+    "test:chromium": "node scripts/browser-checks.cjs --engines chromium",
+    "test:browsers": "node scripts/browser-checks.cjs --engines chromium,firefox,webkit",
+    "browsers:install": "node scripts/browser-checks.cjs --install",
+    "capture:before": "node scripts/browser-checks.cjs --capture --url https://swishmak3r.github.io/illinois-midterms-2026/?zip=60647 --output output/playwright/before",
+    "dev": "node scripts/serve.cjs",
+    "build": "python build.py",
+    "test:finance": "python scripts/test_fec_sync.py && node scripts/test-fec-api.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

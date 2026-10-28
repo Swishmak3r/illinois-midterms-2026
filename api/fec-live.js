@@ -1,51 +1,79 @@
-// Free Vercel Serverless Function: /api/fec-live
-// Queries official U.S. Federal Election Commission (OpenFEC) API for 2026 Illinois candidates
-// Cached on Vercel Edge CDN for 6 hours (s-maxage=21600) so it costs $0 and never hits rate limits.
+// Optional Vercel endpoint. GitHub Pages serves only the bundled snapshot.
+// OpenFEC updates nightly; successful responses may be cached for six hours.
+const ENDPOINT = "https://api.open.fec.gov/v1/candidates/totals/";
+const FIELDS = ["candidate_id", "name", "office", "district", "party", "receipts",
+  "disbursements", "cash_on_hand_end_period", "coverage_end_date"];
+
+export async function fetchFecRecords(apiKey, fetchImpl = fetch) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  const records = [];
+  const seen = new Set();
+  let expectedPages;
+  let expectedCount;
+  try {
+    for (let page = 1; page <= 20; page += 1) {
+      const query = new URLSearchParams({ state: "IL", cycle: "2026", election_full: "true",
+        per_page: "100", sort: "-receipts", page: String(page), api_key: apiKey });
+      const response = await fetchImpl(ENDPOINT + "?" + query, {
+        headers: { Accept: "application/json" }, signal: controller.signal
+      });
+      if (!response.ok) throw new Error("OpenFEC upstream unavailable");
+      const payload = await response.json();
+      const { pages, count, page: currentPage } = payload.pagination || {};
+      if (!Number.isInteger(pages) || pages < 1 || pages > 20
+          || !Number.isInteger(count) || count < 1 || currentPage !== page
+          || !Array.isArray(payload.results) || !payload.results.length || payload.results.length > 100) {
+        throw new Error("Incomplete or invalid OpenFEC page");
+      }
+      if (expectedPages === undefined) { expectedPages = pages; expectedCount = count; }
+      if (pages !== expectedPages || count !== expectedCount) throw new Error("OpenFEC pages changed during fetch");
+      for (const row of payload.results) {
+        if (!row || typeof row.candidate_id !== "string" || !/^[HSP][0-9][A-Z0-9]{7}$/.test(row.candidate_id)
+            || row.office !== row.candidate_id[0] || seen.has(row.candidate_id)
+            || typeof row.name !== "string" || !row.name.trim()) throw new Error("Invalid candidate identity");
+        const record = Object.fromEntries(FIELDS.map(field => [field, row[field] ?? null]));
+        for (const field of ["receipts", "disbursements", "cash_on_hand_end_period"]) {
+          const value = record[field];
+          if (value !== null && ((typeof value !== "number" && typeof value !== "string")
+              || (typeof value === "string" && !value.trim()) || !Number.isFinite(Number(value)))) {
+            throw new Error("Invalid financial value");
+          }
+        }
+        seen.add(record.candidate_id);
+        records.push(record);
+      }
+      if (page === expectedPages) {
+        if (records.length !== expectedCount) throw new Error("Incomplete OpenFEC result set");
+        return records;
+      }
+    }
+    throw new Error("OpenFEC pagination exceeded limit");
+  } finally {
+    clearTimeout(timeout);
+  }
+}
 
 export default async function handler(req, res) {
+  res.setHeader("Cache-Control", "no-store");
+  if (req.method !== "GET") {
+    res.setHeader("Allow", "GET");
+    return res.status(405).json({ status: "error", message: "Method not allowed." });
+  }
   try {
-    const apiKey = process.env.FEC_API_KEY || "DEMO_KEY";
-    const url = `https://api.open.fec.gov/v1/candidates/totals/?state=IL&cycle=2026&election_full=true&per_page=100&sort=-receipts&api_key=${encodeURIComponent(apiKey)}`;
-
-    const response = await fetch(url, {
-      headers: { Accept: "application/json" }
-    });
-
-    if (!response.ok) {
-      res.setHeader("Cache-Control", "s-maxage=300, stale-while-revalidate=3600");
-      return res.status(200).json({
-        status: "cached_fallback",
-        syncedAt: new Date().toISOString(),
-        candidates: []
-      });
-    }
-
-    const data = await response.json();
-    const records = (data.results || []).map((r) => ({
-      candidate_id: r.candidate_id,
-      name: r.name,
-      office: r.office,
-      district: r.district,
-      party: r.party,
-      receipts: r.receipts,
-      disbursements: r.disbursements,
-      cash_on_hand_end_period: r.cash_on_hand_end_period,
-      coverage_end_date: r.coverage_end_date
-    }));
-
-    res.setHeader("Cache-Control", "s-maxage=21600, stale-while-revalidate=86400");
+    const records = await fetchFecRecords(process.env.FEC_API_KEY || "DEMO_KEY");
+    res.setHeader("Cache-Control", "public, s-maxage=21600, stale-while-revalidate=86400");
     return res.status(200).json({
-      status: "ok",
-      source: "Official OpenFEC API (2026 Cycle)",
-      syncedAt: new Date().toISOString(),
-      count: records.length,
-      candidates: records
+      status: "ok", source: "OpenFEC API (2026 federal candidate totals)",
+      sourceUrl: "https://www.fec.gov/data/candidates/?election_year=2026&state=IL",
+      syncedAt: new Date().toISOString(), cycle: 2026, complete: true,
+      count: records.length, candidates: records
     });
-  } catch (err) {
-    return res.status(200).json({
-      status: "cached_fallback",
-      syncedAt: new Date().toISOString(),
-      candidates: []
+  } catch (_) {
+    // No fabricated success timestamp or empty "cache". The client can retain
+    // its existing snapshot, and credentials never appear in the response.
+    return res.status(502).json({
+      status: "unavailable", message: "OpenFEC is unavailable. Keep using the bundled snapshot and its displayed date."
     });
   }
 }

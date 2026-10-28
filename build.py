@@ -1,55 +1,48 @@
-import pathlib
+"""Build the portable static site without mutating source data."""
+from pathlib import Path
 import subprocess
+import tempfile
+import os
 
-base_dir = pathlib.Path(__file__).resolve().parent
-js_files = [
-    "data-federal.js",
-    "data-statewide.js",
-    "data-legislature.js",
-    "data-local.js",
-    "data-towns-pacs.js",
+ROOT = Path(__file__).resolve().parent
+SCRIPTS = [
+    "data-federal.js", "data-statewide.js", "data-legislature.js",
+    "data-local.js", "data-towns-pacs.js", "data-zips.js", "location.js",
 ]
+if (ROOT / "data-live-sync.js").exists():
+    SCRIPTS.append("data-live-sync.js")
+SCRIPTS += ["app.js", "ui.js"]
 
-if (base_dir / "data-live-sync.js").exists():
-    js_files.append("data-live-sync.js")
+def build():
+    template = (ROOT / "template.html").read_text(encoding="utf-8-sig")
+    css = (ROOT / "styles.css").read_text(encoding="utf-8-sig")
+    combined = "\n\n".join(
+        f"// Source: {name}\n" + (ROOT / name).read_text(encoding="utf-8-sig")
+        for name in SCRIPTS
+    )
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".js", encoding="utf-8", delete=False) as handle:
+        handle.write(combined)
+        check_path = Path(handle.name)
+    try:
+        subprocess.run(["node", "--check", str(check_path)], check=True)
+    finally:
+        check_path.unlink(missing_ok=True)
+    for marker in ("/*__INJECT_STYLES__*/", "/*__INJECT_DATA_AND_APP__*/"):
+        if template.count(marker) != 1:
+            raise ValueError(f"Expected exactly one {marker} marker")
+    html = template.replace("/*__INJECT_STYLES__*/", css).replace(
+        "/*__INJECT_DATA_AND_APP__*/", combined.replace("</script", "<\\/script")
+    )
+    if "/*__INJECT_" in html:
+        raise ValueError("Unresolved build marker")
+    destination = ROOT / "index.html"
+    temporary = ROOT / ".index.html.tmp"
+    try:
+        temporary.write_text(html, encoding="utf-8", newline="\n")
+        os.replace(temporary, destination)
+    finally:
+        temporary.unlink(missing_ok=True)
+    print(f"Built index.html: {len(html.encode('utf-8')):,} bytes; {len(SCRIPTS)} source modules.")
 
-js_files.append("app.js")
-
-combined_js_parts = []
-for fname in js_files:
-    p = base_dir / fname
-    content = p.read_text(encoding="utf-8")
-    # Enforce strict ban on em-dashes and en-dashes
-    content = content.replace("\u2014", "-").replace("\u2013", "-")
-    p.write_text(content, encoding="utf-8")
-    combined_js_parts.append(f"// ===== FILE: {fname} =====\n" + content)
-
-combined_js = "\n\n".join(combined_js_parts)
-bundle_js_path = base_dir / "bundle-check.js"
-bundle_js_path.write_text(combined_js, encoding="utf-8")
-
-# Validate JS syntax if node is available
-try:
-    subprocess.run(["node", "--check", str(bundle_js_path)], check=True)
-finally:
-    if bundle_js_path.exists():
-        bundle_js_path.unlink()
-
-template_path = base_dir / "template.html"
-template_html = template_path.read_text(encoding="utf-8")
-template_html = template_html.replace("\u2014", "-").replace("\u2013", "-")
-
-final_html = template_html.replace("/*__INJECT_DATA_AND_APP__*/", combined_js)
-final_html = final_html.replace("\u2014", "-").replace("\u2013", "-")
-
-index_path = base_dir / "index.html"
-index_path.write_text(final_html, encoding="utf-8")
-
-artifact_path = pathlib.Path(r"C:\Users\rodne\.gemini\antigravity\brain\975c8223-fde3-4d52-9e3d-c2b4244df891\illinois_2026_midterm_elections.html")
-if artifact_path.parent.exists():
-    artifact_path.write_text(final_html, encoding="utf-8")
-
-em_count = final_html.count("\u2014") + final_html.count("\u2013")
-print(f"Built index.html successfully!")
-print(f"Total size: {len(final_html):,} bytes ({len(final_html.splitlines()):,} lines)")
-print(f"Em/En-dash count: {em_count}")
+if __name__ == "__main__":
+    build()
