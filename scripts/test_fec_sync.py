@@ -15,7 +15,8 @@ spec.loader.exec_module(sync)
 
 
 def candidate(number):
-    return {"candidate_id": f"H6IL{number:05}", "office": "H", "name": f"CANDIDATE, {number}",
+    return {"candidate_id": f"H6IL{number:05}", "office": "H", "name": f"CANDIDATE, {number}", "state": "IL",
+            "cycle": 2026, "two_year_period": 2026, "coverage_start_date": "2025-01-01",
             "receipts": 100.25, "cash_on_hand_end_period": "25.50", "coverage_end_date": "2026-10-14"}
 
 
@@ -33,6 +34,8 @@ class SyncTests(unittest.TestCase):
         def opener(request, timeout):
             query = parse_qs(urlparse(request.full_url).query)
             self.assertEqual(query["api_key"], ["fixture&key+only"])
+            self.assertEqual(query["election_full"], ["false"])
+            self.assertEqual(query["cycle"], ["2026"])
             self.assertEqual(timeout, 15)
             page = int(query["page"][0])
             requested.append(page)
@@ -70,6 +73,13 @@ class SyncTests(unittest.TestCase):
             with self.subTest(opener=opener), self.assertRaises(ValueError):
                 sync.fetch_records("fixture-key", opener)
 
+    def test_rejects_wrong_scope_and_invalid_dates(self):
+        for changes in [{"state": "CA"}, {"cycle": 2024}, {"two_year_period": 2024},
+                        {"coverage_end_date": "2026-02-30"}, {"coverage_start_date": "2027-01-01"}]:
+            row = {**candidate(1), **changes}
+            with self.subTest(changes=changes), self.assertRaises(ValueError):
+                sync.fetch_records("fixture-key", lambda request, timeout: page_response(1, 1, 1, [row]))
+
     def test_atomic_replace_and_script_safe_serialization(self):
         with tempfile.TemporaryDirectory() as folder:
             output = Path(folder) / "snapshot.js"
@@ -86,6 +96,8 @@ class SyncTests(unittest.TestCase):
             self.assertNotIn("</script>", text)
             payload = json.loads(text.split(" = ", 1)[1].rsplit(";", 1)[0])
             self.assertTrue(payload["complete"])
+            self.assertFalse(payload["electionFull"])
+            self.assertIn("two-year", payload["periodLabel"])
             self.assertEqual(payload["recordCount"], 1)
             self.assertNotIn("SBE", payload["source"])
 

@@ -5,3 +5,10 @@ __pycache__/
 *.pyc
 bundle-check.js
 .qa-*/
+audit/source-cache/
+audit/source-pages/
+audit/sources/*
+!audit/sources/alignment/
+audit/*.html
+audit/*.pdf
+audit/*.png

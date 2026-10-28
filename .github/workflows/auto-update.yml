@@ -1,8 +1,8 @@
-name: Daily Illinois 2026 FEC & Election Auto-Sync
+name: Daily Illinois 2026 federal finance snapshot
 
 on:
   schedule:
-    # Runs automatically every day at 11:00 UTC (6:00 AM Central Time) - 100% Free on GitHub Actions
+    # Runs daily at 11:00 UTC (6 a.m. CDT / 5 a.m. CST).
     - cron: '0 11 * * *'
   workflow_dispatch: # Allows manual 1-click trigger in GitHub UI
 
@@ -28,7 +28,7 @@ jobs:
           python scripts/update_live_data.py
           python build.py
 
-      - name: Commit and push if election data updated (Triggers automatic Vercel deploy)
+      - name: Commit and push updated finance snapshot for GitHub Pages
         run: |
           git config user.name "illinois-2026-auto-sync[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

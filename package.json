@@ -12,7 +12,10 @@
     "capture:before": "node scripts/browser-checks.cjs --capture --url https://swishmak3r.github.io/illinois-midterms-2026/?zip=60647 --output output/playwright/before",
     "dev": "node scripts/serve.cjs",
     "build": "python build.py",
-    "test:finance": "python scripts/test_fec_sync.py && node scripts/test-fec-api.mjs"
+    "test:finance": "python scripts/test_fec_sync.py && node scripts/test-fec-api.mjs",
+    "test:evidence": "node scripts/check-evidence.cjs",
+    "test:alignment": "node scripts/test-alignment.cjs",
+    "test:audit-ui": "node scripts/check-audit-ui.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

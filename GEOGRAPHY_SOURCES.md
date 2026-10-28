@@ -13,3 +13,6 @@ The data is supplied without a guarantee of accuracy, timeliness, or completenes
 Valid Illinois ZIPs without an explicit research-area mapping receive a statewide-only view, a coverage explanation, and official address-based resources. Exact city/alias matching is supported; incomplete names offer choices instead of automatically selecting the first partial match. Street addresses are not collected or sent to any API.
 
 The [Illinois State Board of Elections district locator](https://www.elections.il.gov/ElectionOperations/DistrictLocator/DistrictOfficialSearchByAddress.aspx) and the voter's [local election authority](https://www.elections.il.gov/ElectionOperations/ElectionAuthorities.aspx) are the appropriate sources for exact district placement, sample ballots, registration, and polling places.
+# October 28, 2026 research associations
+
+County/local slates were replaced with individual contests. Community links now expand only to contests in the community's listed county. Unverified Cook County commission and Board of Review district associations were removed from ZIP/community results; those records remain available in the full directory. District eligibility still requires the official address lookup. These associations are research context, not certified boundary or ballot data.

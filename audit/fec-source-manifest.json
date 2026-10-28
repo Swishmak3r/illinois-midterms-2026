@@ -1,0 +1,35 @@
+{
+  "checked": "2026-10-28",
+  "authority": "Federal Election Commission",
+  "financialEndpoint": "https://api.open.fec.gov/v1/candidates/totals/",
+  "financialParameters": {
+    "state": "IL",
+    "cycle": 2026,
+    "election_full": false,
+    "per_page": 100,
+    "sort": "-receipts"
+  },
+  "financialPageCounts": [
+    100,
+    100,
+    23
+  ],
+  "financialRecordCount": 223,
+  "identityEndpoint": "https://api.open.fec.gov/v1/candidates/",
+  "identityParameters": {
+    "state": "IL",
+    "election_year": 2026,
+    "per_page": 100
+  },
+  "identityPageCounts": [
+    100,
+    98
+  ],
+  "notes": [
+    "Requests used the public DEMO_KEY; no private credentials or donor data were copied.",
+    "Snapshot preserves all returned records; the site only attaches records to explicit verified candidate IDs and matching office/district/party.",
+    "FEC registration and financial reporting do not establish ballot qualification.",
+    "Missing totals are unavailable, not zero.",
+    "The two-year API query is fixed, while actual per-record coverage dates are preserved verbatim."
+  ]
+}

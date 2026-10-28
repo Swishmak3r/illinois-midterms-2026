@@ -1,415 +1,1492 @@
-// 2026 Illinois Midterm Elections - Statewide Constitutional Officers Dataset
-// Election Date: November 3, 2026 | Primary Date: March 17, 2026
-
+// Illinois statewide candidate profiles. Primary-source review: October 28, 2026.
+// Campaign positions are attributed statements, not certifications of promised outcomes.
 window.IL_STATEWIDE_RACES = [
   {
-    id: "il-governor-2026",
-    level: "statewide",
-    office: "Governor & Lieutenant Governor of Illinois (Joint Ticket)",
-    districtCode: "IL-GOV",
-    districtName: "Statewide Constitutional Executive",
-    region: "Statewide",
-    counties: ["All 102 Illinois Counties"],
-    cities: ["All Illinois Municipalities"],
-    pvi: "D+7",
-    rating: "Solid Democratic",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "JB Pritzker (D) & Outgoing Lt. Gov. Juliana Stratton (D - running for U.S. Senate)",
-    primarySummary: "Two-term incumbent Gov. JB Pritzker (D) selected former Deputy Governor and State Rep. Christian Mitchell as his 2026 running mate after Juliana Stratton ran for U.S. Senate. In the March 17, 2026 GOP primary, 2022 nominee Darren Bailey & Cook County GOP Chair Aaron Del Mar defeated Ted Dabrowski, Rick Heidner, and James Mendrick. Former GOP strategist Collin Corbett & McHenry County Board member Carolyn Schofield run on a centrist Independent ticket.",
-    candidates: [
+    "id": "il-governor-2026",
+    "level": "statewide",
+    "office": "Governor & Lieutenant Governor of Illinois (Joint Ticket)",
+    "districtCode": "IL-GOV",
+    "districtName": "Statewide",
+    "region": "Statewide",
+    "counties": [
+      "All 102 Illinois Counties"
+    ],
+    "cities": [
+      "All Illinois Municipalities"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "JB Pritzker",
+    "candidates": [
       {
-        id: "jb-pritzker-christian-mitchell",
-        name: "JB Pritzker & Christian Mitchell",
-        party: "Democrat",
-        role: "Governor of Illinois (2019-present) & Former Deputy Governor / State Rep. (HD-26)",
-        hometown: "Chicago (Gold Coast & Bronzeville), IL",
-        incumbentStatus: "Incumbent Governor",
-        photoInitials: "JP",
-        fecRaised: "$90,500,000+ (2026 Self-Funded)",
-        fecCashOnHand: "$68,100,000+",
-        pacPolicy: "Billionaire Self-Funded ($439M+ Career) + Full Labor & Progressive PAC Backing",
-        pacSummary: "Almost entirely self-funded by billionaire Hyatt heir JB Pritzker, who injected another $65M into JB for Governor in mid-2026 ($90.5M total in the 2026 cycle; $439M+ across 2018-2026). Pritzker is the chief patron of the Democratic Party of Illinois (DPI) and Illinois Future PAC ($5M), and holds endorsements from every major Illinois labor union.",
-        pacs: [
-          { name: "JB Pritzker Personal Self-Funding", type: "Self-Funding", amount: "$90,500,000 (2026 Cycle)", stance: "Supporting" },
-          { name: "Illinois AFL-CIO, IEA, IFT & SEIU State Council", type: "Labor PAC", amount: "Full Statewide Labor Mobilization", stance: "Supporting" },
-          { name: "IUOE Local 150, LIUNA & Chicago Federation of Labor", type: "Labor PAC", amount: "Endorsed + Field", stance: "Supporting" },
-          { name: "Personal PAC, Equality Illinois & Giffords PAC", type: "Ideological PAC", amount: "Endorsed", stance: "Supporting" },
-          { name: "Democratic Party of Illinois (DPI)", type: "Party Committee", amount: "Primary Patron & Coordinated Campaign", stance: "Supporting" }
+        "id": "jb-pritzker-christian-mitchell",
+        "name": "JB Pritzker & Christian Mitchell",
+        "party": "Democrat",
+        "role": "Governor of Illinois; Christian Mitchell is a former state representative and deputy governor.",
+        "hometown": "",
+        "incumbentStatus": "Incumbent governor",
+        "photoInitials": "JP",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO",
+          "SEIU Healthcare Illinois Indiana",
+          "Illinois Retail Merchants Association"
         ],
-        endorsements: ["Illinois AFL-CIO", "Illinois Education Association (IEA)", "Illinois Federation of Teachers (IFT)", "SEIU Illinois", "IUOE Local 150", "Personal PAC", "Equality Illinois", "Giffords PAC"],
-        issues: {
-          propertyTaxes: "Champions increasing the state share of K-12 school funding by $350M+ annually under the Evidence-Based Funding (EBF) formula ($2.5B+ cumulative increase), launching Smart Start universal preschool, and eliminating the 1% statewide grocery tax to ease local tax pressure.",
-          safetAct: "Signed and staunchly defends the Pretrial Fairness Act (SAFE-T Act), arguing that abolishing cash bail stops wealthy violent offenders from buying release while preventing poverty-based jailing. Highlights record ISP trooper classes, body cameras, and the Protect Illinois Communities Act (assault weapons ban).",
-          budgetTaxes: "Touts 8 consecutive balanced budgets, 9 credit rating upgrades, a $2.3B+ Rainy Day Fund, and elimination of the bill backlog. Continues to favor a graduated income tax in principle while balancing budgets via corporate tax loophole closures and gaming/sportsbook taxes.",
-          pensions: "Paid 100% of statutory pension contributions plus $700M+ in supplemental surplus paydowns. Directed actuarial analysis on Tier 2 Social Security Safe Harbor compliance while insisting any Tier 2 benefit adjustment remain fiscally neutral to protect Illinois's bond ratings.",
-          energyGrid: "Signed CEJA (100% clean energy by 2050), lifted the moratorium on Small Modular Nuclear Reactors (SMRs), and passed battery storage incentives. In July 2026, froze new AI data center tax breaks for 2 years and backed the POWER Act to force hyperscale data centers to pay for their own grid upgrades.",
-          transit: "Signed SB 2111 (Northern Illinois Transit Authority Act) effective June 1, 2026, replacing the RTA with an empowered NITA board and providing $1.5B in redirected motor fuel sales tax and Road Fund interest to avert the $770M+ CTA/Metra/Pace fiscal cliff.",
-          healthcare: "Established Illinois as the Midwest's reproductive sanctuary (Reproductive Health Act, interstate provider/patient shield laws, OTC birth control), erased $1B+ in medical debt for working families, and capped insulin at $35.",
-          education: "Allowed the Invest in Kids private school voucher tax credit to sunset in 2023 and refuses to opt Illinois into the federal Education Choice for Children Act (ECCA) voucher program, keeping public funds strictly in public schools."
-        }
+        "issues": {
+          "safetAct": "His campaign supports pretrial detention based on danger rather than ability to pay, gun restrictions, police staffing and violence-prevention funding.",
+          "budgetTaxes": "His campaign emphasizes balanced budgets, debt repayment and reserve savings, alongside grocery-tax relief for households.",
+          "energyGrid": "His campaign supports the clean-energy transition toward a 2050 target and investment in electric-vehicle manufacturing.",
+          "transit": "Signed the Northern Illinois Transit Authority Act on December 16, 2025, establishing regional oversight of CTA, Metra and Pace and additional transit funding.",
+          "healthcare": "His campaign supports abortion access, lower prescription costs, mental-health coverage and expanded maternal care.",
+          "education": "His campaign supports early-childhood education, vocational training and college financial assistance."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
+            "title": "Illinois State Board of Elections: 2026 general candidate list",
+            "checked": "2026-10-28",
+            "note": "Printed-ticket identity and party; cross-checked with county filing list."
+          },
+          {
+            "field": "party",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Active governor ticket and party."
+          },
+          {
+            "field": "role",
+            "url": "https://gov.illinois.gov/",
+            "title": "Office of the Illinois Governor",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "role",
+            "url": "https://jbpritzker.com/meet-christian-mitchell/",
+            "title": "Meet Christian Mitchell: official campaign biography",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://gov.illinois.gov/",
+            "title": "Office of the Illinois Governor",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://jbpritzker.com/latest/accomplishment/improving-public-safety/",
+            "title": "Pritzker campaign: Public safety",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://jbpritzker.com/latest/accomplishment/building-a-strong-fiscal-foundation/",
+            "title": "Pritzker campaign: Fiscal policy",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://jbpritzker.com/latest/accomplishment/creating-the-economy-of-the-future/",
+            "title": "Pritzker campaign: Energy and manufacturing",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.transit",
+            "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-signs-northern-illinois-transit-authority-act",
+            "title": "Governor’s official release: Northern Illinois Transit Authority Act",
+            "checked": "2026-10-28",
+            "note": "Government record of enactment, December 16, 2025."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://jbpritzker.com/latest/accomplishment/expanding-quality-affordable-health-care/",
+            "title": "Pritzker campaign: Health care",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://jbpritzker.com/latest/accomplishment/improving-education-from-cradle-to-career/",
+            "title": "Pritzker campaign: Education",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO: 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Lists both JB Pritzker and Christian Mitchell."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://seiuhcilin.org/resources/election-information/",
+            "title": "SEIU Healthcare: 2026 election endorsements",
+            "checked": "2026-10-28",
+            "note": "Lists both JB Pritzker and Christian Mitchell."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://irma.org/illinois-retail-merchants-association-endorses-jb-pritzker-for-governor/",
+            "title": "IRMA endorses JB Pritzker, October 26, 2026",
+            "checked": "2026-10-28",
+            "note": "Governor endorsement; does not separately name Mitchell."
+          }
+        ],
+        "checked": "2026-10-28"
       },
       {
-        id: "darren-bailey-aaron-del-mar",
-        name: "Darren Bailey & Aaron B. Del Mar",
-        party: "Republican",
-        role: "Former State Senator (SD-55) & 2022 GOP Nominee / Cook County Republican Chairman",
-        hometown: "Xenia (Clay County) & Palatine (Cook County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "DB",
-        fecRaised: "$580,000",
-        fecCashOnHand: "$128,000",
-        pacPolicy: "Grassroots Conservative & Downstate County GOP Network",
-        pacSummary: "Unlike 2022 (when megadonor Richard Uihlein spent tens of millions backing Bailey), Uihlein stayed out of the 2026 race and the ILGOP State Central Committee voted down Del Mar's request for a $150k party transfer. Bailey runs a lean, grassroots small-donor campaign backed by downstate county GOP organizations and Illinois Family Action.",
-        pacs: [
-          { name: "Downstate County GOP Coalitions & Small Donors", type: "Party Committee", amount: "$450,000+ Grassroots", stance: "Supporting" },
-          { name: "Illinois Family Action & Pro-Life / Pro-2A PACs", type: "Ideological PAC", amount: "Endorsed + Voter Guides", stance: "Supporting" },
-          { name: "ILGOP State Central Committee Establishment", type: "Party Committee", amount: "Voted Down $150k Transfer Request", stance: "Opposing" }
+        "id": "darren-bailey-aaron-del-mar",
+        "name": "Darren Bailey & Aaron B. Del Mar",
+        "party": "Republican",
+        "role": "Former Illinois state representative and senator; Aaron Del Mar is a former Palatine councilman and entrepreneur.",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "DB",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Donald Trump"
         ],
-        endorsements: ["Illinois Family Action", "Gun Owners of America / ISRA Grassroots", "Downstate GOP County Chairs Coalition"],
-        issues: {
-          propertyTaxes: "Proposes a hard statewide cap on property tax growth paired with zero-based state budgeting and repealing unfunded Springfield mandates that drive up local school district levies.",
-          safetAct: "Demands immediate repeal of the SAFE-T Act's cashless bail provisions, restoring judicial discretion to detain repeat offenders, repealing the TRUST Act (sanctuary state law) to cooperate with ICE, and repealing the FOID card and assault weapons ban.",
-          budgetTaxes: "Pledges to freeze state spending (which grew $15B+ under Pritzker), conduct forensic agency audits, eliminate state-funded migrant healthcare, protect the constitutional flat income tax, enact No Tax on Tips, and abolish the Illinois estate tax.",
-          pensions: "Explicitly distances himself from former Gov. Bruce Rauner in 2026 ('I am not Bruce Rauner. I am not coming for your pension'), arguing pension solvency comes from cutting non-essential state bureaucracy and growing private-sector jobs.",
-          energyGrid: "Calls for repealing CEJA's coal and natural gas plant closure deadlines, blaming Pritzker's green mandates and corporate data center giveaways for surging Ameren and ComEd utility bills.",
-          transit: "Fiercely opposes SB 2111 / the $1.5B NITA transit bailout, condemning it as a raid on downstate and suburban motorists' Road Fund interest and motor fuel taxes to subsidize a mismanaged CTA.",
-          healthcare: "Pro-life conservative who opposes Medicaid funding for abortions and state-funded healthcare for undocumented immigrants, while focusing 2026 messaging on household healthcare affordability.",
-          education: "Founder of Full Armor Christian Academy; pledges to immediately reinstate Illinois's Invest in Kids tax-credit scholarship program and opt Illinois into the federal Education Choice for Children Act (ECCA) universal school choice program."
-        }
+        "issues": {
+          "propertyTaxes": "His campaign proposes property-tax relief through spending restraint and increased government accountability.",
+          "safetAct": "His campaign proposes greater support and training for law enforcement and stronger action against repeat violent offenders.",
+          "budgetTaxes": "His campaign calls for lower taxes, reduced government waste and policies supporting businesses and job creation.",
+          "education": "His campaign supports adequate school funding, parental choice, teacher resources and reduced administrative requirements."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
+            "title": "Illinois State Board of Elections: 2026 general candidate list",
+            "checked": "2026-10-28",
+            "note": "Printed-ticket identity and party; cross-checked with county filing list."
+          },
+          {
+            "field": "party",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Active governor ticket and party."
+          },
+          {
+            "field": "role",
+            "url": "https://baileyforillinois.com/darren/",
+            "title": "Meet Darren: official campaign biography",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "role",
+            "url": "https://baileyforillinois.com/aaron/",
+            "title": "Meet Aaron: official campaign biography",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://baileyforillinois.com/issues/",
+            "title": "Bailey campaign: Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://baileyforillinois.com/issues/",
+            "title": "Bailey campaign: Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://baileyforillinois.com/issues/",
+            "title": "Bailey campaign: Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://baileyforillinois.com/issues/",
+            "title": "Bailey campaign: Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.govinfo.gov/content/pkg/DCPD-202600607/html/DCPD-202600607.htm",
+            "title": "Presidential remarks, September 13, 2026",
+            "checked": "2026-10-28",
+            "note": "Trump explicitly confirmed his endorsement of Darren Bailey in the Illinois gubernatorial-election section."
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://baileyforillinois.com/darren/",
+            "title": "Meet Darren: official campaign biography",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          }
+        ],
+        "checked": "2026-10-28"
       },
       {
-        id: "collin-corbett-carolyn-schofield",
-        name: "Collin Corbett & Carolyn Schofield",
-        party: "Independent",
-        role: "Political Strategist & Small Business Owner / McHenry County Board Member",
-        hometown: "Palatine (Cook County) & Crystal Lake (McHenry County), IL",
-        incumbentStatus: "Independent Challenger",
-        photoInitials: "CC",
-        fecRaised: "$565,000 ($500k Self-Loan)",
-        fecCashOnHand: "$60,603",
-        pacPolicy: "Centrist Self-Seeded & Independent Reform Donors",
-        pacSummary: "Seeded with a $500,000 personal loan from Corbett after leaving the GOP in April 2026 to build a 'Mainstream Independent' coalition; refuses partisan machine and extremist PAC money.",
-        pacs: [
-          { name: "Collin Corbett Personal Candidate Loan", type: "Self-Funding", amount: "$500,000", stance: "Supporting" },
-          { name: "Mainstream Independent & Suburban Civic Donors", type: "Ideological PAC", amount: "$65,000+", stance: "Supporting" }
+        "id": "collin-corbett-carolyn-schofield",
+        "name": "Collin Corbett & Carolyn Schofield",
+        "party": "Independent",
+        "role": "Independent candidates for governor and lieutenant governor.",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "CC",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "His campaign proposes increasing state school and municipal funding, reducing unfunded mandates and rewarding local property-tax reductions.",
+          "budgetTaxes": "His campaign proposes an initial discretionary-spending freeze, a gas-tax freeze and review of programs against measurable outcomes.",
+          "pensions": "His platform proposes putting part of unexpected revenue toward pension debt, expanding voluntary buyouts and limiting pension spiking.",
+          "energyGrid": "His campaign supports natural gas, nuclear, wind and solar generation; data-center incentives would pause until energy and water safeguards are established.",
+          "healthcare": "His campaign proposes health-price transparency, Certificate of Need reform and review of insurance mandates that increase costs.",
+          "education": "His campaign supports career and technical education, apprenticeships and scholarships."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
+            "title": "Illinois State Board of Elections: 2026 general candidate list",
+            "checked": "2026-10-28",
+            "note": "Printed-ticket identity and party; cross-checked with county filing list."
+          },
+          {
+            "field": "party",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Active governor ticket and party."
+          },
+          {
+            "field": "role",
+            "url": "https://www.elections.il.gov/ElectionOperations/ObjectionDetail.aspx?ElectionID=sejIrI%2BQmww%3D&ObjectionID=vHgWMNMaGm8DebadaJv3%2FQ%3D%3D",
+            "title": "Illinois State Board of Elections: Corbett–Schofield objection record",
+            "checked": "2026-10-28",
+            "note": "Both candidates active; objection withdrawn."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.collinforil.com/platform/",
+            "title": "Corbett campaign: Independent platform",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.collinforil.com/affordability/",
+            "title": "Corbett campaign: Affordability",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.pensions",
+            "url": "https://www.collinforil.com/platform/",
+            "title": "Corbett campaign: Independent platform",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.collinforil.com/affordability/",
+            "title": "Corbett campaign: Affordability",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.collinforil.com/affordability/",
+            "title": "Corbett campaign: Affordability",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.collinforil.com/grow/",
+            "title": "Corbett campaign: Economic platform",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/ObjectionDetail.aspx?ElectionID=sejIrI%2BQmww%3D&ObjectionID=vHgWMNMaGm8DebadaJv3%2FQ%3D%3D",
+            "title": "Illinois State Board of Elections: Corbett–Schofield objection record",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          }
         ],
-        endorsements: ["Mainstream Independent Coalition", "McHenry & Northwest Suburban Civic Leaders"],
-        issues: {
-          propertyTaxes: "Proposes a bipartisan structural commission to swap local school property tax reliance for capped state revenue growth and municipal mandate relief.",
-          safetAct: "Advocates surgical, bipartisan fixes to the SAFE-T Act: giving judges broader detention discretion for repeat offenses and burglary while keeping non-violent poverty bail reform intact.",
-          budgetTaxes: "Supports constitutionally capping annual state budget growth to the rate of inflation + population growth while retaining the flat income tax.",
-          pensions: "Supports fixing the Tier 2 Social Security Safe Harbor compliance issue while amortizing long-term pension debt without partisan pension holidays.",
-          energyGrid: "Advocates pragmatic grid reliability: fast-tracking modular nuclear reactors and retaining natural gas peaker plants alongside renewables to stop consumer rate spikes.",
-          transit: "Supports NITA regional fare and schedule integration but demands strict farebox recovery, crime reduction, and independent auditing metrics before releasing state funds.",
-          healthcare: "Supports preserving current Illinois reproductive healthcare laws without ideological extremes and expanding county-level mental health boards (drawing on Schofield's McHenry County work).",
-          education: "Supports local school board control, Evidence-Based Funding accountability, and expanding vocational/trade career pathways."
-        }
+        "checked": "2026-10-28"
       }
-    ]
+    ],
+    "coverageNote": "Profiles cover the three printed governor tickets. Qualified write-in availability must be checked with the voter’s election authority.",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
+        "title": "Illinois State Board of Elections: 2026 general candidate list",
+        "checked": "2026-10-28",
+        "note": "Printed governor tickets; this is not an exhaustive statewide write-in qualification list."
+      },
+      {
+        "field": "candidates",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Cross-checks Pritzker–Mitchell, Bailey–Del Mar and Corbett; also lists other filings that must not be confused with printed nominees."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://gov.illinois.gov/",
+        "title": "Office of the Illinois Governor",
+        "checked": "2026-10-28",
+        "note": "Current governor."
+      }
+    ],
+    "checked": "2026-10-28"
   },
   {
-    id: "il-attorney-general-2026",
-    level: "statewide",
-    office: "Attorney General of Illinois",
-    districtCode: "IL-AG",
-    districtName: "Statewide Chief Legal & Law Enforcement Officer",
-    region: "Statewide",
-    counties: ["All 102 Illinois Counties"],
-    cities: ["All Illinois Municipalities"],
-    pvi: "D+7",
-    rating: "Solid Democratic",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Kwame Raoul (D)",
-    primarySummary: "Two-term incumbent Attorney General Kwame Raoul (D) ran unopposed in the Democratic primary and faces former Chicago 2nd Ward Alderman and civil litigator Bob Fioretti (R).",
-    candidates: [
+    "id": "il-attorney-general-2026",
+    "level": "statewide",
+    "office": "Attorney General of Illinois",
+    "districtCode": "IL-AG",
+    "districtName": "Statewide",
+    "region": "Statewide",
+    "counties": [
+      "All 102 Illinois Counties"
+    ],
+    "cities": [
+      "All Illinois Municipalities"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Kwame Raoul",
+    "candidates": [
       {
-        id: "kwame-raoul",
-        name: "Kwame Raoul",
-        party: "Democrat",
-        role: "Attorney General of Illinois (2019-present); Former State Senator (SD-13)",
-        hometown: "Chicago (Hyde Park / Kenwood), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "KR",
-        fecRaised: "$2,850,000 (Cycle)",
-        fecCashOnHand: "$1,700,000",
-        pacPolicy: "Heavy Trial Lawyer (ITLA), Labor Union & DAGA Backing",
-        pacSummary: "Commands ~$1.7M cash on hand, heavily funded by the Illinois Trial Lawyers Association (ITLA), plaintiffs' law firms, major labor unions (AFL-CIO, SEIU, IUOE Local 150, IFT, IEA), and the Democratic Attorneys General Association (DAGA).",
-        pacs: [
-          { name: "Illinois Trial Lawyers Association (ITLA PAC) & Law Firms", type: "Trade PAC", amount: "$650,000+", stance: "Supporting" },
-          { name: "Democratic Attorneys General Association (DAGA)", type: "Party Committee", amount: "$250,000+", stance: "Supporting" },
-          { name: "Illinois AFL-CIO, SEIU, IUOE Local 150 & IFT/IEA", type: "Labor PAC", amount: "$480,000+", stance: "Supporting" },
-          { name: "Personal PAC & Giffords PAC", type: "Ideological PAC", amount: "Endorsed + Support", stance: "Supporting" }
+        "id": "kwame-raoul",
+        "name": "Kwame Raoul",
+        "party": "Democrat",
+        "role": "Illinois Attorney General since 2019; former Illinois state senator.",
+        "hometown": "Chicago, IL",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "KR",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO (2026 general election)",
+          "Communications Workers of America District 4 (2026 general election)"
         ],
-        endorsements: ["Illinois Trial Lawyers Association", "Illinois AFL-CIO", "SEIU", "IUOE Local 150", "Personal PAC", "Giffords PAC"],
-        issues: {
-          propertyTaxes: "Defends county property tax exemptions for seniors and disabled veterans while prosecuting deed-fraud and predatory tax-buyer schemes.",
-          safetAct: "Successfully defended the constitutionality of the SAFE-T Act (Pretrial Fairness Act) and Protect Illinois Communities Act (assault weapons ban) before the Illinois Supreme Court; leads the AG's Organized Retail Crime Task Force.",
-          budgetTaxes: "Expanded the AG's Workplace Rights Bureau to recover millions in stolen wages, payroll tax fraud, and prevailing wage violations.",
-          pensions: "Defends constitutional pension protection clause while prosecuting financial fraud against state retirement systems.",
-          energyGrid: "Regularly intervenes before the Illinois Commerce Commission (ICC) to slash ComEd, Ameren, Peoples Gas, and Nicor rate-hike requests and hold utilities accountable for pollution.",
-          transit: "Supports NITA regional transit policing coordination and prosecutes organized cargo and transit theft rings.",
-          healthcare: "Co-leads multistate Democratic AG lawsuits defending medication abortion (mifepristone), EMTALA emergency care, and the ACA; secured $1.3B+ in opioid settlements for Illinois.",
-          education: "Enforces civil rights protections in schools, prosecutes student loan servicers for deceptive practices, and defends Illinois's anti-book-ban statute."
-        }
+        "issues": {
+          "safetAct": "Defended the elimination of cash bail in court and supports pretrial detention based on public-safety or flight risk rather than ability to pay.",
+          "healthcare": "His campaign supports reproductive care and gender-affirming care. His office filed a September 2026 brief opposing federal rules that restrict ACA enrollment.",
+          "energyGrid": "Joined an October 2026 lawsuit seeking to restore federal greenhouse-gas standards for coal- and gas-fired power plants.",
+          "education": "Challenged federal restrictions on Public Service Loan Forgiveness eligibility for employees of government and nonprofit organizations.",
+          "publicServices": "His campaign prioritizes gun-trafficking enforcement, support for survivors of violence, and enforcement of workplace rights."
+        },
+        "evidence": [
+          {
+            "field": "role",
+            "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/attorney-general-kwame-raoul.pdf",
+            "title": "Illinois Blue Book 2025–2026 — Kwame Raoul",
+            "checked": "2026-10-28",
+            "note": "Official biography confirms current office and prior Senate service."
+          },
+          {
+            "field": "role",
+            "url": "https://kwameraoul.com/about-us/",
+            "title": "Raoul campaign — biography",
+            "checked": "2026-10-28",
+            "note": "Confirms January 2019 start and Chicago background."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-issues-statement-on-illinois-supreme-court-ruling-upholding-the-elimination-of-cash-bail-in-illinois",
+            "title": "Attorney General statement on cash-bail ruling",
+            "checked": "2026-10-28",
+            "note": "",
+            "published": "2023-07-18"
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://kwameraoul.com/ontheissues/",
+            "title": "Raoul campaign — issue positions",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated priorities, not an independent evaluation of outcomes."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-continues-fight-to-protect-affordable-care-act-coverage",
+            "title": "Attorney General brief on ACA coverage",
+            "checked": "2026-10-28",
+            "note": "",
+            "published": "2026-09-10"
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-challenges-epa-rollback-of-greenhouse-gas-pollution-limits-for-power-plants",
+            "title": "Attorney General challenge to power-plant emissions rollback",
+            "checked": "2026-10-28",
+            "note": "",
+            "published": "2026-10-01"
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-stops-trump-administrations-illegal-weaponization-of-public-service-loan-forgiveness-program",
+            "title": "Attorney General statement on PSLF litigation",
+            "checked": "2026-10-28",
+            "note": "",
+            "published": "2026-10-22"
+          },
+          {
+            "field": "issues.publicServices",
+            "url": "https://kwameraoul.com/ontheissues/",
+            "title": "Raoul campaign — issue positions",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated priorities."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Lists Kwame Raoul for Attorney General."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://cwa-union.org/candidates-il",
+            "title": "CWA District 4 — 2026 Illinois endorsements",
+            "checked": "2026-10-28",
+            "note": "Lists Kwame Raoul for Attorney General."
+          },
+          {
+            "field": "name",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "party",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "hometown",
+            "url": "https://kwameraoul.com/about-us/",
+            "title": "Raoul campaign — biography",
+            "checked": "2026-10-28",
+            "note": "Biography documents the displayed hometown or residence."
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/attorney-general-kwame-raoul.pdf",
+            "title": "Illinois Blue Book 2025–2026 — Kwame Raoul",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          }
+        ],
+        "checked": "2026-10-28"
       },
       {
-        id: "bob-fioretti",
-        name: "Robert 'Bob' W. Fioretti",
-        party: "Republican",
-        role: "Civil Trial Attorney & Former Chicago 2nd Ward Alderman (2007-2015)",
-        hometown: "Chicago (South Loop / Near West Side), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "BF",
-        fecRaised: "$115,000",
-        fecCashOnHand: "$28,303",
-        pacPolicy: "Small-Dollar Conservative & Legal Network Donors",
-        pacSummary: "Former Democrat turned Republican running on a lean budget (~$28.3k Q2 cash on hand), funded by legal colleagues, county GOP groups, and small-dollar donors.",
-        pacs: [
-          { name: "Cook & Collar County GOP Organizations", type: "Party Committee", amount: "$35,000+", stance: "Supporting" },
-          { name: "Fraternal Order of Police (FOP) Grassroots Allies", type: "Labor PAC", amount: "Support", stance: "Supporting" }
+        "id": "bob-fioretti",
+        "name": "Robert W. Fioretti",
+        "party": "Republican",
+        "role": "Attorney and former Chicago 2nd Ward alderman.",
+        "hometown": "Chicago, IL",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "BF",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "safetAct": "His campaign proposes revising detention standards for repeat violent offenders, publishing pretrial-release outcomes, and creating an independent public-safety oversight council.",
+          "ethics": "Proposes donor-conflict disclosure and recusal rules, limits on fundraising from investigated entities, and public disclosure of outside-counsel contracts.",
+          "education": "His campaign says it would enforce laws guaranteeing students and families equal access and fair treatment."
+        },
+        "evidence": [
+          {
+            "field": "role",
+            "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
+            "title": "Fioretti campaign — biography",
+            "checked": "2026-10-28",
+            "note": "Campaign biography describes legal career, aldermanic service and Chicago residence."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
+            "title": "Fioretti campaign — SAFE-T accountability proposals",
+            "checked": "2026-10-28",
+            "note": "Candidate proposals; factual allegations about opponents are not repeated.",
+            "published": "2025-12-09"
+          },
+          {
+            "field": "issues.ethics",
+            "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
+            "title": "Fioretti campaign — SAFE-T accountability proposals",
+            "checked": "2026-10-28",
+            "note": "",
+            "published": "2025-12-09"
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
+            "title": "Fioretti campaign — policy priorities",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "name",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "party",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
+            "title": "Fioretti campaign — biography",
+            "checked": "2026-10-28",
+            "note": "Biography documents the displayed hometown or residence."
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
+            "title": "Fioretti campaign — biography",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          }
         ],
-        endorsements: ["Cook County Republican Party", "Suburban GOP Coalitions"],
-        issues: {
-          propertyTaxes: "Pledges to investigate Cook County property tax assessment corruption and challenge unconstitutional property tax shifts in court.",
-          safetAct: "Makes repealing and overhauling the SAFE-T Act his #1 priority; formed a campaign commission to restore pretrial detention for repeat offenders and cooperate with federal ICE authorities.",
-          budgetTaxes: "Accuses Raoul of being a rubber stamp for Gov. Pritzker; pledges to create an independent Public Integrity Unit with grand jury power to prosecute state contracting fraud.",
-          pensions: "Supports stripping public pensions from any official or lobbyist convicted of public corruption.",
-          energyGrid: "Promises to challenge CEJA green energy surcharges and aggressively block utility rate hikes at the ICC.",
-          transit: "Demands forensic audits of CTA and RTA spending and strict prosecution of violent crime on public transit.",
-          healthcare: "Criticizes state spending on non-citizen healthcare while supporting hospital billing transparency.",
-          education: "Supports parental rights in education, school choice, and local school board autonomy."
-        }
+        "checked": "2026-10-28"
       }
-    ]
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk — November 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official active statewide filings checked October 28, 2026."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/attorney-general-kwame-raoul.pdf",
+        "title": "Illinois Blue Book 2025–2026",
+        "checked": "2026-10-28",
+        "note": ""
+      }
+    ],
+    "checked": "2026-10-28",
+    "coverageNote": "Printed-ballot candidates shown. Any additional qualified write-ins must be confirmed with your local election authority."
   },
   {
-    id: "il-secretary-of-state-2026",
-    level: "statewide",
-    office: "Secretary of State of Illinois",
-    districtCode: "IL-SOS",
-    districtName: "Statewide Driver Services, Business Registry, State Librarian & Capitol Upkeep",
-    region: "Statewide",
-    counties: ["All 102 Illinois Counties"],
-    cities: ["All Illinois Municipalities"],
-    pvi: "D+7",
-    rating: "Solid Democratic",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Alexi Giannoulias (D)",
-    primarySummary: "First-term incumbent Secretary of State Alexi Giannoulias (D) commands a massive $21.7M+ war chest (while also exploring a 2027 Chicago Mayoral run) and faces Joliet Junior College Trustee and retired ComEd union steward Diane M. Harris (R).",
-    candidates: [
+    "id": "il-secretary-of-state-2026",
+    "level": "statewide",
+    "office": "Secretary of State of Illinois",
+    "districtCode": "IL-SOS",
+    "districtName": "Statewide",
+    "region": "Statewide",
+    "counties": [
+      "All 102 Illinois Counties"
+    ],
+    "cities": [
+      "All Illinois Municipalities"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Alexi Giannoulias",
+    "candidates": [
       {
-        id: "alexi-giannoulias",
-        name: "Alexi Giannoulias",
-        party: "Democrat",
-        role: "Secretary of State of Illinois (2023-present); Former State Treasurer (2007-2011)",
-        hometown: "Chicago, IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "AG",
-        fecRaised: "$24,500,000+ (Cumulative War Chest)",
-        fecCashOnHand: "$21,750,000",
-        pacPolicy: "Largest Non-Self-Funded War Chest in IL ($21.75M COH); Heavy Labor & Civic Backing",
-        pacSummary: "Holds $21.7M-$21.8M cash on hand. Strictly bars contributions from entities regulated by the SOS office (auto dealers/remitters) while raising millions from building trades (IUOE Local 150, LIUNA, IBEW), SEIU, teachers' unions, and business/real estate donors.",
-        pacs: [
-          { name: "IUOE Local 150, LIUNA, IBEW & Teamsters PACs", type: "Labor PAC", amount: "$1,800,000+ Cumulative", stance: "Supporting" },
-          { name: "SEIU, IEA, IFT & Illinois AFL-CIO", type: "Labor PAC", amount: "$950,000+ Cumulative", stance: "Supporting" },
-          { name: "Chicagoland Civic, Legal & Real Estate Donor Network", type: "Business Donor Network", amount: "$8,000,000+", stance: "Supporting" },
-          { name: "Personal PAC & Giffords PAC", type: "Ideological PAC", amount: "Endorsed", stance: "Supporting" }
+        "id": "alexi-giannoulias",
+        "name": "Alexi Giannoulias",
+        "party": "Democrat",
+        "role": "Illinois Secretary of State since 2023; former Illinois State Treasurer.",
+        "hometown": "Chicago, IL",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "AG",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO (2026 general election)"
         ],
-        endorsements: ["Illinois AFL-CIO", "IUOE Local 150", "SEIU", "Teamsters Joint Council 25", "IEA", "IFT", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Supports state library and literacy grants that reduce pressure on local municipal and school property tax levies.",
-          safetAct: "Uses the Secretary of State Police to lead statewide license-plate reader (ALPR) carjacking task forces and crack down onchop shops and organized auto theft.",
-          budgetTaxes: "Modernized SOS Business Services to speed up LLC registrations and launched 'Skip the Line' DMV scheduling, mobile Digital IDs (Apple/Google Wallet), and grocery-store kiosks.",
-          pensions: "Supports full statutory funding of SERS and Tier 2 Safe Harbor fixes for state employees.",
-          energyGrid: "Oversees EV license plate administration and Capitol complex energy-efficiency retrofits.",
-          transit: "Champions traffic safety, pedestrian protection laws, and integrating digital IDs with regional transit systems.",
-          healthcare: "Manages Illinois's nation-leading Organ and Tissue Donor Registry and champions banning credit-score and ZIP-code discrimination in auto insurance pricing ('Drivingalyzer').",
-          education: "As State Librarian, authored and implemented Public Act 103-0100, the first-in-the-nation law withholding state library grants from libraries that ban books unless they adopt the ALA Library Bill of Rights."
-        }
+        "issues": {
+          "publicServices": "Prioritizes modernizing DMV services through online transactions, appointment scheduling, mobile units and self-service kiosks. Opposes the federal demand for bulk sensitive driver records without legal and privacy safeguards.",
+          "education": "In his 2026 library questionnaire, supports wider library access, statewide digital resources and protections against censorship as a condition of State Library grants.",
+          "ethics": "His 2023 executive order prohibited office employees and contractors from contributing to his political fund and strengthened access to the Inspector General complaint process."
+        },
+        "evidence": [
+          {
+            "field": "role",
+            "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+            "title": "Illinois Blue Book 2025–2026 — Alexi Giannoulias",
+            "checked": "2026-10-28",
+            "note": "Official biography confirms offices and Chicago residence."
+          },
+          {
+            "field": "issues.publicServices",
+            "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+            "title": "Illinois Blue Book 2025–2026 — service modernization",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "issues.publicServices",
+            "url": "https://www.ilsos.gov/news/2026/august-14-2026-giannoulias-vows-to-fight-trump-administrations-demand-for-sensitive-driver-data.html",
+            "title": "Secretary of State — driver-record privacy statement",
+            "checked": "2026-10-28",
+            "note": "",
+            "published": "2026-08-14"
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.ila.org/content/documents/a._giannoulias_2026_sos_responses.pdf",
+            "title": "Giannoulias — 2026 Illinois Library Association questionnaire",
+            "checked": "2026-10-28",
+            "note": "Candidate-authored response; ILA does not endorse candidates."
+          },
+          {
+            "field": "issues.ethics",
+            "url": "https://www.ilsos.gov/content/dam/news/2023/january/230110d1.pdf",
+            "title": "Secretary of State — executive ethics order",
+            "checked": "2026-10-28",
+            "note": "",
+            "published": "2023-01-10"
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Lists Alexi Giannoulias for Secretary of State."
+          },
+          {
+            "field": "name",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "party",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+            "title": "Illinois Blue Book 2025–2026 — Alexi Giannoulias",
+            "checked": "2026-10-28",
+            "note": "Biography documents the displayed hometown or residence."
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+            "title": "Illinois Blue Book 2025–2026 — Alexi Giannoulias",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          }
+        ],
+        "checked": "2026-10-28"
       },
       {
-        id: "diane-harris",
-        name: "Diane M. Harris",
-        party: "Republican",
-        role: "Joliet Junior College Trustee, Joliet Library Trustee, Small Business Owner & Retired IBEW Local 15 Steward",
-        hometown: "Joliet (Will County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "DH",
-        fecRaised: "$18,500",
-        fecCashOnHand: "$1,816",
-        pacPolicy: "Shoestring Grassroots Campaign ($0 Corporate PACs)",
-        pacSummary: "Operating on a grassroots shoestring budget ($1,816 cash on hand in Q2 2026), supported by Will County and downstate Republican committees.",
-        pacs: [
-          { name: "Will County & Downstate GOP Committees", type: "Party Committee", amount: "Grassroots Support", stance: "Supporting" }
+        "id": "diane-harris",
+        "name": "Diane M. Harris",
+        "party": "Republican",
+        "role": "Joliet Junior College trustee; retired ComEd employee and former IBEW steward.",
+        "hometown": "Joliet, IL",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "DH",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Family Action (2026 general election)"
         ],
-        endorsements: ["Will County Republican Central Committee", "Illinois Family Action"],
-        issues: {
-          propertyTaxes: "As a Joliet Junior College trustee, advocates fiscal restraint and keeping community college and library property tax levies flat.",
-          safetAct: "Supports repealing cashless bail provisions and strengthening penalties for vehicular hijacking and fleeing police.",
-          budgetTaxes: "Campaigns on 'Give Service Back to the People': pledges to end mandatory appointment-only DMV gates that turn away seniors and working people without smartphones, and cut LLC filing fees.",
-          pensions: "Retired 30-year ComEd employee and former IBEW Local 15 union steward who supports protecting earned worker pensions while auditing administrative bloat.",
-          energyGrid: "Draws on 30 years at ComEd to advocate reliable baseload nuclear and natural gas power.",
-          transit: "Opposes diverting suburban and downstate Road Fund money to bail out Chicago transit.",
-          healthcare: "Calls for strict auditing of Automatic Voter Registration (AVR) at DMVs and social-service agencies to ensure non-citizens are never added to voter rolls.",
-          education: "As a Joliet Public Library Trustee, opposes Giannoulias's state law tying library grants to the ALA Library Bill of Rights, arguing local elected library boards and parents should decide age-appropriate shelving."
-        }
+        "issues": {
+          "publicServices": "Proposes walk-in DMV service, more kiosks and mobile services, a unified online portal, and stronger cybersecurity. She also proposes reviewing voter-registration records and sharing driver information with other government offices.",
+          "budgetTaxes": "Her campaign proposes reviewing the Secretary of State office budget for waste and working with legislators to lower fees for seniors, veterans and DMV customers.",
+          "education": "Her library questionnaire supports expanding access through shared-cost agreements or nonresident fees, business partnerships and grants with continuing-maintenance requirements."
+        },
+        "evidence": [
+          {
+            "field": "role",
+            "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
+            "title": "Joliet Junior College — Board of Trustees",
+            "checked": "2026-10-28",
+            "note": "Official roster lists Harris as a trustee with a 2023–2029 term and Joliet residence."
+          },
+          {
+            "field": "role",
+            "url": "https://harrisforsos.com/meet_diane",
+            "title": "Harris campaign — biography",
+            "checked": "2026-10-28",
+            "note": "Campaign biography describes ComEd employment and IBEW stewardship."
+          },
+          {
+            "field": "issues.publicServices",
+            "url": "https://harrisforsos.com/issues",
+            "title": "Harris campaign — issue positions",
+            "checked": "2026-10-28",
+            "note": "Candidate proposals, not claims that another officeholder violated the law."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://harrisforsos.com/issues",
+            "title": "Harris campaign — budget and fee proposals",
+            "checked": "2026-10-28",
+            "note": ""
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.ila.org/content/documents/d._harris_2026_sos_responses.pdf",
+            "title": "Harris — 2026 Illinois Library Association questionnaire",
+            "checked": "2026-10-28",
+            "note": "Candidate-authored response; ILA does not endorse candidates."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Lists Diane Harris as endorsed.",
+            "published": "2026-10-26"
+          },
+          {
+            "field": "name",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "party",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official roster confirms name, party and statewide office."
+          },
+          {
+            "field": "hometown",
+            "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
+            "title": "Joliet Junior College — Board of Trustees",
+            "checked": "2026-10-28",
+            "note": "Biography documents the displayed hometown or residence."
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
+            "title": "Joliet Junior College — Board of Trustees",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          }
+        ],
+        "checked": "2026-10-28"
       }
-    ]
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk — November 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official active statewide filings checked October 28, 2026."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+        "title": "Illinois Blue Book 2025–2026",
+        "checked": "2026-10-28",
+        "note": ""
+      }
+    ],
+    "checked": "2026-10-28",
+    "coverageNote": "Printed-ballot candidates shown. Any additional qualified write-ins must be confirmed with your local election authority."
   },
   {
-    id: "il-comptroller-2026",
-    level: "statewide",
-    office: "State Comptroller of Illinois (Open Seat)",
-    districtCode: "IL-COMP",
-    districtName: "Statewide Chief Fiscal Officer & Bill-Paying Watchdog",
-    region: "Statewide",
-    counties: ["All 102 Illinois Counties"],
-    cities: ["All Illinois Municipalities"],
-    pvi: "D+7",
-    rating: "Solid Democratic",
-    isOpenSeat: true,
-    isBattleground: false,
-    incumbent: "Susana Mendoza (D - Declined to seek re-election in 2026 ahead of 2027 Chicago Mayoral bid)",
-    primarySummary: "With three-term Comptroller Susana Mendoza stepping down, State Rep. Margaret Croke (D, HD-12) won a fierce 4-way March 2026 Democratic primary (defeating Rep. Stephanie Kifowit, Sen. Karina Villa, and Lake County Treasurer Holly Kim) with heavy backing from Gov. JB Pritzker and Mendoza. She faces Benton trial attorney Bryan Drew (R) and Green Party write-in Anna Schiefelbein.",
-    candidates: [
+    "id": "il-comptroller-2026",
+    "level": "statewide",
+    "office": "Illinois Comptroller",
+    "districtCode": "IL-COMP",
+    "districtName": "Statewide",
+    "region": "Statewide",
+    "counties": [
+      "All 102 Illinois Counties"
+    ],
+    "cities": [
+      "All Illinois Municipalities"
+    ],
+    "isOpenSeat": true,
+    "isBattleground": false,
+    "incumbent": "Susana Mendoza",
+    "candidates": [
       {
-        id: "margaret-croke",
-        name: "Margaret Croke",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-12, 2021-present); Chair, House Financial Institutions Committee",
-        hometown: "Chicago (Lincoln Park), IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "MC",
-        fecRaised: "$2,360,000+",
-        fecCashOnHand: "$108,583 (Post-Primary)",
-        pacPolicy: "Backed by Pritzker Network, Outgoing Comptroller Mendoza, Labor & Fintech PACs",
-        pacSummary: "Raised $2.36M+ and spent $2.57M winning the competitive March 2026 Democratic primary. Heavily backed by Gov. JB Pritzker's political network, outgoing Comptroller Susana Mendoza, IUOE Local 150, SEIU, Illinois AFL-CIO, Personal PAC, and financial-sector PACs.",
-        pacs: [
-          { name: "JB Pritzker & Democratic Leadership Transfers", type: "Party Committee", amount: "$650,000+ Primary Support", stance: "Supporting" },
-          { name: "IUOE Local 150, SEIU & Illinois AFL-CIO", type: "Labor PAC", amount: "$380,000+", stance: "Supporting" },
-          { name: "Susana Mendoza Political Network", type: "Ideological PAC", amount: "Endorsed + Donor Network", stance: "Supporting" },
-          { name: "Financial Institutions, Banking & Tech PACs", type: "Corporate PAC", amount: "$210,000+", stance: "Supporting" },
-          { name: "Personal PAC & Equality Illinois", type: "Ideological PAC", amount: "Endorsed", stance: "Supporting" }
+        "id": "margaret-croke",
+        "name": "Margaret Croke",
+        "party": "Democrat",
+        "role": "Illinois State Representative, 12th District; chair of the House Financial Institutions & Licensing Committee",
+        "hometown": "Chicago, Illinois",
+        "incumbentStatus": "Open Seat Nominee",
+        "photoInitials": "MC",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO (2026 general election)"
         ],
-        endorsements: ["Gov. JB Pritzker", "Comptroller Susana Mendoza", "Illinois AFL-CIO", "IUOE Local 150", "SEIU", "Personal PAC", "Equality Illinois"],
-        issues: {
-          propertyTaxes: "Supports transparent local government fiscal reporting through the Comptroller's Warehouse and full EBF school funding to curb local property tax hikes.",
-          safetAct: "Voted for and defends the SAFE-T Act and gun violence prevention funding.",
-          budgetTaxes: "Pledges to maintain Susana Mendoza's fiscal framework: zero bill backlog, prioritizing human-service provider payments, and mandating automatic deposits into the Rainy Day Fund.",
-          pensions: "Pledges to make automatic supplemental deposits into the Pension Stabilization Fund and use the Comptroller's stop-payment power against state contractors that violate the Prevailing Wage Act.",
-          energyGrid: "Supports CEJA clean energy goals, modernizing state SAMS accounting software, and regulating digital asset / cryptocurrency lending.",
-          transit: "Supported SB 2111 / NITA transit reform and pledges real-time public transparency tracking for all state transit disbursements.",
-          healthcare: "Authored Illinois's landmark IVF and fertility insurance coverage laws in the House; staunch defender of reproductive freedom.",
-          education: "Strong supporter of public school EBF funding and Smart Start universal pre-K; opposes private school voucher tax credits."
-        }
+        "issues": {
+          "budgetTaxes": "Her campaign proposes a public budget-to-payment tracking system, modernized financial reporting and predictive tools to detect waste. She says she would continue withholding payments from employers that violate the Prevailing Wage Act.",
+          "healthcare": "Sponsored HR 695 in February 2026 opposing penalties for reproductive health care and restrictions on IVF. The House adopted the resolution; it is a statement of policy, not a new insurance-coverage law."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=1f2RMr3gR8FcmTMeqH3%2FrA%3D%3D",
+            "title": "Illinois State Board of Elections: Comptroller candidates",
+            "checked": "2026-10-28",
+            "note": "Listed as an active Democratic candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "party",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=1f2RMr3gR8FcmTMeqH3%2FrA%3D%3D",
+            "title": "Illinois State Board of Elections: Comptroller candidates",
+            "checked": "2026-10-28",
+            "note": "Democratic printed-ballot candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "role",
+            "url": "https://my.ilga.gov/House/members/details/3384",
+            "title": "Illinois General Assembly: Margaret Croke",
+            "checked": "2026-10-28",
+            "note": "Current member biography and committee list identify her district and committee chairmanship.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "hometown",
+            "url": "https://my.ilga.gov/House/members/details/3384",
+            "title": "Illinois General Assembly: Margaret Croke",
+            "checked": "2026-10-28",
+            "note": "Official biography says she lives in Chicago.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://crokeforillinois.com/priorities",
+            "title": "Margaret Croke campaign: Priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated comptroller platform; proposed actions, not completed achievements.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://my.ilga.gov/Legislation/BillStatus?DocNum=695&DocTypeID=HR&GAID=18&LegID=167973",
+            "title": "Illinois General Assembly: HR 695",
+            "checked": "2026-10-28",
+            "note": "Croke is chief sponsor; resolution adopted February 25, 2026.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO: 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "General-election list names Margaret Croke for Comptroller.",
+            "sourceType": "endorser"
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://my.ilga.gov/House/members/details/3384",
+            "title": "Illinois General Assembly: Margaret Croke",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder.",
+            "sourceType": "official record"
+          }
+        ],
+        "checked": "2026-10-28"
       },
       {
-        id: "bryan-drew",
-        name: "Bryan A. Drew",
-        party: "Republican",
-        role: "Managing Partner, Drew Law Group; Small Business Owner & Former Rend Lake College Board Chair",
-        hometown: "Benton (Franklin County / Southern Illinois), IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "BD",
-        fecRaised: "$141,000 ($115.9k Raised + $25.1k Loan)",
-        fecCashOnHand: "$54,236",
-        pacPolicy: "Downstate Business, Legal & County GOP Donors",
-        pacSummary: "Runs as an independent fiscal check against one-party rule, attacking Croke's reliance on Gov. Pritzker's money. Funded by Southern Illinois business owners, legal colleagues, and county GOP organizations.",
-        pacs: [
-          { name: "Southern Illinois Business & Legal Donors", type: "Business Donor Network", amount: "$85,000+", stance: "Supporting" },
-          { name: "Downstate Republican County Committees", type: "Party Committee", amount: "$30,000+", stance: "Supporting" }
+        "id": "bryan-drew",
+        "name": "Bryan Drew",
+        "party": "Republican",
+        "role": "Attorney, business owner and former chair of the Rend Lake College board, according to his campaign biography",
+        "hometown": "Benton area, Illinois",
+        "incumbentStatus": "Open Seat Nominee",
+        "photoInitials": "BD",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "budgetTaxes": "His campaign proposes reducing waste, independently scrutinizing state spending and making financial data easier for residents to understand. He would publish plain-language explanations of spending and support public oversight."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=1f2RMr3gR8FcmTMeqH3%2FrA%3D%3D",
+            "title": "Illinois State Board of Elections: Comptroller candidates",
+            "checked": "2026-10-28",
+            "note": "Listed as Bryan Drew, an active Republican candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "party",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=1f2RMr3gR8FcmTMeqH3%2FrA%3D%3D",
+            "title": "Illinois State Board of Elections: Comptroller candidates",
+            "checked": "2026-10-28",
+            "note": "Republican printed-ballot candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "role",
+            "url": "https://www.drewforillinois.com/about",
+            "title": "Bryan Drew campaign: Meet Bryan",
+            "checked": "2026-10-28",
+            "note": "Campaign biography describes legal work, business ownership and former Rend Lake College board role.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.drewforillinois.com/about",
+            "title": "Bryan Drew campaign: Meet Bryan",
+            "checked": "2026-10-28",
+            "note": "Campaign says he was born and raised in the Benton area and operates a Benton business.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.drewforillinois.com/transparency",
+            "title": "Bryan Drew campaign: Increase Transparency",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated plan for accessible expenditure data and public oversight.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.drewforillinois.com/affordability",
+            "title": "Bryan Drew campaign: Stop Government Waste",
+            "checked": "2026-10-28",
+            "note": "Candidate links reducing waste with lower costs for families.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.drewforillinois.com/accountability",
+            "title": "Bryan Drew campaign: Accountability",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated independent oversight position; accusations about opponents are not repeated as fact.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.drewforillinois.com/about",
+            "title": "Bryan Drew campaign: Meet Bryan",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder.",
+            "sourceType": "candidate campaign"
+          }
         ],
-        endorsements: ["Illinois Republican Party", "Southern Illinois County Chairs Coalition", "NFIB Supporters"],
-        issues: {
-          propertyTaxes: "Calls for auditing state unfunded mandates and capping state spending so revenue can be returned as property tax relief.",
-          safetAct: "Supports repealing cashless bail provisions and restoring judicial detention authority.",
-          budgetTaxes: "Campaigns on 'A Check on One-Party Rule': argues Illinois taxpayers cannot afford a Comptroller bankrolled by Gov. Pritzker to audit Pritzker's $53B+ budget; pledges line-item transparency on DHS migrant spending and DCEO no-bid grants.",
-          pensions: "Supports auditing state pension payouts and vendor contracts to protect taxpayers and public retirees.",
-          energyGrid: "Southern Illinois native who warns that CEJA power-plant closures are devastating downstate coal communities and spiking Ameren electric rates.",
-          transit: "Condemns the diversion of statewide Road Fund interest to bail out Chicago's NITA/CTA transit system.",
-          healthcare: "Opposes state taxpayer funding for undocumented immigrant healthcare.",
-          education: "Former Rend Lake College Board Chair; champions community college vocational training and school choice."
-        }
+        "checked": "2026-10-28"
+      },
+      {
+        "id": "anna-schiefelbein",
+        "name": "Anna Schiefelbein",
+        "party": "Green",
+        "role": "Comptroller write-in candidate",
+        "hometown": "Woodridge, Illinois",
+        "incumbentStatus": "Write-in candidate; confirm eligibility with your election authority",
+        "photoInitials": "AS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "budgetTaxes": "In her candidate statement published by the Illinois Green Party, she calls for fiscal accountability and ending state investment restrictions on companies that choose to boycott.",
+          "energyGrid": "Her candidate platform calls for investment relationships that account for environmental protection."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: general election filings",
+            "checked": "2026-10-28",
+            "note": "Anna Schiefelbein has an active September 2, 2026 Comptroller filing.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "role",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Lists Anna Schiefelbein as an Illinois Comptroller write-in candidate. County eligibility must be confirmed.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "party",
+            "url": "https://www.ilgp.org/gogreen2026/",
+            "title": "Illinois Green Party: 2026 candidates",
+            "checked": "2026-10-28",
+            "note": "Party publishes Schiefelbein as its Comptroller candidate.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.ilgp.org/gogreen2026/",
+            "title": "Illinois Green Party: Anna Schiefelbein statement",
+            "checked": "2026-10-28",
+            "note": "Candidate says she resides in Woodridge.",
+            "sourceType": "candidate statement"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.ilgp.org/gogreen2026/",
+            "title": "Illinois Green Party: Anna Schiefelbein platform",
+            "checked": "2026-10-28",
+            "note": "Candidate-authored platform, attributed as a proposal.",
+            "sourceType": "candidate statement"
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.ilgp.org/gogreen2026/",
+            "title": "Illinois Green Party: Anna Schiefelbein platform",
+            "checked": "2026-10-28",
+            "note": "Candidate-authored platform, attributed as a proposal.",
+            "sourceType": "candidate statement"
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Write-in status is documented separately from the printed-ballot nominees.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "isWriteIn",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Lists Anna Schiefelbein as an Illinois Comptroller write-in candidate. County eligibility must be confirmed.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "ballotNote",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Lists Anna Schiefelbein as an Illinois Comptroller write-in candidate. County eligibility must be confirmed.",
+            "sourceType": "candidate party"
+          }
+        ],
+        "checked": "2026-10-28",
+        "isWriteIn": true,
+        "ballotNote": "Write-in campaign documented in the St. Clair County Clerk filings and Illinois Green Party candidate statements. Not a printed-ballot nominee; confirm write-in eligibility with your own election authority."
       }
-    ]
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=1f2RMr3gR8FcmTMeqH3%2FrA%3D%3D",
+        "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+        "checked": "2026-10-28",
+        "note": "Active printed-ballot nominees. Green candidates in this filing list were removed July 14; subsequent write-in filings are documented separately.",
+        "sourceType": "official record"
+      },
+      {
+        "field": "candidates",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: 2026 general election candidate filings",
+        "checked": "2026-10-28",
+        "note": "County official list confirms Croke, Drew, Frerichs, Solomon and later September write-in filings for Schiefelbein and Papas.",
+        "sourceType": "official record"
+      },
+      {
+        "field": "incumbent",
+        "url": "https://www.illinoistreasurer.gov/home/individuals/my-illinois-savings/secure-choice-board-page/",
+        "title": "Illinois Secure Choice Savings Board",
+        "checked": "2026-10-28",
+        "note": "Official current board page identifies the designee for Comptroller Susana Mendoza.",
+        "sourceType": "official record"
+      }
+    ],
+    "checked": "2026-10-28",
+    "coverageNote": "Printed nominees and the documented write-in campaign shown. Write-in qualification can differ by election authority; confirm eligibility locally. This is not an exhaustive statewide write-in certification list."
   },
   {
-    id: "il-treasurer-2026",
-    level: "statewide",
-    office: "State Treasurer of Illinois",
-    districtCode: "IL-TREAS",
-    districtName: "Statewide Chief Investment Officer & Administrator of Bright Start / Secure Choice / I-CASH",
-    region: "Statewide",
-    counties: ["All 102 Illinois Counties"],
-    cities: ["All Illinois Municipalities"],
-    pvi: "D+7",
-    rating: "Solid Democratic",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Mike Frerichs (D)",
-    primarySummary: "Three-term incumbent State Treasurer Mike Frerichs (D) seeks a fourth term against Hazel Crest attorney and political science adjunct professor Max Solomon (R) and Green Party write-in Timi Papas.",
-    candidates: [
+    "id": "il-treasurer-2026",
+    "level": "statewide",
+    "office": "Illinois Treasurer",
+    "districtCode": "IL-TREAS",
+    "districtName": "Statewide",
+    "region": "Statewide",
+    "counties": [
+      "All 102 Illinois Counties"
+    ],
+    "cities": [
+      "All Illinois Municipalities"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Michael W. Frerichs",
+    "candidates": [
       {
-        id: "mike-frerichs",
-        name: "Mike Frerichs",
-        party: "Democrat",
-        role: "State Treasurer of Illinois (2015-present); Former State Senator (SD-52) & Champaign County Auditor",
-        hometown: "Champaign (Champaign County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "MF",
-        fecRaised: "$2,400,000+ (Cycle)",
-        fecCashOnHand: "$1,741,569",
-        pacPolicy: "Backed by Labor Unions, Police/Firefighter Associations & Financial PACs",
-        pacSummary: "Enters the general election with $1.74M cash on hand and $0 debt. Endorsed and funded by IUOE Local 150, SEIU, Illinois AFL-CIO, IEA, IFT, Associated Fire Fighters of Illinois, Fraternal Order of Police, and financial PACs.",
-        pacs: [
-          { name: "IUOE Local 150, IBEW, LIUNA & Building Trades", type: "Labor PAC", amount: "$320,000+", stance: "Supporting" },
-          { name: "Illinois AFL-CIO, SEIU, IEA & IFT PACs", type: "Labor PAC", amount: "$290,000+", stance: "Supporting" },
-          { name: "Associated Fire Fighters of IL (AFFI) & Police Unions", type: "Labor PAC", amount: "$65,000+", stance: "Supporting" },
-          { name: "Financial Services & Venture Capital PACs", type: "Corporate PAC", amount: "$180,000+", stance: "Supporting" }
+        "id": "mike-frerichs",
+        "name": "Michael W. Frerichs",
+        "party": "Democrat",
+        "role": "Illinois State Treasurer",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "MF",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO (2026 general election)"
         ],
-        endorsements: ["Illinois AFL-CIO", "IUOE Local 150", "Associated Fire Fighters of Illinois", "Fraternal Order of Police", "IEA", "IFT"],
-        issues: {
-          propertyTaxes: "Chaired the consolidation of 650+ suburban and downstate police and firefighter pension funds into two statewide investment boards, boosting investment returns by hundreds of millions to lower local municipal property tax levies.",
-          safetAct: "Supports balanced public safety funding alongside law enforcement pension stability.",
-          budgetTaxes: "Touts generating over $2 billion in investment earnings for state and local governments via Illinois Funds and returning a record $2B+ in unclaimed property through I-CASH.",
-          pensions: "Administers Illinois Secure Choice (auto-IRA retirement savings program for 150,000+ private-sector workers without employer 401ks) and supports Tier 2 Safe Harbor fixes.",
-          energyGrid: "Champions the Illinois Sustainable Investing Act (integrating ESG climate and governance risk metrics into the state's $60B portfolio) and low-interest Ag Invest loans for clean farm equipment.",
-          transit: "Supports municipal infrastructure investment pools that lower borrowing costs for local transit and road districts.",
-          healthcare: "Expanded Illinois ABLE tax-advantaged savings accounts for residents with disabilities.",
-          education: "Slashed fees and earned Morningstar Gold ratings for the Bright Start 529 college savings program ($18B+ in assets)."
-        }
+        "issues": {
+          "budgetTaxes": "His office publishes investment and financial information through The Vault and operates the ICash unclaimed-property program.",
+          "pensions": "His office facilitates retirement saving for workers without employer plans. Illinois Secure Choice became My Illinois Savings on June 15, 2026, with lower fees and updated technology.",
+          "energyGrid": "In his official investment statement, Frerichs supports considering financially material climate, labor and governance risks as part of fiduciary investment decisions.",
+          "healthcare": "His office administers Illinois ABLE accounts. In March 2026 he welcomed the federal eligibility expansion to people whose disability began before age 46.",
+          "education": "He administers Bright Start and Bright Directions education savings plans. His office announced lower fees, updated account tools and a Bright Directions mobile app in its May 2026 program update."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=b3l9OOoBLkg7y%2BGNymT1vw%3D%3D",
+            "title": "Illinois State Board of Elections: Treasurer candidates",
+            "checked": "2026-10-28",
+            "note": "Listed as Michael W. Frerichs, active Democratic candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "party",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=b3l9OOoBLkg7y%2BGNymT1vw%3D%3D",
+            "title": "Illinois State Board of Elections: Treasurer candidates",
+            "checked": "2026-10-28",
+            "note": "Democratic printed-ballot candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "role",
+            "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
+            "title": "Illinois State Treasurer: Office overview",
+            "checked": "2026-10-28",
+            "note": "Official office identifies Michael Frerichs as Treasurer.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
+            "title": "Illinois State Treasurer: Office overview",
+            "checked": "2026-10-28",
+            "note": "Official office describes The Vault investment transparency tool.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.illinoistreasurer.gov/",
+            "title": "Illinois State Treasurer: Programs",
+            "checked": "2026-10-28",
+            "note": "Official site describes ICash unclaimed-property services.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "issues.pensions",
+            "url": "https://www.illinoistreasurer.gov/news/illinois-treasurer-michael-frerichs-relaunches-state-retirement-program-for-small-businesses-with-lower-fees-and-new-name/",
+            "title": "Treasurer: My Illinois Savings relaunch",
+            "checked": "2026-10-28",
+            "note": "May 6, 2026 announcement documents June 15 relaunch, lower fees and updated technology.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://illinoistreasurer.gov/home/office-of-the-treasurer/raising-the-bar/sustainable-investing/",
+            "title": "Treasurer Frerichs: Sustainable investing statement",
+            "checked": "2026-10-28",
+            "note": "Official signed statement explains his investment approach.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.illinoistreasurer.gov/news/state-treasurer-frerichs-announces-250000-more-illinoisans-with-disabilities-eligible-for-able-accounts/",
+            "title": "Treasurer: ABLE eligibility expansion",
+            "checked": "2026-10-28",
+            "note": "March 9, 2026 announcement attributes expanded eligibility to a federal law change, not unilateral action by Frerichs.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "issues.education",
+            "url": "https://illinoistreasurer.gov/news/in-observance-of-national-529-day-illinois-treasurer-michael-frerichs-encourages-families-to-save-for-higher-education-costs/",
+            "title": "Treasurer: May 29, 2026 college savings update",
+            "checked": "2026-10-28",
+            "note": "Describes Bright Start/Bright Directions administration and lower fees and improved tools.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO: 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "General-election list names Michael Frerichs for Treasurer.",
+            "sourceType": "endorser"
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
+            "title": "Illinois State Treasurer: Office overview",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder.",
+            "sourceType": "official record"
+          }
+        ],
+        "checked": "2026-10-28"
       },
       {
-        id: "max-solomon",
-        name: "Max Solomon",
-        party: "Republican",
-        role: "Attorney, College Political Science Adjunct Professor & Ordained Minister",
-        hometown: "Hazel Crest (South Suburban Cook County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "MS",
-        fecRaised: "$22,000",
-        fecCashOnHand: "$7,167",
-        pacPolicy: "Grassroots & Self-Funded Conservative",
-        pacSummary: "Legal immigrant from Nigeria (arrived 1992) running a grassroots campaign with $7,167 cash on hand, backed by South Suburban and downstate GOP groups and Illinois Family Action.",
-        pacs: [
-          { name: "South Suburban & County GOP Organizations", type: "Party Committee", amount: "Grassroots Support", stance: "Supporting" },
-          { name: "Illinois Family Action", type: "Ideological PAC", amount: "Endorsed", stance: "Supporting" }
+        "id": "max-solomon",
+        "name": "Max Solomon",
+        "party": "Republican",
+        "role": "Attorney and adjunct instructor, according to his campaign biography",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "MS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Family Action (2026 general election)"
         ],
-        endorsements: ["Bremen Township GOP", "Illinois Family Action"],
-        issues: {
-          propertyTaxes: "Campaigns on a statewide property tax freeze, arguing Illinois has a spending problem rather than a revenue problem.",
-          safetAct: "Calls for repealing cashless bail under the SAFE-T Act and backing suburban police.",
-          budgetTaxes: "Proposes a real-time public dashboard showing every state investment and management fee paid to Wall Street firms, and pledges to deposit more state linked-deposit funds into local community banks across all 102 counties.",
-          pensions: "Opposes using public pension and treasury funds for political activism; demands strict actuarial returns.",
-          energyGrid: "Pledges to immediately strip 'woke ESG' mandates from the Treasurer's $60B investment portfolio and invest freely in American oil, natural gas, coal, and defense companies.",
-          transit: "Opposes state tax hikes or Road Fund diversions for transit agencies.",
-          healthcare: "Pro-life minister; opposes taxpayer funding for abortion.",
-          education: "Supports expanding 529 savings accounts to cover K-12 private, parochial, and homeschool tuition expenses."
-        }
+        "issues": {
+          "budgetTaxes": "His campaign proposes a public investment dashboard, diversified investments with fiduciary safeguards, and deposits in community banks and credit unions across Illinois.",
+          "education": "His campaign supports strengthening Bright Start and Bright Directions college savings and financial-literacy programs."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=b3l9OOoBLkg7y%2BGNymT1vw%3D%3D",
+            "title": "Illinois State Board of Elections: Treasurer candidates",
+            "checked": "2026-10-28",
+            "note": "Listed as Max Solomon, active Republican candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "party",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=b3l9OOoBLkg7y%2BGNymT1vw%3D%3D",
+            "title": "Illinois State Board of Elections: Treasurer candidates",
+            "checked": "2026-10-28",
+            "note": "Republican printed-ballot candidate.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "role",
+            "url": "https://maxsolomon.info/",
+            "title": "Max Solomon campaign: Biography",
+            "checked": "2026-10-28",
+            "note": "Campaign describes him as an attorney and adjunct political science and law instructor.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://maxsolomon.info/",
+            "title": "Max Solomon campaign: Financial roadmap",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated transparency, investment and local deposit proposals.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "issues.education",
+            "url": "https://maxsolomon.info/",
+            "title": "Max Solomon campaign: Education funding and priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate supports college savings and financial literacy; no claim of K-12 voucher support is inferred.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://maxsolomon.info/",
+            "title": "Max Solomon campaign: Biography",
+            "checked": "2026-10-28",
+            "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder.",
+            "sourceType": "candidate campaign"
+          },
+          {
+            "field": "endorsements",
+            "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "published": "2026-10-26",
+            "note": "Lists Max Solomon as endorsed."
+          }
+        ],
+        "checked": "2026-10-28"
+      },
+      {
+        "id": "timothea-papas",
+        "name": "Timothea Papas",
+        "party": "Green",
+        "role": "Treasurer write-in candidate",
+        "hometown": "",
+        "incumbentStatus": "Write-in candidate; confirm eligibility with your election authority",
+        "photoInitials": "TP",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "budgetTaxes": "In her candidate statement published by the Illinois Green Party, she calls for accountable public investment and a two-term limit for the Treasurer.",
+          "pensions": "Her candidate platform supports making required pension payments and a financial-transactions tax to increase state revenue."
+        },
+        "evidence": [
+          {
+            "field": "name",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: general election filings",
+            "checked": "2026-10-28",
+            "note": "Timothea Papas has an active September 2, 2026 Treasurer filing.",
+            "sourceType": "official record"
+          },
+          {
+            "field": "role",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Lists Timi Papas as an Illinois Treasurer write-in candidate. County eligibility must be confirmed.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "party",
+            "url": "https://www.ilgp.org/gogreen2026/",
+            "title": "Illinois Green Party: 2026 candidates",
+            "checked": "2026-10-28",
+            "note": "Party publishes Timothea Papas as its Treasurer candidate.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.ilgp.org/gogreen2026/",
+            "title": "Illinois Green Party: Timi Papas platform",
+            "checked": "2026-10-28",
+            "note": "Candidate-authored proposals; speculative allegations and financial amounts are not reproduced.",
+            "sourceType": "candidate statement"
+          },
+          {
+            "field": "issues.pensions",
+            "url": "https://www.ilgp.org/gogreen2026/",
+            "title": "Illinois Green Party: Timi Papas platform",
+            "checked": "2026-10-28",
+            "note": "Candidate-authored proposal for pension payments and a LaSalle Street tax.",
+            "sourceType": "candidate statement"
+          },
+          {
+            "field": "incumbentStatus",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Write-in status is documented separately from the printed-ballot nominees.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "isWriteIn",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Lists Timi Papas as an Illinois Treasurer write-in candidate. County eligibility must be confirmed.",
+            "sourceType": "candidate party"
+          },
+          {
+            "field": "ballotNote",
+            "url": "https://www.gpelections.org/election-history/write-ins/",
+            "title": "Green Party of the United States: 2026 write-in campaigns",
+            "checked": "2026-10-28",
+            "note": "Lists Timi Papas as an Illinois Treasurer write-in candidate. County eligibility must be confirmed.",
+            "sourceType": "candidate party"
+          }
+        ],
+        "checked": "2026-10-28",
+        "isWriteIn": true,
+        "ballotNote": "Write-in campaign documented in the St. Clair County Clerk filings and Illinois Green Party candidate statements. Not a printed-ballot nominee; confirm write-in eligibility with your own election authority."
       }
-    ]
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=b3l9OOoBLkg7y%2BGNymT1vw%3D%3D",
+        "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+        "checked": "2026-10-28",
+        "note": "Active printed-ballot nominees. Green candidates in this filing list were removed July 14; subsequent write-in filings are documented separately.",
+        "sourceType": "official record"
+      },
+      {
+        "field": "candidates",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: 2026 general election candidate filings",
+        "checked": "2026-10-28",
+        "note": "County official list confirms Croke, Drew, Frerichs, Solomon and later September write-in filings for Schiefelbein and Papas.",
+        "sourceType": "official record"
+      },
+      {
+        "field": "incumbent",
+        "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
+        "title": "Illinois State Treasurer: Office overview",
+        "checked": "2026-10-28",
+        "note": "Current official officeholder.",
+        "sourceType": "official record"
+      }
+    ],
+    "checked": "2026-10-28",
+    "coverageNote": "Printed nominees and the documented write-in campaign shown. Write-in qualification can differ by election authority; confirm eligibility locally. This is not an exhaustive statewide write-in certification list."
   }
 ];

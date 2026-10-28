@@ -1,0 +1,367 @@
+{
+  "cook-president": [
+    {
+      "id": "cook-president",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-PRES"
+    }
+  ],
+  "cook-assessor": [
+    {
+      "id": "cook-assessor",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-ASSESSOR"
+    }
+  ],
+  "cook-sheriff-clerk-treasurer": [
+    {
+      "id": "cook-sheriff",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-SHERIFF"
+    },
+    {
+      "id": "cook-clerk",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-CLERK"
+    },
+    {
+      "id": "cook-treasurer",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-TREASURER"
+    }
+  ],
+  "cook-board-review-2": [
+    {
+      "id": "cook-board-review-2",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-BOR-2"
+    }
+  ],
+  "cook-comm-17": [
+    {
+      "id": "cook-comm-17",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-17"
+    },
+    {
+      "id": "cook-comm-10",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-10"
+    },
+    {
+      "id": "cook-comm-16",
+      "counties": [
+        "Cook"
+      ],
+      "districtCode": "COOK-16"
+    }
+  ],
+  "dupage-county-2026": [
+    {
+      "id": "dupage-board-chair",
+      "counties": [
+        "DuPage"
+      ],
+      "districtCode": "DUPAGE-BOARD-CHAIR"
+    },
+    {
+      "id": "dupage-sheriff",
+      "counties": [
+        "DuPage"
+      ],
+      "districtCode": "DUPAGE-SHERIFF"
+    },
+    {
+      "id": "dupage-clerk",
+      "counties": [
+        "DuPage"
+      ],
+      "districtCode": "DUPAGE-CLERK"
+    },
+    {
+      "id": "dupage-treasurer",
+      "counties": [
+        "DuPage"
+      ],
+      "districtCode": "DUPAGE-TREASURER"
+    }
+  ],
+  "lake-county-2026": [
+    {
+      "id": "lake-clerk",
+      "counties": [
+        "Lake"
+      ],
+      "districtCode": "LAKE-CLERK"
+    },
+    {
+      "id": "lake-treasurer",
+      "counties": [
+        "Lake"
+      ],
+      "districtCode": "LAKE-TREASURER"
+    },
+    {
+      "id": "lake-sheriff",
+      "counties": [
+        "Lake"
+      ],
+      "districtCode": "LAKE-SHERIFF"
+    }
+  ],
+  "will-county-2026": [
+    {
+      "id": "will-clerk",
+      "counties": [
+        "Will"
+      ],
+      "districtCode": "WILL-CLERK"
+    },
+    {
+      "id": "will-sheriff",
+      "counties": [
+        "Will"
+      ],
+      "districtCode": "WILL-SHERIFF"
+    },
+    {
+      "id": "will-treasurer",
+      "counties": [
+        "Will"
+      ],
+      "districtCode": "WILL-TREASURER"
+    }
+  ],
+  "kane-county-2026": [
+    {
+      "id": "kane-sheriff",
+      "counties": [
+        "Kane"
+      ],
+      "districtCode": "KANE-SHERIFF"
+    },
+    {
+      "id": "kane-clerk",
+      "counties": [
+        "Kane"
+      ],
+      "districtCode": "KANE-CLERK"
+    },
+    {
+      "id": "kane-treasurer",
+      "counties": [
+        "Kane"
+      ],
+      "districtCode": "KANE-TREASURER"
+    }
+  ],
+  "mchenry-county-2026": [
+    {
+      "id": "mchenry-sheriff",
+      "counties": [
+        "McHenry"
+      ],
+      "districtCode": "MCHENRY-SHERIFF"
+    },
+    {
+      "id": "mchenry-clerk",
+      "counties": [
+        "McHenry"
+      ],
+      "districtCode": "MCHENRY-CLERK"
+    },
+    {
+      "id": "mchenry-treasurer",
+      "counties": [
+        "McHenry"
+      ],
+      "districtCode": "MCHENRY-TREASURER"
+    }
+  ],
+  "sangamon-county-2026": [
+    {
+      "id": "sangamon-county-2026",
+      "counties": [
+        "Sangamon"
+      ],
+      "districtCode": "SANGAMON-COUNTY-2026"
+    }
+  ],
+  "winnebago-peoria-2026": [
+    {
+      "id": "winnebago-sheriff",
+      "counties": [
+        "Winnebago"
+      ],
+      "districtCode": "WINNEBAGO-SHERIFF"
+    },
+    {
+      "id": "peoria-clerk",
+      "counties": [
+        "Peoria"
+      ],
+      "districtCode": "PEORIA-CLERK"
+    }
+  ],
+  "champaign-mclean-2026": [
+    {
+      "id": "champaign-clerk",
+      "counties": [
+        "Champaign"
+      ],
+      "districtCode": "CHAMPAIGN-CLERK"
+    },
+    {
+      "id": "champaign-executive",
+      "counties": [
+        "Champaign"
+      ],
+      "districtCode": "CHAMPAIGN-EXECUTIVE"
+    },
+    {
+      "id": "champaign-treasurer",
+      "counties": [
+        "Champaign"
+      ],
+      "districtCode": "CHAMPAIGN-TREASURER"
+    },
+    {
+      "id": "champaign-sheriff",
+      "counties": [
+        "Champaign"
+      ],
+      "districtCode": "CHAMPAIGN-SHERIFF"
+    },
+    {
+      "id": "mclean-clerk",
+      "counties": [
+        "McLean"
+      ],
+      "districtCode": "MCLEAN-CLERK"
+    },
+    {
+      "id": "mclean-sheriff",
+      "counties": [
+        "McLean"
+      ],
+      "districtCode": "MCLEAN-SHERIFF"
+    },
+    {
+      "id": "mclean-treasurer",
+      "counties": [
+        "McLean"
+      ],
+      "districtCode": "MCLEAN-TREASURER"
+    }
+  ],
+  "metro-east-quad-south-2026": [
+    {
+      "id": "madison-clerk-and-recorder",
+      "counties": [
+        "Madison"
+      ],
+      "districtCode": "MADISON-CLERK-AND-RECORDER"
+    },
+    {
+      "id": "madison-sheriff",
+      "counties": [
+        "Madison"
+      ],
+      "districtCode": "MADISON-SHERIFF"
+    },
+    {
+      "id": "madison-treasurer",
+      "counties": [
+        "Madison"
+      ],
+      "districtCode": "MADISON-TREASURER"
+    },
+    {
+      "id": "st-clair-clerk",
+      "counties": [
+        "St. Clair"
+      ],
+      "districtCode": "ST-CLAIR-CLERK"
+    },
+    {
+      "id": "st-clair-treasurer",
+      "counties": [
+        "St. Clair"
+      ],
+      "districtCode": "ST-CLAIR-TREASURER"
+    },
+    {
+      "id": "st-clair-sheriff",
+      "counties": [
+        "St. Clair"
+      ],
+      "districtCode": "ST-CLAIR-SHERIFF"
+    },
+    {
+      "id": "rock-island-clerk",
+      "counties": [
+        "Rock Island"
+      ],
+      "districtCode": "ROCK-ISLAND-CLERK"
+    },
+    {
+      "id": "rock-island-sheriff",
+      "counties": [
+        "Rock Island"
+      ],
+      "districtCode": "ROCK-ISLAND-SHERIFF"
+    },
+    {
+      "id": "rock-island-treasurer",
+      "counties": [
+        "Rock Island"
+      ],
+      "districtCode": "ROCK-ISLAND-TREASURER"
+    },
+    {
+      "id": "jackson-clerk",
+      "counties": [
+        "Jackson"
+      ],
+      "districtCode": "JACKSON-CLERK"
+    },
+    {
+      "id": "jackson-sheriff",
+      "counties": [
+        "Jackson"
+      ],
+      "districtCode": "JACKSON-SHERIFF"
+    },
+    {
+      "id": "jackson-treasurer",
+      "counties": [
+        "Jackson"
+      ],
+      "districtCode": "JACKSON-TREASURER"
+    },
+    {
+      "id": "jackson-assessor",
+      "counties": [
+        "Jackson"
+      ],
+      "districtCode": "JACKSON-ASSESSOR"
+    }
+  ],
+  "il-ballot-referendums-2026": []
+}

@@ -6,7 +6,8 @@ const source = await fs.readFile(new URL("../api/fec-live.js", import.meta.url),
 const { fetchFecRecords, default: handler } = await import("data:text/javascript;base64," + Buffer.from(source).toString("base64"));
 
 const candidate = number => ({ candidate_id: "H6IL" + String(number).padStart(5, "0"),
-  office: "H", name: "CANDIDATE, " + number, receipts: 100, cash_on_hand_end_period: "50.25" });
+  office: "H", name: "CANDIDATE, " + number, state: "IL", cycle: 2026, two_year_period: 2026,
+  coverage_start_date: "2025-01-01", coverage_end_date: "2026-10-14", receipts: 100, cash_on_hand_end_period: "50.25" });
 const payload = (page, records, count, pages) => ({ results: records, pagination: { page, count, pages } });
 const response = body => ({ ok: true, json: async () => body });
 
@@ -15,6 +16,8 @@ test("fetches every page with encoded key and bounded request signal", async () 
   const records = await fetchFecRecords("fixture&key+only", async (url, options) => {
     const query = new URL(url).searchParams;
     assert.equal(query.get("api_key"), "fixture&key+only");
+    assert.equal(query.get("election_full"), "false");
+    assert.equal(query.get("cycle"), "2026");
     assert(options.signal instanceof AbortSignal);
     const page = Number(query.get("page"));
     requested.push(page);
@@ -33,6 +36,13 @@ test("rejects malformed, duplicate and partial records", async () => {
     if (new URL(url).searchParams.get("page") === "1") return response(payload(1, [candidate(1)], 2, 2));
     throw new Error("fixture network failure");
   }));
+});
+
+test("rejects mismatched reporting scope and invalid filing dates", async () => {
+  for (const change of [{state:"CA"}, {cycle:2024}, {two_year_period:2024},
+    {coverage_end_date:"2026-02-30"}, {coverage_start_date:"2027-01-01"}]) {
+    await assert.rejects(fetchFecRecords("fixture-key", async () => response(payload(1,[{...candidate(1),...change}],1,1))));
+  }
 });
 
 function mockResponse() {

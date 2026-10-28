@@ -1,5 +1,7 @@
 # Redesign verification · October 27, 2026
 
+Historical report for the design release. Candidate research and finance were subsequently audited on October 28; see FACT_CHECK.md and the audit reports for the current data, alignment methodology and validation.
+
 ## Result
 
 214 automated browser/data checks passed; zero failed on the final built site. Eight separate offline FEC regression tests passed. Twelve focused modal regressions also passed after a WebKit focus-timing repair. The final source bundle passes Node syntax validation and git diff --check.

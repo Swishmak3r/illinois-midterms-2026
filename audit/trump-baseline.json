@@ -1,0 +1,62 @@
+[
+  {
+    "id": "laken-riley",
+    "bill": "S.5 (119th Congress)",
+    "title": "Laken Riley Act: expanded immigration detention",
+    "trumpStance": "support",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-Laken-Riley-1.22.25.pdf",
+    "sourceTitle": "OMB Statement of Administration Policy — S.5, Laken Riley Act",
+    "published": "2025-01-22",
+    "note": "The administration explicitly supported enactment of S.5 and recommended presidential signature. Use the final House passage of S.5 on January 22, 2025 (roll call 23), not the earlier H.R.29 vote. The statute expands mandatory detention for certain noncitizens accused of specified crimes and gives states additional standing to sue."
+  },
+  {
+    "id": "save-act",
+    "bill": "H.R.22 (119th Congress)",
+    "title": "SAVE Act: documentary citizenship proof for federal voter registration",
+    "trumpStance": "support",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-HR22.pdf",
+    "sourceTitle": "OMB Statement of Administration Policy — H.R.22, SAVE Act",
+    "published": "2025-04-08",
+    "note": "The administration explicitly supported passage of H.R.22, including a documentary proof-of-citizenship requirement for federal voter registration, and recommended presidential signature. Do not confuse this 2025 bill with the separate 2026 SAVE America Act."
+  },
+  {
+    "id": "reconciliation-2025",
+    "bill": "H.R.1 (119th Congress), final Senate amendment",
+    "title": "2025 tax and spending reconciliation package",
+    "trumpStance": "support",
+    "url": "https://www.whitehouse.gov/releases/2025/07/president-trumps-one-big-beautiful-bill-is-now-the-law/",
+    "sourceTitle": "White House — President Trump’s One Big Beautiful Bill Is Now the Law",
+    "published": "2025-07-04",
+    "note": "The White House confirms Trump's signature and support for the final tax, spending, immigration and energy package. Count the package once, using the final July 3 House concurrence (roll call 190); a package vote does not establish a separate position on every provision."
+  },
+  {
+    "id": "rescissions-2025",
+    "bill": "H.R.4 (119th Congress), June House version",
+    "title": "2025 rescissions package: foreign assistance and public broadcasting",
+    "trumpStance": "support",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-on-H.R.-4.pdf",
+    "sourceTitle": "OMB Statement of Administration Policy — H.R.4, Rescissions Act of 2025",
+    "published": "2025-06-10",
+    "note": "The administration explicitly supported the June House bill matching its $9.4 billion rescission request, including foreign assistance and Corporation for Public Broadcasting funds. Use the standalone June 12 passage vote (roll call 168) and label this version; July approval of the amended bill was embedded in the broader H.Res.590 rule."
+  },
+  {
+    "id": "methane-rule",
+    "bill": "H.J.Res.35 (119th Congress)",
+    "title": "Repeal of the EPA methane Waste Emissions Charge implementation rule",
+    "trumpStance": "support",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-HJRes-35.pdf",
+    "sourceTitle": "OMB Statement of Administration Policy — H.J.Res.35",
+    "published": "2025-02-24",
+    "note": "The administration explicitly supported congressional disapproval of EPA's rule implementing the oil-and-gas Waste Emissions Charge and recommended signature. This measure disapproved the implementation rule; avoid describing it as a vote about all climate policy."
+  },
+  {
+    "id": "california-waiver",
+    "bill": "H.J.Res.88 (119th Congress)",
+    "title": "Disapproval of California's Advanced Clean Cars II emissions waiver",
+    "trumpStance": "support",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-HJR-87-88-89.pdf",
+    "sourceTitle": "OMB Statement of Administration Policy — H.J.Res.87, 88 and 89",
+    "published": "2025-04-28",
+    "note": "The administration explicitly supported H.J.Res.88, together with two related waiver resolutions. This score uses only H.J.Res.88, covering the Advanced Clean Cars II waiver; it does not count the companion resolutions again."
+  }
+]

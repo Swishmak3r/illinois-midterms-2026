@@ -19,8 +19,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 ENDPOINT = "https://api.open.fec.gov/v1/candidates/totals/"
 MAX_PAGES = 20
 FIELDS = (
-    "candidate_id", "name", "office", "district", "party", "receipts",
-    "disbursements", "cash_on_hand_end_period", "coverage_end_date",
+    "candidate_id", "name", "office", "district", "party", "state", "cycle",
+    "two_year_period", "receipts", "disbursements", "cash_on_hand_end_period",
+    "coverage_start_date", "coverage_end_date",
 )
 
 
@@ -32,7 +33,7 @@ def fetch_records(api_key, opener=urlopen):
     page = 1
     while True:
         query = urlencode({
-            "state": "IL", "cycle": 2026, "election_full": "true",
+            "state": "IL", "cycle": 2026, "election_full": "false",
             "per_page": 100, "sort": "-receipts", "page": page, "api_key": api_key,
         })
         request = Request(ENDPOINT + "?" + query, headers={
@@ -59,6 +60,8 @@ def fetch_records(api_key, opener=urlopen):
             if (not isinstance(candidate_id, str)
                     or not re.fullmatch(r"[HSP][0-9][A-Z0-9]{7}", candidate_id)
                     or candidate_id in seen or row.get("office") != candidate_id[0]
+                    or row.get("state") != "IL" or row.get("cycle") != 2026
+                    or row.get("two_year_period") != 2026
                     or not isinstance(row.get("name"), str) or not row["name"].strip()):
                 raise ValueError("Missing, duplicated, or invalid candidate identity")
             record = {field: row.get(field) for field in FIELDS}
@@ -67,6 +70,15 @@ def fetch_records(api_key, opener=urlopen):
                 if value is not None:
                     if isinstance(value, bool) or not math.isfinite(float(value)):
                         raise ValueError("Invalid financial value")
+            for field in ("coverage_start_date", "coverage_end_date"):
+                value = record[field]
+                if value is not None:
+                    if not isinstance(value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+                        raise ValueError("Invalid filing coverage date")
+                    datetime.strptime(value, "%Y-%m-%d")
+            if (record["coverage_start_date"] and record["coverage_end_date"]
+                    and record["coverage_start_date"] > record["coverage_end_date"]):
+                raise ValueError("Reversed filing coverage dates")
             seen.add(candidate_id)
             records.append(record)
         if page == expected_pages:
@@ -82,9 +94,12 @@ def write_snapshot(records, output_path):
     output_path = Path(output_path)
     payload = {
         "lastAutomatedSync": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "source": "OpenFEC API (2026 federal candidate totals)",
-        "sourceUrl": "https://www.fec.gov/data/candidates/?election_year=2026&state=IL",
-        "cycle": 2026, "complete": True,
+        "source": "Federal Election Commission — reported candidate totals",
+        "sourceUrl": "https://www.fec.gov/data/candidates/?cycle=2026&election_full=false&state=IL",
+        "cycle": 2026, "electionFull": False,
+        "periodLabel": "2026 two-year reporting period",
+        "metricNote": "Receipts include contributions, loans, transfers and other receipts reported by authorized campaign committees. Cash is the ending balance at the stated coverage date. Outside spending is excluded.",
+        "complete": True,
         "recordCount": len(records), "records": records,
     }
     # The JSON is embedded in a script by build.py; prevent a name containing

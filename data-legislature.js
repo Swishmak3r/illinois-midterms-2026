@@ -1,1565 +1,4212 @@
-// 2026 Illinois Midterm Elections - State Legislature Dataset (State Senate & State House Across All Regions)
-// Chamber Balance Entering Election: Senate 40D-19R (39 of 59 up in 2026) | House 78D-40R (All 118 up in 2026)
-
+// Illinois legislative races reviewed against cited primary sources on 2026-10-28.
+// Selected-district coverage; source limitations are recorded in evidence and coverageNotes.
 window.IL_LEGISLATURE_RACES = [
-  // ================= LEGISLATIVE LEADERSHIP ("THE FOUR TOPS") =================
   {
-    id: "il-sen-39",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 39th District (President of the Senate)",
-    districtCode: "SD-39",
-    districtName: "39th Senate District (Oak Park, Elmwood Park, Franklin Park, Melrose Park, Northlake & Far West Chicago)",
-    region: "Suburban Cook & Chicago West Side",
-    counties: ["Cook"],
-    cities: ["Oak Park", "Elmwood Park", "Franklin Park", "Melrose Park", "Northlake", "Stone Park", "Schiller Park", "River Grove", "Chicago - Austin"],
-    pvi: "D+24",
-    rating: "Safe Democratic (Leadership)",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Don Harmon (D - President of the Illinois Senate)",
-    primarySummary: "Senate President Don Harmon (D) runs unopposed in the November 2026 general election while directing the Illinois Senate Democratic Fund (ISDF) across statewide battlegrounds.",
-    candidates: [
+    "id": "il-house-07",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 7th District",
+    "districtCode": "HD-7",
+    "districtName": "7th House District",
+    "region": "Western suburbs",
+    "counties": [
+      "Cook",
+      "DuPage"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Emanuel 'Chris' Welch (D)",
+    "evidence": [
       {
-        id: "don-harmon",
-        name: "Don Harmon",
-        party: "Democrat",
-        role: "President of the Illinois Senate (2020-present); State Senator (SD-39, 2003-present) & Attorney",
-        hometown: "Oak Park (Cook County), IL",
-        incumbentStatus: "Incumbent (Senate President)",
-        photoInitials: "DH",
-        fecRaised: "$14,200,000+ (Friends of Don Harmon + ISDF)",
-        fecCashOnHand: "$8,900,000+",
-        pacPolicy: "Controls Senate Democratic Campaign Apparatus (ISDF)",
-        pacSummary: "Chairs the Illinois Senate Democratic Fund (ISDF), the primary financial engine for Senate Democrats, funded by trial lawyers (ITLA), IUOE Local 150, teachers' unions (IFT, IEA), SEIU, IBEW, and Realtors RPAC.",
-        pacs: [
-          { name: "Illinois Senate Democratic Fund (ISDF)", type: "Party Committee", amount: "Controls $10M+ Caucus War Chest", stance: "Supporting" },
-          { name: "Illinois Trial Lawyers Association (ITLA PAC)", type: "Trade PAC", amount: "$500,000+ to Caucus", stance: "Supporting" },
-          { name: "IUOE Local 150, IBEW & LIUNA", type: "Labor PAC", amount: "$750,000+ to Caucus", stance: "Supporting" },
-          { name: "IFT, IEA/IPACE & SEIU Healthcare", type: "Labor PAC", amount: "$850,000+ to Caucus", stance: "Supporting" },
-          { name: "Personal PAC & Illinois Realtors RPAC", type: "Ideological PAC", amount: "$250,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Illinois AFL-CIO", "ITLA", "IUOE Local 150", "IEA", "IFT", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Supports expanding state Evidence-Based Funding (EBF) by $350M+ per year and reforming Cook County commercial-to-residential assessment rules to relieve Oak Park and West Suburban homeowners.",
-          safetAct: "Presided over Senate passage of the SAFE-T Act and subsequent trailer clarifications; defends ending cash bail while funding police training and violence prevention.",
-          budgetTaxes: "Architect of Illinois's 8 balanced budgets and Rainy Day Fund build-up; chief legislative champion of replacing the flat tax with a graduated income tax.",
-          pensions: "Supports actuarial fixes for Tier 2 Social Security Safe Harbor compliance while protecting the state's 9 credit rating upgrades.",
-          energyGrid: "Shepherded CEJA, the SMR nuclear moratorium lift, and the 2026 POWER Act framework requiring AI data centers to pay for grid upgrades.",
-          transit: "Engineered Senate passage of SB 2111 creating the Northern Illinois Transit Authority (NITA) with $1.5B in dedicated funding for CTA, Metra, and Pace.",
-          healthcare: "Championed Illinois's Reproductive Health Act, interstate provider shield laws, and prescription drug board oversight.",
-          education: "Supports public school EBF funding, early childhood Smart Start grants, and letting the Invest in Kids voucher tax credit expire."
-        }
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 general election official candidate listing",
+        "checked": "2026-10-28",
+        "note": "September 28 official listing identifies Emanuel Chris Welch as the sole listed candidate for House District 7."
       }
+    ],
+    "candidates": [
+      {
+        "id": "emanuel-chris-welch",
+        "name": "Emanuel 'Chris' Welch",
+        "party": "Democrat",
+        "role": "Speaker of the Illinois House; state representative for the 7th District since 2013; attorney.",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "CW",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO",
+          "Cook County College Teachers Union Local 1600"
+        ],
+        "issues": {
+          "budgetTaxes": "His June 2026 legislative statement supports freezing state gasoline taxes and a back-to-school sales-tax holiday, while closing corporate tax loopholes.",
+          "healthcare": "His June 2026 statement supports increased state investment in community health centers and safety-net hospitals in response to federal healthcare cuts.",
+          "education": "His June 2026 statement supports expanding free and reduced-price school lunches."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 general election official candidate listing",
+            "checked": "2026-10-28",
+            "note": "House District 7 Democratic candidate."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/house/members/details/3298",
+            "title": "Illinois General Assembly: Emanuel Chris Welch, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Current official roster identifies Speaker, 7th District service from January 2013 and attorney biography."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Organization's own general-election list endorses Welch for House District 7."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+            "title": "CCCTU Local 1600: November 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "September 22 updated list endorses Chris Welch for House District 7."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+            "title": "Speaker Welch: June 5, 2026 affordability and state budget statement",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities; source supports gasoline-tax freeze, school-sales-tax holiday and corporate loophole changes."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+            "title": "Speaker Welch: June 5, 2026 affordability and state budget statement",
+            "checked": "2026-10-28",
+            "note": "Supports investment in federally qualified health centers and safety-net hospitals; causal and numerical political claims omitted."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+            "title": "Speaker Welch: June 5, 2026 affordability and state budget statement",
+            "checked": "2026-10-28",
+            "note": "Statement identifies expanded free and reduced-cost school lunches as a budget priority."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-sen-41",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 41st District (Senate Minority Leader)",
-    districtCode: "SD-41",
-    districtName: "41st Senate District (Downers Grove, Lemont, Homer Glen, Burr Ridge, Darien, Woodridge & Willowbrook)",
-    region: "Collar Counties (DuPage, Will & SW Cook)",
-    counties: ["DuPage", "Will", "Cook"],
-    cities: ["Downers Grove", "Lemont", "Homer Glen", "Burr Ridge", "Woodridge", "Darien", "Willowbrook", "Lisle", "Hinsdale"],
-    pvi: "R+4",
-    rating: "Safe Republican (Leadership)",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "John Curran (R - Senate Minority Leader)",
-    primarySummary: "Senate Republican Leader John Curran (R) runs unopposed in the November 2026 general election, allowing him to focus SRCC/SRVF funds on top Senate battlegrounds like SD-48, SD-26, SD-33, and SD-56.",
-    candidates: [
+    "id": "il-house-18",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 18th District",
+    "districtCode": "HD-18",
+    "districtName": "18th House District",
+    "region": "Suburban Cook (North Shore)",
+    "counties": [
+      "Cook"
+    ],
+    "cities": [
+      "Evanston",
+      "Wilmette",
+      "Winnetka",
+      "Kenilworth",
+      "Glencoe",
+      "Northbrook",
+      "Glenview"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Robyn Gabel (D)",
+    "candidates": [
       {
-        id: "john-curran",
-        name: "John Curran",
-        party: "Republican",
-        role: "Senate Minority Leader (2023-present); State Senator (SD-41, 2017-present) & Former Cook County Prosecutor",
-        hometown: "Downers Grove (DuPage County), IL",
-        incumbentStatus: "Incumbent (Senate GOP Leader)",
-        photoInitials: "JC",
-        fecRaised: "$6,400,000+ (Citizens for Curran + SRCC/SRVF)",
-        fecCashOnHand: "$4,100,000+",
-        pacPolicy: "Controls Senate Republican Campaign Committee (SRCC/SRVF) + Bipartisan Trade PACs",
-        pacSummary: "Leads the Senate Republican Campaign Committee (SRCC); heavily backed by the Illinois Manufacturers' Association (IMA), Illinois Chamber, Realtors RPAC, and bipartisan building trades led by IUOE Local 150.",
-        pacs: [
-          { name: "Senate Republican Campaign Committee (SRCC / SRVF)", type: "Party Committee", amount: "Controls $4M+ Caucus Fund", stance: "Supporting" },
-          { name: "IUOE Local 150 (Operating Engineers)", type: "Labor PAC", amount: "$350,000+ to Curran/Caucus", stance: "Supporting" },
-          { name: "Illinois Manufacturers' Association (IMA) & IL Chamber", type: "Trade PAC", amount: "$450,000+", stance: "Supporting" },
-          { name: "Illinois Realtors RPAC", type: "Trade PAC", amount: "$220,000+", stance: "Supporting" }
+        "id": "robyn-gabel",
+        "name": "Robyn Gabel",
+        "party": "Democrat",
+        "role": "Illinois House Majority Leader; state representative for District 18 since 2010",
+        "hometown": "Evanston, IL",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "RG",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Council 31"
         ],
-        endorsements: ["IUOE Local 150", "Illinois Manufacturers' Association", "Illinois Chamber of Commerce", "Illinois Realtors"],
-        issues: {
-          propertyTaxes: "Proposes dollar-for-dollar property tax relief tied to state revenue growth, hard local levy caps, and eliminating unfunded state mandates on DuPage and Will County schools.",
-          safetAct: "Former prosecutor who calls for expanding detainable offenses under the SAFE-T Act and restoring judicial discretion to hold repeat offenders.",
-          budgetTaxes: "Criticizes the $15B+ growth in state spending since 2019; opposes progressive tax hikes and calls for Eliminating non-citizen healthcare spending.",
-          pensions: "Supports targeted Tier 2 Safe Harbor compliance fixes for police and firefighters while opposing unfunded $40B pension sweeteners.",
-          energyGrid: "Co-sponsored lifting Illinois's nuclear moratorium; warns that premature coal and natural gas plant closures under CEJA threaten grid reliability.",
-          transit: "Opposes diverting suburban Road Fund interest to bail out the CTA without strict governance parity for suburban Metra and Pace riders.",
-          healthcare: "Focuses on behavioral health access, hospital stability, and developmental disability funding.",
-          education: "Supports Evidence-Based Funding alongside reviving the Invest in Kids tax-credit scholarship program for working families."
-        }
-      }
-    ]
-  },
-  {
-    id: "il-house-07",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 7th District (Speaker of the House)",
-    districtCode: "HD-7",
-    districtName: "7th House District (Maywood, Hillside, Westchester, Bellwood, Forest Park, Oak Park & River Forest)",
-    region: "Suburban Cook (Proviso & West Suburbs)",
-    counties: ["Cook"],
-    cities: ["Maywood", "Hillside", "Westchester", "Bellwood", "Berkeley", "Broadview", "Forest Park", "Oak Park", "River Forest", "La Grange Park"],
-    pvi: "D+28",
-    rating: "Safe Democratic (Leadership)",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Emanuel 'Chris' Welch (D - Speaker of the Illinois House)",
-    primarySummary: "Illinois’s first Black House Speaker Emanuel 'Chris' Welch (D) runs unopposed on the November 2026 ballot while directing Democrats for the Illinois House across suburban and downstate battlegrounds.",
-    candidates: [
-      {
-        id: "emanuel-chris-welch",
-        name: "Emanuel 'Chris' Welch",
-        party: "Democrat",
-        role: "Speaker of the Illinois House (2021-present); State Rep. (HD-7, 2013-present) & Education/Municipal Attorney",
-        hometown: "Hillside (Cook County), IL",
-        incumbentStatus: "Incumbent (Speaker of the House)",
-        photoInitials: "CW",
-        fecRaised: "$18,500,000+ (People for Welch + House Dem Caucus)",
-        fecCashOnHand: "$12,400,000+",
-        pacPolicy: "Controls House Democratic Campaign Apparatus (Democrats for the IL House)",
-        pacSummary: "Commands over $12M across his personal and House Democratic caucus committees, backed by IFT, IEA, SEIU, LIUNA, IUOE Local 150, ITLA (Trial Lawyers), and Personal PAC.",
-        pacs: [
-          { name: "Democrats for the Illinois House & DPI", type: "Party Committee", amount: "Controls $12M+ Caucus War Chest", stance: "Supporting" },
-          { name: "IFT, IEA/IPACE & CTU", type: "Labor PAC", amount: "$1,200,000+ to Caucus", stance: "Supporting" },
-          { name: "SEIU Healthcare, LIUNA, IUOE Local 150 & IBEW", type: "Labor PAC", amount: "$1,500,000+ to Caucus", stance: "Supporting" },
-          { name: "Illinois Trial Lawyers Association (ITLA PAC)", type: "Trade PAC", amount: "$750,000+ to Caucus", stance: "Supporting" },
-          { name: "Personal PAC & G-PAC", type: "Ideological PAC", amount: "$300,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Illinois AFL-CIO", "IFT", "IEA", "SEIU", "LIUNA", "IUOE Local 150", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Former Proviso Township school board president; champions $350M+ annual Evidence-Based Funding (EBF) increases and South/West Cook commercial property tax assessment reform.",
-          safetAct: "Led House passage of the SAFE-T Act and Protect Illinois Communities Act; defends ending wealth-based cash bail while funding co-responder and police retention grants.",
-          budgetTaxes: "Shepherded balanced state budgets, eliminated the 1% statewide grocery tax, and expanded the Illinois Child Tax Credit.",
-          pensions: "Created the House Tier 2 Pension Working Group with organized labor to fix Social Security Safe Harbor compliance and improve teacher/worker recruitment.",
-          energyGrid: "Championed CEJA, union prevailing wage standards on all clean energy projects, and the 2026 pause on unchecked AI data center tax subsidies.",
-          transit: "Passed SB 2111 establishing the Northern Illinois Transit Authority (NITA) and securing $1.5B for CTA, Metra, and Pace.",
-          healthcare: "Passed landmark reproductive shield laws, IVF insurance mandates, and $1B+ in medical debt forgiveness.",
-          education: "Opposed extending the Invest in Kids private school voucher program; champions full public K-12 and community college funding."
-        }
-      }
-    ]
-  },
-  {
-    id: "il-house-89",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 89th District (House Minority Leader)",
-    districtCode: "HD-89",
-    districtName: "89th House District (Savanna, Freeport, Galena, Byron, Mount Carroll & NW Illinois)",
-    region: "Northern & Northwest Illinois",
-    counties: ["Carroll", "Jo Daviess", "Stephenson", "Ogle", "Winnebago", "DeKalb"],
-    cities: ["Savanna", "Freeport", "Galena", "Byron", "Pecatonica", "Mount Carroll", "East Dubuque", "Lena", "Forreston"],
-    pvi: "R+18",
-    rating: "Safe Republican (Leadership)",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Tony McCombie (R - House Minority Leader)",
-    primarySummary: "House Minority Leader Tony McCombie (R) defeated right-wing primary challenger Victoria Onorato in March 2026 and runs unopposed in the November general election.",
-    candidates: [
-      {
-        id: "tony-mccombie",
-        name: "Tony McCombie",
-        party: "Republican",
-        role: "House Minority Leader (2023-present); State Rep. (HD-89, 2017-present); Former Mayor of Savanna & Realtor",
-        hometown: "Savanna (Carroll County), IL",
-        incumbentStatus: "Incumbent (House GOP Leader)",
-        photoInitials: "TM",
-        fecRaised: "$5,800,000+ (McCombie + HRO)",
-        fecCashOnHand: "$3,600,000+",
-        pacPolicy: "Controls House Republican Organization (HRO) + Realtors, Business & IUOE Local 150 Backing",
-        pacSummary: "Chairs the House Republican Organization (HRO). Heavily backed by Illinois Realtors RPAC (she is a broker/appraiser), IUOE Local 150, Illinois Manufacturers' Association, Illinois Chamber, and Illinois Farm Bureau.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "Controls $3.6M+ Caucus Fund", stance: "Supporting" },
-          { name: "Illinois Realtors RPAC", type: "Trade PAC", amount: "$350,000+ to McCombie/HRO", stance: "Supporting" },
-          { name: "IUOE Local 150 (Operating Engineers)", type: "Labor PAC", amount: "$300,000+ to McCombie/HRO", stance: "Supporting" },
-          { name: "IMA, Illinois Chamber & Farm Bureau ACTIVATOR", type: "Trade PAC", amount: "$450,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Illinois Realtors RPAC", "IUOE Local 150", "Illinois Farm Bureau", "Illinois Manufacturers' Association"],
-        issues: {
-          propertyTaxes: "Real estate appraiser who proposes a comprehensive property tax swap using state school funding and reforming assessment practices.",
-          safetAct: "Supports law enforcement trailer bills to expand pretrial detention for repeat offenders, drug traffickers, and domestic abusers.",
-          budgetTaxes: "Opposes state spending increases and tax hikes; demands auditing state agency programs and ending non-citizen Medicaid coverage.",
-          pensions: "Supports targeted Tier 2 pension fixes for police and firefighters paired with bipartisan fiscal guardrails.",
-          energyGrid: "Protects the Byron Nuclear Generating Station and rural grid reliability; opposes EV mandates and premature fossil-fuel closures.",
-          transit: "Opposes diverting downstate and rural Road Fund interest to subsidize Chicago transit.",
-          healthcare: "Focuses on rural hospital reimbursement rates and EMS ambulance funding in Northwest Illinois.",
-          education: "Supports career and technical education (CTE), Evidence-Based Funding reform, and reviving Invest in Kids scholarships."
-        }
-      }
-    ]
-  },
-
-  // ================= MARQUEE STATE SENATE BATTLEGROUNDS & KEY RACES =================
-  {
-    id: "il-sen-48",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 48th District",
-    districtCode: "SD-48",
-    districtName: "48th Senate District (Springfield, Decatur, Taylorville & Rochester)",
-    region: "Central Illinois",
-    counties: ["Sangamon", "Macon", "Christian"],
-    cities: ["Springfield", "Decatur", "Taylorville", "Pana", "Rochester", "Forsyth", "Mt. Zion"],
-    pvi: "D+1",
-    rating: "Toss-Up (#1 Statewide Senate Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Doris Turner (D)",
-    primarySummary: "In the #1 most expensive State Senate race in Illinois ($4M+ projected spending), incumbent Sen. Doris Turner (D) faces popular Sangamon County Recorder Frank Lesko (R).",
-    candidates: [
-      {
-        id: "doris-turner",
-        name: "Doris Turner",
-        party: "Democrat",
-        role: "Illinois State Senator (SD-48, 2021-present); Chair, Senate Agriculture Committee & Former Springfield Alderwoman",
-        hometown: "Springfield (Sangamon County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "DT",
-        fecRaised: "$2,150,000",
-        fecCashOnHand: "$1,480,000",
-        pacPolicy: "Top ISDF Defense Priority + Public Sector Labor, Building Trades & Farm Bureau Backing",
-        pacSummary: "Receives massive financial support from Senate President Don Harmon's ISDF ($1.5M+), AFSCME Council 31 (representing thousands of Springfield state workers), IEA, IFT, SEIU, IUOE Local 150, Realtors RPAC, and Illinois Farm Bureau.",
-        pacs: [
-          { name: "Illinois Senate Democratic Fund (ISDF)", type: "Party Committee", amount: "$1,400,000+ Transfers/In-Kind", stance: "Supporting" },
-          { name: "AFSCME Council 31, SEIU, IEA & IFT PACs", type: "Labor PAC", amount: "$380,000+", stance: "Supporting" },
-          { name: "IUOE Local 150, LIUNA & IBEW", type: "Labor PAC", amount: "$210,000+", stance: "Supporting" },
-          { name: "Illinois Realtors RPAC & Illinois Farm Bureau ACTIVATOR", type: "Trade PAC", amount: "$85,000+", stance: "Supporting" }
-        ],
-        endorsements: ["AFSCME Council 31", "Illinois Farm Bureau ACTIVATOR", "IUOE Local 150", "IEA", "IFT", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Supports increasing EBF school funding for Springfield District 186 and Decatur District 61 and expanding senior homestead exemptions.",
-          safetAct: "Sponsored post-Sonya Massey law enforcement background-check transparency reforms while supporting funding for Springfield and Decatur police.",
-          budgetTaxes: "Highlights state capital investments in the Springfield Rail Improvements Project, Downtown Springfield revitalization, and Decatur ADM agribusiness hub.",
-          pensions: "Leading voice for Springfield state employees; champions fixing the Tier 2 pension salary cap and improving retirement security for SERS/TRS workers.",
-          energyGrid: "Chairs Senate Agriculture; backs biofuels, carbon sequestration safety rules over the Mahomet Aquifer, and keeping Springfield CWLP municipal power affordable.",
-          transit: "Supports Springfield high-speed rail hub completion and Decatur public transit grants.",
-          healthcare: "Protects Springfield Memorial and HSHS St. John's hospital funding and reproductive healthcare access.",
-          education: "Champions UIS (University of Illinois Springfield), Richland Community College, and public K-12 funding."
-        }
+        "issues": {
+          "healthcare": "Her official issue page supports affordable health coverage, Medicaid access and reproductive care, including abortion.",
+          "energyGrid": "Her office supports clean energy and the Clean and Reliable Grid Affordability Act, including battery storage, energy-efficiency programs and expanded community solar.",
+          "safetAct": "Her official issue page supports criminal-justice reform and community-based gun-violence prevention; this summary does not establish a specific SAFE-T Act vote."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://glenviewpl.org/blogs/post/voter-information-november-2026/",
+            "title": "Glenview Public Library: November 2026 voter information",
+            "checked": "2026-10-28",
+            "note": "Public-library voter guide dated October 5 lists Robyn Gabel (Democrat) and Pete Donaghue (Republican) for House District 18. This is a public-agency guide, not the county certification."
+          },
+          {
+            "field": "role",
+            "url": "https://robyngabel.com/about-robyn/",
+            "title": "State Representative Robyn Gabel: official biography",
+            "checked": "2026-10-28",
+            "note": "Official office biography gives her House tenure and 2023 appointment as Majority Leader."
+          },
+          {
+            "field": "hometown",
+            "url": "https://robyngabel.com/about-robyn/",
+            "title": "State Representative Robyn Gabel: official biography",
+            "checked": "2026-10-28",
+            "note": "Identifies Gabel as from Evanston."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://robyngabel.com/issues/",
+            "title": "Robyn Gabel: official issue priorities",
+            "checked": "2026-10-28",
+            "note": "Healthcare and women’s-rights sections state these positions."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://robyngabel.com/gabel-led-historic-clean-and-reliable-grid-affordability-act-signed-into-law/",
+            "title": "Robyn Gabel: Clean and Reliable Grid Affordability Act",
+            "checked": "2026-10-28",
+            "note": "Official office release identifies Gabel’s support and summarizes storage, efficiency and solar provisions. Projections about future savings are not presented as established outcomes."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://robyngabel.com/issues/",
+            "title": "Robyn Gabel: official issue priorities",
+            "checked": "2026-10-28",
+            "note": "Criminal-justice and public-safety sections support these general priorities; no specific SAFE-T Act claim is inferred."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME: 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The union’s September 19 general-election list names Gabel in House District 18."
+          }
+        ]
       },
       {
-        id: "frank-lesko",
-        name: "Frank J. Lesko",
-        party: "Republican",
-        role: "Sangamon County Recorder & Former Springfield City Clerk",
-        hometown: "Springfield (Sangamon County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "FL",
-        fecRaised: "$1,650,000",
-        fecCashOnHand: "$1,120,000",
-        pacPolicy: "#1 SRCC/SRVF Pickup Target Statewide",
-        pacSummary: "Top recruitment and funding priority for Senate GOP Leader John Curran's SRCC/SRVF ($1.2M+ committed), alongside Sangamon County GOP, IMA, Illinois Chamber, and NFIB.",
-        pacs: [
-          { name: "Senate Republican Campaign Committee (SRCC / SRVF)", type: "Party Committee", amount: "$1,200,000+ Transfers/IE", stance: "Supporting" },
-          { name: "Sangamon & Macon County GOP Organizations", type: "Party Committee", amount: "$180,000+", stance: "Supporting" },
-          { name: "Illinois Manufacturers' Association & NFIB", type: "Trade PAC", amount: "$140,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Sangamon County GOP", "Illinois Manufacturers' Association", "Illinois Chamber of Commerce", "NFIB"],
-        issues: {
-          propertyTaxes: "Campaigns on capping Sangamon and Macon County property taxes and cutting unfunded state mandates on local governments.",
-          safetAct: "Makes repealing cashless bail under the SAFE-T Act a central issue, arguing it has fueled violent crime and repeat retail theft in Springfield and Decatur.",
-          budgetTaxes: "Opposes state tax hikes and criticizes state spending on non-citizen healthcare while Central Illinois roads and families face inflation.",
-          pensions: "Promises to protect earned state-worker pensions in Springfield while opposing reckless budget deficits.",
-          energyGrid: "Warns that CEJA mandates forcing the closure of Springfield's Dallman coal plant and Ameren baseload units are causing massive electric bill spikes.",
-          transit: "Opposes diverting downstate Road Fund interest to bail out Chicago's NITA/CTA transit system.",
-          healthcare: "Focuses on mental health services, veterans' care, and keeping Central Illinois healthcare costs down.",
-          education: "Supports parental rights, vocational trade programs, and restoring Invest in Kids scholarships."
-        }
+        "id": "pete-donaghue",
+        "name": "Pete Donaghue",
+        "party": "Republican",
+        "role": "Candidate for Illinois House District 18",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "PD",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://glenviewpl.org/blogs/post/voter-information-november-2026/",
+            "title": "Glenview Public Library: November 2026 voter information",
+            "checked": "2026-10-28",
+            "note": "Public-library voter guide dated October 5 lists Robyn Gabel (Democrat) and Pete Donaghue (Republican) for House District 18. This is a public-agency guide, not the county certification."
+          },
+          {
+            "field": "role",
+            "url": "https://glenviewpl.org/blogs/post/voter-information-november-2026/",
+            "title": "Glenview Public Library: November 2026 voter information",
+            "checked": "2026-10-28",
+            "note": "Lists Donaghue as the Republican candidate for House District 18."
+          },
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/electionoperations/CandidateDetailEO.aspx?CandidateID=wgpIrs%2FQT1l6WIP2HTdraA%3D%3D&ElectionID=Z2J%2FvYpKX8w%3D",
+            "title": "Illinois State Board of Elections: Pete Donaghue primary filing",
+            "checked": "2026-10-28",
+            "note": "Official filing confirms spelling, Republican party and District 18. Primary filing alone does not certify the general-election roster."
+          }
+        ]
       }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://glenviewpl.org/blogs/post/voter-information-november-2026/",
+        "title": "Glenview Public Library: November 2026 voter information",
+        "checked": "2026-10-28",
+        "note": "Public-library voter guide dated October 5 lists Robyn Gabel (Democrat) and Pete Donaghue (Republican) for House District 18. This is a public-agency guide, not the county certification."
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support.",
+      "The general-election candidate pair is corroborated by Glenview Public Library’s public-agency voter guide; a complete county certification was not independently retrieved."
     ]
   },
   {
-    id: "il-sen-56",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 56th District",
-    districtCode: "SD-56",
-    districtName: "56th Senate District (Metro East - Edwardsville, Alton, Granite City, Collinsville, Godfrey & Glen Carbon)",
-    region: "Metro East & Southern Illinois",
-    counties: ["Madison", "St. Clair"],
-    cities: ["Edwardsville", "Alton", "Godfrey", "Granite City", "Collinsville", "Wood River", "Glen Carbon", "Bethalto", "Maryville"],
-    pvi: "Even",
-    rating: "Toss-Up (Marquee Metro East Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Erica Harriss (R)",
-    primarySummary: "First-term incumbent Sen. Erica Harriss (R, who won SD-56 by just 2 points in 2022) faces civil engineer and former American Society of Civil Engineers (ASCE) National President Marsia Geldert-Murphey (D).",
-    candidates: [
+    "id": "il-house-26",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 26th District",
+    "districtCode": "HD-26",
+    "districtName": "26th House District",
+    "region": "Chicago",
+    "counties": [
+      "Cook"
+    ],
+    "cities": [
+      "Chicago"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Kam Buckner (D)",
+    "evidence": [
       {
-        id: "erica-harriss",
-        name: "Erica Harriss",
-        party: "Republican",
-        role: "Illinois State Senator (SD-56, 2023-present); Former Madison County Board Member & Small Business Owner",
-        hometown: "Glen Carbon (Madison County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "EH",
-        fecRaised: "$1,820,000",
-        fecCashOnHand: "$1,250,000",
-        pacPolicy: "Top SRCC Defense + Business, Realtors & Manufacturing PACs",
-        pacSummary: "Top incumbent defense priority for Senate Republicans (SRCC/SRVF), backed by Realtors RPAC, Illinois Manufacturers' Association, Illinois Chamber, and Metro East business groups.",
-        pacs: [
-          { name: "Senate Republican Campaign Committee (SRCC / SRVF)", type: "Party Committee", amount: "$1,300,000+ Defense", stance: "Supporting" },
-          { name: "Illinois Realtors RPAC", type: "Trade PAC", amount: "$95,000+", stance: "Supporting" },
-          { name: "Illinois Manufacturers' Association (IMA) & Chamber", type: "Trade PAC", amount: "$145,000+", stance: "Supporting" }
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=3zIY01oxjkCcDdgU3yCwsQ%3D%3D",
+        "title": "Illinois State Board of Elections: Kambium E Buckner candidate record",
+        "checked": "2026-10-28",
+        "note": "Official candidate record identifies District 26 Democratic incumbent in 2026 general election. Complete Chicago general-election ballot could not be retrieved; this is candidate verification, not ballot completeness certification."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "kam-buckner",
+        "name": "Kam Buckner",
+        "party": "Democrat",
+        "role": "Illinois House Speaker Pro Tempore; state representative for the 26th District since 2019.",
+        "hometown": "Chicago, IL",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "KB",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO",
+          "Cook County College Teachers Union Local 1600",
+          "Better Streets Chicago Action Fund"
         ],
-        endorsements: ["Illinois Realtors RPAC", "Illinois Manufacturers' Association", "Illinois Chamber", "NFIB"],
-        issues: {
-          propertyTaxes: "Campaigns on capping Madison and St. Clair County property taxes and expanding senior property tax freezes.",
-          safetAct: "Calls for overhauling the SAFE-T Act to restore judicial detention discretion for repeat offenders and cross-river Metro East crime.",
-          budgetTaxes: "Focuses on keeping U.S. Steel Granite City Works operating, cutting business red tape to compete with Missouri, and opposing tax hikes.",
-          pensions: "Supports SURS stability for SIUE employees and police/fire pension consolidation.",
-          energyGrid: "Blames CEJA power plant closures and MISO capacity rules for skyrocketing Ameren Illinois electric bills in the Metro East.",
-          transit: "Supports Metro East road, bridge, and levee upgrades while opposing diverting downstate Road Fund money to Chicago transit.",
-          healthcare: "Focuses on maternal and pediatric care access in the Metro East and opposing taxpayer-funded migrant healthcare.",
-          education: "Strong advocate for SIU Edwardsville (SIUE) capital funding, K-12 literacy, and parental rights."
-        }
+        "issues": {
+          "transit": "In his 2026 questionnaire, Buckner supports more funding for transit, rail and paratransit; improved pedestrian and cyclist safety; and expanded passenger rail, including eventual high-speed rail.",
+          "energyGrid": "In the same questionnaire, he calls for transportation decisions to account for greenhouse-gas reductions and supports electric buses and development near transit."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=3zIY01oxjkCcDdgU3yCwsQ%3D%3D",
+            "title": "Illinois State Board of Elections: Kambium E Buckner candidate record",
+            "checked": "2026-10-28",
+            "note": "Democratic incumbent, House District 26, 2026 general-election entry."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/house/members/details/3366",
+            "title": "Illinois General Assembly: Kam Buckner, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Current roster identifies Speaker Pro Tempore and service since January 2019."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=3zIY01oxjkCcDdgU3yCwsQ%3D%3D",
+            "title": "Illinois State Board of Elections: Kambium E Buckner candidate record",
+            "checked": "2026-10-28",
+            "note": "Official candidate record gives Chicago city address; residential street address omitted."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Organization's own list endorses Kam Buckner for District 26."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+            "title": "CCCTU Local 1600: November 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Organization's September list endorses Kam Buckner for District 26."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.bscactionfund.org/kam-buckner",
+            "title": "Better Streets Chicago Action Fund: Kam Buckner endorsement and 2026 questionnaire",
+            "checked": "2026-10-28",
+            "note": "Organization explicitly endorses Buckner's reelection."
+          },
+          {
+            "field": "issues.transit",
+            "url": "https://www.bscactionfund.org/kam-buckner",
+            "title": "Better Streets Chicago Action Fund: Kam Buckner's 2026 questionnaire responses",
+            "checked": "2026-10-28",
+            "note": "Candidate's own published answers support transit, rail, paratransit, pedestrian and cyclist safety and high-speed rail."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.bscactionfund.org/kam-buckner",
+            "title": "Better Streets Chicago Action Fund: Kam Buckner's 2026 questionnaire responses",
+            "checked": "2026-10-28",
+            "note": "Candidate's own answers support greenhouse-gas metrics, electric buses and transit-oriented development; does not establish a broader electricity-generation position."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support.",
+      "Buckner’s official state record confirms his general-election candidacy; a complete current Chicago general-election ballot was not independently retrieved."
+    ]
+  },
+  {
+    "id": "il-house-37",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 37th District",
+    "districtCode": "HD-37",
+    "districtName": "37th House District",
+    "region": "Suburban Cook and Will counties",
+    "counties": [
+      "Cook",
+      "Will"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Patrick Sheehan (R)",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County November 3, 2026 specimen ballot legal notice",
+        "checked": "2026-10-28",
+        "note": "Official specimen ballot notice dated October 1 and published October 8 lists Patrick Sheehan, Republican, and no Democratic candidate for House District 37."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "patrick-sheehan",
+        "name": "Patrick Sheehan",
+        "party": "Republican",
+        "role": "State representative for the 37th District, appointed in April 2024; police officer with experience as a Lockport alderman.",
+        "hometown": "Lockport, IL",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "PS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO"
+        ],
+        "issues": {
+          "budgetTaxes": "His legislative biography supports capping gasoline taxes and eliminating the state grocery tax while protecting local-government revenue.",
+          "safetAct": "Supports expanding offenses eligible for pretrial detention, allowing prosecutors to seek revocation when release conditions are violated, and restoring warrants for failures to appear.",
+          "propertyTaxes": "Filed HB 5009 in February 2026 to limit reassessment increases to the smaller of 3% or inflation. This is a proposal, not a statement that the cap became law."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=wnzTdaHO3UfypeJvU7XMfQ%3D%3D",
+            "title": "Illinois State Board of Elections: Patrick Sheehan candidate record",
+            "checked": "2026-10-28",
+            "note": "Republican incumbent, House District 37, 2026 general-election entry."
+          },
+          {
+            "field": "role",
+            "url": "https://repsheehan.com/about/",
+            "title": "State Representative Patrick Sheehan: official biography",
+            "checked": "2026-10-28",
+            "note": "State-funded site identifies April 12, 2024 appointment, police service and Lockport alderman experience. Removed unsupported former interim mayor claim."
+          },
+          {
+            "field": "hometown",
+            "url": "https://repsheehan.com/about/",
+            "title": "State Representative Patrick Sheehan: official biography",
+            "checked": "2026-10-28",
+            "note": "Official biography says Sheehan resides in Lockport."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Organization's own general-election list endorses Pat Sheehan, Republican, District 37."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://repsheehan.com/about/",
+            "title": "State Representative Patrick Sheehan: official biography",
+            "checked": "2026-10-28",
+            "note": "Biography states support for capping gasoline taxes and eliminating grocery tax while ensuring stable local revenue; historical policy statement, not current tax-law guidance."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://repsheehan.com/2025/12/22/rep-sheehan-joins-colleagues-in-letter-to-gov-pritzker-on-his-stated-willingness-to-reform-safe-t-act/",
+            "title": "Rep. Sheehan: December 22, 2025 SAFE-T Act reform letter",
+            "checked": "2026-10-28",
+            "note": "Official statement specifies proposed pretrial reforms. Does not assert full repeal or a qualified-immunity position."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://witnessslips.ilga.gov/documents/reports/static/Bill%20Synopsis-All%20Introduced%20Bills-with%20Last%20Action-Wednesday.pdf",
+            "title": "Illinois General Assembly: February 4, 2026 introduced bill synopsis",
+            "checked": "2026-10-28",
+            "note": "HB 5009 synopsis identifies Sheehan sponsor and a reassessment growth limit of the lesser of 3% or CPI. Filing described, not enactment."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-house-47",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 47th District (Open Seat)",
+    "districtCode": "HD-47",
+    "districtName": "47th House District",
+    "region": "Collar Counties (DuPage)",
+    "counties": [
+      "DuPage"
+    ],
+    "cities": [
+      "Wheaton",
+      "Naperville",
+      "Warrenville",
+      "West Chicago",
+      "Winfield",
+      "Glen Ellyn"
+    ],
+    "isOpenSeat": true,
+    "isBattleground": false,
+    "incumbent": "",
+    "candidates": [
+      {
+        "id": "erica-bray-parker",
+        "name": "Erica Bray-Parker",
+        "party": "Democrat",
+        "role": "Wheaton city council member and retired public-school teacher (campaign biography)",
+        "hometown": "Wheaton, IL",
+        "incumbentStatus": "Open Seat Nominee",
+        "photoInitials": "EB",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Council 31"
+        ],
+        "issues": {
+          "propertyTaxes": "Her campaign proposes strengthening the senior homestead exemption, assessment freeze and property-tax deferral programs, alongside broader affordable-housing access.",
+          "safetAct": "Her campaign supports the Protect Illinois Communities Act’s assault-weapons ban and further gun-violence prevention. No specific SAFE-T Act position was established.",
+          "education": "Her campaign supports public-school funding, affordable college and trade programs, and opposes state and federal private-school voucher programs.",
+          "energyGrid": "Her campaign supports continued Illinois investment in electric vehicles, renewable energy and clean-energy jobs under the Climate and Equitable Jobs Act."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 General Official Candidate Listing",
+            "checked": "2026-10-28",
+            "note": "September 28 official listing names Erica Bray-Parker (Democratic) and Robert A. Vrankovich (Republican) for House District 47."
+          },
+          {
+            "field": "role",
+            "url": "https://ericaforil47.com/about-erica/",
+            "title": "Erica Bray-Parker: campaign biography",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies council service since 2019 and retirement after 33 years teaching."
+          },
+          {
+            "field": "hometown",
+            "url": "https://ericaforil47.com/about-erica/",
+            "title": "Erica Bray-Parker: campaign biography",
+            "checked": "2026-10-28",
+            "note": "Campaign identifies her as a Wheaton resident."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://ericaforil47.com/my-priorities/",
+            "title": "Erica Bray-Parker: campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Affordability section proposes these senior-tax programs and housing assistance."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://ericaforil47.com/my-priorities/",
+            "title": "Erica Bray-Parker: campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Public-safety section explicitly supports the assault-weapons ban; it does not establish a SAFE-T Act position."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://ericaforil47.com/my-priorities/",
+            "title": "Erica Bray-Parker: campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Education section states these funding and voucher positions."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://ericaforil47.com/my-priorities/",
+            "title": "Erica Bray-Parker: campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Environmental-sustainability section states support for CEJA and these investments."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME: 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The union’s September 19 general-election list names Bray-Parker in House District 47."
+          }
+        ]
       },
       {
-        id: "marsia-geldert-murphey",
-        name: "Marsia Geldert-Murphey",
-        party: "Democrat",
-        role: "Geotechnical Civil Engineer & Former National President, American Society of Civil Engineers (ASCE)",
-        hometown: "Glen Carbon / Edwardsville (Madison County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "MG",
-        fecRaised: "$1,580,000",
-        fecCashOnHand: "$1,040,000",
-        pacPolicy: "#1 ISDF Downstate Pickup Target + Building Trades, USW & Personal PAC",
-        pacSummary: "Recruited by Senate Democrats as their #1 downstate flip target; heavily backed by ISDF, IUOE Local 150, LIUNA, United Steelworkers (USW), IEA, IFT, and Personal PAC.",
-        pacs: [
-          { name: "Illinois Senate Democratic Fund (ISDF)", type: "Party Committee", amount: "$1,200,000+ Target Support", stance: "Supporting" },
-          { name: "IUOE Local 150, LIUNA, IBEW & United Steelworkers", type: "Labor PAC", amount: "$260,000+", stance: "Supporting" },
-          { name: "Personal PAC, IEA/IPACE & IFT", type: "Ideological PAC", amount: "$140,000+", stance: "Supporting" }
+        "id": "robert-vrankovich",
+        "name": "Robert A. Vrankovich",
+        "party": "Republican",
+        "role": "Business owner (campaign biography)",
+        "hometown": "Carol Stream, IL",
+        "incumbentStatus": "Open Seat Nominee",
+        "photoInitials": "RA",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Daily Herald Editorial Board"
         ],
-        endorsements: ["IUOE Local 150", "United Steelworkers (Granite City)", "Illinois AFL-CIO", "Personal PAC", "IEA", "IFT"],
-        issues: {
-          propertyTaxes: "Supports increasing state EBF funding for Edwardsville, Collinsville, Alton, and Granite City schools to ease homeowner property tax levies.",
-          safetAct: "Supports violent crime prosecution alongside community mental health and police training resources.",
-          budgetTaxes: "Civil engineer who champions Rebuild Illinois infrastructure investments, Mississippi River flood levee modernization, and protecting union jobs at Granite City Works.",
-          pensions: "Supports fixing the Tier 2 pension penalty for SIUE faculty/staff (SURS) and public school teachers.",
-          energyGrid: "Advocates engineering-driven grid modernization, battery storage, and holding Ameren accountable before the ICC for rate hikes.",
-          transit: "Supports MetroCTD bus expansion, Amtrak high-speed rail, and Chain of Rocks / I-270 bridge modernization.",
-          healthcare: "Champions reproductive freedom (highlighting Metro East's role serving patients from Missouri) and lowering prescription costs.",
-          education: "Supports full SIUE operational funding, STEM/engineering K-12 pathways, and public education."
-        }
+        "issues": {
+          "budgetTaxes": "His campaign identifies reducing taxes and living costs as priorities; the reviewed campaign page does not provide a detailed tax proposal."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 General Official Candidate Listing",
+            "checked": "2026-10-28",
+            "note": "September 28 official listing names Erica Bray-Parker (Democratic) and Robert A. Vrankovich (Republican) for House District 47."
+          },
+          {
+            "field": "role",
+            "url": "https://www.robertforillinois.com/",
+            "title": "Robert Vrankovich: official campaign website",
+            "checked": "2026-10-28",
+            "note": "Candidate describes founding and operating a business."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.elections.il.gov/CampaignDisclosure/CandidateDetailCD.aspx?ID=pS7ndThYZfnC2X4YEw4ExA%3D%3D",
+            "title": "Illinois State Board of Elections: Robert A. Vrankovich",
+            "checked": "2026-10-28",
+            "note": "Official candidate disclosure identifies Carol Stream."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.robertforillinois.com/",
+            "title": "Robert Vrankovich: official campaign website",
+            "checked": "2026-10-28",
+            "note": "Candidate’s own introductory statement prioritizes cutting taxes and prices."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.dailyherald.com/20261027/endorsements/endorsement-vrankovich-for-house-district-47/",
+            "title": "Daily Herald: endorsement of Vrankovich",
+            "checked": "2026-10-28",
+            "note": "The newspaper’s own editorial board endorsed Vrankovich on October 27, 2026."
+          }
+        ]
       }
-    ]
-  },
-  {
-    id: "il-sen-26",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 26th District",
-    districtCode: "SD-26",
-    districtName: "26th Senate District (Barrington, Crystal Lake, Lake Zurich, Cary, Algonquin, Mundelein & Hoffman Estates)",
-    region: "Collar Counties (Lake, McHenry, Cook & Kane)",
-    counties: ["Lake", "McHenry", "Cook", "Kane"],
-    cities: ["Barrington", "Lake Zurich", "Crystal Lake", "Cary", "Algonquin", "Fox River Grove", "Mundelein", "Hawthorn Woods", "Hoffman Estates", "Inverness", "Palatine", "Wauconda", "Island Lake"],
-    pvi: "D+2",
-    rating: "Toss-Up (Marquee Suburban Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Darby Hills (R - Appointed 2025 to succeed Dan McConchie)",
-    primarySummary: "Marquee suburban clash between appointed GOP Sen. Darby Hills (R, former Barrington Hills trustee and prosecutor) and sitting Democratic State Rep. Nabeela Syed (D, HD-51).",
-    candidates: [
+    ],
+    "evidence": [
       {
-        id: "darby-hills",
-        name: "Darby Hills",
-        party: "Republican",
-        role: "Illinois State Senator (SD-26, appointed 2025); Former Prosecutor, Barrington Hills Trustee & Nonprofit Founder",
-        hometown: "Barrington Hills, IL",
-        incumbentStatus: "Incumbent (Appointed)",
-        photoInitials: "DH",
-        fecRaised: "$1,450,000",
-        fecCashOnHand: "$980,000",
-        pacPolicy: "Top SRCC Suburban Defense + IUOE Local 150 & Realtors RPAC",
-        pacSummary: "Backed by over $1M in SRCC/SRVF support, bipartisan infrastructure union IUOE Local 150, Illinois Realtors RPAC, and suburban business donors.",
-        pacs: [
-          { name: "Senate Republican Campaign Committee (SRCC / SRVF)", type: "Party Committee", amount: "$1,050,000+ Defense", stance: "Supporting" },
-          { name: "IUOE Local 150 & Illinois Realtors RPAC", type: "Trade PAC", amount: "$185,000+", stance: "Supporting" },
-          { name: "IMA & Illinois Chamber of Commerce", type: "Trade PAC", amount: "$95,000+", stance: "Supporting" }
-        ],
-        endorsements: ["IUOE Local 150", "Illinois Realtors RPAC", "Illinois Chamber of Commerce", "Suburban Mayors"],
-        issues: {
-          propertyTaxes: "Makes Lake, McHenry, and NW Cook property tax relief her #1 issue; proposes capping local levy spikes and increasing state school funding equity for suburban districts.",
-          safetAct: "Former prosecutor who advocates strengthening pretrial detention rules for residential burglary, domestic violence, and repeat offenders.",
-          budgetTaxes: "Opposes state tax hikes and criticizes Springfield budget growth.",
-          pensions: "Supports police and firefighter pension stability while opposing unfunded state debt expansions.",
-          energyGrid: "Supports nuclear power and grid reliability to prevent suburban ComEd bill spikes.",
-          transit: "Demands suburban Metra (UP-NW) safety, reliability, and board parity under the new NITA transit structure.",
-          healthcare: "Runs a children's charity; focuses on pediatric mental health and maternal health access.",
-          education: "Supports local school control in Barrington 220, Lake Zurich 95, and Crystal Lake 47/155."
-        }
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 General Official Candidate Listing",
+        "checked": "2026-10-28",
+        "note": "September 28 official listing names Erica Bray-Parker (Democratic) and Robert A. Vrankovich (Republican) for House District 47."
       },
       {
-        id: "nabeela-syed",
-        name: "Nabeela Syed",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-51, 2023-present) & Civic Leader",
-        hometown: "Palatine / Inverness, IL",
-        incumbentStatus: "Challenger (Sitting State Rep.)",
-        photoInitials: "NS",
-        fecRaised: "$1,680,000",
-        fecCashOnHand: "$1,150,000",
-        pacPolicy: "Top ISDF Suburban Flip Target + Personal PAC, Teachers & Giffords",
-        pacSummary: "One of the strongest fundraisers in the General Assembly; backed by ISDF ($1M+ target), Personal PAC, IEA, IFT, SEIU, and Giffords/G-PAC.",
-        pacs: [
-          { name: "Illinois Senate Democratic Fund (ISDF)", type: "Party Committee", amount: "$1,100,000+ Support", stance: "Supporting" },
-          { name: "Personal PAC, EMILYs List & G-PAC", type: "Ideological PAC", amount: "$220,000+", stance: "Supporting" },
-          { name: "IEA/IPACE, IFT & SEIU", type: "Labor PAC", amount: "$240,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Personal PAC", "EMILYs List", "IEA", "IFT", "Giffords PAC", "Illinois AFL-CIO"],
-        issues: {
-          propertyTaxes: "Authored legislation expanding the senior citizen property tax freeze income threshold and demands higher EBF state returns for suburban school districts.",
-          safetAct: "Supports gun violence prevention (assault weapons ban, safe storage) alongside funding for suburban police departments.",
-          budgetTaxes: "Focuses on middle-class affordability, repealing the grocery tax, and cracking down on corporate price-gouging.",
-          pensions: "Supports fixing Tier 2 teacher and municipal pensions.",
-          energyGrid: "Backs clean energy transition, solar incentives, and holding utilities & AI data centers accountable for rate hikes.",
-          transit: "Supports Metra UP-NW frequency and suburban Pace bus modernization under NITA.",
-          healthcare: "Passed laws capping prescription drug prices and banning step-therapy insurance delays; staunch champion of reproductive freedom.",
-          education: "Champions public schools, library freedom against book bans, and college affordability."
-        }
+        "field": "isOpenSeat",
+        "url": "https://www.elections.il.gov/CampaignDisclosure/CandidateDetailCD.aspx?ID=pS7ndThYZfnC2X4YEw4ExA%3D%3D",
+        "title": "Illinois State Board of Elections: Robert A. Vrankovich",
+        "checked": "2026-10-28",
+        "note": "Official candidate disclosure describes the 2026 general-election contest as an open seat."
       }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-sen-33",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 33rd District (Open Seat)",
-    districtCode: "SD-33",
-    districtName: "33rd Senate District (Elgin, St. Charles, Geneva, Batavia, West Dundee, Carpentersville & Algonquin)",
-    region: "Collar Counties (Fox Valley - Kane & McHenry)",
-    counties: ["Kane", "McHenry", "DuPage"],
-    cities: ["Elgin", "St. Charles", "Geneva", "Batavia", "West Dundee", "East Dundee", "Carpentersville", "Algonquin", "South Elgin", "Sleepy Hollow"],
-    pvi: "D+4",
-    rating: "Lean Democratic (Open GOP-Held Seat)",
-    isOpenSeat: true,
-    isBattleground: true,
-    incumbent: "Don DeWitte (R - Retiring)",
-    primarySummary: "With moderate GOP Sen. Don DeWitte retiring, Fox Valley educator/advocate Michele Clark (D) faces Danielle Penman (R, daughter of former GOP Sen. Karen McConnaughay) in a marquee open-seat battle.",
-    candidates: [
+    "id": "il-house-52",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 52nd District",
+    "districtCode": "HD-52",
+    "districtName": "52nd House District",
+    "region": "Collar Counties (Lake, McHenry, Cook & Kane)",
+    "counties": [
+      "Lake",
+      "McHenry",
+      "Cook",
+      "Kane"
+    ],
+    "cities": [
+      "Barrington",
+      "Barrington Hills",
+      "Crystal Lake",
+      "Wauconda",
+      "Island Lake",
+      "Cary",
+      "Algonquin",
+      "Fox River Grove",
+      "Mundelein"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Martin McLaughlin (R)",
+    "candidates": [
       {
-        id: "michele-clark",
-        name: "Michele Clark",
-        party: "Democrat",
-        role: "Community Advocate & Fox Valley Civic Leader",
-        hometown: "St. Charles / Geneva (Kane County), IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "MC",
-        fecRaised: "$1,120,000",
-        fecCashOnHand: "$780,000",
-        pacPolicy: "ISDF Open-Seat Flip Priority + Personal PAC, IEA & Labor",
-        pacSummary: "Heavily backed by Senate Democrats (ISDF), Personal PAC, IEA/IPACE, IFT, LIUNA, and SEIU to flip this Biden/Harris-won Fox Valley district.",
-        pacs: [
-          { name: "Illinois Senate Democratic Fund (ISDF)", type: "Party Committee", amount: "$850,000+", stance: "Supporting" },
-          { name: "Personal PAC, IEA/IPACE, IFT & LIUNA", type: "Labor PAC", amount: "$220,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Personal PAC", "IEA", "IFT", "LIUNA", "Kane County Democrats"],
-        issues: {
-          propertyTaxes: "Advocates increasing state EBF funding for Elgin U-46, St. Charles D303, Geneva D304, and Batavia D101 to curb local property tax bills.",
-          safetAct: "Supports the SAFE-T Act and gun safety laws alongside mental health crisis response.",
-          budgetTaxes: "Focuses on working-family tax credits, child care affordability, and Fox River environmental restoration.",
-          pensions: "Supports Tier 2 pension reform for teachers and public workers.",
-          energyGrid: "Supports clean energy and protecting municipal electric utilities (St. Charles, Geneva, Batavia) from unfair capacity charges.",
-          transit: "Supports Metra UP-W and MD-W commuter rail frequency and Pace Fox Valley bus connections.",
-          healthcare: "Runs strongly on protecting reproductive rights, IVF access, and Northwestern Delnor / Sherman Hospital healthcare access.",
-          education: "Champions public schools and opposes private school voucher diversions."
-        }
+        "id": "martin-mclaughlin",
+        "name": "Martin McLaughlin",
+        "party": "Republican",
+        "role": "State representative for District 52; former Barrington Hills village president",
+        "hometown": "Barrington Hills, IL",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "MM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "He supports returning 10% of state income-tax receipts to local governments, presenting it as a way to reduce pressure on property taxpayers.",
+          "budgetTaxes": "He advocates reducing state spending and promoted an alternative proposal for up to $8 billion in cuts in February 2026.",
+          "energyGrid": "His office advocates additional nuclear power and what it describes as clean fossil-fuel technology as a bridge to future energy sources.",
+          "education": "He supports restoring the Invest in Kids scholarship program and tying additional Chicago Public Schools funding to measurable academic improvement."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+            "title": "Kane County Clerk: candidates for the 2026 General Election",
+            "checked": "2026-10-28",
+            "note": "Official general-election roster names Maria Peterson (Democratic) and Martin McLaughlin (Republican) for House District 52."
+          },
+          {
+            "field": "role",
+            "url": "https://repmclaughlin.com/about/",
+            "title": "Martin McLaughlin: official state-office biography",
+            "checked": "2026-10-28",
+            "note": "Biography confirms House service, first election in 2020 and Barrington Hills village presidency from 2013 to 2021."
+          },
+          {
+            "field": "hometown",
+            "url": "https://repmclaughlin.com/2026/02/18/mclaughlin-calls-for-8-billion-in-spending-reductions-says-governor-playing-blame-game-on-budget-reality/",
+            "title": "McLaughlin: February 2026 budget statement",
+            "checked": "2026-10-28",
+            "note": "Official state-office release identifies him as R-Barrington Hills."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://repmclaughlin.com/2026/01/27/rep-mclaughlin-restore-local-tax-dollars-stop-the-empty-promises/",
+            "title": "McLaughlin: restoring the local share of tax receipts",
+            "checked": "2026-10-28",
+            "note": "Official January 2026 statement calls for restoring the local share to 10%; projected tax relief is attributed as his rationale."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://repmclaughlin.com/2026/02/18/mclaughlin-calls-for-8-billion-in-spending-reductions-says-governor-playing-blame-game-on-budget-reality/",
+            "title": "McLaughlin: February 2026 budget statement",
+            "checked": "2026-10-28",
+            "note": "Official release states his proposed spending reductions, not an enacted cut or independently verified savings estimate."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://repmclaughlin.com/2025/10/30/rep-mclaughlin-slams-latest-energy-bill-illinois-families-cant-afford-any-more-expensive-help/",
+            "title": "McLaughlin: October 2025 energy-policy statement",
+            "checked": "2026-10-28",
+            "note": "Official release explicitly states support for nuclear and clean fossil-fuel technologies."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://repmclaughlin.com/2026/04/24/rep-martin-mclaughlin-stands-up-for-illinois-students-urges-common-sense/",
+            "title": "McLaughlin: April 2026 education-policy statement",
+            "checked": "2026-10-28",
+            "note": "Official office release calls for restoring Invest in Kids and funding accountability."
+          }
+        ]
       },
       {
-        id: "danielle-penman",
-        name: "Danielle Penman",
-        party: "Republican",
-        role: "Business & Community Leader; Daughter of Former State Sen. Karen McConnaughay",
-        hometown: "St. Charles (Kane County), IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "DP",
-        fecRaised: "$1,050,000",
-        fecCashOnHand: "$710,000",
-        pacPolicy: "Top SRCC Open-Seat Defense + IUOE Local 150, Realtors & IMA",
-        pacSummary: "Backed by retiring Sen. Don DeWitte, SRCC/SRVF, IUOE Local 150, Illinois Realtors RPAC, and Fox Valley business PACs.",
-        pacs: [
-          { name: "Senate Republican Campaign Committee (SRCC / SRVF)", type: "Party Committee", amount: "$750,000+", stance: "Supporting" },
-          { name: "IUOE Local 150 & Illinois Realtors RPAC", type: "Trade PAC", amount: "$190,000+", stance: "Supporting" },
-          { name: "IMA & Illinois Chamber", type: "Trade PAC", amount: "$85,000+", stance: "Supporting" }
+        "id": "maria-peterson",
+        "name": "Maria Peterson",
+        "party": "Democrat",
+        "role": "Former U.S. Department of Labor attorney (campaign biography)",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "MP",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Council 31"
         ],
-        endorsements: ["Retiring Sen. Don DeWitte", "IUOE Local 150", "Illinois Realtors RPAC", "IMA"],
-        issues: {
-          propertyTaxes: "Campaigns on capping Kane and McHenry property taxes and reducing unfunded state mandates.",
-          safetAct: "Calls for revising the SAFE-T Act to give judges broader authority to detain repeat offenders.",
-          budgetTaxes: "Runs in the pragmatic business-focused mold of DeWitte and McConnaughay: capital infrastructure investment paired with state spending restraint.",
-          pensions: "Supports bipartisan pension debt management without raising taxes.",
-          energyGrid: "Protects Geneva, Batavia, and St. Charles municipal electric utilities (NIMPA) and supports nuclear/gas reliability.",
-          transit: "Demands accountability and suburban representation on the new NITA board.",
-          healthcare: "Focuses on lowering family insurance premiums and expanding behavioral health services.",
-          education: "Supports local school control and career/technical education partnerships with Elgin Community College and Waubonsee."
-        }
+        "issues": {
+          "budgetTaxes": "Her campaign supports a more progressive state tax structure, asking higher-income taxpayers to contribute more.",
+          "energyGrid": "Her campaign supports solar, wind and nuclear energy, continued Climate and Equitable Jobs Act progress, and stronger utility accountability.",
+          "safetAct": "Her campaign supports stronger red-flag and safe-storage laws, protections for domestic-violence survivors and community mental-health crisis response. No specific SAFE-T Act position was established.",
+          "healthcare": "Her campaign supports placing abortion rights in the Illinois Constitution, protecting Planned Parenthood and community-health-center funding, and lowering prescription costs.",
+          "education": "Her campaign supports childcare subsidies, universal preschool and inclusive school policies for LGBTQ+ students."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+            "title": "Kane County Clerk: candidates for the 2026 General Election",
+            "checked": "2026-10-28",
+            "note": "Official general-election roster names Maria Peterson (Democratic) and Martin McLaughlin (Republican) for House District 52."
+          },
+          {
+            "field": "role",
+            "url": "https://www.mariafor52.com/meet-candidate/",
+            "title": "Maria Peterson: campaign biography",
+            "checked": "2026-10-28",
+            "note": "Campaign biography describes legal work for the U.S. Department of Labor. It does not describe her as a healthcare attorney."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.mariafor52.com/issues/",
+            "title": "Maria Peterson: campaign issues",
+            "checked": "2026-10-28",
+            "note": "Cost-of-living section explicitly proposes progressive tax reform."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.mariafor52.com/issues/",
+            "title": "Maria Peterson: campaign issues",
+            "checked": "2026-10-28",
+            "note": "Environmental section names solar, wind and nuclear and supports CEJA."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.mariafor52.com/issues/",
+            "title": "Maria Peterson: campaign issues",
+            "checked": "2026-10-28",
+            "note": "Gun-violence section proposes these measures; they are not treated as a SAFE-T Act endorsement."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.mariafor52.com/issues/",
+            "title": "Maria Peterson: campaign issues",
+            "checked": "2026-10-28",
+            "note": "Reproductive-rights and healthcare sections state these proposals."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.mariafor52.com/issues/",
+            "title": "Maria Peterson: campaign issues",
+            "checked": "2026-10-28",
+            "note": "Affordability and LGBTQ+ sections state these proposals."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME: 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The union’s September 19 general-election list names Peterson in House District 52."
+          }
+        ]
       }
-    ]
-  },
-  {
-    id: "il-sen-24",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 24th District",
-    districtCode: "SD-24",
-    districtName: "24th Senate District (Wheaton, Glen Ellyn, Bloomingdale, Carol Stream, Roselle, Bartlett & Hanover Park)",
-    region: "Collar Counties (DuPage & NW Cook)",
-    counties: ["DuPage", "Cook"],
-    cities: ["Wheaton", "Glen Ellyn", "Bloomingdale", "Carol Stream", "Roselle", "Bartlett", "Hanover Park", "Elk Grove Village"],
-    pvi: "D+2",
-    rating: "Toss-Up (Marquee DuPage Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Seth Lewis (R)",
-    primarySummary: "Incumbent Sen. Seth Lewis (R) defends one of the most closely divided suburban districts in DuPage and Cook counties against Democratic nominee Ben McAdams (D).",
-    candidates: [
+    ],
+    "evidence": [
       {
-        id: "seth-lewis",
-        name: "Seth Lewis",
-        party: "Republican",
-        role: "Illinois State Senator (SD-24, 2023-present) & Small Business Owner / Insurance Agent",
-        hometown: "Bartlett (DuPage/Cook County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "SL",
-        fecRaised: "$1,320,000",
-        fecCashOnHand: "$890,000",
-        pacPolicy: "SRCC Defense Priority + IUOE Local 150, Realtors & Business PACs",
-        pacSummary: "Backed by SRCC/SRVF, IUOE Local 150, Illinois Realtors RPAC, NFIB, and Illinois Manufacturers' Association.",
-        pacs: [
-          { name: "Senate Republican Campaign Committee (SRCC)", type: "Party Committee", amount: "$900,000+", stance: "Supporting" },
-          { name: "IUOE Local 150 & Illinois Realtors RPAC", type: "Trade PAC", amount: "$175,000+", stance: "Supporting" },
-          { name: "NFIB, IMA & Illinois Chamber", type: "Trade PAC", amount: "$110,000+", stance: "Supporting" }
-        ],
-        endorsements: ["IUOE Local 150", "Illinois Realtors RPAC", "NFIB Illinois", "IMA"],
-        issues: {
-          propertyTaxes: "Proposes freezing suburban property assessments for seniors and capping local tax levy growth.",
-          safetAct: "Calls for repealing cashless bail provisions and strengthening penalties for organized retail and catalytic converter theft.",
-          budgetTaxes: "Opposes progressive income taxes, corporate tax hikes, and state spending on non-citizens.",
-          pensions: "Advocates structural pension reform and opposing unfunded benefit expansions.",
-          energyGrid: "Supports nuclear and natural gas reliability to curb ComEd capacity price spikes.",
-          transit: "Opposes suburban sales or Road Fund tax diversions to bail out the CTA.",
-          healthcare: "Insurance agent advocating market competition and association health plans.",
-          education: "Supports parental rights and reviving the Invest in Kids scholarship credit."
-        }
+        "field": "candidates",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: candidates for the 2026 General Election",
+        "checked": "2026-10-28",
+        "note": "Official general-election roster names Maria Peterson (Democratic) and Martin McLaughlin (Republican) for House District 52."
       },
       {
-        id: "ben-mcadams",
-        name: "Benjamin 'Ben' McAdams",
-        party: "Democrat",
-        role: "DuPage Community Advocate & Attorney",
-        hometown: "Wheaton / Glen Ellyn (DuPage County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "BM",
-        fecRaised: "$1,150,000",
-        fecCashOnHand: "$760,000",
-        pacPolicy: "ISDF Pickup Target + Personal PAC, IEA, IFT & G-PAC",
-        pacSummary: "Backed by ISDF, Personal PAC, IEA/IPACE, IFT, and G-PAC in a district that voted for Kamala Harris and JB Pritzker.",
-        pacs: [
-          { name: "Illinois Senate Democratic Fund (ISDF)", type: "Party Committee", amount: "$850,000+", stance: "Supporting" },
-          { name: "Personal PAC, G-PAC, IEA & IFT", type: "Ideological PAC", amount: "$210,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Personal PAC", "IEA", "IFT", "G-PAC", "DuPage County Democrats"],
-        issues: {
-          propertyTaxes: "Supports increasing state EBF school funding for Wheaton-Warrenville D200, Glenbard D87, and Elgin U-46 to relieve DuPage homeowners.",
-          safetAct: "Supports the SAFE-T Act and Illinois's assault weapons ban alongside police mental-health co-responder grants.",
-          budgetTaxes: "Focuses on middle-class tax relief and child care affordability.",
-          pensions: "Supports Tier 2 Safe Harbor fixes for teachers and municipal workers.",
-          energyGrid: "Supports CEJA clean energy goals and requiring Elk Grove/DuPage data centers to fund grid upgrades.",
-          transit: "Supports Metra UP-W and MD-W commuter rail and Pace suburban bus integration.",
-          healthcare: "Campaigns heavily on protecting reproductive rights, IVF, and lowering prescription drug prices.",
-          education: "Champions public schools and opposes private school vouchers."
-        }
+        "field": "incumbent",
+        "url": "https://repmclaughlin.com/about/",
+        "title": "Martin McLaughlin: official state-office biography",
+        "checked": "2026-10-28",
+        "note": "Official biography confirms McLaughlin currently serves House District 52."
       }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-sen-27",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 27th District (Open Seat)",
-    districtCode: "SD-27",
-    districtName: "27th Senate District (Arlington Heights, Mount Prospect, Palatine, Rolling Meadows, Prospect Heights & Des Plaines)",
-    region: "Suburban Cook (Northwest Suburbs)",
-    counties: ["Cook"],
-    cities: ["Arlington Heights", "Mount Prospect", "Palatine", "Rolling Meadows", "Prospect Heights", "Des Plaines", "Hoffman Estates", "Buffalo Grove"],
-    pvi: "D+9",
-    rating: "Likely Democratic (Open Seat - Arlington Park Bears Stadium District)",
-    isOpenSeat: true,
-    isBattleground: true,
-    incumbent: "Mark Walker (D - Retiring)",
-    primarySummary: "In the district home to the former Arlington International Racecourse (proposed Chicago Bears stadium site), nonprofit executive Carina Santa Maria (D) faces Republican David Mathis (R) to succeed retiring Sen. Mark Walker.",
-    candidates: [
+    "id": "il-house-68",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative — 68th District",
+    "districtCode": "HD-68",
+    "districtName": "68th House District",
+    "region": "Northern Illinois (Winnebago County)",
+    "counties": [
+      "Winnebago"
+    ],
+    "cities": [
+      "Rockford",
+      "Loves Park",
+      "Machesney Park",
+      "Cherry Valley"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Dave Vella (D)",
+    "candidates": [
       {
-        id: "carina-santa-maria",
-        name: "Carina Santa Maria",
-        party: "Democrat",
-        role: "Nonprofit Executive (Shelter, Inc.) & Licensed Clinical Social Worker",
-        hometown: "Arlington Heights / Palatine area, IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "CS",
-        fecRaised: "$780,000",
-        fecCashOnHand: "$490,000",
-        pacPolicy: "ISDF, Personal PAC, Teachers & IUOE Local 150 Backed",
-        pacSummary: "Backed by outgoing Sen. Mark Walker, ISDF, Personal PAC, IEA, IFT, IUOE Local 150, and social-work/healthcare coalitions.",
-        pacs: [
-          { name: "Illinois Senate Democratic Fund (ISDF)", type: "Party Committee", amount: "$450,000+", stance: "Supporting" },
-          { name: "Personal PAC, IEA, IFT & IUOE Local 150", type: "Labor PAC", amount: "$210,000+", stance: "Supporting" }
+        "id": "dave-vella",
+        "name": "Dave Vella",
+        "party": "Democrat",
+        "role": "State representative for District 68; attorney",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "DV",
+        "website": "https://www.davevella.com/",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers",
+          "Illinois AFL-CIO"
         ],
-        endorsements: ["Sen. Mark Walker", "Personal PAC", "IEA", "IFT", "IUOE Local 150"],
-        issues: {
-          propertyTaxes: "Opposes any taxpayer bailout for a Chicago Bears stadium that would shift property tax burdens onto Arlington Heights, Palatine, or D214/D211 homeowners; supports public infrastructure only with strict taxpayer protections.",
-          safetAct: "Supports the SAFE-T Act, assault weapons ban, and expanding 988 CESSA mental health crisis response.",
-          budgetTaxes: "Prioritizes human-service funding, child welfare (DCFS reform), and middle-class tax relief.",
-          pensions: "Supports Tier 2 pension reform for teachers and public employees.",
-          energyGrid: "Supports clean energy and strict grid/water rules for Northwest Suburban data centers.",
-          transit: "Supports Metra UP-NW commuter rail and Pace bus investments under NITA.",
-          healthcare: "Clinical social worker championing mental health parity, reproductive freedom, and youth behavioral care.",
-          education: "Supports full EBF funding for Township High School Districts 214 and 211."
-        }
+        "issues": {
+          "propertyTaxes": "His campaign supports broader senior property-tax relief and a long-term homeowner exemption.",
+          "safetAct": "His campaign supports law-enforcement resources, crime prevention and problem-solving courts.",
+          "education": "His campaign supports teacher pay and expanded career and vocational training."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/119?t=2",
+            "title": "Winnebago County Clerk — active November 2026 candidates",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/house/members/details/3390",
+            "title": "Illinois General Assembly — Dave Vella biography",
+            "checked": "2026-10-28",
+            "note": "Supports the displayed role."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.davevella.com/",
+            "title": "Dave Vella — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.davevella.com/",
+            "title": "Dave Vella — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.davevella.com/",
+            "title": "Dave Vella — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
       },
       {
-        id: "david-mathis",
-        name: "David Mathis",
-        party: "Republican",
-        role: "Northwest Suburban Business & Civic Advocate",
-        hometown: "Arlington Heights / Palatine area, IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "DM",
-        fecRaised: "$195,000",
-        fecCashOnHand: "$85,000",
-        pacPolicy: "Suburban GOP & Small Business PACs",
-        pacSummary: "Backed by Wheeling and Palatine Township GOP organizations and small-business donors.",
-        pacs: [
-          { name: "SRCC & Wheeling/Palatine Township GOP", type: "Party Committee", amount: "$95,000+", stance: "Supporting" }
+        "id": "kathy-easton",
+        "name": "Kathy Easton",
+        "party": "Republican",
+        "role": "Former tennis-program administrator and community volunteer (campaign biography)",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "KE",
+        "website": "https://kathyeaston.com/",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Family Action"
         ],
-        endorsements: ["Wheeling Township GOP", "Palatine Township GOP", "NFIB Supporters"],
-        issues: {
-          propertyTaxes: "Campaigns on Cook County property tax assessment spikes in the Northwest Suburbs and opposes corporate stadium handouts.",
-          safetAct: "Calls for repealing cashless bail under the SAFE-T Act.",
-          budgetTaxes: "Demands capping state spending and cutting corporate and income taxes.",
-          pensions: "Opposes unfunded Tier 2 pension expansions that would increase state debt.",
-          energyGrid: "Supports reliable nuclear and gas generation to lower ComEd bills.",
-          transit: "Opposes RTA/NITA tax hikes on suburban commuters.",
-          healthcare: "Supports market-based healthcare and ending non-citizen Medicaid spending.",
-          education: "Supports parental rights and reviving Invest in Kids scholarships."
-        }
+        "issues": {
+          "propertyTaxes": "Her campaign proposes freezing property taxes and opposing tax increases.",
+          "budgetTaxes": "Her campaign supports a balanced state budget and opposes higher taxes.",
+          "safetAct": "Her campaign calls for repealing the SAFE-T Act and increasing police training and equipment.",
+          "education": "Her campaign supports parental access to school curricula and restricting girls' sports eligibility by biological sex."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/119?t=2",
+            "title": "Winnebago County Clerk — active November 2026 candidates",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://kathyeaston.com/get-to-know-me/",
+            "title": "Kathy Easton — campaign biography",
+            "checked": "2026-10-28",
+            "note": "Campaign describes her work running Northern Illinois tennis programs and community volunteering."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://kathyeaston.com/sleeves-up-plan/",
+            "title": "Kathy Easton — Sleeves Up Plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://kathyeaston.com/sleeves-up-plan/",
+            "title": "Kathy Easton — Sleeves Up Plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://kathyeaston.com/sleeves-up-plan/",
+            "title": "Kathy Easton — Sleeves Up Plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://kathyeaston.com/sleeves-up-plan/",
+            "title": "Kathy Easton — Sleeves Up Plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
       }
-    ]
-  },
-
-  // ================= MARQUEE STATE HOUSE BATTLEGROUNDS & REGIONAL RACES =================
-  {
-    id: "il-house-52",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 52nd District",
-    districtCode: "HD-52",
-    districtName: "52nd House District (Barrington, Crystal Lake, Wauconda, Cary, Algonquin, Island Lake & Mundelein)",
-    region: "Collar Counties (Lake, McHenry, Cook & Kane)",
-    counties: ["Lake", "McHenry", "Cook", "Kane"],
-    cities: ["Barrington", "Barrington Hills", "Crystal Lake", "Wauconda", "Island Lake", "Cary", "Algonquin", "Fox River Grove", "Mundelein"],
-    pvi: "Even",
-    rating: "Toss-Up (Rematch of 47-Vote 2024 Cliffhanger)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Martin McLaughlin (R)",
-    primarySummary: "In a rematch of the closest House race in Illinois in 2024 (decided by just 47 votes), incumbent Rep. Martin McLaughlin (R) faces attorney Maria Peterson (D).",
-    candidates: [
+    ],
+    "evidence": [
       {
-        id: "martin-mclaughlin",
-        name: "Martin McLaughlin",
-        party: "Republican",
-        role: "Illinois State Representative (HD-52, 2021-present) & Former Barrington Hills Village President",
-        hometown: "Barrington Hills, IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "MM",
-        fecRaised: "$1,280,000",
-        fecCashOnHand: "$840,000",
-        pacPolicy: "Top HRO Defense + Realtors RPAC, IMA & Chamber",
-        pacSummary: "Top incumbent defense priority for House GOP Leader Tony McCombie (HRO); backed by Realtors RPAC, IMA, Illinois Chamber, and NFIB.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$850,000+ Defense", stance: "Supporting" },
-          { name: "Illinois Realtors RPAC, IMA & Chamber", type: "Trade PAC", amount: "$210,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Illinois Realtors RPAC", "IMA", "Illinois Chamber", "NFIB"],
-        issues: {
-          propertyTaxes: "Points to his record cutting the Barrington Hills municipal property tax levy by 30%+ as Mayor; demands local levy caps and consolidation across Illinois.",
-          safetAct: "Vocal critic of the SAFE-T Act; demands restoring judicial discretion to detain repeat and property-crime offenders.",
-          budgetTaxes: "Opposes state budget growth, progressive tax schemes, and corporate tax hikes.",
-          pensions: "Opposes unfunded Tier 2 benefit expansions that would add billions to state pension liabilities.",
-          energyGrid: "Supports nuclear and natural gas energy to stop ComEd rate hikes.",
-          transit: "Opposes suburban tax increases for Chicago transit.",
-          healthcare: "Supports market-based healthcare reform and halting non-citizen healthcare spending.",
-          education: "Supports school choice (Invest in Kids) and local school board accountability."
-        }
+        "field": "candidates",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/119?t=2",
+        "title": "Winnebago County Clerk — active November 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
-        id: "maria-peterson",
-        name: "Maria Peterson",
-        party: "Democrat",
-        role: "Healthcare & Regulatory Attorney",
-        hometown: "North Barrington (Lake County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "MP",
-        fecRaised: "$1,410,000",
-        fecCashOnHand: "$920,000",
-        pacPolicy: "#1 DPI House Pickup Target + Personal PAC, IEA, IFT & G-PAC",
-        pacSummary: "Top House pickup target for Speaker Chris Welch's DPI; heavily backed by Personal PAC, IEA/IPACE, IFT, G-PAC, and Illinois Environmental Council.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$950,000+ Target Support", stance: "Supporting" },
-          { name: "Personal PAC, G-PAC, IEA/IPACE & IFT", type: "Ideological PAC", amount: "$310,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Personal PAC", "IEA", "IFT", "G-PAC", "Sierra Club / IEC", "Illinois AFL-CIO"],
-        issues: {
-          propertyTaxes: "Argues the best way to lower Lake and McHenry property taxes is increasing state EBF returns to suburban school districts and expanding senior homestead exemptions.",
-          safetAct: "Supports gun violence prevention (assault weapons ban, red-flag laws) and funding local police.",
-          budgetTaxes: "Highlights Illinois's 9 credit rating upgrades and elimination of the grocery tax.",
-          pensions: "Supports fixing the Tier 2 Safe Harbor compliance issue for teachers and municipal workers.",
-          energyGrid: "Supports clean energy, open-space conservation, and protecting homeowners from utility rate hikes.",
-          transit: "Supports Metra UP-NW commuter rail reliability and suburban Pace service.",
-          healthcare: "Healthcare attorney who campaigns on protecting reproductive rights, IVF, and lowering prescription drug costs.",
-          education: "Strong defender of public schools and public libraries against book bans."
-        }
+        "field": "incumbent",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current officeholder checked independently of the general-election candidates."
       }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-house-47",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 47th District (Open Seat)",
-    districtCode: "HD-47",
-    districtName: "47th House District (Wheaton, Naperville, Warrenville, West Chicago, Winfield & Glen Ellyn)",
-    region: "Collar Counties (DuPage)",
-    counties: ["DuPage"],
-    cities: ["Wheaton", "Naperville", "Warrenville", "West Chicago", "Winfield", "Glen Ellyn"],
-    pvi: "D+3",
-    rating: "Toss-Up (Open GOP-Held DuPage Seat)",
-    isOpenSeat: true,
-    isBattleground: true,
-    incumbent: "Amy Grant (R - Retiring)",
-    primarySummary: "With GOP Rep. Amy Grant retiring in this Biden/Harris-won DuPage district, Wheaton City Councilwoman and teacher Erica Bray-Parker (D) faces Republican Robert Vrankovich (R).",
-    candidates: [
+    "id": "il-house-76",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative — 76th District",
+    "districtCode": "HD-76",
+    "districtName": "76th House District",
+    "region": "Northern Illinois & Illinois Valley",
+    "counties": [
+      "LaSalle",
+      "DeKalb",
+      "Bureau"
+    ],
+    "cities": [
+      "Ottawa",
+      "LaSalle",
+      "Peru",
+      "Streator",
+      "Mendota",
+      "Spring Valley",
+      "DeKalb"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Amy “Murri” Briel (D)",
+    "candidates": [
       {
-        id: "erica-bray-parker",
-        name: "Erica Bray-Parker",
-        party: "Democrat",
-        role: "Wheaton City Councilwoman & High School Civics Teacher",
-        hometown: "Wheaton (DuPage County), IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "EB",
-        fecRaised: "$1,180,000",
-        fecCashOnHand: "$790,000",
-        pacPolicy: "Top DPI Open-Seat Flip Target + IEA, IFT & Personal PAC",
-        pacSummary: "Heavily funded by Speaker Welch's DPI ($800k+), Illinois Education Association (IPACE), IFT, Personal PAC, and G-PAC.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$800,000+", stance: "Supporting" },
-          { name: "IEA/IPACE, IFT, Personal PAC & G-PAC", type: "Labor PAC", amount: "$290,000+", stance: "Supporting" }
+        "id": "amy-murri-briel",
+        "name": "Amy “Murri” Briel",
+        "party": "Democrat",
+        "role": "State representative for District 76; former chief of staff to Rep. Lance Yednock",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "A“",
+        "website": "https://staterepbriel.com/",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers",
+          "Illinois AFL-CIO"
         ],
-        endorsements: ["Personal PAC", "IEA", "IFT", "G-PAC", "DuPage Democrats"],
-        issues: {
-          propertyTaxes: "Wheaton Councilwoman who emphasizes balanced municipal budgets and increasing state EBF school funding for Wheaton D200 and Naperville D203 to hold down property taxes.",
-          safetAct: "Supports Illinois's assault weapons ban, safe storage laws, and local DuPage police funding.",
-          budgetTaxes: "Focuses on middle-class affordability and protecting municipal LGDF (Local Government Distributive Fund) revenue shares.",
-          pensions: "Public school teacher who champions fixing the Tier 2 teacher pension penalty.",
-          energyGrid: "Supports clean energy, Fermilab research in Warrenville, and stormwater infrastructure.",
-          transit: "Supports Metra BNSF and UP-W commuter rail and Pace bus connections.",
-          healthcare: "Campaigns on protecting reproductive freedom, IVF access, and mental health services.",
-          education: "Veteran classroom teacher opposing private school vouchers and book bans."
-        }
+        "issues": {
+          "budgetTaxes": "Her office identifies reducing living costs and government waste as priorities.",
+          "healthcare": "Her office supports affordable health care and protections for women's health.",
+          "education": "Her office lists affordable child care and public education among her priorities."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
+            "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+            "title": "Office of Rep. Briel — January 8, 2025 inauguration statement",
+            "checked": "2026-10-28",
+            "note": "Supports the displayed role."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+            "title": "Office of Rep. Briel — inauguration priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+            "title": "Office of Rep. Briel — inauguration priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+            "title": "Office of Rep. Briel — inauguration priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
       },
       {
-        id: "robert-vrankovich",
-        name: "Robert Vrankovich",
-        party: "Republican",
-        role: "DuPage Business Professional & Civic Advocate",
-        hometown: "Wheaton / Naperville area (DuPage County), IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "RV",
-        fecRaised: "$820,000",
-        fecCashOnHand: "$540,000",
-        pacPolicy: "Top HRO Open-Seat Defense + DuPage GOP & Business PACs",
-        pacSummary: "Backed by HRO, DuPage County GOP, Realtors RPAC, and suburban business groups seeking to hold their last seat in central DuPage County.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$600,000+", stance: "Supporting" },
-          { name: "DuPage GOP, Realtors RPAC & NFIB", type: "Trade PAC", amount: "$160,000+", stance: "Supporting" }
+        "id": "liz-bishop",
+        "name": "Liz Bishop",
+        "party": "Republican",
+        "role": "La Salle city clerk",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "LB",
+        "website": "https://electlizbishop.com/",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Americans for Prosperity Action"
         ],
-        endorsements: ["Retiring Rep. Amy Grant", "DuPage County GOP", "Illinois Realtors RPAC", "NFIB"],
-        issues: {
-          propertyTaxes: "Campaigns on capping DuPage County property taxes and cutting state mandates.",
-          safetAct: "Calls for repealing cashless bail under the SAFE-T Act and backing DuPage County law enforcement.",
-          budgetTaxes: "Opposes state spending increases and tax hikes.",
-          pensions: "Supports fiscal restraint on state pension liabilities.",
-          energyGrid: "Supports nuclear and natural gas reliability to keep ComEd bills down.",
-          transit: "Opposes suburban subsidies for the CTA.",
-          healthcare: "Pro-life; opposes state taxpayer funding for undocumented immigrant healthcare.",
-          education: "Supports parental rights and reviving the Invest in Kids scholarship program."
-        }
+        "issues": {
+          "propertyTaxes": "Her campaign supports property-tax relief to lower household costs.",
+          "budgetTaxes": "Her campaign opposes increased taxes and spending and supports a more business-friendly state.",
+          "healthcare": "Her campaign seeks to restore local health-care services.",
+          "energyGrid": "Her campaign supports local control over land-use decisions, including solar farms and data centers."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
+            "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://lasalle-il.gov/departments/city-clerk-and-deputy-clerk",
+            "title": "City of La Salle — City Clerk and Deputy Clerk",
+            "checked": "2026-10-28",
+            "note": "Official city page identifies Liz Bishop as La Salle city clerk."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://electlizbishop.com/",
+            "title": "Liz Bishop — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://electlizbishop.com/",
+            "title": "Liz Bishop — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://electlizbishop.com/",
+            "title": "Liz Bishop — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://electlizbishop.com/",
+            "title": "Liz Bishop — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+            "title": "AFP Action — September 10, 2026 Illinois endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
       }
-    ]
-  },
-  {
-    id: "il-house-76",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 76th District",
-    districtCode: "HD-76",
-    districtName: "76th House District (Ottawa, LaSalle, Peru, Streator, Mendota, Spring Valley & DeKalb NIU Precincts)",
-    region: "Northern Illinois & Illinois Valley",
-    counties: ["LaSalle", "DeKalb", "Bureau"],
-    cities: ["Ottawa", "LaSalle", "Peru", "Streator", "Mendota", "Spring Valley", "DeKalb"],
-    pvi: "Even",
-    rating: "Toss-Up (Rematch of Razor-Thin 2024 Race)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Amy 'Murri' Briel (D)",
-    primarySummary: "In a rematch of their 2024 cliffhanger (won by Briel by ~1%), first-term Rep. Amy 'Murri' Briel (D) faces Republican Liz Bishop (R).",
-    candidates: [
+    ],
+    "evidence": [
       {
-        id: "amy-murri-briel",
-        name: "Amy 'Murri' Briel",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-76, 2025-present) & Former Legislative Chief of Staff",
-        hometown: "Ottawa (LaSalle County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "AB",
-        fecRaised: "$1,350,000",
-        fecCashOnHand: "$910,000",
-        pacPolicy: "Top DPI Downstate Defense + Building Trades, IBEW & Teachers",
-        pacSummary: "Heavily defended by Speaker Welch's DPI ($950k+), IUOE Local 150, IBEW, LIUNA, IEA, IFT, and Personal PAC.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$950,000+ Defense", stance: "Supporting" },
-          { name: "IUOE Local 150, IBEW, LIUNA & Building Trades", type: "Labor PAC", amount: "$240,000+", stance: "Supporting" },
-          { name: "IEA/IPACE, IFT & Personal PAC", type: "Ideological PAC", amount: "$140,000+", stance: "Supporting" }
-        ],
-        endorsements: ["IUOE Local 150", "IBEW", "LIUNA", "IEA", "IFT", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Focuses on expanding property tax exemptions for seniors and disabled veterans and increasing state EBF funding for Illinois Valley and DeKalb schools.",
-          safetAct: "Supports targeted funding for rural and municipal police departments alongside domestic violence protections.",
-          budgetTaxes: "Champions Starved Rock / Illinois Valley state park infrastructure, prevailing wage union jobs, and NIU funding in DeKalb.",
-          pensions: "Strongly backs fixing Tier 2 pensions for teachers, state workers, and university staff (SURS).",
-          energyGrid: "Protects union jobs at the LaSalle County Nuclear Generating Station and supports clean energy manufacturing.",
-          transit: "Supports Illinois River bridge replacements and rural transit grants.",
-          healthcare: "Defends reproductive freedom and rural hospital stability in Peru, Ottawa, and Streator.",
-          education: "Champions Northern Illinois University (NIU), Illinois Valley Community College (IVCC), and public K-12 schools."
-        }
+        "field": "candidates",
+        "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
+        "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
-        id: "liz-bishop",
-        name: "Liz Bishop",
-        party: "Republican",
-        role: "Peru City Clerk / Local Business & Conservative Activist",
-        hometown: "Peru (LaSalle County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "LB",
-        fecRaised: "$1,120,000",
-        fecCashOnHand: "$740,000",
-        pacPolicy: "#1 HRO Northern IL Pickup Target + Farm Bureau & NFIB",
-        pacSummary: "Top House GOP target backed by HRO ($800k+), LaSalle and DeKalb County GOP organizations, NFIB, and Illinois Right to Life.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$800,000+ Target Support", stance: "Supporting" },
-          { name: "NFIB, Farm Bureau & Right to Life PACs", type: "Ideological PAC", amount: "$160,000+", stance: "Supporting" }
-        ],
-        endorsements: ["NFIB Illinois", "Illinois Right to Life", "LaSalle & DeKalb County GOP"],
-        issues: {
-          propertyTaxes: "Campaigns on capping LaSalle and DeKalb property taxes and repealing unfunded state mandates.",
-          safetAct: "Makes repealing the SAFE-T Act and ending Illinois's sanctuary state law her top campaign issues.",
-          budgetTaxes: "Attacks state budget growth and non-citizen healthcare spending.",
-          pensions: "Calls for state fiscal restraint before expanding pension obligations.",
-          energyGrid: "Supports nuclear and fossil-fuel power while opposing state preemption of county zoning on commercial wind and solar farms.",
-          transit: "Opposes diverting downstate Road Fund money to Chicago transit.",
-          healthcare: "Pro-life conservative; focuses on reopening and stabilizing Illinois Valley hospital services.",
-          education: "Supports parental rights and reviving Invest in Kids private school scholarships."
-        }
+        "field": "incumbent",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current officeholder checked independently of the general-election candidates."
       }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-house-97",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 97th District",
-    districtCode: "HD-97",
-    districtName: "97th House District (Plainfield, Joliet, Bolingbrook, Oswego, Shorewood, Montgomery & Naperville)",
-    region: "Collar Counties (Will, Kendall & DuPage)",
-    counties: ["Will", "Kendall", "DuPage"],
-    cities: ["Plainfield", "Joliet", "Bolingbrook", "Oswego", "Shorewood", "Montgomery", "Naperville"],
-    pvi: "D+2",
-    rating: "Toss-Up (Marquee Will/Kendall Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Jessica Dixon Heitman (D - Appointed July 2026 after Harry Benton resigned)",
-    primarySummary: "Upended in July 2026 when Democratic Rep. Harry Benton resigned amid an ethics probe; local Democrats appointed Jessica Dixon Heitman (D, granddaughter of U.S. Sen. Alan Dixon) to face Republican Gabby Shanahan (R).",
-    candidates: [
+    "id": "il-house-84",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative — 84th District",
+    "districtCode": "HD-84",
+    "districtName": "84th House District",
+    "region": "Collar Counties (Kane, DuPage, Kendall & Will)",
+    "counties": [
+      "Kane",
+      "DuPage",
+      "Kendall",
+      "Will"
+    ],
+    "cities": [
+      "Aurora",
+      "Naperville",
+      "Montgomery",
+      "Oswego",
+      "Boulder Hill"
+    ],
+    "isOpenSeat": true,
+    "incumbent": "Stephanie Kifowit (D)",
+    "candidates": [
       {
-        id: "jessica-dixon-heitman",
-        name: "Jessica Dixon Heitman",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-97, appointed July 2026); Granddaughter of Former U.S. Sen. Alan Dixon",
-        hometown: "Plainfield (Will County), IL",
-        incumbentStatus: "Incumbent (Appointed)",
-        photoInitials: "JD",
-        fecRaised: "$1,250,000",
-        fecCashOnHand: "$890,000",
-        pacPolicy: "Emergency DPI Defense + IUOE Local 150, Building Trades & Teachers",
-        pacSummary: "Backed by an emergency $1M+ defense effort from Speaker Welch's DPI, IUOE Local 150, IBEW, LIUNA, IEA, IFT, and Personal PAC.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$900,000+ Emergency Defense", stance: "Supporting" },
-          { name: "IUOE Local 150, IBEW & LIUNA", type: "Labor PAC", amount: "$220,000+", stance: "Supporting" },
-          { name: "IEA/IPACE, IFT & Personal PAC", type: "Ideological PAC", amount: "$120,000+", stance: "Supporting" }
+        "id": "saba-haider",
+        "name": "Saba Haider",
+        "party": "Democrat",
+        "role": "DuPage County Board member (campaign biography)",
+        "hometown": "",
+        "incumbentStatus": "Open-seat nominee",
+        "photoInitials": "SH",
+        "website": "https://www.sabahaider.com/",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers",
+          "Illinois AFL-CIO"
         ],
-        endorsements: ["IUOE Local 150", "IBEW", "LIUNA", "IEA", "IFT", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Focuses on surging Will and Kendall County residential property tax bills by demanding higher state EBF school funding for fast-growing Plainfield D202 and Oswego D308.",
-          safetAct: "Supports local police funding and domestic violence protections.",
-          budgetTaxes: "Pledges strict ethics reform and middle-class tax relief.",
-          pensions: "Supports Tier 2 pension reform for teachers, police, and firefighters.",
-          energyGrid: "Supports grid reliability and strict local input on warehouse and data center siting.",
-          transit: "Supports I-55 and Route 59 corridor widening and Metra commuter service.",
-          healthcare: "Champions reproductive rights, IVF access, and lowering family healthcare costs.",
-          education: "Strong advocate for Plainfield D202 and Oswego D308 public schools."
-        }
+        "issues": {
+          "propertyTaxes": "Her campaign supports reducing property-tax burdens.",
+          "budgetTaxes": "Her campaign says billionaires and large corporations should pay a greater share of taxes.",
+          "healthcare": "Her campaign supports affordable health care, lower prescription costs and reproductive rights.",
+          "energyGrid": "Her campaign supports limits on utility-rate increases.",
+          "education": "Her campaign supports full state funding for schools."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+            "title": "Kane County Clerk — November 2026 candidate list",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.sabahaider.com/",
+            "title": "Saba Haider — campaign biography and priorities",
+            "checked": "2026-10-28",
+            "note": "Supports the displayed role."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.sabahaider.com/",
+            "title": "Saba Haider — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.sabahaider.com/",
+            "title": "Saba Haider — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.sabahaider.com/",
+            "title": "Saba Haider — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.sabahaider.com/",
+            "title": "Saba Haider — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.sabahaider.com/",
+            "title": "Saba Haider — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
       },
       {
-        id: "gabby-shanahan",
-        name: "Gabby Shanahan",
-        party: "Republican",
-        role: "Will/Kendall Small Business & Community Advocate",
-        hometown: "Plainfield / Joliet area, IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "GS",
-        fecRaised: "$1,150,000",
-        fecCashOnHand: "$810,000",
-        pacPolicy: "#1 HRO Suburban Flip Target + Will/Kendall GOP & Business PACs",
-        pacSummary: "Elevated to HRO's #1 suburban pickup target following Harry Benton's resignation; heavily backed by HRO, Will and Kendall GOP, NFIB, and IMA.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$850,000+ Target Support", stance: "Supporting" },
-          { name: "Will/Kendall GOP, NFIB & IMA", type: "Trade PAC", amount: "$190,000+", stance: "Supporting" }
+        "id": "brian-scopa",
+        "name": "Brian Scopa",
+        "party": "Republican",
+        "role": "Retired U.S. Navy commander (campaign biography)",
+        "hometown": "",
+        "incumbentStatus": "Open-seat nominee",
+        "photoInitials": "BS",
+        "website": "https://scopaforillinois.com/",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Family Action"
         ],
-        endorsements: ["Will County GOP", "Kendall County GOP", "NFIB Illinois", "IMA"],
-        issues: {
-          propertyTaxes: "Makes Will and Kendall County property tax relief and Springfield ethics corruption her centerpiece issues.",
-          safetAct: "Calls for repealing cashless bail under the SAFE-T Act and backing Will/Kendall sheriffs.",
-          budgetTaxes: "Opposes state spending growth and tax hikes.",
-          pensions: "Supports fiscal discipline on state pension debt.",
-          energyGrid: "Opposes CEJA green mandates that raise ComEd bills.",
-          transit: "Prioritizes Southwest Suburban highway and truck-routing relief over Chicago transit bailouts.",
-          healthcare: "Opposes taxpayer-funded healthcare for undocumented immigrants.",
-          education: "Supports parental rights and reviving Invest in Kids scholarships."
-        }
+        "issues": {
+          "budgetTaxes": "His campaign supports audits of state spending and contracts, and funding tied to measurable results.",
+          "safetAct": "His campaign proposes revising the SAFE-T Act and mandatory minimum sentences for repeat violent offenders.",
+          "education": "His campaign supports school choice, public access to curricula and stronger classroom safety measures."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+            "title": "Kane County Clerk — November 2026 candidate list",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://scopaforillinois.com/meet-candidate",
+            "title": "Brian Scopa — campaign biography",
+            "checked": "2026-10-28",
+            "note": "Supports the displayed role."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://scopaforillinois.com/issues",
+            "title": "Brian Scopa — campaign issues",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://scopaforillinois.com/issues",
+            "title": "Brian Scopa — campaign issues",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://scopaforillinois.com/issues",
+            "title": "Brian Scopa — campaign issues",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
       }
-    ]
-  },
-  {
-    id: "il-house-104",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 104th District",
-    districtCode: "HD-104",
-    districtName: "104th House District (Danville, Champaign, Rantoul, Savoy & Mahomet)",
-    region: "Central Illinois (Champaign & Vermilion Counties)",
-    counties: ["Champaign", "Vermilion"],
-    cities: ["Danville", "Champaign", "Rantoul", "Savoy", "Mahomet", "Gifford", "Tilton"],
-    pvi: "R+1",
-    rating: "Toss-Up (Marquee East-Central IL Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Brandun Schweizer (R)",
-    primarySummary: "First-term incumbent Rep. Brandun Schweizer (R, retired U.S. Marine) defends this competitive Champaign-Danville district against Democrat Mary Catherine Roberson (D, former aide to Rep. Nikki Budzinski).",
-    candidates: [
+    ],
+    "evidence": [
       {
-        id: "brandun-schweizer",
-        name: "Brandun Schweizer",
-        party: "Republican",
-        role: "Illinois State Representative (HD-104, appointed Dec 2023, elected 2024); Retired U.S. Marine Sergeant & Former Danville Code Official",
-        hometown: "Danville (Vermilion County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "BS",
-        fecRaised: "$1,150,000",
-        fecCashOnHand: "$780,000",
-        pacPolicy: "Top HRO Downstate Defense + IUOE Local 150, IBEW & Realtors",
-        pacSummary: "Bipartisan labor-friendly Republican heavily backed by HRO, IUOE Local 150, IBEW, Illinois Realtors RPAC, and Illinois Farm Bureau.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$780,000+ Defense", stance: "Supporting" },
-          { name: "IUOE Local 150 & IBEW Local PACs", type: "Labor PAC", amount: "$195,000+", stance: "Supporting" },
-          { name: "Illinois Realtors RPAC & Farm Bureau ACTIVATOR", type: "Trade PAC", amount: "$110,000+", stance: "Supporting" }
-        ],
-        endorsements: ["IUOE Local 150", "IBEW", "Illinois Realtors RPAC", "Illinois Farm Bureau"],
-        issues: {
-          propertyTaxes: "Focuses on veteran property tax relief, Danville commercial redevelopment, and capping residential property taxes in Champaign and Vermilion counties.",
-          safetAct: "Supports restoring pretrial detention for repeat violent and fentanyl offenders while funding local police.",
-          budgetTaxes: "Supports Danville Golden Nugget casino/economic development, prevailing wage infrastructure, and state budget discipline.",
-          pensions: "Supports Tier 2 police, firefighter, and SURS pension fixes.",
-          energyGrid: "Protects the Mahomet Aquifer from carbon pipeline risks and backs reliable Ameren baseload power.",
-          transit: "Supports I-74 corridor upgrades and rural road funding.",
-          healthcare: "Focuses on Danville VA Illiana Health Care System and Carle Foundation Hospital access.",
-          education: "Supports Danville Area Community College (DACC), UIUC, and career technical education."
-        }
+        "field": "candidates",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk — November 2026 candidate list",
+        "checked": "2026-10-28",
+        "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
-        id: "mary-catherine-roberson",
-        name: "Mary Catherine Roberson",
-        party: "Democrat",
-        role: "Former Constituent Services & District Aide to U.S. Rep. Nikki Budzinski",
-        hometown: "Champaign / Danville area, IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "MR",
-        fecRaised: "$1,080,000",
-        fecCashOnHand: "$720,000",
-        pacPolicy: "#1 DPI Downstate Flip Target + Personal PAC, IEA, IFT & SEIU",
-        pacSummary: "Top downstate House target for Speaker Welch's DPI; backed by Personal PAC, IEA, IFT, LIUNA, and SEIU.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$750,000+ Target Support", stance: "Supporting" },
-          { name: "Personal PAC, IEA/IPACE, IFT & SEIU", type: "Labor PAC", amount: "$220,000+", stance: "Supporting" }
-        ],
-        endorsements: ["U.S. Rep. Nikki Budzinski", "Personal PAC", "IEA", "IFT", "SEIU"],
-        issues: {
-          propertyTaxes: "Advocates increasing state EBF school funding for Danville D118, Rantoul, and Champaign Unit 4 to lower local property tax burdens.",
-          safetAct: "Supports gun safety laws and community violence intervention alongside local police resources.",
-          budgetTaxes: "Focuses on working-family tax credits, child care access, and economic investment in Danville and Rantoul.",
-          pensions: "Champions fixing the Tier 2 pension penalty for UIUC (SURS) workers and teachers.",
-          energyGrid: "Supports protecting the Mahomet Aquifer, clean energy jobs, and holding Ameren accountable for utility rate hikes.",
-          transit: "Supports Champaign-Urbana MTD bus expansion and regional passenger rail.",
-          healthcare: "Campaigns on protecting reproductive rights and expanding maternal and rural healthcare in Vermilion County.",
-          education: "Strong advocate for UIUC, DACC, and public K-12 education."
-        }
+        "field": "incumbent",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current officeholder checked independently of the general-election candidates."
       }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-house-112",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 112th District",
-    districtCode: "HD-112",
-    districtName: "112th House District (Edwardsville, Collinsville, O'Fallon, Glen Carbon, Maryville & Fairview Heights)",
-    region: "Metro East & Southern Illinois",
-    counties: ["Madison", "St. Clair"],
-    cities: ["Edwardsville", "Collinsville", "O'Fallon", "Glen Carbon", "Maryville", "Fairview Heights", "Caseyville", "Pontoon Beach"],
-    pvi: "D+2",
-    rating: "Lean Democratic (Perennial Metro East Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Katie Stuart (D)",
-    primarySummary: "Assistant Majority Leader Rep. Katie Stuart (D, former SIUE math instructor) defends her Metro East battleground seat against O'Fallon City Councilman Jimmy Ford (R).",
-    candidates: [
+    "id": "il-house-89",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative — 89th District",
+    "districtCode": "HD-89",
+    "districtName": "89th House District",
+    "region": "Northern & Northwest Illinois",
+    "counties": [
+      "Carroll",
+      "Jo Daviess",
+      "Stephenson",
+      "Ogle",
+      "Winnebago",
+      "DeKalb"
+    ],
+    "cities": [
+      "Savanna",
+      "Freeport",
+      "Galena",
+      "Byron",
+      "Pecatonica",
+      "Mount Carroll",
+      "East Dubuque",
+      "Lena",
+      "Forreston"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Tony McCombie (R)",
+    "candidates": [
       {
-        id: "katie-stuart",
-        name: "Katie Stuart",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-112, 2017-present); Assistant Majority Leader & Former SIUE Math Instructor",
-        hometown: "Edwardsville (Madison County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "KS",
-        fecRaised: "$1,620,000",
-        fecCashOnHand: "$1,150,000",
-        pacPolicy: "Top DPI Metro East Defense + Teachers, Building Trades & Personal PAC",
-        pacSummary: "One of the most battle-tested Democrats in Illinois; heavily backed by DPI ($1.1M+), IEA, IFT, IUOE Local 150, LIUNA, IBEW, and Personal PAC.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$1,100,000+ Defense", stance: "Supporting" },
-          { name: "IEA/IPACE, IFT & Personal PAC", type: "Labor PAC", amount: "$260,000+", stance: "Supporting" },
-          { name: "IUOE Local 150, LIUNA & IBEW", type: "Labor PAC", amount: "$190,000+", stance: "Supporting" }
-        ],
-        endorsements: ["IEA", "IFT", "IUOE Local 150", "LIUNA", "Personal PAC", "Illinois AFL-CIO"],
-        issues: {
-          propertyTaxes: "Focuses on increasing state EBF school funding for Edwardsville D7, Collinsville U10, and O'Fallon schools and expanding veteran/senior property tax exemptions.",
-          safetAct: "Supports police training grants and domestic violence detention standards.",
-          budgetTaxes: "Sponsored professional licensure reciprocity for military spouses at Scott Air Force Base and eliminated the statewide grocery tax.",
-          pensions: "Chairs Higher Education; leading champion of fixing Tier 2 SURS and TRS pensions for SIUE and K-12 educators.",
-          energyGrid: "Supports holding Ameren accountable for Metro East rate spikes and investing in grid storage.",
-          transit: "Supports MetroLink extension to MidAmerica Airport/Scott AFB and MCT bus transit.",
-          healthcare: "Strong defender of reproductive freedom, IVF coverage, and capping insulin costs.",
-          education: "Former SIUE math teacher; champions SIUE equity funding and public K-12 schools."
-        }
+        "id": "tony-mccombie",
+        "name": "Tony McCombie",
+        "party": "Republican",
+        "role": "Illinois House minority leader; state representative for District 89",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "TM",
+        "website": "https://www.mccombieforillinois.com/",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "Her campaign links increased state school funding to property-tax relief.",
+          "budgetTaxes": "Her campaign opposes unbalanced budgets, tax increases and legislator pay increases, and supports a more open budget process.",
+          "safetAct": "Her campaign supports law-enforcement resources, victim protections and addressing the causes of violence.",
+          "education": "Her campaign supports evidence-based school funding, vocational education and local school control, and opposes unfunded mandates."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
+            "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://repmccombie.com/",
+            "title": "Office of Rep. Tony McCombie",
+            "checked": "2026-10-28",
+            "note": "Supports the displayed role."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.mccombieforillinois.com/",
+            "title": "Tony McCombie — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.mccombieforillinois.com/",
+            "title": "Tony McCombie — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.mccombieforillinois.com/",
+            "title": "Tony McCombie — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.mccombieforillinois.com/",
+            "title": "Tony McCombie — campaign priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
+        "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
-        id: "jimmy-ford",
-        name: "Jimmy Ford",
-        party: "Republican",
-        role: "O'Fallon City Council Member & Small Business Professional",
-        hometown: "O'Fallon (St. Clair County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "JF",
-        fecRaised: "$1,180,000",
-        fecCashOnHand: "$790,000",
-        pacPolicy: "Top HRO Metro East Target + Madison/St. Clair GOP & Business PACs",
-        pacSummary: "Backed by over $900k in HRO support, St. Clair and Madison County GOP, NFIB, and IMA.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$900,000+ Target Support", stance: "Supporting" },
-          { name: "NFIB, IMA & Metro East Business Donors", type: "Trade PAC", amount: "$180,000+", stance: "Supporting" }
-        ],
-        endorsements: ["St. Clair County GOP", "Madison County GOP", "NFIB Illinois", "IMA"],
-        issues: {
-          propertyTaxes: "O'Fallon Councilman campaigning on high St. Clair and Madison County property taxes and cutting state spending.",
-          safetAct: "Makes repealing cashless bail under the SAFE-T Act a central plank to combat cross-river vehicle thefts and crime.",
-          budgetTaxes: "Opposes state tax hikes and non-citizen healthcare spending; supports Scott AFB military families.",
-          pensions: "Calls for fiscal discipline before expanding state pension liabilities.",
-          energyGrid: "Attacks CEJA green mandates for shutting down downstate power plants and spiking Ameren electric bills.",
-          transit: "Opposes diverting downstate Road Fund money to bail out Chicago transit.",
-          healthcare: "Pro-life; supports market-based healthcare reforms.",
-          education: "Supports parental rights and reviving Invest in Kids tax-credit scholarships."
-        }
+        "field": "incumbent",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current officeholder checked independently of the general-election candidates."
       }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-house-114",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 114th District",
-    districtCode: "HD-114",
-    districtName: "114th House District (East St. Louis, O'Fallon, Mascoutah, Cahokia Heights, Millstadt, Freeburg & Lebanon)",
-    region: "Metro East & Southern Illinois",
-    counties: ["St. Clair"],
-    cities: ["East St. Louis", "O'Fallon", "Mascoutah", "Cahokia Heights", "Millstadt", "Freeburg", "Lebanon", "Dupo", "New Athens"],
-    pvi: "Even",
-    rating: "Toss-Up (Marquee St. Clair County Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Kevin Schmidt (R)",
-    primarySummary: "Two-term incumbent Rep. Kevin Schmidt (R) defends this uniquely split urban-rural St. Clair County district (combining East St. Louis and Cahokia Heights with Mascoutah, O'Fallon, and Millstadt) against Democrat George McClellan Jr. (D).",
-    candidates: [
+    "id": "il-house-91",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative — 91st District",
+    "districtCode": "HD-91",
+    "districtName": "91st House District",
+    "region": "Central Illinois (McLean & Tazewell Counties)",
+    "counties": [
+      "McLean",
+      "Tazewell",
+      "Peoria"
+    ],
+    "cities": [
+      "Bloomington",
+      "Normal",
+      "East Peoria",
+      "Bartonville",
+      "Creve Coeur"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Sharon Chung (D)",
+    "candidates": [
       {
-        id: "kevin-schmidt",
-        name: "Kevin Schmidt",
-        party: "Republican",
-        role: "Illinois State Representative (HD-114, 2023-present) & Chiropractor",
-        hometown: "Millstadt (St. Clair County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "KS",
-        fecRaised: "$1,380,000",
-        fecCashOnHand: "$940,000",
-        pacPolicy: "Top HRO Metro East Defense + IUOE Local 150, Realtors & IMA",
-        pacSummary: "Heavily defended by HRO ($1M+), Illinois Realtors RPAC, IUOE Local 150, IMA, and Illinois Chamber.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$950,000+ Defense", stance: "Supporting" },
-          { name: "IUOE Local 150 & Illinois Realtors RPAC", type: "Trade PAC", amount: "$210,000+", stance: "Supporting" },
-          { name: "IMA, Illinois Chamber & NFIB", type: "Trade PAC", amount: "$120,000+", stance: "Supporting" }
+        "id": "sharon-chung",
+        "name": "Sharon Chung",
+        "party": "Democrat",
+        "role": "State representative for District 91; teacher and professional musician",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "SC",
+        "website": "",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers",
+          "Illinois AFL-CIO"
         ],
-        endorsements: ["IUOE Local 150", "Illinois Realtors RPAC", "IMA", "NFIB"],
-        issues: {
-          propertyTaxes: "Campaigns on St. Clair County property tax relief, senior assessment freezes, and Scott AFB military family exemptions.",
-          safetAct: "Calls for repealing cashless bail under the SAFE-T Act and increasing police funding across St. Clair County.",
-          budgetTaxes: "Focuses on Cahokia Heights / East St. Louis sewer and flood infrastructure accountability and cutting state waste.",
-          pensions: "Supports police and firefighter pension stability.",
-          energyGrid: "Protects Prairie State Energy Campus coal plant jobs and opposes CEJA rate hikes.",
-          transit: "Supports MetroLink security and Scott AFB/MidAmerica Airport road infrastructure.",
-          healthcare: "Chiropractor focused on rural and urban clinic access and lowering insurance mandates.",
-          education: "Supports local schools and reviving Invest in Kids scholarships."
-        }
+        "issues": {
+          "healthcare": "Her legislative office states that she supports access to abortion and reproductive health care.",
+          "education": "She supports editorial independence for media at public universities and sponsored HB 4420."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
+            "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/House/Members/Details/3431",
+            "title": "Illinois General Assembly — Sharon Chung biography",
+            "checked": "2026-10-28",
+            "note": "Supports the displayed role."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://ilhousedems.com/2026/02/27/chung-backed-resolution-opposes-extreme-anti-choice-senate-bill/",
+            "title": "Office of Rep. Chung — reproductive-health statement, February 27, 2026",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://ilhousedems.com/2026/04/21/chung-bill-protecting-independence-of-media-that-partner-with-public-universities-passes-house/",
+            "title": "Office of Rep. Chung — university-media bill, April 21, 2026",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
+        "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+        "checked": "2026-10-28",
+        "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
-        id: "george-mcclellan-jr",
-        name: "George McClellan Jr.",
-        party: "Democrat",
-        role: "East St. Louis / St. Clair County Community & Labor Advocate",
-        hometown: "East St. Louis / Cahokia Heights, IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "GM",
-        fecRaised: "$1,050,000",
-        fecCashOnHand: "$690,000",
-        pacPolicy: "DPI Pickup Target + St. Clair Dems, SEIU, IEA & IFT",
-        pacSummary: "Backed by DPI ($750k+), St. Clair County Democratic Chairman Mark Kern's organization, SEIU, IEA, IFT, and Personal PAC.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$750,000+ Target Support", stance: "Supporting" },
-          { name: "SEIU, IEA/IPACE, IFT & St. Clair Democratic Party", type: "Labor PAC", amount: "$240,000+", stance: "Supporting" }
-        ],
-        endorsements: ["St. Clair County Democratic Party", "SEIU", "IEA", "IFT", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Advocates EBF state school funding for East St. Louis D189, Cahokia D187, and Mascoutah D19 to relieve homeowner property taxes.",
-          safetAct: "Defends the SAFE-T Act and violence prevention funding.",
-          budgetTaxes: "Prioritizes state/federal EPA flood and sanitary sewer reconstruction for Cahokia Heights and East St. Louis.",
-          pensions: "Supports Tier 2 pension reform for teachers and public workers.",
-          energyGrid: "Supports clean energy job training and low-income utility bill assistance (LIHEAP).",
-          transit: "Supports MetroLink expansion and Bi-State transit funding.",
-          healthcare: "Champions Medicaid protection, maternal health equity, and reproductive freedom.",
-          education: "Supports public school funding and opposes private school vouchers."
-        }
+        "field": "incumbent",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current officeholder checked independently of the general-election candidates."
       }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
   {
-    id: "il-house-68",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 68th District",
-    districtCode: "HD-68",
-    districtName: "68th House District (Rockford, Loves Park, Machesney Park & Cherry Valley)",
-    region: "Northern Illinois (Winnebago County)",
-    counties: ["Winnebago"],
-    cities: ["Rockford", "Loves Park", "Machesney Park", "Cherry Valley"],
-    pvi: "D+1",
-    rating: "Lean Democratic (Marquee Rockford Battleground)",
-    isOpenSeat: false,
-    isBattleground: true,
-    incumbent: "Dave Vella (D)",
-    primarySummary: "Three-term moderate pro-labor incumbent Rep. Dave Vella (D) defends his Rockford/Loves Park seat against Republican Kathy Easton (R).",
-    candidates: [
+    "id": "il-house-92",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative — 92nd District",
+    "districtCode": "HD-92",
+    "districtName": "92nd House District",
+    "region": "Central Illinois (Peoria County)",
+    "counties": [
+      "Peoria"
+    ],
+    "cities": [
+      "Peoria",
+      "West Peoria",
+      "Bartonville"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Jehan Gordon-Booth (D)",
+    "candidates": [
       {
-        id: "dave-vella",
-        name: "Dave Vella",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-68, 2021-present) & Labor/Workers' Compensation Attorney",
-        hometown: "Rockford (Winnebago County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "DV",
-        fecRaised: "$1,420,000",
-        fecCashOnHand: "$960,000",
-        pacPolicy: "Top DPI Northern IL Defense + UAW, IUOE Local 150, ITLA & Police/Fire Unions",
-        pacSummary: "Runs as an independent-minded pro-labor, pro-police Democrat; heavily backed by DPI, UAW, IUOE Local 150, IBEW, ITLA, Associated Fire Fighters (AFFI), and local police unions.",
-        pacs: [
-          { name: "Democrats for the Illinois House / DPI", type: "Party Committee", amount: "$900,000+ Defense", stance: "Supporting" },
-          { name: "UAW, IUOE Local 150, IBEW & LIUNA", type: "Labor PAC", amount: "$280,000+", stance: "Supporting" },
-          { name: "ITLA (Trial Lawyers), AFFI & Police Unions", type: "Trade PAC", amount: "$180,000+", stance: "Supporting" }
+        "id": "jehan-gordon-booth",
+        "name": "Jehan Gordon-Booth",
+        "party": "Democrat",
+        "role": "State representative for District 92",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "JG",
+        "website": "",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers",
+          "Illinois AFL-CIO"
         ],
-        endorsements: ["United Auto Workers (UAW)", "IUOE Local 150", "AFFI (Firefighters)", "Rockford Police PBPA", "IEA", "IFT"],
-        issues: {
-          propertyTaxes: "Sponsored legislation expanding Winnebago County senior property tax freezes and bringing manufacturing jobs back to expand the commercial tax base.",
-          safetAct: "Pro-police moderate who voted against initial versions of the SAFE-T Act and sponsored trailer bills tightening pretrial detention and funding Rockford police body cameras and hiring.",
-          budgetTaxes: "Championed the REV Illinois tax incentives that secured the $5B Stellantis deal to reopen the Belvidere Assembly Plant.",
-          pensions: "Leading House advocate for restoring Tier 2 police, firefighter, and teacher pension benefits.",
-          energyGrid: "Supports Byron nuclear plant preservation and industrial grid reliability.",
-          transit: "Championed state capital funding to restore passenger rail (Metra/Amtrak) between Rockford and Chicago.",
-          healthcare: "Supports lowering prescription drug costs and protecting Rockford hospital systems (UW Health SwedishAmerican, OSF).",
-          education: "Supports Rockford RPS 205, Harlem D122, and Rock Valley College."
-        }
+        "issues": {
+          "safetAct": "Her office supports automated sealing of eligible criminal records under the Clean Slate Act to reduce barriers to housing and employment.",
+          "budgetTaxes": "Her office supports a fiscally responsible budget that protects education, child care, health care and essential services.",
+          "healthcare": "Her office supports affordable health care and investment in community health-center facilities and technology."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
+            "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+            "checked": "2026-10-28",
+            "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/House/Members/List",
+            "title": "Illinois General Assembly — current House members",
+            "checked": "2026-10-28",
+            "note": "Supports the displayed role."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://ilhousedems.com/2026/01/16/gordon-booth-led-clean-slate-act-signed-into-law-automatically-seals-records-for-certain-offenses-helping-to-remove-barriers/",
+            "title": "Office of Rep. Gordon-Booth — Clean Slate Act, January 16, 2026",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://ilhousedems.com/2026/02/18/gordon-booth-reacts-to-governors-budget-address-emphasizes-need-for-responsible-and-compassionate-plan/",
+            "title": "Office of Rep. Gordon-Booth — budget priorities, February 18, 2026",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://ilhousedems.com/2026/08/24/gordon-booth-congratulates-peoria-based-healthcare-centers-on-nearly-6-million-in-grant-funding/",
+            "title": "Office of Rep. Gordon-Booth — community health centers, August 24, 2026",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; summarized with attribution."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists this candidate for the 2026 general election."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
+        "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+        "checked": "2026-10-28",
+        "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
-        id: "kathy-easton",
-        name: "Kathy Easton",
-        party: "Republican",
-        role: "Winnebago County Conservative & Business Advocate",
-        hometown: "Rockford / Loves Park (Winnebago County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "KE",
-        fecRaised: "$680,000",
-        fecCashOnHand: "$410,000",
-        pacPolicy: "HRO Target Support + Winnebago GOP & NFIB",
-        pacSummary: "Backed by HRO, Winnebago County GOP, NFIB, and conservative grassroots organizations.",
-        pacs: [
-          { name: "House Republican Organization (HRO)", type: "Party Committee", amount: "$500,000+", stance: "Supporting" },
-          { name: "Winnebago County GOP & NFIB", type: "Trade PAC", amount: "$110,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Winnebago County GOP", "NFIB Illinois", "Illinois Family Action"],
-        issues: {
-          propertyTaxes: "Campaigns on Winnebago County's high property tax rates and calls for hard state property tax caps.",
-          safetAct: "Demands full repeal of the SAFE-T Act and ending Illinois's sanctuary state status.",
-          budgetTaxes: "Attacks state budget growth and corporate subsidy giveaways.",
-          pensions: "Supports fiscal restraint on state pension obligations.",
-          energyGrid: "Opposes CEJA green mandates and EV rules.",
-          transit: "Questions the cost of the Rockford-to-Chicago passenger rail project vs. fixing local roads.",
-          healthcare: "Pro-life; opposes state healthcare spending on undocumented immigrants.",
-          education: "Supports universal school choice and reviving Invest in Kids scholarships."
-        }
+        "field": "incumbent",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current officeholder checked independently of the general-election candidates."
       }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
-
-  // ================= ADDITIONAL REGIONAL ANCHOR RACES (CHICAGO, SUBURBS & DOWNSTATE) =================
   {
-    id: "il-sen-08",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 8th District",
-    districtCode: "SD-8",
-    districtName: "8th Senate District (Far North Side Chicago, Skokie, Lincolnwood, Morton Grove & Niles)",
-    region: "Chicago Far North Side & Near North Suburbs",
-    counties: ["Cook"],
-    cities: ["Chicago - West Ridge", "Chicago - Sauganash", "Skokie", "Lincolnwood", "Morton Grove", "Niles", "Glenview"],
-    pvi: "D+22",
-    rating: "Safe Democratic (Senate Transportation Chair)",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Ram Villivalam (D)",
-    primarySummary: "Senate Transportation Chair Ram Villivalam (D, chief architect of SB 2111 / NITA transit overhaul) faces Republican Vince Romano (R) and independent write-in Aris Yanibas.",
-    candidates: [
+    "id": "il-house-97",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 97th District",
+    "districtCode": "HD-97",
+    "districtName": "97th House District",
+    "region": "Collar Counties (Will, Kendall & DuPage)",
+    "counties": [
+      "Will",
+      "Kendall",
+      "DuPage"
+    ],
+    "cities": [
+      "Plainfield",
+      "Joliet",
+      "Bolingbrook",
+      "Oswego",
+      "Shorewood",
+      "Montgomery",
+      "Naperville"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Jessica Dixon Heitman (D)",
+    "candidates": [
       {
-        id: "ram-villivalam",
-        name: "Ram Villivalam",
-        party: "Democrat",
-        role: "Illinois State Senator (SD-8, 2019-present); Chair, Senate Transportation Committee & Former SEIU Organizer",
-        hometown: "Chicago (Sauganash / Far North Side), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "RV",
-        fecRaised: "$1,450,000",
-        fecCashOnHand: "$1,020,000",
-        pacPolicy: "Heavy Building Trades (IUOE 150, LIUNA), SEIU & ISDF Backing",
-        pacSummary: "As Senate Transportation Chair, receives major support from IUOE Local 150, LIUNA, IBEW, SEIU, IFT, IEA, and ISDF.",
-        pacs: [
-          { name: "IUOE Local 150, LIUNA, IBEW & Teamsters", type: "Labor PAC", amount: "$380,000+", stance: "Supporting" },
-          { name: "SEIU Healthcare, IFT, IEA & Personal PAC", type: "Labor PAC", amount: "$240,000+", stance: "Supporting" }
+        "id": "jessica-dixon-heitman",
+        "name": "Jessica Dixon Heitman",
+        "party": "Democrat",
+        "role": "Illinois State Representative, District 97",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "JD",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers (2026 general election)",
+          "Illinois AFL-CIO (2026 general election)"
         ],
-        endorsements: ["IUOE Local 150", "LIUNA", "SEIU", "Chicago Federation of Labor", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Supports senior property tax relief and EBF school funding for Skokie, Niles, and CPS.",
-          safetAct: "Defends the SAFE-T Act and authored transit worker assault protection laws.",
-          budgetTaxes: "Championed paid family leave and Asian American history curriculum in Illinois.",
-          pensions: "Strong labor advocate for fixing Tier 2 pensions.",
-          energyGrid: "Supports zero-emission transit buses, EV charging corridors, and CEJA.",
-          transit: "Principal Senate author of SB 2111 creating the Northern Illinois Transit Authority (NITA) and securing $1.5B for CTA, Metra, and Pace.",
-          healthcare: "Supports universal healthcare access, Medicaid expansion, and reproductive freedom.",
-          education: "Supports public schools, Oakton College, and universal pre-K."
-        }
+        "issues": {
+          "propertyTaxes": "Her campaign supports property-tax relief and opposes unnecessary taxes and fees.",
+          "budgetTaxes": "Her campaign calls for responsible budgeting, transparency and accountability.",
+          "safetAct": "Her campaign supports staffing, training and equipment for police, firefighters and paramedics. This source does not state a position on the SAFE-T Act.",
+          "transit": "Her campaign supports investment in district roads and infrastructure.",
+          "healthcare": "Her campaign supports reproductive healthcare, contraception, fertility and maternity care, and a state constitutional guarantee of reproductive freedom.",
+          "education": "Her campaign supports fair public-school funding, educators, and career and technical education."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk — published 2026 general-election specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/House/Members/List",
+            "title": "Illinois General Assembly — current House members",
+            "checked": "2026-10-28",
+            "note": "Current official House roster confirms incumbent status."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.jdhfor97.com/",
+            "title": "Jessica Dixon Heitman — campaign platform",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.jdhfor97.com/",
+            "title": "Jessica Dixon Heitman — campaign platform",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.jdhfor97.com/",
+            "title": "Jessica Dixon Heitman — campaign platform",
+            "checked": "2026-10-28",
+            "note": "Campaign public-safety position; no SAFE-T Act stance inferred."
+          },
+          {
+            "field": "issues.transit",
+            "url": "https://www.jdhfor97.com/",
+            "title": "Jessica Dixon Heitman — campaign platform",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.jdhfor97.com/",
+            "title": "Jessica Dixon Heitman — campaign platform",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.jdhfor97.com/",
+            "title": "Jessica Dixon Heitman — campaign platform",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          }
+        ]
       },
       {
-        id: "vince-romano",
-        name: "Vince Romano",
-        party: "Republican",
-        role: "Niles / North Suburban Business & Civic Candidate",
-        hometown: "Niles (Cook County), IL",
-        incumbentStatus: "Challenger",
-        photoInitials: "VR",
-        fecRaised: "$28,000",
-        fecCashOnHand: "$11,000",
-        pacPolicy: "Local GOP Grassroots",
-        pacSummary: "Funded by Niles and Maine Township GOP volunteers and small donors.",
-        pacs: [
-          { name: "Niles & Maine Township GOP", type: "Party Committee", amount: "Local Support", stance: "Supporting" }
+        "id": "gabby-shanahan",
+        "name": "Gabby Shanahan",
+        "party": "Republican",
+        "role": "2026 candidate for Illinois House District 97",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "GS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Americans for Prosperity Action (2026 general election)"
         ],
-        endorsements: ["Niles Township GOP"],
-        issues: {
-          propertyTaxes: "Campaigns against Cook County property tax spikes in Skokie, Niles, and Morton Grove.",
-          safetAct: "Calls for repealing cashless bail under the SAFE-T Act.",
-          budgetTaxes: "Opposes state tax hikes and migrant shelter spending.",
-          pensions: "Supports capping unfunded state pension liabilities.",
-          energyGrid: "Opposes costly EV and building electrification mandates.",
-          transit: "Criticizes the $1.5B NITA transit bill for raising regional taxes without firing failing transit executives.",
-          healthcare: "Supports market-based healthcare.",
-          education: "Supports parental rights and reviving Invest in Kids scholarships."
-        }
+        "issues": {
+          "propertyTaxes": "Her campaign calls for lower property taxes.",
+          "budgetTaxes": "Her campaign proposes reducing taxes and wasteful government spending.",
+          "healthcare": "Her campaign supports affordable and accessible healthcare.",
+          "education": "Her campaign emphasizes reading, mathematics, parental participation, skilled trades and technical training."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk — published 2026 general-election specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.gabbyforillinois.com/plan",
+            "title": "Gabby Shanahan — campaign plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.gabbyforillinois.com/plan",
+            "title": "Gabby Shanahan — campaign plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.gabbyforillinois.com/plan",
+            "title": "Gabby Shanahan — campaign plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.gabbyforillinois.com/plan",
+            "title": "Gabby Shanahan — campaign plan",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+            "title": "Americans for Prosperity Action — September 10, 2026 Illinois endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          }
+        ]
       }
-    ]
-  },
-  {
-    id: "il-house-26",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 26th District",
-    districtCode: "HD-26",
-    districtName: "26th House District (Downtown Chicago, The Loop, Gold Coast, Streeterville, South Loop, Bronzeville & Hyde Park)",
-    region: "Chicago Downtown & Lakefront",
-    counties: ["Cook"],
-    cities: ["Chicago - The Loop", "Chicago - River North", "Chicago - Gold Coast", "Chicago - Streeterville", "Chicago - South Loop", "Chicago - Bronzeville", "Chicago - Hyde Park", "Chicago - Kenwood", "Chicago - South Shore"],
-    pvi: "D+36",
-    rating: "Safe Democratic (Speaker Pro Tempore)",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Kam Buckner (D)",
-    primarySummary: "Speaker Pro Tempore Kam Buckner (D, House lead on NITA transit reform and Downtown Chicago revitalization) runs unopposed on the November 2026 ballot.",
-    candidates: [
+    ],
+    "evidence": [
       {
-        id: "kam-buckner",
-        name: "Kambium 'Kam' Buckner",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-26, 2019-present); Speaker Pro Tempore",
-        hometown: "Chicago (Bronzeville), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "KB",
-        fecRaised: "$980,000",
-        fecCashOnHand: "$610,000",
-        pacPolicy: "Backed by DPI, Building Trades, Trial Lawyers & Civic PACs",
-        pacSummary: "Supported by DPI, LIUNA, IUOE Local 150, ITLA, Illinois Realtors RPAC, IEA, and Personal PAC.",
-        pacs: [
-          { name: "LIUNA, IUOE Local 150 & IBEW", type: "Labor PAC", amount: "$160,000+", stance: "Supporting" },
-          { name: "ITLA, Illinois Realtors RPAC & Personal PAC", type: "Trade PAC", amount: "$140,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Illinois AFL-CIO", "LIUNA", "IUOE Local 150", "Personal PAC", "Sierra Club"],
-        issues: {
-          propertyTaxes: "Champions LaSalle Street / Loop office-to-residential conversions to rebuild Downtown Chicago's commercial property tax base and relieve neighborhood homeowners.",
-          safetAct: "Co-sponsored the SAFE-T Act, banned deceptive police interrogation of juveniles, and backs downtown public safety deployment.",
-          budgetTaxes: "Opposes taxpayer handouts for a new Chicago Bears lakefront stadium unless existing Soldier Field bond debt ($500M+) is paid off first.",
-          pensions: "Supports Tier 2 pension reform for city and state workers.",
-          energyGrid: "Supports the Illinois Quantum and Microelectronics Park at the former South Works site and lakefront shoreline protection.",
-          transit: "House chief sponsor of SB 2111 (Northern Illinois Transit Authority Act) and the People Over Parking Act eliminating transit-oriented parking mandates.",
-          healthcare: "Supports Bronzeville and South Side hospital equity and reproductive freedom.",
-          education: "Supports CPS EBF funding and Illinois HBCU / public university investments."
-        }
-      }
-    ]
-  },
-  {
-    id: "il-house-92",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 92nd District",
-    districtCode: "HD-92",
-    districtName: "92nd House District (Peoria, West Peoria & Bartonville)",
-    region: "Central Illinois (Peoria County)",
-    counties: ["Peoria"],
-    cities: ["Peoria", "West Peoria", "Bartonville"],
-    pvi: "D+12",
-    rating: "Safe Democratic (Chief House Budget Negotiator)",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Jehan Gordon-Booth (D)",
-    primarySummary: "Speaker Pro Tempore and Chief House Budget Negotiator Rep. Jehan Gordon-Booth (D) runs unopposed in the November 2026 general election.",
-    candidates: [
-      {
-        id: "jehan-gordon-booth",
-        name: "Jehan Gordon-Booth",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-92, 2009-present); Speaker Pro Tempore & Chair, Appropriations-General Services",
-        hometown: "Peoria (Peoria County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "JG",
-        fecRaised: "$1,350,000",
-        fecCashOnHand: "$940,000",
-        pacPolicy: "Chief House Budget Architect; Backed by Labor, Healthcare & Business PACs",
-        pacSummary: "As chief House Democratic budget negotiator, commands broad backing from DPI, IUOE Local 150, IBEW, Illinois Hospital Association, ITLA, Realtors RPAC, and Personal PAC.",
-        pacs: [
-          { name: "IUOE Local 150, IBEW & LIUNA", type: "Labor PAC", amount: "$220,000+", stance: "Supporting" },
-          { name: "Illinois Hospital Association (IHA), ITLA & Realtors RPAC", type: "Trade PAC", amount: "$240,000+", stance: "Supporting" }
-        ],
-        endorsements: ["Illinois AFL-CIO", "IUOE Local 150", "Illinois Hospital Association", "Personal PAC"],
-        issues: {
-          propertyTaxes: "Uses state budget surpluses to boost EBF funding for Peoria Public Schools D150 and fund municipal infrastructure without local property tax hikes.",
-          safetAct: "Architect of bipartisan criminal justice and re-entry investments alongside funding for Peoria police violence-interruption programs.",
-          budgetTaxes: "Chief House author of Illinois's $53B balanced state budgets, Rainy Day Fund deposits, and grocery tax elimination.",
-          pensions: "Supports full pension funding plus supplemental debt paydowns and Tier 2 Safe Harbor fixes.",
-          energyGrid: "Supports Illinois River port modernization and clean energy manufacturing in Central Illinois.",
-          transit: "Secures state funding for CityLink Peoria buses and Peoria-to-Chicago passenger rail.",
-          healthcare: "Champions Peoria's OSF HealthCare and Carle Health medical district and Medicaid reimbursement equity.",
-          education: "Supports Bradley University MAP grants, Illinois Central College, and Peoria D150."
-        }
-      }
-    ]
-  },
-  {
-    id: "il-house-91",
-    level: "state_legislature",
-    chamber: "State House",
-    office: "Illinois State Representative - 91st District",
-    districtCode: "HD-91",
-    districtName: "91st House District (Bloomington, Normal, East Peoria & Bartonville)",
-    region: "Central Illinois (McLean & Tazewell Counties)",
-    counties: ["McLean", "Tazewell", "Peoria"],
-    cities: ["Bloomington", "Normal", "East Peoria", "Bartonville", "Creve Coeur"],
-    pvi: "D+5",
-    rating: "Likely Democratic",
-    isOpenSeat: false,
-    isBattleground: false,
-    incumbent: "Sharon Chung (D)",
-    primarySummary: "Two-term Rep. Sharon Chung (D) runs unopposed on the November 2026 general election ballot after consolidating support in Bloomington-Normal and East Peoria.",
-    candidates: [
-      {
-        id: "sharon-chung",
-        name: "Sharon Chung",
-        party: "Democrat",
-        role: "Illinois State Representative (HD-91, 2023-present); Professional Violinist/Music Teacher & Former McLean County Board Member",
-        hometown: "Bloomington (McLean County), IL",
-        incumbentStatus: "Incumbent",
-        photoInitials: "SC",
-        fecRaised: "$840,000",
-        fecCashOnHand: "$590,000",
-        pacPolicy: "Backed by DPI, IEA, IFT, Personal PAC & Building Trades",
-        pacSummary: "Supported by DPI, IEA/IPACE, IFT, IUOE Local 150, IBEW, LIUNA, and Personal PAC.",
-        pacs: [
-          { name: "IEA/IPACE, IFT & Personal PAC", type: "Labor PAC", amount: "$180,000+", stance: "Supporting" },
-          { name: "IUOE Local 150, IBEW & LIUNA", type: "Labor PAC", amount: "$140,000+", stance: "Supporting" }
-        ],
-        endorsements: ["IEA", "IFT", "Personal PAC", "IUOE Local 150", "IBEW"],
-        issues: {
-          propertyTaxes: "Focuses on state EBF school funding for McLean County Unit 5 and Bloomington District 87 to ease local property taxes.",
-          safetAct: "Supports the SAFE-T Act and mental health crisis response funding.",
-          budgetTaxes: "Champions state workforce and infrastructure grants supporting Rivian's EV manufacturing plant in Normal.",
-          pensions: "Advocates fixing Tier 2 SURS and TRS pensions for Illinois State University (ISU) and K-12 educators.",
-          energyGrid: "Supports EV manufacturing, clean energy, and protecting ratepayers from Ameren capacity spikes.",
-          transit: "Supports Connect Transit in Bloomington-Normal and high-speed Amtrak service.",
-          healthcare: "Strong defender of reproductive rights and Carle BroMenn / OSF St. Joseph hospital access.",
-          education: "Champions Illinois State University (ISU) and Heartland Community College."
-        }
-      }
-    ]
-  },
-  {
-    id: "il-sen-59",
-    level: "state_legislature",
-    chamber: "State Senate",
-    office: "Illinois State Senator - 59th District (Open Seat)",
-    districtCode: "SD-59",
-    districtName: "59th Senate District (Carbondale, Marion, Herrin, Harrisburg, West Frankfort, Benton, Anna, Metropolis & Cairo)",
-    region: "Southern Illinois",
-    counties: ["Jackson", "Williamson", "Franklin", "Saline", "Union", "Massac", "Johnson", "Alexander", "Pulaski", "Hardin", "Pope", "Gallatin", "Hamilton"],
-    cities: ["Carbondale", "Marion", "Herrin", "Harrisburg", "West Frankfort", "Benton", "Anna", "Metropolis", "Vienna", "Cairo", "Carterville"],
-    pvi: "R+19",
-    rating: "Safe Republican (Open Seat)",
-    isOpenSeat: true,
-    isBattleground: false,
-    incumbent: "Dale Fowler (R - Retiring)",
-    primarySummary: "With GOP Sen. Dale Fowler retiring, sitting State Rep. Paul Jacobs (R, HD-118) won the Republican nomination and faces Carbondale Democrat Tamiko Mueller (D).",
-    candidates: [
-      {
-        id: "paul-jacobs",
-        name: "Paul Jacobs",
-        party: "Republican",
-        role: "Illinois State Representative (HD-118, 2021-2026); Optometrist & Vineyard/Winery Owner",
-        hometown: "Pomona (Jackson County), IL",
-        incumbentStatus: "Open Seat Nominee (Sitting State Rep.)",
-        photoInitials: "PJ",
-        fecRaised: "$420,000",
-        fecCashOnHand: "$265,000",
-        pacPolicy: "Backed by SRCC, Farm Bureau, IMA, ISRA & Right to Life",
-        pacSummary: "Supported by SRCC, Illinois Farm Bureau ACTIVATOR, IMA, NFIB, Illinois Right to Life, and Illinois State Rifle Association.",
-        pacs: [
-          { name: "SRCC & Southern Illinois GOP Committees", type: "Party Committee", amount: "$160,000+", stance: "Supporting" },
-          { name: "Illinois Farm Bureau ACTIVATOR, IMA & NFIB", type: "Trade PAC", amount: "$110,000+", stance: "Supporting" },
-          { name: "Illinois Right to Life & ISRA PVF", type: "Ideological PAC", amount: "Endorsed", stance: "Supporting" }
-        ],
-        endorsements: ["Illinois Farm Bureau ACTIVATOR", "IMA", "NFIB", "Illinois Right to Life", "ISRA"],
-        issues: {
-          propertyTaxes: "Calls for capping Southern Illinois property taxes and cutting state mandates.",
-          safetAct: "Demands repealing the SAFE-T Act and ending Illinois's sanctuary state law.",
-          budgetTaxes: "Supports Shawnee Hills tourism, Marion STAR bonds, and cutting business regulations.",
-          pensions: "Supports SURS stability for SIU Carbondale employees while opposing state tax hikes.",
-          energyGrid: "Defends Southern Illinois coal mines and natural gas plants against CEJA closures.",
-          transit: "Supports Shawnee/Southern IL highway, bridge, and Cairo river port construction.",
-          healthcare: "Staunchly pro-life; opposes Carbondale's abortion clinics while supporting rural hospital funding.",
-          education: "Supports SIU Carbondale, John A. Logan College, Shawnee CC, and school choice."
-        }
+        "field": "identity",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk — published 2026 general-election specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Lists the general-election candidates and parties for this district."
       },
       {
-        id: "tamiko-mueller",
-        name: "Tamiko Mueller",
-        party: "Democrat",
-        role: "Carbondale Educator & Community Advocate",
-        hometown: "Carbondale (Jackson County), IL",
-        incumbentStatus: "Open Seat Nominee",
-        photoInitials: "TM",
-        fecRaised: "$68,000",
-        fecCashOnHand: "$29,000",
-        pacPolicy: "Grassroots, SIU Labor & Personal PAC Backed",
-        pacSummary: "Backed by Jackson and Williamson County Democrats, IEA, IFT, SIUC faculty/staff unions, and Personal PAC.",
-        pacs: [
-          { name: "IEA, IFT & SIU Labor Unions", type: "Labor PAC", amount: "$30,000+", stance: "Supporting" },
-          { name: "Personal PAC", type: "Ideological PAC", amount: "Endorsed", stance: "Supporting" }
-        ],
-        endorsements: ["Personal PAC", "IEA", "IFT", "Jackson County Democratic Party"],
-        issues: {
-          propertyTaxes: "Supports increasing state EBF school funding to relieve Southern Illinois property owners.",
-          safetAct: "Supports balanced criminal justice reform and mental health co-responders.",
-          budgetTaxes: "Champions state investment in SIU Carbondale, Alexander/Pulaski County flood recovery, and union jobs.",
-          pensions: "Strongly supports fixing Tier 2 SURS and TRS pensions for SIUC and K-12 educators.",
-          energyGrid: "Supports clean energy transition grants for former coal communities.",
-          transit: "Supports Amtrak Illini/Saluki rail service to Carbondale and rural transit.",
-          healthcare: "Defends Carbondale's reproductive healthcare clinics and Southern Illinois Healthcare (SIH) rural hospitals.",
-          education: "Champions SIU Carbondale, public K-12 schools, and opposing voucher diversions."
-        }
+        "field": "role",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current House roster identifies the sitting representative for this district."
       }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-house-104",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 104th District",
+    "districtCode": "HD-104",
+    "districtName": "104th House District",
+    "region": "Central Illinois (Champaign & Vermilion Counties)",
+    "counties": [
+      "Champaign",
+      "Vermilion"
+    ],
+    "cities": [
+      "Danville",
+      "Champaign",
+      "Rantoul",
+      "Savoy",
+      "Mahomet",
+      "Gifford",
+      "Tilton"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Brandun Schweizer (R)",
+    "candidates": [
+      {
+        "id": "brandun-schweizer",
+        "name": "Brandun Schweizer",
+        "party": "Republican",
+        "role": "Illinois State Representative, District 104; retired U.S. Marine Corps Master Sergeant",
+        "hometown": "Danville, Illinois",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "BS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO (2026 general election)"
+        ],
+        "issues": {
+          "energyGrid": "In a November 2024 office statement, he supported banning carbon sequestration in and around the Mahomet Aquifer.",
+          "healthcare": "His office opposes physician-assisted suicide and advocates expanded hospice, palliative care and caregiver support."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+            "title": "Champaign County Clerk — 2026 election candidates",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/House/Members/List",
+            "title": "Illinois General Assembly — current House members",
+            "checked": "2026-10-28",
+            "note": "Current official House roster confirms incumbent status."
+          },
+          {
+            "field": "role",
+            "url": "https://repschweizer.com/about/",
+            "title": "Representative Brandun Schweizer — official biography",
+            "checked": "2026-10-28",
+            "note": "Official biography identifies his appointment in December 2023, military rank and Danville residence."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://repschweizer.com/2024/11/19/schweizer-says-we-need-to-get-back-to-business-and-protect-the-mahomet-aquifer/",
+            "title": "Representative Schweizer — November 19, 2024 Mahomet Aquifer statement",
+            "checked": "2026-10-28",
+            "note": "Dated legislative-office position; does not claim the bill remains pending or establish a position on electricity-generation policy."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://repschweizer.com/stop-assisted-suicide-in-illinois/",
+            "title": "Representative Schweizer — physician-assisted-suicide position",
+            "checked": "2026-10-28",
+            "note": "Official-office policy statement; no claim about current legislative status."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          }
+        ]
+      },
+      {
+        "id": "mary-catherine-roberson",
+        "name": "Mary Catherine Roberson",
+        "party": "Democrat",
+        "role": "Community advocate; campaign identifies her as Director of Constituent Services for U.S. Representative Robin Kelly",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "MR",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "Her campaign supports increased state education funding to reduce pressure on local property taxes.",
+          "safetAct": "Her campaign supports body cameras, police accountability, mental-health co-responders, and funding police and violence prevention. This source does not establish a SAFE-T Act stance.",
+          "budgetTaxes": "Her campaign supports paid family and medical leave, auto-insurance pricing based on driving rather than credit scores, and an Illinois consumer financial protection bureau.",
+          "healthcare": "Her campaign supports a Prescription Drug Affordability Board, citing HB 1443, to address excessive prescription costs.",
+          "education": "Her campaign supports school-funding formula improvements and opposes diverting public-school funding to private schools."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+            "title": "Champaign County Clerk — 2026 election candidates",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.robersonforillinois.com/",
+            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "checked": "2026-10-28",
+            "note": "Campaign biography names Robin Kelly, correcting the unsupported original attribution to Nikki Budzinski."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.robersonforillinois.com/",
+            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.robersonforillinois.com/",
+            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "checked": "2026-10-28",
+            "note": "Campaign public-safety positions; no SAFE-T Act stance inferred."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.robersonforillinois.com/",
+            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.robersonforillinois.com/",
+            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.robersonforillinois.com/",
+            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate or legislative-office statement; not an independently established outcome."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "identity",
+        "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+        "title": "Champaign County Clerk — 2026 election candidates",
+        "checked": "2026-10-28",
+        "note": "Lists the general-election candidates and parties for this district."
+      },
+      {
+        "field": "role",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current House roster identifies the sitting representative for this district."
+      }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-house-112",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 112th District",
+    "districtCode": "HD-112",
+    "districtName": "112th House District",
+    "region": "Metro East & Southern Illinois",
+    "counties": [
+      "Madison",
+      "St. Clair"
+    ],
+    "cities": [
+      "Edwardsville",
+      "Collinsville",
+      "O'Fallon",
+      "Glen Carbon",
+      "Maryville",
+      "Fairview Heights",
+      "Caseyville",
+      "Pontoon Beach"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Katie Stuart (D)",
+    "candidates": [
+      {
+        "id": "katie-stuart",
+        "name": "Katie Stuart",
+        "party": "Democrat",
+        "role": "Illinois State Representative, District 112; Assistant Majority Leader and Floor Whip",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "KS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers (2026 general election)",
+          "Illinois AFL-CIO (2026 general election)",
+          "Stand for Children Illinois (2026 general election)"
+        ],
+        "issues": {
+          "budgetTaxes": "Her undated campaign issues page supports a balanced budget that funds public schools and pension obligations.",
+          "pensions": "Her undated campaign issues page calls for full funding of pension obligations.",
+          "healthcare": "Her undated campaign issues page supports caps on out-of-pocket medication costs and insurance coverage for essential medical services.",
+          "education": "Her undated campaign issues page supports teacher and principal mentoring programs and public-school funding."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzuUGlOcyRChQ%3D%3D",
+            "title": "Illinois State Board of Elections — House District 112 candidate list",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/House/Members/List",
+            "title": "Illinois General Assembly — current House members",
+            "checked": "2026-10-28",
+            "note": "Current official House roster confirms incumbent status."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://stuartforilrep.com/issues/",
+            "title": "Katie Stuart — campaign issues page (undated)",
+            "checked": "2026-10-28",
+            "note": "Undated campaign statement; older references on this page were excluded and this is not asserted to be a newly issued 2026 position."
+          },
+          {
+            "field": "issues.pensions",
+            "url": "https://stuartforilrep.com/issues/",
+            "title": "Katie Stuart — campaign issues page (undated)",
+            "checked": "2026-10-28",
+            "note": "Undated campaign statement; no specific Tier 2 proposal or legislative action inferred."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://stuartforilrep.com/issues/",
+            "title": "Katie Stuart — campaign issues page (undated)",
+            "checked": "2026-10-28",
+            "note": "Undated campaign statement; no specific law or vote claimed."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://stuartforilrep.com/issues/",
+            "title": "Katie Stuart — campaign issues page (undated)",
+            "checked": "2026-10-28",
+            "note": "Undated campaign statement."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://stand.org/illinois/our-stories/2026-general-elections-endorsements/",
+            "title": "Stand for Children Illinois — September 11, 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          }
+        ]
+      },
+      {
+        "id": "jimmy-ford",
+        "name": "Jimmy Ford",
+        "party": "Republican",
+        "role": "Small-business owner; 2026 candidate for Illinois House District 112",
+        "hometown": "O'Fallon, Illinois",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "JF",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzuUGlOcyRChQ%3D%3D",
+            "title": "Illinois State Board of Elections — House District 112 candidate list",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.fordforus.com/about",
+            "title": "Jimmy Ford — campaign biography",
+            "checked": "2026-10-28",
+            "note": "Campaign biography describes his business and O’Fallon background; unsupported current city-council title removed."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "identity",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzuUGlOcyRChQ%3D%3D",
+        "title": "Illinois State Board of Elections — House District 112 candidate list",
+        "checked": "2026-10-28",
+        "note": "Lists the general-election candidates and parties for this district."
+      },
+      {
+        "field": "role",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current House roster identifies the sitting representative for this district."
+      }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-house-114",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 114th District",
+    "districtCode": "HD-114",
+    "districtName": "114th House District",
+    "region": "Metro East & Southern Illinois",
+    "counties": [
+      "St. Clair"
+    ],
+    "cities": [
+      "East St. Louis",
+      "O'Fallon",
+      "Mascoutah",
+      "Cahokia Heights",
+      "Millstadt",
+      "Freeburg",
+      "Lebanon",
+      "Dupo",
+      "New Athens"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Kevin Schmidt (R)",
+    "candidates": [
+      {
+        "id": "kevin-schmidt",
+        "name": "Kevin Schmidt",
+        "party": "Republican",
+        "role": "Illinois State Representative, District 114; chiropractor",
+        "hometown": "Millstadt, Illinois",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "KS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO (2026 general election)",
+          "Americans for Prosperity Action (2026 general election)"
+        ],
+        "issues": {
+          "budgetTaxes": "His July 2026 office statement calls for lower taxes and reduced government spending."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzcpJd1C7qBsw%3D%3D",
+            "title": "Illinois State Board of Elections — House District 114 candidate list",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/House/Members/List",
+            "title": "Illinois General Assembly — current House members",
+            "checked": "2026-10-28",
+            "note": "Current official House roster confirms incumbent status."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/House/Members/Details/3436?Primary=True",
+            "title": "Illinois General Assembly — Kevin Schmidt biography",
+            "checked": "2026-10-28",
+            "note": "Official General Assembly biography identifies his office, chiropractic business and Millstadt residence."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://repschmidt.com/2026/07/27/state-rep-kevin-schmidts-commitment-to-the-114th-district/",
+            "title": "Representative Schmidt — July 27, 2026 priorities",
+            "checked": "2026-10-28",
+            "note": "Official-office statement dated July 27, 2026."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+            "title": "Americans for Prosperity Action — September 10, 2026 Illinois endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          }
+        ]
+      },
+      {
+        "id": "george-mcclellan-jr",
+        "name": "George McClellan Jr.",
+        "party": "Democrat",
+        "role": "2026 candidate for Illinois House District 114",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "GM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois Federation of Teachers (2026 general election)"
+        ],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzcpJd1C7qBsw%3D%3D",
+            "title": "Illinois State Board of Elections — House District 114 candidate list",
+            "checked": "2026-10-28",
+            "note": "Election authority lists this candidate and party for this district."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ift-aft.org/vote",
+            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "The endorsing organization lists this candidate for the 2026 general election."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "identity",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzcpJd1C7qBsw%3D%3D",
+        "title": "Illinois State Board of Elections — House District 114 candidate list",
+        "checked": "2026-10-28",
+        "note": "Lists the general-election candidates and parties for this district."
+      },
+      {
+        "field": "role",
+        "url": "https://www.ilga.gov/House/Members/List",
+        "title": "Illinois General Assembly — current House members",
+        "checked": "2026-10-28",
+        "note": "Current House roster identifies the sitting representative for this district."
+      }
+    ],
+    "verification": {
+      "checked": "2026-10-28",
+      "status": "primary-sources-reviewed",
+      "note": "Candidate roster verified against official election material. Issue summaries reflect cited statements; endorsements are limited to verified endorser publications. Finance totals are withheld pending verified committee filings."
+    },
+    "isBattleground": false,
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-08",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 8",
+    "districtCode": "SD-8",
+    "districtName": "Illinois Senate District 8",
+    "region": "Chicago Far North Side & Near North Suburbs",
+    "counties": [
+      "Cook"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Ram Villivalam",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?BallotGroup=kfqozmMO1fA%3D&ElectionID=sejIrI%2BQmww%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D",
+        "title": "Illinois State Board of Elections: 2026 candidate records",
+        "checked": "2026-10-28",
+        "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "ram-villivalam",
+        "name": "Ram Villivalam",
+        "party": "Democrat",
+        "role": "Illinois state senator, District 8",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "RV",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?BallotGroup=kfqozmMO1fA%3D&ElectionID=sejIrI%2BQmww%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser's own September 19, 2026 list names this candidate; endorsement does not imply a contribution."
+          }
+        ]
+      },
+      {
+        "id": "vince-romano",
+        "name": "Vince Romano",
+        "party": "Republican",
+        "role": "Candidate for Illinois Senate District 8",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "VR",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?BallotGroup=kfqozmMO1fA%3D&ElectionID=sejIrI%2BQmww%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-09",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 9",
+    "districtCode": "SD-9",
+    "districtName": "Illinois Senate District 9",
+    "region": "Northern Illinois",
+    "counties": [
+      "Cook"
+    ],
+    "cities": [],
+    "isOpenSeat": true,
+    "isBattleground": false,
+    "incumbent": "",
+    "candidates": [
+      {
+        "id": "patrick-hanley",
+        "name": "Patrick Hanley",
+        "party": "Democrat",
+        "role": "Small-business owner and candidate for Illinois Senate District 9",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "PH",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {
+          "healthcare": "His campaign supports abortion rights, wider healthcare access and lower patient costs.",
+          "energyGrid": "His campaign supports clean energy, green infrastructure and protection of the Great Lakes and watersheds.",
+          "education": "His campaign supports well-resourced teachers and public schools.",
+          "transit": "His campaign supports implementing NITA, frequent bus service, accessible rail stations and safer cycling infrastructure.",
+          "budgetTaxes": "His campaign proposes increasing housing supply, upgrading the grid and supporting food production and small businesses to reduce costs."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
+            "title": "Illinois State Board of Elections — 2026 general election, 9th Senate",
+            "checked": "2026-10-28",
+            "note": "Official general-election candidate list confirms name, party and office."
+          },
+          {
+            "field": "role",
+            "url": "https://www.hanleyforillinois.com/",
+            "title": "Patrick Hanley campaign — About",
+            "checked": "2026-10-28",
+            "note": "Campaign identifies Hanley as a small-business owner."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.hanleyforillinois.com/issues",
+            "title": "Patrick Hanley campaign — Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy, not a verified outcome."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.hanleyforillinois.com/issues",
+            "title": "Patrick Hanley campaign — Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy, not a verified outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.hanleyforillinois.com/issues",
+            "title": "Patrick Hanley campaign — Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy, not a verified outcome."
+          },
+          {
+            "field": "issues.transit",
+            "url": "https://www.hanleyforillinois.com/issues",
+            "title": "Patrick Hanley campaign — Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy, not a verified outcome."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.hanleyforillinois.com/issues",
+            "title": "Patrick Hanley campaign — Issues",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy, not a verified outcome."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31 — 2026 general-election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser lists Patrick Hanley for Senate District 9."
+          }
+        ]
+      },
+      {
+        "id": "tom-lally",
+        "name": "Tom Lally",
+        "party": "Republican",
+        "role": "Candidate for Illinois Senate District 9",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "TL",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
+            "title": "Illinois State Board of Elections — 2026 general election, 9th Senate",
+            "checked": "2026-10-28",
+            "note": "Official general-election candidate list confirms name, party and office."
+          },
+          {
+            "field": "role",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
+            "title": "Illinois State Board of Elections — 9th Senate candidate list",
+            "checked": "2026-10-28",
+            "note": "Candidate identity only; no issue or biography inference."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "identity",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
+        "title": "Illinois State Board of Elections — 2026 general election, 9th Senate",
+        "checked": "2026-10-28",
+        "note": "Official general-election candidate field; district eligibility must be checked by address."
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-24",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 24",
+    "districtCode": "SD-24",
+    "districtName": "Illinois Senate District 24",
+    "region": "Collar Counties (DuPage & NW Cook)",
+    "counties": [
+      "DuPage",
+      "Cook"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Seth Lewis",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 general election official candidate listing",
+        "checked": "2026-10-28",
+        "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "seth-lewis",
+        "name": "Seth Lewis",
+        "party": "Republican",
+        "role": "Illinois state senator, District 24",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "SL",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "budgetTaxes": "Calls for disciplined budgeting and long-term planning while investing in education, infrastructure and public safety."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 general election official candidate listing",
+            "checked": "2026-10-28",
+            "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://senatorlewis.com/a-message-from-senator-seth-lewis-to-the-people-of-the-24th-district/",
+            "title": "Seth Lewis: January 20, 2026 message",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          }
+        ]
+      },
+      {
+        "id": "ben-mcadams",
+        "name": "Benjamin \"Ben\" McAdams",
+        "party": "Democrat",
+        "role": "Candidate for Illinois Senate District 24",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "BM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "healthcare": "His campaign supports increased state investment in healthcare, including mental and reproductive care, and administering Medicaid within state government instead of through private management intermediaries.",
+          "propertyTaxes": "His campaign supports reducing property-tax reliance by increasing taxes on the wealthiest households and closing corporate tax loopholes to fund public services.",
+          "energyGrid": "His campaign supports clean-energy investment and the POWER Act's proposed environmental requirements for data centers, including water and energy safeguards."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 general election official candidate listing",
+            "checked": "2026-10-28",
+            "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.mcadamsforil.com/platform",
+            "title": "Ben McAdams for Illinois State Senate District 24: The Platform",
+            "checked": "2026-10-28",
+            "note": "The Illinois candidate's campaign supports state healthcare investment and removing private Medicaid management intermediaries. Its numerical savings and federal-cut estimates are not repeated as established facts."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.mcadamsforil.com/platform",
+            "title": "Ben McAdams for Illinois State Senate District 24: The Platform",
+            "checked": "2026-10-28",
+            "note": "The Illinois campaign supports revenue from wealthy households and corporate tax changes as an alternative to the current property-tax burden."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.mcadamsforil.com/platform",
+            "title": "Ben McAdams for Illinois State Senate District 24: The Platform",
+            "checked": "2026-10-28",
+            "note": "The Illinois campaign supports a green-energy economy and names SB4016, the POWER Act, as a proposal it supports. This does not imply enactment."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-26",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 26",
+    "districtCode": "SD-26",
+    "districtName": "Illinois Senate District 26",
+    "region": "Collar Counties (Lake, McHenry, Cook & Kane)",
+    "counties": [
+      "Lake",
+      "McHenry",
+      "Cook",
+      "Kane"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Darby Hills",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: November 3, 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Current general-election candidate list confirms candidates and party labels."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "darby-hills",
+        "name": "Darby Hills",
+        "party": "Republican",
+        "role": "Illinois state senator, District 26",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "DH",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "Co-sponsored SB3868, a proposal to increase the Illinois income-tax credit for residential property taxes from 5% to 10%. The bill has not become law.",
+          "education": "Introduced SB3783, proposing a tax credit of up to $1,500 per child for eligible preschool expenses. The bill has not become law."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+            "title": "Kane County Clerk: November 3, 2026 candidates",
+            "checked": "2026-10-28",
+            "note": "Current general-election candidate list confirms candidates and party labels."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3868&DocTypeID=SB&GAID=18&LegId=167298&SessionID=114",
+            "title": "Illinois General Assembly: SB3868, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official synopsis describes the proposed 5%-to-10% credit; sponsor list includes Darby A. Hills. Last action is referral to Assignments, not enactment."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400SB3783.html",
+            "title": "Illinois General Assembly: SB3783, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official synopsis and action history identify Hills as the introducing sponsor and describe the proposed preschool-expense credit, capped at $1,500 per child. Not enacted."
+          }
+        ]
+      },
+      {
+        "id": "nabeela-syed",
+        "name": "Nabeela Syed",
+        "party": "Democrat",
+        "role": "Candidate for Illinois Senate District 26",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "NS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {
+          "propertyTaxes": "Her campaign supports increasing the state's share of school funding through the Evidence-Based Funding Formula to reduce reliance on local property taxes, and expanding senior property-tax relief.",
+          "healthcare": "Her campaign supports reducing prescription-drug costs, restricting pharmacy-benefit-manager pricing practices, and requiring insurance coverage for mental-health and substance-use treatment.",
+          "energyGrid": "Her campaign supports moving Illinois to 100% clean, renewable energy and implementing the Climate and Equitable Jobs Act's clean-energy goals."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+            "title": "Kane County Clerk: November 3, 2026 candidates",
+            "checked": "2026-10-28",
+            "note": "Current general-election candidate list confirms candidates and party labels."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.nabeelasyed.com/economy",
+            "title": "Nabeela Syed for State Senate: Economy & Tax Reform",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign platform states support for growing state EBF investments and expanded senior property-tax-freeze eligibility; this summarizes stated policy, not an independently verified legislative accomplishment."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.nabeelasyed.com/healthcare",
+            "title": "Nabeela Syed for State Senate: Healthcare",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign platform describes prescription pricing, PBM restrictions, and mental-health/substance-use insurance coverage priorities."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.nabeelasyed.com/environment",
+            "title": "Nabeela Syed for State Senate: Environment",
+            "checked": "2026-10-28",
+            "note": "Candidate campaign platform explicitly supports 100% clean, renewable energy and CEJA implementation."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser's own September 19, 2026 list names this candidate; endorsement does not imply a contribution."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-27",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 27",
+    "districtCode": "SD-27",
+    "districtName": "Illinois Senate District 27",
+    "region": "Suburban Cook (Northwest Suburbs)",
+    "counties": [
+      "Cook"
+    ],
+    "cities": [],
+    "isOpenSeat": true,
+    "isBattleground": false,
+    "incumbent": "",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=IWLLsq4Kxz%2FV2Pqgri0W7w%3D%3D",
+        "title": "Illinois State Board of Elections: 2026 candidate records",
+        "checked": "2026-10-28",
+        "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "carina-santa-maria",
+        "name": "Carina Santa Maria",
+        "party": "Democrat",
+        "role": "Candidate for Illinois Senate District 27",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "CS",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {
+          "propertyTaxes": "Her campaign supports reducing reliance on property taxes to fund essential services.",
+          "pensions": "Her campaign supports addressing Tier 2 pension inequities and changing the debt repayment schedule through re-amortization.",
+          "safetAct": "Her campaign supports retaining the SAFE-T Act while funding law-enforcement training and accountability, trauma-informed policing and alternative crisis responses."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=IWLLsq4Kxz%2FV2Pqgri0W7w%3D%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.carinaforsenate.com/issues",
+            "title": "Carina Santa Maria for Illinois State Senate: Issues",
+            "checked": "2026-10-28",
+            "note": "The campaign's Responsible Stewardship of State Finances section states this property-tax position."
+          },
+          {
+            "field": "issues.pensions",
+            "url": "https://www.carinaforsenate.com/issues",
+            "title": "Carina Santa Maria for Illinois State Senate: Issues",
+            "checked": "2026-10-28",
+            "note": "The campaign explicitly calls for addressing Tier 2 inequities and re-amortizing pension debt; no specific benefit or funding design is asserted here."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.carinaforsenate.com/issues",
+            "title": "Carina Santa Maria for Illinois State Senate: Issues",
+            "checked": "2026-10-28",
+            "note": "The campaign's Reducing Street Crime section supports upholding the SAFE-T Act, training/accountability and crisis-response alternatives."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser's own September 19, 2026 list names this candidate; endorsement does not imply a contribution."
+          }
+        ]
+      },
+      {
+        "id": "david-mathis",
+        "name": "David Mathis",
+        "party": "Republican",
+        "role": "Candidate for Illinois Senate District 27",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "DM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=expxj%2Fd98BnO6lwpTFhL9A%3D%3D&ElectionID=sejIrI%2BQmww%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-30",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 30",
+    "districtCode": "SD-30",
+    "districtName": "Illinois Senate District 30",
+    "region": "Northern Illinois",
+    "counties": [
+      "Lake"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "",
+    "candidates": [
+      {
+        "id": "adrienne-johnson",
+        "name": "Adriane L. Johnson",
+        "party": "Democrat",
+        "role": "Illinois State Senator, District 30",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "AL",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Lake County Democratic Women (2026 general election)"
+        ],
+        "issues": {
+          "healthcare": "Her campaign supports lowering healthcare costs and protecting access to abortion, including for patients from neighboring states.",
+          "education": "Her campaign supports public-school funding, lower public-college costs and apprenticeship programs developed with labor unions.",
+          "energyGrid": "Her campaign supports clean-energy jobs, renewable energy and conservation of water and natural resources."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk — November 3, 2026 candidate list",
+            "checked": "2026-10-28",
+            "note": "Official general-election candidate list confirms name, party and office."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/House/Members/Details/3378?Primary=True",
+            "title": "Illinois General Assembly — Adriane L. Johnson",
+            "checked": "2026-10-28",
+            "note": "Official member profile confirms spelling, District 30 and service since2020."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://adrianejohnsonforil.com/healthcare/",
+            "title": "Adriane Johnson campaign — Issue priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy; accomplishment claims not independently established here are omitted."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://adrianejohnsonforil.com/education-college-affordability/",
+            "title": "Adriane Johnson campaign — Issue priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy; accomplishment claims not independently established here are omitted."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://adrianejohnsonforil.com/jobs-the-environment/",
+            "title": "Adriane Johnson campaign — Issue priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy; accomplishment claims not independently established here are omitted."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.lakedemwomen.org/2026-endorsed-candidates",
+            "title": "Lake County Democratic Women — 2026 general-election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorser lists Adriane Johnson for Senate District 30."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "identity",
+        "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+        "title": "Lake County Clerk — November 3, 2026 candidate list",
+        "checked": "2026-10-28",
+        "note": "Official general-election candidate field; district eligibility must be checked by address."
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-33",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 33",
+    "districtCode": "SD-33",
+    "districtName": "Illinois Senate District 33",
+    "region": "Collar Counties (Fox Valley - Kane & McHenry)",
+    "counties": [
+      "Kane",
+      "McHenry",
+      "DuPage"
+    ],
+    "cities": [],
+    "isOpenSeat": true,
+    "isBattleground": false,
+    "incumbent": "",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 general election official candidate listing",
+        "checked": "2026-10-28",
+        "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "michele-clark",
+        "name": "Michele Clark",
+        "party": "Democrat",
+        "role": "Candidate for Illinois Senate District 33",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "MC",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {
+          "propertyTaxes": "Her campaign supports policies to freeze property taxes for senior homeowners.",
+          "education": "Her campaign supports public-school investment, protecting school breakfast and lunch funding, and expanding apprenticeships through partnerships with employers, trade schools and universities."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 general election official candidate listing",
+            "checked": "2026-10-28",
+            "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://micheleforilsenate.com/issues",
+            "title": "Michele for Illinois Senate: Issues",
+            "checked": "2026-10-28",
+            "note": "The campaign's Standing Up For Seniors section states support for policies freezing senior homeowners' property taxes."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://micheleforilsenate.com/issues",
+            "title": "Michele for Illinois Senate: Issues",
+            "checked": "2026-10-28",
+            "note": "The campaign's Supporting Our Schools and Investing In The Next Generation sections state these school-funding and apprenticeship priorities."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser's own September 19, 2026 list names this candidate; endorsement does not imply a contribution."
+          }
+        ]
+      },
+      {
+        "id": "danielle-penman",
+        "name": "Danielle Penman",
+        "party": "Republican",
+        "role": "Candidate for Illinois Senate District 33",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "DP",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "safetAct": "Her campaign supports restoring cash bail by repealing key provisions of the SAFE-T Act, alongside tougher penalties for repeat violent offenders.",
+          "healthcare": "Her campaign supports reducing insurance premiums and prescription-drug costs, protecting coverage for pre-existing conditions, and supporting IVF and fertility care.",
+          "budgetTaxes": "Her campaign calls for balancing the budget before seeking additional taxes and opposes legislative pay raises until Illinois reaches a sustainable fiscal position."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 general election official candidate listing",
+            "checked": "2026-10-28",
+            "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.daniellepenman.com/key-issues",
+            "title": "Danielle Penman for State Senator: Issues & Priorities",
+            "checked": "2026-10-28",
+            "note": "The current campaign platform calls for repeal of key SAFE-T Act provisions to restore cash bail; it does not describe repeal of every provision."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.daniellepenman.com/key-issues",
+            "title": "Danielle Penman for State Senator: Issues & Priorities",
+            "checked": "2026-10-28",
+            "note": "The current campaign platform lists these healthcare affordability and coverage priorities."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.daniellepenman.com/key-issues",
+            "title": "Danielle Penman for State Senator: Issues & Priorities",
+            "checked": "2026-10-28",
+            "note": "The current campaign platform calls for balancing the budget before asking taxpayers for more and opposing legislative pay raises until the fiscal path is sustainable."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-36",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 36",
+    "districtCode": "SD-36",
+    "districtName": "Illinois Senate District 36",
+    "region": "Western Illinois",
+    "counties": [
+      "Henry",
+      "Rock Island",
+      "Knox"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "",
+    "candidates": [
+      {
+        "id": "mike-halpin",
+        "name": "Michael W. Halpin",
+        "party": "Democrat",
+        "role": "Illinois State Senator, District 36",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "MW",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {
+          "education": "In a September 2026 statement, he supported Illinois Works funding for pre-apprenticeship training in construction and building trades."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.henrycty.com/DocumentCenter/View/1202/HENRY-COUNTY-GENERAL-ELECTION-2026-SAMPLE-BALLOT",
+            "title": "Henry County Clerk — November 3, 2026 official sample ballot, page 1",
+            "checked": "2026-10-28",
+            "note": "Official general-election candidate list confirms name, party and office."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members/Details/3408?Primary=True",
+            "title": "Illinois General Assembly — Michael W. Halpin",
+            "checked": "2026-10-28",
+            "note": "Member profile identifies District 36 service beginning in 2023."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31 — 2026 general-election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser lists Michael Halpin for Senate District 36."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.senatorhalpin.com/",
+            "title": "Senator Mike Halpin — legislative website, September 9, 2026 statement",
+            "checked": "2026-10-28",
+            "note": "The official homepage displays the statement encouraging applications for pre-apprenticeship funding."
+          }
+        ]
+      },
+      {
+        "id": "brad-beekman",
+        "name": "Brad Beekman",
+        "party": "Republican",
+        "role": "Retired Illinois State Police officer and candidate for Illinois Senate District 36",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "BB",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "budgetTaxes": "His campaign prioritizes reducing taxes and utility costs and easing regulation of farms and small businesses.",
+          "education": "His campaign calls for school accountability, higher academic standards and a greater role for parents."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.henrycty.com/DocumentCenter/View/1202/HENRY-COUNTY-GENERAL-ELECTION-2026-SAMPLE-BALLOT",
+            "title": "Henry County Clerk — November 3, 2026 official sample ballot, page 1",
+            "checked": "2026-10-28",
+            "note": "Official general-election candidate list confirms name, party and office."
+          },
+          {
+            "field": "role",
+            "url": "https://www.beekmanforsenate.com/",
+            "title": "Brad Beekman campaign — Background",
+            "checked": "2026-10-28",
+            "note": "Campaign identifies retired Illinois State Police service."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.beekmanforsenate.com/",
+            "title": "Brad Beekman campaign — Priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy, not a verified outcome."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.beekmanforsenate.com/",
+            "title": "Brad Beekman campaign — Priorities",
+            "checked": "2026-10-28",
+            "note": "Candidate-stated policy, not a verified outcome."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "identity",
+        "url": "https://www.henrycty.com/DocumentCenter/View/1202/HENRY-COUNTY-GENERAL-ELECTION-2026-SAMPLE-BALLOT",
+        "title": "Henry County Clerk — November 3, 2026 official sample ballot, page 1",
+        "checked": "2026-10-28",
+        "note": "Official general-election candidate field; district eligibility must be checked by address."
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-39",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 39",
+    "districtCode": "SD-39",
+    "districtName": "Illinois Senate District 39",
+    "region": "Suburban Cook & Chicago West Side",
+    "counties": [
+      "Cook",
+      "DuPage"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Don Harmon",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 general election official candidate listing",
+        "checked": "2026-10-28",
+        "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "don-harmon",
+        "name": "Don Harmon",
+        "party": "Democrat",
+        "role": "Illinois Senate president; state senator, District 39",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "DH",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "healthcare": "His campaign supports reproductive choice.",
+          "education": "His campaign supports public-school and early-childhood education funding.",
+          "safetAct": "His campaign supports ending cash bail."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 general election official candidate listing",
+            "checked": "2026-10-28",
+            "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current roster identifies Harmon as Senate president."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://harmonforillinois.com/",
+            "title": "Don Harmon campaign",
+            "checked": "2026-10-28",
+            "note": "Undated currently published campaign page; policy statement, not a claim about a specific vote."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://harmonforillinois.com/",
+            "title": "Don Harmon campaign",
+            "checked": "2026-10-28",
+            "note": "Undated currently published campaign page; policy statement, not a claim about a specific vote."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://harmonforillinois.com/",
+            "title": "Don Harmon campaign",
+            "checked": "2026-10-28",
+            "note": "Undated currently published campaign page; only the stated cash-bail position is retained."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-41",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 41",
+    "districtCode": "SD-41",
+    "districtName": "Illinois Senate District 41",
+    "region": "Collar Counties (DuPage, Will & SW Cook)",
+    "counties": [
+      "DuPage",
+      "Will",
+      "Cook"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "John Curran",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 general election official candidate listing",
+        "checked": "2026-10-28",
+        "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "john-curran",
+        "name": "John Curran",
+        "party": "Republican",
+        "role": "Illinois Senate minority leader; state senator, District 41",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "JC",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "budgetTaxes": "His official website calls for lower taxes, less regulation and efficient, transparent state government."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+            "title": "DuPage County Clerk: 2026 general election official candidate listing",
+            "checked": "2026-10-28",
+            "note": "Official listing updated September 28, 2026 confirms candidates and party labels."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "role",
+            "url": "https://senatorcurran.com/",
+            "title": "John Curran: official legislative website",
+            "checked": "2026-10-28",
+            "note": "Official office website identifies leadership title and district."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://senatorcurran.com/",
+            "title": "John Curran: official legislative website",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-48",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 48",
+    "districtCode": "SD-48",
+    "districtName": "Illinois Senate District 48",
+    "region": "Central Illinois",
+    "counties": [
+      "Sangamon",
+      "Macon",
+      "Christian"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Doris Turner",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=TqsZGSu95nhW7WzVcSfnYw%3D%3D",
+        "title": "Illinois State Board of Elections: 2026 candidate records",
+        "checked": "2026-10-28",
+        "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "doris-turner",
+        "name": "Doris Turner",
+        "party": "Democrat",
+        "role": "Illinois state senator, District 48",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "DT",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {
+          "education": "Supports investment in workforce training and career pathways for people facing barriers to employment."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=TqsZGSu95nhW7WzVcSfnYw%3D%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.senatordoristurner.com/news/press-releases/341-turner-secures-strong-investment-to-expand-central-illinois-workforce-training",
+            "title": "Doris Turner: September 9, 2026 workforce-training statement",
+            "checked": "2026-10-28",
+            "note": "Position supported by her statement; grant amounts and sole-credit claims are not repeated."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser's own September 19, 2026 list names this candidate; endorsement does not imply a contribution."
+          }
+        ]
+      },
+      {
+        "id": "frank-lesko",
+        "name": "Frank Lesko",
+        "party": "Republican",
+        "role": "Sangamon County recorder, according to his campaign",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "FL",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "His campaign proposes property-tax cuts.",
+          "budgetTaxes": "His campaign prioritizes reducing wasteful spending and improving government efficiency."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=TqsZGSu95nhW7WzVcSfnYw%3D%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          },
+          {
+            "field": "role",
+            "url": "https://www.friendsoffranklesko.com/about.htm",
+            "title": "Frank Lesko campaign: About",
+            "checked": "2026-10-28",
+            "note": "Campaign describes election as county recorder in 2024."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.friendsoffranklesko.com/about.htm",
+            "title": "Frank Lesko campaign: About",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.friendsoffranklesko.com/about.htm",
+            "title": "Frank Lesko campaign: About",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-56",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 56",
+    "districtCode": "SD-56",
+    "districtName": "Illinois Senate District 56",
+    "region": "Metro East & Southern Illinois",
+    "counties": [
+      "Madison",
+      "St. Clair"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Erica Harriss",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: November 3, 2026 general-election candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official county clerk portal lists Erica Harriss (Republican) and Marsia Geldert-Murphey (Democrat), both Active, for Senate District 56. Portal is linked from the county clerk’s official elections page."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "erica-harriss",
+        "name": "Erica Harriss",
+        "party": "Republican",
+        "role": "Illinois state senator, District 56",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "EH",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "AFSCME Illinois PEOPLE (2026 general election)"
+        ],
+        "issues": {
+          "healthcare": "Called on the state, Aetna and BJC to preserve retirees' access to their doctors and specialty care after announced insurance-network changes."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: November 3, 2026 general-election candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official county clerk portal lists Erica Harriss (Republican) and Marsia Geldert-Murphey (Democrat), both Active, for Senate District 56. Portal is linked from the county clerk’s official elections page."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://senatorericaharriss.com/senator-harriss-issues-statement-on-aetna-insurance-changes-affecting-state-employees/",
+            "title": "Erica Harriss: October 22, 2026 statement on Aetna coverage",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election recommendations",
+            "checked": "2026-10-28",
+            "note": "Endorser's own September 19, 2026 list names this candidate; endorsement does not imply a contribution."
+          }
+        ]
+      },
+      {
+        "id": "marsia-geldert-murphey",
+        "name": "Marsia Geldert-Murphey",
+        "party": "Democrat",
+        "role": "Civil engineer and former ASCE president",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "MG",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "healthcare": "Her campaign supports protecting Medicaid, strengthening the healthcare workforce and expanding access to care.",
+          "education": "Her campaign supports investment in early-childhood care, public schools and school nutrition.",
+          "transit": "Her campaign supports investment in roads, bridges and other public infrastructure."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: November 3, 2026 general-election candidate filings",
+            "checked": "2026-10-28",
+            "note": "Official county clerk portal lists Erica Harriss (Republican) and Marsia Geldert-Murphey (Democrat), both Active, for Senate District 56. Portal is linked from the county clerk’s official elections page."
+          },
+          {
+            "field": "role",
+            "url": "https://www.asce.org/publications-and-news/civil-engineering-source/authors/marsia-geldert-murphey/",
+            "title": "American Society of Civil Engineers: Marsia Geldert-Murphey",
+            "checked": "2026-10-28",
+            "note": "Professional society biography confirms engineering role and 2023-2024 presidency."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://marsieforillinois.com/",
+            "title": "Marsia Geldert-Murphey campaign",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://marsieforillinois.com/",
+            "title": "Marsia Geldert-Murphey campaign",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          },
+          {
+            "field": "issues.transit",
+            "url": "https://marsieforillinois.com/",
+            "title": "Marsia Geldert-Murphey campaign",
+            "checked": "2026-10-28",
+            "note": "Published position from the candidate or official legislative office; not an independent finding about policy outcomes."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-59",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - District 59",
+    "districtCode": "SD-59",
+    "districtName": "Illinois Senate District 59",
+    "region": "Southern Illinois",
+    "counties": [
+      "Jackson",
+      "Williamson",
+      "Franklin",
+      "Saline",
+      "Union",
+      "Massac",
+      "Johnson",
+      "Alexander",
+      "Pulaski",
+      "Hardin",
+      "Pope",
+      "Gallatin",
+      "Hamilton"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Paul Jacobs",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=t9%2BkLz9MbYYj1zghHRXR7A%3D%3D",
+        "title": "Illinois State Board of Elections: 2026 candidate records",
+        "checked": "2026-10-28",
+        "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+      },
+      {
+        "field": "incumbent",
+        "url": "https://ilga.gov/Senate/Members",
+        "title": "Illinois General Assembly: Senate members, 104th General Assembly",
+        "checked": "2026-10-28",
+        "note": "Current official member list identifies the sitting senator."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "paul-jacobs",
+        "name": "Paul Jacobs",
+        "party": "Republican",
+        "role": "Illinois state senator, District 59; appointed in June 2026",
+        "hometown": "",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "PJ",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=t9%2BkLz9MbYYj1zghHRXR7A%3D%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          },
+          {
+            "field": "role",
+            "url": "https://ilga.gov/Senate/Members",
+            "title": "Illinois General Assembly: Senate members",
+            "checked": "2026-10-28",
+            "note": "Current official member roster confirms office and district."
+          },
+          {
+            "field": "role",
+            "url": "https://ilsenategop.org/2026/06/23/paul-jacobs-appointed-as-state-senator-for-illinois-59th-senate-district/",
+            "title": "Illinois Senate Republican Caucus: Paul Jacobs appointment",
+            "checked": "2026-10-28",
+            "note": "June 23, 2026 official caucus announcement confirms he filled Dale Fowler vacancy; no longer an open seat."
+          }
+        ]
+      },
+      {
+        "id": "tamiko-mueller",
+        "name": "Tamiko \"T.C.\" Mueller",
+        "party": "Democrat",
+        "role": "Army Reserve lieutenant colonel and business owner, according to her campaign",
+        "hometown": "",
+        "incumbentStatus": "",
+        "photoInitials": "TM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ZSlHEmTxuTnPBMj4CI3sgA%3D%3D&ElectionID=sejIrI%2BQmww%3D",
+            "title": "Illinois State Board of Elections: 2026 candidate records",
+            "checked": "2026-10-28",
+            "note": "Official records retrieved through search indexing; direct requests returned HTTP 403. See audit report for access limits."
+          },
+          {
+            "field": "role",
+            "url": "https://tcmueller.com/",
+            "title": "T.C. Mueller campaign",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies military and business roles; replaces unsupported educator label."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   }
 ];

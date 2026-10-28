@@ -1,8 +1,9 @@
 // Optional Vercel endpoint. GitHub Pages serves only the bundled snapshot.
 // OpenFEC updates nightly; successful responses may be cached for six hours.
 const ENDPOINT = "https://api.open.fec.gov/v1/candidates/totals/";
-const FIELDS = ["candidate_id", "name", "office", "district", "party", "receipts",
-  "disbursements", "cash_on_hand_end_period", "coverage_end_date"];
+const FIELDS = ["candidate_id", "name", "office", "district", "party", "state", "cycle",
+  "two_year_period", "receipts", "disbursements", "cash_on_hand_end_period",
+  "coverage_start_date", "coverage_end_date"];
 
 export async function fetchFecRecords(apiKey, fetchImpl = fetch) {
   const controller = new AbortController();
@@ -13,7 +14,7 @@ export async function fetchFecRecords(apiKey, fetchImpl = fetch) {
   let expectedCount;
   try {
     for (let page = 1; page <= 20; page += 1) {
-      const query = new URLSearchParams({ state: "IL", cycle: "2026", election_full: "true",
+      const query = new URLSearchParams({ state: "IL", cycle: "2026", election_full: "false",
         per_page: "100", sort: "-receipts", page: String(page), api_key: apiKey });
       const response = await fetchImpl(ENDPOINT + "?" + query, {
         headers: { Accept: "application/json" }, signal: controller.signal
@@ -31,6 +32,7 @@ export async function fetchFecRecords(apiKey, fetchImpl = fetch) {
       for (const row of payload.results) {
         if (!row || typeof row.candidate_id !== "string" || !/^[HSP][0-9][A-Z0-9]{7}$/.test(row.candidate_id)
             || row.office !== row.candidate_id[0] || seen.has(row.candidate_id)
+            || row.state !== "IL" || row.cycle !== 2026 || row.two_year_period !== 2026
             || typeof row.name !== "string" || !row.name.trim()) throw new Error("Invalid candidate identity");
         const record = Object.fromEntries(FIELDS.map(field => [field, row[field] ?? null]));
         for (const field of ["receipts", "disbursements", "cash_on_hand_end_period"]) {
@@ -40,6 +42,15 @@ export async function fetchFecRecords(apiKey, fetchImpl = fetch) {
             throw new Error("Invalid financial value");
           }
         }
+        for (const field of ["coverage_start_date", "coverage_end_date"]) {
+          const value = record[field];
+          if (value !== null && (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)
+              || !Number.isFinite(Date.parse(value)) || new Date(value).toISOString().slice(0, 10) !== value)) {
+            throw new Error("Invalid filing coverage date");
+          }
+        }
+        if (record.coverage_start_date && record.coverage_end_date
+            && record.coverage_start_date > record.coverage_end_date) throw new Error("Reversed coverage dates");
         seen.add(record.candidate_id);
         records.push(record);
       }
@@ -64,9 +75,10 @@ export default async function handler(req, res) {
     const records = await fetchFecRecords(process.env.FEC_API_KEY || "DEMO_KEY");
     res.setHeader("Cache-Control", "public, s-maxage=21600, stale-while-revalidate=86400");
     return res.status(200).json({
-      status: "ok", source: "OpenFEC API (2026 federal candidate totals)",
-      sourceUrl: "https://www.fec.gov/data/candidates/?election_year=2026&state=IL",
-      syncedAt: new Date().toISOString(), cycle: 2026, complete: true,
+      status: "ok", source: "Federal Election Commission — reported candidate totals",
+      sourceUrl: "https://www.fec.gov/data/candidates/?cycle=2026&election_full=false&state=IL",
+      syncedAt: new Date().toISOString(), cycle: 2026, electionFull: false,
+      periodLabel: "2026 two-year reporting period", complete: true,
       count: records.length, candidates: records
     });
   } catch (_) {

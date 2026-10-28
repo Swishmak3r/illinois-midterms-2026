@@ -1,0 +1,81 @@
+{
+  "checked": "2026-10-28",
+  "note": "No verified current-quarter exact committee filing. This is unknown finance, not zero.",
+  "candidates": [
+    {
+      "id": "anna-schiefelbein",
+      "name": "Anna Schiefelbein",
+      "race": "il-comptroller-2026"
+    },
+    {
+      "id": "timothea-papas",
+      "name": "Timothea Papas",
+      "race": "il-treasurer-2026"
+    },
+    {
+      "id": "pete-donaghue",
+      "name": "Pete Donaghue",
+      "race": "il-house-18"
+    },
+    {
+      "id": "vince-romano",
+      "name": "Vince Romano",
+      "race": "il-sen-08"
+    },
+    {
+      "id": "tom-lally",
+      "name": "Tom Lally",
+      "race": "il-sen-09"
+    },
+    {
+      "id": "nico-tsatsoulis",
+      "name": "Nico Tsatsoulis",
+      "race": "cook-assessor"
+    },
+    {
+      "id": "david-penaherrera",
+      "name": "David Penaherrera",
+      "race": "lake-treasurer"
+    },
+    {
+      "id": "rachael-parker",
+      "name": "Rachael Parker",
+      "race": "peoria-clerk"
+    },
+    {
+      "id": "byron-clark",
+      "name": "Byron Clark",
+      "race": "champaign-treasurer"
+    },
+    {
+      "id": "gregory-a-worrell",
+      "name": "Gregory A. Worrell",
+      "race": "champaign-sheriff"
+    },
+    {
+      "id": "kathy-michael",
+      "name": "Kathy Michael",
+      "race": "mclean-clerk"
+    },
+    {
+      "id": "mike-babcock",
+      "name": "Mike Babcock",
+      "race": "madison-treasurer"
+    },
+    {
+      "id": "gary-hursey",
+      "name": "Gary Hursey",
+      "race": "st-clair-clerk"
+    },
+    {
+      "id": "myki-rhodes",
+      "name": "Myki Rhodes",
+      "race": "st-clair-treasurer"
+    },
+    {
+      "id": "tammy-ehlers",
+      "name": "Tammy Ehlers",
+      "race": "jackson-assessor"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Campaign finance audit — October 28, 2026
+
+## Federal source and corrections
+
+The audit retrieved all three pages of the [official OpenFEC candidate-totals endpoint](https://api.open.fec.gov/developers/), using Illinois, cycle 2026 and `election_full=false`. The resulting snapshot has 223 distinct candidate IDs. The inherited snapshot had only the first 100 rows and incorrectly claimed Illinois State Board of Elections provenance despite containing federal records only.
+
+Both the scheduled Python fetch and optional server API now request the same two-year reporting period, preserve actual beginning and ending coverage dates, and reject a mismatched state/cycle or invalid date. Full-election aggregation can span six years for Senate candidates, so it is no longer silently mixed with a two-year comparison. A source's actual coverage range remains visible; one returned record begins November 25, 2024. Its dates are not rewritten to imply a January 1 start.
+
+The real responses were saved locally, then passed through the production pagination/identity/value/date validator before the snapshot was replaced atomically. Source queries and page counts are in `fec-source-manifest.json`. Public filing addresses in raw API responses remain in ignored local cache files and are not part of the published dataset.
+
+38 candidate identities were explicitly reviewed against the complete 198-record FEC 2026 Illinois registration result set. 33 of these IDs have financial totals in the fetched snapshot. Identity mapping uses the registered full name, candidate ID, party, office and district; it never attaches money using a surname guess. John Elleson has multiple registration records and no returned 2026 totals; no ambiguous mapping or zero balance was invented. Registration without a financial result, including Michael Noack, Lupe Castillo, Edward Hershey, Carl Lambrecht and the current Tommy Hanson registration, is not evidence of zero fundraising. The added write-in candidates James Jay Mote, Alexandria Keating-Sofiakis, John Minarcik, Thomas Rudd and Brad Ahrens were also checked against both complete FEC result sets; no matching financial record was found, so no total is supplied.
+
+FEC registration is not proof that somebody qualifies for the general-election ballot. Candidate-list verification is handled separately by the election-authority roster audit. Withdrawn or primary-losing financial records may remain in the complete raw financial snapshot but are never converted into candidates by the application.
+
+## Financial meaning
+
+Displayed federal receipts are the authorized committees' total reported receipts, including contributions, transfers, loans and other receipts. They are not solely individual donations or PAC contributions. Cash is a balance at the filing's coverage end date. Independent spending is neither added to campaign receipts nor described as money received by a candidate. [FEC candidate financial summaries](https://www.fec.gov/data/candidate/H2IL01349/?cycle=2026&election_full=false) expose these categories separately; [FEC's methodology](https://www.fec.gov/data/raising-bythenumbers/?election_year=2026) explains the total-receipt aggregation.
+
+The source timestamp is a retrieval timestamp, not a guarantee that every committee has filed through that date. Filing coverage varies by candidate. Official reports may later be amended, and FEC summary processing can lag a new filing.
+
+## State and local reporting
+
+All 141 corrected state/local candidate IDs were checked. 126 current-quarter committee reports (11 statewide, 46 legislative and 69 local) were verified; 15 entries have no matched current-quarter total and remain unavailable rather than zero. The unavailable entries are enumerated in `finance-unavailable.json`. State and local figures are independently sourced from Illinois SBE D-2 quarterly reports where an exact committee and filing can be verified. They are kept in `IL_STATE_FINANCE`, separate from the federal snapshot. Every included value identifies the committee, report, period, filing date, checked date, and direct official report URL. State quarterly receipts must not be labeled as cycle totals or compared as if they were the same period as federal receipts.
+
+The state source report documents precise coverage and candidate/office checks. Committee balances may support multiple elections; for example, Citizens for Giannoulias lists Chicago mayor as well as secretary of state. Its balance is not attributed exclusively to the secretary-of-state contest. Governor-ticket figures cover the governor's specified committee, not an invented sum of both ticket members. Unverified inherited dollar claims, caucus totals, bundled donor estimates, and PAC associations are removed rather than converted into zeroes or new estimates.
+
+## Validation
+
+Five Python and five JavaScript offline regression tests pass. They cover complete pagination, failed later pages preserving the previous snapshot, encoded credentials, redacted failures, correct two-year query, wrong scope, invalid/reversed dates, atomic replacement and safe script embedding. Candidate-to-source mapping received a separate independent review. The state/local audit validated 620 exact monetary source fields and 124 cash-balance equations; two additional paper filings were visually checked. An independent reviewer additionally checked every one of the 126 final reports: all 620 electronic monetary fields, coverage dates, committee names and cash equations, plus both paper reports visually. Paper filing typos and blank fields are preserved in source notes rather than silently corrected. The scheduled workflow name and labels now accurately describe a federal-finance refresh; it does not claim to update election eligibility or state filings.

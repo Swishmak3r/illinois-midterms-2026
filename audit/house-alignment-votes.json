@@ -1,0 +1,712 @@
+{
+  "votes": [
+    {
+      "id": "laken-riley",
+      "bill": "S. 5",
+      "date": "2025-01-22",
+      "url": "https://clerk.house.gov/Votes/202523",
+      "xmlUrl": "https://clerk.house.gov/evs/2025/roll023.xml",
+      "title": "Laken Riley Act",
+      "question": "On Passage",
+      "congress": 119,
+      "session": 1,
+      "rollCall": 23,
+      "result": "Passed",
+      "checked": "2026-10-28",
+      "illinois": [
+        {
+          "bioguide": "B001295",
+          "name": "Bost",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Budzinski",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Casten",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Davis (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Foster",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "G000586",
+          "name": "García (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Jackson (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Kelly (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Krishnamoorthi",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "L000585",
+          "name": "LaHood",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Miller (IL)",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Quigley",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Ramirez",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Schakowsky",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Schneider",
+          "party": "D",
+          "vote": "Not Voting"
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Sorensen",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Underwood",
+          "party": "D",
+          "vote": "Nay"
+        }
+      ]
+    },
+    {
+      "id": "methane-rule",
+      "bill": "H.J.Res. 35",
+      "date": "2025-02-26",
+      "url": "https://clerk.house.gov/Votes/202552",
+      "xmlUrl": "https://clerk.house.gov/evs/2025/roll052.xml",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to “Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions”",
+      "question": "On Passage",
+      "congress": 119,
+      "session": 1,
+      "rollCall": 52,
+      "result": "Passed",
+      "checked": "2026-10-28",
+      "illinois": [
+        {
+          "bioguide": "B001295",
+          "name": "Bost",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Budzinski",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Casten",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Davis (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Foster",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "G000586",
+          "name": "García (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Jackson (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Kelly (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Krishnamoorthi",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "L000585",
+          "name": "LaHood",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Miller (IL)",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Quigley",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Ramirez",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Schakowsky",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Schneider",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Sorensen",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Underwood",
+          "party": "D",
+          "vote": "Nay"
+        }
+      ]
+    },
+    {
+      "id": "save-act",
+      "bill": "H.R. 22",
+      "date": "2025-04-10",
+      "url": "https://clerk.house.gov/Votes/2025102",
+      "xmlUrl": "https://clerk.house.gov/evs/2025/roll102.xml",
+      "title": "SAVE Act",
+      "question": "On Passage",
+      "congress": 119,
+      "session": 1,
+      "rollCall": 102,
+      "result": "Passed",
+      "checked": "2026-10-28",
+      "illinois": [
+        {
+          "bioguide": "B001295",
+          "name": "Bost",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Budzinski",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Casten",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Davis (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Foster",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "G000586",
+          "name": "García (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Jackson (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Kelly (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Krishnamoorthi",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "L000585",
+          "name": "LaHood",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Miller (IL)",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Quigley",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Ramirez",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Schakowsky",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Schneider",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Sorensen",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Underwood",
+          "party": "D",
+          "vote": "Nay"
+        }
+      ]
+    },
+    {
+      "id": "california-vehicles",
+      "bill": "H.J.Res. 88",
+      "date": "2025-05-01",
+      "url": "https://clerk.house.gov/Votes/2025114",
+      "xmlUrl": "https://clerk.house.gov/evs/2025/roll114.xml",
+      "title": "Congressional disapproval, of the rule submitted by the EPA relating to “California State Motor Vehicle and Engine Pollution Control Standards; Advanced Clean Cars II; Waiver of Preemption; Notice of Decision”",
+      "question": "On Passage",
+      "congress": 119,
+      "session": 1,
+      "rollCall": 114,
+      "result": "Passed",
+      "checked": "2026-10-28",
+      "illinois": [
+        {
+          "bioguide": "B001295",
+          "name": "Bost",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Budzinski",
+          "party": "D",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Casten",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Davis (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Foster",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "G000586",
+          "name": "García (IL)",
+          "party": "D",
+          "vote": "Not Voting"
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Jackson (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Kelly (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Krishnamoorthi",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "L000585",
+          "name": "LaHood",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Miller (IL)",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Quigley",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Ramirez",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Schakowsky",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Schneider",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Sorensen",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Underwood",
+          "party": "D",
+          "vote": "Nay"
+        }
+      ]
+    },
+    {
+      "id": "rescissions",
+      "bill": "H.R. 4",
+      "date": "2025-06-12",
+      "url": "https://clerk.house.gov/Votes/2025168",
+      "xmlUrl": "https://clerk.house.gov/evs/2025/roll168.xml",
+      "title": "Rescissions Act",
+      "question": "On Passage",
+      "congress": 119,
+      "session": 1,
+      "rollCall": 168,
+      "result": "Passed",
+      "checked": "2026-10-28",
+      "illinois": [
+        {
+          "bioguide": "B001295",
+          "name": "Bost",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Budzinski",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Casten",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Davis (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Foster",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "G000586",
+          "name": "García (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Jackson (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Kelly (IL)",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Krishnamoorthi",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "L000585",
+          "name": "LaHood",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Miller (IL)",
+          "party": "R",
+          "vote": "Yea"
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Quigley",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Ramirez",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Schakowsky",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Schneider",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Sorensen",
+          "party": "D",
+          "vote": "Nay"
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Underwood",
+          "party": "D",
+          "vote": "Nay"
+        }
+      ]
+    },
+    {
+      "id": "reconciliation",
+      "bill": "H.R. 1",
+      "date": "2025-07-03",
+      "url": "https://clerk.house.gov/Votes/2025190",
+      "xmlUrl": "https://clerk.house.gov/evs/2025/roll190.xml",
+      "title": "One Big Beautiful Bill Act",
+      "question": "On Motion to Concur in the Senate Amendment",
+      "congress": 119,
+      "session": 1,
+      "rollCall": 190,
+      "result": "Passed",
+      "checked": "2026-10-28",
+      "illinois": [
+        {
+          "bioguide": "B001295",
+          "name": "Bost",
+          "party": "R",
+          "vote": "Aye"
+        },
+        {
+          "bioguide": "B001315",
+          "name": "Budzinski",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "C001117",
+          "name": "Casten",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "D000096",
+          "name": "Davis (IL)",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "F000454",
+          "name": "Foster",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "G000586",
+          "name": "García (IL)",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "J000309",
+          "name": "Jackson (IL)",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "K000385",
+          "name": "Kelly (IL)",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "K000391",
+          "name": "Krishnamoorthi",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "L000585",
+          "name": "LaHood",
+          "party": "R",
+          "vote": "Aye"
+        },
+        {
+          "bioguide": "M001211",
+          "name": "Miller (IL)",
+          "party": "R",
+          "vote": "Aye"
+        },
+        {
+          "bioguide": "Q000023",
+          "name": "Quigley",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Ramirez",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Schakowsky",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "S001190",
+          "name": "Schneider",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "S001225",
+          "name": "Sorensen",
+          "party": "D",
+          "vote": "No"
+        },
+        {
+          "bioguide": "U000040",
+          "name": "Underwood",
+          "party": "D",
+          "vote": "No"
+        }
+      ]
+    }
+  ]
+}
