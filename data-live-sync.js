@@ -1,6 +1,6 @@
 // Bundled OpenFEC snapshot; updated only after a complete successful fetch.
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-10-30 16:58 UTC",
+  "lastAutomatedSync": "2026-10-31 16:00 UTC",
   "source": "Federal Election Commission \u2014 reported candidate totals",
   "sourceUrl": "https://www.fec.gov/data/candidates/?cycle=2026&election_full=false&state=IL",
   "cycle": 2026,
@@ -1054,9 +1054,9 @@ window.IL_LIVE_SYNC_META = {
       "state": "IL",
       "cycle": 2026,
       "two_year_period": 2026,
-      "receipts": 159060.74,
-      "disbursements": 125311.39,
-      "cash_on_hand_end_period": "33749.35",
+      "receipts": 161510.74,
+      "disbursements": 127866.39,
+      "cash_on_hand_end_period": "33644.35",
       "coverage_start_date": "2025-01-01",
       "coverage_end_date": "2026-10-14"
     },
@@ -2603,7 +2603,7 @@ window.IL_LIVE_SYNC_META = {
       "disbursements": 0.0,
       "cash_on_hand_end_period": "-1950.00",
       "coverage_start_date": "2025-01-01",
-      "coverage_end_date": "2026-06-30"
+      "coverage_end_date": "2026-09-30"
     },
     {
       "candidate_id": "H2IL06124",
