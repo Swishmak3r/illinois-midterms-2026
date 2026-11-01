@@ -94,7 +94,7 @@ def write_snapshot(records, output_path):
     output_path = Path(output_path)
     payload = {
         "lastAutomatedSync": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "source": "Federal Election Commission — reported candidate totals",
+        "source": "Federal Election Commission - reported candidate totals",
         "sourceUrl": "https://www.fec.gov/data/candidates/?cycle=2026&election_full=false&state=IL",
         "cycle": 2026, "electionFull": False,
         "periodLabel": "2026 two-year reporting period",

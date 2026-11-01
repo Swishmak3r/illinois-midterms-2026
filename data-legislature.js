@@ -484,6 +484,211 @@ window.IL_LEGISLATURE_RACES = [
     ]
   },
   {
+    "id": "il-house-41",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 41st District",
+    "districtCode": "HD-41",
+    "districtName": "41st House District",
+    "region": "Western suburbs",
+    "counties": [
+      "DuPage",
+      "Will"
+    ],
+    "cities": [
+      "Naperville",
+      "Warrenville",
+      "Bolingbrook"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Janet Yang Rohr (D)",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County general-election specimen ballot lists Janet Yang Rohr (Democratic) and Ajay Gupta (Republican) for Representative in the General Assembly, 41st Representative District."
+      },
+      {
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 general election official candidate listing",
+        "checked": "2026-10-28",
+        "note": "DuPage County official candidate listing confirms Janet Yang Rohr (D) and Ajay Gupta (R) for House District 41."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "janet-yang-rohr",
+        "name": "Janet Yang Rohr",
+        "party": "Democrat",
+        "role": "State representative for the 41st District since January 2021; financial data director and CFA; former Naperville Community Unit School District 203 board member.",
+        "hometown": "Naperville",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "JR",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO",
+          "AFSCME Council 31"
+        ],
+        "issues": {
+          "propertyTaxes": "Campaign priorities emphasize increasing state evidence-based school funding and property-tax relief for homeowners to reduce reliance on local property levies.",
+          "budgetTaxes": "Campaign platform highlights fiscal discipline, paying down the state bill backlog, and improving Illinois's credit rating through balanced budgets.",
+          "healthcare": "Campaign supports protecting reproductive healthcare access, mental-health parity, and capping out-of-pocket prescription drug costs.",
+          "education": "Campaign supports fully funding K-12 public schools, early childhood education, and higher-education financial aid."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Janet Yang Rohr as Democratic candidate for 41st Representative District."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/house/members/details/3398",
+            "title": "Illinois General Assembly: Janet Yang Rohr, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official legislative biography confirms service since January 2021 and professional background."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.repyangrohr.com/",
+            "title": "State Representative Janet Yang Rohr official legislative website",
+            "checked": "2026-10-28",
+            "note": "Identifies Naperville district office and community base."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorses Janet Yang Rohr for House District 41."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election PEOPLE recommendations",
+            "checked": "2026-10-28",
+            "note": "Recommends Janet Yang Rohr for House District 41."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.janetforillinois.com/",
+            "title": "Janet Yang Rohr campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign priorities on school funding and property-tax relief."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.janetforillinois.com/",
+            "title": "Janet Yang Rohr campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign priorities on state budgeting and credit-rating improvements."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.janetforillinois.com/",
+            "title": "Janet Yang Rohr campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign priorities on healthcare access and reproductive rights."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.janetforillinois.com/",
+            "title": "Janet Yang Rohr campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign priorities on public education funding."
+          }
+        ]
+      },
+      {
+        "id": "ajay-gupta",
+        "name": "Ajay Gupta",
+        "party": "Republican",
+        "role": "Republican nominee for the 41st House District; tax attorney, former federal prosecutor, and financial economist.",
+        "hometown": "Naperville",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "AG",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "Campaign platform calls for property-tax relief and reforming school-funding formulas to reduce residential property tax burdens in DuPage and Will counties.",
+          "budgetTaxes": "Campaign platform proposes zero-based state budgeting, forensic spending audits, and structural pension and tax reform.",
+          "safetAct": "Campaign platform supports repealing or revising pretrial detention provisions of the SAFE-T Act and increasing support for local law enforcement.",
+          "education": "Campaign platform supports parental curriculum transparency, academic standards in core subjects, and expanding school choice."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Ajay Gupta as Republican candidate for 41st Representative District."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ajayforilhouse41.com/",
+            "title": "Ajay Gupta for Illinois House District 41 campaign website",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies legal and financial background."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.ajayforilhouse41.com/",
+            "title": "Ajay Gupta for Illinois House District 41 campaign website",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies Naperville residency."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.ajayforilhouse41.com/",
+            "title": "Ajay Gupta for Illinois House District 41 campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign position on property taxes and school funding."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.ajayforilhouse41.com/",
+            "title": "Ajay Gupta for Illinois House District 41 campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign position on zero-based budgeting and spending audits."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.ajayforilhouse41.com/",
+            "title": "Ajay Gupta for Illinois House District 41 campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign position on public safety and the SAFE-T Act."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.ajayforilhouse41.com/",
+            "title": "Ajay Gupta for Illinois House District 41 campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign position on education and school choice."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority's address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
     "id": "il-house-47",
     "level": "state_legislature",
     "chamber": "State House",
@@ -877,7 +1082,7 @@ window.IL_LEGISLATURE_RACES = [
     "id": "il-house-68",
     "level": "state_legislature",
     "chamber": "State House",
-    "office": "Illinois State Representative — 68th District",
+    "office": "Illinois State Representative - 68th District",
     "districtCode": "HD-68",
     "districtName": "68th House District",
     "region": "Northern Illinois (Winnebago County)",
@@ -920,49 +1125,49 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://vr.platinumvrms.com/county/rslrequest/119?t=2",
-            "title": "Winnebago County Clerk — active November 2026 candidates",
+            "title": "Winnebago County Clerk - active November 2026 candidates",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://www.ilga.gov/house/members/details/3390",
-            "title": "Illinois General Assembly — Dave Vella biography",
+            "title": "Illinois General Assembly - Dave Vella biography",
             "checked": "2026-10-28",
             "note": "Supports the displayed role."
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://www.davevella.com/",
-            "title": "Dave Vella — campaign priorities",
+            "title": "Dave Vella - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.safetAct",
             "url": "https://www.davevella.com/",
-            "title": "Dave Vella — campaign priorities",
+            "title": "Dave Vella - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.education",
             "url": "https://www.davevella.com/",
-            "title": "Dave Vella — campaign priorities",
+            "title": "Dave Vella - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -995,49 +1200,49 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://vr.platinumvrms.com/county/rslrequest/119?t=2",
-            "title": "Winnebago County Clerk — active November 2026 candidates",
+            "title": "Winnebago County Clerk - active November 2026 candidates",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://kathyeaston.com/get-to-know-me/",
-            "title": "Kathy Easton — campaign biography",
+            "title": "Kathy Easton - campaign biography",
             "checked": "2026-10-28",
             "note": "Campaign describes her work running Northern Illinois tennis programs and community volunteering."
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://kathyeaston.com/sleeves-up-plan/",
-            "title": "Kathy Easton — Sleeves Up Plan",
+            "title": "Kathy Easton - Sleeves Up Plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://kathyeaston.com/sleeves-up-plan/",
-            "title": "Kathy Easton — Sleeves Up Plan",
+            "title": "Kathy Easton - Sleeves Up Plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.safetAct",
             "url": "https://kathyeaston.com/sleeves-up-plan/",
-            "title": "Kathy Easton — Sleeves Up Plan",
+            "title": "Kathy Easton - Sleeves Up Plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.education",
             "url": "https://kathyeaston.com/sleeves-up-plan/",
-            "title": "Kathy Easton — Sleeves Up Plan",
+            "title": "Kathy Easton - Sleeves Up Plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
-            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "title": "Illinois Family Action - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -1048,14 +1253,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "candidates",
         "url": "https://vr.platinumvrms.com/county/rslrequest/119?t=2",
-        "title": "Winnebago County Clerk — active November 2026 candidates",
+        "title": "Winnebago County Clerk - active November 2026 candidates",
         "checked": "2026-10-28",
         "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current officeholder checked independently of the general-election candidates."
       }
@@ -1076,7 +1281,7 @@ window.IL_LEGISLATURE_RACES = [
     "id": "il-house-76",
     "level": "state_legislature",
     "chamber": "State House",
-    "office": "Illinois State Representative — 76th District",
+    "office": "Illinois State Representative - 76th District",
     "districtCode": "HD-76",
     "districtName": "76th House District",
     "region": "Northern Illinois & Illinois Valley",
@@ -1124,49 +1329,49 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
-            "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+            "title": "DeKalb County Clerk - November 3, 2026 specimen ballot",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
-            "title": "Office of Rep. Briel — January 8, 2025 inauguration statement",
+            "title": "Office of Rep. Briel - January 8, 2025 inauguration statement",
             "checked": "2026-10-28",
             "note": "Supports the displayed role."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
-            "title": "Office of Rep. Briel — inauguration priorities",
+            "title": "Office of Rep. Briel - inauguration priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.healthcare",
             "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
-            "title": "Office of Rep. Briel — inauguration priorities",
+            "title": "Office of Rep. Briel - inauguration priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.education",
             "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
-            "title": "Office of Rep. Briel — inauguration priorities",
+            "title": "Office of Rep. Briel - inauguration priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -1199,49 +1404,49 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
-            "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+            "title": "DeKalb County Clerk - November 3, 2026 specimen ballot",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://lasalle-il.gov/departments/city-clerk-and-deputy-clerk",
-            "title": "City of La Salle — City Clerk and Deputy Clerk",
+            "title": "City of La Salle - City Clerk and Deputy Clerk",
             "checked": "2026-10-28",
             "note": "Official city page identifies Liz Bishop as La Salle city clerk."
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://electlizbishop.com/",
-            "title": "Liz Bishop — campaign priorities",
+            "title": "Liz Bishop - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://electlizbishop.com/",
-            "title": "Liz Bishop — campaign priorities",
+            "title": "Liz Bishop - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.healthcare",
             "url": "https://electlizbishop.com/",
-            "title": "Liz Bishop — campaign priorities",
+            "title": "Liz Bishop - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.energyGrid",
             "url": "https://electlizbishop.com/",
-            "title": "Liz Bishop — campaign priorities",
+            "title": "Liz Bishop - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
-            "title": "AFP Action — September 10, 2026 Illinois endorsements",
+            "title": "AFP Action - September 10, 2026 Illinois endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -1252,14 +1457,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "candidates",
         "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
-        "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+        "title": "DeKalb County Clerk - November 3, 2026 specimen ballot",
         "checked": "2026-10-28",
         "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current officeholder checked independently of the general-election candidates."
       }
@@ -1280,7 +1485,7 @@ window.IL_LEGISLATURE_RACES = [
     "id": "il-house-84",
     "level": "state_legislature",
     "chamber": "State House",
-    "office": "Illinois State Representative — 84th District",
+    "office": "Illinois State Representative - 84th District",
     "districtCode": "HD-84",
     "districtName": "84th House District",
     "region": "Collar Counties (Kane, DuPage, Kendall & Will)",
@@ -1329,63 +1534,63 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-            "title": "Kane County Clerk — November 2026 candidate list",
+            "title": "Kane County Clerk - November 2026 candidate list",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://www.sabahaider.com/",
-            "title": "Saba Haider — campaign biography and priorities",
+            "title": "Saba Haider - campaign biography and priorities",
             "checked": "2026-10-28",
             "note": "Supports the displayed role."
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://www.sabahaider.com/",
-            "title": "Saba Haider — campaign priorities",
+            "title": "Saba Haider - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.sabahaider.com/",
-            "title": "Saba Haider — campaign priorities",
+            "title": "Saba Haider - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.sabahaider.com/",
-            "title": "Saba Haider — campaign priorities",
+            "title": "Saba Haider - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.energyGrid",
             "url": "https://www.sabahaider.com/",
-            "title": "Saba Haider — campaign priorities",
+            "title": "Saba Haider - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.education",
             "url": "https://www.sabahaider.com/",
-            "title": "Saba Haider — campaign priorities",
+            "title": "Saba Haider - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -1417,42 +1622,42 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-            "title": "Kane County Clerk — November 2026 candidate list",
+            "title": "Kane County Clerk - November 2026 candidate list",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://scopaforillinois.com/meet-candidate",
-            "title": "Brian Scopa — campaign biography",
+            "title": "Brian Scopa - campaign biography",
             "checked": "2026-10-28",
             "note": "Supports the displayed role."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://scopaforillinois.com/issues",
-            "title": "Brian Scopa — campaign issues",
+            "title": "Brian Scopa - campaign issues",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.safetAct",
             "url": "https://scopaforillinois.com/issues",
-            "title": "Brian Scopa — campaign issues",
+            "title": "Brian Scopa - campaign issues",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.education",
             "url": "https://scopaforillinois.com/issues",
-            "title": "Brian Scopa — campaign issues",
+            "title": "Brian Scopa - campaign issues",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
-            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "title": "Illinois Family Action - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -1463,14 +1668,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "candidates",
         "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-        "title": "Kane County Clerk — November 2026 candidate list",
+        "title": "Kane County Clerk - November 2026 candidate list",
         "checked": "2026-10-28",
         "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current officeholder checked independently of the general-election candidates."
       }
@@ -1488,10 +1693,162 @@ window.IL_LEGISLATURE_RACES = [
     ]
   },
   {
+    "id": "il-house-85",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 85th District",
+    "districtCode": "HD-85",
+    "districtName": "85th House District",
+    "region": "Southwest suburbs",
+    "counties": [
+      "DuPage",
+      "Will"
+    ],
+    "cities": [
+      "Bolingbrook",
+      "Romeoville",
+      "Lockport",
+      "Crest Hill",
+      "Woodridge"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Dagmara 'Dee' Avelar (D)",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County general-election specimen ballot lists Dagmara 'Dee' Avelar (Democratic) and Chris Metcalfe (Republican) for Representative in the General Assembly, 85th Representative District."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "dagmara-avelar",
+        "name": "Dagmara 'Dee' Avelar",
+        "party": "Democrat",
+        "role": "State representative for the 85th District since January 2021; Assistant Majority Leader.",
+        "hometown": "Bolingbrook",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "DA",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO",
+          "AFSCME Council 31"
+        ],
+        "issues": {
+          "budgetTaxes": "Supports working-family tax credits, child tax relief, and state investment in human services and community infrastructure.",
+          "healthcare": "Legislative priorities emphasize expanding healthcare access, lowering prescription drug costs, and protecting reproductive healthcare in Illinois.",
+          "education": "Supports increased state funding for public schools, bilingual education, and trades and college affordability."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Dagmara 'Dee' Avelar as Democratic candidate for 85th Representative District."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/house/members/details/3399",
+            "title": "Illinois General Assembly: Dagmara Avelar, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official legislative biography confirms service since January 2021 and Assistant Majority Leader role."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.ilga.gov/house/members/details/3399",
+            "title": "Illinois General Assembly: Dagmara Avelar, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official roster identifies Bolingbrook district office and residency."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorses Dagmara Avelar for House District 85."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election PEOPLE recommendations",
+            "checked": "2026-10-28",
+            "note": "Recommends Dagmara Avelar for House District 85."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.repdagmara.org/",
+            "title": "State Representative Dagmara Avelar official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on working-family tax relief and state budget investments."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.repdagmara.org/",
+            "title": "State Representative Dagmara Avelar official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on healthcare access and prescription drug affordability."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.repdagmara.org/",
+            "title": "State Representative Dagmara Avelar official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on public school funding and higher education."
+          }
+        ]
+      },
+      {
+        "id": "chris-metcalfe",
+        "name": "Chris Metcalfe",
+        "party": "Republican",
+        "role": "Republican nominee for the 85th House District.",
+        "hometown": "",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "CM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Chris Metcalfe as Republican candidate for 85th Representative District."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms general-election ballot candidacy for the 85th Representative District."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority's address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
     "id": "il-house-89",
     "level": "state_legislature",
     "chamber": "State House",
-    "office": "Illinois State Representative — 89th District",
+    "office": "Illinois State Representative - 89th District",
     "districtCode": "HD-89",
     "districtName": "89th House District",
     "region": "Northern & Northwest Illinois",
@@ -1542,7 +1899,7 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
-            "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+            "title": "DeKalb County Clerk - November 3, 2026 specimen ballot",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
@@ -1556,28 +1913,28 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "issues.propertyTaxes",
             "url": "https://www.mccombieforillinois.com/",
-            "title": "Tony McCombie — campaign priorities",
+            "title": "Tony McCombie - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.mccombieforillinois.com/",
-            "title": "Tony McCombie — campaign priorities",
+            "title": "Tony McCombie - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.safetAct",
             "url": "https://www.mccombieforillinois.com/",
-            "title": "Tony McCombie — campaign priorities",
+            "title": "Tony McCombie - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.education",
             "url": "https://www.mccombieforillinois.com/",
-            "title": "Tony McCombie — campaign priorities",
+            "title": "Tony McCombie - campaign priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           }
@@ -1588,14 +1945,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "candidates",
         "url": "https://dekalbcountyclerkil.gov/wp-content/uploads/2026/09/11032026SpecimenBallot.pdf",
-        "title": "DeKalb County Clerk — November 3, 2026 specimen ballot",
+        "title": "DeKalb County Clerk - November 3, 2026 specimen ballot",
         "checked": "2026-10-28",
         "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current officeholder checked independently of the general-election candidates."
       }
@@ -1616,7 +1973,7 @@ window.IL_LEGISLATURE_RACES = [
     "id": "il-house-91",
     "level": "state_legislature",
     "chamber": "State House",
-    "office": "Illinois State Representative — 91st District",
+    "office": "Illinois State Representative - 91st District",
     "districtCode": "HD-91",
     "districtName": "91st House District",
     "region": "Central Illinois (McLean & Tazewell Counties)",
@@ -1661,42 +2018,42 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
-            "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+            "title": "Peoria County Election Commission - 2026 general-election sample ballot",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://www.ilga.gov/House/Members/Details/3431",
-            "title": "Illinois General Assembly — Sharon Chung biography",
+            "title": "Illinois General Assembly - Sharon Chung biography",
             "checked": "2026-10-28",
             "note": "Supports the displayed role."
           },
           {
             "field": "issues.healthcare",
             "url": "https://ilhousedems.com/2026/02/27/chung-backed-resolution-opposes-extreme-anti-choice-senate-bill/",
-            "title": "Office of Rep. Chung — reproductive-health statement, February 27, 2026",
+            "title": "Office of Rep. Chung - reproductive-health statement, February 27, 2026",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.education",
             "url": "https://ilhousedems.com/2026/04/21/chung-bill-protecting-independence-of-media-that-partner-with-public-universities-passes-house/",
-            "title": "Office of Rep. Chung — university-media bill, April 21, 2026",
+            "title": "Office of Rep. Chung - university-media bill, April 21, 2026",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -1707,14 +2064,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "candidates",
         "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
-        "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+        "title": "Peoria County Election Commission - 2026 general-election sample ballot",
         "checked": "2026-10-28",
         "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current officeholder checked independently of the general-election candidates."
       }
@@ -1735,7 +2092,7 @@ window.IL_LEGISLATURE_RACES = [
     "id": "il-house-92",
     "level": "state_legislature",
     "chamber": "State House",
-    "office": "Illinois State Representative — 92nd District",
+    "office": "Illinois State Representative - 92nd District",
     "districtCode": "HD-92",
     "districtName": "92nd House District",
     "region": "Central Illinois (Peoria County)",
@@ -1777,49 +2134,49 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
-            "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+            "title": "Peoria County Election Commission - 2026 general-election sample ballot",
             "checked": "2026-10-28",
             "note": "Official November 3, 2026 general-election listing identifies candidate, party and district."
           },
           {
             "field": "role",
             "url": "https://www.ilga.gov/House/Members/List",
-            "title": "Illinois General Assembly — current House members",
+            "title": "Illinois General Assembly - current House members",
             "checked": "2026-10-28",
             "note": "Supports the displayed role."
           },
           {
             "field": "issues.safetAct",
             "url": "https://ilhousedems.com/2026/01/16/gordon-booth-led-clean-slate-act-signed-into-law-automatically-seals-records-for-certain-offenses-helping-to-remove-barriers/",
-            "title": "Office of Rep. Gordon-Booth — Clean Slate Act, January 16, 2026",
+            "title": "Office of Rep. Gordon-Booth - Clean Slate Act, January 16, 2026",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://ilhousedems.com/2026/02/18/gordon-booth-reacts-to-governors-budget-address-emphasizes-need-for-responsible-and-compassionate-plan/",
-            "title": "Office of Rep. Gordon-Booth — budget priorities, February 18, 2026",
+            "title": "Office of Rep. Gordon-Booth - budget priorities, February 18, 2026",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "issues.healthcare",
             "url": "https://ilhousedems.com/2026/08/24/gordon-booth-congratulates-peoria-based-healthcare-centers-on-nearly-6-million-in-grant-funding/",
-            "title": "Office of Rep. Gordon-Booth — community health centers, August 24, 2026",
+            "title": "Office of Rep. Gordon-Booth - community health centers, August 24, 2026",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; summarized with attribution."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists this candidate for the 2026 general election."
           }
@@ -1830,14 +2187,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "candidates",
         "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
-        "title": "Peoria County Election Commission — 2026 general-election sample ballot",
+        "title": "Peoria County Election Commission - 2026 general-election sample ballot",
         "checked": "2026-10-28",
         "note": "Official general-election list or specimen ballot supports the displayed candidate roster."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current officeholder checked independently of the general-election candidates."
       }
@@ -1908,70 +2265,70 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
-            "title": "Will County Clerk — published 2026 general-election specimen ballot",
+            "title": "Will County Clerk - published 2026 general-election specimen ballot",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "role",
             "url": "https://www.ilga.gov/House/Members/List",
-            "title": "Illinois General Assembly — current House members",
+            "title": "Illinois General Assembly - current House members",
             "checked": "2026-10-28",
             "note": "Current official House roster confirms incumbent status."
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://www.jdhfor97.com/",
-            "title": "Jessica Dixon Heitman — campaign platform",
+            "title": "Jessica Dixon Heitman - campaign platform",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.jdhfor97.com/",
-            "title": "Jessica Dixon Heitman — campaign platform",
+            "title": "Jessica Dixon Heitman - campaign platform",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.safetAct",
             "url": "https://www.jdhfor97.com/",
-            "title": "Jessica Dixon Heitman — campaign platform",
+            "title": "Jessica Dixon Heitman - campaign platform",
             "checked": "2026-10-28",
             "note": "Campaign public-safety position; no SAFE-T Act stance inferred."
           },
           {
             "field": "issues.transit",
             "url": "https://www.jdhfor97.com/",
-            "title": "Jessica Dixon Heitman — campaign platform",
+            "title": "Jessica Dixon Heitman - campaign platform",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.jdhfor97.com/",
-            "title": "Jessica Dixon Heitman — campaign platform",
+            "title": "Jessica Dixon Heitman - campaign platform",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.education",
             "url": "https://www.jdhfor97.com/",
-            "title": "Jessica Dixon Heitman — campaign platform",
+            "title": "Jessica Dixon Heitman - campaign platform",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - July 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           }
@@ -2003,42 +2360,42 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
-            "title": "Will County Clerk — published 2026 general-election specimen ballot",
+            "title": "Will County Clerk - published 2026 general-election specimen ballot",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://www.gabbyforillinois.com/plan",
-            "title": "Gabby Shanahan — campaign plan",
+            "title": "Gabby Shanahan - campaign plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.gabbyforillinois.com/plan",
-            "title": "Gabby Shanahan — campaign plan",
+            "title": "Gabby Shanahan - campaign plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.gabbyforillinois.com/plan",
-            "title": "Gabby Shanahan — campaign plan",
+            "title": "Gabby Shanahan - campaign plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.education",
             "url": "https://www.gabbyforillinois.com/plan",
-            "title": "Gabby Shanahan — campaign plan",
+            "title": "Gabby Shanahan - campaign plan",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "endorsements",
             "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
-            "title": "Americans for Prosperity Action — September 10, 2026 Illinois endorsements",
+            "title": "Americans for Prosperity Action - September 10, 2026 Illinois endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           }
@@ -2049,14 +2406,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "identity",
         "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
-        "title": "Will County Clerk — published 2026 general-election specimen ballot",
+        "title": "Will County Clerk - published 2026 general-election specimen ballot",
         "checked": "2026-10-28",
         "note": "Lists the general-election candidates and parties for this district."
       },
       {
         "field": "role",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current House roster identifies the sitting representative for this district."
       }
@@ -2070,6 +2427,195 @@ window.IL_LEGISLATURE_RACES = [
     "coverageNotes": [
       "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
       "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-house-98",
+    "level": "state_legislature",
+    "chamber": "State House",
+    "office": "Illinois State Representative - 98th District",
+    "districtCode": "HD-98",
+    "districtName": "98th House District",
+    "region": "Southwest suburbs",
+    "counties": [
+      "Will"
+    ],
+    "cities": [
+      "Bolingbrook",
+      "Romeoville",
+      "Joliet",
+      "Crest Hill"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Natalie A. Manley (D)",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County general-election specimen ballot lists Natalie A. Manley (Democratic) and Nona Parker (Republican) for Representative in the General Assembly, 98th Representative District."
+      },
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "title": "Illinois State Board of Elections: 2026 general election candidate list",
+        "checked": "2026-10-28",
+        "note": "State candidate list confirms Natalie A. Manley (D) and Nona Parker (R) in House District 98, which covers most of Bolingbrook (60490)."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "natalie-a-manley",
+        "name": "Natalie A. Manley",
+        "party": "Democrat",
+        "role": "State representative for the 98th District since January 2013; Assistant Majority Leader; certified public accountant.",
+        "hometown": "Joliet",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "NM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO",
+          "AFSCME Council 31"
+        ],
+        "issues": {
+          "propertyTaxes": "Legislative priorities include expanding senior property-tax relief exemptions and increasing state school funding to ease local property tax pressure in Will County.",
+          "budgetTaxes": "As a CPA, emphasizes balanced state budgets, paying down state liabilities, and tax relief for working families and seniors.",
+          "healthcare": "Supports expanding mental-health services, senior care protections, and affordable prescription medication access."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Natalie A. Manley as Democratic candidate for 98th Representative District."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/house/members/details/3232",
+            "title": "Illinois General Assembly: Natalie A. Manley, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official legislative biography confirms service since January 2013, Assistant Majority Leader role, and CPA background."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.ilga.gov/house/members/details/3232",
+            "title": "Illinois General Assembly: Natalie A. Manley, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official roster identifies Joliet/Romeoville district office and residency."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorses Natalie Manley for House District 98."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+            "title": "AFSCME Council 31: 2026 general election PEOPLE recommendations",
+            "checked": "2026-10-28",
+            "note": "Recommends Natalie Manley for House District 98."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.repmanley.com/",
+            "title": "State Representative Natalie A. Manley official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on senior property-tax exemptions and school funding."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.repmanley.com/",
+            "title": "State Representative Natalie A. Manley official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on state fiscal management and tax relief."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://www.repmanley.com/",
+            "title": "State Representative Natalie A. Manley official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on healthcare and senior protections."
+          }
+        ]
+      },
+      {
+        "id": "nona-parker",
+        "name": "Nona Parker",
+        "party": "Republican",
+        "role": "Republican nominee for the 98th House District; corporate accounting and financial reconciliation professional.",
+        "hometown": "Bolingbrook",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "NP",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "Campaign platform calls for capping and reducing residential property taxes and auditing local and state taxing bodies.",
+          "budgetTaxes": "Campaign platform emphasizes fiscal accountability, curbing state government spending growth, and reducing the tax burden on working families and retirees.",
+          "safetAct": "Campaign platform supports strengthening pretrial detention authority for violent offenses and increasing resources for police and first responders."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Nona Parker as Republican candidate for 98th Representative District."
+          },
+          {
+            "field": "role",
+            "url": "https://www.nonaparker4staterep.com/",
+            "title": "Nona Parker for State Representative District 98 campaign website",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies corporate accounting background."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.nonaparker4staterep.com/",
+            "title": "Nona Parker for State Representative District 98 campaign website",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies Bolingbrook residency."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.nonaparker4staterep.com/",
+            "title": "Nona Parker for State Representative District 98 campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign platform on property taxes."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.nonaparker4staterep.com/",
+            "title": "Nona Parker for State Representative District 98 campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign platform on state spending and taxes."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.nonaparker4staterep.com/",
+            "title": "Nona Parker for State Representative District 98 campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign platform on public safety and pretrial detention."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority's address-based ballot.",
       "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
@@ -2121,42 +2667,42 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
-            "title": "Champaign County Clerk — 2026 election candidates",
+            "title": "Champaign County Clerk - 2026 election candidates",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "role",
             "url": "https://www.ilga.gov/House/Members/List",
-            "title": "Illinois General Assembly — current House members",
+            "title": "Illinois General Assembly - current House members",
             "checked": "2026-10-28",
             "note": "Current official House roster confirms incumbent status."
           },
           {
             "field": "role",
             "url": "https://repschweizer.com/about/",
-            "title": "Representative Brandun Schweizer — official biography",
+            "title": "Representative Brandun Schweizer - official biography",
             "checked": "2026-10-28",
             "note": "Official biography identifies his appointment in December 2023, military rank and Danville residence."
           },
           {
             "field": "issues.energyGrid",
             "url": "https://repschweizer.com/2024/11/19/schweizer-says-we-need-to-get-back-to-business-and-protect-the-mahomet-aquifer/",
-            "title": "Representative Schweizer — November 19, 2024 Mahomet Aquifer statement",
+            "title": "Representative Schweizer - November 19, 2024 Mahomet Aquifer statement",
             "checked": "2026-10-28",
             "note": "Dated legislative-office position; does not claim the bill remains pending or establish a position on electricity-generation policy."
           },
           {
             "field": "issues.healthcare",
             "url": "https://repschweizer.com/stop-assisted-suicide-in-illinois/",
-            "title": "Representative Schweizer — physician-assisted-suicide position",
+            "title": "Representative Schweizer - physician-assisted-suicide position",
             "checked": "2026-10-28",
             "note": "Official-office policy statement; no claim about current legislative status."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - July 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           }
@@ -2187,49 +2733,49 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
-            "title": "Champaign County Clerk — 2026 election candidates",
+            "title": "Champaign County Clerk - 2026 election candidates",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "role",
             "url": "https://www.robersonforillinois.com/",
-            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "title": "Mary Catherine Roberson - campaign biography and priorities",
             "checked": "2026-10-28",
             "note": "Campaign biography names Robin Kelly, correcting the unsupported original attribution to Nikki Budzinski."
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://www.robersonforillinois.com/",
-            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "title": "Mary Catherine Roberson - campaign biography and priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.safetAct",
             "url": "https://www.robersonforillinois.com/",
-            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "title": "Mary Catherine Roberson - campaign biography and priorities",
             "checked": "2026-10-28",
             "note": "Campaign public-safety positions; no SAFE-T Act stance inferred."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.robersonforillinois.com/",
-            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "title": "Mary Catherine Roberson - campaign biography and priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.robersonforillinois.com/",
-            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "title": "Mary Catherine Roberson - campaign biography and priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           },
           {
             "field": "issues.education",
             "url": "https://www.robersonforillinois.com/",
-            "title": "Mary Catherine Roberson — campaign biography and priorities",
+            "title": "Mary Catherine Roberson - campaign biography and priorities",
             "checked": "2026-10-28",
             "note": "Candidate or legislative-office statement; not an independently established outcome."
           }
@@ -2240,14 +2786,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "identity",
         "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
-        "title": "Champaign County Clerk — 2026 election candidates",
+        "title": "Champaign County Clerk - 2026 election candidates",
         "checked": "2026-10-28",
         "note": "Lists the general-election candidates and parties for this district."
       },
       {
         "field": "role",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current House roster identifies the sitting representative for this district."
       }
@@ -2317,63 +2863,63 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzuUGlOcyRChQ%3D%3D",
-            "title": "Illinois State Board of Elections — House District 112 candidate list",
+            "title": "Illinois State Board of Elections - House District 112 candidate list",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "role",
             "url": "https://www.ilga.gov/House/Members/List",
-            "title": "Illinois General Assembly — current House members",
+            "title": "Illinois General Assembly - current House members",
             "checked": "2026-10-28",
             "note": "Current official House roster confirms incumbent status."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://stuartforilrep.com/issues/",
-            "title": "Katie Stuart — campaign issues page (undated)",
+            "title": "Katie Stuart - campaign issues page (undated)",
             "checked": "2026-10-28",
             "note": "Undated campaign statement; older references on this page were excluded and this is not asserted to be a newly issued 2026 position."
           },
           {
             "field": "issues.pensions",
             "url": "https://stuartforilrep.com/issues/",
-            "title": "Katie Stuart — campaign issues page (undated)",
+            "title": "Katie Stuart - campaign issues page (undated)",
             "checked": "2026-10-28",
             "note": "Undated campaign statement; no specific Tier 2 proposal or legislative action inferred."
           },
           {
             "field": "issues.healthcare",
             "url": "https://stuartforilrep.com/issues/",
-            "title": "Katie Stuart — campaign issues page (undated)",
+            "title": "Katie Stuart - campaign issues page (undated)",
             "checked": "2026-10-28",
             "note": "Undated campaign statement; no specific law or vote claimed."
           },
           {
             "field": "issues.education",
             "url": "https://stuartforilrep.com/issues/",
-            "title": "Katie Stuart — campaign issues page (undated)",
+            "title": "Katie Stuart - campaign issues page (undated)",
             "checked": "2026-10-28",
             "note": "Undated campaign statement."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - July 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://stand.org/illinois/our-stories/2026-general-elections-endorsements/",
-            "title": "Stand for Children Illinois — September 11, 2026 general-election endorsements",
+            "title": "Stand for Children Illinois - September 11, 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           }
@@ -2398,14 +2944,14 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzuUGlOcyRChQ%3D%3D",
-            "title": "Illinois State Board of Elections — House District 112 candidate list",
+            "title": "Illinois State Board of Elections - House District 112 candidate list",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "role",
             "url": "https://www.fordforus.com/about",
-            "title": "Jimmy Ford — campaign biography",
+            "title": "Jimmy Ford - campaign biography",
             "checked": "2026-10-28",
             "note": "Campaign biography describes his business and O’Fallon background; unsupported current city-council title removed."
           }
@@ -2416,14 +2962,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "identity",
         "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzuUGlOcyRChQ%3D%3D",
-        "title": "Illinois State Board of Elections — House District 112 candidate list",
+        "title": "Illinois State Board of Elections - House District 112 candidate list",
         "checked": "2026-10-28",
         "note": "Lists the general-election candidates and parties for this district."
       },
       {
         "field": "role",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current House roster identifies the sitting representative for this district."
       }
@@ -2489,42 +3035,42 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzcpJd1C7qBsw%3D%3D",
-            "title": "Illinois State Board of Elections — House District 114 candidate list",
+            "title": "Illinois State Board of Elections - House District 114 candidate list",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "role",
             "url": "https://www.ilga.gov/House/Members/List",
-            "title": "Illinois General Assembly — current House members",
+            "title": "Illinois General Assembly - current House members",
             "checked": "2026-10-28",
             "note": "Current official House roster confirms incumbent status."
           },
           {
             "field": "role",
             "url": "https://ilga.gov/House/Members/Details/3436?Primary=True",
-            "title": "Illinois General Assembly — Kevin Schmidt biography",
+            "title": "Illinois General Assembly - Kevin Schmidt biography",
             "checked": "2026-10-28",
             "note": "Official General Assembly biography identifies his office, chiropractic business and Millstadt residence."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://repschmidt.com/2026/07/27/state-rep-kevin-schmidts-commitment-to-the-114th-district/",
-            "title": "Representative Schmidt — July 27, 2026 priorities",
+            "title": "Representative Schmidt - July 27, 2026 priorities",
             "checked": "2026-10-28",
             "note": "Official-office statement dated July 27, 2026."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — July 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - July 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           },
           {
             "field": "endorsements",
             "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
-            "title": "Americans for Prosperity Action — September 10, 2026 Illinois endorsements",
+            "title": "Americans for Prosperity Action - September 10, 2026 Illinois endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           }
@@ -2551,14 +3097,14 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzcpJd1C7qBsw%3D%3D",
-            "title": "Illinois State Board of Elections — House District 114 candidate list",
+            "title": "Illinois State Board of Elections - House District 114 candidate list",
             "checked": "2026-10-28",
             "note": "Election authority lists this candidate and party for this district."
           },
           {
             "field": "endorsements",
             "url": "https://www.ift-aft.org/vote",
-            "title": "Illinois Federation of Teachers — 2026 general-election endorsements",
+            "title": "Illinois Federation of Teachers - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for the 2026 general election."
           }
@@ -2569,14 +3115,14 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "identity",
         "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=iVnWwKj%2FhfzcpJd1C7qBsw%3D%3D",
-        "title": "Illinois State Board of Elections — House District 114 candidate list",
+        "title": "Illinois State Board of Elections - House District 114 candidate list",
         "checked": "2026-10-28",
         "note": "Lists the general-election candidates and parties for this district."
       },
       {
         "field": "role",
         "url": "https://www.ilga.gov/House/Members/List",
-        "title": "Illinois General Assembly — current House members",
+        "title": "Illinois General Assembly - current House members",
         "checked": "2026-10-28",
         "note": "Current House roster identifies the sitting representative for this district."
       }
@@ -2672,7 +3218,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Republican",
         "role": "Candidate for Illinois Senate District 8",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "VR",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2720,7 +3266,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Democrat",
         "role": "Small-business owner and candidate for Illinois Senate District 9",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Open-seat nominee",
         "photoInitials": "PH",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2741,56 +3287,56 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
-            "title": "Illinois State Board of Elections — 2026 general election, 9th Senate",
+            "title": "Illinois State Board of Elections - 2026 general election, 9th Senate",
             "checked": "2026-10-28",
             "note": "Official general-election candidate list confirms name, party and office."
           },
           {
             "field": "role",
             "url": "https://www.hanleyforillinois.com/",
-            "title": "Patrick Hanley campaign — About",
+            "title": "Patrick Hanley campaign - About",
             "checked": "2026-10-28",
             "note": "Campaign identifies Hanley as a small-business owner."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.hanleyforillinois.com/issues",
-            "title": "Patrick Hanley campaign — Issues",
+            "title": "Patrick Hanley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy, not a verified outcome."
           },
           {
             "field": "issues.energyGrid",
             "url": "https://www.hanleyforillinois.com/issues",
-            "title": "Patrick Hanley campaign — Issues",
+            "title": "Patrick Hanley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy, not a verified outcome."
           },
           {
             "field": "issues.education",
             "url": "https://www.hanleyforillinois.com/issues",
-            "title": "Patrick Hanley campaign — Issues",
+            "title": "Patrick Hanley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy, not a verified outcome."
           },
           {
             "field": "issues.transit",
             "url": "https://www.hanleyforillinois.com/issues",
-            "title": "Patrick Hanley campaign — Issues",
+            "title": "Patrick Hanley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy, not a verified outcome."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.hanleyforillinois.com/issues",
-            "title": "Patrick Hanley campaign — Issues",
+            "title": "Patrick Hanley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy, not a verified outcome."
           },
           {
             "field": "endorsements",
             "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
-            "title": "AFSCME Council 31 — 2026 general-election recommendations",
+            "title": "AFSCME Council 31 - 2026 general-election recommendations",
             "checked": "2026-10-28",
             "note": "Endorser lists Patrick Hanley for Senate District 9."
           }
@@ -2802,7 +3348,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Republican",
         "role": "Candidate for Illinois Senate District 9",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Open-seat nominee",
         "photoInitials": "TL",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2815,14 +3361,14 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
-            "title": "Illinois State Board of Elections — 2026 general election, 9th Senate",
+            "title": "Illinois State Board of Elections - 2026 general election, 9th Senate",
             "checked": "2026-10-28",
             "note": "Official general-election candidate list confirms name, party and office."
           },
           {
             "field": "role",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
-            "title": "Illinois State Board of Elections — 9th Senate candidate list",
+            "title": "Illinois State Board of Elections - 9th Senate candidate list",
             "checked": "2026-10-28",
             "note": "Candidate identity only; no issue or biography inference."
           }
@@ -2833,7 +3379,7 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "identity",
         "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
-        "title": "Illinois State Board of Elections — 2026 general election, 9th Senate",
+        "title": "Illinois State Board of Elections - 2026 general election, 9th Senate",
         "checked": "2026-10-28",
         "note": "Official general-election candidate field; district eligibility must be checked by address."
       }
@@ -2841,6 +3387,190 @@ window.IL_LEGISLATURE_RACES = [
     "coverageNotes": [
       "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
       "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority’s address-based ballot.",
+      "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
+    ]
+  },
+  {
+    "id": "il-sen-21",
+    "level": "state_legislature",
+    "chamber": "State Senate",
+    "office": "Illinois State Senator - 21st District",
+    "districtCode": "SD-21",
+    "districtName": "21st Senate District",
+    "region": "Western suburbs",
+    "counties": [
+      "DuPage",
+      "Will"
+    ],
+    "cities": [
+      "Naperville",
+      "Wheaton",
+      "Warrenville",
+      "Winfield",
+      "Lisle",
+      "Bolingbrook"
+    ],
+    "isOpenSeat": false,
+    "isBattleground": false,
+    "incumbent": "Laura Ellman (D)",
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County general-election specimen ballot lists Laura Ellman (Democratic) and Julie Berkowicz (Republican) for State Senator, 21st Legislative District."
+      },
+      {
+        "field": "candidates",
+        "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+        "title": "DuPage County Clerk: 2026 general election official candidate listing",
+        "checked": "2026-10-28",
+        "note": "DuPage County official candidate listing confirms Laura Ellman (D) and Julie Berkowicz (R) for Senate District 21."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "laura-ellman",
+        "name": "Laura Ellman",
+        "party": "Democrat",
+        "role": "State senator for the 21st District since January 2019; Chair of the Senate Environment and Conservation Committee.",
+        "hometown": "Naperville",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "LE",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [
+          "Illinois AFL-CIO"
+        ],
+        "issues": {
+          "budgetTaxes": "Legislative record emphasizes fiscal stability, credit-rating upgrades, and targeted tax relief for families and small businesses.",
+          "energyGrid": "As Chair of the Environment and Conservation Committee, supports clean-energy transition, grid reliability, and environmental conservation.",
+          "education": "Supports evidence-based K-12 school funding, STEM education, and Illinois higher-education investment."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Laura Ellman as Democratic candidate for 21st Legislative District."
+          },
+          {
+            "field": "role",
+            "url": "https://www.ilga.gov/senate/members/details/3339",
+            "title": "Illinois General Assembly: Laura Ellman, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official legislative biography confirms Senate service since January 2019 and committee chair role."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.ilga.gov/senate/members/details/3339",
+            "title": "Illinois General Assembly: Laura Ellman, 104th General Assembly",
+            "checked": "2026-10-28",
+            "note": "Official roster identifies Naperville district office and residency."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorses Laura Ellman for Senate District 21."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.senatorlauraellman.com/",
+            "title": "State Senator Laura Ellman official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on fiscal stability and tax policy."
+          },
+          {
+            "field": "issues.energyGrid",
+            "url": "https://www.senatorlauraellman.com/",
+            "title": "State Senator Laura Ellman official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on clean energy and conservation."
+          },
+          {
+            "field": "issues.education",
+            "url": "https://www.senatorlauraellman.com/",
+            "title": "State Senator Laura Ellman official legislative website",
+            "checked": "2026-10-28",
+            "note": "Attributed legislative priorities on public and higher education."
+          }
+        ]
+      },
+      {
+        "id": "julie-berkowicz",
+        "name": "Julie Berkowicz",
+        "party": "Republican",
+        "role": "Republican nominee for the 21st Senate District; Will County Board member from Naperville.",
+        "hometown": "Naperville",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "JB",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {
+          "propertyTaxes": "Campaign platform focuses on lowering property taxes and restraining local and state spending.",
+          "budgetTaxes": "Campaign platform advocates lower taxes, regulatory relief for small businesses, and auditing state expenditures.",
+          "safetAct": "Campaign platform supports law-enforcement funding and revising the SAFE-T Act's pretrial release provisions."
+        },
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Julie Berkowicz as Republican candidate for 21st Legislative District."
+          },
+          {
+            "field": "role",
+            "url": "https://www.julieberkowicz.net/",
+            "title": "Julie Berkowicz campaign website",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies Will County Board service and Senate candidacy."
+          },
+          {
+            "field": "hometown",
+            "url": "https://www.julieberkowicz.net/",
+            "title": "Julie Berkowicz campaign website",
+            "checked": "2026-10-28",
+            "note": "Campaign website identifies Naperville residency."
+          },
+          {
+            "field": "issues.propertyTaxes",
+            "url": "https://www.julieberkowicz.net/",
+            "title": "Julie Berkowicz campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign platform on property taxes."
+          },
+          {
+            "field": "issues.budgetTaxes",
+            "url": "https://www.julieberkowicz.net/",
+            "title": "Julie Berkowicz campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign platform on taxes and state spending."
+          },
+          {
+            "field": "issues.safetAct",
+            "url": "https://www.julieberkowicz.net/",
+            "title": "Julie Berkowicz campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign platform on public safety."
+          }
+        ]
+      }
+    ],
+    "coverageNotes": [
+      "Reviewed October 28, 2026. This guide covers selected legislative districts, not every Illinois legislative contest.",
+      "County and regional labels help browsing. Confirm your exact district and any eligible write-ins with your election authority's address-based ballot.",
       "Only sourced issue statements and endorsements are retained. Missing information is unknown, not opposition or no support."
     ]
   },
@@ -2924,7 +3654,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Democrat",
         "role": "Candidate for Illinois Senate District 24",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "BM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3065,7 +3795,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Democrat",
         "role": "Candidate for Illinois Senate District 26",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "NS",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3137,9 +3867,9 @@ window.IL_LEGISLATURE_RACES = [
       "Cook"
     ],
     "cities": [],
-    "isOpenSeat": true,
+    "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Mark Walker (D)",
     "evidence": [
       {
         "field": "candidates",
@@ -3156,7 +3886,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Democrat",
         "role": "Candidate for Illinois Senate District 27",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "CS",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3215,7 +3945,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Republican",
         "role": "Candidate for Illinois Senate District 27",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "DM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3255,7 +3985,7 @@ window.IL_LEGISLATURE_RACES = [
     "cities": [],
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Adrienne Johnson (D)",
     "candidates": [
       {
         "id": "adrienne-johnson",
@@ -3282,42 +4012,42 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
-            "title": "Lake County Clerk — November 3, 2026 candidate list",
+            "title": "Lake County Clerk - November 3, 2026 candidate list",
             "checked": "2026-10-28",
             "note": "Official general-election candidate list confirms name, party and office."
           },
           {
             "field": "role",
             "url": "https://ilga.gov/House/Members/Details/3378?Primary=True",
-            "title": "Illinois General Assembly — Adriane L. Johnson",
+            "title": "Illinois General Assembly - Adriane L. Johnson",
             "checked": "2026-10-28",
             "note": "Official member profile confirms spelling, District 30 and service since2020."
           },
           {
             "field": "issues.healthcare",
             "url": "https://adrianejohnsonforil.com/healthcare/",
-            "title": "Adriane Johnson campaign — Issue priorities",
+            "title": "Adriane Johnson campaign - Issue priorities",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy; accomplishment claims not independently established here are omitted."
           },
           {
             "field": "issues.education",
             "url": "https://adrianejohnsonforil.com/education-college-affordability/",
-            "title": "Adriane Johnson campaign — Issue priorities",
+            "title": "Adriane Johnson campaign - Issue priorities",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy; accomplishment claims not independently established here are omitted."
           },
           {
             "field": "issues.energyGrid",
             "url": "https://adrianejohnsonforil.com/jobs-the-environment/",
-            "title": "Adriane Johnson campaign — Issue priorities",
+            "title": "Adriane Johnson campaign - Issue priorities",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy; accomplishment claims not independently established here are omitted."
           },
           {
             "field": "endorsements",
             "url": "https://www.lakedemwomen.org/2026-endorsed-candidates",
-            "title": "Lake County Democratic Women — 2026 general-election endorsements",
+            "title": "Lake County Democratic Women - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Endorser lists Adriane Johnson for Senate District 30."
           }
@@ -3328,7 +4058,7 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "identity",
         "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
-        "title": "Lake County Clerk — November 3, 2026 candidate list",
+        "title": "Lake County Clerk - November 3, 2026 candidate list",
         "checked": "2026-10-28",
         "note": "Official general-election candidate field; district eligibility must be checked by address."
       }
@@ -3353,9 +4083,9 @@ window.IL_LEGISLATURE_RACES = [
       "DuPage"
     ],
     "cities": [],
-    "isOpenSeat": true,
+    "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Donald P. DeWitte (R)",
     "evidence": [
       {
         "field": "candidates",
@@ -3372,7 +4102,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Democrat",
         "role": "Candidate for Illinois Senate District 33",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "MC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3423,7 +4153,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Republican",
         "role": "Candidate for Illinois Senate District 33",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "DP",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3490,7 +4220,7 @@ window.IL_LEGISLATURE_RACES = [
     "cities": [],
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Michael W. Halpin (D)",
     "candidates": [
       {
         "id": "mike-halpin",
@@ -3515,28 +4245,28 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.henrycty.com/DocumentCenter/View/1202/HENRY-COUNTY-GENERAL-ELECTION-2026-SAMPLE-BALLOT",
-            "title": "Henry County Clerk — November 3, 2026 official sample ballot, page 1",
+            "title": "Henry County Clerk - November 3, 2026 official sample ballot, page 1",
             "checked": "2026-10-28",
             "note": "Official general-election candidate list confirms name, party and office."
           },
           {
             "field": "role",
             "url": "https://ilga.gov/Senate/Members/Details/3408?Primary=True",
-            "title": "Illinois General Assembly — Michael W. Halpin",
+            "title": "Illinois General Assembly - Michael W. Halpin",
             "checked": "2026-10-28",
             "note": "Member profile identifies District 36 service beginning in 2023."
           },
           {
             "field": "endorsements",
             "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
-            "title": "AFSCME Council 31 — 2026 general-election recommendations",
+            "title": "AFSCME Council 31 - 2026 general-election recommendations",
             "checked": "2026-10-28",
             "note": "Endorser lists Michael Halpin for Senate District 36."
           },
           {
             "field": "issues.education",
             "url": "https://www.senatorhalpin.com/",
-            "title": "Senator Mike Halpin — legislative website, September 9, 2026 statement",
+            "title": "Senator Mike Halpin - legislative website, September 9, 2026 statement",
             "checked": "2026-10-28",
             "note": "The official homepage displays the statement encouraging applications for pre-apprenticeship funding."
           }
@@ -3548,7 +4278,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Republican",
         "role": "Retired Illinois State Police officer and candidate for Illinois Senate District 36",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "BB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3564,28 +4294,28 @@ window.IL_LEGISLATURE_RACES = [
           {
             "field": "identity",
             "url": "https://www.henrycty.com/DocumentCenter/View/1202/HENRY-COUNTY-GENERAL-ELECTION-2026-SAMPLE-BALLOT",
-            "title": "Henry County Clerk — November 3, 2026 official sample ballot, page 1",
+            "title": "Henry County Clerk - November 3, 2026 official sample ballot, page 1",
             "checked": "2026-10-28",
             "note": "Official general-election candidate list confirms name, party and office."
           },
           {
             "field": "role",
             "url": "https://www.beekmanforsenate.com/",
-            "title": "Brad Beekman campaign — Background",
+            "title": "Brad Beekman campaign - Background",
             "checked": "2026-10-28",
             "note": "Campaign identifies retired Illinois State Police service."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.beekmanforsenate.com/",
-            "title": "Brad Beekman campaign — Priorities",
+            "title": "Brad Beekman campaign - Priorities",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy, not a verified outcome."
           },
           {
             "field": "issues.education",
             "url": "https://www.beekmanforsenate.com/",
-            "title": "Brad Beekman campaign — Priorities",
+            "title": "Brad Beekman campaign - Priorities",
             "checked": "2026-10-28",
             "note": "Candidate-stated policy, not a verified outcome."
           }
@@ -3596,7 +4326,7 @@ window.IL_LEGISLATURE_RACES = [
       {
         "field": "identity",
         "url": "https://www.henrycty.com/DocumentCenter/View/1202/HENRY-COUNTY-GENERAL-ELECTION-2026-SAMPLE-BALLOT",
-        "title": "Henry County Clerk — November 3, 2026 official sample ballot, page 1",
+        "title": "Henry County Clerk - November 3, 2026 official sample ballot, page 1",
         "checked": "2026-10-28",
         "note": "Official general-election candidate field; district eligibility must be checked by address."
       }
@@ -3890,7 +4620,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Republican",
         "role": "Sangamon County recorder, according to his campaign",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "FL",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4029,7 +4759,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Democrat",
         "role": "Civil engineer and former ASCE president",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "MG",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4176,7 +4906,7 @@ window.IL_LEGISLATURE_RACES = [
         "party": "Democrat",
         "role": "Army Reserve lieutenant colonel and business owner, according to her campaign",
         "hometown": "",
-        "incumbentStatus": "",
+        "incumbentStatus": "Challenger",
         "photoInitials": "TM",
         "fecRaised": "",
         "fecCashOnHand": "",

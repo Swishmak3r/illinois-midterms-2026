@@ -21,7 +21,7 @@ window.IL_LOCAL_RACES = [
         "id": "toni-preckwinkle",
         "name": "Toni Preckwinkle",
         "party": "Democrat",
-        "role": "Candidate for President of the Cook County Board of Commissioners",
+        "role": "Incumbent candidate for President of the Cook County Board of Commissioners",
         "photoInitials": "TP",
         "issues": {
           "assessmentBurden": "Campaign supports holding the county property-tax levy flat.",
@@ -71,13 +71,14 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Incumbent"
       },
       {
         "id": "michael-murphy-cook",
         "name": "Michael Murphy",
         "party": "Libertarian",
-        "role": "Candidate for President of the Cook County Board of Commissioners",
+        "role": "Challenger for President of the Cook County Board of Commissioners",
         "photoInitials": "MM",
         "issues": {
           "assessmentBurden": "Campaign proposes a property-tax cap of 1% of a property purchase price. This is a proposal, not current law."
@@ -110,7 +111,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Challenger"
       }
     ],
     "evidence": [
@@ -121,7 +123,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Printed candidates verified against the Cook County Clerk specimen ballot. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices."
       }
-    ]
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Toni Preckwinkle (D)"
   },
   {
     "id": "cook-assessor",
@@ -143,7 +147,7 @@ window.IL_LOCAL_RACES = [
         "id": "pat-hynes",
         "name": "Pat Hynes",
         "party": "Democrat",
-        "role": "Candidate for Cook County Assessor",
+        "role": "Open-seat candidate for Cook County Assessor",
         "photoInitials": "PH",
         "issues": {
           "assessmentBurden": "Campaign prioritizes accurate property records and assessments, and proposes a public-facing economic-development department."
@@ -185,13 +189,14 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Open-seat candidate"
       },
       {
         "id": "nico-tsatsoulis",
         "name": "Nico Tsatsoulis",
         "party": "Libertarian",
-        "role": "Candidate for Cook County Assessor",
+        "role": "Open-seat candidate for Cook County Assessor",
         "photoInitials": "NT",
         "issues": {
           "assessmentBurden": "Campaign asks Illinois lawmakers to cap property taxes at 1% of purchase price and advocates using actual sale values in assessments."
@@ -224,7 +229,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Open-seat candidate"
       }
     ],
     "evidence": [
@@ -235,7 +241,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Printed candidates verified against the Cook County Clerk specimen ballot. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices."
       }
-    ]
+    ],
+    "isOpenSeat": true,
+    "incumbent": "Open Seat (Pat Hynes D defeated incumbent Fritz Kaegi in primary)"
   },
   {
     "id": "cook-sheriff",
@@ -257,7 +265,7 @@ window.IL_LOCAL_RACES = [
         "id": "tom-dart",
         "name": "Thomas Dart",
         "party": "Democrat",
-        "role": "Candidate for Cook County Sheriff",
+        "role": "Challenger for Cook County Sheriff",
         "photoInitials": "TD",
         "issues": {},
         "endorsements": [
@@ -290,13 +298,14 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "The endorsing organization lists this candidate for this office in its November 3 general-election guide."
           }
-        ]
+        ],
+        "incumbentStatus": "Challenger"
       },
       {
         "id": "brad-sandefur",
         "name": "Brad Sandefur",
         "party": "Libertarian",
-        "role": "Candidate for Cook County Sheriff",
+        "role": "Challenger for Cook County Sheriff",
         "photoInitials": "BS",
         "issues": {
           "localPublicSafety": "Campaign supports major changes to the SAFE-T Act, stronger safeguards concerning repeat offenders, and expanded mental-health diversion and treatment."
@@ -329,7 +338,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Challenger"
       }
     ],
     "evidence": [
@@ -340,7 +350,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Printed candidates verified against the Cook County Clerk specimen ballot. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices."
       }
-    ]
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Thomas Dart (D)"
   },
   {
     "id": "cook-clerk",
@@ -362,7 +374,7 @@ window.IL_LOCAL_RACES = [
         "id": "monica-gordon",
         "name": "Monica Gordon",
         "party": "Democrat",
-        "role": "Candidate for Cook County Clerk",
+        "role": "Incumbent candidate for Cook County Clerk",
         "photoInitials": "MG",
         "issues": {
           "electionAdministration": "Campaign supports modernizing records and services, accessible elections, and public performance reporting."
@@ -404,7 +416,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Incumbent"
       }
     ],
     "evidence": [
@@ -415,7 +428,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Printed candidates verified against the Cook County Clerk specimen ballot. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices."
       }
-    ]
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Monica Gordon (D)"
   },
   {
     "id": "cook-treasurer",
@@ -437,7 +452,7 @@ window.IL_LOCAL_RACES = [
         "id": "maria-pappas",
         "name": "Maria Pappas",
         "party": "Democrat",
-        "role": "Candidate for Cook County Treasurer",
+        "role": "Incumbent candidate for Cook County Treasurer",
         "photoInitials": "MP",
         "issues": {
           "assessmentBurden": "Campaign supports public access to information about local-government spending and debt."
@@ -479,7 +494,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Incumbent"
       }
     ],
     "evidence": [
@@ -490,7 +506,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Printed candidates verified against the Cook County Clerk specimen ballot. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices."
       }
-    ]
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Maria Pappas (D)"
   },
   {
     "id": "cook-board-review-2",
@@ -512,7 +530,7 @@ window.IL_LOCAL_RACES = [
         "id": "liz-nicholson",
         "name": "Elizabeth 'Liz' Nicholson",
         "party": "Democrat",
-        "role": "Candidate for Cook County Board of Review, District 2",
+        "role": "Open-seat candidate for Cook County Board of Review, District 2",
         "photoInitials": "LN",
         "issues": {
           "assessmentBurden": "Campaign prioritizes a fair opportunity for every property owner to appeal an assessment."
@@ -554,7 +572,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Open-seat candidate"
       }
     ],
     "evidence": [
@@ -565,7 +584,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Glenview Public Library voter information lists this candidate and party for District 2. The campaign and a current general-election endorsement corroborate the candidacy. This is not a countywide contest; confirm your district and all choices on an official ballot."
       }
-    ]
+    ],
+    "isOpenSeat": true,
+    "incumbent": "Open Seat (Elizabeth 'Liz' Nicholson D defeated incumbent Samantha Steele in primary)"
   },
   {
     "id": "cook-comm-17",
@@ -587,7 +608,7 @@ window.IL_LOCAL_RACES = [
         "id": "elyse-hoffenberg",
         "name": "Elyse Hoffenberg",
         "party": "Democrat",
-        "role": "Candidate for Cook County Commissioner, District 17",
+        "role": "Open-seat candidate for Cook County Commissioner, District 17",
         "photoInitials": "EH",
         "issues": {
           "localPublicSafety": "Campaign supports violence prevention, professional law enforcement, mental-health services and rehabilitation to reduce repeat offenses.",
@@ -637,13 +658,14 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Attributed campaign position, not an independently audited record of accomplishments."
           }
-        ]
+        ],
+        "incumbentStatus": "Open-seat candidate"
       },
       {
         "id": "liz-doody-gorman",
         "name": "Elizabeth 'Liz' Doody Gorman",
         "party": "Republican",
-        "role": "Candidate for Cook County Commissioner, District 17",
+        "role": "Open-seat candidate for Cook County Commissioner, District 17",
         "photoInitials": "LG",
         "issues": {},
         "endorsements": [],
@@ -667,7 +689,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
           }
-        ]
+        ],
+        "incumbentStatus": "Open-seat candidate"
       }
     ],
     "evidence": [
@@ -678,7 +701,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Printed candidates verified against the Cook County Clerk specimen ballot. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices."
       }
-    ]
+    ],
+    "isOpenSeat": true,
+    "incumbent": "Open Seat (Sean Morrison R retiring)"
   },
   {
     "id": "cook-comm-10",
@@ -700,7 +725,7 @@ window.IL_LOCAL_RACES = [
         "id": "drake-warren",
         "name": "Drake Warren",
         "party": "Democrat",
-        "role": "Candidate for Cook County Commissioner, District 10",
+        "role": "Open-seat candidate for Cook County Commissioner, District 10",
         "photoInitials": "DW",
         "issues": {
           "assessmentBurden": "Campaign prioritizes property-tax fairness and reducing the cost of living.",
@@ -757,7 +782,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "The endorsing organization identifies the candidate as a Democrat for the stated commissioner district; this corroborates party and candidacy, not completeness of the ballot roster."
           }
-        ]
+        ],
+        "incumbentStatus": "Open-seat candidate"
       }
     ],
     "evidence": [
@@ -768,7 +794,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Candidate identity, district and party corroborated by the campaign and the endorsing organization. A complete certified general-election roster was not available in the sources reviewed; this listing does not establish that the candidate is unopposed. Confirm your address-specific ballot with the election authority."
       }
-    ]
+    ],
+    "isOpenSeat": true,
+    "incumbent": "Open Seat (Drake Warren D defeated incumbent Bridget Gainer in primary)"
   },
   {
     "id": "cook-comm-16",
@@ -790,7 +818,7 @@ window.IL_LOCAL_RACES = [
         "id": "miranda-hernandez",
         "name": "Miranda Hernandez",
         "party": "Democrat",
-        "role": "Candidate for Cook County Commissioner, District 16",
+        "role": "Open-seat candidate for Cook County Commissioner, District 16",
         "photoInitials": "MH",
         "issues": {
           "assessmentBurden": "Campaign supports helping homeowners with property-tax appeals.",
@@ -847,7 +875,8 @@ window.IL_LOCAL_RACES = [
             "checked": "2026-10-28",
             "note": "The endorsing organization identifies the candidate as a Democrat for the stated commissioner district; this corroborates party and candidacy, not completeness of the ballot roster."
           }
-        ]
+        ],
+        "incumbentStatus": "Open-seat candidate"
       }
     ],
     "evidence": [
@@ -858,7 +887,9 @@ window.IL_LOCAL_RACES = [
         "checked": "2026-10-28",
         "note": "Candidate identity, district and party corroborated by the campaign and the endorsing organization. A complete certified general-election roster was not available in the sources reviewed; this listing does not establish that the candidate is unopposed. Confirm your address-specific ballot with the election authority."
       }
-    ]
+    ],
+    "isOpenSeat": true,
+    "incumbent": "Open Seat (Miranda Hernandez D defeated incumbent Frank Aguilar in primary)"
   },
   {
     "id": "dupage-board-chair",
@@ -901,7 +932,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Deb Conroy (D)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -921,9 +952,9 @@ window.IL_LOCAL_RACES = [
         "id": "deb-conroy",
         "name": "Deb Conroy",
         "party": "Democrat",
-        "role": "Candidate for DuPage County Board Chairperson",
+        "role": "Incumbent candidate for DuPage County Board Chairperson",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "DC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -950,9 +981,9 @@ window.IL_LOCAL_RACES = [
         "id": "gary-grasso",
         "name": "Gary Grasso",
         "party": "Republican",
-        "role": "Candidate for DuPage County Board Chairperson",
+        "role": "Challenger for DuPage County Board Chairperson",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "GG",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -992,14 +1023,15 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": false
   },
   {
     "id": "dupage-sheriff",
     "sourceGroupId": "dupage-county-2026",
     "level": "local",
     "sublevel": "County government",
-    "office": "DuPage Sheriff",
+    "office": "DuPage County Sheriff",
     "districtCode": "DUPAGE-SHERIFF",
     "districtName": "DuPage County",
     "region": "Collar Counties (DuPage County)",
@@ -1035,7 +1067,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat (James Mendrick R retiring)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1055,9 +1087,9 @@ window.IL_LOCAL_RACES = [
         "id": "peter-coolidge",
         "name": "Peter Joseph Coolidge",
         "party": "Democrat",
-        "role": "Candidate for DuPage Sheriff",
+        "role": "Open-seat candidate for DuPage Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "PJ",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1084,9 +1116,9 @@ window.IL_LOCAL_RACES = [
         "id": "sean-noonan",
         "name": "Sean T. Noonan",
         "party": "Republican",
-        "role": "Candidate for DuPage Sheriff",
+        "role": "Open-seat candidate for DuPage Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "SN",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1109,7 +1141,8 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": true
   },
   {
     "id": "dupage-clerk",
@@ -1152,7 +1185,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat (Paula Deacon Garcia D defeated incumbent Jean Kaczmarek in primary)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1172,9 +1205,9 @@ window.IL_LOCAL_RACES = [
         "id": "paula-deacon-garcia",
         "name": "Paula Deacon Garcia",
         "party": "Democrat",
-        "role": "Candidate for DuPage County Clerk",
+        "role": "Open-seat candidate for DuPage County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "PD",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1201,9 +1234,9 @@ window.IL_LOCAL_RACES = [
         "id": "patricia-kladis-schiappa",
         "name": "Patricia Kladis-Schiappa",
         "party": "Republican",
-        "role": "Candidate for DuPage County Clerk",
+        "role": "Open-seat candidate for DuPage County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "PK",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1226,7 +1259,8 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": true
   },
   {
     "id": "dupage-treasurer",
@@ -1269,7 +1303,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Gwen Henry (R)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1289,9 +1323,9 @@ window.IL_LOCAL_RACES = [
         "id": "yeena-yoo",
         "name": "Yeena Yoo",
         "party": "Democrat",
-        "role": "Candidate for DuPage County Treasurer",
+        "role": "Challenger for DuPage County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "YY",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1318,9 +1352,9 @@ window.IL_LOCAL_RACES = [
         "id": "gwen-henry",
         "name": "Gwen Henry",
         "party": "Republican",
-        "role": "Candidate for DuPage County Treasurer",
+        "role": "Incumbent candidate for DuPage County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "GH",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1343,7 +1377,8 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": false
   },
   {
     "id": "lake-clerk",
@@ -1380,7 +1415,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Anthony Vega (D)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1400,9 +1435,9 @@ window.IL_LOCAL_RACES = [
         "id": "anthony-vega",
         "name": "Anthony Vega",
         "party": "Democrat",
-        "role": "Candidate for Lake County Clerk",
+        "role": "Incumbent candidate for Lake County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "AV",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1425,7 +1460,8 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": false
   },
   {
     "id": "lake-treasurer",
@@ -1462,7 +1498,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat (Holly Kim D ran for Comptroller)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1482,9 +1518,9 @@ window.IL_LOCAL_RACES = [
         "id": "sandy-hart",
         "name": "Sandy Hart",
         "party": "Democrat",
-        "role": "Candidate for Lake County Treasurer",
+        "role": "Open-seat candidate for Lake County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "SH",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1520,9 +1556,9 @@ window.IL_LOCAL_RACES = [
         "id": "david-penaherrera",
         "name": "David Penaherrera",
         "party": "Republican",
-        "role": "Candidate for Lake County Treasurer",
+        "role": "Open-seat candidate for Lake County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "DP",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1545,14 +1581,15 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": true
   },
   {
     "id": "lake-sheriff",
     "sourceGroupId": "lake-county-2026",
     "level": "local",
     "sublevel": "County government",
-    "office": "Lake Sheriff",
+    "office": "Lake County Sheriff",
     "districtCode": "LAKE-SHERIFF",
     "districtName": "Lake County",
     "region": "Collar Counties (Lake County)",
@@ -1582,7 +1619,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "John D. Idleburg (D)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1602,9 +1639,9 @@ window.IL_LOCAL_RACES = [
         "id": "john-idleburg",
         "name": "John D. Idleburg",
         "party": "Democrat",
-        "role": "Candidate for Lake Sheriff",
+        "role": "Challenger for Lake Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "JI",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1631,9 +1668,9 @@ window.IL_LOCAL_RACES = [
         "id": "roman-buchberger",
         "name": "Roman Buchberger",
         "party": "Republican",
-        "role": "Candidate for Lake Sheriff",
+        "role": "Challenger for Lake Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "RB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1665,7 +1702,8 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": false
   },
   {
     "id": "will-clerk",
@@ -1703,7 +1741,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Annette Parker (R)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1723,9 +1761,9 @@ window.IL_LOCAL_RACES = [
         "id": "michelle-stiff",
         "name": "Michelle Stiff",
         "party": "Democrat",
-        "role": "Candidate for Will County Clerk",
+        "role": "Challenger for Will County Clerk; Will County Auditor",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "MS",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1761,9 +1799,9 @@ window.IL_LOCAL_RACES = [
         "id": "annette-parker",
         "name": "Annette Parker",
         "party": "Republican",
-        "role": "Candidate for Will County Clerk",
+        "role": "Incumbent Will County Clerk seeking a full term",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "AP",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1786,14 +1824,15 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": false
   },
   {
     "id": "will-sheriff",
     "sourceGroupId": "will-county-2026",
     "level": "local",
     "sublevel": "County government",
-    "office": "Will Sheriff",
+    "office": "Will County Sheriff",
     "districtCode": "WILL-SHERIFF",
     "districtName": "Will County",
     "region": "Collar Counties (Will County)",
@@ -1824,7 +1863,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat (Mike Kelley R retiring)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1844,9 +1883,9 @@ window.IL_LOCAL_RACES = [
         "id": "patrick-jones",
         "name": "Patrick Jones",
         "party": "Democrat",
-        "role": "Candidate for Will Sheriff",
+        "role": "Open-seat candidate for Will Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "PJ",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1889,9 +1928,9 @@ window.IL_LOCAL_RACES = [
         "id": "james-reilly",
         "name": "James \"Jim\" Reilly",
         "party": "Republican",
-        "role": "Candidate for Will Sheriff",
+        "role": "Open-seat candidate for Will Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "JR",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1923,7 +1962,8 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
-    ]
+    ],
+    "isOpenSeat": true
   },
   {
     "id": "will-treasurer",
@@ -1961,7 +2001,7 @@ window.IL_LOCAL_RACES = [
     "pvi": "",
     "rating": "",
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Tim Brophy (D)",
     "primarySummary": "",
     "verification": {
       "checked": "2026-10-28",
@@ -1981,9 +2021,9 @@ window.IL_LOCAL_RACES = [
         "id": "tim-brophy",
         "name": "Tim Brophy",
         "party": "Democrat",
-        "role": "Candidate for Will County Treasurer",
+        "role": "Incumbent Will County Treasurer seeking re-election",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "TB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2010,9 +2050,9 @@ window.IL_LOCAL_RACES = [
         "id": "carmen-maurella",
         "name": "Carmen Maurella III",
         "party": "Republican",
-        "role": "Candidate for Will County Treasurer",
+        "role": "Challenger for Will County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "CM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2044,6 +2084,718 @@ window.IL_LOCAL_RACES = [
           }
         ]
       }
+    ],
+    "isOpenSeat": false
+  },
+  {
+    "id": "will-regional-superintendent",
+    "sourceGroupId": "will-county-2026",
+    "level": "local",
+    "sublevel": "Will County Regional Office of Education",
+    "office": "Will County Regional Superintendent of Schools",
+    "districtCode": "WILL-ROE",
+    "districtName": "Will County",
+    "region": "Will County",
+    "counties": [
+      "Will"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "incumbent": "Elizabeth Caparelli-Ruff (R)",
+    "verificationNote": "Printed candidates verified against the Will County Clerk specimen ballot. Use an address-specific official ballot for applicable contests and choices.",
+    "rosterStatus": "official-specimen-ballot",
+    "candidates": [
+      {
+        "id": "theresa-rouse",
+        "name": "Theresa Rouse",
+        "party": "Democrat",
+        "role": "Challenger for Will County Regional Superintendent of Schools; former Joliet Public Schools District 86 Superintendent",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "TR",
+        "issues": {
+          "electionAdministration": "Campaign priorities emphasize expanding early-childhood education coordination, educator professional development, and student mental-health support across Will County school districts."
+        },
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Theresa Rouse (Democratic) for Regional Superintendent of Schools (Will County)."
+          },
+          {
+            "field": "role",
+            "url": "https://rouse4roe.com/",
+            "title": "Theresa Rouse for Regional Superintendent campaign website",
+            "checked": "2026-10-28",
+            "note": "Campaign biography identifies service as Joliet District 86 Superintendent and candidacy for Regional Superintendent."
+          },
+          {
+            "field": "issues.electionAdministration",
+            "url": "https://rouse4roe.com/",
+            "title": "Theresa Rouse for Regional Superintendent campaign website",
+            "checked": "2026-10-28",
+            "note": "Attributed campaign priorities for the Regional Office of Education."
+          }
+        ]
+      },
+      {
+        "id": "elizabeth-caparelli-ruff",
+        "name": "Elizabeth Caparelli-Ruff",
+        "party": "Republican",
+        "role": "Incumbent Will County Regional Superintendent of Schools",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "EC",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Elizabeth Caparelli-Ruff (Republican) for Regional Superintendent of Schools (Will County)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms ballot candidacy for Regional Superintendent of Schools (Will County)."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County specimen ballot lists Theresa Rouse (Democratic) and Elizabeth Caparelli-Ruff (Republican) for Regional Superintendent of Schools."
+      }
+    ]
+  },
+  {
+    "id": "will-board-9",
+    "sourceGroupId": "will-county-2026",
+    "level": "local",
+    "sublevel": "Will County Board",
+    "office": "Will County Board Member - District 9 (Vote for not more than 2)",
+    "districtCode": "WILL-BD-9",
+    "districtName": "Will County Board District 9 (Bolingbrook & Romeoville)",
+    "region": "Will County",
+    "counties": [
+      "Will"
+    ],
+    "cities": [
+      "Bolingbrook",
+      "Romeoville"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Destinee Ortiz (D) and Raquel M. Mitchell (R)",
+    "verificationNote": "Printed candidates verified against the Will County Clerk specimen ballot. Voters in Will County Board District 9 elect up to two board members.",
+    "rosterStatus": "official-specimen-ballot",
+    "candidates": [
+      {
+        "id": "destinee-ortiz",
+        "name": "Destinee Ortiz",
+        "party": "Democrat",
+        "role": "Incumbent Will County Board Member for District 9",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "DO",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Destinee Ortiz (Democratic) for County Board Member District 9."
+          },
+          {
+            "field": "role",
+            "url": "https://www.willcountyboard.com/",
+            "title": "Will County Board official member directory",
+            "checked": "2026-10-28",
+            "note": "Identifies Destinee Ortiz as a sitting District 9 Will County Board member."
+          }
+        ]
+      },
+      {
+        "id": "alex-zapien",
+        "name": "Alex Zapien",
+        "party": "Democrat",
+        "role": "Democratic candidate for Will County Board District 9",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "AZ",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Alex Zapien (Democratic) for County Board Member District 9."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms general-election candidacy for Will County Board District 9."
+          }
+        ]
+      },
+      {
+        "id": "raquel-m-mitchell",
+        "name": "Raquel M. Mitchell",
+        "party": "Republican",
+        "role": "Incumbent Will County Board Member for District 9",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "RM",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Raquel M. Mitchell (Republican) for County Board Member District 9."
+          },
+          {
+            "field": "role",
+            "url": "https://www.willcountyboard.com/",
+            "title": "Will County Board official member directory",
+            "checked": "2026-10-28",
+            "note": "Identifies Raquel M. Mitchell as a sitting District 9 Will County Board member."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County specimen ballot lists Destinee Ortiz (D), Alex Zapien (D), and Raquel M. Mitchell (R) for County Board District 9 (vote for not more than two)."
+      }
+    ]
+  },
+  {
+    "id": "will-appellate-court-3rd",
+    "sourceGroupId": "will-county-2026",
+    "level": "local",
+    "sublevel": "Illinois Appellate Court",
+    "office": "Illinois Appellate Court Judge - 3rd Judicial District (McDade Vacancy)",
+    "districtCode": "IL-APP-3",
+    "districtName": "3rd Judicial District (Includes Will & DuPage Counties)",
+    "region": "Will County",
+    "counties": [
+      "Will",
+      "DuPage"
+    ],
+    "cities": [],
+    "isOpenSeat": true,
+    "incumbent": "Open Seat (Hon. Mary W. McDade vacancy)",
+    "verificationNote": "Printed candidates verified against the Will County Clerk specimen ballot for the 3rd Judicial District Appellate Court (Vacancy of Hon. Mary W. McDade).",
+    "rosterStatus": "official-specimen-ballot",
+    "candidates": [
+      {
+        "id": "margaret-peggy-oconnell",
+        "name": "Margaret 'Peggy' O'Connell",
+        "party": "Democrat",
+        "role": "Democratic nominee for 3rd District Appellate Court Judge (McDade Vacancy); Circuit Judge",
+        "incumbentStatus": "Open-seat candidate",
+        "photoInitials": "MO",
+        "issues": {},
+        "endorsements": [
+          "Illinois AFL-CIO"
+        ],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Margaret 'Peggy' O'Connell (Democratic) for Appellate Court Judge, 3rd Judicial District (Vacancy of Hon. Mary W. McDade)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms general-election candidacy for the McDade vacancy on the 3rd District Appellate Court."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorses Margaret 'Peggy' O'Connell for 3rd District Appellate Court."
+          }
+        ]
+      },
+      {
+        "id": "jason-a-helland",
+        "name": "Jason A. Helland",
+        "party": "Republican",
+        "role": "Republican nominee for 3rd District Appellate Court Judge (McDade Vacancy); Grundy County State's Attorney",
+        "incumbentStatus": "Open-seat candidate",
+        "photoInitials": "JH",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Jason A. Helland (Republican) for Appellate Court Judge, 3rd Judicial District (Vacancy of Hon. Mary W. McDade)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms general-election candidacy for the McDade vacancy on the 3rd District Appellate Court."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County specimen ballot lists Margaret 'Peggy' O'Connell (D) and Jason A. Helland (R) for Judge of the Appellate Court, 3rd Judicial District (McDade Vacancy)."
+      }
+    ]
+  },
+  {
+    "id": "will-circuit-court-1st-subcircuit",
+    "sourceGroupId": "will-county-2026",
+    "level": "local",
+    "sublevel": "Will County Judiciary",
+    "office": "Will County Circuit Court Judge - 12th Judicial Circuit, 1st Subcircuit (Carlson Vacancy)",
+    "districtCode": "WILL-CIR-1",
+    "districtName": "12th Judicial Circuit, 1st Subcircuit",
+    "region": "Will County",
+    "counties": [
+      "Will"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "incumbent": "Amy Christiansen (D, Appointed)",
+    "verificationNote": "Printed candidates verified against the Will County Clerk specimen ballot. Subcircuit judicial contests appear only on ballots within that subcircuit.",
+    "rosterStatus": "official-specimen-ballot",
+    "candidates": [
+      {
+        "id": "amy-christiansen",
+        "name": "Amy Christiansen",
+        "party": "Democrat",
+        "role": "Appointed Circuit Judge for the 12th Judicial Circuit, 1st Subcircuit (Carlson Vacancy)",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "AC",
+        "issues": {},
+        "endorsements": [
+          "Illinois AFL-CIO"
+        ],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Amy Christiansen (Democratic) for Judge of the Circuit Court, 12th Judicial Circuit, 1st Subcircuit (Vacancy of Hon. David M. Carlson)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms ballot candidacy for 12th Judicial Circuit, 1st Subcircuit."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorses Amy Christiansen for 12th Circuit 1st Subcircuit."
+          }
+        ]
+      },
+      {
+        "id": "johnpaul-ivec",
+        "name": "JohnPaul Ivec",
+        "party": "Republican",
+        "role": "Republican nominee for 12th Judicial Circuit Judge, 1st Subcircuit (Carlson Vacancy); attorney",
+        "incumbentStatus": "Challenger",
+        "photoInitials": "JI",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists JohnPaul Ivec (Republican) for Judge of the Circuit Court, 12th Judicial Circuit, 1st Subcircuit (Vacancy of Hon. David M. Carlson)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms ballot candidacy for 12th Judicial Circuit, 1st Subcircuit."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County specimen ballot lists Amy Christiansen (D) and JohnPaul Ivec (R) for 12th Judicial Circuit, 1st Subcircuit (Carlson Vacancy)."
+      }
+    ]
+  },
+  {
+    "id": "will-circuit-court-3rd-subcircuit",
+    "sourceGroupId": "will-county-2026",
+    "level": "local",
+    "sublevel": "Will County Judiciary",
+    "office": "Will County Circuit Court Judge - 12th Judicial Circuit, 3rd Subcircuit (Anderson Vacancy)",
+    "districtCode": "WILL-CIR-3",
+    "districtName": "12th Judicial Circuit, 3rd Subcircuit (Includes Bolingbrook / DuPage Township)",
+    "region": "Will County",
+    "counties": [
+      "Will"
+    ],
+    "cities": [
+      "Bolingbrook",
+      "Romeoville"
+    ],
+    "isOpenSeat": false,
+    "incumbent": "Sonni Choi Williams (D, Appointed)",
+    "verificationNote": "Printed candidates verified against the Will County Clerk specimen ballot. Subcircuit judicial contests appear only on ballots within that subcircuit.",
+    "rosterStatus": "official-specimen-ballot",
+    "candidates": [
+      {
+        "id": "sonni-choi-williams",
+        "name": "Sonni Choi Williams",
+        "party": "Democrat",
+        "role": "Appointed Circuit Judge for the 12th Judicial Circuit, 3rd Subcircuit (Anderson Vacancy); running unopposed",
+        "incumbentStatus": "Incumbent",
+        "photoInitials": "SW",
+        "issues": {},
+        "endorsements": [
+          "Illinois AFL-CIO"
+        ],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Sonni Choi Williams (Democratic) as unopposed candidate for Judge of the Circuit Court, 12th Judicial Circuit, 3rd Subcircuit (Vacancy of Hon. John C. Anderson)."
+          },
+          {
+            "field": "role",
+            "url": "https://vote4sonni.com/",
+            "title": "Judge Sonni Choi Williams campaign website",
+            "checked": "2026-10-28",
+            "note": "Identifies Illinois Supreme Court appointment to the 12th Judicial Circuit, 3rd Subcircuit."
+          },
+          {
+            "field": "endorsements",
+            "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+            "title": "Illinois AFL-CIO 2026 general election endorsements",
+            "checked": "2026-10-28",
+            "note": "Endorses Sonni Choi Williams for 12th Circuit 3rd Subcircuit."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County specimen ballot lists Sonni Choi Williams (D) for 12th Judicial Circuit, 3rd Subcircuit (Anderson Vacancy), with no Republican nominee listed."
+      }
+    ]
+  },
+  {
+    "id": "will-circuit-court-5th-subcircuit",
+    "sourceGroupId": "will-county-2026",
+    "level": "local",
+    "sublevel": "Will County Judiciary",
+    "office": "Will County Circuit Court Judge - 12th Judicial Circuit, 5th Subcircuit (Petrungaro Vacancy)",
+    "districtCode": "WILL-CIR-5",
+    "districtName": "12th Judicial Circuit, 5th Subcircuit",
+    "region": "Will County",
+    "counties": [
+      "Will"
+    ],
+    "cities": [],
+    "isOpenSeat": true,
+    "incumbent": "Open Seat (Hon. Barbara N. Petrungaro vacancy)",
+    "verificationNote": "Printed candidates verified against the Will County Clerk specimen ballot. Subcircuit judicial contests appear only on ballots within that subcircuit.",
+    "rosterStatus": "official-specimen-ballot",
+    "candidates": [
+      {
+        "id": "erin-obrien",
+        "name": "Erin O'Brien",
+        "party": "Republican",
+        "role": "Republican nominee for 12th Judicial Circuit Judge, 5th Subcircuit (Petrungaro Vacancy); running unopposed",
+        "incumbentStatus": "Open-seat candidate",
+        "photoInitials": "EO",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Lists Erin O'Brien (Republican) as unopposed candidate for Judge of the Circuit Court, 12th Judicial Circuit, 5th Subcircuit (Vacancy of Hon. Barbara N. Petrungaro)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Confirms ballot candidacy for 12th Judicial Circuit, 5th Subcircuit."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County specimen ballot lists Erin O'Brien (R) for 12th Judicial Circuit, 5th Subcircuit (Petrungaro Vacancy), with no Democratic nominee listed."
+      }
+    ]
+  },
+  {
+    "id": "will-judicial-retention",
+    "sourceGroupId": "will-county-2026",
+    "level": "local",
+    "sublevel": "Will County Judicial Retention",
+    "office": "Will County Circuit Court Judicial Retention - 12th Judicial Circuit",
+    "districtCode": "WILL-RET",
+    "districtName": "12th Judicial Circuit (Yes/No retention ballot; 60% Yes required)",
+    "region": "Will County",
+    "counties": [
+      "Will"
+    ],
+    "cities": [],
+    "isOpenSeat": false,
+    "incumbent": "Amy M. Bertani-Tomczak, Sarah Jones, Daniel L. Kennedy, and Daniel D. Rippy",
+    "verificationNote": "Judicial retention questions are nonpartisan Yes/No votes on the Will County ballot. Under the Illinois Constitution, a judge must receive at least 60% affirmative ('Yes') votes from those voting on the question to be retained for another six-year term.",
+    "rosterStatus": "official-specimen-ballot",
+    "candidates": [
+      {
+        "id": "amy-m-bertani-tomczak",
+        "name": "Amy M. Bertani-Tomczak",
+        "party": "Nonpartisan Retention",
+        "role": "12th Judicial Circuit Judge on the Will County judicial retention ballot (Yes/No; 60% Yes required)",
+        "incumbentStatus": "Incumbent (Retention)",
+        "photoInitials": "AB",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Judicial Retention Ballot lists: 'Shall Amy M. Bertani-Tomczak be retained in office as Judge of the Circuit Court 12th Judicial Circuit?' (Yes / No)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Sitting Circuit Court Judge of the 12th Judicial Circuit seeking retention."
+          }
+        ]
+      },
+      {
+        "id": "sarah-jones-judge",
+        "name": "Sarah Jones",
+        "party": "Nonpartisan Retention",
+        "role": "12th Judicial Circuit Judge on the Will County judicial retention ballot (Yes/No; 60% Yes required)",
+        "incumbentStatus": "Incumbent (Retention)",
+        "photoInitials": "SJ",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Judicial Retention Ballot lists: 'Shall Sarah Jones be retained in office as Judge of the Circuit Court 12th Judicial Circuit?' (Yes / No)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Sitting Circuit Court Judge of the 12th Judicial Circuit seeking retention."
+          }
+        ]
+      },
+      {
+        "id": "daniel-l-kennedy",
+        "name": "Daniel L. Kennedy",
+        "party": "Nonpartisan Retention",
+        "role": "12th Judicial Circuit Judge on the Will County judicial retention ballot (Yes/No; 60% Yes required)",
+        "incumbentStatus": "Incumbent (Retention)",
+        "photoInitials": "DK",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Judicial Retention Ballot lists: 'Shall Daniel L. Kennedy be retained in office as Judge of the Circuit Court 12th Judicial Circuit?' (Yes / No)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Sitting Circuit Court Judge of the 12th Judicial Circuit seeking retention."
+          }
+        ]
+      },
+      {
+        "id": "daniel-d-rippy",
+        "name": "Daniel D. Rippy",
+        "party": "Nonpartisan Retention",
+        "role": "12th Judicial Circuit Judge on the Will County judicial retention ballot (Yes/No; 60% Yes required)",
+        "incumbentStatus": "Incumbent (Retention)",
+        "photoInitials": "DR",
+        "issues": {},
+        "endorsements": [],
+        "pacs": [],
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Judicial Retention Ballot lists: 'Shall Daniel D. Rippy be retained in office as Judge of the Circuit Court 12th Judicial Circuit?' (Yes / No)."
+          },
+          {
+            "field": "role",
+            "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+            "title": "Will County Clerk official November 3, 2026 specimen ballot",
+            "checked": "2026-10-28",
+            "note": "Sitting Circuit Court Judge of the 12th Judicial Circuit seeking retention."
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "field": "candidates",
+        "url": "https://fwrnews.com/legal-notice/will-county-specimen-ballot-2026/",
+        "title": "Will County Clerk official November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official Will County specimen ballot Judicial Retention section lists four 12th Judicial Circuit judges: Amy M. Bertani-Tomczak, Sarah Jones, Daniel L. Kennedy, and Daniel D. Rippy."
+      }
     ]
   },
   {
@@ -2061,9 +2813,9 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Open Seat (Ron Hain D retiring)",
     "primarySummary": "",
-    "isOpenSeat": false,
+    "isOpenSeat": true,
     "isBattleground": false,
     "evidence": [
       {
@@ -2079,9 +2831,9 @@ window.IL_LOCAL_RACES = [
         "id": "amy-johnson",
         "name": "Amy Johnson",
         "party": "Democrat",
-        "role": "Candidate for Kane County Sheriff",
+        "role": "Open-seat candidate for Kane County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "AJ",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2104,9 +2856,9 @@ window.IL_LOCAL_RACES = [
         "id": "rob-russell",
         "name": "Rob Russell",
         "party": "Republican",
-        "role": "Candidate for Kane County Sheriff",
+        "role": "Open-seat candidate for Kane County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "RR",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2142,7 +2894,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "John A. 'Jack' Cunningham (R)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2160,9 +2912,9 @@ window.IL_LOCAL_RACES = [
         "id": "brenda-rodgers",
         "name": "Brenda Rodgers",
         "party": "Democrat",
-        "role": "Candidate for Kane County Clerk",
+        "role": "Challenger for Kane County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "BR",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2185,9 +2937,9 @@ window.IL_LOCAL_RACES = [
         "id": "john-a-jack-cunningham",
         "name": "John A. \"Jack\" Cunningham",
         "party": "Republican",
-        "role": "Candidate for Kane County Clerk",
+        "role": "Incumbent candidate for Kane County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "JA",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2223,7 +2975,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Chris Lauzen (R)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2241,9 +2993,9 @@ window.IL_LOCAL_RACES = [
         "id": "penny-wegman",
         "name": "Penny Wegman",
         "party": "Democrat",
-        "role": "Candidate for Kane County Treasurer",
+        "role": "Challenger for Kane County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "PW",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2266,9 +3018,9 @@ window.IL_LOCAL_RACES = [
         "id": "chris-lauzen",
         "name": "Chris Lauzen",
         "party": "Republican",
-        "role": "Candidate for Kane County Treasurer",
+        "role": "Incumbent candidate for Kane County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "CL",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2304,7 +3056,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Robb Tadelman (R)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2329,9 +3081,9 @@ window.IL_LOCAL_RACES = [
         "id": "robb-tadelman",
         "name": "Robb Tadelman",
         "party": "Republican",
-        "role": "Candidate for McHenry County Sheriff",
+        "role": "Incumbent candidate for McHenry County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "RT",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2368,7 +3120,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Joe Tirio (R)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2393,9 +3145,9 @@ window.IL_LOCAL_RACES = [
         "id": "bill-mcneese",
         "name": "Bill McNeese",
         "party": "Democrat",
-        "role": "Candidate for McHenry County Clerk",
+        "role": "Challenger for McHenry County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "BM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2418,9 +3170,9 @@ window.IL_LOCAL_RACES = [
         "id": "joe-tirio",
         "name": "Joe Tirio",
         "party": "Republican",
-        "role": "Candidate for McHenry County Clerk",
+        "role": "Incumbent candidate for McHenry County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "JT",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2457,7 +3209,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Donna M. Kurtz (R)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2482,9 +3234,9 @@ window.IL_LOCAL_RACES = [
         "id": "amin-karim",
         "name": "Amin Karim",
         "party": "Democrat",
-        "role": "Candidate for McHenry County Treasurer",
+        "role": "Challenger for McHenry County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "AK",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2507,9 +3259,9 @@ window.IL_LOCAL_RACES = [
         "id": "donna-m-kurtz",
         "name": "Donna M. Kurtz",
         "party": "Republican",
-        "role": "Candidate for McHenry County Treasurer",
+        "role": "Incumbent candidate for McHenry County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "DM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2546,7 +3298,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Paula Crouch (R)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2564,9 +3316,9 @@ window.IL_LOCAL_RACES = [
         "id": "paula-crouch",
         "name": "Paula Crouch",
         "party": "Republican",
-        "role": "Candidate for Sangamon County Sheriff",
+        "role": "Incumbent candidate for Sangamon County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "PC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2589,9 +3341,9 @@ window.IL_LOCAL_RACES = [
         "id": "marc-bell",
         "name": "Marc Bell",
         "party": "Democrat",
-        "role": "Candidate for Sangamon County Sheriff",
+        "role": "Challenger for Sangamon County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "MB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2627,7 +3379,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Gary Caruana (R)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2645,9 +3397,9 @@ window.IL_LOCAL_RACES = [
         "id": "gary-caruana",
         "name": "Gary Caruana",
         "party": "Republican",
-        "role": "Candidate for Winnebago County Sheriff",
+        "role": "Incumbent candidate for Winnebago County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "GC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2670,9 +3422,9 @@ window.IL_LOCAL_RACES = [
         "id": "dominick-barcellona",
         "name": "Dominick Barcellona",
         "party": "Independent",
-        "role": "Candidate for Winnebago County Sheriff",
+        "role": "Challenger for Winnebago County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "DB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2708,7 +3460,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Rachael Parker (D)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -2726,9 +3478,9 @@ window.IL_LOCAL_RACES = [
         "id": "rachael-parker",
         "name": "Rachael Parker",
         "party": "Democrat",
-        "role": "Candidate for Peoria County Clerk & Recorder",
+        "role": "Incumbent candidate for Peoria County Clerk & Recorder",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "RP",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2751,9 +3503,9 @@ window.IL_LOCAL_RACES = [
         "id": "kari-gabbert",
         "name": "Kari Gabbert",
         "party": "Republican",
-        "role": "Candidate for Peoria County Clerk & Recorder",
+        "role": "Challenger for Peoria County Clerk & Recorder",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "KG",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2791,7 +3543,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Aaron Ammons (D)",
     "primarySummary": "",
     "evidence": [
       {
@@ -2807,9 +3559,9 @@ window.IL_LOCAL_RACES = [
         "id": "aaron-ammons",
         "name": "Aaron Ammons",
         "party": "Democrat",
-        "role": "Candidate for Champaign County Clerk",
+        "role": "Incumbent candidate for Champaign County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "AA",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2839,9 +3591,9 @@ window.IL_LOCAL_RACES = [
         "id": "alan-anderson",
         "name": "Alan Anderson",
         "party": "Republican",
-        "role": "Candidate for Champaign County Clerk",
+        "role": "Challenger for Champaign County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "AA",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2885,9 +3637,9 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "isOpenSeat": false,
+    "isOpenSeat": true,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat (Steve Summers D retiring)",
     "primarySummary": "",
     "evidence": [
       {
@@ -2903,9 +3655,9 @@ window.IL_LOCAL_RACES = [
         "id": "michelle-jett",
         "name": "Michelle Jett",
         "party": "Democrat",
-        "role": "Candidate for Champaign County Executive",
+        "role": "Open-seat candidate for Champaign County Executive",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "MJ",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -2951,7 +3703,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Byron Clark (D)",
     "primarySummary": "",
     "evidence": [
       {
@@ -2967,9 +3719,9 @@ window.IL_LOCAL_RACES = [
         "id": "byron-clark",
         "name": "Byron Clark",
         "party": "Democrat",
-        "role": "Candidate for Champaign County Treasurer",
+        "role": "Incumbent candidate for Champaign County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "BC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3015,7 +3767,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Dustin D. Heuerman (D)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3031,9 +3783,9 @@ window.IL_LOCAL_RACES = [
         "id": "dustin-d-heuerman",
         "name": "Dustin D. Heuerman",
         "party": "Democrat",
-        "role": "Candidate for Champaign County Sheriff",
+        "role": "Incumbent candidate for Champaign County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "DH",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3081,9 +3833,9 @@ window.IL_LOCAL_RACES = [
         "id": "gregory-a-worrell",
         "name": "Gregory A. Worrell",
         "party": "Republican",
-        "role": "Candidate for Champaign County Sheriff",
+        "role": "Challenger for Champaign County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "GW",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3129,7 +3881,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Kathy Michael (R)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3145,9 +3897,9 @@ window.IL_LOCAL_RACES = [
         "id": "joshua-crockett",
         "name": "Joshua Crockett",
         "party": "Democrat",
-        "role": "Candidate for McLean County Clerk",
+        "role": "Challenger for McLean County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "JC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3186,9 +3938,9 @@ window.IL_LOCAL_RACES = [
         "id": "kathy-michael",
         "name": "Kathy Michael",
         "party": "Republican",
-        "role": "Candidate for McLean County Clerk",
+        "role": "Incumbent candidate for McLean County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "KM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3233,7 +3985,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Jon Albee (R)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3249,9 +4001,9 @@ window.IL_LOCAL_RACES = [
         "id": "jon-albee",
         "name": "Jon Albee",
         "party": "Republican",
-        "role": "Candidate for McLean County Sheriff",
+        "role": "Incumbent candidate for McLean County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "JA",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3296,7 +4048,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Rebecca C. McNeil (R)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3312,9 +4064,9 @@ window.IL_LOCAL_RACES = [
         "id": "rebecca-c-mcneil",
         "name": "Rebecca C. McNeil",
         "party": "Republican",
-        "role": "Candidate for McLean County Treasurer",
+        "role": "Incumbent candidate for McLean County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "RM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3359,7 +4111,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Linda A. Andreas (R)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3375,9 +4127,9 @@ window.IL_LOCAL_RACES = [
         "id": "rachelle-nicole-bauerle",
         "name": "Rachelle Nicole Bauerle",
         "party": "Democrat",
-        "role": "Candidate for Madison County Clerk and Recorder",
+        "role": "Challenger for Madison County Clerk and Recorder",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "RN",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3407,9 +4159,9 @@ window.IL_LOCAL_RACES = [
         "id": "linda-a-andreas",
         "name": "Linda A. Andreas",
         "party": "Republican",
-        "role": "Candidate for Madison County Clerk and Recorder",
+        "role": "Incumbent candidate for Madison County Clerk and Recorder",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "LA",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3454,7 +4206,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Jeff C. Connor (R)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3470,9 +4222,9 @@ window.IL_LOCAL_RACES = [
         "id": "jeff-c-connor",
         "name": "Jeff C. Connor",
         "party": "Republican",
-        "role": "Candidate for Madison County Sheriff",
+        "role": "Incumbent candidate for Madison County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "JC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3517,7 +4269,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Mike Babcock (R)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3533,9 +4285,9 @@ window.IL_LOCAL_RACES = [
         "id": "mike-babcock",
         "name": "Mike Babcock",
         "party": "Republican",
-        "role": "Candidate for Madison County Treasurer",
+        "role": "Incumbent candidate for Madison County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "MB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3578,9 +4330,9 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "isOpenSeat": false,
+    "isOpenSeat": true,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat (Thomas Holbrook D retiring)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3596,9 +4348,9 @@ window.IL_LOCAL_RACES = [
         "id": "laura-kaemmerer",
         "name": "Laura Kaemmerer",
         "party": "Democrat",
-        "role": "Candidate for St. Clair County Clerk",
+        "role": "Open-seat candidate for St. Clair County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "LK",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3628,9 +4380,9 @@ window.IL_LOCAL_RACES = [
         "id": "gary-hursey",
         "name": "Gary Hursey",
         "party": "Republican",
-        "role": "Candidate for St. Clair County Clerk",
+        "role": "Open-seat candidate for St. Clair County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "GH",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3675,7 +4427,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Andrew Lopinot (D)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3691,9 +4443,9 @@ window.IL_LOCAL_RACES = [
         "id": "andrew-lopinot",
         "name": "Andrew Lopinot",
         "party": "Democrat",
-        "role": "Candidate for St. Clair County Treasurer",
+        "role": "Incumbent candidate for St. Clair County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "AL",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3723,9 +4475,9 @@ window.IL_LOCAL_RACES = [
         "id": "myki-rhodes",
         "name": "Myki Rhodes",
         "party": "Republican",
-        "role": "Candidate for St. Clair County Treasurer",
+        "role": "Challenger for St. Clair County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "MR",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3770,7 +4522,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Richard 'Rick' Watson (D)",
     "primarySummary": "",
     "evidence": [
       {
@@ -3786,9 +4538,9 @@ window.IL_LOCAL_RACES = [
         "id": "richard-rick-watson",
         "name": "Richard \"Rick\" Watson",
         "party": "Democrat",
-        "role": "Candidate for St. Clair County Sheriff",
+        "role": "Incumbent candidate for St. Clair County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "RR",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3832,9 +4584,9 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "isOpenSeat": false,
+    "isOpenSeat": true,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat",
     "primarySummary": "",
     "evidence": [
       {
@@ -3850,9 +4602,9 @@ window.IL_LOCAL_RACES = [
         "id": "maggie-mcgrath-crouch",
         "name": "Maggie (McGrath) Crouch",
         "party": "Democrat",
-        "role": "Candidate for Rock Island County Clerk",
+        "role": "Open-seat candidate for Rock Island County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "MM",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3891,9 +4643,9 @@ window.IL_LOCAL_RACES = [
         "id": "steven-g-rugh",
         "name": "Steven G Rugh",
         "party": "Republican",
-        "role": "Candidate for Rock Island County Clerk",
+        "role": "Open-seat candidate for Rock Island County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "SR",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -3936,9 +4688,9 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "isOpenSeat": false,
+    "isOpenSeat": true,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Open Seat",
     "primarySummary": "",
     "evidence": [
       {
@@ -3954,9 +4706,9 @@ window.IL_LOCAL_RACES = [
         "id": "marcus-herbert",
         "name": "Marcus Herbert",
         "party": "Democrat",
-        "role": "Candidate for Rock Island County Sheriff",
+        "role": "Open-seat candidate for Rock Island County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "MH",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4004,9 +4756,9 @@ window.IL_LOCAL_RACES = [
         "id": "jamie-m-shoemaker",
         "name": "Jamie M. Shoemaker",
         "party": "Republican",
-        "role": "Candidate for Rock Island County Sheriff",
+        "role": "Open-seat candidate for Rock Island County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Open-seat candidate",
         "photoInitials": "JS",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4060,7 +4812,7 @@ window.IL_LOCAL_RACES = [
     "rating": "",
     "isOpenSeat": false,
     "isBattleground": false,
-    "incumbent": "",
+    "incumbent": "Nick Camlin (D)",
     "primarySummary": "",
     "evidence": [
       {
@@ -4076,9 +4828,9 @@ window.IL_LOCAL_RACES = [
         "id": "nick-camlin",
         "name": "Nick Camlin",
         "party": "Democrat",
-        "role": "Candidate for Rock Island County Treasurer",
+        "role": "Incumbent candidate for Rock Island County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "NC",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4130,7 +4882,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Frank L. Byrd (D)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -4148,9 +4900,9 @@ window.IL_LOCAL_RACES = [
         "id": "frank-l-byrd",
         "name": "Frank L. Byrd",
         "party": "Democrat",
-        "role": "Candidate for Jackson County Clerk",
+        "role": "Incumbent candidate for Jackson County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "FB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4180,9 +4932,9 @@ window.IL_LOCAL_RACES = [
         "id": "doug-gill",
         "name": "Doug Gill",
         "party": "Republican",
-        "role": "Candidate for Jackson County Clerk",
+        "role": "Challenger for Jackson County Clerk",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "DG",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4225,7 +4977,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Robert 'Bob' Burns (D)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -4243,9 +4995,9 @@ window.IL_LOCAL_RACES = [
         "id": "robert-bob-burns",
         "name": "Robert \"Bob\" Burns",
         "party": "Democrat",
-        "role": "Candidate for Jackson County Sheriff",
+        "role": "Incumbent candidate for Jackson County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "RB",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4275,9 +5027,9 @@ window.IL_LOCAL_RACES = [
         "id": "jay-wittenborn",
         "name": "Jay Wittenborn",
         "party": "Republican",
-        "role": "Candidate for Jackson County Sheriff",
+        "role": "Challenger for Jackson County Sheriff",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Challenger",
         "photoInitials": "JW",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4320,7 +5072,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Liz Stevenson (D)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -4338,9 +5090,9 @@ window.IL_LOCAL_RACES = [
         "id": "liz-stevenson",
         "name": "Liz Stevenson",
         "party": "Democrat",
-        "role": "Candidate for Jackson County Treasurer",
+        "role": "Incumbent candidate for Jackson County Treasurer",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "LS",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -4383,7 +5135,7 @@ window.IL_LOCAL_RACES = [
     "cities": [],
     "pvi": "",
     "rating": "",
-    "incumbent": "",
+    "incumbent": "Tammy Ehlers (D)",
     "primarySummary": "",
     "isOpenSeat": false,
     "isBattleground": false,
@@ -4401,9 +5153,9 @@ window.IL_LOCAL_RACES = [
         "id": "tammy-ehlers",
         "name": "Tammy Ehlers",
         "party": "Democrat",
-        "role": "Candidate for Jackson County Assessor",
+        "role": "Incumbent candidate for Jackson County Assessor",
         "hometown": "",
-        "incumbentStatus": "General-election candidate",
+        "incumbentStatus": "Incumbent",
         "photoInitials": "TE",
         "fecRaised": "",
         "fecCashOnHand": "",

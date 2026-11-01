@@ -63,13 +63,13 @@ def main():
                 summary += " This supplies no scored position and is excluded from the denominator."
             candidate["positions"][policy["id"]] = {
                 "stance": stance, "summary": summary, "sourceType": "house_roll_call", "recordedVote": value,
-                "sources": [{"url": vote["url"], "title": f"U.S. House Clerk — roll call {vote['rollCall']}, {vote['date']}", "published": vote["date"]}],
+                "sources": [{"url": vote["url"], "title": f"U.S. House Clerk - roll call {vote['rollCall']}, {vote['date']}", "published": vote["date"]}],
             }
     data = {
         "checked": CHECKED, "minEvidence": 3, "version": "2026-10-28.1", "period": "2025-01-22 to 2025-07-03",
         "methodology": {
             "label": "Trump policy alignment · six-measure sample",
-            "summary": "Agreement with six selected Trump-backed federal measures from January–July 2025. This is a limited legislative policy sample, not an overall ideology or endorsement rating.",
+            "summary": "Agreement with six selected Trump-backed federal measures from January-July 2025. This is a limited legislative policy sample, not an overall ideology or endorsement rating.",
             "formula": "100 × recorded agreements ÷ recorded agreements and disagreements, rounded to the nearest whole percent. At least three evidenced measures are required.",
             "selection": "The basket was fixed before compiling member votes: immigration detention, citizenship documentation for voter registration, the tax/spending reconciliation package, spending rescissions, methane regulation, and California vehicle-emissions waivers. These distinct administration priorities have explicit White House support and identifiable substantive House votes; companion and procedural votes are excluded.",
             "limitations": [

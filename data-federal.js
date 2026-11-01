@@ -5,7 +5,7 @@ window.IL_FEDERAL_RACES = [
     "level": "federal",
     "office": "U.S. Senator from Illinois",
     "districtCode": "IL-SEN",
-    "districtName": "Illinois — statewide",
+    "districtName": "Illinois - statewide",
     "region": "Statewide",
     "counties": [
       "All 102 Illinois Counties"
@@ -51,70 +51,70 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "identity",
             "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-            "title": "Kane County Clerk — 2026 general-election candidates",
+            "title": "Kane County Clerk - 2026 general-election candidates",
             "checked": "2026-10-28",
             "note": "Listed Democratic candidate for U.S. Senate."
           },
           {
             "field": "role",
             "url": "https://www.julianastratton.com/meet-juliana",
-            "title": "Juliana Stratton campaign — Meet Juliana",
+            "title": "Juliana Stratton campaign - Meet Juliana",
             "checked": "2026-10-28",
             "note": "Campaign biography identifies her current and former offices."
           },
           {
             "field": "hometown",
             "url": "https://www.julianastratton.com/meet-juliana",
-            "title": "Juliana Stratton campaign — Meet Juliana",
+            "title": "Juliana Stratton campaign - Meet Juliana",
             "checked": "2026-10-28",
             "note": "Biography says she grew up and lives on Chicago’s South Side."
           },
           {
             "field": "issues.economy",
             "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
-            "title": "Stratton campaign — Affordability Blueprint",
+            "title": "Stratton campaign - Affordability Blueprint",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
-            "title": "Stratton campaign — Affordability Blueprint",
+            "title": "Stratton campaign - Affordability Blueprint",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.immigration",
             "url": "https://www.julianastratton.com/issues",
-            "title": "Stratton campaign — Issues",
+            "title": "Stratton campaign - Issues",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.energy",
             "url": "https://www.julianastratton.com/_files/ugd/9308f6_244b22e9eb1e4b8983aee97742ba61ac.pdf",
-            "title": "Stratton campaign — Middle Class Opportunity Blueprint",
+            "title": "Stratton campaign - Middle Class Opportunity Blueprint",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.taxes",
             "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
-            "title": "Stratton campaign — Affordability Blueprint",
+            "title": "Stratton campaign - Affordability Blueprint",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.reproductive",
             "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
-            "title": "Stratton campaign — Affordability Blueprint",
+            "title": "Stratton campaign - Affordability Blueprint",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "endorsements",
             "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
-            "title": "Teamsters — Joint Council 25 Illinois endorsements",
+            "title": "Teamsters - Joint Council 25 Illinois endorsements",
             "checked": "2026-10-28",
             "note": "October 8, 2026 announcement specifically names Stratton; this is Joint Council 25, not a national Teamsters endorsement."
           },
@@ -169,63 +169,63 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "identity",
             "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-            "title": "Kane County Clerk — 2026 general-election candidates",
+            "title": "Kane County Clerk - 2026 general-election candidates",
             "checked": "2026-10-28",
             "note": "Listed Republican candidate for U.S. Senate."
           },
           {
             "field": "role",
             "url": "https://dontracyforil.com/about/",
-            "title": "Don Tracy campaign — About",
+            "title": "Don Tracy campaign - About",
             "checked": "2026-10-28",
             "note": "Campaign biography identifies his legal work and former chair roles."
           },
           {
             "field": "hometown",
             "url": "https://dontracyforil.com/about/",
-            "title": "Don Tracy campaign — About",
+            "title": "Don Tracy campaign - About",
             "checked": "2026-10-28",
             "note": "Biography says he and his wife raised their family in Springfield."
           },
           {
             "field": "issues.economy",
             "url": "https://dontracyforil.com/lower-the-cost-of-living/",
-            "title": "Tracy campaign — Lower the Cost of Living",
+            "title": "Tracy campaign - Lower the Cost of Living",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.healthcare",
             "url": "https://dontracyforil.com/lower-the-cost-of-living/",
-            "title": "Tracy campaign — Lower the Cost of Living",
+            "title": "Tracy campaign - Lower the Cost of Living",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.immigration",
             "url": "https://dontracyforil.com/common-sense-solutions/",
-            "title": "Tracy campaign — Common Sense Solutions",
+            "title": "Tracy campaign - Common Sense Solutions",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.energy",
             "url": "https://dontracyforil.com/lower-the-cost-of-living/",
-            "title": "Tracy campaign — Lower the Cost of Living",
+            "title": "Tracy campaign - Lower the Cost of Living",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.taxes",
             "url": "https://dontracyforil.com/common-sense-solutions/",
-            "title": "Tracy campaign — Common Sense Solutions",
+            "title": "Tracy campaign - Common Sense Solutions",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "endorsements",
             "url": "https://ifa-pac.org/endorsements/",
-            "title": "Illinois Family Action PAC — 2026 primary endorsements",
+            "title": "Illinois Family Action PAC - 2026 primary endorsements",
             "checked": "2026-10-28",
             "note": "The organization’s page expressly labels its endorsement for the March 17 primary; not relabeled as a general-election endorsement."
           }
@@ -257,49 +257,49 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "identity",
             "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-            "title": "Kane County Clerk — 2026 general-election candidates",
+            "title": "Kane County Clerk - 2026 general-election candidates",
             "checked": "2026-10-28",
             "note": "Official ballot party is American Center Party, not Independent."
           },
           {
             "field": "role",
             "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-            "title": "Kane County Clerk — 2026 general-election candidates",
+            "title": "Kane County Clerk - 2026 general-election candidates",
             "checked": "2026-10-28",
             "note": "Listed American Center Party Senate candidate."
           },
           {
             "field": "issues.economy",
             "url": "https://whit4ilsenate.com/",
-            "title": "Whitfield Harrington campaign — Platform",
+            "title": "Whitfield Harrington campaign - Platform",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.healthcare",
             "url": "https://whit4ilsenate.com/",
-            "title": "Whitfield Harrington campaign — Platform",
+            "title": "Whitfield Harrington campaign - Platform",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.immigration",
             "url": "https://whit4ilsenate.com/",
-            "title": "Whitfield Harrington campaign — Platform",
+            "title": "Whitfield Harrington campaign - Platform",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.energy",
             "url": "https://whit4ilsenate.com/",
-            "title": "Whitfield Harrington campaign — Platform",
+            "title": "Whitfield Harrington campaign - Platform",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.foreignPolicy",
             "url": "https://whit4ilsenate.com/",
-            "title": "Whitfield Harrington campaign — Platform",
+            "title": "Whitfield Harrington campaign - Platform",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           }
@@ -311,7 +311,7 @@ window.IL_FEDERAL_RACES = [
       {
         "field": "candidates",
         "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
-        "title": "Kane County Clerk — November 3, 2026 general-election candidates",
+        "title": "Kane County Clerk - November 3, 2026 general-election candidates",
         "checked": "2026-10-28",
         "note": "Official election-authority list names Stratton, Tracy and Harrington, including their ballot parties."
       },
@@ -394,63 +394,63 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=7JNovNcc39AEakYCd3QYkw%3D%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D",
-            "title": "Illinois State Board of Elections — active 2026 general-election candidates",
+            "title": "Illinois State Board of Elections - active 2026 general-election candidates",
             "checked": "2026-10-28",
             "note": "Listed Democratic candidate for District 1 in official indexed text."
           },
           {
             "field": "role",
             "url": "https://jonathanjackson.house.gov/about",
-            "title": "Congressman Jonathan Jackson — About",
+            "title": "Congressman Jonathan Jackson - About",
             "checked": "2026-10-28",
             "note": "Official congressional biography identifies his office."
           },
           {
             "field": "issues.economy",
             "url": "https://jonathanjackson.house.gov/about",
-            "title": "Congressman Jonathan Jackson — About",
+            "title": "Congressman Jonathan Jackson - About",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.govinfo.gov/app/details/BILLS-119hr3069ih",
-            "title": "U.S. Government Publishing Office — H.R. 3069, introduced April 29, 2025",
+            "title": "U.S. Government Publishing Office - H.R. 3069, introduced April 29, 2025",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.immigration",
             "url": "https://jonathanjackson.house.gov/media/press-releases?page=6",
-            "title": "Congressman Jonathan Jackson — January 2025 press-release listing",
+            "title": "Congressman Jonathan Jackson - January 2025 press-release listing",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.reproductive",
             "url": "https://www.govinfo.gov/content/pkg/CRI-2023/html/CRI-2023-JACKSON-JONATHAN-L-A44AE4.htm",
-            "title": "U.S. Government Publishing Office — 2023 Congressional Record index, Jonathan L. Jackson",
+            "title": "U.S. Government Publishing Office - 2023 Congressional Record index, Jonathan L. Jackson",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.foreignPolicy",
             "url": "https://jonathanjackson.house.gov/about",
-            "title": "Congressman Jonathan Jackson — About",
+            "title": "Congressman Jonathan Jackson - About",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.guns",
             "url": "https://jonathanjackson.house.gov/media/press-releases/representative-jackson-and-senator-duckworth-reintroduce-legislation-help",
-            "title": "Congressman Jonathan Jackson — Blair Holt firearm legislation, July 2026",
+            "title": "Congressman Jonathan Jackson - Blair Holt firearm legislation, July 2026",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "endorsements",
             "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
-            "title": "Teamsters — Joint Council 25 Illinois endorsements",
+            "title": "Teamsters - Joint Council 25 Illinois endorsements",
             "checked": "2026-10-28",
             "note": "October 8, 2026 announcement lists Jonathan Jackson for the 1st District."
           }
@@ -485,63 +485,63 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "identity",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=7JNovNcc39AEakYCd3QYkw%3D%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D",
-            "title": "Illinois State Board of Elections — active 2026 general-election candidates",
+            "title": "Illinois State Board of Elections - active 2026 general-election candidates",
             "checked": "2026-10-28",
             "note": "Listed Republican candidate for District 1 in official indexed text."
           },
           {
             "field": "role",
             "url": "https://christianmaxwellforcongress.com/home",
-            "title": "Christian Maxwell campaign — Home",
+            "title": "Christian Maxwell campaign - Home",
             "checked": "2026-10-28",
             "note": "Campaign biography identifies her business and marketing work."
           },
           {
             "field": "issues.economy",
             "url": "https://christianmaxwellforcongress.com/issues",
-            "title": "Christian Maxwell campaign — Issues",
+            "title": "Christian Maxwell campaign - Issues",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.healthcare",
             "url": "https://christianmaxwellforcongress.com/issues",
-            "title": "Christian Maxwell campaign — Issues",
+            "title": "Christian Maxwell campaign - Issues",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.immigration",
             "url": "https://christianmaxwellforcongress.com/issues",
-            "title": "Christian Maxwell campaign — Issues",
+            "title": "Christian Maxwell campaign - Issues",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.taxes",
             "url": "https://christianmaxwellforcongress.com/issues",
-            "title": "Christian Maxwell campaign — Issues",
+            "title": "Christian Maxwell campaign - Issues",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.reproductive",
             "url": "https://christianmaxwellforcongress.com/issues",
-            "title": "Christian Maxwell campaign — Issues",
+            "title": "Christian Maxwell campaign - Issues",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "issues.guns",
             "url": "https://christianmaxwellforcongress.com/issues",
-            "title": "Christian Maxwell campaign — Issues",
+            "title": "Christian Maxwell campaign - Issues",
             "checked": "2026-10-28",
             "note": "Primary-source policy statement or dated legislative record; paraphrased."
           },
           {
             "field": "endorsements",
             "url": "https://ifa-pac.org/endorsements/",
-            "title": "Illinois Family Action PAC — 2026 primary endorsements",
+            "title": "Illinois Family Action PAC - 2026 primary endorsements",
             "checked": "2026-10-28",
             "note": "The organization’s March 17 primary list names Christian Maxwell for District 1."
           }
@@ -553,14 +553,14 @@ window.IL_FEDERAL_RACES = [
       {
         "field": "candidates",
         "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=7JNovNcc39AEakYCd3QYkw%3D%3D&QueryType=xF443FTCAJbIL3atac%2FUjEg7Y4yklgT1&Status=P2wRQXkiFoo%3D",
-        "title": "Illinois State Board of Elections — active 2026 general-election candidates, U.S. House District 1",
+        "title": "Illinois State Board of Elections - active 2026 general-election candidates, U.S. House District 1",
         "checked": "2026-10-28",
         "note": "Official indexed list names Jonathan L. Jackson and Christian Maxwell, with party and active status; direct page access returned 403."
       },
       {
         "field": "incumbent",
         "url": "https://jonathanjackson.house.gov/about",
-        "title": "Congressman Jonathan Jackson — About",
+        "title": "Congressman Jonathan Jackson - About",
         "checked": "2026-10-28",
         "note": "Congressional office identifies him as the district’s representative."
       }
@@ -3552,35 +3552,35 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=zikW8Oru0z4UNUu43%2BxtVA%3D%3D&ElectionID=sejIrI%2BQmww%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
           {
             "field": "role",
             "url": "https://budzinski.house.gov/",
-            "title": "Congresswoman Nikki Budzinski — official House website",
+            "title": "Congresswoman Nikki Budzinski - official House website",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "issues.economy",
             "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
-            "title": "Budzinski affordability agenda — February 11, 2026",
+            "title": "Budzinski affordability agenda - February 11, 2026",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.healthcare",
             "url": "https://budzinski.house.gov/posts/budzinski-schrier-introduce-legislation-to-lower-co-pays-and-deductibles",
-            "title": "Budzinski and Schrier introduce Capping Costs for Consumers Act — January 21, 2026",
+            "title": "Budzinski and Schrier introduce Capping Costs for Consumers Act - January 21, 2026",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.energy",
             "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
-            "title": "Budzinski affordability agenda — February 11, 2026",
+            "title": "Budzinski affordability agenda - February 11, 2026",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
@@ -3601,7 +3601,7 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "issues.healthcare",
             "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
-            "title": "Budzinski affordability agenda — February 11, 2026",
+            "title": "Budzinski affordability agenda - February 11, 2026",
             "checked": "2026-10-28",
             "note": "Supports extending ACA tax credits and fully funding Medicaid."
           }
@@ -3644,7 +3644,7 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=zikW8Oru0z4rHvmjWI34gg%3D%3D&ElectionID=sejIrI%2BQmww%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
@@ -3791,49 +3791,49 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=kEZpfnrWTXDtZkYBAKbieg%3D%3D&ElectionID=sejIrI%2BQmww%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
           {
             "field": "role",
             "url": "https://underwoodforcongress.com/healthcare-costs/",
-            "title": "Underwood campaign — Healthcare costs",
+            "title": "Underwood campaign - Healthcare costs",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "issues.healthcare",
             "url": "https://underwoodforcongress.com/healthcare-costs/",
-            "title": "Underwood campaign — Healthcare costs",
+            "title": "Underwood campaign - Healthcare costs",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.immigration",
             "url": "https://underwoodforcongress.com/immigration-border-security/",
-            "title": "Underwood campaign — Immigration and border security",
+            "title": "Underwood campaign - Immigration and border security",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.energy",
             "url": "https://underwoodforcongress.com/climate-change/",
-            "title": "Underwood campaign — Climate change",
+            "title": "Underwood campaign - Climate change",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.reproductive",
             "url": "https://underwoodforcongress.com/reproductive-freedom/",
-            "title": "Underwood campaign — Reproductive freedom",
+            "title": "Underwood campaign - Reproductive freedom",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.guns",
             "url": "https://underwoodforcongress.com/gun-violence/",
-            "title": "Underwood campaign — Gun violence",
+            "title": "Underwood campaign - Gun violence",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
@@ -3894,7 +3894,7 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=kEZpfnrWTXCY%2Bp%2FPvUFT5A%3D%3D&ElectionID=sejIrI%2BQmww%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
@@ -3908,56 +3908,56 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "issues.economy",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.healthcare",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.immigration",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.energy",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.taxes",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.reproductive",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.foreignPolicy",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.guns",
             "url": "https://marter4congress.us/issues/",
-            "title": "Marter campaign — Issues",
+            "title": "Marter campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
@@ -4070,56 +4070,56 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=GsuFFk4X1Y%2FwOvAyefTXkw%3D%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
           {
             "field": "role",
             "url": "https://marymiller.house.gov/",
-            "title": "Representative Mary Miller — official House website",
+            "title": "Representative Mary Miller - official House website",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "issues.immigration",
             "url": "https://marymiller.house.gov/media/press-releases/rep-miller-sen-budd-lead-bill-close-loophole-exploited-illegal-aliens-employed",
-            "title": "Miller and Budd introduce Stop Illegal Alien Cops Act — February 25, 2026",
+            "title": "Miller and Budd introduce Stop Illegal Alien Cops Act - February 25, 2026",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.energy",
             "url": "https://norman.house.gov/news/documentsingle.aspx?DocumentID=3214",
-            "title": "House members including Mary Miller — statement on energy tax credits, 2025",
+            "title": "House members including Mary Miller - statement on energy tax credits, 2025",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.taxes",
             "url": "https://rsc-pfluger.house.gov/media/press-releases/what-they-are-saying-its-tax-day-and-americans-are-winning-thanks-working",
-            "title": "Republican Study Committee — member statements on 2026 Tax Day",
+            "title": "Republican Study Committee - member statements on 2026 Tax Day",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.reproductive",
             "url": "https://hageman.house.gov/issues/family-values",
-            "title": "Hageman official release listing Mary Miller as original cosponsor of abortion tax-exemption bill — January 30, 2026",
+            "title": "Hageman official release listing Mary Miller as original cosponsor of abortion tax-exemption bill - January 30, 2026",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.guns",
             "url": "https://millermeeks.house.gov/media/press-releases/miller-meeks-joins-feenstra-legislation-protect-second-amendment-rights",
-            "title": "House press release naming Mary Miller as supporter of PROTECT the Second Amendment Act — July 26, 2023",
+            "title": "House press release naming Mary Miller as supporter of PROTECT the Second Amendment Act - July 26, 2023",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "endorsements",
             "url": "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/",
-            "title": "NFIB FedPAC Illinois congressional endorsements — October 1, 2026",
+            "title": "NFIB FedPAC Illinois congressional endorsements - October 1, 2026",
             "checked": "2026-10-28",
             "note": "NFIB FedPAC (2026 general election)"
           },
@@ -4169,7 +4169,7 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=GsuFFk4X1Y%2FwOvAyefTXkw%3D%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
@@ -4183,28 +4183,28 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "issues.economy",
             "url": "https://www.jentodd2026.us/issues",
-            "title": "Jennifer Todd campaign — Priorities for Illinois 15",
+            "title": "Jennifer Todd campaign - Priorities for Illinois 15",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.jentodd2026.us/issues",
-            "title": "Jennifer Todd campaign — Priorities for Illinois 15",
+            "title": "Jennifer Todd campaign - Priorities for Illinois 15",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.immigration",
             "url": "https://www.jentodd2026.us/issues",
-            "title": "Jennifer Todd campaign — Priorities for Illinois 15",
+            "title": "Jennifer Todd campaign - Priorities for Illinois 15",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.reproductive",
             "url": "https://www.jentodd2026.us/issues",
-            "title": "Jennifer Todd campaign — Priorities for Illinois 15",
+            "title": "Jennifer Todd campaign - Priorities for Illinois 15",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
@@ -4323,56 +4323,56 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WVKrwM7oDOrZthC0ls4R5w%3D%3D&ElectionID=sejIrI%2BQmww%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
           {
             "field": "role",
             "url": "https://lahood.house.gov/about",
-            "title": "Congressman Darin LaHood — official biography",
+            "title": "Congressman Darin LaHood - official biography",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "issues.economy",
             "url": "https://lahood.house.gov/about",
-            "title": "Congressman Darin LaHood — official biography",
+            "title": "Congressman Darin LaHood - official biography",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.healthcare",
             "url": "https://lahood.house.gov/news?ID=7248C71D-983E-4BAD-974A-8ACFACC8E5FF",
-            "title": "LaHood official statement on One Big Beautiful Bill Act — July 7, 2025",
+            "title": "LaHood official statement on One Big Beautiful Bill Act - July 7, 2025",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.immigration",
             "url": "https://lahood.house.gov/immigration",
-            "title": "Congressman Darin LaHood — Immigration",
+            "title": "Congressman Darin LaHood - Immigration",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.energy",
             "url": "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB",
-            "title": "LaHood tax provisions roundtable — August 1, 2025",
+            "title": "LaHood tax provisions roundtable - August 1, 2025",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.taxes",
             "url": "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB",
-            "title": "LaHood tax provisions roundtable — August 1, 2025",
+            "title": "LaHood tax provisions roundtable - August 1, 2025",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "endorsements",
             "url": "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/",
-            "title": "NFIB FedPAC Illinois congressional endorsements — October 1, 2026",
+            "title": "NFIB FedPAC Illinois congressional endorsements - October 1, 2026",
             "checked": "2026-10-28",
             "note": "NFIB FedPAC (2026 general election)"
           }
@@ -4416,7 +4416,7 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WVKrwM7oDOp5B2whm0mWJQ%3D%3D&ElectionID=sejIrI%2BQmww%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
@@ -4430,28 +4430,28 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "issues.economy",
             "url": "https://www.nolleyforcongress.com/issues",
-            "title": "Paul Nolley campaign — Issues",
+            "title": "Paul Nolley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.nolleyforcongress.com/issues",
-            "title": "Paul Nolley campaign — Issues",
+            "title": "Paul Nolley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.energy",
             "url": "https://www.nolleyforcongress.com/issues",
-            "title": "Paul Nolley campaign — Issues",
+            "title": "Paul Nolley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.taxes",
             "url": "https://www.nolleyforcongress.com/issues",
-            "title": "Paul Nolley campaign — Issues",
+            "title": "Paul Nolley campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
@@ -4571,42 +4571,42 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=GsuFFk4X1Y8h7pzCF270oQ%3D%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },
           {
             "field": "role",
             "url": "https://www.ericforillinois.com/issues",
-            "title": "Eric Sorensen campaign — Issues",
+            "title": "Eric Sorensen campaign - Issues",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "issues.economy",
             "url": "https://www.ericforillinois.com/issues",
-            "title": "Eric Sorensen campaign — Issues",
+            "title": "Eric Sorensen campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.ericforillinois.com/issues",
-            "title": "Eric Sorensen campaign — Issues",
+            "title": "Eric Sorensen campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.energy",
             "url": "https://www.ericforillinois.com/issues",
-            "title": "Eric Sorensen campaign — Issues",
+            "title": "Eric Sorensen campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
           {
             "field": "issues.reproductive",
             "url": "https://www.ericforillinois.com/issues",
-            "title": "Eric Sorensen campaign — Issues",
+            "title": "Eric Sorensen campaign - Issues",
             "checked": "2026-10-28",
             "note": "Summary of the candidate's own stated position or a dated official legislative action."
           },
@@ -4659,7 +4659,7 @@ window.IL_FEDERAL_RACES = [
           {
             "field": "candidacy",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=GsuFFk4X1Y8h7pzCF270oQ%3D%3D",
-            "title": "Illinois State Board of Elections — General Election November 3, 2026",
+            "title": "Illinois State Board of Elections - General Election November 3, 2026",
             "checked": "2026-10-28",
             "note": "Active candidate and party listed in indexed official election page. Direct fetch returned HTTP 403; indexed official content was read."
           },

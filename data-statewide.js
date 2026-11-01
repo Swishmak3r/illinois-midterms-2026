@@ -1,5 +1,5 @@
-// Illinois statewide candidate profiles. Primary-source review: October 28, 2026.
-// Campaign positions are attributed statements, not certifications of promised outcomes.
+// Statewide Illinois general-election profiles, audited October 28, 2026.
+// Source links and jurisdiction notes accompany each race and candidate.
 window.IL_STATEWIDE_RACES = [
   {
     "id": "il-governor-2026",
@@ -282,7 +282,7 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "role",
             "url": "https://www.elections.il.gov/ElectionOperations/ObjectionDetail.aspx?ElectionID=sejIrI%2BQmww%3D&ObjectionID=vHgWMNMaGm8DebadaJv3%2FQ%3D%3D",
-            "title": "Illinois State Board of Elections: Corbett–Schofield objection record",
+            "title": "Illinois State Board of Elections: Corbett-Schofield objection record",
             "checked": "2026-10-28",
             "note": "Both candidates active; objection withdrawn."
           },
@@ -331,7 +331,7 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "incumbentStatus",
             "url": "https://www.elections.il.gov/ElectionOperations/ObjectionDetail.aspx?ElectionID=sejIrI%2BQmww%3D&ObjectionID=vHgWMNMaGm8DebadaJv3%2FQ%3D%3D",
-            "title": "Illinois State Board of Elections: Corbett–Schofield objection record",
+            "title": "Illinois State Board of Elections: Corbett-Schofield objection record",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
           }
@@ -353,7 +353,7 @@ window.IL_STATEWIDE_RACES = [
         "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
         "title": "St. Clair County Clerk: 2026 candidate filings",
         "checked": "2026-10-28",
-        "note": "Cross-checks Pritzker–Mitchell, Bailey–Del Mar and Corbett; also lists other filings that must not be confused with printed nominees."
+        "note": "Cross-checks Pritzker-Mitchell, Bailey-Del Mar and Corbett; also lists other filings that must not be confused with printed nominees."
       },
       {
         "field": "incumbent",
@@ -410,14 +410,14 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "role",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/attorney-general-kwame-raoul.pdf",
-            "title": "Illinois Blue Book 2025–2026 — Kwame Raoul",
+            "title": "Illinois Blue Book 2025-2026 - Kwame Raoul",
             "checked": "2026-10-28",
             "note": "Official biography confirms current office and prior Senate service."
           },
           {
             "field": "role",
             "url": "https://kwameraoul.com/about-us/",
-            "title": "Raoul campaign — biography",
+            "title": "Raoul campaign - biography",
             "checked": "2026-10-28",
             "note": "Confirms January 2019 start and Chicago background."
           },
@@ -432,7 +432,7 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "issues.healthcare",
             "url": "https://kwameraoul.com/ontheissues/",
-            "title": "Raoul campaign — issue positions",
+            "title": "Raoul campaign - issue positions",
             "checked": "2026-10-28",
             "note": "Candidate-stated priorities, not an independent evaluation of outcomes."
           },
@@ -463,49 +463,49 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "issues.publicServices",
             "url": "https://kwameraoul.com/ontheissues/",
-            "title": "Raoul campaign — issue positions",
+            "title": "Raoul campaign - issue positions",
             "checked": "2026-10-28",
             "note": "Candidate-stated priorities."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Lists Kwame Raoul for Attorney General."
           },
           {
             "field": "endorsements",
             "url": "https://cwa-union.org/candidates-il",
-            "title": "CWA District 4 — 2026 Illinois endorsements",
+            "title": "CWA District 4 - 2026 Illinois endorsements",
             "checked": "2026-10-28",
             "note": "Lists Kwame Raoul for Attorney General."
           },
           {
             "field": "name",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "party",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "hometown",
             "url": "https://kwameraoul.com/about-us/",
-            "title": "Raoul campaign — biography",
+            "title": "Raoul campaign - biography",
             "checked": "2026-10-28",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
             "field": "incumbentStatus",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/attorney-general-kwame-raoul.pdf",
-            "title": "Illinois Blue Book 2025–2026 — Kwame Raoul",
+            "title": "Illinois Blue Book 2025-2026 - Kwame Raoul",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
           }
@@ -535,14 +535,14 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "role",
             "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
-            "title": "Fioretti campaign — biography",
+            "title": "Fioretti campaign - biography",
             "checked": "2026-10-28",
             "note": "Campaign biography describes legal career, aldermanic service and Chicago residence."
           },
           {
             "field": "issues.safetAct",
             "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
-            "title": "Fioretti campaign — SAFE-T accountability proposals",
+            "title": "Fioretti campaign - SAFE-T accountability proposals",
             "checked": "2026-10-28",
             "note": "Candidate proposals; factual allegations about opponents are not repeated.",
             "published": "2025-12-09"
@@ -550,7 +550,7 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "issues.ethics",
             "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
-            "title": "Fioretti campaign — SAFE-T accountability proposals",
+            "title": "Fioretti campaign - SAFE-T accountability proposals",
             "checked": "2026-10-28",
             "note": "",
             "published": "2025-12-09"
@@ -558,35 +558,35 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "issues.education",
             "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
-            "title": "Fioretti campaign — policy priorities",
+            "title": "Fioretti campaign - policy priorities",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "name",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "party",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "hometown",
             "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
-            "title": "Fioretti campaign — biography",
+            "title": "Fioretti campaign - biography",
             "checked": "2026-10-28",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
             "field": "incumbentStatus",
             "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
-            "title": "Fioretti campaign — biography",
+            "title": "Fioretti campaign - biography",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
           }
@@ -598,14 +598,14 @@ window.IL_STATEWIDE_RACES = [
       {
         "field": "candidates",
         "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-        "title": "St. Clair County Clerk — November 2026 candidate filings",
+        "title": "St. Clair County Clerk - November 2026 candidate filings",
         "checked": "2026-10-28",
         "note": "Official active statewide filings checked October 28, 2026."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/attorney-general-kwame-raoul.pdf",
-        "title": "Illinois Blue Book 2025–2026",
+        "title": "Illinois Blue Book 2025-2026",
         "checked": "2026-10-28",
         "note": ""
       }
@@ -655,21 +655,21 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "role",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
-            "title": "Illinois Blue Book 2025–2026 — Alexi Giannoulias",
+            "title": "Illinois Blue Book 2025-2026 - Alexi Giannoulias",
             "checked": "2026-10-28",
             "note": "Official biography confirms offices and Chicago residence."
           },
           {
             "field": "issues.publicServices",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
-            "title": "Illinois Blue Book 2025–2026 — service modernization",
+            "title": "Illinois Blue Book 2025-2026 - service modernization",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "issues.publicServices",
             "url": "https://www.ilsos.gov/news/2026/august-14-2026-giannoulias-vows-to-fight-trump-administrations-demand-for-sensitive-driver-data.html",
-            "title": "Secretary of State — driver-record privacy statement",
+            "title": "Secretary of State - driver-record privacy statement",
             "checked": "2026-10-28",
             "note": "",
             "published": "2026-08-14"
@@ -677,14 +677,14 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "issues.education",
             "url": "https://www.ila.org/content/documents/a._giannoulias_2026_sos_responses.pdf",
-            "title": "Giannoulias — 2026 Illinois Library Association questionnaire",
+            "title": "Giannoulias - 2026 Illinois Library Association questionnaire",
             "checked": "2026-10-28",
             "note": "Candidate-authored response; ILA does not endorse candidates."
           },
           {
             "field": "issues.ethics",
             "url": "https://www.ilsos.gov/content/dam/news/2023/january/230110d1.pdf",
-            "title": "Secretary of State — executive ethics order",
+            "title": "Secretary of State - executive ethics order",
             "checked": "2026-10-28",
             "note": "",
             "published": "2023-01-10"
@@ -692,35 +692,35 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
-            "title": "Illinois AFL-CIO — 2026 general-election endorsements",
+            "title": "Illinois AFL-CIO - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Lists Alexi Giannoulias for Secretary of State."
           },
           {
             "field": "name",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "party",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "hometown",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
-            "title": "Illinois Blue Book 2025–2026 — Alexi Giannoulias",
+            "title": "Illinois Blue Book 2025-2026 - Alexi Giannoulias",
             "checked": "2026-10-28",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
             "field": "incumbentStatus",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
-            "title": "Illinois Blue Book 2025–2026 — Alexi Giannoulias",
+            "title": "Illinois Blue Book 2025-2026 - Alexi Giannoulias",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
           }
@@ -752,42 +752,42 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "role",
             "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
-            "title": "Joliet Junior College — Board of Trustees",
+            "title": "Joliet Junior College - Board of Trustees",
             "checked": "2026-10-28",
-            "note": "Official roster lists Harris as a trustee with a 2023–2029 term and Joliet residence."
+            "note": "Official roster lists Harris as a trustee with a 2023-2029 term and Joliet residence."
           },
           {
             "field": "role",
             "url": "https://harrisforsos.com/meet_diane",
-            "title": "Harris campaign — biography",
+            "title": "Harris campaign - biography",
             "checked": "2026-10-28",
             "note": "Campaign biography describes ComEd employment and IBEW stewardship."
           },
           {
             "field": "issues.publicServices",
             "url": "https://harrisforsos.com/issues",
-            "title": "Harris campaign — issue positions",
+            "title": "Harris campaign - issue positions",
             "checked": "2026-10-28",
             "note": "Candidate proposals, not claims that another officeholder violated the law."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://harrisforsos.com/issues",
-            "title": "Harris campaign — budget and fee proposals",
+            "title": "Harris campaign - budget and fee proposals",
             "checked": "2026-10-28",
             "note": ""
           },
           {
             "field": "issues.education",
             "url": "https://www.ila.org/content/documents/d._harris_2026_sos_responses.pdf",
-            "title": "Harris — 2026 Illinois Library Association questionnaire",
+            "title": "Harris - 2026 Illinois Library Association questionnaire",
             "checked": "2026-10-28",
             "note": "Candidate-authored response; ILA does not endorse candidates."
           },
           {
             "field": "endorsements",
             "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
-            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "title": "Illinois Family Action - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "note": "Lists Diane Harris as endorsed.",
             "published": "2026-10-26"
@@ -795,28 +795,28 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "name",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "party",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-            "title": "St. Clair County Clerk — November 2026 candidate filings",
+            "title": "St. Clair County Clerk - November 2026 candidate filings",
             "checked": "2026-10-28",
             "note": "Official roster confirms name, party and statewide office."
           },
           {
             "field": "hometown",
             "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
-            "title": "Joliet Junior College — Board of Trustees",
+            "title": "Joliet Junior College - Board of Trustees",
             "checked": "2026-10-28",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
             "field": "incumbentStatus",
             "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
-            "title": "Joliet Junior College — Board of Trustees",
+            "title": "Joliet Junior College - Board of Trustees",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
           }
@@ -828,14 +828,14 @@ window.IL_STATEWIDE_RACES = [
       {
         "field": "candidates",
         "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
-        "title": "St. Clair County Clerk — November 2026 candidate filings",
+        "title": "St. Clair County Clerk - November 2026 candidate filings",
         "checked": "2026-10-28",
         "note": "Official active statewide filings checked October 28, 2026."
       },
       {
         "field": "incumbent",
         "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
-        "title": "Illinois Blue Book 2025–2026",
+        "title": "Illinois Blue Book 2025-2026",
         "checked": "2026-10-28",
         "note": ""
       }
@@ -1037,9 +1037,9 @@ window.IL_STATEWIDE_RACES = [
         "id": "anna-schiefelbein",
         "name": "Anna Schiefelbein",
         "party": "Green",
-        "role": "Comptroller write-in candidate",
+        "role": "Green Party write-in candidate for Illinois Comptroller (removed from statewide printed ballot July 14, 2026)",
         "hometown": "Woodridge, Illinois",
-        "incumbentStatus": "Write-in candidate; confirm eligibility with your election authority",
+        "incumbentStatus": "Removed from statewide ballot (Jul 14); local write-in",
         "photoInitials": "AS",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1052,6 +1052,20 @@ window.IL_STATEWIDE_RACES = [
           "energyGrid": "Her candidate platform calls for investment relationships that account for environmental protection."
         },
         "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+            "title": "Illinois State Board of Elections: 2026 general election candidate list",
+            "checked": "2026-10-28",
+            "note": "Official state candidate list records Anna Schiefelbein (Green Party, Comptroller, filed May 26, 2026) with status 'Removed 7/14/2026'."
+          },
+          {
+            "field": "role",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+            "title": "Illinois State Board of Elections: 2026 general election candidate list",
+            "checked": "2026-10-28",
+            "note": "Confirms July 14, 2026 removal from the statewide printed ballot."
+          },
           {
             "field": "name",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
@@ -1127,7 +1141,8 @@ window.IL_STATEWIDE_RACES = [
         ],
         "checked": "2026-10-28",
         "isWriteIn": true,
-        "ballotNote": "Write-in campaign documented in the St. Clair County Clerk filings and Illinois Green Party candidate statements. Not a printed-ballot nominee; confirm write-in eligibility with your own election authority."
+        "ballotNote": "The official Illinois State Board of Elections candidate list records Anna Schiefelbein (Green Party) as filed May 26, 2026 and Removed on July 14, 2026. She does not appear on the printed statewide ballot (verified on the Will County and St. Clair County specimen ballots). A September 2, 2026 write-in declaration is on file in St. Clair County; write-in votes count only in jurisdictions where a timely declaration was filed.",
+        "ballotStatus": "Removed from the Illinois State Board of Elections candidate list on July 14, 2026; later filed a September 2, 2026 declaration of intent to be a write-in candidate in St. Clair County"
       }
     ],
     "evidence": [
@@ -1363,7 +1378,7 @@ window.IL_STATEWIDE_RACES = [
           {
             "field": "endorsements",
             "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
-            "title": "Illinois Family Action — 2026 general-election endorsements",
+            "title": "Illinois Family Action - 2026 general-election endorsements",
             "checked": "2026-10-28",
             "published": "2026-10-26",
             "note": "Lists Max Solomon as endorsed."
@@ -1375,9 +1390,9 @@ window.IL_STATEWIDE_RACES = [
         "id": "timothea-papas",
         "name": "Timothea Papas",
         "party": "Green",
-        "role": "Treasurer write-in candidate",
+        "role": "Green Party write-in candidate for Illinois State Treasurer (removed from statewide printed ballot July 14, 2026)",
         "hometown": "",
-        "incumbentStatus": "Write-in candidate; confirm eligibility with your election authority",
+        "incumbentStatus": "Removed from statewide ballot (Jul 14); local write-in",
         "photoInitials": "TP",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1390,6 +1405,20 @@ window.IL_STATEWIDE_RACES = [
           "pensions": "Her candidate platform supports making required pension payments and a financial-transactions tax to increase state revenue."
         },
         "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+            "title": "Illinois State Board of Elections: 2026 general election candidate list",
+            "checked": "2026-10-28",
+            "note": "Official state candidate list records Timothea Papas (Green Party, Treasurer, filed May 26, 2026) with status 'Removed 7/14/2026'."
+          },
+          {
+            "field": "role",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+            "title": "Illinois State Board of Elections: 2026 general election candidate list",
+            "checked": "2026-10-28",
+            "note": "Confirms July 14, 2026 removal from the statewide printed ballot."
+          },
           {
             "field": "name",
             "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
@@ -1457,7 +1486,8 @@ window.IL_STATEWIDE_RACES = [
         ],
         "checked": "2026-10-28",
         "isWriteIn": true,
-        "ballotNote": "Write-in campaign documented in the St. Clair County Clerk filings and Illinois Green Party candidate statements. Not a printed-ballot nominee; confirm write-in eligibility with your own election authority."
+        "ballotNote": "The official Illinois State Board of Elections candidate list records Timothea Papas (Green Party) as filed May 26, 2026 and Removed on July 14, 2026. She does not appear on the printed statewide ballot (verified on the Will County and St. Clair County specimen ballots). A September 2, 2026 write-in declaration is on file in St. Clair County; write-in votes count only in jurisdictions where a timely declaration was filed.",
+        "ballotStatus": "Removed from the Illinois State Board of Elections candidate list on July 14, 2026; later filed a September 2, 2026 declaration of intent to be a write-in candidate in St. Clair County"
       }
     ],
     "evidence": [

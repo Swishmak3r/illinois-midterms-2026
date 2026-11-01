@@ -6,7 +6,7 @@ window.IL_ALIGNMENT_DATA = {
   "period": "2025-01-22 to 2025-07-03",
   "methodology": {
     "label": "Trump policy alignment · six-measure sample",
-    "summary": "Agreement with six selected Trump-backed federal measures from January–July 2025. This is a limited legislative policy sample, not an overall ideology or endorsement rating.",
+    "summary": "Agreement with six selected Trump-backed federal measures from January-July 2025. This is a limited legislative policy sample, not an overall ideology or endorsement rating.",
     "formula": "100 × recorded agreements ÷ recorded agreements and disagreements, rounded to the nearest whole percent. At least three evidenced measures are required.",
     "selection": "The basket was fixed before compiling member votes: immigration detention, citizenship documentation for voter registration, the tax/spending reconciliation package, spending rescissions, methane regulation, and California vehicle-emissions waivers. These distinct administration priorities have explicit White House support and identifiable substantive House votes; companion and procedural votes are excluded.",
     "limitations": [
@@ -29,7 +29,7 @@ window.IL_ALIGNMENT_DATA = {
       "baselineSources": [
         {
           "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-Laken-Riley-1.22.25.pdf",
-          "title": "OMB Statement of Administration Policy — S.5, Laken Riley Act",
+          "title": "OMB Statement of Administration Policy - S.5, Laken Riley Act",
           "published": "2025-01-22"
         }
       ],
@@ -47,7 +47,7 @@ window.IL_ALIGNMENT_DATA = {
       "baselineSources": [
         {
           "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-HR22.pdf",
-          "title": "OMB Statement of Administration Policy — H.R.22, SAVE Act",
+          "title": "OMB Statement of Administration Policy - H.R.22, SAVE Act",
           "published": "2025-04-08"
         }
       ],
@@ -65,7 +65,7 @@ window.IL_ALIGNMENT_DATA = {
       "baselineSources": [
         {
           "url": "https://www.whitehouse.gov/releases/2025/07/president-trumps-one-big-beautiful-bill-is-now-the-law/",
-          "title": "White House — President Trump’s One Big Beautiful Bill Is Now the Law",
+          "title": "White House - President Trump’s One Big Beautiful Bill Is Now the Law",
           "published": "2025-07-04"
         }
       ],
@@ -83,7 +83,7 @@ window.IL_ALIGNMENT_DATA = {
       "baselineSources": [
         {
           "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-on-H.R.-4.pdf",
-          "title": "OMB Statement of Administration Policy — H.R.4, Rescissions Act of 2025",
+          "title": "OMB Statement of Administration Policy - H.R.4, Rescissions Act of 2025",
           "published": "2025-06-10"
         }
       ],
@@ -101,7 +101,7 @@ window.IL_ALIGNMENT_DATA = {
       "baselineSources": [
         {
           "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-HJRes-35.pdf",
-          "title": "OMB Statement of Administration Policy — H.J.Res.35",
+          "title": "OMB Statement of Administration Policy - H.J.Res.35",
           "published": "2025-02-24"
         }
       ],
@@ -119,7 +119,7 @@ window.IL_ALIGNMENT_DATA = {
       "baselineSources": [
         {
           "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/SAP-HJR-87-88-89.pdf",
-          "title": "OMB Statement of Administration Policy — H.J.Res.87, 88 and 89",
+          "title": "OMB Statement of Administration Policy - H.J.Res.87, 88 and 89",
           "published": "2025-04-28"
         }
       ],
@@ -141,7 +141,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -154,7 +154,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -167,7 +167,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -180,7 +180,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -193,7 +193,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -206,7 +206,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -225,7 +225,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -238,7 +238,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -251,7 +251,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -264,7 +264,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -277,7 +277,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -290,7 +290,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -309,7 +309,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -322,7 +322,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -335,7 +335,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -348,7 +348,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -361,7 +361,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -374,7 +374,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -393,7 +393,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -406,7 +406,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -419,7 +419,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -432,7 +432,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -445,7 +445,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -458,7 +458,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -477,7 +477,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -490,7 +490,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -503,7 +503,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -516,7 +516,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -529,7 +529,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -542,7 +542,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -561,7 +561,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -574,7 +574,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -587,7 +587,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -600,7 +600,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -613,7 +613,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -626,7 +626,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -645,7 +645,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -658,7 +658,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -671,7 +671,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -684,7 +684,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -697,7 +697,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -710,7 +710,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -729,7 +729,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -742,7 +742,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -755,7 +755,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -768,7 +768,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -781,7 +781,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -794,7 +794,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -813,7 +813,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -826,7 +826,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -839,7 +839,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -852,7 +852,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -865,7 +865,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -878,7 +878,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -897,7 +897,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -910,7 +910,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -923,7 +923,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -936,7 +936,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -949,7 +949,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -962,7 +962,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -981,7 +981,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -994,7 +994,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -1007,7 +1007,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -1020,7 +1020,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -1033,7 +1033,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -1046,7 +1046,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]
@@ -1065,7 +1065,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202523",
-              "title": "U.S. House Clerk — roll call 23, 2025-01-22",
+              "title": "U.S. House Clerk - roll call 23, 2025-01-22",
               "published": "2025-01-22"
             }
           ]
@@ -1078,7 +1078,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025102",
-              "title": "U.S. House Clerk — roll call 102, 2025-04-10",
+              "title": "U.S. House Clerk - roll call 102, 2025-04-10",
               "published": "2025-04-10"
             }
           ]
@@ -1091,7 +1091,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025190",
-              "title": "U.S. House Clerk — roll call 190, 2025-07-03",
+              "title": "U.S. House Clerk - roll call 190, 2025-07-03",
               "published": "2025-07-03"
             }
           ]
@@ -1104,7 +1104,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025168",
-              "title": "U.S. House Clerk — roll call 168, 2025-06-12",
+              "title": "U.S. House Clerk - roll call 168, 2025-06-12",
               "published": "2025-06-12"
             }
           ]
@@ -1117,7 +1117,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/202552",
-              "title": "U.S. House Clerk — roll call 52, 2025-02-26",
+              "title": "U.S. House Clerk - roll call 52, 2025-02-26",
               "published": "2025-02-26"
             }
           ]
@@ -1130,7 +1130,7 @@ window.IL_ALIGNMENT_DATA = {
           "sources": [
             {
               "url": "https://clerk.house.gov/Votes/2025114",
-              "title": "U.S. House Clerk — roll call 114, 2025-05-01",
+              "title": "U.S. House Clerk - roll call 114, 2025-05-01",
               "published": "2025-05-01"
             }
           ]

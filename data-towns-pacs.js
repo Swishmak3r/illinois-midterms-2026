@@ -689,9 +689,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-01",
       "IL-02"
     ],
-    "stateSenate": [
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-26"
     ],
@@ -737,9 +735,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-06",
       "IL-01"
     ],
-    "stateSenate": [
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-37"
     ],
@@ -1380,9 +1376,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-06",
       "IL-01"
     ],
-    "stateSenate": [
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-37"
     ],
@@ -1418,9 +1412,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-01",
       "IL-06"
     ],
-    "stateSenate": [
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-37"
     ],
@@ -1471,9 +1463,7 @@ window.IL_TOWNS_DIRECTORY = [
     "usHouse": [
       "IL-06"
     ],
-    "stateSenate": [
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-37"
     ],
@@ -1535,9 +1525,7 @@ window.IL_TOWNS_DIRECTORY = [
     "usHouse": [
       "IL-02"
     ],
-    "stateSenate": [
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-37"
     ],
@@ -1587,9 +1575,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-02",
       "IL-01"
     ],
-    "stateSenate": [
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-26"
     ],
@@ -1625,19 +1611,23 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-08"
     ],
     "stateSenate": [
+      "SD-21",
       "SD-41",
       "SD-24"
     ],
     "stateHouse": [
       "HD-47",
       "HD-84",
-      "HD-97"
+      "HD-97",
+      "HD-41",
+      "HD-85"
     ],
     "localRaces": [
       "dupage-board-chair",
       "dupage-sheriff",
       "dupage-clerk",
-      "dupage-treasurer"
+      "dupage-treasurer",
+      "will-appellate-court-3rd"
     ]
   },
   {
@@ -1669,8 +1659,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-14"
     ],
     "stateSenate": [
-      "SD-33",
-      "SD-43"
+      "SD-33"
     ],
     "stateHouse": [
       "HD-84",
@@ -1720,18 +1709,23 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-14",
       "IL-01"
     ],
-    "stateSenate": [
-      "SD-43",
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-97",
-      "HD-37"
+      "HD-37",
+      "HD-98",
+      "HD-85"
     ],
     "localRaces": [
       "will-clerk",
       "will-sheriff",
-      "will-treasurer"
+      "will-treasurer",
+      "will-regional-superintendent",
+      "will-appellate-court-3rd",
+      "will-circuit-court-1st-subcircuit",
+      "will-circuit-court-3rd-subcircuit",
+      "will-circuit-court-5th-subcircuit",
+      "will-judicial-retention"
     ]
   },
   {
@@ -1842,11 +1836,13 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-11"
     ],
     "stateSenate": [
+      "SD-21",
       "SD-24",
       "SD-41"
     ],
     "stateHouse": [
-      "HD-47"
+      "HD-47",
+      "HD-41"
     ],
     "localRaces": [
       "dupage-board-chair",
@@ -1889,7 +1885,8 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-11"
     ],
     "stateSenate": [
-      "SD-41"
+      "SD-41",
+      "SD-21"
     ],
     "stateHouse": [
       "HD-47"
@@ -1927,7 +1924,8 @@ window.IL_TOWNS_DIRECTORY = [
     ],
     "stateSenate": [
       "SD-24",
-      "SD-39"
+      "SD-39",
+      "SD-21"
     ],
     "stateHouse": [
       "HD-47"
@@ -1988,39 +1986,6 @@ window.IL_TOWNS_DIRECTORY = [
     ]
   },
   {
-    "id": "bolingbrook-romeoville",
-    "name": "Bolingbrook & Romeoville",
-    "zips": [
-      "60439",
-      "60440",
-      "60446",
-      "60490"
-    ],
-    "aliases": [
-      "Bolingbrook",
-      "Romeoville",
-      "Lemont",
-      "DuPage Township"
-    ],
-    "region": "Collar Counties (North Will County)",
-    "county": "Will",
-    "usHouse": [
-      "IL-11",
-      "IL-14"
-    ],
-    "stateSenate": [
-      "SD-43"
-    ],
-    "stateHouse": [
-      "HD-97"
-    ],
-    "localRaces": [
-      "will-clerk",
-      "will-sheriff",
-      "will-treasurer"
-    ]
-  },
-  {
     "id": "plainfield-oswego-shorewood",
     "name": "Plainfield, Shorewood, Oswego & Yorkville (Will & Kendall Corridor)",
     "zips": [
@@ -2048,9 +2013,7 @@ window.IL_TOWNS_DIRECTORY = [
     "usHouse": [
       "IL-14"
     ],
-    "stateSenate": [
-      "SD-43"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-97",
       "HD-84"
@@ -2058,7 +2021,13 @@ window.IL_TOWNS_DIRECTORY = [
     "localRaces": [
       "will-clerk",
       "will-sheriff",
-      "will-treasurer"
+      "will-treasurer",
+      "will-regional-superintendent",
+      "will-appellate-court-3rd",
+      "will-circuit-court-1st-subcircuit",
+      "will-circuit-court-3rd-subcircuit",
+      "will-circuit-court-5th-subcircuit",
+      "will-judicial-retention"
     ]
   },
   {
@@ -2088,7 +2057,6 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-02"
     ],
     "stateSenate": [
-      "SD-19",
       "SD-41"
     ],
     "stateHouse": [
@@ -2097,7 +2065,13 @@ window.IL_TOWNS_DIRECTORY = [
     "localRaces": [
       "will-clerk",
       "will-sheriff",
-      "will-treasurer"
+      "will-treasurer",
+      "will-regional-superintendent",
+      "will-appellate-court-3rd",
+      "will-circuit-court-1st-subcircuit",
+      "will-circuit-court-3rd-subcircuit",
+      "will-circuit-court-5th-subcircuit",
+      "will-judicial-retention"
     ]
   },
   {
@@ -2422,9 +2396,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-17",
       "IL-16"
     ],
-    "stateSenate": [
-      "SD-34"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-68",
       "HD-89"
@@ -2456,9 +2428,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-16",
       "IL-11"
     ],
-    "stateSenate": [
-      "SD-34"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-68"
     ],
@@ -2605,8 +2575,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-17"
     ],
     "stateSenate": [
-      "SD-36",
-      "SD-34"
+      "SD-36"
     ],
     "stateHouse": [
       "HD-89"
@@ -2732,9 +2701,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-15",
       "IL-02"
     ],
-    "stateSenate": [
-      "SD-52"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-104"
     ],
@@ -2775,9 +2742,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-02",
       "IL-15"
     ],
-    "stateSenate": [
-      "SD-52"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-104"
     ],
@@ -2823,7 +2788,6 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-16"
     ],
     "stateSenate": [
-      "SD-52",
       "SD-36"
     ],
     "stateHouse": [
@@ -3101,10 +3065,7 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-02",
       "IL-01"
     ],
-    "stateSenate": [
-      "SD-43",
-      "SD-19"
-    ],
+    "stateSenate": [],
     "stateHouse": [
       "HD-37"
     ],
@@ -3377,6 +3338,82 @@ window.IL_TOWNS_DIRECTORY = [
       "HD-114"
     ],
     "localRaces": []
+  },
+  {
+    "id": "bolingbrook",
+    "name": "Bolingbrook",
+    "zips": [
+      "60490",
+      "60440"
+    ],
+    "aliases": [
+      "Bolingbrook",
+      "60490",
+      "60440",
+      "DuPage Township"
+    ],
+    "region": "Collar Counties",
+    "county": "Will",
+    "usHouse": [
+      "IL-11",
+      "IL-14"
+    ],
+    "stateSenate": [
+      "SD-21"
+    ],
+    "stateHouse": [
+      "HD-98",
+      "HD-97",
+      "HD-85",
+      "HD-41"
+    ],
+    "localRaces": [
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-regional-superintendent",
+      "will-board-9",
+      "will-appellate-court-3rd",
+      "will-circuit-court-3rd-subcircuit",
+      "will-circuit-court-1st-subcircuit",
+      "will-circuit-court-5th-subcircuit",
+      "will-judicial-retention"
+    ]
+  },
+  {
+    "id": "romeoville",
+    "name": "Romeoville",
+    "zips": [
+      "60446"
+    ],
+    "aliases": [
+      "Romeoville",
+      "60446"
+    ],
+    "region": "Collar Counties",
+    "county": "Will",
+    "usHouse": [
+      "IL-11",
+      "IL-14"
+    ],
+    "stateSenate": [],
+    "stateHouse": [
+      "HD-98",
+      "HD-85",
+      "HD-97"
+    ],
+    "localRaces": [
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-regional-superintendent",
+      "will-board-9",
+      "will-appellate-court-3rd",
+      "will-circuit-court-3rd-subcircuit",
+      "will-circuit-court-1st-subcircuit",
+      "will-circuit-court-5th-subcircuit",
+      "will-judicial-retention"
+    ]
   }
 ];
 
@@ -3470,11 +3507,11 @@ window.IL_PACS_DIRECTORY = [
     "category": "Federal membership PAC",
     "alignment": "",
     "cycle2026Spending": "",
-    "leaderOrSource": "",
-    "description": "The FEC registers the American Israel Public Affairs Committee Political Action Committee as membership-organization PAC C00797670. It is a separate registered committee from United Democracy Project. Consult its dated filings for direct contributions and other reported activity.",
+    "leaderOrSource": "American Israel Public Affairs Committee connected PAC; announced on October 21, 2026 that it is ending candidate endorsements and direct contributions while affiliated super PAC United Democracy Project continues independent spending.",
+    "description": "Federal multicandidate PAC of the American Israel Public Affairs Committee (FEC ID C00797670). On October 21, 2026, AIPAC announced it is ending candidate endorsements and direct PAC contributions while its affiliated super PAC, United Democracy Project (C00799031), continues independent expenditures. Earlier in the 2025-2026 cycle, the PAC reported $55,442,603 in disbursements through September 30, 2026.",
     "keyBackedCandidates": [],
     "keyOpposedCandidates": [],
-    "issueFocus": "The connected organization states that it works to strengthen the U.S.–Israel relationship.",
+    "issueFocus": "The connected organization states that it works to strengthen the U.S. - Israel relationship.",
     "evidence": [
       {
         "field": "description",
@@ -3489,6 +3526,22 @@ window.IL_PACS_DIRECTORY = [
         "title": "AIPAC: About",
         "checked": "2026-10-28",
         "note": "Policy purpose attributed to the connected organization. This is not a current candidate-endorsement list."
+      },
+      {
+        "field": "description",
+        "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+        "title": "NPR: AIPAC says it is ending endorsements and direct contributions, October 21, 2026",
+        "sourceDate": "2026-10-21",
+        "checked": "2026-10-28",
+        "note": "Reports AIPAC's October 21, 2026 announcement ending direct candidate endorsements and PAC contributions while super PAC United Democracy Project continues independent spending."
+      },
+      {
+        "field": "leaderOrSource",
+        "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+        "title": "NPR: AIPAC says it is ending endorsements and direct contributions, October 21, 2026",
+        "sourceDate": "2026-10-21",
+        "checked": "2026-10-28",
+        "note": "Reports the October 21, 2026 shift from direct PAC endorsements and contributions to independent expenditures via United Democracy Project."
       }
     ],
     "committeeId": "C00797670",
@@ -3501,7 +3554,7 @@ window.IL_PACS_DIRECTORY = [
     "alignment": "",
     "cycle2026Spending": "",
     "leaderOrSource": "",
-    "description": "The FEC registers United Democracy Project as independent-expenditure-only committee C00799031. Its independent expenditures, transfers and operating expenses are different transaction categories; they should not be described as direct donations to the candidates featured in its advertising.",
+    "description": "Hybrid PAC and super PAC affiliated with AIPAC (FEC ID C00799031). Following AIPAC's October 21, 2026 announcement ending direct candidate endorsements and PAC contributions, United Democracy Project continues independent expenditures in federal races, having reported $94,918,891 in disbursements during the 2025-2026 cycle through September 30, 2026.",
     "keyBackedCandidates": [],
     "keyOpposedCandidates": [],
     "issueFocus": "",
@@ -3512,6 +3565,14 @@ window.IL_PACS_DIRECTORY = [
         "title": "FEC: United Democracy Project",
         "checked": "2026-10-28",
         "note": "Official committee identity, classification and financial-summary categories. FEC explains that independent expenditures are not given to or spent by candidates."
+      },
+      {
+        "field": "description",
+        "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
+        "title": "NPR: AIPAC says it is ending endorsements and direct contributions, October 21, 2026",
+        "sourceDate": "2026-10-21",
+        "checked": "2026-10-28",
+        "note": "Reports that AIPAC's super PAC, United Democracy Project, continues independent spending after AIPAC ended direct endorsements and contributions on October 21, 2026."
       }
     ],
     "committeeId": "C00799031",
@@ -3641,7 +3702,7 @@ window.IL_PACS_DIRECTORY = [
       {
         "field": "description",
         "url": "https://www.fec.gov/data/committee/C00005926/?cycle=2026",
-        "title": "FEC: Illinois Republican Party — Federal",
+        "title": "FEC: Illinois Republican Party - Federal",
         "checked": "2026-10-28",
         "note": "Official federal committee identity."
       }
