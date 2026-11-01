@@ -6,7 +6,9 @@ A static research guide for Illinois' November 3, 2026 general election.
 
 ## Current accuracy audit
 
-The November 1 repair contains 465 contests and 645 candidate/ticket profiles, including all 17 U.S. House districts, all 118 Illinois House districts, all 39 current-cycle Senate contests, and all active judicial/regional-superintendent offices in the captured Illinois SBE source. County-filed offices, local write-ins and referendums remain selective. Five county roster-source gaps are explicitly disclosed.
+The November 1 repair contains 465 contests and 645 candidate/ticket profiles, including all 17 U.S. House districts, all 118 Illinois House districts, all 39 current-cycle Senate contests, and all active judicial/regional-superintendent offices in the captured Illinois SBE source. All five formerly unresolved Cook/McHenry roster sources are now verified. County-filed offices, local write-ins and referendums remain selective.
+
+All 131 retention profiles include current professional assessments. Selected primary decisions supply 200 ruling examples for 128 judges, including 13 examples for Will County's four judges. Each distinguishes the judge's action, legal reasoning, appeal outcome and source limitations. Three judges have explicit ruling-research gaps. Historical election parties and dated public statements are separate from rulings; no personal ideology or Trump-loyalty score is inferred. [Judicial review](audit/judicial-2026/release-report.md).
 
 All 400 retained issue statements and 118 endorsements were checked against actual source content; eight retain explicit qualifications. All 126 displayed state/local financial reports, 223 FEC totals and 38 FEC identities were freshly reconciled. These checks establish source fidelity, not independent truth of campaign claims or a 100% personal-ballot guarantee. See [FACT_CHECK.md](FACT_CHECK.md) for exact scope, corrections, qualifications and source ledgers.
 
@@ -28,10 +30,11 @@ Open http://127.0.0.1:4173/. Edit source modules, then rebuild index.html. The b
     npm test
     npm run test:audit-ui
     npm run test:accuracy-ui
+    npm run test:judicial-ui
 
 Browser commands require the preview server. Windows Chromium checks use installed Edge. Firefox/WebKit binaries are installed in .cache/browsers. Existing browser overrides and --engines/--viewports/--match options remain supported. Tests cover Windows browser engines and viewports, not physical devices.
 
-`verify` compares every state-filed active roster with the sanitized official snapshot; checks all 1,575 postal ZIPs, Census overlaps and fail-closed lookup; validates every retained issue/endorsement against the exact reviewed text; checks evidence metadata, alignment votes and finance safeguards; and builds the page. CI checks the committed index.html matches its sources. Passing offline tests does not assert that external pages were freshly reviewed on that run.
+`verify` compares every state-filed active roster with the sanitized official snapshot; checks all 1,575 postal ZIPs, Census overlaps and fail-closed lookup; validates retained issue/endorsement text and judicial-module reproduction against reviewed ledgers; checks evidence metadata, alignment votes and finance safeguards; and builds the page. CI checks the committed index.html matches its sources. Passing offline tests does not assert that external pages were freshly reviewed on that run.
 
 For a fresh network comparison of the 126 state/local filings:
 
@@ -44,6 +47,8 @@ The two paper summaries require visual review if their source bytes change. Neve
 The postal directory has 1,575 Illinois ZIPs. Census 2020 ZCTAs exist for 1,396; these are intersected with official 2026 congressional/state legislative/county polygons. 179 unmatched postal ZIPs show statewide results. Community and postal-city views combine only their listed ZIP areas. All results remain approximate; only an election authority can establish address-specific eligibility.
 
 Direct district/office selection clears ZIP and other filters. County filtering uses documented district/county overlaps and includes statewide offices. Offices lacking confirmed county mapping remain accessible in the full directory. The former manually classified region filter has been removed; new share links use `county=Cook`, for example. Postal-city share links preserve a resolvable city name.
+
+Judicial retention geography can differ from current court jurisdiction. Knecht's retention electorate is the original 30-county Fourth District; Barberis uses the current 48-county Fifth District. Official 2026 specimen ballots corroborate the distinction. [Retention geography review](audit/judicial-2026/geography-review.md).
 
 Rebuilding Census intersections requires Python requests+Shapely and network access, or the cached source responses:
 

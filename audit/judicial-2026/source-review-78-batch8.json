@@ -1,0 +1,403 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Independent review of all 21 selected case records for 17 batch 8 judges; 22 primary decisions read, including the later Felice-related opinion. No production edits.",
+  "method": "Read actual cached official court PDFs, checking captions, trial actions, relevant legal analysis, dispositions and the supplied later Felice-related opinion. Every selected record was compared with the underlying text, not search snippets. Official Montelauro PDF and the current Monroe County judge roster were also opened online. This is not a complete citator or trial-docket audit.",
+  "caseCount": 21,
+  "judgeCount": 17,
+  "unresolved": [],
+  "requestedPrecision": [],
+  "checks": [
+    {
+      "candidateId": "sbe-17th-circuit-retain-white-ronald-j-ron-white",
+      "judge": "Ronald J. \"Ron\" White",
+      "caseName": "People v. Maxey",
+      "citation": "2013 IL App (2d) 120283-U",
+      "decisionDate": "2013-06-24",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/cache-batch8-a/maxey.pdf",
+      "sourceSha256": "534235d1e29101755acfefffbad3e73ebdb74245a0f0131b703b2451814b6ad1",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/Resources/076c8b7d-ffe0-4580-b408-7a0de4ffd63d/2120283_R23.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; 1–2, 28–29, 34–36, 93–96"
+      ],
+      "finding": "White dismissed for statutory120-day breach;124days attribution and affirmance confirmed; Burke special concurrence distinguished."
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-walsh-ann-celine-walsh",
+      "judge": "Ann Celine Walsh",
+      "caseName": "People v. O'Brien",
+      "citation": "2022 IL App (2d) 200532-U",
+      "decisionDate": "2022-08-16",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/cache-batch8-a/obrien.pdf",
+      "sourceSha256": "fb7ae972674ef43e1dc7e6648a107285e8026a834f75732e2f133974be89164f",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/0001d6b2-c60e-442b-bdf8-21df3d88fe40/People%20v.%20O%27Brien%2C%202022%20IL%20App%20%282d%29%20200532-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; 19–23, 35–43"
+      ],
+      "finding": "Walsh second-stage dismissal and Ruiz reasoning confirmed; limited to impeachment information before guilty plea, not every disclosure duty."
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-o-toole-monique-o-toole",
+      "judge": "Monique O'Toole",
+      "caseName": "People v. Soto",
+      "citation": "2023 IL App (3d) 220029-U",
+      "decisionDate": "2023-11-07",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/cache-batch8-a/soto.pdf",
+      "sourceSha256": "b29dcd272e599d30ef5f28114f4aad91c496e2cfe5192a69c4245513e01ad856",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/03f26b71-8a89-41a8-aeb3-8210ceb84c34/People%20v.%20Soto%2C%202023%20IL%20App%20%283d%29%20220029-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; 5, 9–12, 20–22, 27–30, 34–40"
+      ],
+      "finding": "Bench convictions and directed verdicts confirmed; appellate hearsay error harmless; one-act-one-crime remand retained."
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-felice-richard-d-felice",
+      "judge": "Richard D. Felice",
+      "caseName": "In re Parentage of A.G.",
+      "citation": "2024 IL App (3d) 240003-U",
+      "decisionDate": "2024-05-31",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/cache-batch8-a/ag2024.pdf",
+      "sourceSha256": "5ffa984e9303fa3e53e4f31b5ee115ffec6480b6620c4c49c4e574abc79d1493",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/3ff5f689-5248-47e0-9cec-42e7ffa4b0ad/file",
+        "https://www.illinoiscourts.gov/resources/cfd749ea-3038-47c8-8436-712272b16b44/file"
+      ],
+      "checkedPassages": [
+        "Caption; 1–2, 18–28, 46–47",
+        "1–5, 60–62, 70–79"
+      ],
+      "finding": "Felice allocation judgment confirmed. Read2026A.L.G. later opinion: Riordan posttrial rulings distinguished; support retroactivity changed on appeal."
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-o-connell-margaret-peggy-o-connell",
+      "judge": "Margaret \"Peggy\" O'Connell",
+      "caseName": "People v. Stewart",
+      "citation": "2026 IL App (3d) 250218",
+      "decisionDate": "2026-08-10",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/cache-batch8-a/stewart.pdf",
+      "sourceSha256": "5f96b8c46e4467a296b2414bdc63418ca4d4cce17bc78b14dabf58e09c014814",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/2a37bdef-b65b-4838-ba1f-f516449be8c6/file"
+      ],
+      "checkedPassages": [
+        "Caption; 4–10, 15–22, 25–31"
+      ],
+      "finding": "OConnell statutory predicate/proof determination confirmed; AHC and countVI reversed; merged counts and Rule472motion remanded; no SecondAmendment merits attribution."
+    },
+    {
+      "candidateId": "sbe-19th-circuit-retain-booras-james-k-booras",
+      "judge": "James K. Booras",
+      "caseName": "People v. Asma",
+      "citation": "2026 IL App (2d) 250520-U",
+      "decisionDate": "2026-02-06",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/cache-batch8-a/asma.pdf",
+      "sourceSha256": "346bca1b598922747a9ac21f309434f695369d66df6cb4a9175de216353486be",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/77deca92-ca0f-484f-9116-635147080911/People%20v.%20Asma%202026%20IL%20App%20%282d%29%20250520-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; 8, 22–25, 28–36"
+      ],
+      "finding": "Booras ruled on later relief motion; Nerheim initial detention. Individual threats and weapons distinguish generic drug danger."
+    },
+    {
+      "candidateId": "sbe-19th-circuit-retain-slavin-marnie-m-slavin",
+      "judge": "Marnie M. Slavin",
+      "caseName": "City of Highland Park v. Morris",
+      "citation": "2022 IL App (2d) 210417-U",
+      "decisionDate": "2022-05-31",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/cache-batch8-a/morris.pdf",
+      "sourceSha256": "4f8faa5b87cca0e8d1eb6c34ae7b3f1d46900b2550de82a5f569e3d2697d792c",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/a7b06e9f-33e9-4359-9327-8f2c3d220ad1/City%20of%20Highland%20Park%20v.%20Morris%2C%202022%20IL%20App%20%282d%29%20210417-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; 1–2, 12, 15, 18–24, 27–30"
+      ],
+      "finding": "Slavin suppression reasoning confirmed; appellate reversal based on objective video/circumstances accurately separated."
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-feetterer-michael-w-feetterer",
+      "judge": "Michael W. Feetterer",
+      "caseName": "People v. Thomforde",
+      "citation": "2026 IL App (2d) 240681-U",
+      "decisionDate": "2026-06-09",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2026_IL_App_2d_240681-U.pdf",
+      "sourceSha256": "783e65459607c44b0d80caba37a5aa9ce592ae21fd26e4b150a5d459f0829cd6",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/064ed59d-1760-493d-a40b-686715b44ecd/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 4–5, 20–21, 29–30, 40–44, 46–52"
+      ],
+      "finding": "Feetterer admitted statements and sentenced after jury verdict; ineffectiveassistance/Butler analysis belongs to appellate panel."
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-gervais-david-r-gervais",
+      "judge": "David R. Gervais",
+      "caseName": "In re Estate of Kohnen",
+      "citation": "2026 IL App (2d) 250453",
+      "decisionDate": "2026-06-18",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2026_IL_App_2d_250453.pdf",
+      "sourceSha256": "0d1b40aa6cc7ec98347e620ac1d23d2d43191ff8494998f2ec23d9d71e913161",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/a667232d-cc17-448f-8c37-2ca2e4bb5ed5/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 1, 5–9, 13–17"
+      ],
+      "finding": "Gervais probate ruling reversed under prima-facie review without appelleebrief; not definitive broad Arizona-law holding."
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-gervais-david-r-gervais",
+      "judge": "David R. Gervais",
+      "caseName": "Blanton v. Illinois High School Association",
+      "citation": "2025 IL App (2d) 240599-U",
+      "decisionDate": "2025-07-02",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2025_IL_App_2d_240599-U.pdf",
+      "sourceSha256": "fed72e5cb3b237c9f98df89e3175ee9301725703fb978f34775b52c856e0e718",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/a062b679-98c3-4e4a-bc67-1762ad0db736/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 1–2, 19–21, 38–46, 69–80, 85–88"
+      ],
+      "finding": "Gervais injunctions and confidentiality remedy affirmed; appellate adopted inapplicability of particular recruiting provision, did not reach every alternative trial rationale."
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-hansen-justin-m-hansen",
+      "judge": "Justin M. Hansen",
+      "caseName": "People v. Jackson",
+      "citation": "2026 IL App (2d) 240636-U",
+      "decisionDate": "2026-02-09",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2026_IL_App_2d_240636-U.pdf",
+      "sourceSha256": "68fd7c427ada4a7ecef09a0811dfb7ade5b6ef2d07b7b19d24e5c19a7e102dda",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/c6081992-2a49-4434-a09b-a593af97c1fc/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 1–2, 7–9, 11–19"
+      ],
+      "finding": "Hansen sentencing reasons and concurrent terms confirmed. Appellate racial-disparity discussion not attributed to Hansen."
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-gerhardt-mark-r-gerhardt",
+      "judge": "Mark R. Gerhardt",
+      "caseName": "People v. Price",
+      "citation": "2026 IL App (2d) 250047-U",
+      "decisionDate": "2026-05-13",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2026_IL_App_2d_250047-U.pdf",
+      "sourceSha256": "7d631f77aad83d2023bdf9e77dd0a8153b3954ebce67c039a2080044a14aa8ee",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/cb417837-310c-44d2-a07d-247d5fa67ea8/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 4, 18–19, 40, 53, 59–63"
+      ],
+      "finding": "Gerhardt suppression/guilt decisions confirmed. Paragraphs40,53 expressly place constitutional gun arguments first on appeal. Formal judgment affirmed; openingparagraph discrepancy disclosed."
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-sabol-michael-sabol",
+      "judge": "Michael Sabol",
+      "caseName": "People v. Jensen",
+      "citation": "2024 IL App (3d) 230229-U",
+      "decisionDate": "2024-12-30",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2024_IL_App_3d_230229-U.pdf",
+      "sourceSha256": "76cac31dfc5949f12e8edde4206aa211b766804f8a6b24e980107a155f1f3289",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/169c38ec-9f51-4bbe-b9f4-4ae3591b54c6/People%20v.%20Jensen%2C%202024%20IL%20App%20%283d%29%20230229-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 17, 23–31"
+      ],
+      "finding": "Sabol suppression denial and clarification/noncustodial reasoning confirmed; unanimous affirmance."
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-dickenson-william-s-dickenson",
+      "judge": "William S. Dickenson",
+      "caseName": "People v. Brown",
+      "citation": "2025 IL App (3d) 240596-U",
+      "decisionDate": "2025-10-28",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2025_IL_App_3d_240596-U.pdf",
+      "sourceSha256": "632ff6310b326def883535d1951280bb247159a9827e2db600aa4d9ccfb9f0d4",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/524f8370-9275-448a-abf1-a1ebffd1cf93/People%20v.%20Brown%202025%20IL%20App%20%283d%29%20240596-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 14–15, 21–29"
+      ],
+      "finding": "Dickenson bench conviction sustained, but factual Krankel inquiry required; limited remand accurately described."
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-dickenson-william-s-dickenson",
+      "judge": "William S. Dickenson",
+      "caseName": "People v. McDermott",
+      "citation": "2025 IL App (3d) 240707-U",
+      "decisionDate": "2025-03-27",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2025_IL_App_3d_240707-U.pdf",
+      "sourceSha256": "5006755ebc013504db7e67c9f8873a1e3148e335cd29c147a2bfd6111ee43f8d",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/cdf3f4b0-61fc-4bc0-af39-9a3a16d150b3/People%20v.%20McDermott%2C%202025%20IL%20App%20%283d%29%20240707-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 5, 9–12, 15–26"
+      ],
+      "finding": "Dickenson individual detention and2-1affirmance confirmed; dissent/timeelapsed factors retained; not bail-system ideology."
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-parkhurst-lindsay-parkhurst",
+      "judge": "Lindsay Parkhurst",
+      "caseName": "Burrell v. Perez",
+      "citation": "2025 IL App (3d) 250353-U",
+      "decisionDate": "2025-10-27",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-cache/2025_IL_App_3d_250353-U.pdf",
+      "sourceSha256": "13b75ab4de8bff999113046d882dc74d4c3074e741fc70621d811332951d18f9",
+      "sourceUrls": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/69405560-6380-4e56-aa6d-71d8ba8a1458/Burrell%20v.%20Perez%202025%20IL%20App%20%283d%29%20250353-U.pdf"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 7–8, 13–20"
+      ],
+      "finding": "Parkhurst denied plaintiffs injunction, gave defendant possession without notice; appellate affirmed first and reversed second, not ownership merits."
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-parkhurst-lindsay-parkhurst",
+      "judge": "Lindsay Parkhurst",
+      "caseName": "In re Cornelius W.",
+      "citation": "2024 IL App (3d) 230027-U",
+      "decisionDate": "2024-02-08",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-c-cache/Cornelius.pdf",
+      "sourceSha256": "93b0849128f741b9b9e35eb9120da271c9c818c52c7a033c453851d70368862e",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/0f623f48-7f79-46ed-aa2c-e46d2969df44/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 11–15, 20–22, 29–39, 41–42"
+      ],
+      "finding": "Parkhurst medication authorization reversed for missing dosage and writtenalternatives evidence; expiredorder/mootnessexception distinguished."
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-parkhurst-lindsay-parkhurst",
+      "judge": "Lindsay Parkhurst",
+      "caseName": "Andrade v. City of Kankakee",
+      "citation": "2023 IL App (3d) 230035",
+      "decisionDate": "2023-11-01",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-c-cache/Andrade.pdf",
+      "sourceSha256": "7cacefd64d6f1178cbef9067f0fd36994376a1204d77118a85c5c760e4b3b6b9",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/0703905d-37f4-4735-b404-87dde0760170/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 1, 10, 18, 28–35"
+      ],
+      "finding": "Parkhurst dismissal under Illinois4-102 absoluteimmunity confirmed; leave-to-amend denied; appellate affirmed. Not federal qualifiedimmunity."
+    },
+    {
+      "candidateId": "sbe-23rd-circuit-retain-gleason-jody-p-gleason",
+      "judge": "Jody P. Gleason",
+      "caseName": "Montelauro v. Lutkus",
+      "citation": "2025 IL App (2d) 240369",
+      "decisionDate": "2025-05-20",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-c-cache/south/montelauro.pdf",
+      "sourceSha256": "8a1df72091dd156740f1e78f84d726a32f006e3393de46edd9158fc8ab3fa102",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/46cabf77-4d8d-4b13-8435-9330f73a27db/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 4, 40, 46, 57–62, 64–65"
+      ],
+      "finding": "Gleason protectionorder and harassment/personal-liberty findings confirmed; publishedMay20opinion replacedApril14Rule23order."
+    },
+    {
+      "candidateId": "sbe-24th-circuit-retain-campanella-james-w-campanella",
+      "judge": "James W. Campanella",
+      "caseName": "People v. Everitt",
+      "citation": "2025 IL App (5th) 240185-U",
+      "decisionDate": "2025-12-19",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-c-cache/south/everitt.pdf",
+      "sourceSha256": "eb2333704d095cafc4ffbb2c7bb74f3d25ea21a141d0f2cc228941240d3ac28e",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/fb72256e-b014-4e6b-a64e-6a8230001249/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 12–15, 17, 20–29, 31–32"
+      ],
+      "finding": "Campanella jurywaiver refusal and conviction reversed; remand todifferentjudge; appeal didnotreach gunconstitutionality. RefusalJan25,trial/sentenceJan29."
+    },
+    {
+      "candidateId": "sbe-24th-circuit-retain-hitzemann-chris-hitzemann",
+      "judge": "Chris Hitzemann",
+      "caseName": "People v. Jenkins",
+      "citation": "2023 IL App (5th) 210085",
+      "decisionDate": "2023-04-14",
+      "status": "source-summary-confirmed",
+      "sourcePdf": "audit/judicial-2026/batch8-c-cache/south/jenkins.pdf",
+      "sourceSha256": "d5ee5c22fd3c3b4fc9e85b4368614a5c89ca9f5f58111080e89127737827d3cf",
+      "sourceUrls": [
+        "https://www.illinoiscourts.gov/resources/d00be2a0-aab5-4596-a941-08710f49da29/file"
+      ],
+      "checkedPassages": [
+        "Caption; paragraphs 14–19, 23, 27–31, 33–34"
+      ],
+      "finding": "Successor judge Christopher E. Hitzemann reversed McGlynn's new-trial order; appellate court reversed Hitzemann and restored a new trial. Current official court roster and IDOC inspection confirm the Chris/Christopher name bridge."
+    }
+  ],
+  "laterDecisionRead": {
+    "caseName": "In re Parentage of A.L.G.",
+    "citation": "2026 IL App (3d)250124",
+    "sourcePdf": "audit/judicial-2026/cache-batch8-a/alg2026.pdf",
+    "sha256": "d6b20e9fce161a5d328e96ca155d712387c70ab39e141ee6d5e8582daf985e9c",
+    "passages": "Caption,1-5,60-62,70-80"
+  },
+  "limitations": [
+    "Current opinion-publication labels were not re-queried for every case; report distinguishes sourcepublication status from final appeal exhaustion.",
+    "No judge-wide political score or voting recommendation; ordinary case-specific outcomes do not establish national-party or Trump alignment.",
+    "No historical party facts occur in thisbatchledger."
+  ],
+  "status": "complete",
+  "correctionsVerified": [
+    {
+      "issue": "Corrupted en dashes in four McHenry source pinpoint strings",
+      "resolution": "Owner fixed canonical ledger and source part B; rechecked and found no remaining mojibake or replacement characters."
+    },
+    {
+      "issue": "Everitt trial-action date could blur separate proceedings",
+      "resolution": "Canonical and part C now specify January 25, 2024 waiver-refusal and January 29, 2024 trial/conviction/sentence; both dates checked in original paragraphs 13-15."
+    },
+    {
+      "issue": "Ballot Chris Hitzemann versus opinion Christopher E. Hitzemann",
+      "resolution": "Current official 24th Circuit Monroe roster names Chris Hitzemann; official IDOC 2024 Monroe inspection PDF identifies Christopher E. Hitzemann as resident judge in Circuit 24. Original sources read and identity bridge confirmed.",
+      "sources": [
+        "https://24thcircuit.illinoiscourts.gov/monroe-county-illinois/",
+        "https://idoc.illinois.gov/content/dam/soi/en/web/idoc/aboutus/jds2017/2024-jail-inspections/Monroe%20County.pdf"
+      ],
+      "idocPdfSha256": "be8a6aaebbf5dc2e8f02c3f36096a1f6d51183545dab0d9cbcdcd7e7b214419a"
+    }
+  ],
+  "inputLedgerSha256": "1200dae5deb96beef0ace1202d5b1f3c88627fdf5250a3284aefdfccc7e98be1"
+}

@@ -2947,7 +2947,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-cook-circuit-retain-stacey",
       "sbe-local-cook-circuit-retain-tirado",
       "sbe-local-cook-circuit-retain-walsh",
-      "sbe-local-cook-circuit-retain-zeller"
+      "sbe-local-cook-circuit-retain-zeller",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "Cook",
@@ -3196,7 +3197,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-cook-circuit-retain-stacey",
       "sbe-local-cook-circuit-retain-tirado",
       "sbe-local-cook-circuit-retain-walsh",
-      "sbe-local-cook-circuit-retain-zeller"
+      "sbe-local-cook-circuit-retain-zeller",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "Cook",
@@ -3728,7 +3730,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-cook-circuit-retain-stacey",
       "sbe-local-cook-circuit-retain-tirado",
       "sbe-local-cook-circuit-retain-walsh",
-      "sbe-local-cook-circuit-retain-zeller"
+      "sbe-local-cook-circuit-retain-zeller",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "Cook",
@@ -4515,7 +4518,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-18th-circuit-retain-walsh",
       "sbe-local-18th-circuit-retain-o-toole",
       "sbe-local-18th-circuit-retain-felice",
-      "sbe-local-18th-circuit-retain-o-connell"
+      "sbe-local-18th-circuit-retain-o-connell",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "DuPage",
@@ -4598,7 +4602,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-18th-circuit-retain-o-toole",
       "sbe-local-18th-circuit-retain-felice",
       "sbe-local-18th-circuit-retain-o-connell",
-      "sbe-local-23rd-circuit-retain-gleason"
+      "sbe-local-23rd-circuit-retain-gleason",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "DuPage",
@@ -4977,7 +4982,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-18th-circuit-retain-walsh",
       "sbe-local-18th-circuit-retain-o-toole",
       "sbe-local-18th-circuit-retain-felice",
-      "sbe-local-18th-circuit-retain-o-connell"
+      "sbe-local-18th-circuit-retain-o-connell",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "DuPage",
@@ -5125,7 +5131,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-cook-circuit-retain-stacey",
       "sbe-local-cook-circuit-retain-tirado",
       "sbe-local-cook-circuit-retain-walsh",
-      "sbe-local-cook-circuit-retain-zeller"
+      "sbe-local-cook-circuit-retain-zeller",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "Cook",
@@ -5259,7 +5266,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-cook-circuit-retain-stacey",
       "sbe-local-cook-circuit-retain-tirado",
       "sbe-local-cook-circuit-retain-walsh",
-      "sbe-local-cook-circuit-retain-zeller"
+      "sbe-local-cook-circuit-retain-zeller",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "Cook",
@@ -5411,7 +5419,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-cook-circuit-retain-stacey",
       "sbe-local-cook-circuit-retain-tirado",
       "sbe-local-cook-circuit-retain-walsh",
-      "sbe-local-cook-circuit-retain-zeller"
+      "sbe-local-cook-circuit-retain-zeller",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "Cook",
@@ -5708,7 +5717,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-18th-circuit-retain-o-toole",
       "sbe-local-18th-circuit-retain-felice",
       "sbe-local-18th-circuit-retain-o-connell",
-      "sbe-local-23rd-circuit-retain-gleason"
+      "sbe-local-23rd-circuit-retain-gleason",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "DeKalb",
@@ -5865,7 +5875,6 @@ window.IL_TOWNS_DIRECTORY = [
       "mchenry-sheriff",
       "mchenry-clerk",
       "mchenry-treasurer",
-      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-17th-circuit-retain-fabiano",
       "sbe-local-17th-circuit-retain-gulley",
       "sbe-local-17th-circuit-retain-white",
@@ -6406,13 +6415,14 @@ window.IL_TOWNS_DIRECTORY = [
     ],
     "localRaces": [
       "winnebago-sheriff",
-      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-15th-circuit-retain-roe-iv",
       "sbe-local-15th-circuit-retain-lee",
       "sbe-local-15th-circuit-retain-kane",
       "sbe-local-17th-circuit-retain-fabiano",
       "sbe-local-17th-circuit-retain-gulley",
-      "sbe-local-17th-circuit-retain-white"
+      "sbe-local-17th-circuit-retain-white",
+      "winnebago-clerk",
+      "winnebago-treasurer"
     ],
     "counties": [
       "Boone",
@@ -6479,10 +6489,11 @@ window.IL_TOWNS_DIRECTORY = [
     ],
     "localRaces": [
       "winnebago-sheriff",
-      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-17th-circuit-retain-fabiano",
       "sbe-local-17th-circuit-retain-gulley",
-      "sbe-local-17th-circuit-retain-white"
+      "sbe-local-17th-circuit-retain-white",
+      "winnebago-clerk",
+      "winnebago-treasurer"
     ],
     "counties": [
       "Boone",
@@ -6554,7 +6565,6 @@ window.IL_TOWNS_DIRECTORY = [
       "mchenry-sheriff",
       "mchenry-clerk",
       "mchenry-treasurer",
-      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-15th-circuit-retain-roe-iv",
       "sbe-local-15th-circuit-retain-lee",
       "sbe-local-15th-circuit-retain-kane",
@@ -6741,7 +6751,6 @@ window.IL_TOWNS_DIRECTORY = [
       "HD-90"
     ],
     "localRaces": [
-      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-14th-circuit-retain-patton",
       "sbe-local-14th-circuit-retain-church",
       "sbe-local-14th-circuit-retain-mcgehee",
@@ -6869,7 +6878,9 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-8th-circuit-retain-brenner",
       "sbe-local-11th-circuit-retain-fitton",
       "sbe-local-11th-circuit-retain-chambers",
-      "sbe-local-11th-circuit-retain-wright"
+      "sbe-local-11th-circuit-retain-wright",
+      "sangamon-clerk",
+      "sangamon-treasurer"
     ],
     "counties": [
       "Cass",
@@ -7064,6 +7075,7 @@ window.IL_TOWNS_DIRECTORY = [
     "localRaces": [
       "will-appellate-court-3rd",
       "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-5th-appellate-retain-barberis-jr",
       "sbe-local-5th-circuit-retain-shick",
       "sbe-local-5th-circuit-retain-o-shaughnessy",
@@ -7146,7 +7158,13 @@ window.IL_TOWNS_DIRECTORY = [
       "mclean-clerk",
       "mclean-sheriff",
       "mclean-treasurer",
+      "sbe-local-5th-appellate-welch-vacancy",
       "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-6th-circuit-retain-bollinger",
+      "sbe-local-6th-circuit-retain-bohm",
+      "sbe-local-6th-circuit-retain-rhoades",
+      "sbe-local-6th-circuit-retain-sullivan",
       "sbe-local-11th-circuit-retain-fitton",
       "sbe-local-11th-circuit-retain-chambers",
       "sbe-local-11th-circuit-retain-wright"
@@ -7249,7 +7267,9 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-10th-circuit-retain-doscotch",
       "sbe-local-11th-circuit-retain-fitton",
       "sbe-local-11th-circuit-retain-chambers",
-      "sbe-local-11th-circuit-retain-wright"
+      "sbe-local-11th-circuit-retain-wright",
+      "peoria-sheriff",
+      "peoria-treasurer"
     ],
     "counties": [
       "Fulton",
@@ -7332,6 +7352,7 @@ window.IL_TOWNS_DIRECTORY = [
     ],
     "localRaces": [
       "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-5th-appellate-retain-barberis-jr",
       "sbe-local-4th-circuit-retain-brandmeyer",
       "sbe-local-4th-circuit-retain-siemer",
@@ -7421,7 +7442,6 @@ window.IL_TOWNS_DIRECTORY = [
       "rock-island-clerk",
       "rock-island-sheriff",
       "rock-island-treasurer",
-      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-10th-circuit-retain-mack",
       "sbe-local-10th-circuit-retain-doscotch",
       "sbe-local-13th-circuit-retain-sobol",
@@ -7496,7 +7516,6 @@ window.IL_TOWNS_DIRECTORY = [
       "HD-94"
     ],
     "localRaces": [
-      "sbe-local-4th-appellate-retain-knecht",
       "sbe-local-9th-circuit-retain-vancil-jr",
       "sbe-local-9th-circuit-retain-doyle",
       "sbe-local-14th-circuit-retain-patton",
@@ -7771,7 +7790,9 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-7th-circuit-retain-grischow",
       "sbe-local-7th-circuit-retain-noll",
       "sbe-local-7th-circuit-retain-lorton",
-      "sbe-local-7th-circuit-retain-schmidt"
+      "sbe-local-7th-circuit-retain-schmidt",
+      "st-clair-assessor",
+      "st-clair-board-of-review"
     ],
     "counties": [
       "Bond",
@@ -7902,7 +7923,9 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-4th-circuit-retain-siemer",
       "sbe-local-4th-circuit-retain-powless",
       "sbe-local-24th-circuit-retain-campanella",
-      "sbe-local-24th-circuit-retain-hitzemann"
+      "sbe-local-24th-circuit-retain-hitzemann",
+      "st-clair-assessor",
+      "st-clair-board-of-review"
     ],
     "counties": [
       "Clinton",
@@ -8005,6 +8028,7 @@ window.IL_TOWNS_DIRECTORY = [
       "jackson-treasurer",
       "jackson-assessor",
       "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-1st-circuit-solverson-vacancy",
       "sbe-local-5th-appellate-retain-barberis-jr",
       "sbe-local-1st-circuit-retain-thurston",
       "sbe-local-1st-circuit-retain-tripp",
@@ -8221,7 +8245,8 @@ window.IL_TOWNS_DIRECTORY = [
       "sbe-local-18th-circuit-retain-walsh",
       "sbe-local-18th-circuit-retain-o-toole",
       "sbe-local-18th-circuit-retain-felice",
-      "sbe-local-18th-circuit-retain-o-connell"
+      "sbe-local-18th-circuit-retain-o-connell",
+      "dupage-forest-preserve-president"
     ],
     "counties": [
       "DuPage",

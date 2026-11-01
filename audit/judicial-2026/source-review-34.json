@@ -1,0 +1,996 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "source_review_34",
+  "status": "complete-with-stated-scope-limits",
+  "method": "Independent primary-source review: source_review_34 read all 22 batch 3 cases, and delegated independent reviewer source_review_34/review_batch4 read all 20 batch 4 cases. Captions, relevant full paragraphs, surrounding reasoning, procedural history, dates, dispositions and source pinpoints were compared against the ledgers. Source PDFs were visually inspected where date layout or election tables warranted it. This verifies cited summaries and source attribution; it is not an exhaustive career or subsequent-history citator audit.",
+  "batch3": {
+    "profiles": 15,
+    "withCases": 13,
+    "casesReviewed": 22,
+    "sourceLedgerSha256": "295d614769051d15fcc2c7146b5ecfec1d146d5724b9edf4dbaa1ec5ff821bef",
+    "findings": [
+      {
+        "case": "People v. Romero",
+        "citation": "2024 IL App (1st) 232023-U",
+        "severity": "precision",
+        "status": "corrected-by-owner-and-verified",
+        "finding": "The unsupported 48-hour-waiver appellate argument was forfeited without a merits determination. Canonical ledger and part3b now say so.",
+        "sourcePinpoint": "paragraph 40"
+      }
+    ],
+    "notes": [
+      "K.F. cover visually says Filed January 23, 2023, despite a separate earlier rehearing-denial line; current filed date follows the official displayed field.",
+      "Smith v. Smith has a Rule 23 notice despite no -U in the printed citation; the ledger preserves that distinction.",
+      "Page retained appellate jurisdiction and required a suppression hearing; no suppression ruling is falsely attributed to Walton.",
+      "Gavin reversal concerned insufficient proof, not a merits rejection of the evidentiary rulings.",
+      "Mays trial occurred April 25, 2019; sentence was imposed October 3, 2019. The trial date field denotes trial, not every later act.",
+      "Maloney and Mulroe have no included ruling, with explicit bounded search limitations. The additional independent search in extra-cook-gaps.json found zero new attributable rulings; it does not prove no such rulings exist."
+    ],
+    "cases": [
+      {
+        "candidateId": "sbe-cook-circuit-retain-denmark-sondra-n-denmark",
+        "judge": "Sondra N. Denmark",
+        "case": "Woods v. Pace Bus, Inc.",
+        "citation": "2023 IL App (1st) 220792-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/6e6ae109-2a0a-488a-9e96-a15c8d543691/file",
+        "pinpointsReviewed": "Identity: paragraph 15 and footnote 2; trial ruling: paragraphs 37–40; appellate analysis: paragraphs 52–54, 74–84; disposition: paragraphs 94–95",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2023_IL_App_(1st)_220792-U.txt",
+        "pdfSha256": "8ce438a3b224b9fabe810bcc403737438625d73b034922392d4fad87d1065662",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-tristan-jr-gerardo-tristan-jr",
+        "judge": "Gerardo Tristan, Jr.",
+        "case": "Smith v. Smith",
+        "citation": "2026 IL App (1st) 251339",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/390370db-c8cb-4483-b5b3-48d30860ab90/file",
+        "pinpointsReviewed": "Caption; paragraphs 2, 8–16, 29–34",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2026_IL_App_(1st)_251339.txt",
+        "pdfSha256": "798f564b4e1687a531ea3d4282a00bd4c2dee61c6e530740c5636c287fd3a8b9",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-weaver-boyle-lynn-weaver-boyle",
+        "judge": "Lynn Weaver Boyle",
+        "case": "Pal v. Office of the Public Access Counselor",
+        "citation": "2026 IL App (1st) 251564-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/c7f1dfea-d528-4b95-b1d3-455ab561ca39/file",
+        "pinpointsReviewed": "Caption; paragraphs 3–4, 11–13, 19–26, 28–29",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2026_IL_App_(1st)_251564-U.txt",
+        "pdfSha256": null,
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-weaver-boyle-lynn-weaver-boyle",
+        "judge": "Lynn Weaver Boyle",
+        "case": "Administrative District Council 1 of Illinois of the International Union of Bricklayers and Allied Craftworkers v. Brickster Inc.",
+        "citation": "2026 IL App (1st) 242339",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/2ebd2460-cadb-401a-9af8-9fbd724953a6/file",
+        "pinpointsReviewed": "Caption; paragraphs 16–21, 23–27, 44–51",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2026_IL_App_(1st)_242339.txt",
+        "pdfSha256": null,
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-cushing-thomas-m-cushing",
+        "judge": "Thomas M. Cushing",
+        "case": "Mandel v. Krochmal",
+        "citation": "2026 IL App (1st) 241481",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/d9fc06b7-2e2e-47c0-a03b-8fcba4b70c26/file",
+        "pinpointsReviewed": "Caption; paragraphs 1, 13, 40–47, 48–50",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2026_IL_App_(1st)_241481.txt",
+        "pdfSha256": "5f7fa25ee5058c707413391f7ae1b6a2cab0d9292d87f65d9cd6e772003eafeb",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-cushing-thomas-m-cushing",
+        "judge": "Thomas M. Cushing",
+        "case": "Doe v. J.P.J.",
+        "citation": "2024 IL App (1st) 240157",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/9214fa3c-344c-4681-9d67-6f92170ee0de/file",
+        "pinpointsReviewed": "Official-report cover; paragraphs 1, 11–14, 28–35, 37",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2024_IL_App_(1st)_240157.txt",
+        "pdfSha256": "7c625407e2fdd554836cf99a86bd57a311970a9998907e6b51874019b7dd62b2",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-walton-tyria-b-walton",
+        "judge": "Tyria B. Walton",
+        "case": "People v. Lyda",
+        "citation": "2026 IL App (1st) 241735-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/5ecc82b0-bc81-40ef-80a9-98ec5bc67073/file",
+        "pinpointsReviewed": "Caption; paragraphs 3–7, 13–18",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2026_IL_App_(1st)_241735-U.txt",
+        "pdfSha256": "15b88a62a0dfaf23b58d3ebab108408fdb1b2f847d7906a179549e880f1592d0",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-walton-tyria-b-walton",
+        "judge": "Tyria B. Walton",
+        "case": "People v. Page",
+        "citation": "2024 IL App (1st) 220830",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/d2b9f6fc-2a3d-424c-b744-19d4b2cfb63f/file",
+        "pinpointsReviewed": "Official-report cover; paragraphs 14–16, 30–31, 36, 42–46",
+        "localText": "audit/judicial-2026/research-batch-3-cache-a/2024_IL_App_(1st)_220830.txt",
+        "pdfSha256": "8f81b292a624c220d3818cc36be50ce412527debf92e770bbed969bba3bf90ff",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-antonietti-erin-haggerty-antonietti",
+        "judge": "Erin Haggerty Antonietti",
+        "case": "People v. Smetana",
+        "citation": "2024 IL App (1st) 230422-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/5830c19d-34e5-4268-b61d-1e32ed1795ac/file",
+        "pinpointsReviewed": "Caption; paragraphs 19–20, 25–33",
+        "localText": "audit/judicial-2026/research-batch-3-cache-b/antonietti-1.txt",
+        "pdfSha256": "263f23ada668511660ac3a08e946d60b2bf09358bad202db636e315a95aa4208",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-molina-gonzalez-teresa-molina-gonzalez",
+        "judge": "Teresa Molina-Gonzalez",
+        "case": "People v. Delgado",
+        "citation": "2025 IL App (1st) 241518",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/b07f28f0-c790-48fd-9fa1-578639c74ec6/file",
+        "pinpointsReviewed": "Caption; paragraphs 13, 16, 20–22, 29–42, 44–57",
+        "localText": "audit/judicial-2026/research-batch-3-cache-b/molina-13.txt",
+        "pdfSha256": "46514a1e1e05177c0a7fb9ee1b5d3c8cbe30067c97a93391727f1306722673e8",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-molina-gonzalez-teresa-molina-gonzalez",
+        "judge": "Teresa Molina-Gonzalez",
+        "case": "People v. Romero",
+        "citation": "2024 IL App (1st) 232023-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/6a43169e-40a5-45a7-9741-8e23dc92250c/file",
+        "pinpointsReviewed": "Caption; paragraphs 1, 4–7, 21, 35–45",
+        "localText": "audit/judicial-2026/research-batch-3-cache-b/molina-37.txt",
+        "pdfSha256": "f67ff397249f7b44ef025d3d1374910c93e450f112059bbc0c691cdc41e4eb09",
+        "result": "verified-after-precision-correction",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-fallon-patricia-maria-fallon",
+        "judge": "Patricia Maria Fallon",
+        "case": "Brackett v. Tyler",
+        "citation": "2024 IL App (1st) 221486-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/1d42c208-fe20-41bb-b618-a0f19ccd01c2/file",
+        "pinpointsReviewed": "Caption; paragraphs 5–8, 10–20",
+        "localText": "audit/judicial-2026/research-batch-3-cache-b/fallon-11.txt",
+        "pdfSha256": "aa9fa827322cc16b716211fec2de2df0576d82e1a1ed48136c7af30369a540d2",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-fallon-patricia-maria-fallon",
+        "judge": "Patricia Maria Fallon",
+        "case": "In re Marriage of Maslii",
+        "citation": "2026 IL App (1st) 251653-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/b58f3022-af5d-4d06-b111-73a6d30fba67/file",
+        "pinpointsReviewed": "Caption; paragraphs 15–17, 28–37",
+        "localText": "audit/judicial-2026/research-batch-3-cache-b/fallon-2.txt",
+        "pdfSha256": "ab700cdb8b18459c567d80c3161d0b207ed844133ef71d32576f26ef1dc44267",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-henry-sheree-d-henry",
+        "judge": "Sheree D. Henry",
+        "case": "People v. Mercado-Garcia",
+        "citation": "2025 IL App (1st) 240389-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/a6b64699-671d-4b64-ab05-b80bbb44c197/file",
+        "pinpointsReviewed": "Caption; paragraphs 3–4, 19–22, 28–34, 35–46",
+        "localText": "audit/judicial-2026/research-batch-3-cache-b/henry-0-clean.txt",
+        "pdfSha256": "5fbed0f8cff83691e0e038b63900f9ff530464bb329024fcfeb3df7ed2c5c6d4",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-henry-sheree-d-henry",
+        "judge": "Sheree D. Henry",
+        "case": "People v. Plascencia",
+        "citation": "2025 IL App (1st) 221715-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/2758dc2a-50ee-4bd8-81bf-2d2e3b18f97a/file",
+        "pinpointsReviewed": "Caption; paragraphs 6–8, 36–39, 47–58, 60–69",
+        "localText": "audit/judicial-2026/research-batch-3-cache-b/henry-1-clean.txt",
+        "pdfSha256": "31fce4b5152356d18dceb831d0b986f18f80f22d2ab8aa7fcc309974908d8464",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-mays-celestia-l-mays",
+        "judge": "Celestia L. Mays",
+        "case": "People v. Aviles",
+        "citation": "2021 IL App (1st) 192266-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/6c65f3f7-b7e2-4bf3-97cb-900174da67a7/file",
+        "pinpointsReviewed": "Caption; paragraphs 14–21, 23–28, 41–47",
+        "localText": "audit/judicial-2026/research-batch-3-cache/mays-aviles.txt",
+        "pdfSha256": "7aab084f198b63efc60d1ecb416b653156fbbb1a4bb01e383c531fd37782d492",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-smith-jr-levander-smith-jr",
+        "judge": "Levander Smith, Jr.",
+        "case": "In re K.F.",
+        "citation": "2023 IL App (1st) 220816",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/434d7238-5550-41b0-94a8-60765498dda6/file",
+        "pinpointsReviewed": "Caption; paragraphs 24–33, 35–46, 67–71, 97–105",
+        "localText": "audit/judicial-2026/research-batch-3-cache/smith-kf-clean.txt",
+        "pdfSha256": "b2969a12d7e07d8de040478082d9dffafeb720d94fc063cd8f61e7abbe626661",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-smith-jr-levander-smith-jr",
+        "judge": "Levander Smith, Jr.",
+        "case": "Martinez v. Singh",
+        "citation": "2021 IL App (1st) 201027-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/bc3fe10a-a3cf-4890-bf04-f9b38dc1ec5a/file",
+        "pinpointsReviewed": "Caption; paragraphs 6–10, 20–31",
+        "localText": "audit/judicial-2026/research-batch-3-cache/smith-martinez.txt",
+        "pdfSha256": "e1496c72ac58400b87a80bfbf13f3bd12f74358efe7ea538e4bf0d7b2454f2f8",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-aimen-julie-bess-aimen",
+        "judge": "Julie Bess Aimen",
+        "case": "Adams v. Cuellar",
+        "citation": "2025 IL App (1st) 250134-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/2b796a53-8b27-4e7c-9ef3-292ef8a39835/file",
+        "pinpointsReviewed": "Caption; paragraphs 93–108, 116–145",
+        "localText": "audit/judicial-2026/research-batch-3-cache/2025_IL_App_1st_250134-U-clean.txt",
+        "pdfSha256": "993bcee111ce8d83cb5e093823a1b0d49c3a469761b8783b262ca22a66ca8023",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-aimen-julie-bess-aimen",
+        "judge": "Julie Bess Aimen",
+        "case": "In re Marriage of Julin",
+        "citation": "2025 IL App (1st) 241855-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/be432352-da0a-46d1-a425-1d9dd9bcf18f/file",
+        "pinpointsReviewed": "Caption; paragraphs 15, 34–40, 45–61",
+        "localText": "audit/judicial-2026/research-batch-3-cache/2025_IL_App_1st_241855-U-clean.txt",
+        "pdfSha256": "a62a97e0dbe117bd72aa621a790b9e34e2859f560afc36efbe6dc86dbbcc2029",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-ayala-gonzalez-laura-ayala-gonzalez",
+        "judge": "Laura Ayala-Gonzalez",
+        "case": "In re Commitment of Gavin",
+        "citation": "2024 IL App (1st) 230246",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/21c3418e-2c98-4ed4-94ab-f6e03188d254/file",
+        "pinpointsReviewed": "Caption; paragraphs 1–4, 9–13, 39–46, 66–72",
+        "localText": "audit/judicial-2026/research-batch-3-cache/gavin.txt",
+        "pdfSha256": "32458a9fca6396c11c625e2d71989b237603264951169f980cbf5f48d859f24e",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-ayala-gonzalez-laura-ayala-gonzalez",
+        "judge": "Laura Ayala-Gonzalez",
+        "case": "People v. Austin",
+        "citation": "2026 IL App (1st) 260864-U",
+        "sourceUrl": "https://www.illinoiscourts.gov/resources/890ca5c9-c0bf-4b90-b2ce-f4da474f4021/file",
+        "pinpointsReviewed": "Caption; paragraphs 22–28, 31–38",
+        "localText": "audit/judicial-2026/research-batch-3-cache/ayala-austin.txt",
+        "pdfSha256": "474e76c9f02f5011cc4d703f507e81e537919aa6839d05e3bdbc7bf2fc396e1a",
+        "result": "verified",
+        "checks": [
+          "Judge identified in caption or express attribution",
+          "Judge action distinguished from jury and appellate action",
+          "Reasoning attributed only where source supplies it",
+          "Decision date and posture checked",
+          "Appeal result and unresolved later-history limits preserved"
+        ]
+      }
+    ]
+  },
+  "batch4": {
+    "checked": "2026-11-01",
+    "reviewer": "source_review_34/review_batch4",
+    "sourceLedger": "audit/judicial-2026/research-batch-4.json",
+    "sourceLedgerSha256": "351fff341032774e27fcb0b89d7415aa123b42c563a5a9ed22573e9050be276d",
+    "status": "verified with limited scope",
+    "profileCount": 15,
+    "caseCount": 20,
+    "profilesWithVerifiedCases": 14,
+    "profilesWithoutVerifiedCase": 1,
+    "historicalNominationCount": 15,
+    "method": "Independent actual primary PDF-text reading of captions, all relevant cited source sections, surrounding reasoning, dates and dispositions; long decisions sometimes read by relevant sections rather than every page. All 20 cached PDF hashes independently computed and matched. Party records read in actual canvass PDF pp13-15 with visual table checks pp14-15.",
+    "corrections": [
+      {
+        "case": "People v. Hicks",
+        "severity": "material",
+        "issue": "Insufficient-record position was the States argument, not the appellate holding. Record was sufficient; both constitutional claims rejected on merits.",
+        "status": "Confirmed corrected in canonical ledger."
+      },
+      {
+        "case": "Georgakopoulos v. Blake",
+        "severity": "date precision",
+        "issue": "May 15 was effective eviction date, not proven entry date.",
+        "status": "Confirmed canonical trialDecisionDate removed and evictionEffectiveDate retained."
+      },
+      {
+        "case": "People v. Wordlow",
+        "severity": "pinpoint precision",
+        "issue": "Order ends at 53, not 54.",
+        "status": "Confirmed canonical corrected to 43-53."
+      },
+      {
+        "case": "Lewis v. Kalbhen",
+        "severity": "optional completeness",
+        "issue": "The earlier draft omitted paragraph 49: the injunction count was affirmed on forfeiture, separately from the tort and DPPA merits grounds.",
+        "status": "Confirmed corrected in canonical ledger: injunction count affirmed on forfeiture, separately from the tort and DPPA merits grounds."
+      }
+    ],
+    "unresolvedMaterialErrors": [],
+    "cases": [
+      {
+        "candidateId": "sbe-cook-circuit-retain-butler-krista-d-butler",
+        "judge": "Krista D. Butler",
+        "caseId": "2026-il-app-1st-251823-u",
+        "caseName": "The Habitat Company, LLC v. James",
+        "citation": "2026 IL App (1st) 251823-U",
+        "appellateDate": "2026-04-30",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/5f31d75a-8574-4084-8a83-a5706db80bc3/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-first/2026-IL-App-(1st)-251823-U.pdf",
+        "sha256": "533f586f00e06e35e8657159178386057d4c93158fe9fecc07ab15e0067d0154",
+        "reviewedPinpoints": "Caption; paragraphs 3-10, 12-28",
+        "verifiedAnalysis": "Butler entered possession after tenant missed trial and denied vacatur. Affirmance reflects incomplete transcripts and duty to follow the case; later stay order was outside appellate jurisdiction.",
+        "dateReview": "Trial August 13 and September 9, 2025.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-dempsey-marie-aileen-dempsey",
+        "judge": "Marie Aileen Dempsey",
+        "caseId": "2026-il-app-1st-250326",
+        "caseName": "Paulinski v. Link",
+        "citation": "2026 IL App (1st) 250326",
+        "appellateDate": "2026-03-17",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/074fee27-f919-4298-9339-478551a70d25/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-first/2026-IL-App-(1st)-250326.pdf",
+        "sha256": "b5f09e0c74fd67a79210587a947f1b46aa9e28d70d3b7f9a6879aa5d3739a3d1",
+        "reviewedPinpoints": "Caption; paragraphs 2-6, 12-13, 19-26",
+        "verifiedAnalysis": "Dempsey denied sovereign-immunity dismissal on an independent professional-duty theory. Appellate court rejected it and remanded for dismissal; not a negligence merits finding.",
+        "dateReview": "Appellate March 17, 2026.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-dempsey-marie-aileen-dempsey",
+        "judge": "Marie Aileen Dempsey",
+        "caseId": "2026-il-app-1st-250882",
+        "caseName": "Greenfield v. Brannan",
+        "citation": "2026 IL App (1st) 250882",
+        "appellateDate": "2026-07-02",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/82cf9c41-b97c-4d60-897b-9e81e6bea5f7/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-first/2026-IL-App-(1st)-250882.pdf",
+        "sha256": "e9738fcf88d19022b3724bee54002f18fd0b38d63a34d270b7b70a5da3e8d116",
+        "reviewedPinpoints": "Caption; paragraphs 24-32, 53-63, 73-97",
+        "verifiedAnalysis": "Dempsey granted Menards summary judgment; driver claim remained pending. Missing oral trial reasons are acknowledged. Appellate court found no undertaking to secure the pipe, reliance, or substantial assistance to negligent securing.",
+        "dateReview": "Trial April 16, 2025; appellate July 2, 2026.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-dickler-jamie-guerra-dickler",
+        "judge": "Jamie Guerra Dickler",
+        "caseId": "2024-il-app-1st-221404-u",
+        "caseName": "Frankel v. Bedstone Co.",
+        "citation": "2024 IL App (1st) 221404-U",
+        "appellateDate": "2024-03-13",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/445ed738-f652-4981-b5ba-b430137ad6f2/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-first/2024-IL-App-(1st)-221404-U.pdf",
+        "sha256": "8411932421ce438ec1f9c7a6299c58697dd0d704b353570084c9d33c45016671",
+        "reviewedPinpoints": "Caption; paragraphs 23-32, 34-46",
+        "verifiedAnalysis": "Dickler treated payment offers as tender cutting off tenant attorney fees. Neither was valid tender; fee award reversed for a new determination, not every merits ruling.",
+        "dateReview": "Trial May 17 and August 22, 2022; appellate March 13, 2024.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-green-jonathan-clark-green",
+        "judge": "Jonathan Clark Green",
+        "caseId": "2026-il-app-1st-250894",
+        "caseName": "Vasquez v. Aguilar",
+        "citation": "2026 IL App (1st) 250894",
+        "appellateDate": "2026-09-08",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/081cebe2-d245-4d75-a78b-8367fd9c4fae/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-first/2026-IL-App-(1st)-250894.pdf",
+        "sha256": "498c2a1a021d9411c5f3004024ee9d7fd2eb0864dc592da6ed17b2a2ecf00957",
+        "reviewedPinpoints": "Caption; paragraphs 12-20, 35-48",
+        "verifiedAnalysis": "Green found past lockout abuse and entered protection and expense orders while doubting future harm. Appellate court reversed for missing statutory future-harm and protection-need findings; no constitutional gun holding.",
+        "dateReview": "Trial November 12, 2024 and April 9, 2025; appellate September 8, 2026.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-marubio-mary-catherine-marubio",
+        "judge": "Mary Catherine Marubio",
+        "caseId": "2024-il-app-1st-240367-u",
+        "caseName": "People v. Jones",
+        "citation": "2024 IL App (1st) 240367-U",
+        "appellateDate": "2024-05-16",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/3276be97-102c-4a3c-b6c4-6b5dbe2e5290/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-first/2024-IL-App-(1st)-240367-U.pdf",
+        "sha256": "3346394ce33f37e860b4a49f0da9cab5908c19fffa3a70d04ac0c392d31c3f99",
+        "reviewedPinpoints": "Caption; paragraphs 4-14, 19-28",
+        "verifiedAnalysis": "Marubio ordered detention on a case-specific threat record and considered possible future suppression. Appellate affirmance distinguished hearing admissibility from trial rules; no suppression merits or general cash-bail policy holding.",
+        "dateReview": "Appellate May 16, 2024.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-mescall-regina-a-mescall",
+        "judge": "Regina A. Mescall",
+        "caseId": "2025-il-app-1st-242311",
+        "caseName": "Atlas Asset Management v. Kang",
+        "citation": "2025 IL App (1st) 242311",
+        "appellateDate": "2025-10-28",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/2b0ff939-43bf-446f-a42a-7a6487c76c7f/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-middle/2025-IL-App-1st-242311.pdf",
+        "sha256": "99eecab152187d6210e9585e7cfa3f617485a4ffb2f0ea96631946b8eb387329",
+        "reviewedPinpoints": "Caption; paragraphs 8, 16, 26-38",
+        "verifiedAnalysis": "Mescall enforced contested settlement with possession and $75,000, then denied reconsideration. Reversed and remanded because material factual disputes required an evidentiary hearing; money vacated.",
+        "dateReview": "Trial August 16 and October 24, 2024; appellate October 28, 2025.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-mescall-regina-a-mescall",
+        "judge": "Regina A. Mescall",
+        "caseId": "2026-il-app-1st-241151-u",
+        "caseName": "People v. Wordlow",
+        "citation": "2026 IL App (1st) 241151-U",
+        "appellateDate": "2026-04-29",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/dcc98085-ac8b-4112-ae0d-40203b69a312/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-middle/2026-IL-App-1st-241151-U.pdf",
+        "sha256": "f3b98240c4cc4c16c424054ffd692c18819ea3348235846d23b474076e28f4ec",
+        "reviewedPinpoints": "Caption; paragraphs 20-29, 40-41, 43-53",
+        "verifiedAnalysis": "Mescall found battery and rejected defenses on initial-aggressor/evidence grounds. Affirmed. She removed intoxication evaluation for lack of proof. Opinion ends at paragraph 53.",
+        "dateReview": "Appellate April 29, 2026.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-murphy-lorraine-mary-murphy",
+        "judge": "Lorraine Mary Murphy",
+        "caseId": "2025-il-app-1st-241783-u",
+        "caseName": "People v. Hicks",
+        "citation": "2025 IL App (1st) 241783-U",
+        "appellateDate": "2025-11-13",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/e18903d6-6d52-4f98-a292-2e44dc0267e0/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-middle/2025-IL-App-1st-241783-U.pdf",
+        "sha256": "1cbc4fa35202ec68719416c64cec948e55dc7f3817e54fbc943e22168bf2f7db",
+        "reviewedPinpoints": "Caption; paragraphs 8-14, 19-31, especially 27-29",
+        "verifiedAnalysis": "Murphy denied postjudgment relief because surviving Class 2 UUWF conviction differed from invalidated AUUW statute. Both constitutional challenges were first raised on appeal. State argued inadequate record at 27; court found sufficient record at 28 and rejected as-applied claim on merits at 29. Canonical correction confirmed.",
+        "dateReview": "Trial August 2, 2024; appellate November 13, 2025.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-o-connor-eileen-marie-o-connor",
+        "judge": "Eileen Marie O'Connor",
+        "caseId": "2025-il-app-1st-242110",
+        "caseName": "Lewis v. Kalbhen",
+        "citation": "2025 IL App (1st) 242110",
+        "appellateDate": "2025-12-10",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/06450d59-490b-447c-92ac-814265dc6e10/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-middle/Lewis.pdf",
+        "sha256": "c048cc8a975855d5a6290d326d1b56f81e882fed2a40523923d7f0e6dadb2868",
+        "reviewedPinpoints": "Caption; paragraphs 3, 12, 32-38, 43-51",
+        "verifiedAnalysis": "O'Connor granted summary judgment. Appeal affirmed torts on litigation privilege and DPPA on permitted use, leaving statutory privilege undecided. Injunction challenge at 49 was forfeited, not independently decided on merits.",
+        "dateReview": "Appellate December 10, 2025. Official PDF has an impossible earlier rehearing-denial year; ledger flags rather than invents correction.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-o-connor-eileen-marie-o-connor",
+        "judge": "Eileen Marie O'Connor",
+        "caseId": "2023-il-app-1st-221454",
+        "caseName": "Kulhanek v. Casper",
+        "citation": "2023 IL App (1st) 221454",
+        "appellateDate": "2023-12-20",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/925bfb94-86d0-41b2-b08b-4e60ab292b9d/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-middle/Kulhanek.pdf",
+        "sha256": "8a71ceb5ba32a527552ed03c5bb0d23cb2824fdadd2cad5f4988e149735d0128",
+        "reviewedPinpoints": "Caption; paragraphs 5-6, 15-19, 37-43",
+        "verifiedAnalysis": "O'Connor ordered new trial on inconsistent breach verdict and excluded pre-possession mitigation. Appeal affirmed new trial but held evidence exclusion erroneous and required mitigation evidence on remand.",
+        "dateReview": "Appellate December 20, 2023.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-quinn-jill-rose-quinn",
+        "judge": "Jill Rose Quinn",
+        "caseId": "2026-il-app-1st-242023-u",
+        "caseName": "In re Marriage of Chapman Hardeman",
+        "citation": "2026 IL App (1st) 242023-U",
+        "appellateDate": "2026-01-08",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/0ed99b1f-e458-4f61-ba6c-def1252f8449/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-middle/Chapman.pdf",
+        "sha256": "953060c9826d4c6c2d12c022e81233c8e2aa4f68dfb35ceacf1cb03bca694d9a",
+        "reviewedPinpoints": "Caption; paragraphs 6-9, 15-21",
+        "verifiedAnalysis": "Quinn awarded half home equity instead of maintenance applying marital-property and discretionary factors. Affirmed. Separate due-on-sale argument was forfeited.",
+        "dateReview": "Trial April 19, 2024; appellate January 8, 2026.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-quinn-jill-rose-quinn",
+        "judge": "Jill Rose Quinn",
+        "caseId": "2025-il-app-1st-250562-u",
+        "caseName": "In re Marriage of Thompson",
+        "citation": "2025 IL App (1st) 250562-U",
+        "appellateDate": "2025-08-25",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/2152e2b1-3abb-4da9-a73e-b82e4e395e38/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-middle/Thompson.pdf",
+        "sha256": "079174739d48f3131119550ffd1d3ecfafd26238de69f2b6696c035c249e1752",
+        "reviewedPinpoints": "Caption; paragraphs 44-48, 53-61",
+        "verifiedAnalysis": "Quinn retained parenting allocation/time with limited calls and conditional $1,000 sanction for police wellness checks. Appeal dismissed for jurisdiction/finality and no timely Rule 306 petition; no merits approval. Earlier other-judge orders remain separate.",
+        "dateReview": "Trial February 26, 2025; appellate August 25, 2025.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-smith-tiesha-l-smith",
+        "judge": "Tiesha L. Smith",
+        "caseId": "2023-il-app-1st-220881",
+        "caseName": "In re H.C.",
+        "citation": "2023 IL App (1st) 220881",
+        "appellateDate": "2023-06-08",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/ab077883-3d40-4057-aeea-2bf2f01a9ef2/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-self/index-0-4.pdf",
+        "sha256": "6a2c87abb5f78c365675547beda347b4ae4f4dea04999bc3c181c4883c23003b",
+        "reviewedPinpoints": "Caption; paragraphs 1-2, 64-69, 108-155",
+        "verifiedAnalysis": "Smith found neglect and custody placements. Reversed for ineffective assistance involving inadmissible litigation-prepared medical report and 18,603 pages delivered midhearing without objection or continuance. New hearing, not exoneration.",
+        "dateReview": "Trial May 19, 2022; appellate June 8, 2023.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-smith-tiesha-l-smith",
+        "judge": "Tiesha L. Smith",
+        "caseId": "2025-il-app-1st-241614-u",
+        "caseName": "In re D.L.",
+        "citation": "2025 IL App (1st) 241614-U",
+        "appellateDate": "2025-03-19",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/4f2b10c6-bf34-4ecf-a46c-c04ba9b031e8/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-self/index-0-0.pdf",
+        "sha256": "94bae62c84f291df199225cdf342f9c309e362048bd684caddc792f1d1c8efea",
+        "reviewedPinpoints": "Caption; paragraphs 32-40, 52-75",
+        "verifiedAnalysis": "Smith found parental unfitness then best interests supported termination based on contact/services and placement evidence. Affirmed under manifest-weight review; phases have different burdens.",
+        "dateReview": "Trial July 19, 2024; appellate March 19, 2025.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-stacey-chris-stacey",
+        "judge": "Chris Stacey",
+        "caseId": "2026-il-app-1st-250040",
+        "caseName": "People v. Cole",
+        "citation": "2026 IL App (1st) 250040",
+        "appellateDate": "2026-03-31",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/f20d34c3-a72b-4cf2-9746-d0001e3a4efa/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-self/stacey-1.pdf",
+        "sha256": "e95d6b3653eb4ffbe3c32499d4925d0be96784d60ec9a7343a828e1342f2ee2c",
+        "reviewedPinpoints": "Caption; paragraphs 1, 13-15, 23-38",
+        "verifiedAnalysis": "Stacey imposed direct criminal contempt and seven days for courtroom speech/interruptions. Vacated for lack of intended imminent threat to administering justice; court noted judicial escalation. Earlier indirect civil contempt already rescinded.",
+        "dateReview": "Trial December 3, 2024; appellate March 31, 2026.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-stacey-chris-stacey",
+        "judge": "Chris Stacey",
+        "caseId": "2023-il-app-1st-221556-u",
+        "caseName": "Ma v. U.S. Bank, National Ass'n",
+        "citation": "2023 IL App (1st) 221556-U",
+        "appellateDate": "2023-09-26",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/9f75f9ac-8d2c-43da-a7d4-e29ef75658fc/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-self/stacey-7.pdf",
+        "sha256": "400a42605e2e58fa7108fe2cf29a927ff3d4f16f8daee1887ddbe714bf679381",
+        "reviewedPinpoints": "Caption; paragraphs 31-39, 41, 48-53",
+        "verifiedAnalysis": "Stacey awarded $1,003 plus costs under Regulation CC on reconsideration, denying additional damages. Affirmance includes forfeiture and alternative contract/tort deficiencies. Clerical-error theory lacked support.",
+        "dateReview": "Appellate September 26, 2023.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-tirado-perla-tirado",
+        "judge": "Perla Tirado",
+        "caseId": "2022-il-app-1st-210668-u",
+        "caseName": "Georgakopoulos v. Blake",
+        "citation": "2022 IL App (1st) 210668-U",
+        "appellateDate": "2022-01-28",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/cd8d52d2-1777-4dcb-a71f-0733260251a3/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-self/index-2-6.pdf",
+        "sha256": "023e15ade653092e38164d7d95d49e7505527995909eb5ae7269945c0dfbbe0a",
+        "reviewedPinpoints": "Caption; paragraphs 1-2, 21-29, 37, 41-42",
+        "verifiedAnalysis": "Tirado applied express moratorium safety exception based on threats, then awarded rent/costs. Possession issue dismissed moot, exception separately upheld, remaining judgment affirmed. No general moratorium invalidation.",
+        "dateReview": "May 15, 2021 is effective eviction date, not established entry date; canonical field corrected. Rent judgment June 9, 2021; appellate January 28, 2022.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-walsh-elizabeth-anne-walsh",
+        "judge": "Elizabeth Anne Walsh",
+        "caseId": "2024-il-app-1st-230898-u",
+        "caseName": "Barber v. Kokhan",
+        "citation": "2024 IL App (1st) 230898-U",
+        "appellateDate": "2024-05-03",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/69e2230f-1f09-4b45-9657-923575286e8f/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-self/walsh-3.pdf",
+        "sha256": "0b9f807661c42070128f31087913a7c5baf5eb11b1629b7099f751d00909fe20",
+        "reviewedPinpoints": "Caption; paragraphs 5-6, 14-18",
+        "verifiedAnalysis": "Walsh awarded $5,891.86 repair-contract damages and rejected unsupported larger demand. Affirmed for inadequate appellate record; court could not reassess trial proof.",
+        "dateReview": "Trial May 12, 2023; appellate May 3, 2024.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-zeller-maura-mcmahon-zeller",
+        "judge": "Maura McMahon Zeller",
+        "caseId": "2023-il-app-1st-221576-u",
+        "caseName": "In re Marriage of Botero",
+        "citation": "2023 IL App (1st) 221576-U",
+        "appellateDate": "2023-05-30",
+        "status": "verified",
+        "primaryUrl": "https://www.illinoiscourts.gov/resources/7e95b756-ac12-42ce-85ef-32086b8d2120/file",
+        "primaryPdf": "audit/judicial-2026/cache-batch4-self/index-4-0.pdf",
+        "sha256": "736e3f30815a88b8354ec194d948a7c1140bcc0cba6159a344dd7fd2a5a6c98f",
+        "reviewedPinpoints": "Caption; paragraphs 16-20, 23-37",
+        "verifiedAnalysis": "Zeller extended contested protection order using past abuse/fear and initial-order precedent. Extension reversed/vacated for inadequate current good cause. Original 2020 order not reversed; no gun merits holding.",
+        "dateReview": "Trial September 23, 2022; appellate May 30, 2023.",
+        "roleCheck": "Trial judge identified in caption; appellate reasoning separately attributed.",
+        "documentStatusLimit": "Posted version is not complete later appeal/remand history."
+      }
+    ],
+    "historicalNominations": [
+      {
+        "candidateId": "sbe-cook-circuit-retain-butler-krista-d-butler",
+        "name": "Krista D. Butler",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "14 (PDF); printed Proclamation 13 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-dempsey-marie-aileen-dempsey",
+        "name": "Marie Aileen Dempsey",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "15 (PDF); printed Proclamation 14 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-dickler-jamie-guerra-dickler",
+        "name": "Jamie Guerra Dickler",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "15 (PDF); printed Proclamation 14 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-green-jonathan-clark-green",
+        "name": "Jonathan Clark Green",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "15 (PDF); printed Proclamation 14 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-marubio-mary-catherine-marubio",
+        "name": "Mary Catherine Marubio",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "15 (PDF); printed Proclamation 14 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-mescall-regina-a-mescall",
+        "name": "Regina A. Mescall",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "14 (PDF); printed Proclamation 13 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-murphy-lorraine-mary-murphy",
+        "name": "Lorraine Mary Murphy",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "14 (PDF); printed Proclamation 13 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-o-connor-eileen-marie-o-connor",
+        "name": "Eileen Marie O'Connor",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "15 (PDF); printed Proclamation 14 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-quinn-jill-rose-quinn",
+        "name": "Jill Rose Quinn",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "14 (PDF); printed Proclamation 13 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-reaves-harris-pamela-reaves-harris",
+        "name": "Pamela Reaves-Harris",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "15 (PDF); printed Proclamation 14 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-smith-tiesha-l-smith",
+        "name": "Tiesha L. Smith",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "13 (PDF); printed Proclamation 12 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-stacey-chris-stacey",
+        "name": "Chris Stacey",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "13 (PDF); printed Proclamation 12 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-tirado-perla-tirado",
+        "name": "Perla Tirado",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "15 (PDF); printed Proclamation 14 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-walsh-elizabeth-anne-walsh",
+        "name": "Elizabeth Anne Walsh",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "14 (PDF); printed Proclamation 13 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      },
+      {
+        "candidateId": "sbe-cook-circuit-retain-zeller-maura-mcmahon-zeller",
+        "name": "Maura McMahon Zeller",
+        "party": "Democratic",
+        "date": "2020-11-03",
+        "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+        "pages": "14 (PDF); printed Proclamation 13 of 22",
+        "status": "Verified against actual official canvass PDF; historical nomination only."
+      }
+    ],
+    "canvassSha256": "323fffea11cf4a2e4d99c406e5890825645c7aaa3cad5e6fa267c49ecc48c879",
+    "additionalPoliticalEvidence": [
+      {
+        "judge": "Jill Rose Quinn",
+        "source": "https://lgbtqbar.org/bar-news/pride-interview/hon-jill-rose-quinn/",
+        "date": "2023-05-18",
+        "status": "Primary interview independently opened and read",
+        "finding": "Describes courts during Trump years as a defense in transgender-rights context. Dated public statement, not a ruling or present endorsement; no inference from identity."
+      },
+      {
+        "judge": "Pamela Reaves-Harris",
+        "source": "https://www.ilga.gov/House/Members/Details/2268?GAID=13",
+        "dateRange": "January 2015-January 2017",
+        "status": "Official indexed rendition independently read; direct retrieval timed out/denied",
+        "finding": "Democratic Illinois House member District 10; historical member dates control despite generic 104th General Assembly page header.",
+        "corroboratingOfficialSource": "https://cgfa.ilga.gov/commission/lru/AfricanAmerLegislators.pdf"
+      }
+    ],
+    "coverageGap": {
+      "judge": "Pamela Reaves-Harris",
+      "status": "No selected example verified, not no rulings",
+      "review": "Read saved search metadata: Reaves 9 hits, three exact variants 0; inspected 78-entry broader Pamela header-scan artifact, did not rerun all 78 source headers. No included case requires merits review."
+    },
+    "identityNotes": [
+      "Dempsey court captions and 2020 canvass use Maire Aileen; supplied retention identifier/display uses Marie. Ledger flags discrepancy for parent identity audit.",
+      "Marubio captions use Mary Cay; election listing Mary Catherine.",
+      "Stacey court captions use Christ Stanley/Christ S.; election listing Chris."
+    ],
+    "scopeLimits": [
+      "Not exhaustive career history, representative sample or reversal-rate study.",
+      "Appellate reasoning is not automatically trial reasoning.",
+      "No comprehensive later Supreme Court petition, remand or docket audit.",
+      "Rule 23 decisions have limited precedential use.",
+      "No support for numeric Republican/Democratic/Trumpism ratings. Historical party, public speech and actual rulings remain distinct."
+    ]
+  },
+  "reviewTotals": {
+    "profiles": 30,
+    "profilesWithIncludedCases": 27,
+    "includedCasesReviewed": 42,
+    "historicalNominationRecordsReviewed": 15,
+    "unresolvedMaterialErrors": 0,
+    "pendingCorrections": 0
+  },
+  "coverageLimits": [
+    "Daniel Edward Maloney, John G. Mulroe and Pamela Reaves-Harris have no verified selected case in these batches. Bounded searches and their limits are documented; absence of a selected case does not prove absence of rulings.",
+    "Selected examples are not an exhaustive career record, representative sample or statistical reversal study.",
+    "Historical Democratic nomination records and dated public statements do not establish present affiliation, a personal ideological score, or Trump loyalty.",
+    "Appellate reasoning, jury findings and the trial judge’s own actions are separately attributed. Posted document labels do not establish complete later docket finality."
+  ]
+}

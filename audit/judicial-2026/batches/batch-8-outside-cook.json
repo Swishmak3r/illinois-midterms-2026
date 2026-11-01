@@ -1,0 +1,445 @@
+{
+  "batch": 8,
+  "scope": "outside-cook",
+  "count": 17,
+  "sourceInventory": "audit/judicial-2026/inventory-retention.json",
+  "instructions": "Verify meaningful primary-source ruling examples; distinguish the judge from panel members and cited authorities. Search hits do not establish participation. Lack of retrieved examples does not mean no rulings or no political alignment. Do not label personal ideology. Use official retention source to resolve identity. Keep relevant case metadata, no unrelated personal information.",
+  "judges": [
+    {
+      "raceId": "sbe-local-17th-circuit-retain-white",
+      "candidateId": "sbe-17th-circuit-retain-white-ronald-j-ron-white",
+      "name": "Ronald J. \"Ron\" White",
+      "sbeName": "White, Ronald J. \"Ron\"",
+      "courtType": "Circuit",
+      "courtGroup": "17TH CIRCUIT",
+      "sbeOffice": "17TH CIRCUIT - RETAIN WHITE",
+      "localDistrictCode": "IL-17TH-CIRCUIT-RETAIN-WHITE",
+      "localDistrictName": "17TH CIRCUIT - RETAIN WHITE",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Boone",
+        "Winnebago"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=iZW5cGFByWMUAk0nWWC%2bPA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=LxD0X%2fYZLI8MM3RxUgJfAA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-18th-circuit-retain-walsh",
+      "candidateId": "sbe-18th-circuit-retain-walsh-ann-celine-walsh",
+      "name": "Ann Celine Walsh",
+      "sbeName": "Walsh, Ann Celine",
+      "courtType": "Circuit",
+      "courtGroup": "18TH CIRCUIT",
+      "sbeOffice": "18TH CIRCUIT - RETAIN WALSH",
+      "localDistrictCode": "IL-18TH-CIRCUIT-RETAIN-WALSH",
+      "localDistrictName": "18TH CIRCUIT - RETAIN WALSH",
+      "judicialDistrict": "Third Judicial District",
+      "counties": [
+        "DuPage"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=IY8ttye2EGML%2b1MCv4V1nQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=LxD0X%2fYZLI%2fonN7Zrx4wTg%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-18th-circuit-retain-o-toole",
+      "candidateId": "sbe-18th-circuit-retain-o-toole-monique-o-toole",
+      "name": "Monique O'Toole",
+      "sbeName": "O'Toole, Monique",
+      "courtType": "Circuit",
+      "courtGroup": "18TH CIRCUIT",
+      "sbeOffice": "18TH CIRCUIT - RETAIN O'TOOLE",
+      "localDistrictCode": "IL-18TH-CIRCUIT-RETAIN-O-TOOLE",
+      "localDistrictName": "18TH CIRCUIT - RETAIN O'TOOLE",
+      "judicialDistrict": "Third Judicial District",
+      "counties": [
+        "DuPage"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=iZW5cGFByWNsZHuoFEba1A%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=LxD0X%2fYZLI8dD%2bbVeCoFgA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-18th-circuit-retain-felice",
+      "candidateId": "sbe-18th-circuit-retain-felice-richard-d-felice",
+      "name": "Richard D. Felice",
+      "sbeName": "Felice, Richard D.",
+      "courtType": "Circuit",
+      "courtGroup": "18TH CIRCUIT",
+      "sbeOffice": "18TH CIRCUIT - RETAIN FELICE",
+      "localDistrictCode": "IL-18TH-CIRCUIT-RETAIN-FELICE",
+      "localDistrictName": "18TH CIRCUIT - RETAIN FELICE",
+      "judicialDistrict": "Third Judicial District",
+      "counties": [
+        "DuPage"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=iZW5cGFByWOadcgH7yDU6Q%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=LxD0X%2fYZLI%2buizP8A%2b9SqQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-18th-circuit-retain-o-connell",
+      "candidateId": "sbe-18th-circuit-retain-o-connell-margaret-peggy-o-connell",
+      "name": "Margaret \"Peggy\" O'Connell",
+      "sbeName": "O'Connell, Margaret \"Peggy\"",
+      "courtType": "Circuit",
+      "courtGroup": "18TH CIRCUIT",
+      "sbeOffice": "18TH CIRCUIT - RETAIN O'CONNELL",
+      "localDistrictCode": "IL-18TH-CIRCUIT-RETAIN-O-CONNELL",
+      "localDistrictName": "18TH CIRCUIT - RETAIN O'CONNELL",
+      "judicialDistrict": "Third Judicial District",
+      "counties": [
+        "DuPage"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=iZW5cGFByWOeioAdvBv1sA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=LxD0X%2fYZLI9VS8H7SxPMgg%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-19th-circuit-retain-booras",
+      "candidateId": "sbe-19th-circuit-retain-booras-james-k-booras",
+      "name": "James K. Booras",
+      "sbeName": "Booras, James K.",
+      "courtType": "Circuit",
+      "courtGroup": "19TH CIRCUIT",
+      "sbeOffice": "19TH CIRCUIT - RETAIN BOORAS",
+      "localDistrictCode": "IL-19TH-CIRCUIT-RETAIN-BOORAS",
+      "localDistrictName": "19TH CIRCUIT - RETAIN BOORAS",
+      "judicialDistrict": "Second Judicial District",
+      "counties": [
+        "Lake"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=IY8ttye2EGP0sZ5OXD9fXA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=LxD0X%2fYZLI9BgVIbbUyMoA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-19th-circuit-retain-slavin",
+      "candidateId": "sbe-19th-circuit-retain-slavin-marnie-m-slavin",
+      "name": "Marnie M. Slavin",
+      "sbeName": "Slavin, Marnie M.",
+      "courtType": "Circuit",
+      "courtGroup": "19TH CIRCUIT",
+      "sbeOffice": "19TH CIRCUIT - RETAIN SLAVIN",
+      "localDistrictCode": "IL-19TH-CIRCUIT-RETAIN-SLAVIN",
+      "localDistrictName": "19TH CIRCUIT - RETAIN SLAVIN",
+      "judicialDistrict": "Second Judicial District",
+      "counties": [
+        "Lake"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=IY8ttye2EGO7WIzejbErlA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRZmbyd9uZxS5A%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-21st-circuit-retain-sabol",
+      "candidateId": "sbe-21st-circuit-retain-sabol-michael-sabol",
+      "name": "Michael Sabol",
+      "sbeName": "Sabol, Michael",
+      "courtType": "Circuit",
+      "courtGroup": "21ST CIRCUIT",
+      "sbeOffice": "21ST CIRCUIT - RETAIN SABOL",
+      "localDistrictCode": "IL-21ST-CIRCUIT-RETAIN-SABOL",
+      "localDistrictName": "21ST CIRCUIT - RETAIN SABOL",
+      "judicialDistrict": "Third Judicial District",
+      "counties": [
+        "Iroquois",
+        "Kankakee"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=e4wwIQQt9ArZ0iZut6GulQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRa4pYhuYIqSYA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-21st-circuit-retain-dickenson",
+      "candidateId": "sbe-21st-circuit-retain-dickenson-william-s-dickenson",
+      "name": "William S. Dickenson",
+      "sbeName": "Dickenson, William S.",
+      "courtType": "Circuit",
+      "courtGroup": "21ST CIRCUIT",
+      "sbeOffice": "21ST CIRCUIT - RETAIN DICKENSON",
+      "localDistrictCode": "IL-21ST-CIRCUIT-RETAIN-DICKENSON",
+      "localDistrictName": "21ST CIRCUIT - RETAIN DICKENSON",
+      "judicialDistrict": "Third Judicial District",
+      "counties": [
+        "Iroquois",
+        "Kankakee"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=IY8ttye2EGPeF7jYPYeNCw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRYWwWA9D51UoQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-21st-circuit-retain-parkhurst",
+      "candidateId": "sbe-21st-circuit-retain-parkhurst-lindsay-parkhurst",
+      "name": "Lindsay Parkhurst",
+      "sbeName": "Parkhurst, Lindsay",
+      "courtType": "Circuit",
+      "courtGroup": "21ST CIRCUIT",
+      "sbeOffice": "21ST CIRCUIT - RETAIN PARKHURST",
+      "localDistrictCode": "IL-21ST-CIRCUIT-RETAIN-PARKHURST",
+      "localDistrictName": "21ST CIRCUIT - RETAIN PARKHURST",
+      "judicialDistrict": "Third Judicial District",
+      "counties": [
+        "Iroquois",
+        "Kankakee"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=IY8ttye2EGOx1%2b%2fG2zqQww%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRaL2HiYWZUzyA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-22nd-circuit-retain-feetterer",
+      "candidateId": "sbe-22nd-circuit-retain-feetterer-michael-w-feetterer",
+      "name": "Michael W. Feetterer",
+      "sbeName": "Feetterer, Michael W.",
+      "courtType": "Circuit",
+      "courtGroup": "22ND CIRCUIT",
+      "sbeOffice": "22ND CIRCUIT - RETAIN FEETTERER",
+      "localDistrictCode": "IL-22ND-CIRCUIT-RETAIN-FEETTERER",
+      "localDistrictName": "22ND CIRCUIT - RETAIN FEETTERER",
+      "judicialDistrict": "Second Judicial District",
+      "counties": [
+        "McHenry"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=e4wwIQQt9AqGt7%2f8s%2fDQjg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRbwyfSKs8aMdg%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-22nd-circuit-retain-gervais",
+      "candidateId": "sbe-22nd-circuit-retain-gervais-david-r-gervais",
+      "name": "David R. Gervais",
+      "sbeName": "Gervais, David R.",
+      "courtType": "Circuit",
+      "courtGroup": "22ND CIRCUIT",
+      "sbeOffice": "22ND CIRCUIT - RETAIN GERVAIS",
+      "localDistrictCode": "IL-22ND-CIRCUIT-RETAIN-GERVAIS",
+      "localDistrictName": "22ND CIRCUIT - RETAIN GERVAIS",
+      "judicialDistrict": "Second Judicial District",
+      "counties": [
+        "McHenry"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=e4wwIQQt9AqGQuG49WhleQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRYZoLtd6I9JZA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-22nd-circuit-retain-hansen",
+      "candidateId": "sbe-22nd-circuit-retain-hansen-justin-m-hansen",
+      "name": "Justin M. Hansen",
+      "sbeName": "Hansen, Justin M.",
+      "courtType": "Circuit",
+      "courtGroup": "22ND CIRCUIT",
+      "sbeOffice": "22ND CIRCUIT - RETAIN HANSEN",
+      "localDistrictCode": "IL-22ND-CIRCUIT-RETAIN-HANSEN",
+      "localDistrictName": "22ND CIRCUIT - RETAIN HANSEN",
+      "judicialDistrict": "Second Judicial District",
+      "counties": [
+        "McHenry"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=e4wwIQQt9AoEFnM6FqBz9Q%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRZSMP43fEPsnQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-22nd-circuit-retain-gerhardt",
+      "candidateId": "sbe-22nd-circuit-retain-gerhardt-mark-r-gerhardt",
+      "name": "Mark R. Gerhardt",
+      "sbeName": "Gerhardt, Mark R.",
+      "courtType": "Circuit",
+      "courtGroup": "22ND CIRCUIT",
+      "sbeOffice": "22ND CIRCUIT - RETAIN GERHARDT",
+      "localDistrictCode": "IL-22ND-CIRCUIT-RETAIN-GERHARDT",
+      "localDistrictName": "22ND CIRCUIT - RETAIN GERHARDT",
+      "judicialDistrict": "Second Judicial District",
+      "counties": [
+        "McHenry"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=e4wwIQQt9ApP7lBhBRlyHA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRa9MDM8XqHjTg%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-23rd-circuit-retain-gleason",
+      "candidateId": "sbe-23rd-circuit-retain-gleason-jody-p-gleason",
+      "name": "Jody P. Gleason",
+      "sbeName": "Gleason, Jody P.",
+      "courtType": "Circuit",
+      "courtGroup": "23RD CIRCUIT",
+      "sbeOffice": "23RD CIRCUIT - RETAIN GLEASON",
+      "localDistrictCode": "IL-23RD-CIRCUIT-RETAIN-GLEASON",
+      "localDistrictName": "23RD CIRCUIT - RETAIN GLEASON",
+      "judicialDistrict": "Second Judicial District",
+      "counties": [
+        "DeKalb",
+        "Kendall"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=3xoudL7AYH2aYPrdXPT2NQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRaPD6jlW7MglQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-24th-circuit-retain-campanella",
+      "candidateId": "sbe-24th-circuit-retain-campanella-james-w-campanella",
+      "name": "James W. Campanella",
+      "sbeName": "Campanella, James W.",
+      "courtType": "Circuit",
+      "courtGroup": "24TH CIRCUIT",
+      "sbeOffice": "24TH CIRCUIT - RETAIN CAMPANELLA",
+      "localDistrictCode": "IL-24TH-CIRCUIT-RETAIN-CAMPANELLA",
+      "localDistrictName": "24TH CIRCUIT - RETAIN CAMPANELLA",
+      "judicialDistrict": "Fifth Judicial District",
+      "counties": [
+        "Monroe",
+        "Perry",
+        "Randolph",
+        "Washington"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=3xoudL7AYH0G9AmkkuO3iQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=OOTr%2fM07vRbRBxcDD4mb3Q%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-24th-circuit-retain-hitzemann",
+      "candidateId": "sbe-24th-circuit-retain-hitzemann-chris-hitzemann",
+      "name": "Chris Hitzemann",
+      "sbeName": "Hitzemann, Chris",
+      "courtType": "Circuit",
+      "courtGroup": "24TH CIRCUIT",
+      "sbeOffice": "24TH CIRCUIT - RETAIN HITZEMANN",
+      "localDistrictCode": "IL-24TH-CIRCUIT-RETAIN-HITZEMANN",
+      "localDistrictName": "24TH CIRCUIT - RETAIN HITZEMANN",
+      "judicialDistrict": "Fifth Judicial District",
+      "counties": [
+        "Monroe",
+        "Perry",
+        "Randolph",
+        "Washington"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=3xoudL7AYH0B35ZC3mI75w%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=QAle%2bojJBj00wz0p1w6eOA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    }
+  ]
+}

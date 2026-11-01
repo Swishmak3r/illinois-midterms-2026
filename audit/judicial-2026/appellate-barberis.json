@@ -1,0 +1,212 @@
+{
+  "judge": "John B. Barberis Jr.",
+  "candidateId": "sbe-5th-appellate-retain-barberis-jr-john-b-barberis-jr",
+  "court": "Illinois Appellate Court, Fifth District",
+  "checkedOn": "2026-11-01",
+  "researchStatus": "Four selected published opinions fully read; selected-case record, not a census of his decisions or a comprehensive citator report.",
+  "officialBiography": "https://www.illinoiscourts.gov/justice/46/John-B-Barberis/justice/",
+  "historicalAffiliation": {
+    "party": "Republican",
+    "event": "Initial election to the Fifth District Appellate Court, November 8, 2016",
+    "displayText": "Elected to the appellate court as a Republican in 2016. This is historical election information; the 2026 retention question is nonpartisan.",
+    "source": "https://electionhistory.madisoncountyil.gov/eng/candidates/view/877",
+    "sourceType": "Official Madison County election history; 2016 general-election row identifies Republican",
+    "corroboration": "https://www.elections.il.gov/ElectionOperations/ElectionVoteTotals.aspx?ID=bt7bri46n7I%3D&OfficeType=OIPn0DmJsHWCRPQwcCA4%2BK%2BzeOSGzX4E",
+    "corroborationAccess": "Official Illinois SBE search-index text identifies Republican and 317117 districtwide votes; direct open returned 403. Live county source independently verifies party; county totals must not be represented as districtwide totals.",
+    "limits": "Does not establish present personal beliefs, agreement with a party platform, or support for Donald Trump."
+  },
+  "barEvaluations": [
+    {
+      "organization": "Illinois State Bar Association",
+      "cycle": "2026 general election",
+      "type": "Institutional judicial evaluation",
+      "rating": "No",
+      "explanation": "ISBA says Barberis declined to participate in its investigation, leaving it unable to complete an evaluation and recommend retention. This reason must accompany the rating.",
+      "source": "https://www.isba.org/judicial-elections/reports/all-results",
+      "pinpoint": "5th Judicial District Appellate Court > Retention > John B. Barberis, Jr. > ISBA Judicial Evaluation"
+    },
+    {
+      "organization": "Illinois State Bar Association",
+      "cycle": "2026 general election",
+      "type": "Judicial advisory poll of responding lawyers",
+      "rating": "Not Recommended",
+      "recommendationPercent": 55.88,
+      "respondents": 36,
+      "explanation": "A separate advisory survey of lawyers who chose to respond. These opinions are the respondents' opinions, not an institutional ISBA rating or an ideology measure.",
+      "source": "https://www.isba.org/judicial-elections/reports/all-results",
+      "pinpoint": "5th Judicial District Appellate Court > Retention > John B. Barberis, Jr. > ISBA Judicial Advisory Poll"
+    }
+  ],
+  "coverage": {
+    "officialIndexMatches": 1175,
+    "indexFile": "audit/judicial-2026/appellate-barberis-index.json",
+    "indexInterpretation": "Full-text matches for Barberis within Fifth District across all years, eight pages completely retrieved. Matches can include cited authority or a trial judge; this is not a count of opinions he authored or joined.",
+    "selection": "Accessible published opinions addressing gun rights, pretrial detention, election speech and statutory release safeguards. This selection is illustrative and cannot estimate a partisan tendency.",
+    "verifiedTopics": [
+      "Second Amendment and drug-related armed violence",
+      "Pretrial detention eligibility",
+      "Limits on detention for noncriminal release violations",
+      "Completed-ballot photographs and speech"
+    ],
+    "unverifiedTopics": [
+      "Reproductive-rights merits",
+      "Immigration",
+      "Presidential power",
+      "2020 election denial",
+      "Trump endorsements"
+    ]
+  },
+  "cases": [
+    {
+      "case": "People v. Smith",
+      "citation": "2025 IL App (5th) 230656",
+      "date": "2025-10-29",
+      "court": "Illinois Appellate Court, Fifth District",
+      "docket": "5-23-0656",
+      "role": "Author of unanimous judgment and opinion",
+      "panel": "Barberis authored; Vaughan and Sholar concurred in judgment and opinion.",
+      "rolePinpoint": "Official report page 1, Panel",
+      "topic": "Gun rights and armed violence",
+      "holding": "Affirmed the armed-violence conviction and rejected both facial and as-applied Second Amendment challenges to a law covering possession of cocaine while carrying an operational firearm.",
+      "reasoning": "The opinion concluded that a person simultaneously committing a felony and carrying an operational gun was outside the Amendment's protected class. Alternatively, it found historical support for the restriction, including analogies to disarming felons and temporary restrictions involving intoxicants.",
+      "pinpoints": "Paragraphs 25-29, 32-42; judgment paragraphs 44-45",
+      "disposition": "Affirmed the Jefferson County judgment, including the 18-year sentence.",
+      "decisionScope": "Constitutional merits of this statutory challenge. Not an assault-weapons-ban case, a general license requirement, or a ruling on every firearm possession by a nonviolent offender.",
+      "publicationType": "Published opinion",
+      "publicationStatus": "Final in official opinion index as retrieved November 1, 2026",
+      "subsequentHistory": "Illinois Supreme Court denied leave to appeal on January 28, 2026, Supreme Court docket 132483 (identifying appellate docket 5-23-0656). This is a denial of discretionary review, not a merits affirmance. Any later federal review was not verified.",
+      "subsequentSources": [
+        "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/a363e77a-cb06-44dc-81f4-416d1497f144/January%2028%202026.pdf"
+      ],
+      "subsequentPinpoint": "January 28, 2026 leave-to-appeal disposition list, PDF page 14, docket 132483",
+      "source": "https://www.illinoiscourts.gov/resources/790da944-3fc7-4291-b777-3351d5cda17f/file",
+      "pdf": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/790da944-3fc7-4291-b777-3351d5cda17f/People%20v.%20Smith%202025%20IL%20App%20(5th)%20230656.pdf",
+      "primaryRead": "All 10 pages of the official final report read; cover visually checked",
+      "policyComparison": {
+        "status": "Not comparable to the selected national party/Trump baselines",
+        "reason": "The issue was concurrent cocaine possession and an operational gun. A platform's general Second Amendment position or Trump's DOJ position on common-use rifle bans does not resolve this narrower restriction.",
+        "personalIdeology": "Not inferred"
+      },
+      "laterLegalContext": {
+        "case": "United States v. Hemani",
+        "docket": "24-1234",
+        "date": "2026-06-18",
+        "court": "Supreme Court of the United States",
+        "source": "https://www.supremecourt.gov/opinions/25pdf/24-1234_new_6k47.pdf",
+        "pinpoints": "Majority slip opinion pages 3, 5-7, 15-16 n.6, 18-19 (PDF pages 7, 9-11, 19-20, 22-23)",
+        "holding": "Held this federal section 922(g)(3) prosecution, based solely on regular marijuana use without individualized dangerousness, inconsistent with the Second Amendment; the government had not carried its historical-analogy burden.",
+        "smithComparison": "Hemani expressly says its charge did not involve cocaine possession or drug trafficking. Smith concerned simultaneous cocaine possession and an operational firearm under Illinois armed-violence law. Hemani did not decide that Illinois statutory question.",
+        "reservedQuestions": "The majority expressly reserved convicted-felon disarmament, addicts, presently intoxicated people, particular-drug risk laws and prosecutions supported by individualized danger evidence. Footnote 6 says the opinion should not cast doubt on specified felony and adjudicated-mental-disability restrictions that involve predeprivation process.",
+        "currentStatusLimit": "No subsequent decision applying Hemani to Smith was verified. This is later legal context, not a reversal of Smith or a claim that its every rationale remains controlling.",
+        "governmentVsCourt": "The U.S. Supreme Court ruling is distinct from the federal administration position it rejected; it is not a Trump endorsement or a measure of Barberis personal beliefs.",
+        "primaryRead": "All 19 pages of the majority opinion read. All 39 PDF pages were text-diffed against the revised official version; the sole substantive correction concerned an unrelated drug-product example on slip page 2."
+      }
+    },
+    {
+      "case": "People v. Duncan",
+      "citation": "2024 IL App (5th) 240588",
+      "date": "2024-07-30",
+      "court": "Illinois Appellate Court, Fifth District",
+      "docket": "5-24-0588",
+      "role": "Author of unanimous judgment and opinion",
+      "panel": "Barberis authored; Moore and Boie concurred in judgment and opinion.",
+      "rolePinpoint": "Official report page 1, Panel",
+      "topic": "Pretrial detention eligibility",
+      "holding": "Reversed an order releasing a defendant and required a new hearing because aggravated battery by strangulation can qualify for detention under the statute's residual clause when the actual conduct threatens or inflicts great bodily harm.",
+      "reasoning": "The court declined another district's narrower construction and read the residual clause to focus on conduct. It distinguished a charge of strangulation from a charge expressly requiring actual great bodily harm; eligibility was conditional on the facts, not automatic for every strangulation charge.",
+      "pinpoints": "Paragraphs 22-31; disposition paragraphs 33-34",
+      "disposition": "Release order reversed; remanded for further proceedings consistent with the opinion. The appellate court did not itself decide guilt or impose a prison sentence.",
+      "decisionScope": "Statutory eligibility ruling in an interlocutory detention appeal. It did not decide whether Illinois should use cash bail or whether the SAFE-T Act is constitutional.",
+      "publicationType": "Published opinion",
+      "publicationStatus": "Final in official opinion index as retrieved November 1, 2026",
+      "subsequentHistory": "No later disposition of this case independently verified; the result on remand is not established by this opinion.",
+      "source": "https://www.illinoiscourts.gov/resources/0a448bcd-8446-42a2-b1b1-1925a9ba8c6f/file",
+      "pdf": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/0a448bcd-8446-42a2-b1b1-1925a9ba8c6f/People%20v.%20Duncan%2C%202024%20IL%20App%20%285th%29%20240588.pdf",
+      "primaryRead": "All 8 pages of the official final report read",
+      "policyComparison": {
+        "status": "Not comparable to the selected national party/Trump baselines",
+        "reason": "Detention eligibility under the existing Illinois statute does not establish agreement with reinstating money bail or repealing reform.",
+        "personalIdeology": "Not inferred"
+      }
+    },
+    {
+      "case": "People v. Farris",
+      "citation": "2024 IL App (5th) 240745",
+      "date": "2024-09-05",
+      "court": "Illinois Appellate Court, Fifth District",
+      "docket": "5-24-0745",
+      "role": "Joined the judgment and opinion",
+      "panel": "Boie authored; Vaughan and Barberis concurred in judgment and opinion.",
+      "rolePinpoint": "Official report page 1, Panel",
+      "topic": "Limits on pretrial detention and release-condition violations",
+      "holding": "Reversed renewed detention and directed release, with possible modified conditions, because later noncriminal electronic-monitoring violations could not support a second detention petition under section 110-6.1(d)(2).",
+      "reasoning": "The court read the statute as reserving those violations for the sanctions process. A later detention petition cannot bypass the legislature's specific revocation requirements; newly discovered facts under that provision concern the original detention decision.",
+      "pinpoints": "Paragraphs 35-46, 48-51",
+      "disposition": "Reversed and remanded with directions for release; immediate mandate. The State could pursue a proper revocation motion if statutory requirements were met.",
+      "decisionScope": "Statutory limits on a second detention petition. The court did not decide the defendant's alternative contention that he posed no unmitigable threat, nor the underlying criminal charges.",
+      "publicationType": "Published opinion",
+      "publicationStatus": "Final in official opinion index as retrieved November 1, 2026",
+      "subsequentHistory": "No later disposition in this same case independently verified. Stewart v. Rosenblum, 2025 IL 131365, paragraph 21, later reports a trial court applying Farris; that background citation is not an Illinois Supreme Court affirmance of Farris.",
+      "subsequentSources": [
+        "https://www.illinoiscourts.gov/resources/d436dcfc-9124-45c8-8e47-d2f79f2db805/file"
+      ],
+      "source": "https://www.illinoiscourts.gov/resources/d1f95004-f127-4188-95ce-055fa387b7d4/file",
+      "pdf": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/d1f95004-f127-4188-95ce-055fa387b7d4/People%20v.%20Farris%2C%202024%20IL%20App%20%285th%29%20240745.pdf",
+      "primaryRead": "All 13 pages of the official final report read",
+      "policyComparison": {
+        "status": "Not comparable to the selected national party/Trump baselines",
+        "reason": "The statutory distinction between noncriminal violations and revocation grounds is different from a policy position on cash bail.",
+        "personalIdeology": "Not inferred"
+      }
+    },
+    {
+      "case": "Oettle v. Guthrie",
+      "citation": "2020 IL App (5th) 190306",
+      "date": "2020-12-16",
+      "court": "Illinois Appellate Court, Fifth District",
+      "docket": "5-19-0306",
+      "role": "Joined the majority judgment and opinion",
+      "panel": "Welch authored; Barberis concurred in judgment and opinion. Cates concurred in the result with different reasoning.",
+      "rolePinpoint": "Official report page 2, Panel",
+      "topic": "Election speech and completed-ballot photographs",
+      "holding": "Joined the majority rejecting a First Amendment challenge to Illinois's restriction on photographing completed ballots and affirming dismissal of the voter’s complaint.",
+      "reasoning": "The majority treated a government-issued ballot as a nonpublic forum, found the restriction viewpoint neutral, and identified ballot secrecy, protection from coercion and vote buying, and orderly voting as reasons for the restriction. Cates agreed only with dismissal on ripeness grounds and questioned a felony penalty for an innocent selfie; that separate view was not Barberis's opinion.",
+      "pinpoints": "Majority paragraphs 8-17; special concurrence paragraphs 20-23",
+      "disposition": "Dismissal affirmed.",
+      "decisionScope": "Majority reached the constitutional merits despite dismissal posture. The case concerns completed-ballot photos, not voter identification, citizenship documentation, mail ballots, or election-fraud allegations.",
+      "publicationType": "Published opinion",
+      "publicationStatus": "Final in official opinion index as retrieved November 1, 2026",
+      "subsequentHistory": "U.S. Supreme Court denied certiorari October 4, 2021, docket 20-1731, styled Oettle v. Cadigan. A denial of discretionary review is not approval of the majority's reasoning. The Illinois denial of leave appears in the petition appendix but is not needed for the public summary.",
+      "subsequentSources": [
+        "https://www.supremecourt.gov/orders/courtorders/100421zor_5357.pdf",
+        "https://www.supremecourt.gov/orders/journal/Jnl21.pdf",
+        "https://www.supremecourt.gov/DocketPDF/20/20-1731/181025/20210604164657005_41005%20pdf%20Maag%20br.pdf"
+      ],
+      "subsequentPinpoint": "October 4 order list page 13 under CERTIORARI DENIED; 2021 term Journal printed page 20; petition Appendix 18 for Illinois leave denial March 24, 2021",
+      "source": "https://www.illinoiscourts.gov/resources/0c381b34-919a-40e5-bf7f-583af31a044e/file",
+      "pdf": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/0c381b34-919a-40e5-bf7f-583af31a044e/Oettle%20v.%20Guthrie%2C%202020%20IL%20App%20%285th%29%20190306.pdf",
+      "primaryRead": "All 6 pages of the official final report read",
+      "policyComparison": {
+        "status": "Not comparable to the selected national party/Trump baselines",
+        "reason": "General voting-access or election-integrity positions do not supply an exact comparison on ballot-selfie restrictions.",
+        "personalIdeology": "Not inferred"
+      }
+    }
+  ],
+  "additionalReviewedNotSelected": [
+    {
+      "case": "People v. Morrissey",
+      "citation": "2024 IL App (5th) 231297-U",
+      "date": "2024-03-08",
+      "role": "Barberis authored; Moore and McHaney concurred",
+      "result": "Affirmed detention; oral findings plus a docket entry satisfied the written-finding requirement, and the case-specific record supported detention.",
+      "reasonNotSelected": "Overlaps the selected detention topic and is a Rule 23 order. Fully read for context; not evidence of a partisan tendency.",
+      "source": "https://www.illinoiscourts.gov/resources/06c22c80-d59b-4d8e-95ee-01f8037a6216/file"
+    }
+  ],
+  "overallAlignment": {
+    "republicanVsDemocrat": "Not reliably determined from this selected record",
+    "trumpism": "Not reliably determined from this selected record",
+    "reason": "Historical election party is documented, but these rulings concern different legal questions from the comparison baselines. No selected case establishes a Trump endorsement or a general ideological allegiance."
+  }
+}

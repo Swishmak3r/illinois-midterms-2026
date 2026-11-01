@@ -17,10 +17,12 @@
     "test:alignment": "node scripts/test-alignment.cjs",
     "test:audit-ui": "node scripts/check-audit-ui.cjs",
     "test:accuracy-ui": "node scripts/check-accuracy-ui.cjs",
-    "test:rosters": "node scripts/2026-11-01-roster-check.cjs && node audit/2026-11-01-roster-federal-statewide-test.cjs && node audit/2026-11-01-local-check.cjs",
+    "test:judicial": "python scripts/build-judicial-research.py --check && node scripts/check-judicial-research.cjs",
+    "test:judicial-ui": "node scripts/check-judicial-ui.cjs",
+    "test:rosters": "node scripts/2026-11-01-roster-check.cjs && node audit/2026-11-01-roster-federal-statewide-test.cjs && node audit/2026-11-01-local-check.cjs && node audit/2026-11-01-gap-check.cjs",
     "test:geography": "node scripts/test-geography-audit.cjs",
     "test:content": "node audit/2026-11-01-content-verify.cjs",
-    "verify": "npm run test:rosters && npm run test:geography && npm run test:evidence && npm run test:content && npm run test:alignment && npm run test:finance && npm run build"
+    "verify": "npm run test:rosters && npm run test:geography && npm run test:evidence && npm run test:content && npm run test:judicial && npm run test:alignment && npm run test:finance && npm run build"
   },
   "devDependencies": {
     "playwright": "1.62.1"

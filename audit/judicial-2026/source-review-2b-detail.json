@@ -1,0 +1,150 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "source_review_12/batch2_reader/partb",
+  "sourceLedger": "audit/judicial-2026/research-batch-2b.json",
+  "scope": "All six included decisions for five judges; 71 pages read in full, including concurrences and limitations.",
+  "method": "Read full cached primary opinion texts, then independently re-extracted all six PDFs with PyMuPDF and confirmed normalized text equality and original ledger SHA-256 matches. Checked captions, reviewing dates, actual judicial actions and reasoning, disposition and precise evidentiary pinpoints against every summary.",
+  "result": "All six summaries supported; no material correction required.",
+  "cases": [
+    {
+      "id": "goldish-rivera-2024",
+      "candidateId": "sbe-cook-circuit-retain-goldish-megan-elizabeth-goldish",
+      "judge": "Megan Elizabeth Goldish",
+      "caseName": "People v. Rivera",
+      "citation": "2024 IL App (1st) 240520",
+      "date": "2024-06-21",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/8f0f8ed4-d541-4f60-82bc-4fbb8e0f5798/file",
+      "fullOpinionRead": true,
+      "result": "supported",
+      "correctionsRequired": [],
+      "pages": 7,
+      "verified": "Caption identifies Goldish; paragraphs 4-5 report the February 21, 2024 refusal to review continuing detention and jurisdiction rationale. Paragraphs 18-27 establish retained circuit jurisdiction and distinct continuing review duty. Paragraphs 29-30 reverse and remand, not release. Initial detention affirmance was a separate appeal.",
+      "pinpoints": "Caption; paragraphs 1, 4-5, 18-22, 26-30"
+    },
+    {
+      "id": "goldish-trinidad-2017",
+      "candidateId": "sbe-cook-circuit-retain-goldish-megan-elizabeth-goldish",
+      "judge": "Megan Elizabeth Goldish",
+      "caseName": "Trinidad C. v. Augustin L.",
+      "citation": "2017 IL App (1st) 171148",
+      "date": "2017-11-21",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/e06ea0d4-f5b1-4a13-883b-f8fa84a640ad/file",
+      "fullOpinionRead": true,
+      "result": "supported",
+      "correctionsRequired": [],
+      "pages": 7,
+      "verified": "Caption identifies Goldish; paragraph 18 reports unavailability, reliability and corroboration findings and one-year plenary order. Paragraphs 21-32 affirm the evidentiary determination under abuse-of-discretion review, and paragraph 33 affirms. The order protects the petitioner and three children; it is not a criminal conviction.",
+      "pinpoints": "Caption; paragraphs 1, 14, 18, 21-33"
+    },
+    {
+      "id": "hansen-drew-2026",
+      "candidateId": "sbe-cook-circuit-retain-hansen-anjana-m-j-hansen",
+      "judge": "Anjana M.J. Hansen",
+      "caseName": "People v. Drew",
+      "citation": "2026 IL App (1st) 251647",
+      "date": "2026-05-28",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/f15625ce-c688-4a8f-a934-c213b1e2b769/file",
+      "fullOpinionRead": true,
+      "result": "supported",
+      "correctionsRequired": [],
+      "pages": 16,
+      "verified": "Caption identifies Hansen. Paragraphs 14-19 distinguish her grant of postconviction relief from later refusal of a certificate of innocence. Paragraphs 25-27 narrow and modify the certified legal question. Paragraphs 31-39 require a certificate when specified prerequisites are met, without an additional affirmative innocence finding; paragraphs 41-42 answer and remand. No 1998 trial action is attributed to Hansen. Special concurrence also read.",
+      "pinpoints": "Caption; paragraphs 14-20, 25-27, 31-46"
+    },
+    {
+      "id": "kuzas-harvey-2024",
+      "candidateId": "sbe-cook-circuit-retain-kuzas-robert-d-kuzas",
+      "judge": "Robert D. Kuzas",
+      "caseName": "People v. Harvey",
+      "citation": "2024 IL 129357",
+      "date": "2024-10-18",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/c7cf105c-f225-4718-b1f2-f2719bbaf04c/file",
+      "fullOpinionRead": true,
+      "result": "supported",
+      "correctionsRequired": [],
+      "pages": 15,
+      "verified": "Caption identifies Kuzas. Paragraph 7 reports constructive-possession findings and 30-day time-served sentence; it expressly says he did not mention the CCL statements. Supreme Court paragraphs 28-32 affirm based on no independent corroboration requirement for the license admission. Neville/Rochford and OBrien special concurrences were read and remain distinct from Kuzas reasoning. Cover confirms rehearing denial November 25, 2024.",
+      "pinpoints": "Cover; paragraphs 1, 3-10, 28-32, 34-64"
+    },
+    {
+      "id": "martinez-kriley-2025",
+      "candidateId": "sbe-cook-circuit-retain-martinez-maritza-martinez",
+      "judge": "Maritza Martinez",
+      "caseName": "In re Marriage of Kriley",
+      "citation": "2025 IL App (1st) 241923",
+      "date": "2025-06-17",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/71faba90-b522-4290-95df-28fb6e1ab11f/file",
+      "fullOpinionRead": true,
+      "result": "supported",
+      "correctionsRequired": [],
+      "pages": 14,
+      "verified": "Caption identifies Martinez. Paragraphs 34-38 report abuse findings, further mental-health evaluation, supervised video visits and equal GAL fees. Paragraphs 82-99 preserve the fact that she rejected ending all parent-child contact. Paragraphs 100 and 110-111 vacate only the supervision arrangement and fee allocation for rehearing; same result remains possible. Other conditions and protection order affirmed.",
+      "pinpoints": "Caption; paragraphs 2-3, 34-38, 82-100, 110-111"
+    },
+    {
+      "id": "mcguire-fuller-2023",
+      "candidateId": "sbe-cook-circuit-retain-mcguire-terrence-j-mcguire",
+      "judge": "Terrence J. McGuire",
+      "caseName": "Fuller v. Bowers",
+      "citation": "2023 IL App (1st) 221808-U",
+      "date": "2023-09-08",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/487fe828-b628-4823-9377-59cf71657a0a/file",
+      "fullOpinionRead": true,
+      "result": "supported",
+      "correctionsRequired": [],
+      "pages": 12,
+      "verified": "Caption identifies McGuire. Paragraphs 8-12 and 19 support removal, refusal to vacate and successor appointment. Paragraphs 34-38 acknowledge incomplete transcripts and affirm on available evidence; the ledger preserves that limitation. Paragraphs 40-41 decline contempt review because no notice was filed, rather than affirming contempt merits. Rule 23 notice confirmed.",
+      "pinpoints": "Caption; paragraphs 8-12, 19, 30-38, 40-44"
+    }
+  ],
+  "files": [
+    {
+      "file": "batch-2b-cache\\goldish-rivera.pdf",
+      "sha256": "e729138a3976e52376a66d27621af767ba65d5ff53ec208a52ae54598a93c306",
+      "sourceLedgerHashMatches": true,
+      "pdfPages": 7,
+      "independentPdfExtractionMatchesReadTextIgnoringWhitespace": true
+    },
+    {
+      "file": "batch-2b-cache\\goldish-trinidad.pdf",
+      "sha256": "2b5d0182a73d24f60f68622d37891d42680ffb444ef68b6adea14c3586483e73",
+      "sourceLedgerHashMatches": true,
+      "pdfPages": 7,
+      "independentPdfExtractionMatchesReadTextIgnoringWhitespace": true
+    },
+    {
+      "file": "batch-2b-cache\\hansen-drew.pdf",
+      "sha256": "4696ab7c72fe2a62b2fee06be2cfe2e5c0d4830e63a745c9fb28ea7ff43a2aec",
+      "sourceLedgerHashMatches": true,
+      "pdfPages": 16,
+      "independentPdfExtractionMatchesReadTextIgnoringWhitespace": true
+    },
+    {
+      "file": "batch-2b-cache\\kuzas-harvey.pdf",
+      "sha256": "2b9cbde0b309909d7bbe66ecc7a96d0b47268329d23271874507559f7ff7fc19",
+      "sourceLedgerHashMatches": true,
+      "pdfPages": 15,
+      "independentPdfExtractionMatchesReadTextIgnoringWhitespace": true
+    },
+    {
+      "file": "batch-2b-cache\\martinez-kriley.pdf",
+      "sha256": "22ce07f58d0628d1793e864ad1166d9d94d93a1fc6d1613252e78466d9f0bf29",
+      "sourceLedgerHashMatches": true,
+      "pdfPages": 14,
+      "independentPdfExtractionMatchesReadTextIgnoringWhitespace": true
+    },
+    {
+      "file": "batch-2b-cache\\mcguire-fuller.pdf",
+      "sha256": "6631e547a80033f351f7fe5049b060be0c0fec5a2aea37ca7b52a52f599d63a6",
+      "sourceLedgerHashMatches": true,
+      "pdfPages": 12,
+      "independentPdfExtractionMatchesReadTextIgnoringWhitespace": true
+    }
+  ],
+  "limitations": [
+    "This review verifies the cited decision texts and their recorded historical outcomes, not a comprehensive citator or later trial-docket search. The ledgers already disclose unverified subsequent proceedings.",
+    "Official index publication-status labels were not freshly queried in this second-reader pass; publication/caption details were checked in the actual documents.",
+    "No personal partisan inference or Trumpism score is supported by these case-specific records."
+  ],
+  "optionalEditorialNote": "In Rivera, review continued detention is marginally clearer than reconsider continued detention because paragraph 26 expressly distinguishes statutory continuing review from reconsideration of the initial order; the current summary does not actually conflate them."
+}

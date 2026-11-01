@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-01",
+  "status": "Approved explanatory context; no affirmative political-alignment classification",
+  "mergeInstructions": "Keyed by production candidateId and caseId. Merge each policyComparisons object into the corresponding ruling. additionalLegalContext belongs with later legal history. not-comparable means identified legal questions differ; it does not mean the sources are missing. No overall judge classification is authorized by this file.",
+  "profiles": {
+    "sbe-4th-appellate-retain-knecht-james-a-knecht": {
+      "knecht-cadengo-2025": {
+        "policyComparisons": {
+          "republican": {
+            "status": "not-comparable",
+            "explanation": "The 2024 Republican platform's general support for gun rights does not resolve the specific question of firearm surrender following a felony-stalking conviction.",
+            "sources": [{"url": "https://prod-static.gop.com/media/RNC2024-Platform.pdf", "title": "Republican Party platform (2024)", "pinpoint": "PDF page 6, promise 7"}]
+          },
+          "democratic": {
+            "status": "not-comparable",
+            "explanation": "The 2024 Democratic platform names several gun-safety policies, but the reviewed provisions do not state a position on this Illinois felony-stalking surrender rule or its constitutional rationale.",
+            "sources": [{"url": "https://democrats.org/wp-content/uploads/2025/07/2024-Democratic-Party-Platform.pdf", "title": "Democratic Party platform (2024)", "pinpoint": "Printed page 40, gun-safety policies"}]
+          },
+          "trump": {
+            "status": "not-comparable",
+            "explanation": "There is a limited practical similarity: Knecht joined a ruling upholding firearm surrender after felony stalking, and a later Trump DOJ rule generally denies federal firearms-rights restoration after felony stalking, with exceptions. But the court decided an Illinois constitutional challenge; DOJ created a federal restoration process that leaves state prohibitions intact. Their rationales also differ: the court relied on categorical felony status, while DOJ rejected treating disarmed citizens as entirely outside Second Amendment protection. The August 2026 rule postdates the May 2025 ruling and does not establish Knecht's motives or Trump support.",
+            "sources": [
+              {"url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/1a605535-f80a-4a05-8c48-4a02d6cf33bf/People%20v.%20Cadengo%2C%202025%20IL%20App%20%284th%29%20240568.pdf", "title": "People v. Cadengo (May 12, 2025)", "pinpoint": "Paragraphs 55-72, particularly 58-63 and 68-72"},
+              {"url": "https://www.govinfo.gov/content/pkg/FR-2026-08-20/html/2026-16981.htm", "title": "Trump DOJ final firearms-rights restoration rule (August 20, 2026; effective September 21, 2026)", "pinpoint": "91 FR 54057 and 54069-54070; 28 CFR 107.10(b), 107.20, 107.30(a), 107.50(a)(1)(iv)"}
+            ]
+          }
+        }
+      }
+    },
+    "sbe-2nd-circuit-retain-vaughan-barry-l-vaughan": {
+      "sbe-2nd-circuit-retain-vaughan-barry-l-vaughan-case-1": {
+        "policyComparisons": {
+          "republican": {
+            "status": "not-comparable",
+            "explanation": "Vaughan's opinion temporarily limited enforcement of an Illinois gun ban. The Republican platform's general gun-rights commitment does not answer the opinion's specific equal-protection question about exemptions. The opinion was later vacated.",
+            "sources": [{"url": "https://prod-static.gop.com/media/RNC2024-Platform.pdf", "title": "Republican Party platform (2024)", "pinpoint": "PDF page 6, promise 7"}]
+          },
+          "democratic": {
+            "status": "not-comparable",
+            "explanation": "The 2024 Democratic platform supports an assault-weapons ban. Vaughan's 2023 decision temporarily limited Illinois's ban, an effect in the other direction. However, it addressed a preliminary equal-protection challenge to exemptions, not a final ruling on whether such bans are constitutional. The opinion was vacated in 2024, and dismissal of the amended complaint was affirmed in 2025. That history does not support a present party-alignment label.",
+            "sources": [
+              {"url": "https://democrats.org/wp-content/uploads/2025/07/2024-Democratic-Party-Platform.pdf", "title": "Democratic Party platform (2024)", "pinpoint": "Printed page 40, assault-weapons and high-capacity-magazine bans"},
+              {"url": "https://www.illinoiscourts.gov/resources/9a162f46-797f-443e-996e-af004c07dfb7/file", "title": "Accuracy Firearms v. Pritzker (January 31, 2023; later vacated)", "pinpoint": "Paragraphs 48-68"},
+              {"url": "https://www.illinoiscourts.gov/resources/d39b0f1b-5438-4242-b264-0b8bf62c035d/file", "title": "Accuracy Firearms v. Pritzker (May 2, 2025)", "pinpoint": "Paragraphs 1, 5-9"}
+            ]
+          },
+          "trump": {
+            "status": "not-comparable",
+            "explanation": "Vaughan's 2023 opinion temporarily limited the same Illinois firearms ban that Trump's DOJ later opposed in its June 2025 Barnett brief. This is a real but limited similarity in effect. Vaughan addressed a preliminary equal-protection claim about exemptions; DOJ argued that prohibiting specified commonly used firearms violates the Second Amendment. Vaughan's opinion was vacated in 2024, and a different panel affirmed dismissal in 2025. It is historical evidence of his ruling, not an operative precedent or proof of agreement with Trump's legal position.",
+            "sources": [
+              {"url": "https://www.illinoiscourts.gov/resources/9a162f46-797f-443e-996e-af004c07dfb7/file", "title": "Accuracy Firearms v. Pritzker (January 31, 2023; later vacated)", "pinpoint": "Paragraphs 48-68"},
+              {"url": "https://www.illinoiscourts.gov/resources/d39b0f1b-5438-4242-b264-0b8bf62c035d/file", "title": "Accuracy Firearms v. Pritzker (May 2, 2025)", "pinpoint": "Paragraphs 1, 5-9"},
+              {"url": "https://www.justice.gov/crt/media/1404361/dl", "title": "Trump DOJ amicus brief in Barnett v. Raoul (June 13, 2025)", "pinpoint": "Printed pages 3-5 and 22-27; advocacy, not a judicial holding"}
+            ]
+          }
+        }
+      }
+    },
+    "sbe-5th-appellate-retain-barberis-jr-john-b-barberis-jr": {
+      "people-v-smith-2025-il-app-5th-230656": {
+        "policyComparisons": {
+          "republican": {
+            "status": "not-comparable",
+            "explanation": "The Republican platform's general protection of gun rights does not state how to decide this Illinois armed-violence charge involving simultaneous cocaine possession and an operational firearm.",
+            "sources": [{"url": "https://prod-static.gop.com/media/RNC2024-Platform.pdf", "title": "Republican Party platform (2024)", "pinpoint": "PDF page 6, promise 7"}]
+          },
+          "democratic": {
+            "status": "not-comparable",
+            "explanation": "The Democratic platform's specified gun-safety proposals do not answer this cocaine-possession armed-violence question. Upholding a particular firearms conviction does not establish Democratic alignment.",
+            "sources": [{"url": "https://democrats.org/wp-content/uploads/2025/07/2024-Democratic-Party-Platform.pdf", "title": "Democratic Party platform (2024)", "pinpoint": "Printed page 40, gun-safety policies"}]
+          },
+          "trump": {
+            "status": "not-comparable",
+            "explanation": "In its December 2025 Hemani brief, Trump's DOJ defended temporary firearm restrictions for habitual unlawful drug users, including between periods of intoxication; restrictions would end when habitual use ended. On June 18, 2026, the Supreme Court held Hemani's prosecution based solely on his admitted regular marijuana use unconstitutional. Smith addressed a different offense: simultaneous cocaine possession and an operational gun under Illinois law. That broad guns-and-drugs resemblance does not establish agreement on the same legal question or Barberis's Trump alignment. The brief also postdates Smith, and the Court's decision is separate from the administration's position.",
+            "sources": [
+              {"url": "https://www.supremecourt.gov/DocketPDF/24/24-1234/387312/20251212200434452_24-1234_Hemani_Opening_Brief_and%20Appendix.pdf", "title": "Trump DOJ merits brief in United States v. Hemani (December 2025)", "pinpoint": "Printed pages 9-12, 17-18, 23-25, 36-40; conclusion page 43"},
+              {"url": "https://www.supremecourt.gov/opinions/25pdf/24-1234_new_6k47.pdf", "title": "United States v. Hemani (June 18, 2026), corrected official opinion", "pinpoint": "Majority slip pages 3 and 18-19; footnote 6 on pages 15-16"},
+              {"url": "https://www.illinoiscourts.gov/resources/790da944-3fc7-4291-b777-3351d5cda17f/file", "title": "People v. Smith (October 29, 2025)", "pinpoint": "Paragraphs 25-29 and 32-45"}
+            ]
+          }
+        },
+        "additionalLegalContext": {
+          "explanation": "A later U.S. Supreme Court decision rejected an automatic federal gun ban applied solely because of regular marijuana use. Hemani did not decide Smith's Illinois cocaine-possession armed-violence question, and no subsequent decision applying Hemani to Smith was verified. Hemani also expressly reserved convicted-felon restrictions and several other drug-related firearm questions.",
+          "sources": [{"url": "https://www.supremecourt.gov/opinions/25pdf/24-1234_new_6k47.pdf", "title": "United States v. Hemani (June 18, 2026), corrected official opinion", "pinpoint": "Majority slip pages 3 and 18-19; footnote 6 on pages 15-16"}]
+        }
+      }
+    }
+  }
+}

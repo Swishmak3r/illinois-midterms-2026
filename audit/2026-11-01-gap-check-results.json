@@ -1,0 +1,17 @@
+{
+  "checked": "2026-11-01",
+  "status": "passed",
+  "officialGapContestsCompared": [
+    "cook-comm-10",
+    "cook-comm-16",
+    "mchenry-clerk",
+    "mchenry-treasurer",
+    "mchenry-sheriff"
+  ],
+  "outOfScopeRaceObjectsUnchanged": 279,
+  "concurrentAuthorizedEdits": [
+    "sbe-local-4th-appellate-retain-knecht"
+  ],
+  "remainingFreshnessGaps": [],
+  "limits": "Printed candidate roster parity, date/source integrity, voting-rule regression and narrow-change guard. Does not establish all county contests, write-in certification, personal eligibility or campaign-claim truth."
+}

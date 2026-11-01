@@ -193,7 +193,8 @@ async function functionalChecks(browser, engine, viewport) {
       assert.equal(await page.locator('#hero-location-input').getAttribute('aria-expanded'),'false');
     }, page);
     await check('History and filter reset keep URL and UI aligned', async () => {
-      await boot(page); await selectFilter(page,'party-select-control','dem');
+      const historyStart = new URL(BASE_URL); historyStart.search = '?zip=60647'; historyStart.hash = '';
+      await boot(page, historyStart.href); await selectFilter(page,'party-select-control','dem');
       await lookup(page,'60001'); assert.equal((await readState(page)).partyFilter,'all');
       assert.equal(new URL(page.url()).searchParams.get('zip'),'60001');
       await page.goBack(); await page.waitForFunction(() => IL_APP.getState().locationResult?.matchedZip === '60647');

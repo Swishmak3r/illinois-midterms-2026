@@ -1,0 +1,493 @@
+{
+  "batch": 6,
+  "scope": "outside-cook",
+  "count": 16,
+  "sourceInventory": "audit/judicial-2026/inventory-retention.json",
+  "instructions": "Verify meaningful primary-source ruling examples; distinguish the judge from panel members and cited authorities. Search hits do not establish participation. Lack of retrieved examples does not mean no rulings or no political alignment. Do not label personal ideology. Use official retention source to resolve identity. Keep relevant case metadata, no unrelated personal information.",
+  "judges": [
+    {
+      "raceId": "sbe-local-6th-circuit-retain-rhoades",
+      "candidateId": "sbe-6th-circuit-retain-rhoades-dana-rhoades",
+      "name": "Dana Rhoades",
+      "sbeName": "Rhoades, Dana",
+      "courtType": "Circuit",
+      "courtGroup": "6TH CIRCUIT",
+      "sbeOffice": "6TH CIRCUIT - RETAIN RHOADES",
+      "localDistrictCode": "IL-6TH-CIRCUIT-RETAIN-RHOADES",
+      "localDistrictName": "6TH CIRCUIT - RETAIN RHOADES",
+      "judicialDistrict": "Fifth Judicial District",
+      "counties": [
+        "Champaign",
+        "De Witt",
+        "Douglas",
+        "Macon",
+        "Moultrie",
+        "Piatt"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=nmwvzdyYBPuOaohRmJEUfw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=Sw9FX3PBkzXYKOWB3NMsaQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-6th-circuit-retain-sullivan",
+      "candidateId": "sbe-6th-circuit-retain-sullivan-ramona-m-sullivan",
+      "name": "Ramona M. Sullivan",
+      "sbeName": "Sullivan, Ramona M.",
+      "courtType": "Circuit",
+      "courtGroup": "6TH CIRCUIT",
+      "sbeOffice": "6TH CIRCUIT - RETAIN SULLIVAN",
+      "localDistrictCode": "IL-6TH-CIRCUIT-RETAIN-SULLIVAN",
+      "localDistrictName": "6TH CIRCUIT - RETAIN SULLIVAN",
+      "judicialDistrict": "Fifth Judicial District",
+      "counties": [
+        "Champaign",
+        "De Witt",
+        "Douglas",
+        "Macon",
+        "Moultrie",
+        "Piatt"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=%2bC4E1FONN51kRoFitJPPgg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=Sw9FX3PBkzXwBOfl%2bAsq1g%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-7th-circuit-retain-reif",
+      "candidateId": "sbe-7th-circuit-retain-reif-christopher-e-chris-reif",
+      "name": "Christopher E. \"Chris\" Reif",
+      "sbeName": "Reif, Christopher E. \"Chris\"",
+      "courtType": "Circuit",
+      "courtGroup": "7TH CIRCUIT",
+      "sbeOffice": "7TH CIRCUIT - RETAIN REIF",
+      "localDistrictCode": "IL-7TH-CIRCUIT-RETAIN-REIF",
+      "localDistrictName": "7TH CIRCUIT - RETAIN REIF",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2025",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ObyT%2bkpaGZNzQssPSfXVbg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=Sw9FX3PBkzXlS3hTBd9diA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-7th-circuit-retain-madonia",
+      "candidateId": "sbe-7th-circuit-retain-madonia-john-m-mo-madonia",
+      "name": "John M. \"Mo\" Madonia",
+      "sbeName": "Madonia, John M. \"Mo\"",
+      "courtType": "Circuit",
+      "courtGroup": "7TH CIRCUIT",
+      "sbeOffice": "7TH CIRCUIT - RETAIN MADONIA",
+      "localDistrictCode": "IL-7TH-CIRCUIT-RETAIN-MADONIA",
+      "localDistrictName": "7TH CIRCUIT - RETAIN MADONIA",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2025",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=%2bC4E1FONN53R8Jz8uHZlhw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNn6yAcUDTd16g%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-7th-circuit-retain-giganti",
+      "candidateId": "sbe-7th-circuit-retain-giganti-adam-giganti",
+      "name": "Adam Giganti",
+      "sbeName": "Giganti, Adam",
+      "courtType": "Circuit",
+      "courtGroup": "7TH CIRCUIT",
+      "sbeOffice": "7TH CIRCUIT - RETAIN GIGANTI",
+      "localDistrictCode": "IL-7TH-CIRCUIT-RETAIN-GIGANTI",
+      "localDistrictName": "7TH CIRCUIT - RETAIN GIGANTI",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2025",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=%2bC4E1FONN51bLCi9F3GGpQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNnVZa9lzhITpA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-7th-circuit-retain-grischow",
+      "candidateId": "sbe-7th-circuit-retain-grischow-raylene-grischow",
+      "name": "Raylene Grischow",
+      "sbeName": "Grischow, Raylene",
+      "courtType": "Circuit",
+      "courtGroup": "7TH CIRCUIT",
+      "sbeOffice": "7TH CIRCUIT - RETAIN GRISCHOW",
+      "localDistrictCode": "IL-7TH-CIRCUIT-RETAIN-GRISCHOW",
+      "localDistrictName": "7TH CIRCUIT - RETAIN GRISCHOW",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2025",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=%2bC4E1FONN51jaEijD2Vp3Q%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNk%2bTLK7GgTOSw%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-7th-circuit-retain-noll",
+      "candidateId": "sbe-7th-circuit-retain-noll-gail-l-noll",
+      "name": "Gail L. Noll",
+      "sbeName": "Noll, Gail L.",
+      "courtType": "Circuit",
+      "courtGroup": "7TH CIRCUIT",
+      "sbeOffice": "7TH CIRCUIT - RETAIN NOLL",
+      "localDistrictCode": "IL-7TH-CIRCUIT-RETAIN-NOLL",
+      "localDistrictName": "7TH CIRCUIT - RETAIN NOLL",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2025",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ObyT%2bkpaGZN9LQIfps5q8A%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNkwGauSReGhYA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-7th-circuit-retain-lorton",
+      "candidateId": "sbe-7th-circuit-retain-lorton-allison-lorton",
+      "name": "Allison Lorton",
+      "sbeName": "Lorton, Allison",
+      "courtType": "Circuit",
+      "courtGroup": "7TH CIRCUIT",
+      "sbeOffice": "7TH CIRCUIT - RETAIN LORTON",
+      "localDistrictCode": "IL-7TH-CIRCUIT-RETAIN-LORTON",
+      "localDistrictName": "7TH CIRCUIT - RETAIN LORTON",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=%2bC4E1FONN53Pa2fDKaI9Pg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNk236sqSkH9wQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-7th-circuit-retain-schmidt",
+      "candidateId": "sbe-7th-circuit-retain-schmidt-zachary-a-schmidt",
+      "name": "Zachary A. Schmidt",
+      "sbeName": "Schmidt, Zachary A.",
+      "courtType": "Circuit",
+      "courtGroup": "7TH CIRCUIT",
+      "sbeOffice": "7TH CIRCUIT - RETAIN SCHMIDT",
+      "localDistrictCode": "IL-7TH-CIRCUIT-RETAIN-SCHMIDT",
+      "localDistrictName": "7TH CIRCUIT - RETAIN SCHMIDT",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2025",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ObyT%2bkpaGZOz3SJGuNgTlg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNl%2fTEXhFRK61A%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-8th-circuit-retain-atterberry",
+      "candidateId": "sbe-8th-circuit-retain-atterberry-michael-l-mike-atterberry",
+      "name": "Michael L. \"Mike\" Atterberry",
+      "sbeName": "Atterberry, Michael L. \"Mike\"",
+      "courtType": "Circuit",
+      "courtGroup": "8TH CIRCUIT",
+      "sbeOffice": "8TH CIRCUIT - RETAIN ATTERBERRY",
+      "localDistrictCode": "IL-8TH-CIRCUIT-RETAIN-ATTERBERRY",
+      "localDistrictName": "8TH CIRCUIT - RETAIN ATTERBERRY",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Adams",
+        "Brown",
+        "Calhoun",
+        "Cass",
+        "Mason",
+        "Menard",
+        "Pike",
+        "Schuyler"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ObyT%2bkpaGZOYB%2fX3yeoPDw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNkL1zYonqeZAg%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-8th-circuit-retain-burch",
+      "candidateId": "sbe-8th-circuit-retain-burch-charles-h-w-burch",
+      "name": "Charles H.W. Burch",
+      "sbeName": "Burch, Charles H.W.",
+      "courtType": "Circuit",
+      "courtGroup": "8TH CIRCUIT",
+      "sbeOffice": "8TH CIRCUIT - RETAIN BURCH",
+      "localDistrictCode": "IL-8TH-CIRCUIT-RETAIN-BURCH",
+      "localDistrictName": "8TH CIRCUIT - RETAIN BURCH",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Adams",
+        "Brown",
+        "Calhoun",
+        "Cass",
+        "Mason",
+        "Menard",
+        "Pike",
+        "Schuyler"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=16iXhdg7PdLxq2VBHJUGxw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNlYVBmo3nl3QA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-8th-circuit-retain-brenner",
+      "candidateId": "sbe-8th-circuit-retain-brenner-tad-brenner",
+      "name": "Tad Brenner",
+      "sbeName": "Brenner, Tad",
+      "courtType": "Circuit",
+      "courtGroup": "8TH CIRCUIT",
+      "sbeOffice": "8TH CIRCUIT - RETAIN BRENNER",
+      "localDistrictCode": "IL-8TH-CIRCUIT-RETAIN-BRENNER",
+      "localDistrictName": "8TH CIRCUIT - RETAIN BRENNER",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Adams",
+        "Brown",
+        "Calhoun",
+        "Cass",
+        "Mason",
+        "Menard",
+        "Pike",
+        "Schuyler"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ObyT%2bkpaGZPWSc9CqgkBgQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNmMW%2f1p5acmWQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-9th-circuit-retain-vancil-jr",
+      "candidateId": "sbe-9th-circuit-retain-vancil-jr-david-l-vancil-jr",
+      "name": "David L. Vancil, Jr.",
+      "sbeName": "Vancil, Jr., David L.",
+      "courtType": "Circuit",
+      "courtGroup": "9TH CIRCUIT",
+      "sbeOffice": "9TH CIRCUIT - RETAIN VANCIL, JR.",
+      "localDistrictCode": "IL-9TH-CIRCUIT-RETAIN-VANCIL-JR",
+      "localDistrictName": "9TH CIRCUIT - RETAIN VANCIL, JR.",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Fulton",
+        "Hancock",
+        "Henderson",
+        "Knox",
+        "McDonough",
+        "Warren"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=16iXhdg7PdIvh%2fP4DMa8tw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=s%2ffqNM5%2bYagsELGUy5YHaQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-9th-circuit-retain-doyle",
+      "candidateId": "sbe-9th-circuit-retain-doyle-andrew-j-doyle",
+      "name": "Andrew J. Doyle",
+      "sbeName": "Doyle, Andrew J.",
+      "courtType": "Circuit",
+      "courtGroup": "9TH CIRCUIT",
+      "sbeOffice": "9TH CIRCUIT - RETAIN DOYLE",
+      "localDistrictCode": "IL-9TH-CIRCUIT-RETAIN-DOYLE",
+      "localDistrictName": "9TH CIRCUIT - RETAIN DOYLE",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Fulton",
+        "Hancock",
+        "Henderson",
+        "Knox",
+        "McDonough",
+        "Warren"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=16iXhdg7PdJuYMsPlFWYyQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=ERPADtRzUNlQI%2fI6%2b6FvhA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-10th-circuit-retain-mack",
+      "candidateId": "sbe-10th-circuit-retain-mack-james-a-mack",
+      "name": "James A. Mack",
+      "sbeName": "Mack, James A.",
+      "courtType": "Circuit",
+      "courtGroup": "10TH CIRCUIT",
+      "sbeOffice": "10TH CIRCUIT - RETAIN MACK",
+      "localDistrictCode": "IL-10TH-CIRCUIT-RETAIN-MACK",
+      "localDistrictName": "10TH CIRCUIT - RETAIN MACK",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Marshall",
+        "Peoria",
+        "Putnam",
+        "Stark",
+        "Tazewell"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=16iXhdg7PdJDNh4h5VLeVw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=s%2ffqNM5%2bYahwWfjoB6JlKQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-10th-circuit-retain-doscotch",
+      "candidateId": "sbe-10th-circuit-retain-doscotch-christopher-r-doscotch",
+      "name": "Christopher R. Doscotch",
+      "sbeName": "Doscotch, Christopher R.",
+      "courtType": "Circuit",
+      "courtGroup": "10TH CIRCUIT",
+      "sbeOffice": "10TH CIRCUIT - RETAIN DOSCOTCH",
+      "localDistrictCode": "IL-10TH-CIRCUIT-RETAIN-DOSCOTCH",
+      "localDistrictName": "10TH CIRCUIT - RETAIN DOSCOTCH",
+      "judicialDistrict": "Fourth Judicial District",
+      "counties": [
+        "Marshall",
+        "Peoria",
+        "Putnam",
+        "Stark",
+        "Tazewell"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=cmBJfArgmo4UwvT1jpTjeg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=s%2ffqNM5%2bYajfIMFuqpcw7g%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    }
+  ]
+}

@@ -234,12 +234,7 @@
   ],
   "totalLocalProfiles": 349,
   "countyFiledContestsOutsideSbeSource": 74,
-  "rostersCheckedNov1": 280,
-  "countyFreshnessNotReasserted": [
-    "cook-comm-10",
-    "cook-comm-16",
-    "mchenry-sheriff",
-    "mchenry-clerk",
-    "mchenry-treasurer"
-  ]
+  "rostersCheckedNov1": 285,
+  "countyFreshnessNotReasserted": [],
+  "sourceGapFollowup": "2026-11-01-gap-report.md"
 }

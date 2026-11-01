@@ -11,7 +11,7 @@ SCRIPTS = [
 ]
 if (ROOT / "data-live-sync.js").exists():
     SCRIPTS.append("data-live-sync.js")
-SCRIPTS += ["data-finance-verified.js", "data-alignment.js", "alignment.js"]
+SCRIPTS += ["data-finance-verified.js", "data-alignment.js", "alignment.js", "data-judicial.js"]
 SCRIPTS += ["app.js", "ui.js"]
 
 def build():

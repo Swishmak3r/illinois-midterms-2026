@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-01",
+  "scope": "Will County 2026 judicial retention; contextual evidence, separate from rulings and ideology",
+  "sources": [
+    {
+      "id": "isba-will-2026",
+      "title": "Will County Judicial Evaluations and Advisory Polls",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/judicial-elections/counties/will",
+      "accessed": "2026-11-01",
+      "read": "Full HTML page; retention table and methodology",
+      "sourceType": "Primary publisher of advisory poll",
+      "locator": "12th Circuit Judicial Advisory Polls / Retention",
+      "caveat": "Joint ISBA/Will County Bar Association advisory poll of responding lawyers, not an institutional ISBA evaluation. Recommendation is at least 60% yes on meeting office requirements. It is not an ideology measure."
+    },
+    {
+      "id": "will-clerk-2014-judicial",
+      "title": "Judicial Candidates, November 4, 2014 General Election",
+      "publisher": "Will County Clerk",
+      "url": "https://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/will-il.connect.clarityelections.com/Elections/20141104/2014%20General%20Judicial%20Candidates.pdf",
+      "publishedOrUpdated": "2014-10-06",
+      "accessed": "2026-11-01",
+      "read": "Downloaded PDF over HTTPS and extracted page 1 with PyMuPDF; web parser was blocked by JavaScript challenge",
+      "sourceType": "Official historical candidate roster",
+      "locator": "Page 1",
+      "caveat": "Historical ballot party only; does not establish current personal beliefs, endorsements, or Trump alignment. Residential addresses omitted from this sanitized ledger."
+    },
+    {
+      "id": "isba-2014-election",
+      "title": "Results from Tuesday's judicial elections for all circuits outside of Cook",
+      "publisher": "Illinois State Bar Association",
+      "url": "https://www.isba.org/barnews/2014/11/04/results-tuesdays-judicial-elections-all-circuits-outside-cook",
+      "publishedOrUpdated": "2014-11-04",
+      "accessed": "2026-11-01",
+      "read": "Full HTML page; 12th Circuit vacancy rows and party abbreviation legend",
+      "sourceType": "Contemporaneous bar election report",
+      "locator": "12th Circuit Vacancy, 1st Subcircuit Livas and 2nd Subcircuit Judgeship A",
+      "caveat": "Corroboration of historical party, not a current endorsement. R in the rating column means Recommended; only the parenthesized party label means Republican."
+    }
+  ],
+  "judges": [
+    {
+      "name": "Amy M. Bertani-Tomczak",
+      "raceId": "will-retention-amy-m-bertani-tomczak",
+      "advisoryPoll": {"year": 2026, "rating": "Recommended", "recommendationPercent": 87.34, "integrity": 91.14, "impartiality": 88.46, "temperament": 87.34, "legalAbility": 89.74, "courtManagement": 87.18, "sensitivityToDiversityAndBias": 87.34, "respondents": 81, "sourceId": "isba-will-2026"}
+    },
+    {
+      "name": "Sarah Jones",
+      "raceId": "will-retention-sarah-jones",
+      "advisoryPoll": {"year": 2026, "rating": "Recommended", "recommendationPercent": 70.15, "integrity": 79.71, "impartiality": 72.46, "temperament": 55.88, "legalAbility": 77.14, "courtManagement": 79.71, "sensitivityToDiversityAndBias": 72.73, "respondents": 70, "sourceId": "isba-will-2026"}
+    },
+    {
+      "name": "Daniel L. Kennedy",
+      "raceId": "will-retention-daniel-l-kennedy",
+      "advisoryPoll": {"year": 2026, "rating": "Recommended", "recommendationPercent": 90.22, "integrity": 92.05, "impartiality": 93.18, "temperament": 89.77, "legalAbility": 89.77, "courtManagement": 90.91, "sensitivityToDiversityAndBias": 91.01, "respondents": 92, "sourceId": "isba-will-2026"},
+      "historicalBallotParty": {"party": "Democratic", "sourceLabel": "Democrat", "electionDate": "2014-11-04", "office": "12th Judicial Circuit, Second Subcircuit, Additional Judgeship A", "sourceIds": ["will-clerk-2014-judicial", "isba-2014-election"], "interpretation": "Ran as a Democrat in the 2014 judicial election. Separate from the nonpartisan 2026 retention question."}
+    },
+    {
+      "name": "Daniel D. Rippy",
+      "raceId": "will-retention-daniel-d-rippy",
+      "advisoryPoll": {"year": 2026, "rating": "Recommended", "recommendationPercent": 85.37, "integrity": 87.80, "impartiality": 86.59, "temperament": 87.65, "legalAbility": 86.59, "courtManagement": 90.00, "sensitivityToDiversityAndBias": 88.75, "respondents": 83, "sourceId": "isba-will-2026"},
+      "historicalBallotParty": {"party": "Republican", "sourceLabel": "Republican", "electionDate": "2014-11-04", "office": "12th Judicial Circuit, First Subcircuit, Robert P. Livas vacancy", "sourceIds": ["will-clerk-2014-judicial", "isba-2014-election"], "interpretation": "Ran as a Republican in the 2014 judicial election. Separate from the nonpartisan 2026 retention question."}
+    }
+  ],
+  "searchLog": [
+    {"query": "site.isba.org 2026 Will judicial retention Bertani Tomczak Sarah Jones Kennedy Rippy", "result": "Current primary ISBA Will table located and read"},
+    {"query": "site.illinoiscourts.gov Bertani 1994 election; site.illinoiscourts.gov Daniel Kennedy 2014 elected; site.il12th.org Sarah Jones judge biography", "result": "Located historical ISBA election report; secondary biographies were not used as dispositive party evidence"},
+    {"query": "site.willcountyclerk.gov 2014 Kennedy Rippy; site.thewillcountyclerk.com Kennedy 2014; site.willcountyclerk.gov Sarah Jones 2008; site.elections.il.gov Bertani-Tomczak Republican", "result": "Official Clerk 2014 PDF located, downloaded and read; no usable official Bertani/Jones historical ballot result in these queries"},
+    {"query": "2014 General Judicial Candidates.pdf; site.willcountyclerk.gov elections 2014; Will County Sarah Jones Democrat 2008; Will County Sarah Jones Republican 2008", "result": "No additional dispositive primary party record found; partisan voter guides and search snippets were not used as verified evidence"}
+  ],
+  "limits": [
+    "This file supplies context only. Case evidence is in separate will-* research ledgers.",
+    "The advisory poll is self-selected lawyer feedback, not a representative voter poll or evidence of judicial politics.",
+    "No personal Republican/Democratic ideological conclusion or Trumpism score is established by these records."
+  ]
+}

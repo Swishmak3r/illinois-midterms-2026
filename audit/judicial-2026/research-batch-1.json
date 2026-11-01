@@ -1,0 +1,777 @@
+{
+  "checked": "2026-11-01",
+  "batch": 1,
+  "scope": "14 Cook County circuit-retention judges",
+  "judgeCount": 14,
+  "caseCount": 20,
+  "dateConvention": "The date field is the reviewing court decision date. trialDecisionDate is provided only when established by the source. The judge under review is not a member of the reviewing panel.",
+  "coverageLimit": "Selected primary rulings are not a complete career record, representative sample, reversal rate, or comprehensive subsequent-history/citator report. Sources establish the described appellate result; unverified later proceedings remain expressly limited. No case is assigned a partisan or Trump loyalty score.",
+  "profiles": {
+    "sbe-cook-circuit-retain-nixon-lewis-nixon": {
+      "candidateId": "sbe-cook-circuit-retain-nixon-lewis-nixon",
+      "name": "Lewis Nixon",
+      "raceId": "sbe-local-cook-circuit-retain-nixon",
+      "court": "COOK CIRCUIT",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Illinois Courts all-years name search returned seven hits; verified the published mechanics-lien opinion and the trial judge identity.",
+      "searchQueries": [
+        "Lewis Nixon"
+      ],
+      "rulings": [
+        {
+          "caseName": "American Steel Fabricators, Inc. v. K&K Iron Works, LLC",
+          "citation": "2022 IL App (1st) 220181",
+          "date": "2022-12-02",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": "2022-02-03",
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Mechanics liens and access to a statutory remedy",
+          "holding": "Dismissed American Steel’s complaint with prejudice, holding that the subcontractor lacked authority under section 34 of the Mechanics Lien Act to demand that its sub-subcontractor sue to enforce a lien.",
+          "reasoning": "The trial court read the statute’s eligible-demanding-party categories as excluding American Steel. The appellate court disagreed: a contractor or subcontractor can qualify as a lienor by its status, without first perfecting a recorded lien.",
+          "subsequentHistory": "Reversed and remanded on December 2, 2022. The official index lists a final opinion without a subsequent-history note. This review did not verify the later trial docket.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/4d706df5-6e8f-454c-be1f-849a52d4d657/file",
+              "title": "American Steel Fabricators, Inc. v. K&K Iron Works, LLC — 2022 IL App (1st) 220181",
+              "paragraphs": "¶¶ 10, 15, 38–42, 48–51",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "4cef706119269871c279d92613f270f3149fb29c0b7ec7e731a73840d648f161"
+            }
+          ],
+          "limitations": "This is a construction-lien statutory interpretation dispute. The reviewed sources do not establish a matching Republican, Democratic, or Trump policy proposition.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "This is a construction-lien statutory interpretation dispute. The reviewed sources do not establish a matching Republican, Democratic, or Trump policy proposition."
+          }
+        }
+      ],
+      "coverageNote": "Selected reported rulings, not a complete career record or a representative statistical sample. A reversal is an appellate result, not by itself a finding of misconduct. No personal party ideology or Trump loyalty is inferred."
+    },
+    "sbe-cook-circuit-retain-kennedy-kerry-m-kennedy": {
+      "candidateId": "sbe-cook-circuit-retain-kennedy-kerry-m-kennedy",
+      "name": "Kerry M. Kennedy",
+      "raceId": "sbe-local-cook-circuit-retain-kennedy",
+      "court": "COOK CIRCUIT",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Exact-name all-years Illinois Courts search returned 16 hits. Read the controlling Illinois Supreme Court decision, including its description of Kennedy’s trial ruling and the dissent. The bench trial was held December 5, 2016; the source does not date the later sentencing hearing.",
+      "searchQueries": [
+        "Kerry M. Kennedy"
+      ],
+      "rulings": [
+        {
+          "caseName": "People v. Leib",
+          "citation": "2022 IL 126645",
+          "date": "2022-06-16",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": null,
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Supreme Court",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Criminal statutory scope and proof of knowledge",
+          "holding": "Found a registered child sex offender guilty after a bench trial for knowingly entering school property during a parish carnival; imposed a one-year prison sentence.",
+          "reasoning": "Kennedy treated the parish parking lot as school property, relying on testimony about shared school/church property and the festival layout. The Supreme Court majority held that school property need not be contiguous to a school building and that circumstantial evidence sufficiently supported knowledge.",
+          "subsequentHistory": "The First District affirmed in 2020 IL App (1st) 170837-U. The Illinois Supreme Court affirmed 5–2 on June 16, 2022. Chief Justice Anne M. Burke, joined by Justice Neville, dissented on proof that Leib knew the parking lot was school property, while agreeing it could qualify as school property.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/aa57a826-f4e2-4fb3-bd1f-89aa836a4b45/file",
+              "title": "People v. Leib — 2022 IL 126645",
+              "paragraphs": "¶¶ 1, 3, 19–24, 32–43, 45",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "46c8af7e2352498a8df1c461067268b7dd4f8b20c0ef595eeeefb3850e203f71"
+            }
+          ],
+          "limitations": "A conviction applying a sex-offender location statute and resolving proof of knowledge does not establish the judge’s overall partisan or Trump-policy alignment.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "A conviction applying a sex-offender location statute and resolving proof of knowledge does not establish the judge’s overall partisan or Trump-policy alignment."
+          }
+        }
+      ],
+      "coverageNote": "Selected reported rulings, not a complete career record or a representative statistical sample. A reversal is an appellate result, not by itself a finding of misconduct. No personal party ideology or Trump loyalty is inferred."
+    },
+    "sbe-cook-circuit-retain-powell-joan-e-powell": {
+      "candidateId": "sbe-cook-circuit-retain-powell-joan-e-powell",
+      "name": "Joan E. Powell",
+      "raceId": "sbe-local-cook-circuit-retain-powell",
+      "court": "COOK CIRCUIT",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Exact-name all-years Illinois Courts search returned 38 hits. Read the published medical-privacy judgment-enforcement case and cross-checked the caption. Also inspected Martin v. City of Chicago, 2023 IL App (1st) 221116, concerning premises-liability jury instructions; it was not used to infer politics.",
+      "searchQueries": [
+        "Joan E. Powell"
+      ],
+      "rulings": [
+        {
+          "caseName": "Victim A v. Chung Song",
+          "citation": "2021 IL App (1st) 200826",
+          "date": "2021-06-30",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": null,
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Medical privacy and civil-damages enforcement",
+          "holding": "Allowed a patient to enforce the full $300,000 emotional-distress judgment against a physician after confidential medical records were exposed. Rejected the physician’s claim that a separate allocation of fault to another person reduced his obligation to the patient to 10%.",
+          "reasoning": "Powell held that the statutory modification of joint-and-several liability applied to bodily injury, death, or physical property damage, not the emotional-distress injury proved here. The separate contribution allocation between wrongdoers did not reduce the patient’s judgment.",
+          "subsequentHistory": "Affirmed June 30, 2021; rehearing denied August 24, 2021. The appellate court also declined appellate sanctions against the physician. This review did not verify the later collection docket.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/4559956d-9110-48ec-9230-c87eb511a751/file",
+              "title": "Victim A v. Chung Song — 2021 IL App (1st) 200826",
+              "paragraphs": "¶¶ 1–4, 8–10, 18–22, 26–28",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "9d56d3b2fa6b8206ec2fd30c26a7d63b78207814c153da960abf4ff71502732c"
+            }
+          ],
+          "limitations": "The decision enforces a privacy-related civil judgment through statutory tort rules; the reviewed sources do not supply a precise competing party or Trump policy baseline.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The decision enforces a privacy-related civil judgment through statutory tort rules; the reviewed sources do not supply a precise competing party or Trump policy baseline."
+          }
+        }
+      ],
+      "coverageNote": "Selected reported rulings, not a complete career record or a representative statistical sample. A reversal is an appellate result, not by itself a finding of misconduct. No personal party ideology or Trump loyalty is inferred."
+    },
+    "sbe-cook-circuit-retain-ward-kirby-maureen-ward-kirby": {
+      "candidateId": "sbe-cook-circuit-retain-ward-kirby-maureen-ward-kirby",
+      "name": "Maureen Ward Kirby",
+      "raceId": "sbe-local-cook-circuit-retain-ward-kirby",
+      "court": "COOK CIRCUIT",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "All-years Illinois Courts name search returned 23 hits. Read both the current 2026 election-contest order and the published 2022 ballot-access decision; reported opposite appellate outcomes without treating them as a partisan score.",
+      "searchQueries": [
+        "Ward Kirby"
+      ],
+      "rulings": [
+        {
+          "caseName": "Lewis v. Illinois State Board of Elections",
+          "citation": "2026 IL App (1st) 261589-U",
+          "date": "2026-10-14",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": "2026-08-14",
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Election-contest filing deadlines",
+          "holding": "Dismissed a challenge to the 2026 Republican primary for Illinois’s First Congressional District because it was filed after the statutory deadline; also gave claim/issue preclusion as an alternative ground.",
+          "reasoning": "Ward Kirby applied the 10-day deadline for a primary candidate to contest the final canvass. The plaintiff’s asserted 30-day deadline concerned general elections. The appellate court affirmed solely on untimeliness and lack of statutory jurisdiction, without reaching the alternative grounds.",
+          "subsequentHistory": "Affirmed October 14, 2026, in a Rule 23 order. The source is not a precedential opinion except as Rule 23 permits. No later disposition was verified in this review.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/733d0da3-2430-48fb-b041-32a0610d8bae/file",
+              "title": "Lewis v. Illinois State Board of Elections — 2026 IL App (1st) 261589-U",
+              "paragraphs": "¶¶ 2–10, 14–21",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "1c2e4920f5b3963fbb0af5ff47c48e4ee2610b0730e2d2fc40e02f5c351674d9"
+            }
+          ],
+          "limitations": "A jurisdictional deadline ruling did not adjudicate the election-fraud allegations on their merits. It cannot support an inference for or against Trump, or for or against either party.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "A jurisdictional deadline ruling did not adjudicate the election-fraud allegations on their merits. It cannot support an inference for or against Trump, or for or against either party."
+          }
+        },
+        {
+          "caseName": "Ruffin v. Feller",
+          "citation": "2022 IL App (1st) 220692",
+          "date": "2022-08-02",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": "2022-05-16",
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Candidate ballot access and name-registration requirements",
+          "holding": "Reversed the electoral board’s removal of sheriff candidate Latonya Ruffin and ordered her name onto the June 2022 Democratic primary ballot.",
+          "reasoning": "The appellate record says Ward Kirby stated her reasoning in open court, but no transcript was provided. The reviewing court therefore does not supply a reliable account of her full rationale. It reversed because Ruffin had not re-registered under the surname used on her candidacy papers as required by the governing statute.",
+          "subsequentHistory": "Circuit judgment reversed and electoral-board judgment affirmed. The published opinion was filed August 2, 2022, following an accelerated summary order entered May 31, 2022. Ruffin’s name was ordered off the ballot and votes for her were not to be counted.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/8fd12359-b3ff-46a2-8020-b781e0f9974b/file",
+              "title": "Ruffin v. Feller — 2022 IL App (1st) 220692",
+              "paragraphs": "¶¶ 1, 5–6, 10–13",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "75efeab97d3bc15189ae23ca2912e6cb70bd88318e14f8f170c712f268d6b54b"
+            }
+          ],
+          "limitations": "The result concerned one candidate’s name and registration requirements, and the trial judge’s explanatory transcript was absent. These facts are insufficient for a party-policy or Trump-policy comparison.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The result concerned one candidate’s name and registration requirements, and the trial judge’s explanatory transcript was absent. These facts are insufficient for a party-policy or Trump-policy comparison."
+          }
+        }
+      ],
+      "coverageNote": "Selected reported rulings, not a complete career record or a representative statistical sample. A reversal is an appellate result, not by itself a finding of misconduct. No personal party ideology or Trump loyalty is inferred."
+    },
+    "sbe-cook-circuit-retain-arce-edward-a-arce": {
+      "candidateId": "sbe-cook-circuit-retain-arce-edward-a-arce",
+      "name": "Edward A. Arce",
+      "raceId": "sbe-local-cook-circuit-retain-arce",
+      "court": "COOK CIRCUIT",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "All-years Illinois Courts exact-name search returned five hits. Read the published adult-parentage case and confirmed Arce in its Decision Under Review caption.",
+      "searchQueries": [
+        "Edward Arce"
+      ],
+      "rulings": [
+        {
+          "caseName": "In re Parentage of Miller",
+          "citation": "2023 IL App (1st) 210774",
+          "date": "2023-03-10",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": "2021-06-02",
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Adult parentage and due process",
+          "holding": "Dismissed an adult’s petition to establish parentage, ruling that the 2015 Parentage Act’s savings provision was unconstitutional as applied to the respondent.",
+          "reasoning": "The dismissal accepted the respondent’s asserted protected interest in a prior limitations bar. The appellate court held that the petitioner never had the definite prior statutory right to sue that the defense assumed had expired, so the respondent gained no corresponding vested interest. It resolved the case on nonconstitutional grounds.",
+          "subsequentHistory": "Reversed and remanded March 10, 2023. The appellate court expressly did not decide the broader constitutional question. No later trial disposition was verified in this review.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/fc9d04e3-c8cb-42c6-ad3c-6c3cba02c996/file",
+              "title": "In re Parentage of Miller — 2023 IL App (1st) 210774",
+              "paragraphs": "¶¶ 1, 16–17, 29–37, 51–54",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "b5306232dc2cf885e408a43edc6a7fef08167116b61175d89cc3bc684b94ebbe"
+            }
+          ],
+          "limitations": "This case concerns the interaction of successive parentage statutes and limitations defenses. It does not decide abortion, marriage equality, or any verified competing party/Trump policy proposition.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "This case concerns the interaction of successive parentage statutes and limitations defenses. It does not decide abortion, marriage equality, or any verified competing party/Trump policy proposition."
+          }
+        }
+      ],
+      "coverageNote": "Selected reported rulings, not a complete career record or a representative statistical sample. A reversal is an appellate result, not by itself a finding of misconduct. No personal party ideology or Trump loyalty is inferred."
+    },
+    "sbe-cook-circuit-retain-byrne-thomas-j-byrne": {
+      "candidateId": "sbe-cook-circuit-retain-byrne-thomas-j-byrne",
+      "name": "Thomas J. Byrne",
+      "raceId": "sbe-local-cook-circuit-retain-byrne",
+      "court": "COOK CIRCUIT",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "All-years Illinois Courts name search returned 16 hits. Reviewed the published certificate-of-innocence decision and a current pretrial-detention order, keeping the original detention ruling distinct from Byrne’s later review. Index notes flagged another case, People v. Hall (2017), as vacated; that case was excluded.",
+      "searchQueries": [
+        "Thomas Byrne"
+      ],
+      "rulings": [
+        {
+          "caseName": "People v. Simon",
+          "citation": "2017 IL App (1st) 152173",
+          "date": "2017-05-22",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": "2015-06-18",
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Wrongful-conviction relief and procedural fairness",
+          "holding": "Denied Alstory Simon a certificate of innocence despite finding that he had established innocence by a preponderance of evidence. Byrne concluded that Simon voluntarily caused his conviction and that the petition did not allege State misconduct.",
+          "reasoning": "The appellate court found two errors: Simon had not been given a meaningful chance to contest the extra-record material relied on to find voluntary participation, and State misconduct is not one of the certificate statute’s required elements.",
+          "subsequentHistory": "Vacated and remanded May 22, 2017, for an evidentiary hearing. The appellate court did not itself award a certificate or decide the remaining merits. This review did not verify the post-remand trial result.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/8487edde-5246-41b2-a7c6-5e5f1f6904d8/file",
+              "title": "People v. Simon — 2017 IL App (1st) 152173",
+              "paragraphs": "¶¶ 16, 21–31, 33–34",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "edcdbda0a81080d169875b7457d629259e4deade1ff09c3e231bc047289643e7"
+            }
+          ],
+          "limitations": "This is an important procedural and statutory ruling about innocence relief, but no precise Republican, Democratic, or Trump policy position on this certificate standard was verified. It is not evidence of the judge’s personal view of the death penalty.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "This is an important procedural and statutory ruling about innocence relief, but no precise Republican, Democratic, or Trump policy position on this certificate standard was verified. It is not evidence of the judge’s personal view of the death penalty."
+          }
+        },
+        {
+          "caseName": "People v. Williams",
+          "citation": "2026 IL App (1st) 252133-U",
+          "date": "2026-01-22",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": null,
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Continued pretrial detention and domestic violence",
+          "holding": "Denied relief from continued pretrial detention in an aggravated-domestic-battery case, concluding that proposed release conditions would not protect the victim and community.",
+          "reasoning": "The reviewed order relied on the alleged conduct, prior violence, and inability of the proposed conditions to mitigate risk. The opinion distinguishes the original detention judge from the judge deciding later relief; Byrne is identified as the judge presiding over the decision on appeal.",
+          "subsequentHistory": "Affirmed January 22, 2026, in a Rule 23 order. This was review of continued detention, not a trial finding of guilt or a ruling on the overall validity of the Pretrial Fairness Act.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/2d81f428-0c3c-4896-8e4e-279b0e822cbd/file",
+              "title": "People v. Williams — 2026 IL App (1st) 252133-U",
+              "paragraphs": "¶¶ 27–35, 39–48",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "244ce466af7ecdc7b9c1e410fb5084e3eebf0225f624614f3acb3a7ed2666895"
+            }
+          ],
+          "limitations": "An individualized detention decision under existing law cannot be equated with support for restoring cash bail or with Republican, Democratic, or Trump ideology.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "An individualized detention decision under existing law cannot be equated with support for restoring cash bail or with Republican, Democratic, or Trump ideology."
+          }
+        }
+      ],
+      "coverageNote": "Selected reported rulings, not a complete career record or a representative statistical sample. A reversal is an appellate result, not by itself a finding of misconduct. No personal party ideology or Trump loyalty is inferred."
+    },
+    "sbe-cook-circuit-retain-kenworthy-diana-l-kenworthy": {
+      "candidateId": "sbe-cook-circuit-retain-kenworthy-diana-l-kenworthy",
+      "name": "Diana L. Kenworthy",
+      "raceId": "sbe-local-cook-circuit-retain-kenworthy",
+      "court": "COOK CIRCUIT",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Exact-name all-years Illinois Courts search returned three hits. Read Phelps in full. Cummings (2023) named Kenworthy in a warrant context rather than as the trial judge presiding over the decision on appeal, so it was not presented as her appellate-reviewed trial disposition.",
+      "searchQueries": [
+        "Diana Kenworthy"
+      ],
+      "rulings": [
+        {
+          "caseName": "People v. Phelps",
+          "citation": "2026 IL App (1st) 260340-U",
+          "date": "2026-05-28",
+          "dateMeaning": "Date of the reviewing court decision",
+          "trialDecisionDate": "2026-02-17",
+          "court": "Circuit Court of Cook County",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit judge whose decision was under review; not a member of the reviewing panel",
+          "topic": "Pretrial detention and release conditions",
+          "holding": "Denied relief from pretrial detention in an aggravated-battery case after concluding that no release conditions would adequately protect the alleged victim and community.",
+          "reasoning": "The trial court’s continued-detention analysis relied on the alleged chemical attack, repeated violence, witness harassment, and failures to follow probation or release restrictions. On appeal, only the sufficiency of release conditions was preserved; the first two detention findings were waived because they were not raised in the motion for relief.",
+          "subsequentHistory": "Affirmed May 28, 2026, in a Rule 23 order. The First District reviewed the proffer-only record de novo and agreed that the State proved by clear and convincing evidence that no release conditions would adequately protect the community. The opinion identifies Kenworthy as the presiding judge, while referring separately to an initial-appearance court.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/6a834162-5fc3-432c-a8f2-5f2462e0b69a/file",
+              "title": "People v. Phelps — 2026 IL App (1st) 260340-U",
+              "paragraphs": "¶¶ 12–18, 20–21",
+              "roleLocation": "Cover caption / Decision Under Review",
+              "checked": "2026-11-01",
+              "sha256": "1132d0ca2c9156b1fac2960a2fc227a91770025c70f4139cb227d839ae321dbd"
+            }
+          ],
+          "limitations": "The ruling applies an individualized safety test within Illinois’s no-cash-bail system. It does not determine the legality or desirability of cash-bail abolition and supplies no basis for a Trump or party-alignment label.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The ruling applies an individualized safety test within Illinois’s no-cash-bail system. It does not determine the legality or desirability of cash-bail abolition and supplies no basis for a Trump or party-alignment label."
+          }
+        }
+      ],
+      "coverageNote": "Selected reported rulings, not a complete career record or a representative statistical sample. A reversal is an appellate result, not by itself a finding of misconduct. No personal party ideology or Trump loyalty is inferred."
+    },
+    "sbe-cook-circuit-retain-ryan-kristyna-colleen-ryan": {
+      "name": "Kristyna Colleen Ryan",
+      "researchStatus": "selected-rulings-verified",
+      "rulings": [
+        {
+          "caseName": "People v. Saucedo",
+          "citation": "2024 IL App (1st) 232020",
+          "date": "2024-01-22",
+          "trialDecisionDate": "2023-10-17",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge whose October 17 detention order was reviewed; not an appellate panel member.",
+          "topic": "Pretrial detention and public safety",
+          "holding": "Ordered pretrial detention after finding clear and convincing proof of the eligible domestic-battery offense, a threat to safety, and no adequate less restrictive conditions.",
+          "reasoning": "Ryan relied on the alleged assaults, the defendant's history of violence, and why proposed supervision would not adequately protect others. The order applied the individualized detention requirements of Illinois's Pretrial Fairness Act.",
+          "subsequentHistory": "The First District affirmed on January 22, 2024. It found the second hearing fair and the detention findings supported. Justice Ellis specially concurred about the appellate standard of review; that was not Ryan's opinion.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/7d0d26e8-fcc9-4dfe-afbc-06797cf210b9/file",
+              "title": "Illinois Courts: People v. Saucedo",
+              "paragraphs": "Caption; paragraphs 23-24, 38-60, 62-67",
+              "sha256": "d7673e258a4460c1191ddd3fa4eae66604a48b1c2f9eb07ca95d1b74de5242f9",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "This is an individual detention decision, not a ruling on the validity or desirability of abolishing cash bail. The opinion reports inconsistencies in an earlier order and an initially misstated prior offense; this summary concerns Ryan's reviewed October 17 ruling and does not repeat the inaccurate conviction description. Later developments in appellate review standards are not assessed here.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Detaining one person under statutory safety criteria does not establish a position on system-wide cash bail, a party platform, or Trump policy."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        },
+        {
+          "caseName": "People v. Arrieta",
+          "citation": "2026 IL App (1st) 241513-U",
+          "date": "2026-02-04",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Criminal evidence and proof of intoxication",
+          "holding": "Excluded breathalyzer evidence and granted a directed finding on the blood-alcohol-level DUI count, but found guilt on the impairment-based DUI count and two traffic counts.",
+          "reasoning": "Ryan relied on driving behavior, police observations, field-sobriety performance, and video evidence to find impairment. She concluded scientific testing was unnecessary for that separate DUI charge.",
+          "subsequentHistory": "The First District affirmed the impairment-based DUI conviction on February 4, 2026, finding the circumstantial evidence sufficient. That was the only conviction challenged on appeal.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/86fc74b9-ddcf-41eb-8f4d-fef17b3c2783/file",
+              "title": "Illinois Courts: People v. Arrieta",
+              "paragraphs": "Caption; paragraphs 27-35, 39-47",
+              "sha256": "66f5a0cd77c6c78dd18e2e84a679c04ca8605381a03824165b1b7b06b2b72b12",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order. This example shows treatment of evidence in one case, not a general sentencing tendency.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "An evidence-based DUI ruling does not resolve a specific Republican, Democratic, or Trump-policy proposition."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        }
+      ],
+      "candidateId": "sbe-cook-circuit-retain-ryan-kristyna-colleen-ryan",
+      "raceId": "sbe-local-cook-circuit-retain-ryan",
+      "checked": "2026-11-01",
+      "court": "COOK CIRCUIT",
+      "coverageNote": "Selected primary rulings, not a complete career record or representative sample. No overall personal ideology is inferred."
+    },
+    "sbe-cook-circuit-retain-walowski-ursula-walowski": {
+      "name": "Ursula Walowski",
+      "researchStatus": "selected-rulings-verified",
+      "rulings": [
+        {
+          "caseName": "People v. Muhammad-Ali",
+          "citation": "2021 IL App (1st) 171721-U",
+          "date": "2021-01-22",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Right to counsel and a fair trial",
+          "holding": "Denied defense counsel's requests to postpone jury selection and trial because of illness, and later denied a new trial.",
+          "reasoning": "Walowski initially noted the case's age and later stated that counsel appeared able to perform adequately despite illness and hospitalization.",
+          "subsequentHistory": "The First District reversed the conviction and remanded for a new trial on January 22, 2021. It found that the relevant continuance factors were not properly considered and that forcing counsel to proceed prejudiced the defendant's fair-trial right.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/files/1171721_R23.pdf/opinion",
+              "title": "Illinois Courts: People v. Muhammad-Ali",
+              "paragraphs": "Caption; paragraphs 9, 15, 20-30, 33-34",
+              "sha256": "753ac75ad453929ec44eca6e9cc0554954d5e8cc10b69e615cfa7fa88ca9c1aa",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order. The appellate court decided the continuance issue and did not decide the other asserted errors. The State did not file a timely appellate brief. The outcome after remand was not reviewed.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "A case-specific trial-management error is not a reliable measure of party ideology or Trump alignment."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        },
+        {
+          "caseName": "People v. Wilson",
+          "citation": "2020 IL App (1st) 181465-U",
+          "date": "2020-09-28",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Newly discovered evidence and a request for a new trial",
+          "holding": "Denied a new-trial motion after hearing a newly discovered witness following a murder conviction.",
+          "reasoning": "Walowski found the new testimony insufficiently conclusive to probably change the trial result. The witness had arrived after the shooting.",
+          "subsequentHistory": "The First District affirmed on September 28, 2020, concluding that the new testimony did not directly contradict the prosecution witnesses and that denying a new trial was not an abuse of discretion.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/files/1181465_R23.pdf/opinion",
+              "title": "Illinois Courts: People v. Wilson",
+              "paragraphs": "Caption; paragraphs 12-20",
+              "sha256": "c1a3977058c5e371a784e56019287c7d6a098fe2e88cf803e8a79429b8152447",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order; selected new-evidence ruling, not a full assessment of the prosecution or the judge's career.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The sufficiency of one newly discovered witness does not establish a position on a party platform or Trump policy."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        }
+      ],
+      "candidateId": "sbe-cook-circuit-retain-walowski-ursula-walowski",
+      "raceId": "sbe-local-cook-circuit-retain-walowski",
+      "checked": "2026-11-01",
+      "court": "COOK CIRCUIT",
+      "coverageNote": "Selected primary rulings, not a complete career record or representative sample. No overall personal ideology is inferred."
+    },
+    "sbe-cook-circuit-retain-kyriakopoulos-anthony-c-tony-kyriakopoulos": {
+      "name": "Anthony C. \"Tony\" Kyriakopoulos",
+      "researchStatus": "selected-rulings-verified",
+      "rulings": [
+        {
+          "caseName": "Beneficial Illinois Inc. v. Parker",
+          "citation": "2016 IL App (1st) 160186",
+          "date": "2016-12-12",
+          "trialDecisionDate": "2014-09-05",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Mortgage borrowers' rights under the Truth in Lending Act",
+          "holding": "Dismissed a borrower's rescission defense and damages counterclaims as untimely in a mortgage-foreclosure dispute.",
+          "reasoning": "The trial court treated the failure to file a rescission lawsuit within three years as barring the defense, and treated the disclosure claim as time-barred. The trial ruling did not separately explain its treatment of the failure-to-honor-rescission damages claim.",
+          "subsequentHistory": "On December 12, 2016, the First District restored the rescission defense and failure-to-honor-rescission damages claim, while affirming dismissal of the original-disclosure damages claim. The intervening U.S. Supreme Court decision in Jesinoski established that timely written notice, rather than a lawsuit, exercises rescission.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/32aaf8b1-e5eb-4fa0-a4b0-0cb0f9ab8d44/file",
+              "title": "Illinois Courts: Beneficial Illinois Inc. v. Parker",
+              "paragraphs": "Caption; paragraphs 1-4, 9, 14-19 (including footnote 2), 26-27",
+              "sha256": "4dcb303da2fa31bb3d4e5b4f4b565407670ab587cdae627dbfafe2f9e9e7eb73",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "The relevant Supreme Court clarification came after the trial ruling. A reversal under intervening precedent should not be presented as evidence of ideological defiance.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The dispute concerns statutory deadlines and intervening precedent; no same-proposition party or Trump-policy comparison was established."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        },
+        {
+          "caseName": "Concrete Structures/Sachi, J.V. v. Clark/Bulley/OVC/Power",
+          "citation": "2024 IL App (1st) 240082",
+          "date": "2024-09-03",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Public construction payment bonds, interest, and legal fees",
+          "holding": "Denied a subcontractor additional prejudgment interest and attorney fees after a construction arbitration award had been paid.",
+          "reasoning": "The dispute turned on the bond's contractual conditions. The reviewing opinion upheld the trial result because interest began when the amount became undisputed, and the sureties had satisfied their notice and payment obligations.",
+          "subsequentHistory": "The First District affirmed on September 3, 2024. The appeal concerned the bond claim; an earlier appeal had separately addressed the Mechanics Lien Act.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/a4d21013-01be-42b9-86d3-2cf95cf17aa6/file",
+              "title": "Illinois Courts: Concrete Structures/Sachi, J.V. v. Clark/Bulley/OVC/Power",
+              "paragraphs": "Caption; paragraphs 1, 8, 16-21, 24-32",
+              "sha256": "ad50d057920893afcb0c8e5e3e9dd77502ce473a5bd03a5036ae2de4437258e7",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "The legal explanation given here is expressly the reviewing court's; the opinion does not reproduce a full trial-court opinion.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Contract interpretation in this payment dispute does not establish partisan or Trump-policy alignment."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        }
+      ],
+      "candidateId": "sbe-cook-circuit-retain-kyriakopoulos-anthony-c-tony-kyriakopoulos",
+      "raceId": "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "checked": "2026-11-01",
+      "court": "COOK CIRCUIT",
+      "coverageNote": "Selected primary rulings, not a complete career record or representative sample. No overall personal ideology is inferred."
+    },
+    "sbe-cook-circuit-retain-moreland-caroline-kate-moreland": {
+      "name": "Caroline Kate Moreland",
+      "researchStatus": "selected-rulings-verified",
+      "rulings": [
+        {
+          "caseName": "AB CPA, Inc. v. Adamski",
+          "citation": "2020 IL App (1st) 192627-U",
+          "date": "2020-09-30",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Access to court versus compelled arbitration",
+          "holding": "Granted an individual's motion to compel arbitration and pause a lawsuit alleging breach of a noncompete agreement, trade-secret violations, and conspiracy.",
+          "reasoning": "The appellate order records that Moreland granted the motion after briefing but does not set out her reasoning. The disputed arbitration clause was in an asset-purchase agreement signed by the individual only as a corporate officer.",
+          "subsequentHistory": "The First District reversed and remanded on September 30, 2020. It concluded the individual was neither a contracting party nor an intended third-party beneficiary entitled to enforce that arbitration clause.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/files/1192627_R23.pdf/opinion",
+              "title": "Illinois Courts: AB CPA, Inc. v. Adamski",
+              "paragraphs": "Caption; paragraphs 4-7, 10-17",
+              "sha256": "fdb4f7c9fee1f5b6219acab8754d89555a6c4a581ea6b1d4a59cbe794d13ff61",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order. No appellee brief was filed. This contract-specific result does not show a general view of mandatory arbitration; post-remand proceedings were not reviewed.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The identity of the parties entitled to enforce a particular contract is not a verified same-policy comparison to a party platform or Trump policy."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        }
+      ],
+      "candidateId": "sbe-cook-circuit-retain-moreland-caroline-kate-moreland",
+      "raceId": "sbe-local-cook-circuit-retain-moreland",
+      "checked": "2026-11-01",
+      "court": "COOK CIRCUIT",
+      "coverageNote": "Selected primary rulings, not a complete career record or representative sample. No overall personal ideology is inferred."
+    },
+    "sbe-cook-circuit-retain-carroll-thomas-j-carroll": {
+      "name": "Thomas J. Carroll",
+      "researchStatus": "selected-rulings-verified",
+      "rulings": [
+        {
+          "caseName": "People v. Johnson",
+          "citation": "2019 IL App (1st) 181959-U",
+          "date": "2019-09-26",
+          "trialDecisionDate": "2018-06-26",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member. The reviewing judgment was delivered by Justice Lampkin.",
+          "topic": "DUI license suspension and police evidence",
+          "holding": "Denied a driver's petition to undo a statutory license suspension after refusal of a breath test.",
+          "reasoning": "Carroll found body-camera video established that the driver received the required warning about refusal, and found sufficient evidence of driving on a public road.",
+          "subsequentHistory": "The First District affirmed on September 26, 2019. It presumed support for the ruling because the video was absent from the appeal record and also found the officer's report and warning form independently supported denial.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/cf854628-21fa-4f37-a21b-9f91a855f23e/file",
+              "title": "Illinois Courts: People v. Johnson",
+              "paragraphs": "Caption; paragraphs 5-10, 15-20",
+              "sha256": "4c6e07b49c46777316744360e916f35f185d6072eff1187ed7fb4a842580f35b",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order. This was a civil suspension hearing, not a determination of guilt on a criminal DUI charge. The appellate court did not resolve whether the video was properly admitted because other evidence supported the result.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "A statutory warning and record-completeness dispute does not establish party or Trump-policy alignment."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        },
+        {
+          "caseName": "People v. Morris",
+          "citation": "2018 IL App (1st) 152636-U",
+          "date": "2018-03-09",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Proof of criminal charges and medical blood-test evidence",
+          "holding": "After a bench trial, found the defendant guilty of DUI and failure to yield to an emergency vehicle, but not guilty of failure to reduce speed to avoid an accident.",
+          "reasoning": "The trial included medical blood-test evidence and testimony about the vehicle encounter. The reviewing order does not reproduce a detailed explanation by Carroll for each guilty finding.",
+          "subsequentHistory": "The First District affirmed the DUI conviction but reversed the failure-to-yield conviction on March 9, 2018. It found the medical evidence admissible but the State had not proved the emergency vehicle used both audio and visual signals required for the charged offense.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/9dbc827b-4662-46c4-92e7-5a37e39c66ce/file",
+              "title": "Illinois Courts: People v. Morris",
+              "paragraphs": "Caption; paragraphs 13-24, 27-34",
+              "sha256": "045ecaa31678c845d273f4c4da3ecee01db784654578e9bf3d506f1ca7d1346a",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order. The unpreserved evidence argument was also analyzed for plain error. One mixed appellate disposition cannot support a reversal-rate or ideological claim.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Proof of statutory traffic-offense elements and medical-evidence admissibility are not a reliable partisan-policy measure."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        }
+      ],
+      "candidateId": "sbe-cook-circuit-retain-carroll-thomas-j-carroll",
+      "raceId": "sbe-local-cook-circuit-retain-carroll",
+      "checked": "2026-11-01",
+      "court": "COOK CIRCUIT",
+      "coverageNote": "Selected primary rulings, not a complete career record or representative sample. No overall personal ideology is inferred."
+    },
+    "sbe-cook-circuit-retain-buford-andrea-m-buford": {
+      "name": "Andrea M. Buford",
+      "researchStatus": "selected-rulings-verified",
+      "rulings": [
+        {
+          "caseName": "In re T.W.",
+          "citation": "2018 IL App (1st) 180051-U",
+          "date": "2018-09-28",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member.",
+          "topic": "Parental rights and child welfare",
+          "holding": "Found a parent unfit under the Adoption Act and terminated parental rights after a separate best-interests determination.",
+          "reasoning": "Buford relied on the unrebutted statutory presumption arising from qualifying felony convictions and failures to complete reunification services, then considered the child's need for permanency and established foster-family bonds.",
+          "subsequentHistory": "The First District affirmed on September 28, 2018. It upheld the statutory-unfitness and best-interests findings without reaching the other asserted grounds for unfitness.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/files/1180051_R23.pdf/opinion",
+              "title": "Illinois Courts: In re T.W.",
+              "paragraphs": "Caption; paragraphs 14, 20, 23-31, 33-39",
+              "sha256": "082b787d097e786a4aaec9dece08fd5489a3df71070fd2f0f574fa35566976ab",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order. This summary omits identifying details about the minor and family. The ruling applies a statutory two-stage process to one family's circumstances, not a general family-policy platform.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "An individualized statutory parental-rights determination is insufficient to infer Republican, Democratic, or Trump alignment."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        }
+      ],
+      "candidateId": "sbe-cook-circuit-retain-buford-andrea-m-buford",
+      "raceId": "sbe-local-cook-circuit-retain-buford",
+      "checked": "2026-11-01",
+      "court": "COOK CIRCUIT",
+      "coverageNote": "Selected primary rulings, not a complete career record or representative sample. No overall personal ideology is inferred."
+    },
+    "sbe-cook-circuit-retain-allegretti-john-michael-allegretti": {
+      "name": "John Michael Allegretti",
+      "researchStatus": "selected-rulings-verified",
+      "rulings": [
+        {
+          "caseName": "People ex rel. Burke v. 2016 Land Rover Range Rover",
+          "citation": "2026 IL App (1st) 250312-U",
+          "date": "2026-03-11",
+          "trialDecisionDate": "2025-01-28",
+          "court": "Cook County Circuit Court",
+          "judgeRole": "Trial judge identified as John M. Allegretti; not an appellate panel member.",
+          "topic": "Civil asset forfeiture and the innocent-owner defense",
+          "holding": "After a bench trial, ordered a vehicle forfeited, subject to the bank's lien, and rejected the claimant's innocent-owner defense.",
+          "reasoning": "Allegretti credited police testimony over inconsistent claimant testimony and found by a preponderance of the evidence that the vehicle was used in the alleged offense and that the claimant knew or should have known of that use.",
+          "subsequentHistory": "The First District affirmed on March 11, 2026 because the claimant supplied an inadequate appeal record. It did not resolve the forfeiture merits; the absence of trial transcripts or an acceptable substitute required presumptions favoring the trial judgment.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/1f4edabc-2306-4f50-aa65-f38fd9b8bb53/file",
+              "title": "Illinois Courts: People ex rel. Burke v. 2016 Land Rover Range Rover",
+              "paragraphs": "Caption; paragraphs 13-15, 24-33",
+              "sha256": "590ae1e9c78b86dc50906ff2f4ab0e107bf56e2aa304c73ededb43559da40382",
+              "retrieved": "2026-11-01",
+              "checked": "2026-11-01"
+            }
+          ],
+          "limitations": "Rule 23 order. Procedural affirmance does not independently validate the merits. Search hit Moore v. Pendavinji was excluded because its trial judge was James L. Allegretti, a different judge.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The record documents an individual forfeiture decision and a procedural appeal, not a ruling on the legality of the forfeiture system or a specific party/Trump policy."
+          },
+          "dateMeaning": "Date of reviewing court decision",
+          "reviewCourt": "Illinois Appellate Court, First District",
+          "laterHistoryLimit": "Later petitions, subsequent appeals and post-remand outcomes were not comprehensively verified; the disposition stated is the reviewed appellate decision."
+        }
+      ],
+      "candidateId": "sbe-cook-circuit-retain-allegretti-john-michael-allegretti",
+      "raceId": "sbe-local-cook-circuit-retain-allegretti",
+      "checked": "2026-11-01",
+      "court": "COOK CIRCUIT",
+      "coverageNote": "Selected primary rulings, not a complete career record or representative sample. No overall personal ideology is inferred."
+    }
+  }
+}

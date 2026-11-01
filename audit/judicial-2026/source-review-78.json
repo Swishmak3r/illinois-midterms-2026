@@ -1,0 +1,112 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Independent review of selected judicial ruling records in research batches 7 and 8",
+  "status": "Complete: all 41 selected case records for 33 judges independently checked; no unresolved summary errors",
+  "coverage": {
+    "judges": 33,
+    "caseRecords": 41,
+    "primaryCourtPdfs": 43,
+    "additionalIdentityPdfs": 1,
+    "batch7CaseRecords": 20,
+    "batch8CaseRecords": 21
+  },
+  "method": "Read the actual official decision texts from the researchers' downloaded PDFs, checking captions and dates, every claim-bearing trial-action and rationale paragraph, reviewing-court analysis, disposition and relevant surrounding context. Cross-checked cached PDF hashes. This is a second source reader, not merely JSON or search-index validation.",
+  "limitations": [
+    "Review verifies the selected summaries against their cited decisions; it is not a complete career docket, statistical reversal study or formal citator review.",
+    "No personal partisan or Trump-alignment conclusion follows from these individual rulings.",
+    "Original ledgers explicitly limit claims about unlocated later proceedings. An opinion's publication status is not a certification that all litigation has ended."
+  ],
+  "batch7FirstHalf": {
+    "judges": 8,
+    "cases": 10,
+    "sourceLedger": "audit/judicial-2026/research-batch-7-a.json",
+    "pdfCache": "audit/judicial-2026/research-batch-7-cache-a/",
+    "pdfHashesChecked": 10,
+    "allPdfHashesMatch": true,
+    "substantiveCorrectionsRequired": [],
+    "records": [
+      {
+        "judge": "Matthew J. Fitton",
+        "citation": "2026 IL App (4th) 251142-U",
+        "status": "verified",
+        "pinpointsRead": "Caption, filing date, paragraphs 1-31",
+        "findings": "The trial judge required continued sobriety after inpatient treatment; the appellate court accepted the State's confession of error and directed the option of the promised lesser plea and probation. The summary correctly describes an opportunity, not an automatic acquittal or unconditional vacatur of guilt."
+      },
+      {
+        "judge": "Matthew J. Fitton",
+        "citation": "2024 IL 128508",
+        "status": "verified",
+        "pinpointsRead": "Official report cover, paragraphs 1-13, 20-52",
+        "findings": "The circuit judgment affirmed the agency; the intermediate appellate reversal was itself reversed by the Supreme Court. The summary preserves that latest outcome and does not invent a separate circuit-court rationale."
+      },
+      {
+        "judge": "Jason Chambers",
+        "citation": "2026 IL App (4th) 250894",
+        "status": "verified",
+        "pinpointsRead": "Caption, filing date, paragraphs 1-4 and 52-77",
+        "findings": "The fear-of-crime exception and admitted recording are correctly attributed. The summary separately discloses reduction of two convictions to lesser offenses and resentencing; it does not present the whole judgment as affirmed."
+      },
+      {
+        "judge": "Jonathan C. Wright",
+        "citation": "2026 IL App (4th) 250710",
+        "status": "verified",
+        "pinpointsRead": "Caption, filing date, paragraphs 1-2, 8-14 and 55-75",
+        "findings": "The $101,916.37 restitution amount, denied later hearing request, counsel's failure to challenge the claims and payment-schedule error match the source. The remand is limited to restitution."
+      },
+      {
+        "judge": "Sheldon R. Sobol",
+        "citation": "2026 IL App (3d) 250289",
+        "status": "verified",
+        "pinpointsRead": "Official report cover and paragraphs 1-36",
+        "findings": "Two compliant solar-project permits were ordered through mandamus. Sobol's stated statutory interpretation appears in paragraph 22; appellate affirmance preserves limited conditions-setting discretion, not unrestricted county authority."
+      },
+      {
+        "judge": "Terence M. Patton",
+        "citation": "2026 IL App (4th) 260177-U",
+        "status": "verified",
+        "pinpointsRead": "Caption, filing date, paragraphs 1-10, 40-51 and 96-99",
+        "findings": "The trial rulings on attributable delay and DNA-testing extension are documented. The appellate court found forfeiture and alternatively rejected the merits; both grounds appear in the summary."
+      },
+      {
+        "judge": "Peter W. Church",
+        "citation": "2026 IL App (4th) 260369",
+        "status": "verified",
+        "pinpointsRead": "Caption, filing date and paragraphs 1-31",
+        "findings": "The final trial rationale excluded Iowa offenses. The appellate court held comparable out-of-state charges can support revocation and remanded for the still-needed conditions inquiry. This does not establish a policy position on cash bail."
+      },
+      {
+        "judge": "Peter W. Church",
+        "citation": "2025 IL App (4th) 250014",
+        "status": "verified",
+        "pinpointsRead": "Official report cover and paragraphs 1-25",
+        "findings": "Church called the utility-account error honest but material and suppressed the evidence. The appellate court reversed because accurate remaining information supported probable cause. The summary does not attribute the appellate reasoning to Church."
+      },
+      {
+        "judge": "John L. McGehee",
+        "citation": "2026 IL App (4th) 251251-U",
+        "status": "verified",
+        "pinpointsRead": "Caption, filing stamp, paragraphs 1-4, 50-66 and 74-80",
+        "findings": "The board granted nonduty benefits while denying line-of-duty benefits. McGehee's October 30, 2025 affirmance is in paragraph 58. The appellate analysis reviews the agency decision; the ledger correctly avoids treating it as the trial judge's separate reasoning."
+      },
+      {
+        "judge": "John B. 'Ben' Roe IV",
+        "citation": "2026 IL App (4th) 250697-U",
+        "status": "verified",
+        "pinpointsRead": "Caption, filing date, paragraphs 1-8, 15-16, 91-107 and 143-149",
+        "findings": "The transcript documents the written waiver and colloquy. Appellate affirmance relied on the full record and expressly did not need the disputed prior-misdemeanor-waiver rationale."
+      }
+    ]
+  },
+  "batch7SecondHalfReport": "audit/judicial-2026/source-review-78-batch7b.json",
+  "batch8Report": "audit/judicial-2026/source-review-78-batch8.json",
+  "batch8CorrectionsVerified": [
+    "Repaired four corrupted McHenry source-pinpoint strings.",
+    "Preserved the distinction between Everitt's January 25 and January 29 proceedings.",
+    "Confirmed Chris/Christopher Hitzemann identity using official court and county sources."
+  ],
+  "unresolved": [],
+  "inputLedgerSha256": {
+    "research-batch-7.json": "53ba6d257f6661c48c2fd94d37cd55265ecacada0c1a852b3e2a894b19216ff1",
+    "research-batch-8.json": "1200dae5deb96beef0ace1202d5b1f3c88627fdf5250a3284aefdfccc7e98be1"
+  }
+}

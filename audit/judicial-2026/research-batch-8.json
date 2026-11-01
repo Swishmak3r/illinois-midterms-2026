@@ -1,0 +1,903 @@
+{
+  "batch": 8,
+  "checked": "2026-11-01",
+  "profileCount": 17,
+  "rulingCount": 21,
+  "method": "Actual official court PDFs were reviewed for judge identity, own trial action, reasoning, appellate outcome, and limits. Dates identify appellate decisions unless trialDecisionDate is also supplied. Selected cases do not constitute a complete or representative career record. No personal ideology or Trump loyalty inferred.",
+  "sourceParts": [
+    "research-batch-8-a.json",
+    "research-batch-8-b.json",
+    "research-batch-8-c.json"
+  ],
+  "profiles": {
+    "sbe-17th-circuit-retain-white-ronald-j-ron-white": {
+      "name": "Ronald J. \"Ron\" White",
+      "court": "17th Judicial Circuit, Winnebago County",
+      "researchStatus": "Selected primary ruling verified",
+      "rulings": [
+        {
+          "caseName": "People v. Maxey",
+          "citation": "2013 IL App (2d) 120283-U",
+          "date": "2013-06-24",
+          "court": "Illinois Appellate Court, Second District, reviewing Winnebago County Circuit Court",
+          "judgeRole": "Trial judge whose dismissal was reviewed; did not author or join the appellate order",
+          "topic": "Statutory speedy-trial protection",
+          "holding": "White dismissed charges, including murder, after finding that the prosecution had exceeded the 120-day statutory speedy-trial period.",
+          "reasoning": "He attributed 124 days to the State, distinguished agreement to a trial date from agreement to delay, and found that defense motions had not actually delayed trial. The defendant repeatedly demanded trial and opposed the State's continuances.",
+          "subsequentHistory": "The appellate court affirmed. It upheld White's attribution of delay and independently concluded the statutory period had expired before the disputed late discovery. Justice Burke specially concurred.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/Resources/076c8b7d-ffe0-4580-b408-7a0de4ffd63d/2120283_R23.pdf",
+              "title": "Illinois Courts: People v. Maxey, 2013 IL App (2d) 120283-U",
+              "paragraphs": "Caption; 1–2, 28–29, 34–36, 93–96"
+            }
+          ],
+          "limitations": "Rule 23 order; limited precedential status. An older, case-specific statutory ruling, not evidence of a current party or Trump-policy position.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Enforcing a statutory trial deadline does not establish agreement with a particular Republican, Democratic, or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-17th-circuit-retain-white-ronald-j-ron-white",
+      "checked": "2026-11-01",
+      "researchScope": "Selected substantive rulings verified by reading primary appellate opinions, including the trial-court actions those opinions review. Dates are appellate decision dates unless trialDecisionDate is separately supplied. This is not a complete career record or a recommendation. A ruling applying law to case-specific facts does not establish personal political ideology.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-18th-circuit-retain-walsh-ann-celine-walsh": {
+      "name": "Ann Celine Walsh",
+      "court": "18th Judicial Circuit, DuPage County",
+      "researchStatus": "Selected primary ruling verified",
+      "rulings": [
+        {
+          "caseName": "People v. O'Brien",
+          "citation": "2022 IL App (2d) 200532-U",
+          "date": "2022-08-16",
+          "trialDecisionDate": "2020-02-28",
+          "court": "Illinois Appellate Court, Second District, reviewing DuPage County Circuit Court",
+          "judgeRole": "Trial judge whose second-stage postconviction dismissal was reviewed; not an appellate panel member",
+          "topic": "Due process and prosecution disclosure before a guilty plea",
+          "holding": "Walsh dismissed a postconviction petition alleging that the State withheld information impeaching a confidential informant before the defendant pleaded guilty.",
+          "reasoning": "Her ruling applied United States v. Ruiz: the federal Constitution does not require pre-plea disclosure of impeachment evidence. She found no basis to read Illinois's due-process clause more broadly, while acknowledging concerns about the prosecution's conduct.",
+          "subsequentHistory": "The appellate court affirmed, finding no substantial constitutional claim and no state-specific basis to depart from federal precedent. Its order expressly declined to endorse the State's discovery tactics.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/0001d6b2-c60e-442b-bdf8-21df3d88fe40/People%20v.%20O%27Brien%2C%202022%20IL%20App%20%282d%29%20200532-U.pdf",
+              "title": "Illinois Courts: People v. O'Brien, 2022 IL App (2d) 200532-U",
+              "paragraphs": "Caption; 19–23, 35–43"
+            }
+          ],
+          "limitations": "Rule 23 order. This addresses impeachment information before a guilty plea, not all exculpatory evidence or disclosure duties at trial.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Application of a specific constitutional precedent does not by itself establish a party or Trump-policy position."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-18th-circuit-retain-walsh-ann-celine-walsh",
+      "checked": "2026-11-01",
+      "researchScope": "Selected substantive rulings verified by reading primary appellate opinions, including the trial-court actions those opinions review. Dates are appellate decision dates unless trialDecisionDate is separately supplied. This is not a complete career record or a recommendation. A ruling applying law to case-specific facts does not establish personal political ideology.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-18th-circuit-retain-o-toole-monique-o-toole": {
+      "name": "Monique O'Toole",
+      "court": "18th Judicial Circuit, DuPage County",
+      "researchStatus": "Selected primary ruling verified",
+      "rulings": [
+        {
+          "caseName": "People v. Soto",
+          "citation": "2023 IL App (3d) 220029-U",
+          "date": "2023-11-07",
+          "court": "Illinois Appellate Court, Third District, reviewing DuPage County Circuit Court",
+          "judgeRole": "Bench-trial judge whose convictions and evidence rulings were reviewed; not an appellate panel member",
+          "topic": "Child endangerment, hearsay, and duplicate convictions",
+          "holding": "O'Toole acquitted the defendant on charges concerning three children but convicted him of two child-endangerment counts concerning a fourth child and imposed concurrent probation terms.",
+          "reasoning": "The surviving counts involved the officer's firsthand observation of an intoxicated parent allowing a young child to run toward traffic. She admitted a dispatch-call account over a hearsay objection.",
+          "subsequentHistory": "The appellate court found sufficient evidence, but held that the dispatch account was inadmissible hearsay, though harmless here. It ruled both convictions arose from one act and remanded for the trial court to vacate the less serious conviction and resentence on the other.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/03f26b71-8a89-41a8-aeb3-8210ceb84c34/People%20v.%20Soto%2C%202023%20IL%20App%20%283d%29%20220029-U.pdf",
+              "title": "Illinois Courts: People v. Soto, 2023 IL App (3d) 220029-U",
+              "paragraphs": "Caption; 5, 9–12, 20–22, 27–30, 34–40"
+            }
+          ],
+          "limitations": "Rule 23 order. The remand result has not been independently retrieved. The outcome concerns particular evidence and duplicate convictions, not a general family-policy position.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "A fact-specific child-endangerment verdict and evidentiary ruling are insufficient to classify Republican, Democratic, or Trump alignment."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-18th-circuit-retain-o-toole-monique-o-toole",
+      "checked": "2026-11-01",
+      "researchScope": "Selected substantive rulings verified by reading primary appellate opinions, including the trial-court actions those opinions review. Dates are appellate decision dates unless trialDecisionDate is separately supplied. This is not a complete career record or a recommendation. A ruling applying law to case-specific facts does not establish personal political ideology.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-18th-circuit-retain-felice-richard-d-felice": {
+      "name": "Richard D. Felice",
+      "court": "18th Judicial Circuit, DuPage County",
+      "researchStatus": "Selected primary ruling and later related appeal verified",
+      "rulings": [
+        {
+          "caseName": "In re Parentage of A.G.",
+          "citation": "2024 IL App (3d) 240003-U",
+          "date": "2024-05-31",
+          "trialDecisionDate": "2023-06-07",
+          "court": "Illinois Appellate Court, Third District, reviewing DuPage County Circuit Court",
+          "judgeRole": "Original trial judge who entered the parenting allocation judgment; a different judge, Maureen Riordan, handled later posttrial motions",
+          "topic": "Parenting time, shared decision-making, and child support",
+          "holding": "Felice awarded joint parental decision-making and equal parenting time, designating the mother's residence for school purposes. He set child support with retroactivity only to January 2021.",
+          "reasoning": "He applied statutory best-interest factors, finding a history of shared care and decision-making, relationships with both parents, and a workable equal schedule.",
+          "subsequentHistory": "The 2024 appellate order affirmed the parenting allocation and left other issues unresolved for lack of jurisdiction. Review was denied August 22, 2024. In the later 2026 appeal from Riordan's posttrial rulings, the court required support retroactive to March 10, 2020, subject to payment credits. It also reversed separate contempt and name-change rulings by Riordan; those were not Felice's decisions.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/3ff5f689-5248-47e0-9cec-42e7ffa4b0ad/file",
+              "title": "Illinois Courts: In re Parentage of A.G., 2024 IL App (3d) 240003-U",
+              "paragraphs": "Caption; 1–2, 18–28, 46–47"
+            },
+            {
+              "url": "https://www.illinoiscourts.gov/resources/cfd749ea-3038-47c8-8436-712272b16b44/file",
+              "title": "Illinois Courts: In re Parentage of A.L.G., 2026 IL App (3d) 250124",
+              "paragraphs": "1–5, 60–62, 70–79"
+            }
+          ],
+          "limitations": "The 2024 decision is a Rule 23 order. Later posttrial decisions must not be attributed to Felice. This illustrates individualized application of family law, not general political ideology.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Shared parenting and child-support determinations in one family do not establish party or Trump-policy alignment."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-18th-circuit-retain-felice-richard-d-felice",
+      "checked": "2026-11-01",
+      "researchScope": "Selected substantive rulings verified by reading primary appellate opinions, including the trial-court actions those opinions review. Dates are appellate decision dates unless trialDecisionDate is separately supplied. This is not a complete career record or a recommendation. A ruling applying law to case-specific facts does not establish personal political ideology.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-18th-circuit-retain-o-connell-margaret-peggy-o-connell": {
+      "name": "Margaret \"Peggy\" O'Connell",
+      "court": "18th Judicial Circuit, DuPage County",
+      "researchStatus": "Selected primary ruling verified",
+      "rulings": [
+        {
+          "caseName": "People v. Stewart",
+          "citation": "2026 IL App (3d) 250218",
+          "date": "2026-08-10",
+          "trialDecisionDate": "2025-01-14",
+          "court": "Illinois Appellate Court, Third District, reviewing DuPage County Circuit Court",
+          "judgeRole": "Trial judge whose firearm convictions were reviewed; not an appellate panel member",
+          "topic": "Firearm offenses, prior-conviction requirements, and proof",
+          "holding": "O'Connell treated a prior reckless-discharge conviction as a qualifying forcible felony and convicted Stewart of armed habitual criminal and firearm-possession offenses after a bench trial.",
+          "reasoning": "She relied on the indictment and guilty-plea record to find the prior conduct involved a threat of physical force, declining a requested evidentiary hearing on additional underlying facts.",
+          "subsequentHistory": "The appellate court reversed the armed-habitual-criminal conviction and one weapon-possession conviction. It held that the admitted evidence did not prove the required forcible-felony predicate and that additional police-report assertions were inadmissible hearsay. It remanded other merged counts and allowed a trial-court motion on custody credit.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/2a37bdef-b65b-4838-ba1f-f516449be8c6/file",
+              "title": "Illinois Courts: People v. Stewart, 2026 IL App (3d) 250218",
+              "paragraphs": "Caption; 4–10, 15–22, 25–31"
+            }
+          ],
+          "limitations": "Published opinion, listed Released by the official index on review. This was a statutory proof ruling; it did not decide whether the firearm laws were constitutional. Remand proceedings were not retrieved.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Applying an offense's predicate-conviction requirement is not a ruling for or against a specific party or Trump firearms policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-18th-circuit-retain-o-connell-margaret-peggy-o-connell",
+      "checked": "2026-11-01",
+      "researchScope": "Selected substantive rulings verified by reading primary appellate opinions, including the trial-court actions those opinions review. Dates are appellate decision dates unless trialDecisionDate is separately supplied. This is not a complete career record or a recommendation. A ruling applying law to case-specific facts does not establish personal political ideology.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-19th-circuit-retain-booras-james-k-booras": {
+      "name": "James K. Booras",
+      "court": "19th Judicial Circuit, Lake County",
+      "researchStatus": "Selected primary ruling verified",
+      "rulings": [
+        {
+          "caseName": "People v. Asma",
+          "citation": "2026 IL App (2d) 250520-U",
+          "date": "2026-02-06",
+          "trialDecisionDate": "2025-10-27",
+          "court": "Illinois Appellate Court, Second District, reviewing Lake County Circuit Court",
+          "judgeRole": "Denied a motion for relief from pretrial detention; Judge Michael Nerheim entered the initial detention order",
+          "topic": "Individual pretrial detention under Illinois's release law",
+          "holding": "Booras refused to release a defendant charged with fentanyl offenses after a motion seeking relief from an earlier detention order.",
+          "reasoning": "He found clear and convincing evidence of danger to a person in the community after the State presented jail-call statements threatening the defendant's girlfriend. He also discussed fentanyl's danger.",
+          "subsequentHistory": "The appellate court affirmed. It held that generalized harm from drugs alone was insufficient, but the specific threats, access to weapons, and criminal history supported detention. The court distinguished cases lacking individualized evidence of dangerousness.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/77deca92-ca0f-484f-9116-635147080911/People%20v.%20Asma%202026%20IL%20App%20%282d%29%20250520-U.pdf",
+              "title": "Illinois Courts: People v. Asma, 2026 IL App (2d) 250520-U",
+              "paragraphs": "Caption; 8, 22–25, 28–36"
+            }
+          ],
+          "limitations": "Rule 23 order. Booras did not make the initial detention findings; do not attribute Nerheim's November 2024 reasoning to him. This is not a ruling on abolishing money bail.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Individual detention under the governing statute does not establish agreement with Trump's opposition to cash-bail abolition or a party's system-wide bail policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-19th-circuit-retain-booras-james-k-booras",
+      "checked": "2026-11-01",
+      "researchScope": "Selected substantive rulings verified by reading primary appellate opinions, including the trial-court actions those opinions review. Dates are appellate decision dates unless trialDecisionDate is separately supplied. This is not a complete career record or a recommendation. A ruling applying law to case-specific facts does not establish personal political ideology.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-19th-circuit-retain-slavin-marnie-m-slavin": {
+      "name": "Marnie M. Slavin",
+      "court": "19th Judicial Circuit, Lake County",
+      "researchStatus": "Selected primary ruling verified",
+      "rulings": [
+        {
+          "caseName": "City of Highland Park v. Morris",
+          "citation": "2022 IL App (2d) 210417-U",
+          "date": "2022-05-31",
+          "court": "Illinois Appellate Court, Second District, reviewing Lake County Circuit Court",
+          "judgeRole": "Trial judge whose suppression order was reviewed; not an appellate panel member",
+          "topic": "Fourth Amendment traffic-stop limits",
+          "holding": "Slavin granted a motion to quash an arrest and suppress evidence obtained during a traffic stop in a driving-under-the-influence case.",
+          "reasoning": "She questioned the officer's basis for following the driver and observation of a lane violation, and considered weather and driving conditions. She declined to rely on a further lane crossing the officer noticed only when reviewing video.",
+          "subsequentHistory": "The appellate court reversed and remanded. It found the video and testimony established lane crossings, erratic driving and speeding, and held that the objective circumstances justified the stop regardless of the officer's initial motivation.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/a7b06e9f-33e9-4359-9327-8f2c3d220ad1/City%20of%20Highland%20Park%20v.%20Morris%2C%202022%20IL%20App%20%282d%29%20210417-U.pdf",
+              "title": "Illinois Courts: City of Highland Park v. Morris, 2022 IL App (2d) 210417-U",
+              "paragraphs": "Caption; 1–2, 12, 15, 18–24, 27–30"
+            }
+          ],
+          "limitations": "Rule 23 order. The result after remand was not independently retrieved. A single suppression decision does not establish a general stance toward policing.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "A case-specific constitutional traffic-stop decision is insufficient to classify Republican, Democratic, or Trump alignment."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-19th-circuit-retain-slavin-marnie-m-slavin",
+      "checked": "2026-11-01",
+      "researchScope": "Selected substantive rulings verified by reading primary appellate opinions, including the trial-court actions those opinions review. Dates are appellate decision dates unless trialDecisionDate is separately supplied. This is not a complete career record or a recommendation. A ruling applying law to case-specific facts does not establish personal political ideology.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-22nd-circuit-retain-feetterer-michael-w-feetterer": {
+      "name": "Michael W. Feetterer",
+      "court": "Twenty-Second Judicial Circuit, McHenry County",
+      "researchStatus": "verified-selected-rulings",
+      "researchScope": "Selected recent criminal-evidence ruling verified in the official appellate PDF. A court-filtered Second District surname search returned 20 metadata hits; the examples here are not an exhaustive review of those hits.",
+      "rulings": [
+        {
+          "caseName": "People v. Thomforde",
+          "citation": "2026 IL App (2d) 240681-U",
+          "date": "2026-06-09",
+          "trialDecisionDate": "2024-04-26",
+          "court": "Illinois Appellate Court, Second District (reviewing McHenry County Circuit Court)",
+          "judgeRole": "Trial judge; not a member of the appellate panel",
+          "topic": "Child-witness evidence and criminal defendants' confrontation rights",
+          "holding": "Feetterer admitted a child's earlier abuse statements after a statutory hearing, denied a post-trial motion, and imposed 30 days in jail and 24 months' probation following a jury's domestic-battery verdict.",
+          "reasoning": "The admission ruling used the child-statement procedure in section 115-10. The appellate order does not reproduce a detailed explanation of Feetterer's reliability finding, so the appellate court's later reasoning is not attributed to him.",
+          "subsequentHistory": "The Second District affirmed on June 9, 2026. It rejected ineffective-assistance claims concerning witness competency, confrontation, and medical-treatment hearsay. Applying the Illinois Supreme Court's intervening Butler decision, it held that the child need not accuse the defendant during testimony to be available for cross-examination.",
+          "sourceStatus": "Rule 23 order; official index lists Slip as of review. Not precedential except as permitted by Rule 23(e).",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/064ed59d-1760-493d-a40b-686715b44ecd/file",
+              "title": "Official Illinois Courts order: People v. Thomforde",
+              "paragraphs": "Caption; paragraphs 4–5, 20–21, 29–30, 40–44, 46–52"
+            }
+          ],
+          "limitations": "The jury returned the verdict. The competency and ineffective-assistance analysis belongs to the appellate panel. No later docket disposition was independently verified.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific evidentiary rules and confrontation analysis do not establish a Republican, Democratic, or Trump policy preference."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-22nd-circuit-retain-feetterer-michael-w-feetterer",
+      "checked": "2026-11-01",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-22nd-circuit-retain-gervais-david-r-gervais": {
+      "name": "David R. Gervais",
+      "court": "Twenty-Second Judicial Circuit, McHenry County",
+      "researchStatus": "verified-selected-rulings",
+      "researchScope": "Official opinion-index surname query returned 11 hits; actual roles screened before choosing two civil-law examples, one affirmed and one reversed.",
+      "rulings": [
+        {
+          "caseName": "In re Estate of Kohnen",
+          "citation": "2026 IL App (2d) 250453",
+          "date": "2026-06-18",
+          "court": "Illinois Appellate Court, Second District (reviewing McHenry County Circuit Court)",
+          "judgeRole": "Trial judge; not a member of the appellate panel",
+          "topic": "Surviving-spouse inheritance and interstate property law",
+          "holding": "Gervais rejected the children's request to exclude Arizona real-estate proceeds when calculating the surviving spouse's Illinois statutory share after she renounced the will.",
+          "reasoning": "His oral ruling relied on perceived uncertainty about the Arizona claim and his authority to probate the property in Illinois. The appellate court described the ruling as unclear but treated it as a final decision on distribution rights.",
+          "subsequentHistory": "Reversed and remanded June 18, 2026. With no appellee's brief, the appellate panel found a prima facie showing of reversible error: the foreign property's governing succession law mattered, and Arizona does not provide a forced spousal share. The court expressly limited its review rather than fully litigating Arizona succession law without an appellee.",
+          "sourceStatus": "Published opinion; official index status Released as of review.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/a667232d-cc17-448f-8c37-2ca2e4bb5ed5/file",
+              "title": "Official Illinois Courts opinion: In re Estate of Kohnen",
+              "paragraphs": "Caption; paragraphs 1, 5–9, 13–17"
+            }
+          ],
+          "limitations": "The ruling concerns choice of law and probate distribution, not a general position on marriage or family policy. Post-remand proceedings were not independently verified.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "A probate choice-of-law ruling is outside the declared party-policy comparison topics and does not support a personal political label."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        },
+        {
+          "caseName": "Blanton v. Illinois High School Association",
+          "citation": "2025 IL App (2d) 240599-U",
+          "date": "2025-07-02",
+          "trialDecisionDate": "2024-09-06",
+          "court": "Illinois Appellate Court, Second District (reviewing McHenry County Circuit Court)",
+          "judgeRole": "Trial judge; not a member of the appellate panel",
+          "topic": "School-athletics discipline and limits on using confidential discovery",
+          "holding": "Gervais permanently barred the IHSA from enforcing recruiting penalties against a coach and student and barred use or disclosure of confidential discovery material obtained in the litigation.",
+          "reasoning": "He found the relevant recruiting bylaw did not cover the facts: the student did not yet meet the defined student-athlete category, the coach's mother was not school personnel, and the arrangement did not constitute the prohibited inducement. He also found the IHSA had violated an agreed confidentiality order.",
+          "subsequentHistory": "Affirmed July 2, 2025. The appellate panel upheld the result because the recruiting provision did not apply and sustained the protective relief; it did not adopt every alternative rationale. An inquiry into criminal contempt resulted in no charges and ended in November 2024.",
+          "sourceStatus": "Rule 23 order; official index lists Slip as of review. Not precedential except as permitted by Rule 23(e).",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/a062b679-98c3-4e4a-bc67-1762ad0db736/file",
+              "title": "Official Illinois Courts order: Blanton v. Illinois High School Association",
+              "paragraphs": "Caption; paragraphs 1–2, 19–21, 38–46, 69–80, 85–88"
+            }
+          ],
+          "limitations": "This was an ordinary recruiting/eligibility dispute, not a ruling on transgender-athlete policy or school-choice funding. No later disposition independently verified.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Bylaw interpretation and discovery confidentiality are not evidence of agreement with national parties or Trump administration policies."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-22nd-circuit-retain-gervais-david-r-gervais",
+      "checked": "2026-11-01",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-22nd-circuit-retain-hansen-justin-m-hansen": {
+      "name": "Justin M. Hansen",
+      "court": "Twenty-Second Judicial Circuit, McHenry County",
+      "researchStatus": "verified-selected-rulings",
+      "researchScope": "Selected recent sentencing ruling verified in the official PDF. A court-filtered Second District surname search returned 98 metadata hits, many involving other people named Hansen; hits alone were not treated as this judge's rulings.",
+      "rulings": [
+        {
+          "caseName": "People v. Jackson",
+          "citation": "2026 IL App (2d) 240636-U",
+          "date": "2026-02-09",
+          "trialDecisionDate": "2024-09-18",
+          "court": "Illinois Appellate Court, Second District (reviewing McHenry County Circuit Court)",
+          "judgeRole": "Trial sentencing judge; not a member of the appellate panel",
+          "topic": "Criminal sentencing, aggravating factors, and sentence-disparity claims",
+          "holding": "After a jury verdict, Hansen imposed concurrent 17-year terms for armed robbery and home invasion and 15 years for attempted armed robbery. He declined an available extended-term sentence.",
+          "reasoning": "He weighed the recent serious criminal history and prolonged threat of harm to an older victim against the defendant's age, explaining that he was avoiding double-counting elements of the offenses.",
+          "subsequentHistory": "Affirmed February 9, 2026. The appellate court found no improper double enhancement or sentencing abuse. It struck material outside the record offered to compare a codefendant's negotiated plea sentence and found no evidentiary basis for the claimed racial explanation.",
+          "sourceStatus": "Rule 23 order; not precedential except as permitted by Rule 23(e).",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/c6081992-2a49-4434-a09b-a593af97c1fc/file",
+              "title": "Official Illinois Courts order: People v. Jackson",
+              "paragraphs": "Caption; paragraphs 1–2, 7–9, 11–19"
+            }
+          ],
+          "limitations": "The appellate discussion of the racial-disparity claim is not Hansen's own constitutional ruling. Sentence length alone cannot measure ideology; this is one individualized sentencing decision. No later disposition independently verified.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "An individual criminal sentence and appeal do not demonstrate party or Trump policy alignment."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-22nd-circuit-retain-hansen-justin-m-hansen",
+      "checked": "2026-11-01",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-22nd-circuit-retain-gerhardt-mark-r-gerhardt": {
+      "name": "Mark R. Gerhardt",
+      "court": "Twenty-Second Judicial Circuit, McHenry County",
+      "researchStatus": "verified-selected-rulings",
+      "researchScope": "Selected recent search-and-seizure/bench-trial ruling verified in the official PDF. A court-filtered Second District surname search returned 30 metadata hits; those hits can include other roles and cited authorities.",
+      "rulings": [
+        {
+          "caseName": "People v. Price",
+          "citation": "2026 IL App (2d) 250047-U",
+          "date": "2026-05-13",
+          "trialDecisionDate": "2024-11-19",
+          "court": "Illinois Appellate Court, Second District (reviewing McHenry County Circuit Court)",
+          "judgeRole": "Trial judge; not a member of the appellate panel",
+          "topic": "Search-warrant probable cause and proof of firearm possession",
+          "holding": "Gerhardt denied a motion to suppress evidence on November 19, 2024. Following a December bench trial, he found the defendant guilty of firearm, drug, and child-endangerment offenses.",
+          "reasoning": "He found the warrant affidavit sufficient when its facts were considered together. At trial, he relied on clothing, documents, and a labeled box connecting the defendant to the residence and contraband.",
+          "subsequentHistory": "The May 13, 2026 appellate order's concluding judgment affirmed. Its separate Second Amendment analysis rejected facial and as-applied challenges to firearm-possession restrictions, but paragraphs 40 and 53 expressly state those constitutional arguments were not raised in the trial court.",
+          "sourceStatus": "Rule 23 order; official index lists Slip as of review. Not precedential except as permitted by Rule 23(e).",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/cb417837-310c-44d2-a07d-247d5fa67ea8/file",
+              "title": "Official Illinois Courts order: People v. Price",
+              "paragraphs": "Caption; paragraphs 4, 18–19, 40, 53, 59–63"
+            }
+          ],
+          "limitations": "Do not attribute the appellate panel's firearm-constitutionality rulings to Gerhardt: those challenges were raised for the first time on appeal. The opening paragraph says affirm in part/dismiss in part, while the formal conclusion says affirmed; the record here reports the concluding judgment without inventing a dismissal rationale. No later disposition independently verified.",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "The trial judge decided probable cause and guilt under existing statutes; the broader Second Amendment holding was made by other judges on appeal. It is not evidence of Gerhardt's party or Trump-policy alignment."
+          },
+          "recordType": "trial-court-action-reported-in-appeal"
+        }
+      ],
+      "candidateId": "sbe-22nd-circuit-retain-gerhardt-mark-r-gerhardt",
+      "checked": "2026-11-01",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected rulings do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      }
+    },
+    "sbe-21st-circuit-retain-sabol-michael-sabol": {
+      "name": "Michael Sabol",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "rulings": [
+        {
+          "caseName": "People v. Jensen",
+          "citation": "2024 IL App (3d) 230229-U",
+          "date": "2024-12-30",
+          "trialRulingDate": "2022-11-07",
+          "court": "Illinois Appellate Court, Third District, reviewing Iroquois County Circuit Court",
+          "judgeRole": "Trial judge whose suppression ruling was reviewed; not an appellate panel member",
+          "topic": "Miranda warnings and police questioning",
+          "holding": "Sabol denied a murder defendant's motion to suppress statements made before Miranda warnings.",
+          "reasoning": "He found the initial exchange noncustodial: the defendant chose the meeting's time and place, one officer asked brief general questions, and there was no restraint or show of force. After the confession, the officer's follow-up questions clarified the volunteered statement rather than conducting an interrogation.",
+          "subsequentHistory": "The Third District unanimously affirmed on December 30, 2024, agreeing that the initial encounter was noncustodial and that clarification of the volunteered statement did not require suppression. Further appellate history was not verified.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/169c38ec-9f51-4bbe-b9f4-4ae3591b54c6/People%20v.%20Jensen%2C%202024%20IL%20App%20%283d%29%20230229-U.pdf",
+              "title": "Official Illinois Courts order: People v. Jensen",
+              "paragraphs": "Caption; paragraphs 17, 23–31",
+              "sourceType": "official-court-order",
+              "officialIndexUrl": "https://www.illinoiscourts.gov/resources/169c38ec-9f51-4bbe-b9f4-4ae3591b54c6/file"
+            }
+          ],
+          "limitations": "Rule 23 order with limited precedential use. This fact-specific application of Miranda does not establish a position on Republican, Democratic, or Trump policy.",
+          "sourcePublicationStatus": "Slip",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2022-11-07",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        }
+      ],
+      "searchLimitations": "An all-court index request timed out. A successful all-years Third District index search returned 14 name hits; hits are not verified ruling counts. Selected primary PDFs were read. This is not a complete career record.",
+      "searchEvidence": {
+        "query": "Sabol",
+        "court": "Third District Appellate Court",
+        "resultCount": 14,
+        "completePagination": true,
+        "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate"
+      },
+      "candidateId": "sbe-21st-circuit-retain-sabol-michael-sabol",
+      "checked": "2026-11-01",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected case outcomes do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      },
+      "researchScope": "Six retention judges in circuits 21, 23, and 24: selected primary rulings, not a complete career record.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct."
+    },
+    "sbe-21st-circuit-retain-dickenson-william-s-dickenson": {
+      "name": "William S. Dickenson",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "rulings": [
+        {
+          "caseName": "People v. Brown",
+          "citation": "2025 IL App (3d) 240596-U",
+          "date": "2025-10-28",
+          "trialRulingDate": "2024-01-29",
+          "court": "Illinois Appellate Court, Third District, reviewing Kankakee County Circuit Court",
+          "judgeRole": "Trial judge; not an appellate panel member",
+          "topic": "Self-defense and right to effective counsel",
+          "holding": "Dickenson rejected self-defense and convicted Brown of first-degree murder after a bench trial. He later proceeded without investigating the factual basis of Brown's complaints about defense counsel after Brown elected to address other pending matters first.",
+          "reasoning": "On guilt, Dickenson found Brown's testimony inconsistent with his prior statements, other testimony, and physical evidence, and found revenge rather than self-defense. On the attorney complaint, he asked whether Brown wanted to pursue it then but did not conduct the required preliminary factual inquiry.",
+          "subsequentHistory": "The Third District unanimously upheld the conviction's evidentiary sufficiency but remanded for a preliminary Krankel inquiry into counsel's performance. Merely asking whether Brown wanted to pursue his complaints was insufficient. The later remand outcome was not verified.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/524f8370-9275-448a-abf1-a1ebffd1cf93/People%20v.%20Brown%202025%20IL%20App%20%283d%29%20240596-U.pdf",
+              "title": "Official Illinois Courts order: People v. Brown",
+              "paragraphs": "Caption; paragraphs 14–15, 21–29",
+              "sourceType": "official-court-order",
+              "officialIndexUrl": "https://www.illinoiscourts.gov/resources/524f8370-9275-448a-abf1-a1ebffd1cf93/file"
+            }
+          ],
+          "limitations": "Rule 23 order with limited precedential use. A fact-specific self-defense ruling and counsel-inquiry error do not establish political alignment.",
+          "sourcePublicationStatus": "Slip",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2024-01-29",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        },
+        {
+          "caseName": "People v. McDermott",
+          "citation": "2025 IL App (3d) 240707-U",
+          "date": "2025-03-27",
+          "trialRulingDate": "2024-11-07",
+          "court": "Illinois Appellate Court, Third District, reviewing Kankakee County Circuit Court",
+          "judgeRole": "Trial judge who ordered pretrial detention; not an appellate panel member",
+          "topic": "Individual pretrial detention under Illinois law",
+          "holding": "Dickenson ordered detention before trial on sexual-assault and abuse charges and denied subsequent release requests.",
+          "reasoning": "After reviewing a recorded interview, he found the complainant consistent and detailed. He found clear and convincing evidence of a detention-eligible offense and danger that release conditions could not mitigate, citing alleged death threats, violence, and repeated conduct despite promises to stop.",
+          "subsequentHistory": "The Third District affirmed 2–1 on March 27, 2025. Justice Holdridge dissented, reasoning that the time elapsed without renewed threats or contact supported release conditions. The appeal decided detention, not guilt. Further history was not verified.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/cdf3f4b0-61fc-4bc0-af39-9a3a16d150b3/People%20v.%20McDermott%2C%202025%20IL%20App%20%283d%29%20240707-U.pdf",
+              "title": "Official Illinois Courts order: People v. McDermott",
+              "paragraphs": "Caption; paragraphs 5, 9–12, 15–26",
+              "sourceType": "official-court-order",
+              "officialIndexUrl": "https://www.illinoiscourts.gov/resources/cdf3f4b0-61fc-4bc0-af39-9a3a16d150b3/file"
+            }
+          ],
+          "limitations": "Rule 23 order with limited precedential use. Individual dangerousness findings do not show support for or opposition to system-wide cash bail, party platforms, or Trump.",
+          "sourcePublicationStatus": "Slip",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2024-11-07",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        }
+      ],
+      "searchLimitations": "An all-court index request timed out. A successful all-years Third District index search returned 30 name hits; hits are not verified ruling counts. Selected primary PDFs were read. This is not a complete career record.",
+      "searchEvidence": {
+        "query": "Dickenson",
+        "court": "Third District Appellate Court",
+        "resultCount": 30,
+        "completePagination": true,
+        "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate"
+      },
+      "candidateId": "sbe-21st-circuit-retain-dickenson-william-s-dickenson",
+      "checked": "2026-11-01",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected case outcomes do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      },
+      "researchScope": "Six retention judges in circuits 21, 23, and 24: selected primary rulings, not a complete career record.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct."
+    },
+    "sbe-21st-circuit-retain-parkhurst-lindsay-parkhurst": {
+      "name": "Lindsay Parkhurst",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "rulings": [
+        {
+          "caseName": "Burrell v. Perez",
+          "citation": "2025 IL App (3d) 250353-U",
+          "date": "2025-10-27",
+          "trialRulingDate": "2025-06-17",
+          "court": "Illinois Appellate Court, Third District, reviewing Kankakee County Circuit Court",
+          "judgeRole": "Trial judge who ruled on preliminary injunctive relief; not an appellate panel member",
+          "topic": "Civil injunctions and notice",
+          "holding": "Parkhurst denied Burrell's requested injunction to retain possession of a disputed vehicle, but allowed Perez to take possession while barring its sale until the ownership dispute was decided.",
+          "reasoning": "Parkhurst questioned whether Burrell would establish breach of contract and treated Perez's titleholder status as controlling possession in the meantime. Perez had not filed a request for an injunction or given Burrell notice of one.",
+          "subsequentHistory": "The Third District unanimously affirmed denial of Burrell's injunction because he had not shown irreparable harm or an inadequate legal remedy. It reversed the possession order benefiting Perez for lack of notice and remanded. The underlying ownership merits and later remand result were not resolved by this order.",
+          "evidence": [
+            {
+              "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/69405560-6380-4e56-aa6d-71d8ba8a1458/Burrell%20v.%20Perez%202025%20IL%20App%20%283d%29%20250353-U.pdf",
+              "title": "Official Illinois Courts order: Burrell v. Perez",
+              "paragraphs": "Caption; paragraphs 7–8, 13–20",
+              "sourceType": "official-court-order",
+              "officialIndexUrl": "https://www.illinoiscourts.gov/resources/69405560-6380-4e56-aa6d-71d8ba8a1458/file"
+            }
+          ],
+          "limitations": "Rule 23 order with limited precedential use. A private vehicle dispute and procedural-notice ruling do not establish a Republican, Democratic, or Trump-policy position.",
+          "sourcePublicationStatus": "Slip",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2025-06-17",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        },
+        {
+          "caseName": "In re Cornelius W.",
+          "citation": "2024 IL App (3d) 230027-U",
+          "date": "2024-02-08",
+          "trialRulingDate": "2022-12-13",
+          "court": "Illinois Appellate Court, Third District, reviewing Kankakee County Circuit Court",
+          "judgeRole": "Trial judge who authorized involuntary medication; not an appellate panel member",
+          "topic": "Mental-health treatment and bodily autonomy",
+          "holding": "Parkhurst granted a petition authorizing involuntary psychotropic medication for up to 90 days.",
+          "reasoning": "She found serious mental illness, declining functioning, treatment benefits outweighing harms, lack of capacity for a reasoned treatment decision, and no suitable less restrictive option. Her order also found that written information on treatment alternatives had been provided.",
+          "subsequentHistory": "The Third District unanimously reversed. The State had not presented evidence of proposed dosage ranges or evidence that written information on alternatives had been provided; the standardized order did not cure those evidentiary omissions. The medication order had expired, but the court applied the public-interest exception to mootness. Further history was not verified.",
+          "sourcePublicationStatus": "Slip",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/0f623f48-7f79-46ed-aa2c-e46d2969df44/file",
+              "title": "Official Illinois Courts order: In re Cornelius W.",
+              "paragraphs": "Caption; paragraphs 11–15, 20–22, 29–39, 41–42",
+              "sourceType": "official-court-order"
+            }
+          ],
+          "limitations": "Rule 23 order with limited precedential use. This individual treatment decision and statutory-compliance reversal do not establish a party or Trump-policy position.",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2022-12-13",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        },
+        {
+          "caseName": "Andrade v. City of Kankakee",
+          "citation": "2023 IL App (3d) 230035",
+          "date": "2023-11-01",
+          "trialRulingDate": "2022-12-19",
+          "court": "Illinois Appellate Court, Third District, reviewing Kankakee County Circuit Court",
+          "judgeRole": "Trial judge who dismissed the tort claims; not an appellate panel member",
+          "topic": "Police-protection liability and statutory immunity",
+          "holding": "Parkhurst dismissed claims against Kankakee police and sheriff defendants arising from a courthouse-area shooting, with prejudice and without leave to amend.",
+          "reasoning": "Even accepting the pleaded facts, she found that claims of absent or inadequate police protection fell under section 4-102 absolute immunity. She concluded amendment could not change the claims' essential character.",
+          "subsequentHistory": "The Third District unanimously affirmed. It held that the alleged failure to prevent the crime or provide adequate protection fell within section 4-102 and that plaintiffs proposed no facts curing that defect. The original October 4, 2023 Rule 23 order was published as an opinion November 1, 2023. Further appellate history was not verified.",
+          "sourcePublicationStatus": "Final",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/0703905d-37f4-4735-b404-87dde0760170/file",
+              "title": "Official Illinois Courts published opinion: Andrade v. City of Kankakee",
+              "paragraphs": "Caption; paragraphs 1, 10, 18, 28–35",
+              "sourceType": "official-court-opinion"
+            }
+          ],
+          "limitations": "This applies Illinois statutory immunity for inadequate police protection. It is not a ruling on federal qualified immunity, police use-of-force merits, or a party platform.",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2022-12-19",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        }
+      ],
+      "searchLimitations": "An all-court index request timed out. A successful all-years Third District index search returned 18 name hits; hits are not verified ruling counts. Selected primary PDFs were read. This is not a complete career record.",
+      "searchEvidence": {
+        "query": "Parkhurst",
+        "court": "Third District Appellate Court",
+        "resultCount": 18,
+        "completePagination": true,
+        "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate"
+      },
+      "candidateId": "sbe-21st-circuit-retain-parkhurst-lindsay-parkhurst",
+      "checked": "2026-11-01",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected case outcomes do not establish judge-wide Republican, Democratic, or Trump-policy alignment."
+      },
+      "researchScope": "Six retention judges in circuits 21, 23, and 24: selected primary rulings, not a complete career record.",
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct."
+    },
+    "sbe-23rd-circuit-retain-gleason-jody-p-gleason": {
+      "candidateId": "sbe-23rd-circuit-retain-gleason-jody-p-gleason",
+      "name": "Jody P. Gleason",
+      "checked": "2026-11-01",
+      "researchStatus": "primary-ruling-verified",
+      "rulings": [
+        {
+          "caseName": "Montelauro v. Lutkus",
+          "citation": "2025 IL App (2d) 240369",
+          "date": "2025-05-20",
+          "court": "Illinois Appellate Court, Second District; reviewing Kendall County Circuit Court",
+          "judgeRole": "Trial judge who granted the plenary order of protection; not an appellate panel member.",
+          "topic": "Domestic-violence protection; harassment and personal liberty",
+          "holding": "Gleason granted a plenary order of protection after finding harassment and interference with the petitioner’s personal liberty.",
+          "reasoning": "She credited the petitioner and found that repeated unwanted contact, culminating in sending an intimate photo to compel a response, caused emotional distress and interfered with the right to avoid contact.",
+          "subsequentHistory": "The appellate court affirmed. It held that the evidence supported the abuse finding and the statutory factors for protection. An April 14, 2025 Rule 23 order was withdrawn when this published opinion issued on May 20; the official index marks the published opinion Final.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/46cabf77-4d8d-4b13-8435-9330f73a27db/file",
+              "title": "Montelauro v. Lutkus, final official opinion",
+              "paragraphs": "Caption; paragraphs 4, 40, 46, 57–62, 64–65",
+              "sha256": "8a1df72091dd156740f1e78f84d726a32f006e3393de46edd9158fc8ab3fa102"
+            }
+          ],
+          "limitations": "Selected ruling example, not a complete career record or a measure of personal political ideology. Trial-court action is described from the appellate court record. Later trial proceedings and any further appellate docket activity were not independently reconstructed. This is application of the Domestic Violence Act to particular evidence, not a ruling about a party platform.",
+          "trialRulingDate": "2024-05-15",
+          "sourcePublicationStatus": "Final",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2024-05-15",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        }
+      ],
+      "researchScope": "Official court opinion PDF and current official opinion index checked.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected case does not establish a judge-wide Republican, Democratic, or Trump-policy alignment."
+      },
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct."
+    },
+    "sbe-24th-circuit-retain-campanella-james-w-campanella": {
+      "candidateId": "sbe-24th-circuit-retain-campanella-james-w-campanella",
+      "name": "James W. Campanella",
+      "checked": "2026-11-01",
+      "researchStatus": "primary-ruling-verified",
+      "rulings": [
+        {
+          "caseName": "People v. Everitt",
+          "citation": "2025 IL App (5th) 240185-U",
+          "date": "2025-12-19",
+          "court": "Illinois Appellate Court, Fifth District; reviewing Perry County Circuit Court",
+          "judgeRole": "Trial judge who accepted the jury waiver, denied its withdrawal, then conducted the stipulated bench trial; not an appellate panel member.",
+          "topic": "Criminal defendant’s right to jury trial",
+          "holding": "On January 25, 2024, Campanella refused to permit the defendant to withdraw his jury waiver. Following a stipulated bench trial on January 29, 2024, he found the defendant guilty of unlawful possession of a weapon by a felon and imposed a six-year prison sentence.",
+          "reasoning": "He considered the waiver knowing and voluntary and cited the time and expense of calling and releasing jurors when denying withdrawal.",
+          "subsequentHistory": "The appellate court reversed and remanded for a new trial before a different judge. It found that judicial comments, the defendant’s confusion and illness, and his prompt effort to withdraw the waiver created doubts about a knowing, voluntary waiver. It did not decide the Second Amendment challenge. The official index lists this Rule 23 order as Slip.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/fb72256e-b014-4e6b-a64e-6a8230001249/file",
+              "title": "People v. Everitt, official Rule 23 order",
+              "paragraphs": "Caption; paragraphs 12–15, 17, 20–29, 31–32",
+              "sha256": "eb2333704d095cafc4ffbb2c7bb74f3d25ea21a141d0f2cc228941240d3ac28e"
+            }
+          ],
+          "limitations": "Selected ruling example, not a complete career record or a measure of personal political ideology. Trial-court action is described from the appellate court record. Later trial proceedings and any further appellate docket activity were not independently reconstructed. Rule 23 order has limited precedential effect. The gun-law merits were not resolved on appeal, so this is not evidence of an appellate Second Amendment holding or a reliable party-policy comparison.",
+          "trialRulingDate": "2024-01-25",
+          "sourcePublicationStatus": "Slip",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2024-01-25",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        }
+      ],
+      "researchScope": "Official court opinion PDF and current official opinion index checked.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected case does not establish a judge-wide Republican, Democratic, or Trump-policy alignment."
+      },
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct."
+    },
+    "sbe-24th-circuit-retain-hitzemann-chris-hitzemann": {
+      "candidateId": "sbe-24th-circuit-retain-hitzemann-chris-hitzemann",
+      "name": "Chris Hitzemann",
+      "checked": "2026-11-01",
+      "researchStatus": "primary-ruling-verified",
+      "rulings": [
+        {
+          "caseName": "People v. Jenkins",
+          "citation": "2023 IL App (5th) 210085",
+          "date": "2023-04-14",
+          "court": "Illinois Appellate Court, Fifth District; reviewing St. Clair County Circuit Court",
+          "judgeRole": "Successor trial judge ruling on the State’s motion to reconsider another judge’s new-trial order; not an appellate panel member.",
+          "topic": "Fair trial; prosecutorial misconduct and posttrial review",
+          "holding": "Hitzemann granted the State’s motion to reconsider and displaced Judge McGlynn’s order granting a new trial.",
+          "reasoning": "He concluded that procurement of perjured testimony was outside the issues properly before the court in the ineffective-assistance hearing, and also rejected ineffective assistance as a new-trial basis.",
+          "subsequentHistory": "The appellate court reversed and remanded for the new trial McGlynn had ordered. It held that Hitzemann’s exclusion of the perjury issue rested on legal error: a court need not ignore serious trial error revealed during a properly held hearing. The official index marks the opinion Final.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/d00be2a0-aab5-4596-a941-08710f49da29/file",
+              "title": "People v. Jenkins, final official opinion",
+              "paragraphs": "Caption; paragraphs 14–19, 23, 27–31, 33–34",
+              "sha256": "d5ee5c22fd3c3b4fc9e85b4368614a5c89ca9f5f58111080e89127737827d3cf"
+            }
+          ],
+          "limitations": "Selected ruling example, not a complete career record or a measure of personal political ideology. Trial-court action is described from the appellate court record. Later trial proceedings and any further appellate docket activity were not independently reconstructed. This records a particular procedural ruling and reversal; it does not establish a general pro-prosecution ideology.",
+          "trialRulingDate": "2021-03-19",
+          "sourcePublicationStatus": "Final",
+          "policyComparability": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          },
+          "recordType": "trial-court-action-reported-in-appeal",
+          "trialDecisionDate": "2021-03-19",
+          "policyComparison": {
+            "status": "not-comparable",
+            "explanation": "Case-specific adjudication; no verified ruling on the same precise proposition as a sourced party platform or Trump policy."
+          }
+        }
+      ],
+      "researchScope": "Official court opinion PDF and current official opinion index checked.",
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "The selected case does not establish a judge-wide Republican, Democratic, or Trump-policy alignment."
+      },
+      "coverageNote": "Selected primary-source rulings, not a complete or representative career record. Search hits are not ruling counts. Trial action and appellate reasoning are distinct.",
+      "identityVerification": {
+        "finding": "The ballot name Chris Hitzemann and the Jenkins caption name Christopher E. Hitzemann refer to the Monroe County circuit judge. The official circuit roster uses Chris Hitzemann, and the Illinois Department of Corrections identifies the same Monroe County resident judge as Christopher E. Hitzemann.",
+        "checked": "2026-11-01",
+        "evidence": [
+          {
+            "url": "https://24thcircuit.illinoiscourts.gov/monroe-county-illinois/",
+            "title": "24th Judicial Circuit official Monroe County roster",
+            "locator": "Circuit Judge section",
+            "supports": "Judge Chris Hitzemann, Assistant Chief Judge, is listed as Monroe County circuit judge."
+          },
+          {
+            "url": "https://idoc.illinois.gov/content/dam/soi/en/web/idoc/aboutus/jds2017/2024-jail-inspections/Monroe%20County.pdf",
+            "title": "Illinois Department of Corrections, Monroe County jail inspection, September 13, 2024",
+            "locator": "PDF page 2 (printed checklist page 1), Resident Judge field",
+            "supports": "The Monroe County resident judge in the 24th Circuit is identified as Christopher E. Hitzemann."
+          }
+        ]
+      }
+    }
+  }
+}

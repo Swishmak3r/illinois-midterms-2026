@@ -1,0 +1,197 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "/root/source_review_12/batch1b_reader",
+  "scope": "All 11 selected cases for seven judges in research-batch-1b.json",
+  "method": "Independently read complete primary texts; Ryan/Walowski four-case reading delegated to a separate review agent and its written report checked. Compared identity, roles, dates, actual trial acts, appellate reasoning, outcomes and pinpoints against the researcher ledger. All cached PDF hashes match claimed hashes.",
+  "coverage": {
+    "judges": 7,
+    "cases": 11,
+    "pdfPages": 114
+  },
+  "ledgerSha256AtReview": "a2feb860bf42f8f04c62d539ffcd5d6c0a856c121c064eed18a7f1f73447d42a",
+  "cases": [
+    {
+      "candidateId": "sbe-cook-circuit-retain-ryan-kristyna-colleen-ryan",
+      "judge": "Kristyna Colleen Ryan",
+      "caseName": "People v. Saucedo",
+      "citation": "2024 IL App (1st) 232020",
+      "decisionDate": "2024-01-22",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/7d0d26e8-fcc9-4dfe-afbc-06797cf210b9/file",
+      "sourceSha256": "d7673e258a4460c1191ddd3fa4eae66604a48b1c2f9eb07ca95d1b74de5242f9",
+      "pdfPages": 22,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Ryan is the trial judge for the reviewed October 17 detention order. The earlier erroneous order is distinguished. The published appellate affirmance and Ellis concurrence are separate from her action. Reader checked all opinion paragraphs, including concurrence."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-ryan-kristyna-colleen-ryan",
+      "judge": "Kristyna Colleen Ryan",
+      "caseName": "People v. Arrieta",
+      "citation": "2026 IL App (1st) 241513-U",
+      "decisionDate": "2026-02-04",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/86fc74b9-ddcf-41eb-8f4d-fef17b3c2783/file",
+      "sourceSha256": "66f5a0cd77c6c78dd18e2e84a679c04ca8605381a03824165b1b7b06b2b72b12",
+      "pdfPages": 11,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "The breath-test exclusion and directed finding concern one DUI count; the other impairment DUI conviction was affirmed. The appeal did not challenge the two traffic counts."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-walowski-ursula-walowski",
+      "judge": "Ursula Walowski",
+      "caseName": "People v. Muhammad-Ali",
+      "citation": "2021 IL App (1st) 171721-U",
+      "decisionDate": "2021-01-22",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/1171721_R23.pdf/opinion",
+      "sourceSha256": "753ac75ad453929ec44eca6e9cc0554954d5e8cc10b69e615cfa7fa88ca9c1aa",
+      "pdfPages": 12,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "The refusal to continue the trial and later new-trial denial belong to Walowski. The reviewing court reversed for failure to consider continuance factors and resulting prejudice, without reaching remaining alleged errors."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-walowski-ursula-walowski",
+      "judge": "Ursula Walowski",
+      "caseName": "People v. Wilson",
+      "citation": "2020 IL App (1st) 181465-U",
+      "decisionDate": "2020-09-28",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/1181465_R23.pdf/opinion",
+      "sourceSha256": "c1a3977058c5e371a784e56019287c7d6a098fe2e88cf803e8a79429b8152447",
+      "pdfPages": 5,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Walowski denied the new-trial motion because the new witness arrived after the shooting and was insufficiently conclusive. The appellate court affirmed that selected ruling."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-kyriakopoulos-anthony-c-tony-kyriakopoulos",
+      "judge": "Anthony C. \"Tony\" Kyriakopoulos",
+      "caseName": "Beneficial Illinois Inc. v. Parker",
+      "citation": "2016 IL App (1st) 160186",
+      "decisionDate": "2016-12-12",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/32aaf8b1-e5eb-4fa0-a4b0-0cb0f9ab8d44/file",
+      "sourceSha256": "4dcb303da2fa31bb3d4e5b4f4b565407670ab587cdae627dbfafe2f9e9e7eb73",
+      "pdfPages": 6,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Caption identifies Kyriakopoulos. The September 5, 2014 dismissal predates Jesinoski. Affirmance is limited to original-disclosure damages; rescission defense and failure-to-honor-rescission damages were restored. Paragraph 9 and footnote 2 say the circuit court did not separately address the latter counterclaim."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-kyriakopoulos-anthony-c-tony-kyriakopoulos",
+      "judge": "Anthony C. \"Tony\" Kyriakopoulos",
+      "caseName": "Concrete Structures/Sachi, J.V. v. Clark/Bulley/OVC/Power",
+      "citation": "2024 IL App (1st) 240082",
+      "decisionDate": "2024-09-03",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/a4d21013-01be-42b9-86d3-2cf95cf17aa6/file",
+      "sourceSha256": "ad50d057920893afcb0c8e5e3e9dd77502ce473a5bd03a5036ae2de4437258e7",
+      "pdfPages": 8,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Caption identifies Kyriakopoulos. Summary judgment rejected additional interest and attorney fees after the award was paid. The ledger expressly assigns the bond rationale to the appellate court rather than inventing trial reasoning."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-moreland-caroline-kate-moreland",
+      "judge": "Caroline Kate Moreland",
+      "caseName": "AB CPA, Inc. v. Adamski",
+      "citation": "2020 IL App (1st) 192627-U",
+      "decisionDate": "2020-09-30",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/1192627_R23.pdf/opinion",
+      "sourceSha256": "fdb4f7c9fee1f5b6219acab8754d89555a6c4a581ea6b1d4a59cbe794d13ff61",
+      "pdfPages": 5,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Caption identifies Moreland. She compelled arbitration and stayed litigation. Appellate reversal rests on the individual not being a signatory or intended beneficiary; the trial rationale is not reported, accurately disclosed."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-carroll-thomas-j-carroll",
+      "judge": "Thomas J. Carroll",
+      "caseName": "People v. Johnson",
+      "citation": "2019 IL App (1st) 181959-U",
+      "decisionDate": "2019-09-26",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/cf854628-21fa-4f37-a21b-9f91a855f23e/file",
+      "sourceSha256": "4c6e07b49c46777316744360e916f35f185d6072eff1187ed7fb4a842580f35b",
+      "pdfPages": 8,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Caption identifies Carroll and Lampkin as the reviewing justice. This was a civil summary-suspension proceeding. Record inadequacy and alternative police-report evidence support affirmance without deciding the contested video foundation."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-carroll-thomas-j-carroll",
+      "judge": "Thomas J. Carroll",
+      "caseName": "People v. Morris",
+      "citation": "2018 IL App (1st) 152636-U",
+      "decisionDate": "2018-03-09",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/9dbc827b-4662-46c4-92e7-5a37e39c66ce/file",
+      "sourceSha256": "045ecaa31678c845d273f4c4da3ecee01db784654578e9bf3d506f1ca7d1346a",
+      "pdfPages": 14,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Caption identifies Carroll. He found guilt after a bench trial; the appellate court rejected the unpreserved medical-evidence claim after no-error review and reversed the separate failure-to-yield conviction for missing statutory proof. Both outcomes are disclosed."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-buford-andrea-m-buford",
+      "judge": "Andrea M. Buford",
+      "caseName": "In re T.W.",
+      "citation": "2018 IL App (1st) 180051-U",
+      "decisionDate": "2018-09-28",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/1180051_R23.pdf/opinion",
+      "sourceSha256": "082b787d097e786a4aaec9dece08fd5489a3df71070fd2f0f574fa35566976ab",
+      "pdfPages": 14,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Caption identifies Buford. The trial court separately found unfitness and best interests. The appellate court affirmed statutory depravity and best interests without reaching alternate unfitness grounds. Ledger avoids reproducing personal details."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-allegretti-john-michael-allegretti",
+      "judge": "John Michael Allegretti",
+      "caseName": "People ex rel. Burke v. 2016 Land Rover Range Rover",
+      "citation": "2026 IL App (1st) 250312-U",
+      "decisionDate": "2026-03-11",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/1f4edabc-2306-4f50-aa65-f38fd9b8bb53/file",
+      "sourceSha256": "590ae1e9c78b86dc50906ff2f4ab0e107bf56e2aa304c73ededb43559da40382",
+      "pdfPages": 9,
+      "readScope": "Complete cached primary PDF text, including caption, facts, reasoning, disposition and any separate opinion",
+      "hashMatches": true,
+      "substantiveResult": "supported",
+      "notes": "Caption identifies John M. Allegretti, not James L. Allegretti. Paragraph 13 records the January 28, 2025 trial action and credibility findings. Appellate affirmance is procedural, including inadequate briefing and record; no merits endorsement is asserted."
+    }
+  ],
+  "refinements": [
+    {
+      "case": "People v. Johnson",
+      "severity": "pinpoint",
+      "finding": "The order ends at paragraph 20; change 15-21 to 15-20.",
+      "status": "Applied by ledger owner and independently verified"
+    },
+    {
+      "case": "People v. Saucedo",
+      "severity": "pinpoint",
+      "finding": "Extend 62-64 to 62-67 to cover Ellis concurrence and its discussion of the review standard.",
+      "status": "Applied by ledger owner and independently verified"
+    },
+    {
+      "case": "Beneficial Illinois Inc. v. Parker",
+      "severity": "precision",
+      "finding": "Note that the circuit court did not separately address the failure-to-honor-rescission damages counterclaim, although the reviewing court restored it.",
+      "status": "Applied by ledger owner and independently verified",
+      "verificationNote": "The footnote 2 locator was also corrected to the paragraphs 14-19 range; it is attached to paragraph 16."
+    }
+  ],
+  "limitations": [
+    "This confirms the selected historical decisions and supplied summaries, not every later docket event or a formal citator check.",
+    "No party or Trump-policy classification is inferred from ordinary case outcomes.",
+    "Political history and bar ratings were outside this batch-specific source review."
+  ],
+  "delegatedReport": "audit/judicial-2026/source-review-1b-rw.json",
+  "ledgerSha256AtFinalVerification": "45048d31d334793e0f81edc12a0a44458947ccea448c5d07b4055fac8dac069f",
+  "finalStatus": "All 11 selected substantive summaries supported; all three requested refinements applied and verified."
+}

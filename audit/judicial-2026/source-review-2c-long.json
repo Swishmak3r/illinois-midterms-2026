@@ -1,0 +1,62 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "Independent source reviewer /root/source_review_12/batch2_reader/partc_long",
+  "scope": "Three selected cases in research-batch-2c.json: two Sheahan cases and Patton's Gercone case.",
+  "method": "Read the full extracted text of each actual official PDF, including covers, procedural history, reasoning, disposition and footnotes. Re-read tool-truncated portions separately. Matched the local PDF SHA-256 to the ledger. Compared judge attribution, trial action, reviewing outcome, date and pinpoint references against the ledger. No source ledgers edited by this reviewer.",
+  "cases": [
+    {
+      "judge": "Patricia O'Brien Sheahan",
+      "case": "Glorioso v. Sun-Times Media Holdings, LLC",
+      "citation": "2024 IL 130137",
+      "fullOpinionRead": true,
+      "localPdf": "batch-2c-cache/Glorioso-Supreme.pdf",
+      "sha256": "01b3b347f8fb8946efb6f8830d21b8feda5e577bf8b14122e16a9a1cc71a4409",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/0f9ce3b1-4415-4fb7-b102-17e0f5ec8d95/file",
+      "result": "Pass after later-law context added by source owner.",
+      "verification": "Cover identifies Sheahan; paragraphs 27-29 describe the first motion; paragraphs 41-42 identify the October 29, 2021 anti-SLAPP ruling and its rationale. Paragraphs 44-47 describe appellate affirmance and dissent. Paragraphs 67-80 establish the Supreme Court's objective first-prong inquiry and affirmance/remand. Footnote 6 rejects the appellate fact-question characterization without reversing its judgment. No final defamation liability or Trump tax ruling was attributed to Sheahan.",
+      "finding": "Core historical summary was accurate. Explicit later-law context was needed to avoid treating the 2024 press-protection rule as the current general rule for new actions.",
+      "resolution": "Owner added Public Act 104-0431, its August 21, 2025 effective date, express press protection and changed motive/sole-basis provisions, and limitation to actions commenced on or after January 1, 2026. This addition and primary source were re-read in the component ledger after the patch.",
+      "additionalSources": [
+        {
+          "url": "https://ilga.gov/legislation/PublicActs/View/104-0431",
+          "pinpoint": "Section 5 amending 735 ILCS 110/5 and /15; new section 32; section 99 and effective-date line",
+          "readMethod": "Official indexed full statutory text returned by web search. Direct opening returned 502; direct PDF download returned 403. No blocked response was treated as source text."
+        },
+        {
+          "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/a53cee09-99d3-4e3b-a778-e1971444a759/Anderson%20v.%20Smith%202026%20IL%20131714.pdf",
+          "title": "Anderson v. Smith, 2026 IL 131714",
+          "pinpoint": "Paragraph 1 footnote 1; paragraphs 19-20, 25-26",
+          "finding": "Confirms the later statute's temporal limit. Separately clarifies the second-prong test for older cases; it explicitly notes that Glorioso decided the first prong and did not reach the second. This is not a reversal of Glorioso."
+        }
+      ]
+    },
+    {
+      "judge": "Patricia O'Brien Sheahan",
+      "case": "Clanton v. Oakbrook Healthcare Centre, Ltd.",
+      "citation": "2023 IL 129067",
+      "fullOpinionRead": true,
+      "localPdf": "batch-2c-cache/Clanton-v-Oakbrook-Healthcare-Centre-Ltd-.pdf",
+      "sha256": "ea694eb1ede6099fcb7ec9bbc102efe5c59ea69dc6a917600049adb73691c09e",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/ad51c45d-3cb9-4d5f-bdbc-8d2a2745c386/file",
+      "result": "Pass; no correction required.",
+      "verification": "Cover identifies Sheahan and September 21, 2023 decision. Paragraph 8 describes substantive unconscionability of the damages limitation, rejection of waiver/procedural unconscionability, and refusal to sever. Paragraphs 10-11 distinguish the appellate termination-on-death reasoning. Paragraphs 25, 32-38 establish the Supreme Court's contract-interpretation ground and express rejection of contrary Mason reasoning. Paragraphs 39-40 affirm and remand. The summary correctly distinguishes forum selection from underlying negligence liability."
+    },
+    {
+      "judge": "Nichole C. Patton",
+      "case": "Gercone v. Cook County Officers Electoral Board",
+      "citation": "2022 IL App (1st) 220724-U",
+      "fullOpinionRead": true,
+      "localPdf": "batch-2c-cache/Gercone-v-Cook-County-Officers-Electoral-Board.pdf",
+      "sha256": "f6b368c51489896618ebd2d5ed07b2141d06c4a77ae592f2c12496a8e64b12f7",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/0b2c9980-ad7f-49f3-a891-872e6be23e92/file",
+      "result": "Pass; no correction required.",
+      "verification": "Cover identifies Patton, June 8, 2022 filing and Rule 23 status. Paragraphs 3 and 16 establish her May 23, 2022 order restoring the candidate and rejecting the constitutional challenge; paragraph 16 supports the improper-delegation rationale. Paragraphs 28-40 support the appellate certificate-at-filing and agency-authority holdings. Paragraphs 41-65 separately address constitutional arguments, including forfeiture where applicable. Paragraphs 66-68 reverse the circuit judgment and affirm the electoral board. The ledger does not attribute appellate constitutional analysis or a party preference to Patton."
+    }
+  ],
+  "limitations": [
+    "This verifies the historical rulings described in the selected official opinions, not a complete current docket, later remand history, or citator report.",
+    "The PDFs were read through their complete text layers; no new visual-layout claim is made.",
+    "No personal partisan orientation or Trump loyalty follows from these three records."
+  ],
+  "summary": {"casesReviewed": 3, "coreSummaryErrors": 0, "laterLawContextCorrections": 1, "unresolvedPublicationBlockers": 0}
+}

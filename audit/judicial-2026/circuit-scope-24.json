@@ -1,0 +1,80 @@
+{
+  "checked": "2026-11-01",
+  "scope": "2026 retention geography for James W. Campanella and Chris Hitzemann following the division of the old Twentieth Judicial Circuit",
+  "finding": "The site's current Twenty-Fourth Circuit county set is supported: Monroe, Perry, Randolph and Washington. Both judges appear in official current-election publication ballots in all four counties. The official East St. Louis specimen, a St. Clair County election jurisdiction, includes Barberis appellate retention but neither circuit judge. No production correction is indicated for these two records.",
+  "raceIds": ["sbe-local-24th-circuit-retain-campanella", "sbe-local-24th-circuit-retain-hitzemann"],
+  "currentCounties": ["Monroe", "Perry", "Randolph", "Washington"],
+  "legalContext": {
+    "sourceUrl": "https://www.ilga.gov/Legislation/publicacts/view/102-0380",
+    "sourceTitle": "Public Act 102-0380, effective August 13, 2021",
+    "sectionsRead": ["705 ILCS 35/1", "705 ILCS 35/2f-12", "705 ILCS 35/37"],
+    "finding": "The Act split the old Twentieth Circuit on December 5, 2022: St. Clair became the Twentieth, while Monroe, Perry, Randolph and Washington became the Twenty-Fourth. It assigned the four counties' resident judgeships to the new circuit. Section 37 preserves pre-enactment judges' choice of old or new circuit for retention. Therefore the administrative map alone cannot establish a particular incumbent's retention electorate; current election documents were checked.",
+    "access": "Full official public-act HTML read through web tool. Current compiled-statute full-page direct retrieval returned 403/502; current indexed section37 text agrees on the old/new retention choice, but is not treated as a separate full-text review."
+  },
+  "ballotEvidence": [
+    {
+      "county": "Monroe",
+      "authority": "Monroe County Clerk",
+      "landingUrl": "https://www.mococlerk.com/files/",
+      "url": "https://www.mococlerk.com/files/2026%20GE%20Publication%20Ballot.pdf",
+      "title": "2026 GE Publication Ballot",
+      "election": "2026-11-03",
+      "page": 3,
+      "finding": "Separate Yes/No retention questions for both James W. Campanella and Chris Hitzemann under the Twenty-Fourth circuit heading.",
+      "read": "Official PDF text layer read; complete four-page document retrieved."
+    },
+    {
+      "county": "Perry",
+      "authority": "Perry County Clerk",
+      "landingUrl": "https://perrycountyil.gov/elections/",
+      "url": "https://perrycountyil.gov/wp-content/uploads/2026/10/2026-General-Election-Sample-Ballot.pdf",
+      "title": "2026 General Election Sample Ballot",
+      "election": "2026-11-03",
+      "sourceTimestamp": "2026-09-22 08:45:43",
+      "page": 2,
+      "finding": "Separate Yes/No retention questions for James W. Campanella and Chris Hitzemann, both labeled Twenty-Fourth Judicial Circuit.",
+      "read": "Downloaded two-page scanned PDF; page2 rendered and visually inspected because its text layer was empty.",
+      "sha256": "00684a5aaf6276f65f6aefdd32a532c6eb200f1f7333b9498ba1fe3045263a4c"
+    },
+    {
+      "county": "Randolph",
+      "authority": "Randolph County Clerk",
+      "landingUrl": "https://randolphcountyclerk.com/ballots/",
+      "url": "https://randolphcountyclerk.com/wp-content/uploads/2026/09/2026-GE-RANDOLPH.pdf",
+      "title": "2026 GE Randolph official publication ballot",
+      "election": "2026-11-03",
+      "page": 2,
+      "finding": "Both James W. Campanella and Chris Hitzemann have separate Yes/No questions under Twenty-Fourth Judicial Circuit retention.",
+      "read": "Full two-page PDF text layer read."
+    },
+    {
+      "county": "Washington",
+      "authority": "Washington County Clerk",
+      "landingUrl": "https://washingtonco.illinois.gov/county-clerk-and-recorder/elections-and-voting/",
+      "url": "https://washingtonco.illinois.gov/wp-content/uploads/PUBLICATION_2026_General.pdf",
+      "title": "2026 General publication ballot",
+      "election": "2026-11-03",
+      "sourceTimestamp": "2026-09-21 12:21:36",
+      "page": 2,
+      "finding": "Separate Yes/No retention questions for James W. Campanella and Chris Hitzemann, both labeled Twenty-Fourth Judicial Circuit.",
+      "read": "Full two-page PDF text layer read."
+    },
+    {
+      "county": "St. Clair",
+      "authority": "East St. Louis Board of Election Commissioners",
+      "landingUrl": "https://eslelections.illinois.gov/november-3-2026-general-election/",
+      "url": "https://eslelections.illinois.gov/wp-content/uploads/2026/10/November-2026-Election-Publication_Specimen-Ballot.pdf",
+      "title": "November 2026 Election Publication / Official Specimen Ballot",
+      "election": "2026-11-03",
+      "page": 2,
+      "finding": "The complete two-page specimen lists only John B. Barberis Jr. in the retention section; neither Campanella nor Hitzemann appears. This corroborates their current-circuit rather than old five-county retention scope.",
+      "read": "Full PDF text read through the web tool; direct Python HTTP download returned406.",
+      "limit": "This is an official East St. Louis jurisdiction specimen, not every St. Clair County precinct ballot."
+    }
+  ],
+  "limits": [
+    "No signed individual declaration selecting the retention district was obtained; current official specimens provide direct evidence of the ballots actually published.",
+    "The conclusion is specific to these two 2026 records. It must not be generalized to another incumbent merely from a current court map.",
+    "No production files were modified."
+  ]
+}

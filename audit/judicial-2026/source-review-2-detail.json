@@ -1,0 +1,461 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Independent primary-source review of all 25 included batch 2 decisions for 15 retention judges",
+  "result": "Passed after context and pinpoint corrections",
+  "profilesReviewed": 15,
+  "casesReviewed": 25,
+  "method": [
+    "All 25 original court opinions read in full by this reviewer or delegated independent readers. Summaries and search snippets did not substitute for opinions.",
+    "Matched every source PDF SHA-256 to source ledger evidence or sourceFiles metadata. Fresh pypdf extraction of the six opinions directly read by this reviewer matched saved text exactly after whitespace normalization.",
+    "Verified identity and judge role, separate trial actions and appellate reasoning, dispositions and dates, and material limitations.",
+    "Checked selected later statutory context where a historical rule could be mistaken for current law. Not a comprehensive citator or docket search."
+  ],
+  "corrections": [
+    {
+      "case": "In re Marriage of Durdov",
+      "type": "later-law context",
+      "finding": "Public Act 102-0823 amended 750 ILCS 5/510(a)(1), effective May 13, 2022, restricting the contemplation/foreseeability defense to expressly specified events in the court order or incorporated agreement. The 2021 ruling remains history, not current general law.",
+      "sourceUrl": "https://ftp.ilga.gov/Public%20Acts/102/102-0823.htm",
+      "verification": "Direct official designated file repository returned HTTP 200; read Section 5 amendment to 510(a)(1) and Section 99 effective-upon-becoming-law provision. Official SB3036 bill-status record confirms May 13, 2022 enactment.",
+      "status": "Applied to visible limitations and evidence in component and canonical ledger; verified after edit."
+    },
+    {
+      "case": "Glorioso v. Sun-Times Media Holdings, LLC",
+      "type": "later-law context",
+      "finding": "Public Act 104-0431 expanded press protections; effective August 21, 2025, amendments apply to actions filed on or after January 1, 2026. This does not reverse the 2024 decision or decide its existing suit.",
+      "sourceUrl": "https://ilga.gov/legislation/PublicActs/View/104-0431",
+      "status": "Applied to visible limitations and evidence in component and canonical ledger; independently verified."
+    },
+    {
+      "case": "People v. Rainey",
+      "type": "pinpoint",
+      "finding": "Disposition pinpoint corrected to paragraphs 37-38.",
+      "status": "Applied and independently verified."
+    },
+    {
+      "case": "In re K.M.",
+      "type": "pinpoint",
+      "finding": "Social-media constitutional holding pinpoint expanded through paragraph 67.",
+      "status": "Applied and independently verified."
+    },
+    {
+      "case": "People v. Rivera",
+      "type": "terminology precision",
+      "finding": "Refusal to review continued detention is the precise action; avoid conflation with reconsidering initial detention.",
+      "status": "Applied by source owner and verified in component."
+    }
+  ],
+  "cases": [
+    {
+      "candidateId": "sbe-cook-circuit-retain-rivers-kristal-r-rivers",
+      "judge": "Kristal R. Rivers",
+      "caseName": "In re K.M.",
+      "citation": "2018 IL App (1st) 172349",
+      "decisionDate": "2018-06-29",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/f1d8065d-3ba9-42db-8922-cc4d92a837dd/file",
+      "primaryPdfSha256": "9316e922e469dc814857c9fa30f90ed20ab513e4085cdaf4887a908593ab1a65",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Kristal-5.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-rivers-kristal-r-rivers",
+      "judge": "Kristal R. Rivers",
+      "caseName": "In re Maurice J.",
+      "citation": "2018 IL App (1st) 172123",
+      "decisionDate": "2018-06-20",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/b8ecbfb9-400d-4250-994a-63e6c3c626d9/file",
+      "primaryPdfSha256": "b96af1d253fcc82cfdbd47f3b10b43ec92aa5610f389d75b2591fb6c54929cf3",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Kristal-7.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-watkins-steven-g-watkins",
+      "judge": "Steven G. Watkins",
+      "caseName": "People v. White",
+      "citation": "2020 IL App (1st) 171814",
+      "decisionDate": "2020-03-31",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/0457fe17-65bb-4cff-b984-f45744b3accd/file",
+      "primaryPdfSha256": "a4105ebca1d763821f410043c75b6a0e114efcb056337b2ac398071339246fe0",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Steven-G-Watkins-23.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-watkins-steven-g-watkins",
+      "judge": "Steven G. Watkins",
+      "caseName": "People v. Rainey",
+      "citation": "2025 IL App (1st) 231769",
+      "decisionDate": "2025-09-24",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/2599e59e-3f0f-4513-a699-be51fe3d0185/file",
+      "primaryPdfSha256": "c09ffeb7551f460e8420cfac1ce5b0466ac9ad01a9b1dee6e0398d4ac714c6bc",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Steven-G-Watkins-7.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-romanek-abbey-fishman-romanek",
+      "judge": "Abbey Fishman Romanek",
+      "caseName": "In re Marriage of Patel",
+      "citation": "2022 IL App (1st) 211650",
+      "decisionDate": "2022-12-16",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/10acca4a-3e1e-412a-bff5-786bdfcd0ee1/file",
+      "primaryPdfSha256": "1c97dad3b691a48949c48bb7e8a2276832204f0b4fb529635991d45806017ac0",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Romanek-14.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-romanek-abbey-fishman-romanek",
+      "judge": "Abbey Fishman Romanek",
+      "caseName": "In re Marriage of May",
+      "citation": "2024 IL App (1st) 221485-U",
+      "decisionDate": "2024-12-23",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/258a80c2-fee5-4e19-9d2f-3f6422cdd000/file",
+      "primaryPdfSha256": "1eb71d025fc0ce845c5460de608e298f166ae2ead755ac9d376a01f7090c0576",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Romanek-6.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-rice-judith-c-rice",
+      "judge": "Judith C. Rice",
+      "caseName": "Keefe v. Poniedzielska",
+      "citation": "2019 IL App (1st) 180657-U",
+      "decisionDate": "2019-05-24",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/07acd2dc-a301-4e0d-bb87-10a5382a2684/file",
+      "primaryPdfSha256": "984c54fd96b5ac442674198b61fc4edc26e24a8215f84ee9066d5e4e718c169a",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Judith-C-Rice-1.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-rice-judith-c-rice",
+      "judge": "Judith C. Rice",
+      "caseName": "Bouvel v. Duggan",
+      "citation": "2022 IL App (1st) 221320-U",
+      "decisionDate": "2022-12-06",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/427df15b-ae8d-494b-b6a5-e7828a81191f/file",
+      "primaryPdfSha256": "6f17390440746d2ac1332a11648fc3e421980277db63bb0ec0008b2665de4bb5",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Judith-C-Rice-0.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-coughlin-patrick-kevin-coughlin",
+      "judge": "Patrick Kevin Coughlin",
+      "caseName": "People v. Nooner",
+      "citation": "2026 IL App (1st) 241030",
+      "decisionDate": "2026-06-24",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/848492ce-efcb-445c-9a1d-82ee8b446d0b/file",
+      "primaryPdfSha256": "12369013e3d6e31bc7a62ed1a02f7898b65cd13508372ae908f27689f5bd19dc",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Coughlin-5.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-coughlin-patrick-kevin-coughlin",
+      "judge": "Patrick Kevin Coughlin",
+      "caseName": "People v. Norfleet",
+      "citation": "2026 IL App (1st) 260828-U",
+      "decisionDate": "2026-06-29",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/08e6186e-7487-4e9a-9927-3cda6df951b8/file",
+      "primaryPdfSha256": "59730585a73e49823f5c351e03eb848b43b36f2f18d7fd1f30181020d390bfa2",
+      "matchedCachedPdfs": [
+        "batch-2a-cache\\Coughlin-3.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "parta and independent Rivers/Watkins reader",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-goldish-megan-elizabeth-goldish",
+      "judge": "Megan Elizabeth Goldish",
+      "caseName": "People v. Rivera",
+      "citation": "2024 IL App (1st) 240520",
+      "decisionDate": "2024-06-21",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/8f0f8ed4-d541-4f60-82bc-4fbb8e0f5798/file",
+      "primaryPdfSha256": "e729138a3976e52376a66d27621af767ba65d5ff53ec208a52ae54598a93c306",
+      "matchedCachedPdfs": [
+        "batch-2b-cache\\goldish-rivera.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partb",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-goldish-megan-elizabeth-goldish",
+      "judge": "Megan Elizabeth Goldish",
+      "caseName": "Trinidad C. v. Augustin L.",
+      "citation": "2017 IL App (1st) 171148",
+      "decisionDate": "2017-11-21",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/e06ea0d4-f5b1-4a13-883b-f8fa84a640ad/file",
+      "primaryPdfSha256": "2b5d0182a73d24f60f68622d37891d42680ffb444ef68b6adea14c3586483e73",
+      "matchedCachedPdfs": [
+        "batch-2b-cache\\goldish-trinidad.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partb",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-hansen-anjana-m-j-hansen",
+      "judge": "Anjana M.J. Hansen",
+      "caseName": "People v. Drew",
+      "citation": "2026 IL App (1st) 251647",
+      "decisionDate": "2026-05-28",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/f15625ce-c688-4a8f-a934-c213b1e2b769/file",
+      "primaryPdfSha256": "4696ab7c72fe2a62b2fee06be2cfe2e5c0d4830e63a745c9fb28ea7ff43a2aec",
+      "matchedCachedPdfs": [
+        "batch-2b-cache\\hansen-drew.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partb",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-kuzas-robert-d-kuzas",
+      "judge": "Robert D. Kuzas",
+      "caseName": "People v. Harvey",
+      "citation": "2024 IL 129357",
+      "decisionDate": "2024-10-18",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/c7cf105c-f225-4718-b1f2-f2719bbaf04c/file",
+      "primaryPdfSha256": "2b9cbde0b309909d7bbe66ecc7a96d0b47268329d23271874507559f7ff7fc19",
+      "matchedCachedPdfs": [
+        "batch-2b-cache\\kuzas-harvey.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partb",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-martinez-maritza-martinez",
+      "judge": "Maritza Martinez",
+      "caseName": "In re Marriage of Kriley",
+      "citation": "2025 IL App (1st) 241923",
+      "decisionDate": "2025-06-17",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/71faba90-b522-4290-95df-28fb6e1ab11f/file",
+      "primaryPdfSha256": "22ce07f58d0628d1793e864ad1166d9d94d93a1fc6d1613252e78466d9f0bf29",
+      "matchedCachedPdfs": [
+        "batch-2b-cache\\martinez-kriley.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partb",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mcguire-terrence-j-mcguire",
+      "judge": "Terrence J. McGuire",
+      "caseName": "Fuller v. Bowers",
+      "citation": "2023 IL App (1st) 221808-U",
+      "decisionDate": "2023-09-08",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/487fe828-b628-4823-9377-59cf71657a0a/file",
+      "primaryPdfSha256": "6631e547a80033f351f7fe5049b060be0c0fec5a2aea37ca7b52a52f599d63a6",
+      "matchedCachedPdfs": [
+        "batch-2b-cache\\mcguire-fuller.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partb",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mitchell-bridget-anne-mitchell",
+      "judge": "Bridget Anne Mitchell",
+      "caseName": "Carr v. City of Chicago",
+      "citation": "2025 IL App (1st) 241639",
+      "decisionDate": "2025-12-19",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/a23ba668-aeb7-4c95-a1fd-93e1a8270d51/file",
+      "primaryPdfSha256": "2a5ce0f6c5acd59dde593f71fa71ed8fe020c0e8b0545ecb8237ce80bf2ed8ab",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\Carr-v-The-City-of-Chicago.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "batch2_reader",
+      "result": "supported with explicit limitations",
+      "notes": "Full 6-page Carr opinion read. Caption identifies Bridget A. Mitchell. Paragraphs 5-6 distinguish jury verdict from denial of new trial; paragraph 11 confirms July 12, 2024 order; paragraphs 32-35 dismiss for untimeliness without merits review."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-pieczonka-james-p-pieczonka",
+      "judge": "James P. Pieczonka",
+      "caseName": "Amaba v. RFJ Land Management, LLC",
+      "citation": "2023 IL App (1st) 220549",
+      "decisionDate": "2023-12-15",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/ad52f406-7520-4128-b8ce-72268884c328/file",
+      "primaryPdfSha256": "768fef7d778bc54f2f3c90ac248f83e605405831ca0f4b68868b1afc1204e140",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\Amaba-v-RFJ-Land-Management-LLC.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "batch2_reader",
+      "result": "supported with explicit limitations",
+      "notes": "Full 6-page Amaba opinion read. Caption identifies James Pieczonka. Paragraph 7 explains reasonable-diligence rationale and vacated default; paragraphs 17-24 reverse service ruling and reinstate $5,543.85 default judgment, without trying underlying lease allegations."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-pieczonka-james-p-pieczonka",
+      "judge": "James P. Pieczonka",
+      "caseName": "Village of Mount Prospect v. Kurtev",
+      "citation": "2017 IL App (1st) 170493",
+      "decisionDate": "2017-12-05",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/9cc86154-e78f-44e3-aa0b-380bb13e896e/file",
+      "primaryPdfSha256": "811cf6be1fa515f911ea9279a365935f6dbc1d84adccdc4eb0a73b93b9ec2233",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\Village-of-Mount-Prospect-v-Kurtev.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "batch2_reader",
+      "result": "supported with explicit limitations",
+      "notes": "Full 5-page Kurtev opinion read. Caption identifies James P. Pieczonka. Paragraphs 4-5 report denied motion and bench findings; paragraphs 10-19 explain unrebutted statutory presumptions and affirmance."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-sheahan-patricia-o-brien-sheahan",
+      "judge": "Patricia O'Brien Sheahan",
+      "caseName": "Glorioso v. Sun-Times Media Holdings, LLC",
+      "citation": "2024 IL 130137",
+      "decisionDate": "2024-11-21",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/0f9ce3b1-4415-4fb7-b102-17e0f5ec8d95/file",
+      "primaryPdfSha256": "01b3b347f8fb8946efb6f8830d21b8feda5e577bf8b14122e16a9a1cc71a4409",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\Glorioso-Supreme.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partc_long",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-sheahan-patricia-o-brien-sheahan",
+      "judge": "Patricia O'Brien Sheahan",
+      "caseName": "Clanton v. Oakbrook Healthcare Centre, Ltd.",
+      "citation": "2023 IL 129067",
+      "decisionDate": "2023-09-21",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/ad51c45d-3cb9-4d5f-bdbc-8d2a2745c386/file",
+      "primaryPdfSha256": "ea694eb1ede6099fcb7ec9bbc102efe5c59ea69dc6a917600049adb73691c09e",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\Clanton-v-Oakbrook-Healthcare-Centre-Ltd-.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partc_long",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-forti-michael-a-forti",
+      "judge": "Michael A. Forti",
+      "caseName": "In re Marriage of Durdov",
+      "citation": "2021 IL App (1st) 191811",
+      "decisionDate": "2021-08-03",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/8e159858-1be7-435a-9fef-81416c1a4afc/file",
+      "primaryPdfSha256": "f9876581c0329056c0fc47e924943d28a7b006aae107c35f2c9fec6c7013739a",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\In-re-Marriage-of-Durdov.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "batch2_reader",
+      "result": "supported with explicit limitations",
+      "notes": "Full 10-page Durdov opinion read. Caption identifies Michael A. Forti. Paragraph 13 gives trial income-change rationale; paragraphs 27-31 reverse based on contemplated earnings changes. Later statutory amendment independently verified and added as context, not a reversal of this case."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-forti-michael-a-forti",
+      "judge": "Michael A. Forti",
+      "caseName": "In re Marriage of Klose",
+      "citation": "2023 IL App (1st) 192253",
+      "decisionDate": "2023-03-31",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/cf76625d-dad9-47c3-8e7a-391c2203c305/file",
+      "primaryPdfSha256": "6cae31fe7c1a1197cd8273e8d59da717cb99c7d1617d596185788f27914501c6",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\In-re-Marriage-of-Klose.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "batch2_reader",
+      "result": "supported with explicit limitations",
+      "notes": "Full 9-page Klose opinion read. Caption identifies Michael Forti. Paragraphs 7-10 identify gift/tracing/classification and division; paragraphs 23-29, 35 and 39-44 support property and clarification affirmance."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-patton-nichole-c-patton",
+      "judge": "Nichole C. Patton",
+      "caseName": "Hwang v. Pathway LaGrange Property Owner, LLC",
+      "citation": "2024 IL App (1st) 240534",
+      "decisionDate": "2024-10-11",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/d63ab1aa-60e2-4d94-b035-abbf428fa5ff/file",
+      "primaryPdfSha256": "c2e64472475063e6b2678fca6c0577070cafa9c8905baa753f5993a99cbbcbd4",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\Hwang-v-Pathway-LaGrange-Property-Owner-LLC.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "batch2_reader",
+      "result": "supported with explicit limitations",
+      "notes": "Full 9-page Hwang opinion read. Caption identifies Nichole C. Patton. Paragraphs 8-11 state trial contract findings and severance refusal. Paragraphs 15-31 affirm on substantive unconscionability alone, not negligence liability."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-patton-nichole-c-patton",
+      "judge": "Nichole C. Patton",
+      "caseName": "Gercone v. Cook County Officers Electoral Board",
+      "citation": "2022 IL App (1st) 220724-U",
+      "decisionDate": "2022-06-08",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/0b2c9980-ad7f-49f3-a891-872e6be23e92/file",
+      "primaryPdfSha256": "f6b368c51489896618ebd2d5ed07b2141d06c4a77ae592f2c12496a8e64b12f7",
+      "matchedCachedPdfs": [
+        "batch-2c-cache\\Gercone-v-Cook-County-Officers-Electoral-Board.pdf"
+      ],
+      "fullOpinionRead": true,
+      "reviewer": "partc_long",
+      "result": "supported with explicit limitations",
+      "notes": "See delegated detailed review for full paragraph-level findings."
+    }
+  ],
+  "detailedReports": [
+    "source-review-2a-detail.json",
+    "source-review-2b-detail.json",
+    "source-review-2c-long.json"
+  ],
+  "limitations": [
+    "No complete later appellate or trial docket was audited. Unknown later history must remain visible.",
+    "Official index publication status is separate from exhaustion of appeals; not every index status was freshly re-queried in this second-reader pass.",
+    "Selected cases do not establish an overall partisan or Trump-alignment score.",
+    "Source verification of historical summaries is not a complete certification of current law."
+  ]
+}

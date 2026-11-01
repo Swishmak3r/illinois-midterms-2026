@@ -1,0 +1,72 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Bounded follow-up for Cook County retention judges Daniel Edward Maloney and John G. Mulroe",
+  "result": "No additional attributable judicial ruling verified. Preserve the existing research gaps.",
+  "verifiedRulingCount": 0,
+  "priorLedger": "audit/judicial-2026/research-batch-3.json",
+  "priorEvidenceCache": "audit/judicial-2026/research-batch-3-cache-a/",
+  "method": [
+    "Consulted batch 3 owner and existing exact-name index caches before assessing candidate hits.",
+    "Checked full-text surname contexts in official court PDFs, separating trial judges from prosecutors, legislative speakers, parties, witnesses and cited precedent.",
+    "Searched official court websites, judge assignment pages, and web-indexed signed-order or news leads. Judge assignments and program announcements were not promoted to case rulings.",
+    "No contact with court personnel, access to restricted records, or production-data modification occurred."
+  ],
+  "profiles": [
+    {
+      "candidateId": "sbe-cook-circuit-retain-maloney-daniel-edward-maloney",
+      "name": "Daniel Edward Maloney",
+      "researchStatus": "no-ruling-verified-in-reviewed-sources",
+      "rulings": [],
+      "officialIndexSearches": [
+        {"query": "Daniel Maloney", "hits": 1, "result": "People v. Wade identifies Daniel Maloney as an assistant state's attorney, not the trial judge."},
+        {"query": "Daniel E. Maloney", "hits": 0},
+        {"query": "Daniel Edward Maloney", "hits": 0},
+        {"query": "Maloney", "hits": 164, "completePagination": true, "followupReview": "Research helper read surname-context passages in 43 official PDFs filed since 2019: 16 First District/Supreme Court criminal decisions and 27 noncriminal decisions. None established a trial ruling by Daniel Edward Maloney."}
+      ],
+      "excludedExamples": [
+        {"case": "People v. Wade", "citation": "2014 IL App (1st) 123398-U", "url": "https://www.illinoiscourts.gov/resources/0168cdb9-31fd-460c-ad38-d98aba6b933f/file", "reason": "Assistant state's attorney role; not a judicial ruling."},
+        {"case": "People v. Murry", "url": "https://www.illinoiscourts.gov/resources/7708a67e-a7f8-4d65-b280-c6ef77a8082b/file", "reason": "Different judge, Thomas Maloney; no attribution to Daniel Edward Maloney."},
+        {"case": "Garcia", "url": "https://www.illinoiscourts.gov/resources/0ff35765-c0c6-4927-8934-b321ef195963/file", "reason": "Kerrie Maloney Laytin, a different judge."},
+        {"case": "Other surname hits", "reason": "Included Detective James Maloney, witness Deon Maloney, IRS agent Pat Maloney, and citations to older People v. Maloney or Huenefeld v. Maloney decisions."}
+      ],
+      "verifiedNonRulingContext": [
+        {"url": "https://www.cookcountycourtil.gov/judge/maloney-daniel-e", "publisher": "Circuit Court of Cook County", "read": "Full official judge page", "finding": "Identifies Daniel E. Maloney in the Sixth Municipal District at Markham, handling preliminary hearings and drug, mental-health and veterans treatment courts.", "limit": "Assignment information does not identify a particular contested ruling or political position."},
+        {"url": "https://www.cookcountycourtil.gov/news/wrap-drug-court-will-graduate-nine-participants-ceremony-criminal-courthouse", "publisher": "Circuit Court of Cook County", "published": "2025-05-14", "read": "Full announcement; Markham section", "finding": "Announced a June 3, 2025 Markham treatment-court graduation before Daniel Maloney with five graduates.", "limit": "A scheduled ceremony and general program description are not proof of any individual case disposition, a signed merits ruling, or political alignment."}
+      ],
+      "coverageNote": "Expanded surname and official-court searches did not establish an attributable merits ruling. This is a retrieval limitation, not evidence that the judge has issued no rulings."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mulroe-john-g-mulroe",
+      "name": "John G. Mulroe",
+      "researchStatus": "no-ruling-verified-in-reviewed-sources",
+      "rulings": [],
+      "officialIndexSearches": [
+        {"query": "Mulroe", "hits": 10, "completePagination": true, "cache": "audit/judicial-2026/research-batch-3-cache-a/Mulroe.json", "followupReview": "Independently reread surname-context passages in all ten cached official PDF texts. No judicial role by John G. Mulroe established."}
+      ],
+      "excludedGroups": [
+        {"citations": ["2026 IL App (2d) 250404", "2025 IL App (1st) 231912", "2021 IL App (2d) 200019", "2019 IL App (5th) 160441-U"], "reason": "Statements by Senator Mulroe in legislative history, not judicial rulings."},
+        {"citations": ["2011 IL 111378"], "url": "https://www.illinoiscourts.gov/resources/c82299b0-28b4-4fc5-829d-c247508b3cfe/file", "reason": "In re Mulroe concerns Mark Gerard Mulroe, a different person. Caption and paragraph 1 establish the identity."},
+        {"citations": ["2021 IL App (1st) 201218", "2021 IL App (2d) 200388", "2014 IL 117696", "2013 IL 115767"], "reason": "Citations to the separate In re Mulroe precedent, not John G. Mulroe's judicial decisions."},
+        {"citations": ["2015 IL App (1st) 122567-U"], "url": "https://www.illinoiscourts.gov/resources/2ccac236-c424-4536-8e1a-6ad9747af510/file", "reason": "Matt Mulroe appears as a clerk/witness for the state's attorney; different person and role."}
+      ],
+      "verifiedNonRulingContext": [
+        {"url": "https://www.cookcountycourtil.gov/judge/mulroe-john-g", "publisher": "Circuit Court of Cook County", "read": "Full official judge page", "finding": "Identifies John G. Mulroe as a circuit judge in Juvenile Justice, courtroom 3, calendar 68.", "limit": "The page contains assignment and contact information, not a case ruling. Its site-wide stalking-order banner is not attributed to Mulroe."}
+      ],
+      "coverageNote": "Exact-name, ruling, detention, eviction, juvenile, signed-order and official-domain searches added no attributable primary judicial ruling. No claim is made that none exists."
+    }
+  ],
+  "searchSource": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+  "webSearchLog": [
+    {"queries": ["site.illinoiscourts.gov Daniel Edward Maloney", "site.illinoiscourts.gov John G. Mulroe Judge", "Daniel E. Maloney ruling judge", "John Mulroe ruling judge"], "result": "Official assignment pages, biographies, electoral material and unrelated people; no attributable primary ruling."},
+    {"queries": ["Judge Mulroe court", "Mulroe Judge Presiding", "Mulroe juvenile ruled", "Mulroe juvenile ordered"], "result": "Assignments, professional evaluations and legislative references; no verified merits order."},
+    {"queries": ["Mulroe site:cookcountycourtil.gov filetype:pdf", "Mulroe site:illinoiscourts.gov 2024 juvenile", "John Mulroe detention", "John Mulroe eviction judge ruling"], "result": "No attributable signed judicial order or appellate description of one found."},
+    {"queries": ["Mulroe Redeploy Illinois", "Mulroe order site:gov juvenile", "Mulroe juvenile appeal decision", "John G. Mulroe signed court"], "result": "Legislative bills, oath-administration records, unrelated litigation and assignment pages. None establishes a contested judicial ruling."},
+    {"queries": ["Mulroe sentenced -Senator -legislature -Mark -Conor", "Mulroe Judge order filetype:pdf -senate -Conor -Mark", "John G. Mulroe In re", "John Mulroe ruled -senator"], "result": "No attributable case found. Conor Mulroe federal-prosecutor hits, foreign litigation and Mark Gerard Mulroe precedent excluded."},
+    {"searchTopicsReportedByHelper": ["Maloney Markham signed orders", "Daniel Maloney court treatment graduations"], "result": "Official assignment and treatment-court ceremony context located; no individual merits ruling verified."}
+  ],
+  "interpretationLimits": [
+    "The broad surname search is not a complete trial-docket review. PDFs can be unindexed, inaccessible, or omit the relevant name.",
+    "No partisan, Trumpism, neutrality, misconduct, or judicial-quality inference is drawn from absence of retrieved rulings.",
+    "Former legislative actions must stay distinct from later judicial actions, even when they involve the same person."
+  ]
+}

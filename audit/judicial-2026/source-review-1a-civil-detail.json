@@ -1,0 +1,62 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "source_review_12/batch1a_civil",
+  "scope": "Independent full-primary-text review of the three assigned civil cases in research-batch-1a.json, not a current-law citator or complete career audit.",
+  "method": "Read each cached official-report text in full, including cover, procedural background, legal analysis and disposition. Reopened the original cached PDF with PyMuPDF to independently verify its cover, page count and SHA-256 against the research ledger. Did not infer ideology from results.",
+  "result": "All three summaries are supported. No material factual correction required.",
+  "cases": [
+    {
+      "candidateId": "sbe-cook-circuit-retain-nixon-lewis-nixon",
+      "judge": "Lewis Nixon",
+      "caseName": "American Steel Fabricators, Inc. v. K&K Iron Works, LLC",
+      "citation": "2022 IL App (1st) 220181",
+      "primaryUrl": "https://www.illinoiscourts.gov/resources/4d706df5-6e8f-454c-be1f-849a52d4d657/file",
+      "cachePdf": "research-batch-1a-cache/2022-IL-App-1st-220181.pdf",
+      "sha256": "4cef706119269871c279d92613f270f3149fb29c0b7ec7e731a73840d648f161",
+      "pagesRead": 9,
+      "identityAndRole": "Cover identifies Nixon as the circuit judge; Mikva authored the appellate opinion with Walker and Tailor. Ledger correctly avoids attributing appellate authorship to Nixon.",
+      "dateCheck": "Cover confirms December 2, 2022 appellate filing; paragraphs 10 and 13 confirm February 3, 2022 circuit dismissal.",
+      "holdingCheck": "Paragraphs 10, 15 and 19-20 support dismissal with prejudice for lack of statutory authority to issue the section 34 demand; it was a section 2-615 sufficiency ruling, not a general standing determination.",
+      "reasoningAndOutcomeCheck": "Paragraphs 35-42 explain the appellate lienor-status rationale without requiring perfection; paragraph 48 reserves the alternative interested-person theory. Paragraphs 50-51 reverse and remand. The ledger accurately distinguishes the circuit rationale and appellate disagreement.",
+      "pinpointCheck": "Cited paragraphs 10, 15, 38-42 and 48-51 exist and substantiate the stated claims.",
+      "requiredCorrections": []
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-powell-joan-e-powell",
+      "judge": "Joan E. Powell",
+      "caseName": "Victim A v. Chung Song",
+      "citation": "2021 IL App (1st) 200826",
+      "primaryUrl": "https://www.illinoiscourts.gov/resources/4559956d-9110-48ec-9230-c87eb511a751/file",
+      "cachePdf": "research-batch-1a-cache/2021-IL-App-1st-200826.pdf",
+      "sha256": "9d56d3b2fa6b8206ec2fd30c26a7d63b78207814c153da960abf4ff71502732c",
+      "pagesRead": 9,
+      "identityAndRole": "Cover names Powell as circuit judge and McBride as appellate author with Howse and Ellis. The $300,000 damages figure came from a jury verdict; the selected judicial action concerns enforcement and rejecting a reduction, as the ledger says.",
+      "dateCheck": "Cover confirms appellate filing June 30, 2021 and rehearing denial August 24, 2021. Ledger's unspecified trial date is cautious; paragraph 13 gives a memorandum entered April 10, 2020 nunc pro tunc to March 16, 2020.",
+      "holdingCheck": "Paragraphs 1-4 support full judgment enforcement and rejection of Song's 10%-liability argument. The separate contribution allocation did not reduce liability to the patient.",
+      "reasoningAndOutcomeCheck": "Paragraphs 1, 4 and 8-12 support the emotional-versus-bodily-injury statutory distinction. Paragraphs 18-22 establish the contribution ruling's separate scope. Paragraphs 26-28 affirm and deny appellate sanctions, accurately attributed to the reviewing court.",
+      "pinpointCheck": "All cited ranges exist and support the summary; the cover supports rehearing history.",
+      "requiredCorrections": []
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-arce-edward-a-arce",
+      "judge": "Edward A. Arce",
+      "caseName": "In re Parentage of Miller",
+      "citation": "2023 IL App (1st) 210774",
+      "primaryUrl": "https://www.illinoiscourts.gov/resources/fc9d04e3-c8cb-42c6-ad3c-6c3cba02c996/file",
+      "cachePdf": "research-batch-1a-cache/2023-IL-App-1st-210774.pdf",
+      "sha256": "b5306232dc2cf885e408a43edc6a7fef08167116b61175d89cc3bc684b94ebbe",
+      "pagesRead": 11,
+      "identityAndRole": "Cover names Edward Arce as circuit judge; Oden Johnson authored the appellate opinion with Mikva and Tailor. Correct trial-versus-appellate attribution.",
+      "dateCheck": "Cover confirms March 10, 2023 appellate filing; paragraph 17 confirms June 2, 2021 trial memorandum and dismissal.",
+      "holdingCheck": "Paragraph 17 and footnote 5 confirm the actual trial ruling struck section 904, the savings provision, as applied even though the motion initially challenged section 607 in conjunction with section 904. The ledger uses the correct savings-provision description.",
+      "reasoningAndOutcomeCheck": "Paragraphs 34-37, 40-44 and 51-54 support the distinction between no express statutory right under the 1984 Act and a merely possible equitable extension. The appellate court reversed on nonconstitutional grounds and did not decide the wider due-process question. The ledger does not misstate the remand as a final paternity adjudication.",
+      "pinpointCheck": "Cited paragraphs 1, 16-17, 29-37 and 51-54 exist and support the claims.",
+      "requiredCorrections": []
+    }
+  ],
+  "limitations": [
+    "Reviewed the described historical appellate decisions; did not independently verify every later appeal, remand proceeding or statutory amendment.",
+    "No factual basis for a same-question national party or Trump-policy comparison was established in these three civil disputes.",
+    "No production or researcher-owned source ledger was edited."
+  ]
+}

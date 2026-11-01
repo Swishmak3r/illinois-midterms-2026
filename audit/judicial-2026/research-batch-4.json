@@ -1,0 +1,1274 @@
+{
+  "batch": 4,
+  "checked": "2026-11-01",
+  "profileCount": 15,
+  "rulingCount": 20,
+  "profilesWithVerifiedExamples": 14,
+  "method": "Selected primary court records read to attribute each trial action and appellate disposition. No statistical reversal-rate study, comprehensive career review, or inferred ideology. Historical partisan nominations are dated separately.",
+  "inputLedgers": [
+    "research-batch-4-first.json",
+    "research-batch-4-middle.json",
+    "research-batch-4-self.json"
+  ],
+  "profiles": {
+    "sbe-cook-circuit-retain-butler-krista-d-butler": {
+      "candidateId": "sbe-cook-circuit-retain-butler-krista-d-butler",
+      "name": "Krista D. Butler",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "researchScope": "Selected decisions found through the official Illinois Courts opinion index and read in full; not a complete career record or a representative statistical sample.",
+      "rulings": [
+        {
+          "id": "2026-il-app-1st-251823-u",
+          "caseName": "The Habitat Company, LLC v. James",
+          "citation": "2026 IL App (1st) 251823-U",
+          "date": "2026-04-30",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court trial judge whose ruling is described in the appellate decision; not an appellate panel member",
+          "topic": "Eviction; notice and due process",
+          "holding": "Entered an eviction and possession judgment for the landlord after a bench trial at which the tenant did not appear; subsequently denied the tenant's motion to vacate.",
+          "reasoning": "The appellate record did not contain a trial or motion-hearing transcript, so Butler's detailed reasoning was unavailable. The written order recorded a trial with the landlord's witnesses present. The appellate court relied partly on the tenant's duty to follow her case and the presumption favoring a trial ruling when the appellant supplies an incomplete record.",
+          "subsequentHistory": "Affirmed. The appellate court rejected the trial-notice and due-process challenges and found no demonstrated abuse of discretion in denying vacatur. It lacked jurisdiction over the later order denying a stay because that order was not included in a notice of appeal.",
+          "trialRulingDates": [
+            "2025-08-13",
+            "2025-09-09"
+          ],
+          "decisionType": "Rule 23",
+          "officialIndexStatus": "Slip",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/5f31d75a-8574-4084-8a83-a5706db80bc3/file",
+              "title": "The Habitat Company, LLC v. James, 2026 IL App (1st) 251823-U",
+              "paragraphs": "Caption; paragraphs 3–10, 12–28",
+              "checked": "2026-11-01",
+              "sha256": "533f586f00e06e35e8657159178386057d4c93158fe9fecc07ab15e0067d0154"
+            }
+          ],
+          "limitations": [
+            "Rule 23 order, not binding precedent except as the rule permits. Missing trial transcripts limit what can be said about Butler's reasons. This is not a ruling for or against a general eviction policy; further docket history was not comprehensively checked."
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This is a case-specific application of law; the reviewed evidence does not support a comparison with a specific Republican, Democratic, or Trump policy proposition."
+          },
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These case-specific rulings do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record.",
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "14 (PDF); printed Proclamation 13 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ]
+    },
+    "sbe-cook-circuit-retain-dempsey-marie-aileen-dempsey": {
+      "candidateId": "sbe-cook-circuit-retain-dempsey-marie-aileen-dempsey",
+      "name": "Marie Aileen Dempsey",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "researchScope": "Selected decisions found through the official Illinois Courts opinion index and read in full; not a complete career record or a representative statistical sample.",
+      "rulings": [
+        {
+          "id": "2026-il-app-1st-250326",
+          "caseName": "Paulinski v. Link",
+          "citation": "2026 IL App (1st) 250326",
+          "date": "2026-03-17",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court trial judge whose ruling is described in the appellate decision; not an appellate panel member",
+          "topic": "Child welfare; state-employee sovereign immunity",
+          "holding": "Denied DCFS employees' motion to dismiss a wrongful-death suit on sovereign-immunity grounds and certified the legal question for immediate appellate review.",
+          "reasoning": "Dempsey reasoned that the employees' Child Welfare Employee Licenses imposed a professional standard of care independent of state employment, relying on Griffin v. Poynter.",
+          "subsequentHistory": "The appellate court rejected that reasoning, answered the certified question in the employees' favor, and remanded for dismissal: investigating child abuse was a uniquely governmental function, and the employment-specific license did not create an independent duty outside state service.",
+          "trialRulingDates": [],
+          "decisionType": "Opinion",
+          "officialIndexStatus": "Released",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/074fee27-f919-4298-9339-478551a70d25/file",
+              "title": "Paulinski v. Link, 2026 IL App (1st) 250326",
+              "paragraphs": "Caption; paragraphs 2–6, 12–13, 19–26",
+              "checked": "2026-11-01",
+              "sha256": "b5f09e0c74fd67a79210587a947f1b46aa9e28d70d3b7f9a6879aa5d3739a3d1"
+            }
+          ],
+          "limitations": [
+            "This is an interlocutory sovereign-immunity/jurisdiction decision, not a finding that the employees did or did not commit negligence. It concerns Illinois agency duties, not presidential or federal executive power. Further docket history was not comprehensively checked."
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This is a case-specific application of law; the reviewed evidence does not support a comparison with a specific Republican, Democratic, or Trump policy proposition."
+          },
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        },
+        {
+          "id": "2026-il-app-1st-250882",
+          "caseName": "Greenfield v. Brannan",
+          "citation": "2026 IL App (1st) 250882",
+          "date": "2026-07-02",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court trial judge whose ruling is described in the appellate decision; not an appellate panel member",
+          "topic": "Civil negligence; retailer duty of care",
+          "holding": "Granted summary judgment to Menards in a bicyclist's injury suit involving a pipe that came loose from a customer's truck; the claim against the driver remained pending.",
+          "reasoning": "No transcript of the summary-judgment hearing was in the appellate record, so the opinion does not supply Dempsey's detailed oral reasoning. The appellate court independently concluded that helping load a pipe did not amount to undertaking to secure it; the customer secured it himself and did not rely on the store to do so.",
+          "subsequentHistory": "Affirmed. The appellate court also rejected liability for acting in concert with the driver because there was no substantial assistance to negligent securing of the load.",
+          "trialRulingDates": [
+            "2025-04-16"
+          ],
+          "decisionType": "Opinion",
+          "officialIndexStatus": "Final",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/82cf9c41-b97c-4d60-897b-9e81e6bea5f7/file",
+              "title": "Greenfield v. Brannan, 2026 IL App (1st) 250882",
+              "paragraphs": "Caption; paragraphs 1, 24–32, 53–63, 73–96",
+              "checked": "2026-11-01",
+              "sha256": "e9738fcf88d19022b3724bee54002f18fd0b38d63a34d270b7b70a5da3e8d116"
+            }
+          ],
+          "limitations": [
+            "A fact-specific negligence judgment; winning against a business or a plaintiff does not by itself establish partisan ideology. Detailed trial reasoning and subsequent docket proceedings were not comprehensively available."
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This is a case-specific application of law; the reviewed evidence does not support a comparison with a specific Republican, Democratic, or Trump policy proposition."
+          },
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These case-specific rulings do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "identityNote": "The supplied SBE/site record spells the first name Marie; the official court opinion captions identify Maire Aileen Dempsey or Maire Dempsey. The court's official judge directory also uses Maire. Parent identity audit should resolve the display name without changing the stable candidate ID.",
+      "coverageNote": "2 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record.",
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "15 (PDF); printed Proclamation 14 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ]
+    },
+    "sbe-cook-circuit-retain-dickler-jamie-guerra-dickler": {
+      "candidateId": "sbe-cook-circuit-retain-dickler-jamie-guerra-dickler",
+      "name": "Jamie Guerra Dickler",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "researchScope": "Selected decisions found through the official Illinois Courts opinion index and read in full; not a complete career record or a representative statistical sample.",
+      "rulings": [
+        {
+          "id": "2024-il-app-1st-221404-u",
+          "caseName": "Frankel v. Bedstone Co.",
+          "citation": "2024 IL App (1st) 221404-U",
+          "date": "2024-03-13",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court trial judge whose ruling is described in the appellate decision; not an appellate panel member",
+          "topic": "Tenant remedies; attorney fees",
+          "holding": "Awarded a tenant damages on two landlord-tenant ordinance claims but limited attorney fees to work before the landlord's January 2019 payment offer, awarding $3,369 in fees.",
+          "reasoning": "Dickler treated delivery of a $4,000 check as a valid legal tender that cut off further recoverable fees, and treated a later check as an attempt to correct that tender.",
+          "subsequentHistory": "Reversed and remanded for a new fee-and-cost determination. The appellate court held that neither payment was a valid tender: the first was a conditional settlement offer that did not provide all requested relief; the later payment omitted reasonable fees/costs and did not concede all relevant liability.",
+          "trialRulingDates": [
+            "2022-05-17",
+            "2022-08-22"
+          ],
+          "decisionType": "Rule 23",
+          "officialIndexStatus": "Slip",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/445ed738-f652-4981-b5ba-b430137ad6f2/file",
+              "title": "Frankel v. Bedstone Co., 2024 IL App (1st) 221404-U",
+              "paragraphs": "Caption; paragraphs 23–32, 34–46",
+              "checked": "2026-11-01",
+              "sha256": "8411932421ce438ec1f9c7a6299c58697dd0d704b353570084c9d33c45016671"
+            }
+          ],
+          "limitations": [
+            "The reversal concerns attorney fees, not a reversal of every merits ruling in the landlord-tenant dispute. Rule 23 order. Further docket history after remand was not comprehensively checked."
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This is a case-specific application of law; the reviewed evidence does not support a comparison with a specific Republican, Democratic, or Trump policy proposition."
+          },
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These case-specific rulings do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record.",
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "15 (PDF); printed Proclamation 14 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ]
+    },
+    "sbe-cook-circuit-retain-green-jonathan-clark-green": {
+      "candidateId": "sbe-cook-circuit-retain-green-jonathan-clark-green",
+      "name": "Jonathan Clark Green",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "researchScope": "Selected decisions found through the official Illinois Courts opinion index and read in full; not a complete career record or a representative statistical sample.",
+      "rulings": [
+        {
+          "id": "2026-il-app-1st-250894",
+          "caseName": "Vasquez v. Aguilar",
+          "citation": "2026 IL App (1st) 250894",
+          "date": "2026-09-08",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court trial judge whose ruling is described in the appellate decision; not an appellate panel member",
+          "topic": "Domestic-violence protection orders; statutory findings",
+          "holding": "Entered a three-month plenary order of protection after finding that a partner's lockout and delay in returning belongings constituted abuse; later awarded $2,290.97 in moving and hotel expenses and denied reconsideration.",
+          "reasoning": "Green found the past lockout credible and believed a short protective order was required once abuse was shown, while expressing skepticism about the alleged threat of future identity theft or harassment.",
+          "subsequentHistory": "Reversed, including the monetary award. The appellate court held that the Domestic Violence Act required findings about likely continuing abuse or irreparable harm and the need for protection; Green made neither required finding. The court noted that a separate civil damages suit for an illegal eviction remained an available avenue.",
+          "trialRulingDates": [
+            "2024-11-12",
+            "2025-04-09"
+          ],
+          "decisionType": "Opinion",
+          "officialIndexStatus": "Slip",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/081cebe2-d245-4d75-a78b-8367fd9c4fae/file",
+              "title": "Vasquez v. Aguilar, 2026 IL App (1st) 250894",
+              "paragraphs": "Caption; paragraphs 12–20, 35–48",
+              "checked": "2026-11-01",
+              "sha256": "498c2a1a021d9411c5f3004024ee9d7fd2eb0864dc592da6ed17b2a2ecf00957"
+            }
+          ],
+          "limitations": [
+            "The opinion notes collateral firearm-license consequences, but the ruling decided statutory requirements for a protective order, not the constitutionality of a gun restriction. Slip opinion in the official index; subsequent review was not comprehensively checked."
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This is a case-specific application of law; the reviewed evidence does not support a comparison with a specific Republican, Democratic, or Trump policy proposition."
+          },
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These case-specific rulings do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record.",
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "15 (PDF); printed Proclamation 14 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ]
+    },
+    "sbe-cook-circuit-retain-marubio-mary-catherine-marubio": {
+      "candidateId": "sbe-cook-circuit-retain-marubio-mary-catherine-marubio",
+      "name": "Mary Catherine Marubio",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-reviewed",
+      "researchScope": "Selected decisions found through the official Illinois Courts opinion index and read in full; not a complete career record or a representative statistical sample.",
+      "rulings": [
+        {
+          "id": "2024-il-app-1st-240367-u",
+          "caseName": "People v. Jones",
+          "citation": "2024 IL App (1st) 240367-U",
+          "date": "2024-05-16",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court trial judge whose ruling is described in the appellate decision; not an appellate panel member",
+          "topic": "Pretrial detention; consideration of search-and-seizure objections",
+          "holding": "Ordered pretrial detention on a firearm charge after finding clear and convincing proof of the charged conduct, a real and present threat, and no sufficient release conditions.",
+          "reasoning": "Marubio considered the defendant's objection that the search might later be suppressed, but also relied on the alleged loaded weapon, criminal history, federal probation status, and apparent ongoing violation of probation. The detention hearing was not a trial or a suppression hearing.",
+          "subsequentHistory": "Affirmed. The appellate court held that Marubio properly considered all available information, including the Fourth Amendment argument, and made the individualized statutory findings. A possible later suppression claim did not require release at this stage.",
+          "trialRulingDates": [],
+          "decisionType": "Rule 23",
+          "officialIndexStatus": "Slip",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/3276be97-102c-4a3c-b6c4-6b5dbe2e5290/file",
+              "title": "People v. Jones, 2024 IL App (1st) 240367-U",
+              "paragraphs": "Caption; paragraphs 4–14, 19–28",
+              "checked": "2026-11-01",
+              "sha256": "3346394ce33f37e860b4a49f0da9cab5908c19fffa3a70d04ac0c392d31c3f99"
+            }
+          ],
+          "limitations": [
+            "Rule 23 order. The ruling applies Illinois's existing pretrial-release statute to one defendant; it neither endorses nor rejects cash-bail abolition and is not a decision on the legality of the search at trial. Later criminal merits proceedings were not comprehensively checked."
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This is a case-specific application of law; the reviewed evidence does not support a comparison with a specific Republican, Democratic, or Trump policy proposition."
+          },
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These case-specific rulings do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "identityNote": "Opinion caption uses Mary Cay Marubio; official index/court materials also use Mary C. Marubio. This is the same Cook County judge as the retention roster name Mary Catherine Marubio.",
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record.",
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "15 (PDF); printed Proclamation 14 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ]
+    },
+    "sbe-cook-circuit-retain-mescall-regina-a-mescall": {
+      "candidateId": "sbe-cook-circuit-retain-mescall-regina-a-mescall",
+      "name": "Regina A. Mescall",
+      "court": "Circuit Court of Cook County",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-rulings-verified",
+      "researchScope": "Selected primary-source decisions located through the Illinois Courts opinion index and targeted name searches. This is not a complete career record or a reversal-rate study.",
+      "rulings": [
+        {
+          "caseName": "Atlas Asset Management v. Kang",
+          "citation": "2025 IL App (1st) 242311",
+          "date": "2025-10-28",
+          "dateMeaning": "Appellate decision filing date",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court judge whose ruling is described and reviewed; not a member of the appellate panel",
+          "topic": "Tenant due process; evidentiary hearing",
+          "holding": "Mescall found a tenant in breach of an agreed eviction settlement, awarded the landlord possession and $75,000, and denied reconsideration without an evidentiary hearing.",
+          "reasoning": "The trial orders did not explain the finding of noncompliance or denial of reconsideration. The appellate court said the trial court appeared to rely solely on lawyers’ arguments despite disputed facts.",
+          "subsequentHistory": "The appellate court reversed the August 16 and October 24, 2024 orders, vacated the money judgment, and remanded. It held that deciding the disputed breach without evidence violated the tenant’s due-process rights.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/2b0ff939-43bf-446f-a42a-7a6487c76c7f/file",
+              "title": "Atlas Asset Management v. Kang, 2025 IL App (1st) 242311",
+              "paragraphs": "Caption; paragraphs 8, 16, 26–32, 35–38",
+              "checked": "2026-11-01",
+              "sha256": "99eecab152187d6210e9585e7cfa3f617485a4ffb2f0ea96631946b8eb387329"
+            }
+          ],
+          "precedentialStatus": "Published appellate opinion",
+          "limitations": [
+            "Selected example, not a comprehensive account of this judge’s rulings. Later proceedings have not been comprehensively checked."
+          ],
+          "trialDecisionDate": "2024-08-16",
+          "id": "2025-il-app-1st-242311",
+          "officialIndexStatus": "Final",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This case-specific ruling does not establish a judge-level Republican, Democratic, or Trump-policy alignment. No matched policy proposition and primary party/Trump baseline have been verified for this example."
+          }
+        },
+        {
+          "caseName": "People v. Wordlow",
+          "citation": "2026 IL App (1st) 241151-U",
+          "date": "2026-04-29",
+          "dateMeaning": "Appellate decision filing date",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court judge whose ruling is described and reviewed; not a member of the appellate panel",
+          "topic": "Battery; self-defense and defense of another",
+          "holding": "After a bench trial, Mescall found the defendant guilty of battery and rejected self-defense/defense-of-another arguments. She imposed 12 months’ supervision and later removed a drug-and-alcohol evaluation condition.",
+          "reasoning": "She credited the complainant and witness, found the defendant’s mother was the initial aggressor, and found the injury photographs corroborated the attack. She removed the evaluation condition because intoxication was not established.",
+          "subsequentHistory": "The appellate court affirmed. It agreed that defense of another was unavailable on these facts and that the evidence supported the finding of guilt.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/dcc98085-ac8b-4112-ae0d-40203b69a312/file",
+              "title": "People v. Wordlow, 2026 IL App (1st) 241151-U",
+              "paragraphs": "Caption; paragraphs 20–29, 40–41, 43–53",
+              "checked": "2026-11-01",
+              "sha256": "f3b98240c4cc4c16c424054ffd692c18819ea3348235846d23b474076e28f4ec"
+            }
+          ],
+          "precedentialStatus": "Rule 23 order: not precedent except as Rule 23 permits",
+          "limitations": [
+            "Selected example, not a comprehensive account of this judge’s rulings. Later proceedings have not been comprehensively checked."
+          ],
+          "id": "2026-il-app-1st-241151-u",
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This case-specific ruling does not establish a judge-level Republican, Democratic, or Trump-policy alignment. No matched policy proposition and primary party/Trump baseline have been verified for this example."
+          }
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "14 (PDF); printed Proclamation 13 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected rulings and historical election-party records do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "coverageNote": "2 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-murphy-lorraine-mary-murphy": {
+      "candidateId": "sbe-cook-circuit-retain-murphy-lorraine-mary-murphy",
+      "name": "Lorraine Mary Murphy",
+      "court": "Circuit Court of Cook County",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-rulings-verified",
+      "researchScope": "Selected primary-source decisions located through the Illinois Courts opinion index and targeted name searches. This is not a complete career record or a reversal-rate study.",
+      "rulings": [
+        {
+          "caseName": "People v. Hicks",
+          "citation": "2025 IL App (1st) 241783-U",
+          "date": "2025-11-13",
+          "dateMeaning": "Appellate decision filing date",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court judge whose ruling is described and reviewed; not a member of the appellate panel",
+          "topic": "Postjudgment relief; firearm conviction",
+          "holding": "Murphy denied a 2024 petition to vacate a firearm conviction and obtain a certificate of innocence. The defendant had relied on one-act/one-crime principles and cases invalidating a different weapons provision.",
+          "reasoning": "Murphy stated that the remaining conviction was a Class 2 unlawful-use-of-a-weapon-by-a-felon offense, so the Aguilar line of cases about the separate aggravated-unlawful-use statute did not apply.",
+          "subsequentHistory": "The appellate court affirmed. It rejected both the facial and as-applied Second Amendment challenges newly raised on appeal, finding the record sufficient to consider the latter.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/e18903d6-6d52-4f98-a292-2e44dc0267e0/file",
+              "title": "People v. Hicks, 2025 IL App (1st) 241783-U",
+              "paragraphs": "Caption; paragraphs 8–14, 19–29, 30–31",
+              "checked": "2026-11-01",
+              "sha256": "1cbc4fa35202ec68719416c64cec948e55dc7f3817e54fbc943e22168bf2f7db"
+            }
+          ],
+          "precedentialStatus": "Rule 23 order: not precedent except as Rule 23 permits",
+          "limitations": [
+            "The appellate court’s Bruen/felon-disarmament analysis is not Murphy’s own stated reasoning. Do not portray her as deciding the newly raised facial challenge. No later comprehensive docket review."
+          ],
+          "trialDecisionDate": "2024-08-02",
+          "id": "2025-il-app-1st-241783-u",
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This case-specific ruling does not establish a judge-level Republican, Democratic, or Trump-policy alignment. No matched policy proposition and primary party/Trump baseline have been verified for this example."
+          }
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "14 (PDF); printed Proclamation 13 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected rulings and historical election-party records do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-o-connor-eileen-marie-o-connor": {
+      "candidateId": "sbe-cook-circuit-retain-o-connor-eileen-marie-o-connor",
+      "name": "Eileen Marie O'Connor",
+      "court": "Circuit Court of Cook County",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-rulings-verified",
+      "researchScope": "Selected primary-source decisions located through the Illinois Courts opinion index and targeted name searches. This is not a complete career record or a reversal-rate study.",
+      "rulings": [
+        {
+          "caseName": "Lewis v. Kalbhen",
+          "citation": "2025 IL App (1st) 242110",
+          "date": "2025-12-10",
+          "dateMeaning": "Appellate decision filing date",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court judge whose ruling is described and reviewed; not a member of the appellate panel",
+          "topic": "Privacy rights; litigation privilege; driver-record information",
+          "holding": "O’Connor granted summary judgment to a divorcing spouse and a private investigator on privacy-tort, Driver’s Privacy Protection Act, and injunction claims concerning a background investigation of a third person.",
+          "reasoning": "She found the investigation related to the divorce litigation and was protected by absolute litigation privilege. She also found the driver-record disclosure fell within the statute’s permitted litigation use.",
+          "subsequentHistory": "The appellate court affirmed. It agreed on litigation privilege for the privacy torts and permitted statutory use for the driver-record claim; it did not decide whether the privilege independently defeats that statutory claim. The injunction claim was affirmed because the plaintiff forfeited the issue by failing to argue the required elements or cite supporting authority.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/06450d59-490b-447c-92ac-814265dc6e10/file",
+              "title": "Lewis v. Kalbhen, 2025 IL App (1st) 242110",
+              "paragraphs": "Caption; paragraphs 3, 12, 32–38, 43–51",
+              "checked": "2026-11-01",
+              "sha256": "c048cc8a975855d5a6290d326d1b56f81e882fed2a40523923d7f0e6dadb2868"
+            }
+          ],
+          "precedentialStatus": "Published appellate opinion",
+          "limitations": [
+            "The opinion’s header prints a rehearing-denial date earlier than its filing date; no rehearing date is inferred here. Later proceedings not comprehensively checked."
+          ],
+          "id": "2025-il-app-1st-242110",
+          "officialIndexStatus": "Final",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This case-specific ruling does not establish a judge-level Republican, Democratic, or Trump-policy alignment. No matched policy proposition and primary party/Trump baseline have been verified for this example."
+          }
+        },
+        {
+          "caseName": "Kulhanek v. Casper",
+          "citation": "2023 IL App (1st) 221454",
+          "date": "2023-12-20",
+          "dateMeaning": "Appellate decision filing date",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court judge whose ruling is described and reviewed; not a member of the appellate panel",
+          "topic": "Landlord–tenant contract; jury verdict; mitigation evidence",
+          "holding": "O’Connor ordered a new trial after a jury found a valid lease and landlord performance but no tenant breach despite undisputed nonpayment. She had also barred evidence and instructions concerning the landlords’ duty to reduce their losses.",
+          "reasoning": "She found the no-breach verdict contrary to the manifest weight of the evidence. For mitigation, she reasoned that the landlords’ duty began only when they regained possession.",
+          "subsequentHistory": "The appellate court affirmed the new-trial order but held that excluding mitigation evidence was an abuse of discretion. On remand, the tenant must be allowed to present evidence of the landlords’ delay and mitigation efforts.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/925bfb94-86d0-41b2-b08b-4e60ab292b9d/file",
+              "title": "Kulhanek v. Casper, 2023 IL App (1st) 221454",
+              "paragraphs": "Caption; paragraphs 5–6, 15–19, 25–27, 37–43",
+              "checked": "2026-11-01",
+              "sha256": "8a71ceb5ba32a527552ed03c5bb0d23cb2824fdadd2cad5f4988e149735d0128"
+            }
+          ],
+          "precedentialStatus": "Published appellate opinion",
+          "limitations": [
+            "The formal disposition is “Affirmed and remanded,” but the opinion specifically rejects the mitigation-evidence ruling; reporting only “affirmed” would omit that material qualification."
+          ],
+          "id": "2023-il-app-1st-221454",
+          "officialIndexStatus": "Final",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This case-specific ruling does not establish a judge-level Republican, Democratic, or Trump-policy alignment. No matched policy proposition and primary party/Trump baseline have been verified for this example."
+          }
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "15 (PDF); printed Proclamation 14 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected rulings and historical election-party records do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "coverageNote": "2 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-quinn-jill-rose-quinn": {
+      "candidateId": "sbe-cook-circuit-retain-quinn-jill-rose-quinn",
+      "name": "Jill Rose Quinn",
+      "court": "Circuit Court of Cook County",
+      "checked": "2026-11-01",
+      "researchStatus": "selected-rulings-verified",
+      "researchScope": "Selected primary-source decisions located through the Illinois Courts opinion index and targeted name searches. This is not a complete career record or a reversal-rate study.",
+      "rulings": [
+        {
+          "caseName": "In re Marriage of Chapman Hardeman",
+          "citation": "2026 IL App (1st) 242023-U",
+          "date": "2026-01-08",
+          "dateMeaning": "Appellate decision filing date",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court judge whose ruling is described and reviewed; not a member of the appellate panel",
+          "topic": "Divorce; marital-property division",
+          "holding": "Quinn awarded each spouse a half-interest in their marital home in place of a maintenance award. She denied the wife’s request to change that division.",
+          "reasoning": "She applied the marital-property presumption and weighed the long marriage, the parties’ limited incomes and contributions, and the wife’s exclusive use of the home during separation. Neither could afford maintenance payments.",
+          "subsequentHistory": "The appellate court affirmed, finding no abuse of discretion in the allocation and the trial court’s assessment of the evidence and statutory factors.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/0ed99b1f-e458-4f61-ba6c-def1252f8449/file",
+              "title": "In re Marriage of Chapman Hardeman, 2026 IL App (1st) 242023-U",
+              "paragraphs": "Caption; paragraphs 6–9, 15–20, 21",
+              "checked": "2026-11-01",
+              "sha256": "953060c9826d4c6c2d12c022e81233c8e2aa4f68dfb35ceacf1cb03bca694d9a"
+            }
+          ],
+          "precedentialStatus": "Rule 23 order: not precedent except as Rule 23 permits",
+          "limitations": [
+            "Selected example, not a comprehensive account of this judge’s rulings. Later proceedings have not been comprehensively checked."
+          ],
+          "trialDecisionDate": "2024-04-19",
+          "id": "2026-il-app-1st-242023-u",
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This case-specific ruling does not establish a judge-level Republican, Democratic, or Trump-policy alignment. No matched policy proposition and primary party/Trump baseline have been verified for this example."
+          }
+        },
+        {
+          "caseName": "In re Marriage of Thompson",
+          "citation": "2025 IL App (1st) 250562-U",
+          "date": "2025-08-25",
+          "dateMeaning": "Appellate decision filing date",
+          "court": "Illinois Appellate Court, First District",
+          "judgeRole": "Circuit-court judge whose ruling is described and reviewed; not a member of the appellate panel",
+          "topic": "Parenting-time restrictions; access to appellate review",
+          "holding": "Quinn’s February 26, 2025 order retained existing parenting time, limited each parent to a five-minute call during the other’s parenting time, and provided a $1,000 fine for the mother’s police wellness-check calls unless the father was arrested.",
+          "reasoning": "The order treated the father’s modification motion as an emergency and referred to an earlier restriction on police calls about parenting issues. The appellate record lacked hearing transcripts, limiting verification of the full rationale.",
+          "subsequentHistory": "The appellate court dismissed for lack of jurisdiction: unresolved matters lacked a Rule 304(a) finding, and the attempted appeal also missed the 14-day route for permissive custody appeals. It did not decide whether the restrictions were correct.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/2152e2b1-3abb-4da9-a73e-b82e4e395e38/file",
+              "title": "In re Marriage of Thompson, 2025 IL App (1st) 250562-U",
+              "paragraphs": "Caption; paragraphs 44–48, 53–61",
+              "checked": "2026-11-01",
+              "sha256": "079174739d48f3131119550ffd1d3ecfafd26238de69f2b6696c035c249e1752"
+            }
+          ],
+          "precedentialStatus": "Rule 23 order: not precedent except as Rule 23 permits",
+          "limitations": [
+            "Earlier orders and the divorce judgment were entered by other judges. This entry attributes only the February 26, 2025 order to Quinn and does not treat disputed family allegations as proven facts."
+          ],
+          "trialDecisionDate": "2025-02-26",
+          "id": "2025-il-app-1st-250562-u",
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This case-specific ruling does not establish a judge-level Republican, Democratic, or Trump-policy alignment. No matched policy proposition and primary party/Trump baseline have been verified for this example."
+          }
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "14 (PDF); printed Proclamation 13 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "publicStatements": [
+        {
+          "date": "2023-05-18",
+          "kind": "Public interview; not a judicial ruling",
+          "title": "Hon. Jill Rose Quinn — National LGBTQ+ Bar Association interview",
+          "source": "https://lgbtqbar.org/bar-news/pride-interview/hon-jill-rose-quinn/",
+          "quote": "And in the Trump years… the courts were the first line of defense.",
+          "context": "In an interview discussing remedies and services for transgender people, democratic participation, and backlash legislation, Quinn described courts as a safeguard during Trump’s earlier term and urged support for open-minded judges.",
+          "interpretationLimit": "A dated statement of her view of the courts’ role, not a particular holding, a 2026 endorsement, or a general Republican/Democratic/Trump alignment score. No inference from personal identity.",
+          "checked": "2026-11-01"
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected rulings and historical election-party records do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      },
+      "coverageNote": "2 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-reaves-harris-pamela-reaves-harris": {
+      "candidateId": "sbe-cook-circuit-retain-reaves-harris-pamela-reaves-harris",
+      "name": "Pamela Reaves-Harris",
+      "court": "Circuit Court of Cook County",
+      "checked": "2026-11-01",
+      "researchStatus": "no-example-verified",
+      "researchScope": "The official opinion index was searched for Reaves, Reaves-Harris, Pamela Reaves, and Reaves Harris. The broader Reaves query returned 9 metadata hits; exact-name variants returned 0. Targeted web searches did not locate a verifiable decision by this judge. Ollins v. Karl was checked and excluded: its trial judge was John H. Ehrlich; Reaves was an attorney name. A broader Pamela search returned 673 metadata hits. The first two PDF pages of 78 First District civil decisions from 2021 onward were inspected for identity; none identified Reaves-Harris as the judge.",
+      "rulings": [],
+      "coverageNote": "No ruling example was verified in this review. This does not mean the judge has issued no rulings or has no relevant record. Trial-level orders may not appear in the published appellate index.",
+      "searchEvidence": [
+        {
+          "query": "Reaves",
+          "resultCount": 9,
+          "completePagination": true,
+          "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-middle/Reaves-index.json"
+        },
+        {
+          "query": "Reaves-Harris",
+          "resultCount": 0,
+          "completePagination": true,
+          "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-middle/Reaves-Harris-index.json"
+        },
+        {
+          "query": "Pamela Reaves",
+          "resultCount": 0,
+          "completePagination": true,
+          "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-middle/PamelaReaves-index.json"
+        },
+        {
+          "query": "Reaves Harris",
+          "resultCount": 0,
+          "completePagination": true,
+          "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-middle/ReavesHarris-index.json"
+        },
+        {
+          "query": "Pamela",
+          "resultCount": 673,
+          "completePagination": true,
+          "sourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-middle/Pamela-index.json",
+          "followup": "78 First District non-People decisions filed 2021–2026 had the first two PDF pages checked for judge identity; none identified Reaves-Harris. Header inspection alone is not a full ruling review.",
+          "followupFile": "audit/judicial-2026/cache-batch4-middle/Pamela-civil-headers.json"
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "15 (PDF); printed Proclamation 14 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        },
+        {
+          "type": "prior-public-office",
+          "party": "Democratic",
+          "start": "2015-01",
+          "end": "2017-01",
+          "description": "Served as a Democratic member of the Illinois House, 10th District, January 2015–January 2017.",
+          "source": "https://www.ilga.gov/House/Members/Details/2268?GAID=13",
+          "sourceTitle": "Illinois General Assembly member record: Pamela Reaves-Harris",
+          "note": "Historical public office, not a characterization of current judicial ideology. The page template currently displays a 104th General Assembly header, but its member-specific service dates are January 2015–January 2017."
+        }
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "Selected rulings and historical election-party records do not establish a personal Republican, Democratic, or Trump-aligned ideology."
+      }
+    },
+    "sbe-cook-circuit-retain-smith-tiesha-l-smith": {
+      "candidateId": "sbe-cook-circuit-retain-smith-tiesha-l-smith",
+      "name": "Tiesha L. Smith",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Selected appellate records describing this judge's trial-court rulings, not a complete career record or reversal-rate study.",
+      "rulings": [
+        {
+          "id": "2023-il-app-1st-220881",
+          "caseName": "In re H.C.",
+          "citation": "2023 IL App (1st) 220881",
+          "date": "2023-06-08",
+          "court": "First District Appellate Court",
+          "judgeRole": "Trial judge; the named appellate panel reviewed this judge's ruling.",
+          "decisionType": "Opinion",
+          "sourceNotes": "",
+          "sourceHash": "6a2c87abb5f78c365675547beda347b4ae4f4dea04999bc3c181c4883c23003b",
+          "topic": "Family integrity and effective assistance of counsel",
+          "trialDecisionDate": "2022-05-19",
+          "holding": "Found neglect in a wardship proceeding and placed two children in DCFS custody; another child remained in the custody of a fit parent.",
+          "reasoning": "The trial ruling relied on hospital records and a physician's assessment of medical neglect. The judge concluded that the children's medical needs were not adequately managed.",
+          "subsequentHistory": "Reversed and remanded for a new hearing on June 8, 2023. The appellate court found ineffective assistance because counsel failed to object to a litigation-prepared physician report and failed to seek time to review 18,603 pages of medical records produced during the hearing. It did not adjudicate the ultimate neglect allegations in the parent's favor.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/ab077883-3d40-4057-aeea-2bf2f01a9ef2/file",
+              "title": "In re H.C., 2023 IL App (1st) 220881",
+              "paragraphs": "Caption; paragraphs 1–2, 64–69, 108–134, 136–147, 157–158",
+              "sourceType": "Official Illinois Courts opinion or Rule 23 order",
+              "checked": "2026-11-01"
+            }
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "A fact-specific wardship ruling and reversal for ineffective assistance do not resolve a party-platform or Trump-policy proposition."
+          },
+          "limitations": [],
+          "officialIndexStatus": "Final",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        },
+        {
+          "id": "2025-il-app-1st-241614-u",
+          "caseName": "In re D.L.",
+          "citation": "2025 IL App (1st) 241614-U",
+          "date": "2025-03-19",
+          "court": "First District Appellate Court",
+          "judgeRole": "Trial judge; the named appellate panel reviewed this judge's ruling.",
+          "decisionType": "Rule 23",
+          "sourceNotes": "",
+          "sourceHash": "94bae62c84f291df199225cdf342f9c309e362048bd684caddc792f1d1c8efea",
+          "topic": "Parental rights and child welfare",
+          "trialDecisionDate": "2024-07-19",
+          "holding": "Found a parent unfit, terminated parental rights, and appointed DCFS as guardian with authority to consent to adoption.",
+          "reasoning": "Found a prolonged lack of reasonable interest, contact, and progress toward reunification, then separately found termination served the child's best interests.",
+          "subsequentHistory": "Affirmed March 19, 2025. The appellate court found clear-and-convincing support for the unfitness finding and upheld the separate best-interests determination under the manifest-weight standard.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/4f2b10c6-bf34-4ecf-a46c-c04ba9b031e8/file",
+              "title": "In re D.L., 2025 IL App (1st) 241614-U",
+              "paragraphs": "Caption; paragraphs 1–2, 32–40, 48, 52–63, 65–75",
+              "sourceType": "Official Illinois Courts opinion or Rule 23 order",
+              "checked": "2026-11-01"
+            }
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "An individualized parental-fitness and best-interests determination is not evidence of alignment with a national party or Trump."
+          },
+          "limitations": [
+            "This is a Rule 23 order with limited precedential use, not a published precedential opinion."
+          ],
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "limitations": [
+        "The date shown for each case is the appellate filing date; separate trial-decision dates are supplied where verified.",
+        "Subsequent history describes the linked appellate disposition. No exhaustive later docket or unpublished trial-order search was performed."
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These selected trial rulings do not establish the judge's personal political ideology, current party identity, or support for Trump."
+      },
+      "searches": [
+        {
+          "query": "Tiesha",
+          "hits": 18,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-0.json"
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "13 (PDF); printed Proclamation 12 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "coverageNote": "2 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-stacey-chris-stacey": {
+      "candidateId": "sbe-cook-circuit-retain-stacey-chris-stacey",
+      "name": "Chris Stacey",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Selected appellate records describing this judge's trial-court rulings, not a complete career record or reversal-rate study.",
+      "rulings": [
+        {
+          "id": "2026-il-app-1st-250040",
+          "caseName": "People v. Cole",
+          "citation": "2026 IL App (1st) 250040",
+          "date": "2026-03-31",
+          "court": "First District Appellate Court",
+          "judgeRole": "Trial judge; the named appellate panel reviewed this judge's ruling.",
+          "decisionType": "Opinion",
+          "sourceNotes": "",
+          "sourceHash": "e95d6b3653eb4ffbe3c32499d4925d0be96784d60ec9a7343a828e1342f2ee2c",
+          "topic": "Free speech and the court's contempt power",
+          "trialDecisionDate": "2024-12-03",
+          "holding": "Held a self-represented litigant in direct criminal contempt and imposed seven days in jail after the litigant said he would have the judge prosecuted during contentious eviction proceedings.",
+          "reasoning": "The judge cited the threatened prosecution, repeated interruptions, and accusations of judicial misconduct as contemptuous conduct undermining the court.",
+          "subsequentHistory": "Contempt finding and prison sentence vacated March 31, 2026. The appellate panel held that the record did not establish an intended imminent threat to the administration of justice, and said the judge's remarks contributed to the escalating confrontation. The court distinguished rude criticism from constitutionally punishable contempt.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/f20d34c3-a72b-4cf2-9746-d0001e3a4efa/file",
+              "title": "People v. Cole, 2026 IL App (1st) 250040",
+              "paragraphs": "Caption; paragraphs 1, 13–15, 23–24, 28–38",
+              "sourceType": "Official Illinois Courts opinion or Rule 23 order",
+              "checked": "2026-11-01"
+            }
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This addresses the legal threshold for punishing criticism in a courtroom. It is not a ruling on Trump, presidential authority, or a specific party policy; describing it as Trump-aligned would be speculation."
+          },
+          "limitations": [],
+          "officialIndexStatus": "Released",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        },
+        {
+          "id": "2023-il-app-1st-221556-u",
+          "caseName": "Ma v. U.S. Bank, National Ass'n",
+          "citation": "2023 IL App (1st) 221556-U",
+          "date": "2023-09-26",
+          "court": "First District Appellate Court",
+          "judgeRole": "Trial judge; the named appellate panel reviewed this judge's ruling.",
+          "decisionType": "Rule 23",
+          "sourceNotes": "",
+          "sourceHash": "400a42605e2e58fa7108fe2cf29a927ff3d4f16f8daee1887ddbe714bf679381",
+          "topic": "Bank consumer protection and damages",
+          "holding": "On reconsideration, awarded a customer $1,003 plus court costs for the bank's violation of federal funds-availability rules, while denying additional contract and emotional-distress damages.",
+          "reasoning": "Found the bank had not substantiated its claimed clerical-error defense under Regulation CC, but treated the further loss claim as outside the parties' contemplated contract damages and the bank's conduct as negligence rather than extreme, intentional abuse.",
+          "subsequentHistory": "Affirmed September 26, 2023. The appellate court found the damages-classification argument forfeited for inadequate authority and alternatively relied on the contractual liability waiver; it upheld rejection of emotional-distress damages on the evidence.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/9f75f9ac-8d2c-43da-a7d4-e29ef75658fc/file",
+              "title": "Ma v. U.S. Bank, National Ass'n, 2023 IL App (1st) 221556-U",
+              "paragraphs": "Caption; paragraphs 19, 31–39, 41, 48–53",
+              "sourceType": "Official Illinois Courts opinion or Rule 23 order",
+              "checked": "2026-11-01"
+            }
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "Applying federal banking rules and contract/tort damages to one account dispute does not establish a party-policy or Trump-policy alignment."
+          },
+          "limitations": [
+            "This is a Rule 23 order with limited precedential use, not a published precedential opinion."
+          ],
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "limitations": [
+        "The date shown for each case is the appellate filing date; separate trial-decision dates are supplied where verified.",
+        "Subsequent history describes the linked appellate disposition. No exhaustive later docket or unpublished trial-order search was performed."
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These selected trial rulings do not establish the judge's personal political ideology, current party identity, or support for Trump."
+      },
+      "identityEvidence": [
+        {
+          "url": "https://www.cookcountycourtil.gov/judge/stacey-christ",
+          "title": "Cook County Circuit Court — Honorable Christ Stanley Stacey",
+          "note": "Official court directory supplies full name used in opinions; retention ballot uses Chris Stacey."
+        }
+      ],
+      "searches": [
+        {
+          "query": "Chris Stacey",
+          "hits": 0,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-1.json"
+        },
+        {
+          "query": "Stacey",
+          "hits": 1453,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-stacey.json"
+        },
+        {
+          "query": "Christ S",
+          "hits": 465,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-stacey-specific.json"
+        },
+        {
+          "query": "Christ Stanley Stacey",
+          "hits": 9,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-stacey-full.json"
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "13 (PDF); printed Proclamation 12 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "coverageNote": "2 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-tirado-perla-tirado": {
+      "candidateId": "sbe-cook-circuit-retain-tirado-perla-tirado",
+      "name": "Perla Tirado",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Selected appellate records describing this judge's trial-court rulings, not a complete career record or reversal-rate study.",
+      "rulings": [
+        {
+          "id": "2022-il-app-1st-210668-u",
+          "caseName": "Georgakopoulos v. Blake",
+          "citation": "2022 IL App (1st) 210668-U",
+          "date": "2022-01-28",
+          "court": "First District Appellate Court",
+          "judgeRole": "Trial judge; the named appellate panel reviewed this judge's ruling.",
+          "decisionType": "Rule 23",
+          "sourceNotes": "",
+          "sourceHash": "023e15ade653092e38164d7d95d49e7505527995909eb5ae7269945c0dfbbe0a",
+          "topic": "Eviction moratorium and health-and-safety exception",
+          "holding": "Allowed an eviction to proceed under the health-and-safety exception to Governor Pritzker's COVID-era eviction moratorium and later entered a judgment for unpaid rent and costs.",
+          "reasoning": "Found threats and harassment connected to the property created a direct safety risk, bringing this tenancy within the executive order's express exception.",
+          "subsequentHistory": "On January 28, 2022, the appellate court dismissed the possession issue as moot after the tenants had vacated, upheld the finding that the moratorium's safety exception applied, and affirmed the judgment in all remaining respects. This was not a ruling invalidating the moratorium.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/cd8d52d2-1777-4dcb-a71f-0733260251a3/file",
+              "title": "Georgakopoulos v. Blake, 2022 IL App (1st) 210668-U",
+              "paragraphs": "Caption; paragraphs 1–2, 21–29, 37, 41–42",
+              "sourceType": "Official Illinois Courts opinion or Rule 23 order",
+              "checked": "2026-11-01"
+            }
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "The judge applied an explicit exception within a state emergency order to case-specific threats; she did not decide whether an eviction moratorium or executive action was generally lawful or desirable."
+          },
+          "limitations": [
+            "This is a Rule 23 order with limited precedential use, not a published precedential opinion."
+          ],
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "evictionEffectiveDate": "2021-05-15",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "limitations": [
+        "The date shown for each case is the appellate filing date; separate trial-decision dates are supplied where verified.",
+        "Subsequent history describes the linked appellate disposition. No exhaustive later docket or unpublished trial-order search was performed."
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These selected trial rulings do not establish the judge's personal political ideology, current party identity, or support for Trump."
+      },
+      "searches": [
+        {
+          "query": "Perla Tirado",
+          "hits": 7,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-2.json"
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "15 (PDF); printed Proclamation 14 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-walsh-elizabeth-anne-walsh": {
+      "candidateId": "sbe-cook-circuit-retain-walsh-elizabeth-anne-walsh",
+      "name": "Elizabeth Anne Walsh",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Selected appellate records describing this judge's trial-court rulings, not a complete career record or reversal-rate study.",
+      "rulings": [
+        {
+          "id": "2024-il-app-1st-230898-u",
+          "caseName": "Barber v. Kokhan",
+          "citation": "2024 IL App (1st) 230898-U",
+          "date": "2024-05-03",
+          "court": "First District Appellate Court",
+          "judgeRole": "Trial judge; the named appellate panel reviewed this judge's ruling.",
+          "decisionType": "Rule 23",
+          "sourceNotes": "",
+          "sourceHash": "0b9f807661c42070128f31087913a7c5baf5eb11b1629b7099f751d00909fe20",
+          "topic": "Civil contract rights and evidence",
+          "trialDecisionDate": "2023-05-12",
+          "holding": "Awarded $5,891.86 for breach of an agreement to restore a damaged vehicle, while declining a larger unsupported damages request.",
+          "reasoning": "Found an enforceable repair agreement, credited evidence from an independent mechanic, and found the promised repairs incomplete.",
+          "subsequentHistory": "Affirmed May 3, 2024 because the appellant supplied no trial transcript, substitute, or exhibits sufficient to show error. The appellate panel expressly could not independently assess the trial evidence on that incomplete record.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/69e2230f-1f09-4b45-9657-923575286e8f/file",
+              "title": "Barber v. Kokhan, 2024 IL App (1st) 230898-U",
+              "paragraphs": "Caption; paragraphs 5–6, 14–18",
+              "sourceType": "Official Illinois Courts opinion or Rule 23 order",
+              "checked": "2026-11-01"
+            }
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "An ordinary contract-and-evidence decision, affirmed because the appellate record was incomplete, supplies no defensible national political-alignment comparison."
+          },
+          "limitations": [
+            "This is a Rule 23 order with limited precedential use, not a published precedential opinion."
+          ],
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "limitations": [
+        "The date shown for each case is the appellate filing date; separate trial-decision dates are supplied where verified.",
+        "Subsequent history describes the linked appellate disposition. No exhaustive later docket or unpublished trial-order search was performed."
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These selected trial rulings do not establish the judge's personal political ideology, current party identity, or support for Trump."
+      },
+      "searches": [
+        {
+          "query": "Elizabeth Anne Walsh",
+          "hits": 0,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-3.json"
+        },
+        {
+          "query": "Elizabeth A. Walsh",
+          "hits": 4,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-walsh.json"
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "14 (PDF); printed Proclamation 13 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    },
+    "sbe-cook-circuit-retain-zeller-maura-mcmahon-zeller": {
+      "candidateId": "sbe-cook-circuit-retain-zeller-maura-mcmahon-zeller",
+      "name": "Maura McMahon Zeller",
+      "checked": "2026-11-01",
+      "court": "Circuit Court of Cook County",
+      "researchStatus": "selected-primary-rulings-verified",
+      "researchScope": "Selected appellate records describing this judge's trial-court rulings, not a complete career record or reversal-rate study.",
+      "rulings": [
+        {
+          "id": "2023-il-app-1st-221576-u",
+          "caseName": "In re Marriage of Botero",
+          "citation": "2023 IL App (1st) 221576-U",
+          "date": "2023-05-30",
+          "court": "First District Appellate Court",
+          "judgeRole": "Trial judge; the named appellate panel reviewed this judge's ruling.",
+          "decisionType": "Rule 23",
+          "sourceNotes": "",
+          "sourceHash": "736e3f30815a88b8354ec194d948a7c1140bcc0cba6159a344dd7fd2a5a6c98f",
+          "topic": "Domestic-violence protection orders",
+          "trialDecisionDate": "2022-09-23",
+          "holding": "Extended a contested plenary order of protection for two additional years.",
+          "reasoning": "Relied on the prior abuse findings, the petitioner's continuing fear, and a prior case concerning consideration of historical abuse.",
+          "subsequentHistory": "Reversed and vacated May 30, 2023. The appellate court held that the new evidence did not establish good cause to extend a contested order and distinguished the earlier case as involving an initial protection order. The appeal concerned the 2022 extension, not reversal of the original 2020 protection order.",
+          "evidence": [
+            {
+              "url": "https://www.illinoiscourts.gov/resources/7e95b756-ac12-42ce-85ef-32086b8d2120/file",
+              "title": "In re Marriage of Botero, 2023 IL App (1st) 221576-U",
+              "paragraphs": "Caption; paragraphs 16–20, 23–37",
+              "sourceType": "Official Illinois Courts opinion or Rule 23 order",
+              "checked": "2026-11-01"
+            }
+          ],
+          "policyComparisons": {
+            "status": "not-comparable",
+            "explanation": "This is a fact-specific dispute over the statutory grounds for extending a protection order, not a merits holding on a particular firearms restriction or a national party/Trump policy."
+          },
+          "limitations": [
+            "This is a Rule 23 order with limited precedential use, not a published precedential opinion."
+          ],
+          "officialIndexStatus": "Slip",
+          "sourceStatusNote": "The index label describes the posted document version, not proof that no further appeal or remand proceedings exist.",
+          "dateMeaning": "Appellate decision filing date"
+        }
+      ],
+      "limitations": [
+        "The date shown for each case is the appellate filing date; separate trial-decision dates are supplied where verified.",
+        "Subsequent history describes the linked appellate disposition. No exhaustive later docket or unpublished trial-order search was performed."
+      ],
+      "overallAlignment": {
+        "status": "insufficient-evidence",
+        "explanation": "These selected trial rulings do not establish the judge's personal political ideology, current party identity, or support for Trump."
+      },
+      "searches": [
+        {
+          "query": "Maura McMahon Zeller",
+          "hits": 1,
+          "completePagination": true,
+          "indexUrl": "https://www.illinoiscourts.gov/top-level-opinions?t=appellate",
+          "auditFile": "audit/judicial-2026/cache-batch4-self/index-4.json"
+        }
+      ],
+      "politicalHistory": [
+        {
+          "type": "election-party",
+          "party": "Democratic",
+          "year": 2020,
+          "electionDate": "2020-11-03",
+          "description": "Listed as the Democratic nominee in the official Chicago general-election returns for this judicial office in 2020.",
+          "source": "https://cboeprod.blob.core.usgovcloudapi.net/prod/2023-12/Proc-2020-11-03.pdf",
+          "sourceTitle": "Chicago Board of Election Commissioners: 2020 general-election canvass and proclamation",
+          "pages": "14 (PDF); printed Proclamation 13 of 22",
+          "note": "Historical nomination only, not a claim of current party affiliation or ideology. This return covers Chicago precincts, not all of Cook County. The 2026 retention question is nonpartisan."
+        }
+      ],
+      "coverageNote": "1 selected appellate decision(s) documenting this judge's trial rulings. These are examples, not a complete or statistical record."
+    }
+  }
+}

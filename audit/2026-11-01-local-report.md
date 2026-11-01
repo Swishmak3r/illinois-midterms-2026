@@ -8,7 +8,7 @@ The repaired directory contains **285 local/judicial/education contests and 349 
 |---|---|
 | Complete SBE judicial/education source | All 211 active offices and 219 active candidate rows represented; names, party, exact office, status and direct candidate-source links compared automatically with the independent captured source. |
 | Judicial retention | 131 separate nonpartisan Yes/No questions. No grouped competition between judges. Three-fifths threshold linked to Illinois Constitution Article VI, Section 12(d). |
-| County-filed contests outside SBE source | 74 represented contests; 69 checked against a current specimen/candidate source on November 1, with source-access qualifications retained. Five current-roster gaps remain explicit below. |
+| County-filed contests outside SBE source | 74 represented contests checked against current specimen/candidate sources on November 1. A later browser retrieval closed the five initial source-access gaps; see the follow-up below. This remains selective county coverage. |
 | Current officeholding | The 55 inherited local contests were reviewed against official officeholder records separately from ballot rosters. New source-only profiles do not invent professional histories, incumbency, policies, money or endorsements. |
 | Retained issue/endorsement claims | The separate content sweep examined 44 inherited active claims: 41 supported, one narrowed, two unsupported endorsements removed. The final 42 retained claims have primary evidence; checked dates were updated only for actually read sources. |
 
@@ -35,13 +35,15 @@ The Third Appellate District contest includes Bureau, DuPage, Grundy, Iroquois, 
 
 Educational service regions cross county lines. The Will specimen itself includes several ROE contests, and Kane's list includes Lake and McHenry regions. ROEs are not mapped to every resident of the county named in their title. County-board and subcircuit contests remain outside generic county expansion. ZIP/geography matching elsewhere in the application must continue to distinguish research overlap from a personal ballot.
 
-## Remaining current-roster gaps
+## Initial source-access gaps — closed in follow-up
 
-| Entries | What is known | What remains unresolved |
+| Entries | Current official result | Follow-up source |
 |---|---|---|
-| Cook Commissioner 10 | Drake Warren has candidate/endorser evidence; the current county official is Bridget Gainer. | A complete current election-authority general roster was not retrieved. The profile does not claim unopposed status or a complete field. |
-| Cook Commissioner 16 | Miranda E. Hernandez appears in a reproduction of the Clerk's October 21 Proviso specimen; Frank Aguilar is the current official. | The original publisher/certified complete roster was not retrieved. This is disclosed rather than called direct official-source verification. |
-| McHenry clerk, sheriff, treasurer | Names match indexed official June list content and the October 14 specimen reproduction. | The advertised August 24 original list was inaccessible after direct and alternative official URL attempts. The old source date is retained and the newer-source gap is visible. |
+| Cook Commissioner 10 | The complete current office table lists Drake Warren, DEM, four-year term, vote for one. | Direct Cook Clerk current-election table read in Edge on November 1; exact rendered-text capture and scoped SHA in [Cook evidence](2026-11-01-gap-cook-official.json). |
+| Cook Commissioner 16 | The complete current office table lists Miranda E. Hernandez, DEM, four-year term, vote for one. Her display name now includes the official middle initial. | Same direct Clerk source and capture. |
+| McHenry clerk, sheriff, treasurer | The five represented names and parties match the current certified list. All three contests specify vote for one. | Downloaded the original PDF linked as updated August 24; extracted and visually checked page 2. Raw-file SHA and source details in [McHenry evidence](2026-11-01-gap-mchenry.json). |
+
+All five initial current-roster source-access gaps are closed. These sources establish printed candidate fields, not later named write-in eligibility or address-specific voting eligibility. The [follow-up report](2026-11-01-gap-report.md) explains the corrected fields and narrow-change checks. Earlier attempt logs remain historical records and are superseded on these five access questions.
 
 Jackson's four initial retrieval gaps were resolved by downloading and rendering the official preview ballot; all four rosters match. St. Clair's three inherited offices were upgraded from filing-status evidence to the Clerk-certified general specimen. Raw source PDFs and renderings remain local; the [reviewed-file hash manifest](2026-11-01-local-source-files.json) identifies them without publishing raw documents. Original official URLs remain in the race evidence and detailed reports.
 
@@ -51,4 +53,4 @@ Detailed race-by-race evidence and access logs are in [Cook/collar report](2026-
 
 `node audit/2026-11-01-local-check.cjs` passes. It compares every active SBE judicial/education candidate with the displayed name, party, exact office, status and evidence URL; excludes withdrawn retention rows; checks separate Yes/No retention schema and vote limits; verifies unique IDs/codes, explicit status sources and the corrected regressions; and lists county-filed exclusions and stale-roster gaps explicitly.
 
-Passing this test demonstrates source parity and known-regression prevention. It does not turn selective county coverage, inaccessible originals, campaign-authored claims or ZIP overlap into a 100% personal-ballot guarantee.
+Passing this test demonstrates source parity and known-regression prevention. It does not turn selective county coverage, campaign-authored claims or ZIP overlap into a 100% personal-ballot guarantee.

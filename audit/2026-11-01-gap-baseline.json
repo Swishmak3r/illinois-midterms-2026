@@ -1,0 +1,1687 @@
+{
+  "baseCommit": "205a6a3",
+  "accessed": "2026-11-01",
+  "scopedRaceIds": [
+    "cook-comm-10",
+    "cook-comm-16",
+    "mchenry-clerk",
+    "mchenry-sheriff",
+    "mchenry-treasurer"
+  ],
+  "scopedBefore": [
+    {
+      "id": "cook-comm-10",
+      "sourceGroupId": "cook-comm-17",
+      "level": "local",
+      "sublevel": "Cook County Board of Commissioners",
+      "office": "Cook County Commissioner, District 10",
+      "districtCode": "COOK-10",
+      "districtName": "Cook County District 10",
+      "region": "Cook County",
+      "counties": [
+        "Cook"
+      ],
+      "cities": [],
+      "verificationNote": "This candidate is represented in the research directory, but a complete current official general-election roster was not retrieved. Do not infer an uncontested election; confirm all choices with your election authority.",
+      "rosterStatus": "candidate-corroborated",
+      "candidates": [
+        {
+          "id": "drake-warren",
+          "name": "Drake Warren",
+          "party": "Democrat",
+          "role": "Candidate for Cook County Commissioner, District 10",
+          "photoInitials": "DW",
+          "issues": {
+            "assessmentBurden": "Campaign prioritizes property-tax fairness and reducing the cost of living.",
+            "localPublicSafety": "Campaign lists restorative justice as a priority."
+          },
+          "endorsements": [
+            "Chicago Federation of Labor (2026 general election)"
+          ],
+          "pacs": [],
+          "fecRaised": "",
+          "fecCashOnHand": "",
+          "pacPolicy": "",
+          "pacSummary": "",
+          "evidence": [
+            {
+              "field": "identity",
+              "url": "https://drakefor10.com/",
+              "title": "Drake Warren official campaign",
+              "checked": "2026-10-28",
+              "note": "Source identifies this candidate and office; consult the official address-specific ballot for all choices."
+            },
+            {
+              "field": "role",
+              "url": "https://drakefor10.com/",
+              "title": "Drake Warren official campaign",
+              "checked": "2026-10-28",
+              "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+            },
+            {
+              "field": "endorsements",
+              "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+              "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
+              "checked": "2026-11-01",
+              "note": "The endorsing organization lists this candidate for this office in its November 3 general-election guide."
+            },
+            {
+              "field": "issues.assessmentBurden",
+              "url": "https://drakefor10.com/",
+              "title": "Drake Warren campaign: priorities",
+              "checked": "2026-11-01",
+              "note": "Attributed campaign position, not an independently audited record of accomplishments."
+            },
+            {
+              "field": "issues.localPublicSafety",
+              "url": "https://drakefor10.com/",
+              "title": "Drake Warren campaign: priorities",
+              "checked": "2026-11-01",
+              "note": "Attributed campaign position, not an independently audited record of accomplishments."
+            },
+            {
+              "field": "identity",
+              "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+              "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
+              "checked": "2026-10-28",
+              "note": "The endorsing organization identifies the candidate as a Democrat for the stated commissioner district; this corroborates party and candidacy, not completeness of the ballot roster."
+            },
+            {
+              "field": "incumbentStatus",
+              "url": "https://www.cookcountyil.gov/all-people/bridget-gainer",
+              "title": "Cook County: Bridget Gainer",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Bridget Gainer (D); not among the represented printed nominees. Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            }
+          ],
+          "incumbentStatus": "Non-incumbent candidate"
+        }
+      ],
+      "evidence": [
+        {
+          "field": "candidates",
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
+          "checked": "2026-10-28",
+          "note": "Candidate identity, district and party corroborated by the campaign and the endorsing organization. A complete certified general-election roster was not available in the sources reviewed; this listing does not establish that the candidate is unopposed. Confirm your address-specific ballot with the election authority."
+        },
+        {
+          "field": "incumbent",
+          "url": "https://www.cookcountyil.gov/all-people/bridget-gainer",
+          "title": "Cook County: Bridget Gainer",
+          "checked": "2026-11-01",
+          "note": "Current officeholder: Bridget Gainer (D); not among the represented printed nominees. Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+        }
+      ],
+      "incumbent": "Bridget Gainer (D); not among the represented printed nominees"
+    },
+    {
+      "id": "cook-comm-16",
+      "sourceGroupId": "cook-comm-17",
+      "level": "local",
+      "sublevel": "Cook County Board of Commissioners",
+      "office": "Cook County Commissioner, District 16",
+      "districtCode": "COOK-16",
+      "districtName": "Cook County District 16",
+      "region": "Cook County",
+      "counties": [
+        "Cook"
+      ],
+      "cities": [],
+      "verificationNote": "Miranda E. Hernandez is corroborated by a reproduction of the Clerk's October 21 Proviso specimen notice. Direct retrieval of a complete official roster was not achieved; confirm all choices and write-ins with the election authority.",
+      "rosterStatus": "candidate-corroborated",
+      "candidates": [
+        {
+          "id": "miranda-hernandez",
+          "name": "Miranda Hernandez",
+          "party": "Democrat",
+          "role": "Candidate for Cook County Commissioner, District 16",
+          "photoInitials": "MH",
+          "issues": {
+            "assessmentBurden": "Campaign supports helping homeowners with property-tax appeals.",
+            "localPublicSafety": "Campaign supports funding law enforcement and public-safety initiatives."
+          },
+          "endorsements": [
+            "Chicago Federation of Labor (2026 general election)"
+          ],
+          "pacs": [],
+          "fecRaised": "",
+          "fecCashOnHand": "",
+          "pacPolicy": "",
+          "pacSummary": "",
+          "evidence": [
+            {
+              "field": "identity",
+              "url": "https://mirandaforcookcounty.org/",
+              "title": "Miranda Hernandez official campaign",
+              "checked": "2026-10-28",
+              "note": "Source identifies this candidate and office; consult the official address-specific ballot for all choices."
+            },
+            {
+              "field": "role",
+              "url": "https://mirandaforcookcounty.org/",
+              "title": "Miranda Hernandez official campaign",
+              "checked": "2026-10-28",
+              "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+            },
+            {
+              "field": "endorsements",
+              "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+              "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
+              "checked": "2026-11-01",
+              "note": "The endorsing organization lists this candidate for this office in its November 3 general-election guide."
+            },
+            {
+              "field": "issues.assessmentBurden",
+              "url": "https://mirandaforcookcounty.org/policy-priorities/",
+              "title": "Miranda Hernandez campaign: policy priorities",
+              "checked": "2026-11-01",
+              "note": "Attributed campaign position, not an independently audited record of accomplishments."
+            },
+            {
+              "field": "issues.localPublicSafety",
+              "url": "https://mirandaforcookcounty.org/policy-priorities/",
+              "title": "Miranda Hernandez campaign: policy priorities",
+              "checked": "2026-11-01",
+              "note": "Attributed campaign position, not an independently audited record of accomplishments."
+            },
+            {
+              "field": "identity",
+              "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+              "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
+              "checked": "2026-10-28",
+              "note": "The endorsing organization identifies the candidate as a Democrat for the stated commissioner district; this corroborates party and candidacy, not completeness of the ballot roster."
+            },
+            {
+              "field": "incumbentStatus",
+              "url": "https://www.cookcountyil.gov/all-people/frank-aguilar",
+              "title": "Cook County: Frank Aguilar",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Frank Aguilar (D); not among the represented printed nominees. Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            }
+          ],
+          "incumbentStatus": "Non-incumbent candidate"
+        }
+      ],
+      "evidence": [
+        {
+          "field": "candidates",
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
+          "checked": "2026-10-28",
+          "note": "Candidate identity, district and party corroborated by the campaign and the endorsing organization. A complete certified general-election roster was not available in the sources reviewed; this listing does not establish that the candidate is unopposed. Confirm your address-specific ballot with the election authority."
+        },
+        {
+          "field": "incumbent",
+          "url": "https://www.cookcountyil.gov/all-people/frank-aguilar",
+          "title": "Cook County: Frank Aguilar",
+          "checked": "2026-11-01",
+          "note": "Current officeholder: Frank Aguilar (D); not among the represented printed nominees. Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+        }
+      ],
+      "incumbent": "Frank Aguilar (D); not among the represented printed nominees"
+    },
+    {
+      "id": "mchenry-sheriff",
+      "sourceGroupId": "mchenry-county-2026",
+      "level": "local",
+      "sublevel": "County office",
+      "office": "McHenry County Sheriff",
+      "districtCode": "MCHENRY-SHERIFF",
+      "districtName": "McHenry County",
+      "region": "Collar Counties (McHenry County)",
+      "counties": [
+        "McHenry"
+      ],
+      "cities": [],
+      "pvi": "",
+      "rating": "",
+      "incumbent": "Robb Tadelman (R)",
+      "primarySummary": "",
+      "isOpenSeat": false,
+      "isBattleground": false,
+      "evidence": [
+        {
+          "field": "candidates",
+          "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+          "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+          "checked": "2026-10-28",
+          "note": "Official general-election source lists the candidates and party labels for this office."
+        },
+        {
+          "field": "verificationNote",
+          "url": "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
+          "title": "McHenry County Clerk candidate resources (August 24 update linked)",
+          "checked": "2026-10-28",
+          "note": "The updated PDF returned HTTP 403. June list read through official-domain indexed text, not a third-party candidate compilation."
+        },
+        {
+          "field": "incumbent",
+          "url": "https://www.mchenrysheriff.org/about-the-sheriffs-office/",
+          "title": "McHenry County Sheriff: office leadership",
+          "checked": "2026-11-01",
+          "note": "Current officeholder: Robb Tadelman (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "robb-tadelman",
+          "name": "Robb Tadelman",
+          "party": "Republican",
+          "role": "Incumbent candidate for McHenry County Sheriff",
+          "hometown": "",
+          "incumbentStatus": "Incumbent",
+          "photoInitials": "RT",
+          "fecRaised": "",
+          "fecCashOnHand": "",
+          "pacPolicy": "",
+          "pacSummary": "",
+          "pacs": [],
+          "endorsements": [],
+          "issues": {},
+          "evidence": [
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+              "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+              "checked": "2026-10-28",
+              "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            },
+            {
+              "field": "incumbentStatus",
+              "url": "https://www.mchenrysheriff.org/about-the-sheriffs-office/",
+              "title": "McHenry County Sheriff: office leadership",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Robb Tadelman (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            },
+            {
+              "field": "role",
+              "url": "https://www.mchenrysheriff.org/about-the-sheriffs-office/",
+              "title": "McHenry County Sheriff: office leadership",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Robb Tadelman (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            }
+          ]
+        }
+      ],
+      "verificationNote": "Names match indexed official June candidate-list content checked November 1, 2026. The county advertises an August 24 update, but direct access to the latest list was blocked. Confirm the current roster and any write-ins with the McHenry County Clerk.",
+      "rosterStatus": "older-official-list-newer-source-unavailable",
+      "geographicScope": "countywide"
+    },
+    {
+      "id": "mchenry-clerk",
+      "sourceGroupId": "mchenry-county-2026",
+      "level": "local",
+      "sublevel": "County office",
+      "office": "McHenry County Clerk",
+      "districtCode": "MCHENRY-CLERK",
+      "districtName": "McHenry County",
+      "region": "Collar Counties (McHenry County)",
+      "counties": [
+        "McHenry"
+      ],
+      "cities": [],
+      "pvi": "",
+      "rating": "",
+      "incumbent": "Joe Tirio (R)",
+      "primarySummary": "",
+      "isOpenSeat": false,
+      "isBattleground": false,
+      "evidence": [
+        {
+          "field": "candidates",
+          "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+          "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+          "checked": "2026-10-28",
+          "note": "Official general-election source lists the candidates and party labels for this office."
+        },
+        {
+          "field": "verificationNote",
+          "url": "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
+          "title": "McHenry County Clerk candidate resources (August 24 update linked)",
+          "checked": "2026-10-28",
+          "note": "The updated PDF returned HTTP 403. June list read through official-domain indexed text, not a third-party candidate compilation."
+        },
+        {
+          "field": "incumbent",
+          "url": "https://www.mchenrycountyil.gov/county-government/county-yearbook/county-offices",
+          "title": "McHenry official yearbook: indexed county offices",
+          "checked": "2026-11-01",
+          "note": "Current officeholder: Joe Tirio (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "bill-mcneese",
+          "name": "Bill McNeese",
+          "party": "Democrat",
+          "role": "Challenger for McHenry County Clerk",
+          "hometown": "",
+          "incumbentStatus": "Challenger",
+          "photoInitials": "BM",
+          "fecRaised": "",
+          "fecCashOnHand": "",
+          "pacPolicy": "",
+          "pacSummary": "",
+          "pacs": [],
+          "endorsements": [],
+          "issues": {},
+          "evidence": [
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+              "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+              "checked": "2026-10-28",
+              "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            },
+            {
+              "field": "incumbentStatus",
+              "url": "https://www.mchenrycountyil.gov/county-government/county-yearbook/county-offices",
+              "title": "McHenry official yearbook: indexed county offices",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Joe Tirio (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            },
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/county-government/county-yearbook/county-offices",
+              "title": "McHenry official yearbook: indexed county offices",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Joe Tirio (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            }
+          ]
+        },
+        {
+          "id": "joe-tirio",
+          "name": "Joe Tirio",
+          "party": "Republican",
+          "role": "Incumbent candidate for McHenry County Clerk",
+          "hometown": "",
+          "incumbentStatus": "Incumbent",
+          "photoInitials": "JT",
+          "fecRaised": "",
+          "fecCashOnHand": "",
+          "pacPolicy": "",
+          "pacSummary": "",
+          "pacs": [],
+          "endorsements": [],
+          "issues": {},
+          "evidence": [
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+              "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+              "checked": "2026-10-28",
+              "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            },
+            {
+              "field": "incumbentStatus",
+              "url": "https://www.mchenrycountyil.gov/county-government/county-yearbook/county-offices",
+              "title": "McHenry official yearbook: indexed county offices",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Joe Tirio (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            },
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/county-government/county-yearbook/county-offices",
+              "title": "McHenry official yearbook: indexed county offices",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Joe Tirio (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            }
+          ]
+        }
+      ],
+      "verificationNote": "Names match indexed official June candidate-list content checked November 1, 2026. The county advertises an August 24 update, but direct access to the latest list was blocked. Confirm the current roster and any write-ins with the McHenry County Clerk.",
+      "rosterStatus": "older-official-list-newer-source-unavailable",
+      "geographicScope": "countywide"
+    },
+    {
+      "id": "mchenry-treasurer",
+      "sourceGroupId": "mchenry-county-2026",
+      "level": "local",
+      "sublevel": "County office",
+      "office": "McHenry County Treasurer",
+      "districtCode": "MCHENRY-TREASURER",
+      "districtName": "McHenry County",
+      "region": "Collar Counties (McHenry County)",
+      "counties": [
+        "McHenry"
+      ],
+      "cities": [],
+      "pvi": "",
+      "rating": "",
+      "incumbent": "Donna M. Kurtz (R)",
+      "primarySummary": "",
+      "isOpenSeat": false,
+      "isBattleground": false,
+      "evidence": [
+        {
+          "field": "candidates",
+          "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+          "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+          "checked": "2026-10-28",
+          "note": "Official general-election source lists the candidates and party labels for this office."
+        },
+        {
+          "field": "verificationNote",
+          "url": "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
+          "title": "McHenry County Clerk candidate resources (August 24 update linked)",
+          "checked": "2026-10-28",
+          "note": "The updated PDF returned HTTP 403. June list read through official-domain indexed text, not a third-party candidate compilation."
+        },
+        {
+          "field": "incumbent",
+          "url": "https://www.mchenrycountyil.gov/departments/treasurer",
+          "title": "McHenry County Treasurer: indexed official page",
+          "checked": "2026-11-01",
+          "note": "Current officeholder: Donna M. Kurtz (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "amin-karim",
+          "name": "Amin Karim",
+          "party": "Democrat",
+          "role": "Challenger for McHenry County Treasurer",
+          "hometown": "",
+          "incumbentStatus": "Challenger",
+          "photoInitials": "AK",
+          "fecRaised": "",
+          "fecCashOnHand": "",
+          "pacPolicy": "",
+          "pacSummary": "",
+          "pacs": [],
+          "endorsements": [],
+          "issues": {},
+          "evidence": [
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+              "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+              "checked": "2026-10-28",
+              "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            },
+            {
+              "field": "incumbentStatus",
+              "url": "https://www.mchenrycountyil.gov/departments/treasurer",
+              "title": "McHenry County Treasurer: indexed official page",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Donna M. Kurtz (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            },
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/departments/treasurer",
+              "title": "McHenry County Treasurer: indexed official page",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Donna M. Kurtz (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            }
+          ]
+        },
+        {
+          "id": "donna-m-kurtz",
+          "name": "Donna M. Kurtz",
+          "party": "Republican",
+          "role": "Incumbent candidate for McHenry County Treasurer",
+          "hometown": "",
+          "incumbentStatus": "Incumbent",
+          "photoInitials": "DM",
+          "fecRaised": "",
+          "fecCashOnHand": "",
+          "pacPolicy": "",
+          "pacSummary": "",
+          "pacs": [],
+          "endorsements": [],
+          "issues": {},
+          "evidence": [
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+              "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+              "checked": "2026-10-28",
+              "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            },
+            {
+              "field": "incumbentStatus",
+              "url": "https://www.mchenrycountyil.gov/departments/treasurer",
+              "title": "McHenry County Treasurer: indexed official page",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Donna M. Kurtz (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            },
+            {
+              "field": "role",
+              "url": "https://www.mchenrycountyil.gov/departments/treasurer",
+              "title": "McHenry County Treasurer: indexed official page",
+              "checked": "2026-11-01",
+              "note": "Current officeholder: Donna M. Kurtz (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+            }
+          ]
+        }
+      ],
+      "verificationNote": "Names match indexed official June candidate-list content checked November 1, 2026. The county advertises an August 24 update, but direct access to the latest list was blocked. Confirm the current roster and any write-ins with the McHenry County Clerk.",
+      "rosterStatus": "older-official-list-newer-source-unavailable",
+      "geographicScope": "countywide"
+    }
+  ],
+  "otherRaceHashes": [
+    {
+      "id": "cook-president",
+      "sha256": "85d586cf5bb3bc6340b50153de0f455b11a20bc2c5ce37585d1e10d67ad467d1"
+    },
+    {
+      "id": "cook-assessor",
+      "sha256": "8474d69d0ec293e3a8bf699ffd2505446756c72fdd6b52271061c4789da7a4ab"
+    },
+    {
+      "id": "cook-sheriff",
+      "sha256": "0daea2d4bff8cadec5fa136afd5e088d11c741fb80c1f127c374c7a0966fb6fb"
+    },
+    {
+      "id": "cook-clerk",
+      "sha256": "0861841f3d1eb8345db925c1502f14b7a1540e2bfbfb23b02625e88db61e0a67"
+    },
+    {
+      "id": "cook-treasurer",
+      "sha256": "9ecf32ac8e709b4e62fff6dc76ba8589a7fd7f4a3a90049d823de71382aa96cb"
+    },
+    {
+      "id": "cook-board-review-2",
+      "sha256": "d4e4f87bb5da23ec4c3fd983e04fd9dfce1f532e9b21a867e2f5d0adffab9d57"
+    },
+    {
+      "id": "cook-comm-17",
+      "sha256": "b7450ea293fd42441694a15b363cc2bf06148b7b96fbd014250538cb3f2acec5"
+    },
+    {
+      "id": "dupage-board-chair",
+      "sha256": "f6d9848ce77095d89d03720124142ad5b1109b8a812f63f2e8d91cb6a85fbb80"
+    },
+    {
+      "id": "dupage-sheriff",
+      "sha256": "dcabefafb548fcc2ba32ca7b04a745e7345ed92534203f32845f4907e2668508"
+    },
+    {
+      "id": "dupage-clerk",
+      "sha256": "bc98fd54e78ac47d3318188ec7901bc15514fde99adf7ef6e5c3148ad9086746"
+    },
+    {
+      "id": "dupage-treasurer",
+      "sha256": "c8dba3020e76a6d38fa5ba0edd9cd0e010f98019733031be58f850bf854e4146"
+    },
+    {
+      "id": "lake-clerk",
+      "sha256": "650095eec80689672d82e09756779130aa5737fccba0c3da9ddd457d969e8e2e"
+    },
+    {
+      "id": "lake-treasurer",
+      "sha256": "a6211c9a3bdcc736e9ac981ab8371748876d0031d94771cdb1e52239399a59c2"
+    },
+    {
+      "id": "lake-sheriff",
+      "sha256": "0f56d5ab2ca400cb6e6e5f90c84d9ec18690ca575f244651edd782f83be38afe"
+    },
+    {
+      "id": "will-clerk",
+      "sha256": "c1388bd76309eec4b26d2390ca62f4dc94b304d21980ba5d55ac1e26a7ebcd15"
+    },
+    {
+      "id": "will-sheriff",
+      "sha256": "8bee3823475b24b1824ae5b5c56b54207fa9bd3654a981ab889c1c70ff8d21d5"
+    },
+    {
+      "id": "will-treasurer",
+      "sha256": "8d3f33b28ae2b501e560a28f0ff95b21426b515ab3d6de180ff094ce8db23eb6"
+    },
+    {
+      "id": "will-regional-superintendent",
+      "sha256": "5b1cc44c3100b6f49f0da1b35be2e1ba78d2fb3682ba777d03d0f799f1aeee96"
+    },
+    {
+      "id": "will-board-9",
+      "sha256": "0058fad5f1183b8a1c69c4861ca7a9757cd2266074523e001df83a37203cdb01"
+    },
+    {
+      "id": "will-appellate-court-3rd",
+      "sha256": "ef5335fc4c50e8341a02f57563263896da1aa5def78309d6a72010ac8d175d74"
+    },
+    {
+      "id": "will-circuit-court-1st-subcircuit",
+      "sha256": "aa19a5ed3161e0d5602ce8d95c1fda0402a87d048785539b87fd3fa0ccd1a3c3"
+    },
+    {
+      "id": "will-circuit-court-3rd-subcircuit",
+      "sha256": "84a36325cbdaeb3c804fb26fee62b7323ef5c823a0a20290d97e41cbfc166829"
+    },
+    {
+      "id": "will-circuit-court-5th-subcircuit",
+      "sha256": "ccf180107186ff73ce563e8853583489d359574ea4b3a31de1edcfc67c2be016"
+    },
+    {
+      "id": "will-retention-amy-m-bertani-tomczak",
+      "sha256": "543874eb3d45cfb1d398e5c5dd0e29095a4091d195f07bd0d60f207c0066353e"
+    },
+    {
+      "id": "will-retention-sarah-jones",
+      "sha256": "00b9a1986ddd070930ebd89c09830ce84e9f812b398a64e42db161ffee998937"
+    },
+    {
+      "id": "will-retention-daniel-l-kennedy",
+      "sha256": "9175c236f665a77c7b27dedb03ec83fedb656bd9f3a17639e79634b199bd5e48"
+    },
+    {
+      "id": "will-retention-daniel-d-rippy",
+      "sha256": "b0c8d7d6159582593d3bf8ebbb3c41ac959382ecbe4c1f635a9382ec920c351a"
+    },
+    {
+      "id": "kane-sheriff",
+      "sha256": "d354da3be07cc238607316379ba6f5ab04a650cc50ceecf3bf2f2d6afea69d4e"
+    },
+    {
+      "id": "kane-clerk",
+      "sha256": "159006f3e46be4290b4928e4a0f70a4420781e3d1ecbf9472cdd1a1521058912"
+    },
+    {
+      "id": "kane-treasurer",
+      "sha256": "6c74cab703b74d69762f2f1f8d9645ca7a710e7ed273b05b2ae26cce38fbe2ed"
+    },
+    {
+      "id": "sangamon-county-2026",
+      "sha256": "400fb97a374d67c95acfedbb3f3105173f98257fa0a10e88a01ecc3901da94c2"
+    },
+    {
+      "id": "winnebago-sheriff",
+      "sha256": "68f34481c4896ad542f4c90c51fb6e21d321c9235027a588be775521736c5431"
+    },
+    {
+      "id": "peoria-clerk",
+      "sha256": "3e12f14163cd84050d0068946460cdb1de3912ea80690cdac00d857bccfcbdc7"
+    },
+    {
+      "id": "champaign-clerk",
+      "sha256": "e75beea7a56c9efd3b92d2991bca4335e733c265a1c525735e832d750cfd04b8"
+    },
+    {
+      "id": "champaign-executive",
+      "sha256": "9d22c0ef2c11137fe13483cd8d9eefe27676bc0275f4f142c9409181301e88e2"
+    },
+    {
+      "id": "champaign-treasurer",
+      "sha256": "617538cdbeafcb6ec8bbeade72d6ced5944cd45aca4e625b3589a174edda2a71"
+    },
+    {
+      "id": "champaign-sheriff",
+      "sha256": "2dca4d05bd2c0b26d8da39b4d7d0d70ff91685f403c9575f28b3a12135f66ce3"
+    },
+    {
+      "id": "mclean-clerk",
+      "sha256": "9d86b7c1f7f36685ea26c9e809c123afd4da514d0d39aa2f9ae6150c698513ed"
+    },
+    {
+      "id": "mclean-sheriff",
+      "sha256": "4008bd6c4d8818d5b885e361c7e9f81b3c83c4a8bb600428e1cbbebbc87f96c8"
+    },
+    {
+      "id": "mclean-treasurer",
+      "sha256": "57589b3f5fef90d9c0ea38c05e3f4de49655b3d83bdcab36f2f20210a61d1f84"
+    },
+    {
+      "id": "madison-clerk-and-recorder",
+      "sha256": "2529c3368a56faf0e72fa2203773e778e009182ded48c4dc017182bf0f3aefc8"
+    },
+    {
+      "id": "madison-sheriff",
+      "sha256": "f238d37cc4e102d6f3e8077cd8070e3ffde28ca37763d50864b644e4e193042c"
+    },
+    {
+      "id": "madison-treasurer",
+      "sha256": "79d77df84580bc5e773d8063a9287fd364771e401618a6e32fd8927b062eb6d2"
+    },
+    {
+      "id": "st-clair-clerk",
+      "sha256": "54d38df566e750b2c004191898de56764c7159a9ceb9e52e07f8577ecdb2e074"
+    },
+    {
+      "id": "st-clair-treasurer",
+      "sha256": "a3dc720a4404d629734a31bc490734b52467f3e6052fd2fea9f83e0857ea02fe"
+    },
+    {
+      "id": "st-clair-sheriff",
+      "sha256": "337c7f8468f7ebc7a47aaf8936e5b7028577cd0e41d58d50fd6a808f766ac8a3"
+    },
+    {
+      "id": "rock-island-clerk",
+      "sha256": "ecf0726ca9a60b66a76f38125fefbc586eb3762f26056f099bbb2b1ac99d7a01"
+    },
+    {
+      "id": "rock-island-sheriff",
+      "sha256": "e5699a82c90a5840487dd57d59f14a901a5595e145d14aa9a69969bd0a4a29cc"
+    },
+    {
+      "id": "rock-island-treasurer",
+      "sha256": "881c8ea50819335a7c0f7daf2499a773e422f43ff4baa69fba9b09dd026f870c"
+    },
+    {
+      "id": "jackson-clerk",
+      "sha256": "24ffcb9cabb9f91eaab3fae7ab9ab792d3bc21443b64cd64d3b05fb2f9ff61fd"
+    },
+    {
+      "id": "jackson-sheriff",
+      "sha256": "fcab8a2557a1c74c811855adc37b5030cf4f172cd2a0ed2e9c03dda7f1cf3201"
+    },
+    {
+      "id": "jackson-treasurer",
+      "sha256": "243586cc9e60dd4fe81e9ec5f35df00ef403d82d98a1837f49ca809b7009a330"
+    },
+    {
+      "id": "jackson-assessor",
+      "sha256": "b4776e646bdd5d3181d8bd9a52f6b7d8b396cdb9595669fca1902f0714407095"
+    },
+    {
+      "id": "sbe-local-adams-brown-cass-morgan-pike-scott-superintendent-of-schools",
+      "sha256": "381df9ebae1e23b327111091f8bd85861e1a94591cefb80e18906f59a2b98cc8"
+    },
+    {
+      "id": "sbe-local-alexander-jackson-perry-etc-supt-of-schools",
+      "sha256": "90b0bfef43023fc986e06df348eee694717e96332ad31c35798613c956ecaca3"
+    },
+    {
+      "id": "sbe-local-bond-christian-effingham-etc-supt-of-schools",
+      "sha256": "aedde6ce160913616f7dd0d12eb203a0974d003cc41f230a2f049ad3e36ae891"
+    },
+    {
+      "id": "sbe-local-boone-winnebago-superintendent-of-schools",
+      "sha256": "ff994ae63d2f5480fd34e029753bc2d15de6f5b7d1a26e5164a91af33b44bdb9"
+    },
+    {
+      "id": "sbe-local-bureau-henry-stark-superintendent-of-schools",
+      "sha256": "473d23accc270d34cd0a3fd366372781372f2d681a5cbd225e79054dfbc78d4e"
+    },
+    {
+      "id": "sbe-local-calhoun-greene-jersey-macoupin-superintendent-of-schools",
+      "sha256": "be625c4a0e6226241bd8b35d7e661db2e923d04e029e2468fdd4a88aca8f8384"
+    },
+    {
+      "id": "sbe-local-carroll-jodaviess-stephenson-superintendent-of-schools",
+      "sha256": "993710a4381d791122c0bad7f00e0fc4e0ff70287db673229de3c2f904e9309e"
+    },
+    {
+      "id": "sbe-local-champaign-ford-superentendent-of-schools",
+      "sha256": "40ec8b04e54aaf80c46ae15ee99453c783449d10d034921e73807a3109d520ec"
+    },
+    {
+      "id": "sbe-local-clark-coles-cumberland-etc-sup-of-schools",
+      "sha256": "c90116e42a57883de257c7272d9e62c55621efca4bf97d0c2d790b4d15ba6d4b"
+    },
+    {
+      "id": "sbe-local-clay-crawford-jasper-etc-superintendent-of-schools",
+      "sha256": "9c2703cddf530d7fe39b36d35b81fc42e14de53ffb5fc5f7181a7f2e12bd3d24"
+    },
+    {
+      "id": "sbe-local-clinton-jefferson-marion-etc-superintendent-of-schools",
+      "sha256": "89d8c0211e6b3587d8dbb22d48114fcf9489816dcc92aea0e81d41a4f90008ba"
+    },
+    {
+      "id": "sbe-local-dewitt-livingston-logan-etc-superintendent-of-schools",
+      "sha256": "82d803b4a42afd0a39caaf9b1c6be79770048cd9a34faf053702118f014bc5fa"
+    },
+    {
+      "id": "sbe-local-edwards-gallatin-hamilton-etc-superintendent-of-schools",
+      "sha256": "0c89458195468651dc0149255f3c9757a6198c14dccd737d1daac45c50abd79c"
+    },
+    {
+      "id": "sbe-local-franklin-johnson-massac-etc-superintendent-of-schools",
+      "sha256": "63350f09e69d9a534be644623d9d2ae00eb76355ff56a774f3997b252f645aad"
+    },
+    {
+      "id": "sbe-local-fulton-hancock-mcdonough-etc-superintendent-of-schools",
+      "sha256": "2b0d99a8d6ceb6cdf070fdd4b10fbec6b3b3a65b2bee93de97cfea5465e10432"
+    },
+    {
+      "id": "sbe-local-grundy-kendall-superintendent-of-schools",
+      "sha256": "f65ead93db67df4c89520c4fcb308efa5545cef6d76b6ece8daeec1343085b18"
+    },
+    {
+      "id": "sbe-local-henderson-knox-mercer-warren-superintendent-of-schools",
+      "sha256": "6563d5d17d904d3c1541b86883c2effe30685be2264c2e0830b6bf0c6efb7d8e"
+    },
+    {
+      "id": "sbe-local-iroquois-kankakee-superintendent-of-schools",
+      "sha256": "e4c711c26120e64d2bee07842c9e3194075c5730c93ca3b128b4b8330aa86a86"
+    },
+    {
+      "id": "sbe-local-lasalle-marshall-putnam-superintendent-of-schools",
+      "sha256": "62685e38e5228a120988260d87566b7e74ebed96d9ee4d3e50677596c687d5ca"
+    },
+    {
+      "id": "sbe-local-lee-ogle-whiteside-superintendent-of-schools",
+      "sha256": "606a1dd0ce93cf036015fc9e07d2b999a8a360623ce2c5813e8bdc58ced1c3e2"
+    },
+    {
+      "id": "sbe-local-macon-piatt-superintendent-of-schools",
+      "sha256": "8e821d77ba577f32b73218c77b1a3e090a4d819b9ad3d5e06509bc1449666d21"
+    },
+    {
+      "id": "sbe-local-mason-tazewell-woodford-superintendent-of-schools",
+      "sha256": "2f7825b02ea8d8d7fea0a19bcbef19888bfa77212a45a803da95e6fa1f147ebe"
+    },
+    {
+      "id": "sbe-local-menard-sangamon-superintendent-of-schools",
+      "sha256": "335c76fe6c75646777b7c13186f2bc374217db8f95c2f8980a3e4a01d9ef1ead"
+    },
+    {
+      "id": "sbe-local-monroe-randolph-superintendent-of-schools",
+      "sha256": "908afd47e464df864d118bc84ce0f9be0033dd037eeabc362a628a6c5a54b1f8"
+    },
+    {
+      "id": "sbe-local-1st-appellate-hoffman-vacancy",
+      "sha256": "9355c949545d54fb7f2b5332f7d50a7b4cde64467c73a574900639a0b2be84fb"
+    },
+    {
+      "id": "sbe-local-5th-appellate-welch-vacancy",
+      "sha256": "9dacb0e5c3c34ee77e0b311c0e7dcfa5bb9bb333e861de39c8a1ed9c791acacf"
+    },
+    {
+      "id": "sbe-local-cook-circuit-burke-vacancy",
+      "sha256": "55b103bdd155a600b23cee75e2ccc57c5c53f3fe4e75255b338001f53438a11c"
+    },
+    {
+      "id": "sbe-local-cook-circuit-cobbs-vacancy",
+      "sha256": "05b47d6e7b5df99e22ac23555d428b613cbcdb0195c01a611f245f574d71e2c8"
+    },
+    {
+      "id": "sbe-local-cook-circuit-coghlan-vacancy",
+      "sha256": "a1e07ffab623c96f2e3d8ac004aa1e31a580a08b7c1a01a4bfddac1e39a5d46e"
+    },
+    {
+      "id": "sbe-local-cook-circuit-hooks-vacancy",
+      "sha256": "9c30b14565b19538d89ce0b4650d1deadc9fbc3788271543f1bc65d03104e58c"
+    },
+    {
+      "id": "sbe-local-cook-circuit-karkula-vacancy",
+      "sha256": "d8500e7466107705cb7756d24afffc84f88e7574e4c345ccef6820755568dca0"
+    },
+    {
+      "id": "sbe-local-cook-circuit-1st-subcircuit-balanoff-vacancy",
+      "sha256": "f0e48529152d723ce16c56d94b7bae0d0d56a8cbe3832769c4e37b72809b304b"
+    },
+    {
+      "id": "sbe-local-cook-circuit-1st-subcircuit-walker-vacancy",
+      "sha256": "1586b513d88642694ee7a76bc4607250f202c3fbfc85da74bec6f22bcf497cec"
+    },
+    {
+      "id": "sbe-local-cook-circuit-3rd-subcircuit-murphy-vacancy",
+      "sha256": "d461e6090d61250a4e39ccd6212b39596969dc730d6bcb8787011ba7bd6cb1c2"
+    },
+    {
+      "id": "sbe-local-cook-circuit-3rd-subcircuit-sherlock-vacancy",
+      "sha256": "54cb4685a1c48735fd23dcb41abf1f2d768e0d2d2f7ba35b9213a4196fab5c72"
+    },
+    {
+      "id": "sbe-local-cook-circuit-5th-subcircuit-ross-vacancy",
+      "sha256": "596be0cdaa0ea300d72fdca81e6aaa81c5ff4e5606c1fc68e7a16c188b8342a7"
+    },
+    {
+      "id": "sbe-local-cook-circuit-8th-subcircuit-gamrath-vacancy",
+      "sha256": "6bef6d519a7f635e5a24fe55026310b3069f79f4679a005e14e2e2a88546dc08"
+    },
+    {
+      "id": "sbe-local-cook-circuit-8th-subcircuit-mikva-vacancy",
+      "sha256": "df828f185dc4f7278d1d8a026048ea9603330ff367928ebccc9cb91f28df3e4d"
+    },
+    {
+      "id": "sbe-local-cook-circuit-11th-subcircuit-meyerson-vacancy",
+      "sha256": "c49bf32798cc9b331662a6854972ec6d2d817c6576252cd218547ce07aa63fd5"
+    },
+    {
+      "id": "sbe-local-cook-circuit-11th-subcircuit-roberts-vacancy",
+      "sha256": "5d375510441895e834a6f763c21f21d9575ded2a93815bd2a16d66d0d3fbdb4a"
+    },
+    {
+      "id": "sbe-local-cook-circuit-13th-subcircuit-curry-jr-vacancy",
+      "sha256": "ef2b87e5a538aebcc41654d2c3983e739a47001004e003ae94e2df8c40c810e4"
+    },
+    {
+      "id": "sbe-local-cook-circuit-13th-subcircuit-martin-c-kelley-vacancy",
+      "sha256": "4e42b190a279bf6072407da4f95a93929e06408c35b37839a210fb38ea6a5022"
+    },
+    {
+      "id": "sbe-local-cook-circuit-13th-subcircuit-thomas-j-kelley-vacancy",
+      "sha256": "2aa96d1b379233007ea131cd7194115e440041db49986be9a7e8beffcb52abdd"
+    },
+    {
+      "id": "sbe-local-cook-circuit-13th-subcircuit-o-malley-vacancy",
+      "sha256": "2cc4af1140fd2fccbda82de3e0f303918fa9ae267bbaa3498e8a3cbb10fcbae4"
+    },
+    {
+      "id": "sbe-local-cook-circuit-16th-subcircuit-baird-vacancy",
+      "sha256": "646b836f8062786112b56959a167a5b365605649018471c0f0110194867b6a24"
+    },
+    {
+      "id": "sbe-local-cook-circuit-16th-subcircuit-mendoza-vacancy",
+      "sha256": "a6b0c5c1cf06d44f4d35fd591c8fa1db90d2cfd8bcbad63e7541ef6997331a86"
+    },
+    {
+      "id": "sbe-local-cook-circuit-17th-subcircuit-brooks-vacancy",
+      "sha256": "7e53381db2eafefb2505cd42be23b81f78d074b164494ef11e9092ac84a88735"
+    },
+    {
+      "id": "sbe-local-cook-circuit-17th-subcircuit-carroll-vacancy",
+      "sha256": "841607a4950bcf33a5251d09f49fea54e1ad99c48b365c5ccef2008774e7a020"
+    },
+    {
+      "id": "sbe-local-cook-circuit-18th-subcircuit-andreou-vacancy",
+      "sha256": "cb1e9bcd3f2ccfc5b0463dbf297188e6c84025c1b7e5d40bd7dbfae58237fcbb"
+    },
+    {
+      "id": "sbe-local-cook-circuit-18th-subcircuit-chrones-vacancy",
+      "sha256": "e8384d076c58c4fb12a8e126106bf999540beff28650b33687be5ddba0e76814"
+    },
+    {
+      "id": "sbe-local-cook-circuit-19th-subcircuit-fairman-vacancy",
+      "sha256": "b07a02cc97e2aa4f5aeb12c8c7a69d4121467e3df031c5f80777d0c379eb720a"
+    },
+    {
+      "id": "sbe-local-cook-circuit-19th-subcircuit-kane-vacancy",
+      "sha256": "6aa8e8bd883d23e747779e698be08c3f5fee9917bda963b2ad5046c794c77d81"
+    },
+    {
+      "id": "sbe-local-cook-circuit-20th-subcircuit-haracz-vacancy",
+      "sha256": "5be0af60a5fb2e73b6e9e431c1d95851d6ff8e786a780b3e1bd27b1239f3191a"
+    },
+    {
+      "id": "sbe-local-cook-circuit-20th-subcircuit-miller-vacancy",
+      "sha256": "b57e516fbc50a2db89644a667e3704e27ebc2245e78c3ff2f6d56f14b2d5af91"
+    },
+    {
+      "id": "sbe-local-1st-circuit-solverson-vacancy",
+      "sha256": "fce8453ee0b71dd2e7b4de469758e9133facb65da6a505b93bc117f972465873"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-molt-vacancy",
+      "sha256": "cbb9bb887a7d6806632185b0730c031e910134160674fef586b1cc1ac90198b7"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-valentine-vacancy",
+      "sha256": "7988e971d2fad1784bb0e9e3d63b66805f1e459e23b2f975d11640d73bad4c2e"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-vaughn-vacancy",
+      "sha256": "dd0138fe476aaa210aaecdd0cb10f91d6b9b72b80424cc237746d5464274b0b2"
+    },
+    {
+      "id": "sbe-local-3rd-circuit-2nd-subcircuit-stobbs-vacancy",
+      "sha256": "e08c12ef301d5293c0b9f4b1a7766a8e935be1e13f44ec6d2d7002759ac2a579"
+    },
+    {
+      "id": "sbe-local-4th-circuit-jarman-vacancy",
+      "sha256": "3e7793d2af156999e98e875ed399383e04afd5652ffff7dbc5777597d926075f"
+    },
+    {
+      "id": "sbe-local-8th-circuit-adrian-vacancy",
+      "sha256": "f7a90922414e0c50cd4654761ad827c736b649dc8cd4b49e856f5e3529862839"
+    },
+    {
+      "id": "sbe-local-8th-circuit-lannerd-vacancy",
+      "sha256": "e8309e52309190377206f218aba2da6328d017254e2d022f23d904dbd40f6d0e"
+    },
+    {
+      "id": "sbe-local-9th-circuit-cavanaugh-vacancy",
+      "sha256": "0e6076284a944649e7d2c2ee9563abdd68dda0523b79c548cbdd4bc106533118"
+    },
+    {
+      "id": "sbe-local-9th-circuit-standard-vacancy",
+      "sha256": "b81bcbb3a8e60df35e23ca0c313f69611654a2a5c9cb459cdd9eb7e448e8b2cb"
+    },
+    {
+      "id": "sbe-local-10th-circuit-vespa-vacancy",
+      "sha256": "b4c7715615d35c6d2fef491fd872c6a78b564c089054e218ce5977b7ca80f709"
+    },
+    {
+      "id": "sbe-local-11th-circuit-bauknecht-vacancy",
+      "sha256": "f24bb8819062be72bc4a55d02ca16894a1f25a8f7eae5b714f424e727cff07cf"
+    },
+    {
+      "id": "sbe-local-11th-circuit-costigan-vacancy",
+      "sha256": "8d56c55b59e32881e5693bebf607d0ba870046915edf5bed77f1012864ddc08f"
+    },
+    {
+      "id": "sbe-local-11th-circuit-feeney-iii-vacancy",
+      "sha256": "8b72086103ff4949083c657e4db85731a6f4fc58b14e9bdc5315dbff6c743b70"
+    },
+    {
+      "id": "sbe-local-13th-circuit-raccuglia-vacancy",
+      "sha256": "153d7204a2a46dfb7f8cb11bb1a9d8dc7f6a122c234164cf555a5dddf055efaa"
+    },
+    {
+      "id": "sbe-local-14th-circuit-thompson-vacancy",
+      "sha256": "7f8dd35fb6be35cbaf7ce810947f372980263fa4dcee6d1aba15b42c64f12f8c"
+    },
+    {
+      "id": "sbe-local-15th-circuit-hauser-vacancy",
+      "sha256": "d1baae2bbdcdc52005e95f19273f9a4ac98e265e65e061012da7662cacb1b2f6"
+    },
+    {
+      "id": "sbe-local-15th-circuit-ward-vacancy",
+      "sha256": "3114455d15197c279336a01f727f4a23333c51552c5462897d93c1151fd7255a"
+    },
+    {
+      "id": "sbe-local-17th-circuit-1st-subcircuit-lowry-vacancy",
+      "sha256": "d219a655f1e1a4e6a8345c6266f9b8f2030ceabc7cef91ee8f3e62b74704c324"
+    },
+    {
+      "id": "sbe-local-17th-circuit-2nd-subcircuit-doherty-vacancy",
+      "sha256": "484c91bfc00b88529c1d1790b54c984d6fa397346e27a153e701707fa62ee94c"
+    },
+    {
+      "id": "sbe-local-18th-circuit-4th-subcircuit-wilson-vacancy",
+      "sha256": "cb1244f503394aaf22605809437a3629be6955a537fba877a94ded9b7906e772"
+    },
+    {
+      "id": "sbe-local-18th-circuit-5th-subcircuit-fullerton-vacancy",
+      "sha256": "902b7cecdb8243138db0f93e936c9b3d6a151ea2268bca2d04a5b3d2d12d75d0"
+    },
+    {
+      "id": "sbe-local-1st-appellate-retain-lampkin",
+      "sha256": "69a214b3066c49ab2758c87b19f95fccd75be4e2b4780e44995e3760224ba702"
+    },
+    {
+      "id": "sbe-local-4th-appellate-retain-knecht",
+      "sha256": "748b8330b954a4f7de2158d0edc2adadd645b7fe41604955911546f0d9b79c77"
+    },
+    {
+      "id": "sbe-local-5th-appellate-retain-barberis-jr",
+      "sha256": "f94b59f762b36df7c0ea643a0cadb40db73126b3f197a50642bf1a838db61388"
+    },
+    {
+      "id": "sbe-local-1st-circuit-retain-thurston",
+      "sha256": "a34bdc0896debafb50074bcedd5f805261caeaa78883623e56aa13e814e75902"
+    },
+    {
+      "id": "sbe-local-1st-circuit-retain-tripp",
+      "sha256": "71bc34f082f1cd1290e34eb9a0cae6373bbb9c2d878564a06d8cbc80758eea44"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-retain-vaughan",
+      "sha256": "b6f823194af6bdb4f121c318ab820415bd4dcb900dc82199af763a94199e9ffe"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-retain-foster",
+      "sha256": "e78d693b4760e717622ffb9e2f67ba915af365cff170bd2d803b9627ac2229b7"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-retain-hudson",
+      "sha256": "a0fd10ea4f42d59e72055651929be1d67301e0d7e587ddaf83e89ebbadc47ef4"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-retain-hartrich",
+      "sha256": "7b83aea3621342e55a4fcd034bb971be1fed32165be602e2b566db2bba796f64"
+    },
+    {
+      "id": "sbe-local-2nd-circuit-retain-cook",
+      "sha256": "a3588deb14e660bd8eee63fe33e6c0a27ad361b77fb77766488261f4efb16dd4"
+    },
+    {
+      "id": "sbe-local-3rd-circuit-retain-ruth",
+      "sha256": "827edc3f7d413f83d719b3b7b59d385763bb506007192052c2c4198ae559a286"
+    },
+    {
+      "id": "sbe-local-3rd-circuit-retain-maher",
+      "sha256": "7dcf40f67d1dcdf465f14c059128cd762dccac2a71a7e3ee4380d55217268a19"
+    },
+    {
+      "id": "sbe-local-4th-circuit-retain-brandmeyer",
+      "sha256": "9921510a980db02d0a7c01f850b125ca0818a7a269ea40e5365661ce02db982a"
+    },
+    {
+      "id": "sbe-local-4th-circuit-retain-siemer",
+      "sha256": "8dfd3272f99727197b77cb24d805e076070c503bd8d90439820e0dedd32c6d60"
+    },
+    {
+      "id": "sbe-local-4th-circuit-retain-powless",
+      "sha256": "0c659861bc9391086e5a9bab16ae3fb991c9ee0ac4d671a4f73a9ab21b131392"
+    },
+    {
+      "id": "sbe-local-5th-circuit-retain-shick",
+      "sha256": "03422a6cdb45a13a0a36e1b09b0755410285bab0d473f274a647820cdb56a979"
+    },
+    {
+      "id": "sbe-local-5th-circuit-retain-o-shaughnessy",
+      "sha256": "abfa9c6ba029750a1c3f9011350c6d02ba005b5daf5c93b792149147be84203f"
+    },
+    {
+      "id": "sbe-local-6th-circuit-retain-bollinger",
+      "sha256": "36077089db65907671d7d81292347d488bb7e5ea04526febff6059b7a0840f42"
+    },
+    {
+      "id": "sbe-local-6th-circuit-retain-bohm",
+      "sha256": "3222d48171b5c62aa5a6dbf128d8b8b8f4e1d294603113e9a2c95b70f84ed9b1"
+    },
+    {
+      "id": "sbe-local-6th-circuit-retain-rhoades",
+      "sha256": "b2d2efe84a73fab3d9dc91eb628505bba8a9c6c9b21be8cdc18e1d58b9569e8c"
+    },
+    {
+      "id": "sbe-local-6th-circuit-retain-sullivan",
+      "sha256": "aca90fdb716296e35e0524bae26e714d27cd1215ef74d2c1dd4bfd1a2ea9fae3"
+    },
+    {
+      "id": "sbe-local-7th-circuit-retain-reif",
+      "sha256": "a277299ced800056794355d58e548b2ee2306b3bfdedb20f4de653f5688af225"
+    },
+    {
+      "id": "sbe-local-7th-circuit-retain-madonia",
+      "sha256": "ed5461605faea1908f1e88bf93e58aeb4d06d01f66e56c84967dc72891ed5489"
+    },
+    {
+      "id": "sbe-local-7th-circuit-retain-giganti",
+      "sha256": "3ed3ee0e8f919941487de8cec37830dde4c443cbcb466d6757e2e955e362a665"
+    },
+    {
+      "id": "sbe-local-7th-circuit-retain-grischow",
+      "sha256": "e89ce474429beb385147dc93514a04b1b89fec0cf2f73c0a702825dfafc9cd3d"
+    },
+    {
+      "id": "sbe-local-7th-circuit-retain-noll",
+      "sha256": "1254c8e9610132573fc2c170f75ca9141e35746a48079feb83c80a9b4767535e"
+    },
+    {
+      "id": "sbe-local-7th-circuit-retain-lorton",
+      "sha256": "c06e754cda88445075b1d7a02866183961464be0ebf35df792979c44f2fd0ccc"
+    },
+    {
+      "id": "sbe-local-7th-circuit-retain-schmidt",
+      "sha256": "daeb8f95ac21a46b89a86dfe69d15eb1d68f8fed402cbdd861df8d91357baf07"
+    },
+    {
+      "id": "sbe-local-8th-circuit-retain-atterberry",
+      "sha256": "6b3e044ded7988ba658dc5e1e3770c37077b47c8eb04f7aea3a0e80f731ed916"
+    },
+    {
+      "id": "sbe-local-8th-circuit-retain-burch",
+      "sha256": "76f54a5333c01b0f7a25324de6d354f0055382100ced81f1694db84f07ddb7f8"
+    },
+    {
+      "id": "sbe-local-8th-circuit-retain-brenner",
+      "sha256": "54dbf0cedcbbba6acd6cb86151b5aadca250df522c7d3a1984d97139de4631bc"
+    },
+    {
+      "id": "sbe-local-9th-circuit-retain-vancil-jr",
+      "sha256": "5eedf7bb1e3435e80f81b4bb81c43e67a4577054e608dc232048ea32f8108e94"
+    },
+    {
+      "id": "sbe-local-9th-circuit-retain-doyle",
+      "sha256": "ab3ddd3187459270eaeb1eb1d7e154818911251408aca1fa1b8d4eaccca02025"
+    },
+    {
+      "id": "sbe-local-10th-circuit-retain-mack",
+      "sha256": "351fcc3c7b768c778eb6228e9b338c3c1df936a5cc293fde9dbdc6beb4cce001"
+    },
+    {
+      "id": "sbe-local-10th-circuit-retain-doscotch",
+      "sha256": "d29b4273fc70a7d9676b37f827f5be23af069a2b0c7e9c88e040679430d73fe7"
+    },
+    {
+      "id": "sbe-local-11th-circuit-retain-fitton",
+      "sha256": "ab89dddcee882a8cb33a90e0b1e78fef19b5d8fed399fdacd9ec5f6c2e165837"
+    },
+    {
+      "id": "sbe-local-11th-circuit-retain-chambers",
+      "sha256": "5fce84b854b5e0576dd286e5b03a21d00e96ac9b0e834de2078b5765b1c9dd6f"
+    },
+    {
+      "id": "sbe-local-11th-circuit-retain-wright",
+      "sha256": "2f97981d960ba724b7d4dd967808e5d00c9daa044352c732b293c5a1d6cb7f81"
+    },
+    {
+      "id": "sbe-local-13th-circuit-retain-sobol",
+      "sha256": "2c6d5371c32be6c4f43965c3748f34d2cd77174d7d71d8687995ce5dabde2624"
+    },
+    {
+      "id": "sbe-local-14th-circuit-retain-patton",
+      "sha256": "97ffb473787b0858a36e40639e303baec2256a70dbede3b036e9c51cf52564c3"
+    },
+    {
+      "id": "sbe-local-14th-circuit-retain-church",
+      "sha256": "a78ece930607951a99f19d29d392df6d5590a1cbbef510b4d3141679f0e694f6"
+    },
+    {
+      "id": "sbe-local-14th-circuit-retain-mcgehee",
+      "sha256": "548ae4f13d86c696c8e131175a5c7af9e690d507ece43f78a2c353c49b8179aa"
+    },
+    {
+      "id": "sbe-local-15th-circuit-retain-roe-iv",
+      "sha256": "f4606dc807495d77d6d88a0ba42d0fb0cd3f3323ead4e48a2eafd87232a28f2f"
+    },
+    {
+      "id": "sbe-local-15th-circuit-retain-lee",
+      "sha256": "bdcc642e33aab0ded09412a7ee89290eda37d46210ee2bc37d2ed8af8c3df2dd"
+    },
+    {
+      "id": "sbe-local-15th-circuit-retain-kane",
+      "sha256": "0a70a572fe10a7cf2010256bd279be59c6cc3ba0a8a33278c01b4857c03f0ffa"
+    },
+    {
+      "id": "sbe-local-16th-circuit-retain-grady",
+      "sha256": "a2f5e8e4e255ab14e84f4c7049d8828d3c8c8297c7edb7156807f324ded28d56"
+    },
+    {
+      "id": "sbe-local-16th-circuit-retain-tegeler",
+      "sha256": "fc34fcf250818fccb29fcaa1b57f1ddab6fcd2502c3d209718a4aa9451079035"
+    },
+    {
+      "id": "sbe-local-16th-circuit-retain-villa",
+      "sha256": "c6dab4100a44ca10b484a974f21a1d5fefbb7d51ee1c03763e2a8fc4b3b8ca0e"
+    },
+    {
+      "id": "sbe-local-16th-circuit-retain-flood",
+      "sha256": "d2d4c331bbcd656f632974d055d1421ccfdad3d628dc7db6f6b7fc081dc2f048"
+    },
+    {
+      "id": "sbe-local-17th-circuit-retain-fabiano",
+      "sha256": "505fae05eb06800f625fe0aba5c78e8bff9cb1313cd16b94e2cc545a816a99af"
+    },
+    {
+      "id": "sbe-local-17th-circuit-retain-gulley",
+      "sha256": "641d2863f6dba199e6025f201d0579174b9f6f5845ff9d2cbc8140d5b423122c"
+    },
+    {
+      "id": "sbe-local-17th-circuit-retain-white",
+      "sha256": "12382614ec7db7847f1c2f1e9d094c7c1168a12f89e4b0cac50362a0632e8539"
+    },
+    {
+      "id": "sbe-local-18th-circuit-retain-walsh",
+      "sha256": "dcccc54a1fcd011c36a1f9aa38764d75e73bbdf0b80769f9b89d8fadf849fd7f"
+    },
+    {
+      "id": "sbe-local-18th-circuit-retain-o-toole",
+      "sha256": "9e459e9d30d95cb416fde57d306de91609aa5bf35fdfb253cf58855ab7c2553c"
+    },
+    {
+      "id": "sbe-local-18th-circuit-retain-felice",
+      "sha256": "24b808aad463d80edc9c3cee833e64a85c53dc35dcb43c4970a93d5313a8a176"
+    },
+    {
+      "id": "sbe-local-18th-circuit-retain-o-connell",
+      "sha256": "de5a3716e6738d447940e4984cc66323d372f625fe51968dc7542631af76ccfb"
+    },
+    {
+      "id": "sbe-local-19th-circuit-retain-booras",
+      "sha256": "2521dc72ddfbeff03baad43faee0850c036f64a8610916e959e7bf025a0f9fce"
+    },
+    {
+      "id": "sbe-local-19th-circuit-retain-slavin",
+      "sha256": "404babb2db06e09fc9aa732cdd0ca4c591c6b20637c9f3793f25bacf205e30ae"
+    },
+    {
+      "id": "sbe-local-21st-circuit-retain-sabol",
+      "sha256": "8e39326e20d19dafce16556ff76b6338e522662155ca9873e9d5817f7bb72f34"
+    },
+    {
+      "id": "sbe-local-21st-circuit-retain-dickenson",
+      "sha256": "1a3cdffc5ba150931d5bb1a8e3f67d581eb55a1d191dc46d37c13e4eb9c0022d"
+    },
+    {
+      "id": "sbe-local-21st-circuit-retain-parkhurst",
+      "sha256": "2896f15a4587957fd08a26082304c4780c1f75b617ac0610dda96a09cadf4f46"
+    },
+    {
+      "id": "sbe-local-22nd-circuit-retain-feetterer",
+      "sha256": "05a5bbadaea313ffaec9ae9fb84a226dd17c61c1943dcad4d5ab3f9a4fbaa983"
+    },
+    {
+      "id": "sbe-local-22nd-circuit-retain-gervais",
+      "sha256": "e1dcc5ec47ea69a28541f9085f5e3e584c51edcc2907513cb647a82db5ef36c2"
+    },
+    {
+      "id": "sbe-local-22nd-circuit-retain-hansen",
+      "sha256": "081a952a429c25c9bfaad8e2fbafbe3a7b1eebc6a2172e1a3c549236017e8010"
+    },
+    {
+      "id": "sbe-local-22nd-circuit-retain-gerhardt",
+      "sha256": "228281169ec4cc8fdc5939ba212915b9961d27192e8b16d07626530eaee2c637"
+    },
+    {
+      "id": "sbe-local-23rd-circuit-retain-gleason",
+      "sha256": "bb68343442e7412cf27c969f556f83a430c1058f8f32f732e23e14bd162a7ca4"
+    },
+    {
+      "id": "sbe-local-24th-circuit-retain-campanella",
+      "sha256": "0b7b1e24e3bbb96814ea76ff40bd422fa679007273ff422a24aad3f79367bbfc"
+    },
+    {
+      "id": "sbe-local-24th-circuit-retain-hitzemann",
+      "sha256": "014da81663a22fbe984b6fef0bf03fb15c1e2cb8bc064dbf6cb482ef8b61dff4"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-nixon",
+      "sha256": "851d3d0aadbcf2238e02e1b14cf8e9b615f6e595c8e81b15265a8854e4d8fdbb"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-kennedy",
+      "sha256": "615fe6356acc8df2276b23de9baa5ce44b0ceb968af43bf61799043b0b3179df"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-powell",
+      "sha256": "07deeb14626847676d1589c9cccc47224e661b5398c183f5f6a4fdaa4777c975"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-ward-kirby",
+      "sha256": "68d8c51ad475cbf4430d48fc5d52fe372b4c09c6799b3aa84eeeff3825306c59"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-arce",
+      "sha256": "5ce81f88bae7d7a7a4ba7d9e0c6225cc611e9a894698b63ff40310e0446c8aa1"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-byrne",
+      "sha256": "11772774f944bd77a4d79156eb072a67afbafd7c6180d872abad1d85f7de4708"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-kenworthy",
+      "sha256": "7c2f2e62bf4e06b260372138e4cd6746a4c31c6b163d33c7d46bfd85227af699"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-ryan",
+      "sha256": "e3069a1c102305566f70f7729a2e28b3b6f670d5b1ba7c2140f1cf25a01dd75a"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-walowski",
+      "sha256": "ded2375cf0870de0b6348c1e4f2ee71f198604c5265775247c32e2326714a104"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sha256": "1b20047b29ef1652be6389192955267d8c6de4eeec411e0e93a0b59f266a8bb3"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-moreland",
+      "sha256": "a5e440bb22c5c56da067bad805ee47277073afac19d38e52692da97d7902e59a"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-carroll",
+      "sha256": "0055abd75fcc36f743252becc640ad73523541bf42bc77c0e9448936a5918ac6"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-buford",
+      "sha256": "1aac006877810d55e3cd0ef8633370290d15649b75681d8e40aa74ee910e9f19"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-allegretti",
+      "sha256": "8344491cf52edeb453af0fda2a4c938b51fb8789e147637bb15aea83307dcc64"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-rivers",
+      "sha256": "fadc3831ab43a5fea20ca71bad38d9b5a187bc8a772e89431a8aa34c8dfba7ac"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-watkins",
+      "sha256": "6ce40f5998b63cd8e1bef8419fed00825dfbee83d8cbc5be77af85264057d585"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-romanek",
+      "sha256": "d357d96d766013c34557a31342127ef227ad20f2a2c4389e3346ea45268a181d"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-rice",
+      "sha256": "b4bfa1bfddf34c65c4925bc83ae80e4cbe4ff8923c12e6e811320eb5bd882d47"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-coughlin",
+      "sha256": "56b0bc9c04ffd524f2651cb1ea16d95bdf755c3f79067c0fdced4cea12772976"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-goldish",
+      "sha256": "c509d931e1e7b44d0d6b245b7c144124d3a01f018e76a63fb6c8701d109804fb"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-hansen",
+      "sha256": "b41e52e2231501c9b77c84263895784b0ca77cf8080b50ef32a47d47ffabe157"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-kuzas",
+      "sha256": "bab08dcb17d31c8cfc2b9324a69148eb566299c90e9a04a2a1a915cb6b7effd2"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-martinez",
+      "sha256": "a658ea8d98c9795b0abe9b56162cc81383dcbcee7f56787bb326cbdc670be305"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-mcguire",
+      "sha256": "9f64b890c2061a181bd3d3e3b229cbbeeae77ce2d47ca7fee5c5af6196fc5977"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-mitchell",
+      "sha256": "6591ca53d8b0a57c0b503c6971bffaf1dbd10a0f3bef209108f45ddf43ded5bf"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-pieczonka",
+      "sha256": "aa040a72a200c0779911691021af524c58d22ea0b6dcc70c3b332f28726e56cc"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-sheahan",
+      "sha256": "684c95213cd1ebd82b9e6cee5dd1873356dfff5f63db8b9e697ea31315d18d70"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-forti",
+      "sha256": "b78d2087e915f077149e11e270f0c359410f71d41570d9521453d83a60d4ae82"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-patton",
+      "sha256": "5a5f2d09e43d939776a3160c181679e038c799b33bd88203beb2e9b222873f75"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-denmark",
+      "sha256": "ffdeb1238f89dc412e182407ac7b70f9195872888664cfd10f8f0b624cf4d66b"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-tristan-jr",
+      "sha256": "f4aab24f58038456e62608898a93c3745648a73c6dec414db0f58b2f67d82dc1"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sha256": "2d38fdbb74bc4ae5f1d4c0f4477b3237e5cb7a669b1387656c3fadf2ec172f89"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-maloney",
+      "sha256": "4bc0f6e7eb024f8151864bcd705d40bc2acbd4510e95966b6928feb0c7b43c1f"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-cushing",
+      "sha256": "30a8bc3ceeac38e78faa6b41304ec365ec1af17e5772b9dd488d0d8a983b87d6"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-mulroe",
+      "sha256": "5c9e5ecae0fc0bd2d0c8215c8e58c9bcafbb6f50b77d34e359b16f78985f2a74"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-walton",
+      "sha256": "31ea5e682817f3059175f67c18bf7a1146cb39b33125af66583d4bf46dfcc67b"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-antonietti",
+      "sha256": "5d8da735e4184c10a957c968fd630ba4269b2b7b685512ba07c17a287a96d3ba"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sha256": "0cccb3fcc5b85ab7147556b85f904def90eb5c2a8224ff195545efbac61a635d"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-fallon",
+      "sha256": "0380dabfa5f9cdeb6a6da796633151ba8c85637e7c782eaf0db337eb597204fb"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-henry",
+      "sha256": "533213bed7160d8d30b09ba3e8342bb44dc61666abdd406815bd45b358f0d39d"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-mays",
+      "sha256": "36bd33950709e3ac7be07b1855c01354bbfd2f14397714f33d2106425342fffd"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-smith-jr",
+      "sha256": "36f1b891d8064482f03f5329b0bf898e5d5415947ba21b9dafca49186b33c96c"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-aimen",
+      "sha256": "13f0652e4a46cd0fa76805c92f329b47b352199e01e97e46c098fd059155c8bf"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sha256": "dcb5457a8b6901c07ad5b03af1f829d592b40133e4739e0fa6c9ee5dedbd27ba"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-butler",
+      "sha256": "182790b5ea49839e781deedef76fc893a0892f0e4c72d7ee1e24fca04c197cd8"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-dempsey",
+      "sha256": "bd62b414fd7e8da24b733c9b0b5b420bb5c015f29284587aa10c40bfbc8c3b87"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-dickler",
+      "sha256": "2cf4691613da2cc7a8c7a3e0f8b22e56d35fb2738f4a3b571aed74578cd6a470"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-green",
+      "sha256": "e956451fdedcb8dafa989f7e9ee239e2bcd14d164fbc18b0234f9dd576cc9c07"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-marubio",
+      "sha256": "07c9a8297a078d09202326910e218ed55d83c3c0b0e0b8117e8f7fa23707773b"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-mescall",
+      "sha256": "998ed654bfa474debe41a6b667cae1417832e76a0685be74ca7f83982b6d6d04"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-murphy",
+      "sha256": "ca92bf93fe9d6611fcc756c12316932a170b1425ff0e73f187eff1f2e4ab0ee8"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-o-connor",
+      "sha256": "f9be6882ff7647776861b6e063f3111d75e0fac6da54e9096a8e7ad2346e48c4"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-quinn",
+      "sha256": "0a7e8133a67c8beb1c332b7bb5e98de47deb0b29494d0d2de588a9f341268bfb"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-reaves-harris",
+      "sha256": "b64314d3e41c3c7ec24418cf8219843c7402b591d45b523476da48ab3b088233"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-smith",
+      "sha256": "5bb7ac0c45b4990965990f80c20a33a128862c721067c44bbe5e6c04d59bb5c5"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-stacey",
+      "sha256": "c993be8e73ee051350f1ea4cf70156a9c37806d089e1013db3ff20691c2aec54"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-tirado",
+      "sha256": "55d97a02e6ac5d5dd9abebf4b35dfb44bc87853a9902d30194deddb4d0b53074"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-walsh",
+      "sha256": "c90af3a9b1ed01df88faabc02177cfd859064c75f135d606346333f752043b7a"
+    },
+    {
+      "id": "sbe-local-cook-circuit-retain-zeller",
+      "sha256": "e11744e3141826a239c26ef4c7833755d96f40622397432a34be5d0186c71e83"
+    },
+    {
+      "id": "will-board-1",
+      "sha256": "221dd9405320d851ad8ebfec08959587faeb8dd08716659c0b0e26b520931cad"
+    },
+    {
+      "id": "will-board-2",
+      "sha256": "77677c018ba9cf24a4c71492751d4145a8a7185e3389b7e31ea6d7110a00d4e5"
+    },
+    {
+      "id": "will-board-3",
+      "sha256": "6048612be78007de0143b9c7e6af6f41c5f42516d608b23dd51a99896a327812"
+    },
+    {
+      "id": "will-board-4",
+      "sha256": "f13ee622d0b9c83a7803fec980709f553a1dc2bb0f927e48d3e82f0b27ef185c"
+    },
+    {
+      "id": "will-board-5",
+      "sha256": "4d6fdd59120d1f808988f367aec150aa23cd7e1f2922920ce96fa35f141eb071"
+    },
+    {
+      "id": "will-board-8",
+      "sha256": "0d52e89f1f283341f86fbfa28a8028fb4b8b2187fc5e981da5e4520342b691bc"
+    },
+    {
+      "id": "will-board-11",
+      "sha256": "6ca24511f75b98569ee9ab8673f7ec389ebc9999cec3a4f8c02da7c1a4cfdaa0"
+    },
+    {
+      "id": "dupage-forest-preserve-president",
+      "sha256": "39efbebe4a579250bfe0def9b9ea6558dbd0dbc880ac9b3c17df83e8b518dd11"
+    },
+    {
+      "id": "dupage-regional-superintendent",
+      "sha256": "23dadd272638015e0f6e3c0642ec1b6638d02f63f082cc000ff17fb8694e138e"
+    },
+    {
+      "id": "lake-regional-superintendent",
+      "sha256": "102bc2fbf2a107baa5800befd26321f757c303a32a96b0365cc026085f6f118c"
+    },
+    {
+      "id": "kane-regional-superintendent",
+      "sha256": "1f7f23edeeb0c496508f73dc0442158c9588ae9a7caba65b157173d87c11bc7d"
+    },
+    {
+      "id": "mchenry-regional-superintendent",
+      "sha256": "ef238d289f67960d38bb46dd1c4f5ad73737ddea96c9791dcdef7669e8e8a1ac"
+    },
+    {
+      "id": "winnebago-clerk",
+      "sha256": "b1927fc4e9246c6ddcb20c43c6119cb57a135f468b759c051358903912153b05"
+    },
+    {
+      "id": "winnebago-treasurer",
+      "sha256": "c9f579adccbcb0a2fa74210637d10c6b9b961753b40826e22d664dc3c20d1f32"
+    },
+    {
+      "id": "peoria-sheriff",
+      "sha256": "4999d56f9b62f10cd7bd9d790a2e798cd5d3000e8702d10bbd8a9aeac3d94d74"
+    },
+    {
+      "id": "peoria-treasurer",
+      "sha256": "eeff8de885fa576f16978152ecdb8ca68dd92e43f02ba1d5104cc06baf2331ef"
+    },
+    {
+      "id": "sangamon-clerk",
+      "sha256": "17d3248f9d48d4073891949c5dc00396a6501968e6b5a40bb10b4e4b13a39dd5"
+    },
+    {
+      "id": "sangamon-treasurer",
+      "sha256": "faaf76eecfb0e055db2c57bcd4c8050e94fcbce02e0aaf796b906af846583945"
+    },
+    {
+      "id": "st-clair-assessor",
+      "sha256": "bc2f554df4c54d1db4c95212ffb0217c6b69fec622773b0019fed2e405162d4f"
+    },
+    {
+      "id": "st-clair-board-of-review",
+      "sha256": "f4ef3670a6760d75e5c867a2029919f811b99f0db5fc7773fb6fbf664cc92e80"
+    },
+    {
+      "id": "peoria-regional-superintendent",
+      "sha256": "1ac53b15163a8b3620858e9a94b5fd47e32a890c2155dafa3f6ae1cc74e403fc"
+    },
+    {
+      "id": "rock-island-regional-superintendent",
+      "sha256": "647d2ac20d4d298ef9a09508ab4c7ed6c9499584788875395b94e2f766598cc4"
+    },
+    {
+      "id": "madison-regional-superintendent",
+      "sha256": "c8daef2fe308137262f90356556e7388978294a2e7a0b6cdd08aa235519ac94d"
+    },
+    {
+      "id": "st-clair-regional-superintendent",
+      "sha256": "536495fc37d6ddc743ed95f1fe4baa586b1b14973867f1541ebc1c24e54496ef"
+    }
+  ],
+  "hashScope": "UTF-8 JSON.stringify of each parsed race object, preserving property order"
+}

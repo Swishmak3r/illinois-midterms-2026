@@ -1,0 +1,809 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Independent structural and browser integration validation; semantic source review remains separately documented.",
+  "data": {
+    "checked": "2026-11-01",
+    "scope": "Structural provenance, source-ledger comparisons and known factual regressions; not a substitute for reading every court decision.",
+    "passed": 7,
+    "judges": 131,
+    "coverage": {
+      "judges": 131,
+      "withBarReports": 131,
+      "withSelectedRulings": 128,
+      "selectedRulings": 200
+    },
+    "checks": [
+      "All 131 retention candidates have exactly one matching judicial profile",
+      "Assessment values match the separately reviewed bar-source ledger",
+      "Voluntary polls, insufficient responses and institutional judgments stay distinct",
+      "Every selected ruling identifies the judge, legal act, appeal history and pinpointed primary source",
+      "No overall judicial political score; any policy comparison needs the exact issue and dated policy evidence",
+      "Election-party history stays dated and separate from the retention ballot",
+      "Published coverage counts describe actual profiles and rulings"
+    ]
+  },
+  "ui": {
+    "checked": "2026-11-01",
+    "sourceCoverage": {
+      "judges": 131,
+      "withBarReports": 131,
+      "withSelectedRulings": 128,
+      "selectedRulings": 200
+    },
+    "url": "http://127.0.0.1:4174/",
+    "passed": 126,
+    "failed": 0,
+    "screenshots": [
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "profile": "amy-m-bertani-tomczak",
+        "path": "C:\\Users\\rodne\\Documents\\Codex\\2026-11-01\\i-ne\\outputs\\retention-desktop.png"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "profile": "amy-m-bertani-tomczak",
+        "path": "C:\\Users\\rodne\\Documents\\Codex\\2026-11-01\\i-ne\\outputs\\retention-phone.png"
+      }
+    ],
+    "results": [
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 1440,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 390,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "chromium",
+        "width": 320,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 1440,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 390,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "firefox",
+        "width": 320,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 1440,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 390,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Built research module matches current source and retention cards have no campaign score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Will profile distinguishes trial ruling appeal history dated party and advisory poll",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Appellate nonparticipation reason stays separate from negative attorney poll",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Insufficient poll responses are neutral and never displayed as zero or negative",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Cook assessments preserve differing organizations rather than a consensus score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Dempsey and Stacey ballot and court aliases resolve to the same sourced identity",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Quinn 2023 public statement is dated attributed and separate from judicial holdings",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Grischow Allen date explicitly identifies the trial TRO rather than the appellate decision",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Cadengo Trump comparison preserves precise later policy sources and no personal ideology inference",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Retention-only comparison has judicial research and no congressional policy score",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Mixed comparison preserves House score while excluding judicial ideology",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "Generic local campaign issue view excludes retention judges",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "House candidate card retains the existing sourced voting alignment",
+        "status": "passed"
+      },
+      {
+        "engine": "webkit",
+        "width": 320,
+        "name": "No unhandled browser errors or page overflow",
+        "status": "passed"
+      }
+    ]
+  }
+}

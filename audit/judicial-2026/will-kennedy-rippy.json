@@ -1,0 +1,347 @@
+{
+  "auditDate": "2026-11-01",
+  "scope": "Selected primary-source rulings of Will County circuit judges Daniel L. Kennedy and Daniel D. Rippy; research only, no production changes.",
+  "method": "Read official Illinois appellate opinions/orders, including their descriptions of the circuit judge's ruling. Downloaded the eight selected PDFs and extracted their text. Each trial judge is identified on the official caption; neither judge authored or voted on the appellate decision described here.",
+  "limits": [
+    "This is a purposive issue sample, not a complete docket, reversal-rate analysis, or judicial quality ranking.",
+    "Appellate decisions give a verified account of the trial action, but are not the underlying signed trial orders or full trial records.",
+    "The stated appellate disposition is verified as of that decision. A targeted subsequent-history search did not establish later merits dispositions or a complete appeal history; do not label these cases finally resolved as of the audit date.",
+    "The case outcomes do not establish personal party affiliation, Trump support, or an overall ideology. Historical election-party and bar-poll evidence is recorded separately by the parent researcher.",
+    "Targeted topic searches did not yield verified substantive rulings by these judges on abortion, LGBTQ rights, election validity, immigration, executive power, or Second Amendment validity. Absence from this sample is not evidence of neutrality or absence of such rulings.",
+    "The firearm charges in Pruitte do not make its search-warrant ruling a Second Amendment decision. Alkafaween concerns Illinois statutory tort immunity, not federal qualified immunity."
+  ],
+  "cases": [
+    {
+      "id": "kennedy-lomeli-2017",
+      "judge": "Daniel L. Kennedy",
+      "case": "People v. Lomeli",
+      "citation": "2017 IL App (3d) 150815",
+      "appellateDocket": "3-15-0815",
+      "circuitDocket": "15-TR-16380",
+      "opinionDate": "2017-12-15",
+      "trialRulingDate": "2015-09-21",
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge; suppression hearing and stipulated bench trial.",
+      "issue": "Reasonable suspicion for a traffic stop based on an object hanging from a rearview mirror.",
+      "trialAction": "Granted the prosecution's directed-finding motion at the close of the defense suppression evidence, leaving the evidence admissible.",
+      "trialReasoning": "Found reasonable articulable suspicion rather than a hunch. The observed object was a rosary; the judge later acquitted on obstructed windshield while convicting on suspended-license driving.",
+      "appeal": "Affirmed unanimously. The court applied manifest-weight review to the directed finding and distinguished reasonable suspicion to investigate from probable cause to cite an offense.",
+      "evidence": [
+        {
+          "reference": "caption, PDF p.1; paragraphs 3-6",
+          "supports": "Judge identity, hearing date, motion, reasoning and separate trial findings."
+        },
+        {
+          "reference": "paragraphs 9-16, 18-19",
+          "supports": "Review standard, justification and affirmance."
+        }
+      ],
+      "issueComparison": "Historical police-stop ruling under the law then in force; no party or Trump inference. Read with the subsequent January 1, 2024 statutory change below.",
+      "subsequentLegislation": {
+        "verifiedAsOf": "2026-11-01",
+        "act": "Public Act 103-0032",
+        "effectiveDate": "2024-01-01",
+        "section": "625 ILCS 5/12-503(c-5)",
+        "context": "Public Act 103-0032 moved the front-windshield object restriction from subsection (c) to new subsection (c-5). Effective January 1, 2024, police may not stop or search a vehicle, its driver or passenger solely for a violation or suspected violation of that subsection. Lomeli describes a 2015 stop and 2017 decision; it should not be presented as current authority permitting a stop solely for a hanging-object obstruction.",
+        "sourceUrl": "https://www.ilga.gov/Legislation/publicacts/view/103-0032",
+        "primaryPdfUrl": "https://ilga.gov/legislation/publicacts/103/PDF/103-0032.pdf",
+        "reference": "Section 5, amendment to 12-503(c) and new (c-5), PDF p.4; effective date displayed on official General Assembly public-act HTML page.",
+        "verification": "Read the official act PDF through web extraction and the full indexed official HTML text. Direct HTML opening returned 502 and local download returned 403; no blocked response is treated as statutory evidence."
+      },
+      "precedentialStatus": "Published opinion",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/3150815.pdf/opinion",
+      "sha256": "08242e9e85c7a36b78cddd01c2f0e82a3bce9290de89b6e3367733befc65fffa"
+    },
+    {
+      "id": "kennedy-pablo-2018",
+      "judge": "Daniel L. Kennedy",
+      "case": "People v. Pablo",
+      "citation": "2018 IL App (3d) 150892",
+      "appellateDocket": "3-15-0892",
+      "circuitDocket": "13-CM-3031",
+      "opinionDate": "2018-06-29",
+      "trialRulingDate": "2015-11-03",
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge; evidentiary rulings in resisting-a-peace-officer trial.",
+      "issue": "Prosecutor's withdrawal of an agreed witness-testimony stipulation and resulting restrictions on the defense.",
+      "trialAction": "Allowed unilateral withdrawal immediately before opening statements. Restricted defense evidence about mistaken identification and injuries during the arrest.",
+      "trialReasoning": "Treated the stipulation as concerning the prosecution's witness, which it could withdraw. The appellate majority rejected that rationale.",
+      "appeal": "Conviction vacated and remanded, 2-1; stipulation ordered reinstated. The majority found no showing the stipulation was untrue, withdrawal was untimely and harm to the defense theory was not harmless. Justice Wright dissented.",
+      "evidence": [
+        {
+          "reference": "caption, PDF p.1; paragraphs 7-13",
+          "supports": "Identity, date, withdrawal and evidence restrictions."
+        },
+        {
+          "reference": "paragraphs 21-28, 30-34",
+          "supports": "Majority reasoning, remedy and dissent."
+        }
+      ],
+      "issueComparison": "Defense opportunity to challenge police credibility; specific trial procedure, not a finding about political beliefs.",
+      "precedentialStatus": "Published opinion",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/3150892.pdf/opinion",
+      "sha256": "f19f91c10a330369fc406c652b0cdb4897ff1b4642891d14d79887037bb558a4"
+    },
+    {
+      "id": "kennedy-stellman-2018",
+      "judge": "Daniel L. Kennedy",
+      "case": "People v. Stellman",
+      "citation": "2018 IL App (3d) 160526-U",
+      "appellateDocket": "3-16-0526",
+      "circuitDocket": "15-CF-2742",
+      "opinionDate": "2018-09-11",
+      "trialRulingDate": null,
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge; first-stage postconviction review.",
+      "issue": "Allegedly ineffective plea advice about eligibility for impact incarceration (boot camp).",
+      "trialAction": "Summarily dismissed the self-represented petition as frivolous and patently without merit.",
+      "trialReasoning": "That classification is the only dismissal rationale reported. At the plea, the court had warned that placement depended on the Department of Corrections.",
+      "appeal": "Unanimously reversed and remanded for second-stage proceedings. Alleged erroneous eligibility advice and loss of a shorter plea offer met the low first-stage threshold. The appellate court expressly did not decide whether counsel actually performed deficiently.",
+      "evidence": [
+        {
+          "reference": "caption, PDF p.1; paragraphs 4-9",
+          "supports": "Identity, plea context, allegations and dismissal."
+        },
+        {
+          "reference": "paragraphs 13-18, 21-26",
+          "supports": "Threshold reasoning, reserved merits and remand."
+        }
+      ],
+      "issueComparison": "Access to review of counsel's plea advice; no national policy equivalence established.",
+      "precedentialStatus": "Rule 23 order, not a precedential published opinion; original notice limits citation under Rule 23(e)(1).",
+      "sourceUrl": "https://www.illinoiscourts.gov/Resources/a04d5074-4694-46d8-a257-8cc9ed8e4aaf/3160526_R23.pdf",
+      "sha256": "5f8d9a08509a2f8f4180592582183371c19f1b52a3aaefff157c00e941b31d2c"
+    },
+    {
+      "id": "kennedy-shepherd-2018",
+      "judge": "Daniel L. Kennedy",
+      "case": "People v. Shepherd",
+      "citation": "2018 IL App (3d) 160724",
+      "appellateDocket": "3-16-0724 and 3-16-0725, consolidated",
+      "circuitDocket": "10-CF-903 and 10-CF-1029",
+      "opinionDate": "2018-03-08",
+      "trialRulingDate": null,
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge for the suppression order reviewed in this appeal; earlier orders are not separately attributed to Kennedy.",
+      "issue": "Counsel conflicts, due process and suppression of an inmate informant's recording.",
+      "trialAction": "Suppressed recorded conversations and resulting evidence in both pending prosecutions.",
+      "trialReasoning": "Found an attorney-client relationship based on the defendant's expectations, an attorney conflict, and State-assisted violation of due process and effective counsel rights.",
+      "appeal": "Reversed and remanded. The appellate court found no established attorney-client relationship or ethical violation, and no State misconduct or disclosure of privileged information justifying exclusion. All three justices agreed in the judgment; Wright specially concurred.",
+      "evidence": [
+        {
+          "reference": "caption, PDF p.1; paragraphs 15-21",
+          "supports": "Current suppression ruling and its stated rationale."
+        },
+        {
+          "reference": "paragraphs 25-37, 39-42",
+          "supports": "Appellate reasons and disposition."
+        }
+      ],
+      "issueComparison": "An example of Kennedy suppressing prosecution evidence on defendant-rights grounds; no partisan inference.",
+      "precedentialStatus": "Published opinion",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/3160724.pdf/opinion",
+      "sha256": "cef58bfeb1ec4df85db44e630f9fd981459debab467e28f7b2c4990376e51163"
+    },
+    {
+      "id": "rippy-pruitte-2019",
+      "judge": "Daniel D. Rippy",
+      "case": "People v. Pruitte (consolidated with People v. Neal)",
+      "citation": "2019 IL App (3d) 180366",
+      "appellateDocket": "3-18-0366 and 3-18-0367, consolidated",
+      "circuitDocket": "18-CF-149 and 18-CF-150",
+      "opinionDate": "2019-06-24",
+      "trialRulingDate": "2018-05-18",
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge reviewing the previously issued warrant, not identified as the warrant-issuing judge.",
+      "issue": "Fourth Amendment probable cause and good-faith exception to suppression.",
+      "trialAction": "Quashed the warrant and suppressed evidence. A supplemental order rejected officers' good-faith reliance.",
+      "trialReasoning": "Found the warrant application insufficient on its face to establish probable cause, and so deficient that reliance was unreasonable.",
+      "appeal": "Affirmed 2-1. The majority found unreliable, uncorroborated informant allegations insufficient to link the apartment to criminal activity and rejected good faith. Justice Carter found sufficient probable cause and alternatively would apply the good-faith exception.",
+      "evidence": [
+        {
+          "reference": "caption, PDF p.1; paragraphs 8-9",
+          "supports": "Judge, hearing date, suppression and supplemental ruling."
+        },
+        {
+          "reference": "paragraphs 12, 21-34, 38-49 (especially dissent paragraph 48)",
+          "supports": "Appellate analysis, affirmance and dissent on probable cause and alternative good faith."
+        }
+      ],
+      "issueComparison": "Enforced search-and-seizure limits against police. Firearm charges do not turn it into a gun-rights ruling.",
+      "precedentialStatus": "Published opinion",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/3180366.pdf/opinion",
+      "sha256": "9bf4f0c97d6541e081d5cc505c8fdd6442b89bba5c410e11eaf125fd91cb7f25"
+    },
+    {
+      "id": "rippy-alkafaween-2026",
+      "judge": "Daniel D. Rippy",
+      "case": "Alkafaween v. Village of New Lenox",
+      "citation": "2026 IL App (3d) 250449",
+      "appellateDocket": "3-25-0449",
+      "circuitDocket": "21-L-795",
+      "opinionDate": "2026-06-15",
+      "trialRulingDate": "2025-08",
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge deciding summary judgment on state tort immunity.",
+      "issue": "Police civil liability after transporting a man experiencing mental-health difficulties to an unfamiliar location, where a vehicle struck him.",
+      "trialAction": "Granted summary judgment for the village and two officers, barring plaintiff's claims under absolute statutory police-protection immunity.",
+      "trialReasoning": "Found the trespass investigation had transitioned to community caretaking when the plaintiff voluntarily accepted a ride; applied 745 ILCS 10/4-102.",
+      "appeal": "Unanimously reversed and remanded. Competing facts could support law enforcement rather than community caretaking; a factfinder must resolve the function. The court did not adjudicate ultimate damages liability.",
+      "evidence": [
+        {
+          "reference": "caption and PDF p.20; paragraph 25",
+          "supports": "Judge identity, ruling month, exact immunity and rationale."
+        },
+        {
+          "reference": "paragraphs 31-38, 40-41",
+          "supports": "Statutory distinctions, fact dispute, reversal and remand."
+        }
+      ],
+      "issueComparison": "State statutory police immunity; potentially relevant to police-accountability discussion, but distinct from federal qualified immunity and blanket political promises.",
+      "precedentialStatus": "Published opinion; official index labels Released.",
+      "sourceUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/e4822287-c884-4974-855e-47be56e5c57b/Ween%20v.%20Village%20of%20New%20Lenox%202026%20IL%20App%20%283d%29%20250449.pdf",
+      "officialIndexUrl": "https://www.illinoiscourts.gov/top-level-opinions?d=3&t=appellate",
+      "sourceTitleNote": "Official index and filename shorten the plaintiff to Ween; the opinion caption and reporter information use Alkafaween.",
+      "sha256": "e78ac4a1fdaf7923586dac62c246c2a31ce84cdeaf4f165da35ded8fc37b0e71"
+    },
+    {
+      "id": "kennedy-haddad-2021",
+      "judge": "Daniel L. Kennedy",
+      "case": "People v. Haddad",
+      "citation": "2021 IL App (3d) 180545",
+      "appellateDocket": "3-18-0545",
+      "circuitDocket": "17-CF-162",
+      "opinionDate": "2021-03-10",
+      "trialRulingDate": null,
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge; suppression of traffic-stop evidence.",
+      "issue": "Whether police had objective reasonable suspicion of following another vehicle too closely.",
+      "trialAction": "Suppressed evidence obtained after the traffic stop and denied the prosecution reconsideration.",
+      "trialReasoning": "Found the officer lacked a reliable objective method of estimating vehicle separation. Recognized that an otherwise lawful stop is not invalid merely because police had a different investigative purpose.",
+      "appeal": "Unanimously affirmed, deferring to the supported assessment of the officer's distance-measuring methodology. The panel said de novo review would not change its conclusion.",
+      "evidence": [
+        {
+          "reference": "caption, PDF p.1; paragraphs 4, 9-10",
+          "supports": "Judge identity, May 29, 2018 hearing, later ruling and reconsideration."
+        },
+        {
+          "reference": "paragraphs 14-21, 23-24",
+          "supports": "Reasoning, review and affirmance."
+        }
+      ],
+      "issueComparison": "Police-search limits in a cannabis prosecution; not a ruling on cannabis legalization or general prohibition of pretext stops.",
+      "precedentialStatus": "Published opinion March 10, 2021, replacing February 9, 2021 Rule 23 order.",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/e5e56edc-ae1d-4eef-b5fe-997a50269b10/file",
+      "sha256": "f79630f99b7beab66aaa339b5db5fc01548006eaabd56051013a219d32f8e3b1"
+    },
+    {
+      "id": "rippy-lawson-2025",
+      "judge": "Daniel D. Rippy",
+      "case": "People v. Lawson",
+      "citation": "2025 IL App (3d) 240450",
+      "appellateDocket": "3-24-0450",
+      "circuitDocket": "19-CF-1043",
+      "opinionDate": "2025-07-24",
+      "trialRulingDate": null,
+      "trialCourt": "Circuit Court of Will County, Twelfth Judicial Circuit",
+      "reviewCourt": "Illinois Appellate Court, Third District",
+      "role": "Trial judge; petition for discharge from commitment after an insanity acquittal.",
+      "issue": "Statutory requirements for continued inpatient commitment.",
+      "trialAction": "Granted the State a directed finding after the defense evidence and continued the commitment.",
+      "trialReasoning": "Focused on a significant risk of harm to the petitioner and community.",
+      "appeal": "Unanimously reversed and remanded. The statute required both anticipated serious physical harm due to mental illness and need for or benefit from inpatient care. Expert testimony supplied a prima facie case of no treatment benefit; danger alone did not resolve the petition. The remand required completion of the hearing, not immediate discharge.",
+      "evidence": [
+        {
+          "reference": "caption, PDF p.1; paragraphs 6, 13, 16",
+          "supports": "Identity, May-June 2024 hearing and stated trial rationale."
+        },
+        {
+          "reference": "paragraphs 20-28, 30-31",
+          "supports": "Statutory elements, procedural standard and remand instructions."
+        }
+      ],
+      "issueComparison": "Limits on confinement after an insanity acquittal; factual statutory decision, no verified national-party analogue.",
+      "precedentialStatus": "Published opinion",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/7fac6b8e-22c3-44e8-88f0-b2611b3d11d5/file",
+      "sha256": "b8ef1ff2e9c5251f41703e50e96ae2a58a93ebc405e3639fd81aaf853e04fafd"
+    }
+  ],
+  "searchLog": [
+    {
+      "query": "site.illinoiscourts.gov \"Daniel L. Kennedy\" opinion; site.illinoiscourts.gov \"Daniel D. Rippy\" opinion",
+      "result": "Found official Pruitte opinion; exact full-name Kennedy searches returned sparse results."
+    },
+    {
+      "query": "site:illinoiscourts.gov \"Kennedy\" \"Judge, Presiding\" \"Will\"",
+      "result": "Found Stellman, Lubienski, Mooney, Pablo, Lomeli and Shepherd official opinions. Opened all; selected four involving explicit substantive trial rulings."
+    },
+    {
+      "query": "\"Daniel D. Rippy\" \"suppression\"",
+      "result": "Pruitte located and official source read."
+    },
+    {
+      "query": "Alkafaween Village New Lenox 250449 Illinois court 2026",
+      "result": "Located official court-hosted PDF; verified citation and Released label against official Third District opinions index."
+    },
+    {
+      "query": "site:illinoiscourts.gov \"Rippy\" \"detention\"; site:illinoiscourts.gov \"Rippy\" \"2025\"",
+      "result": "No verified pretrial-detention ruling located through these searches."
+    },
+    {
+      "query": "\"Daniel L. Kennedy\" abortion gun election transgender ruling; \"Daniel D. Rippy\" abortion gun election transgender ruling",
+      "result": "No verified substantive rulings on those topics located. Results included irrelevant namesakes."
+    },
+    {
+      "query": "\"Kennedy\" \"Will County\" \"pretrial\" judge; \"Rippy\" \"pretrial\" court",
+      "result": "Kennedy administrative audiovisual-hearing order appeared, not a release merits decision. A People v. Smith result named Kennedy as the defendant and Cornelius as judge; excluded."
+    },
+    {
+      "query": "\"Pruitte\" \"180366\" supreme appeal; \"Alkafaween\" \"250449\" appeal supreme; \"Stellman\" \"160526\" appeal; \"Pablo\" \"150892\" supreme",
+      "result": "Located the same appellate decisions; did not verify complete subsequent history or later remand outcomes."
+    },
+    {
+      "query": "Official court full-text search: Daniel L. Kennedy (36 hits); Rippy (59 hits), complete returned pagination, supplied by parent researcher",
+      "result": "Inspected metadata for all hits; downloaded 12 additional selected official opinions and screened captions/issues. Added Haddad and Lawson after reading their full opinions. These are indexed text hits, not 95 verified rulings. No selected case carried an adverse-history note in this index; this is not a complete citator or docket check."
+    },
+    {
+      "query": "Screened recent or published index leads: Parker, Prince, Haddad, Rice, Patel, Kaczkowski, Walker, Crawford, Travis, Lawson, Rosas, Allumi",
+      "result": "Eight-source profile sample remains purposive. Some leads were only screened by caption and opening summary, not fully researched. No implication that unselected cases were less important or that these reflect all issue positions."
+    }
+  ],
+  "excludedReadCases": [
+    {
+      "case": "People v. Lubienski, 2016 IL App (3d) 150813",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/3150813.pdf/opinion",
+      "reason": "Counsel did not file suppression motion; appellate constitutional analysis should not be attributed as Kennedy's own express ruling."
+    },
+    {
+      "case": "People v. Mooney, 2019 IL App (3d) 150607",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/3150607.pdf/opinion",
+      "reason": "Speedy-trial reversal rested on defense counsel's ineffective handling of continuances; not needed for the selected sample and not a partisan signal. The official index additionally flags it as overruled in part by 2025 IL 130207; no current-law conclusion drawn."
+    },
+    {
+      "case": "People v. Crawford, 2024 IL App (3d) 230668",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/fc36ab2a-a869-4a80-a009-159ba0a14197/file",
+      "reason": "Read full opinion. Caption names both David Carlson and Daniel Rippy; narrative does not identify which judge conducted November 3 versus November 15, 2023 hearings. Do not attribute particular pretrial-detention comments or findings to Rippy without the trial record."
+    },
+    {
+      "case": "People v. Travis, 2024 IL App (3d) 230113",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/7fa37ad1-0c9c-47b6-9f32-ab7ad60e667d/file",
+      "reason": "Read relevant trial history and paragraph 16: constitutional challenges to felon firearm bans were first raised on appeal. Rippy's trial convictions do not establish that he ruled on their constitutional validity. Appellate Second Amendment reasoning belongs to the appellate judges."
+    }
+  ],
+  "rawEvidenceDirectory": "../judicial-research",
+  "rawEvidenceManifest": "../judicial-research/will-kennedy-rippy-downloads.json",
+  "indexDiscoverySources": [
+    "audit/judicial-2026/will-index-kennedy.json",
+    "audit/judicial-2026/will-index-rippy.json"
+  ],
+  "additionalRawEvidenceManifest": "../judicial-research/will-extra-manifest.json"
+}

@@ -1,0 +1,90 @@
+{
+  "checked": "2026-11-01",
+  "status": "closed-official-certified-candidate-list",
+  "scope": "Current McHenry County Clerk, Treasurer and Sheriff rosters only; no new races imported.",
+  "source": {
+    "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+    "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026",
+    "landingPage": "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
+    "observedLinkText": "Candidate List (updated 8/24/2026)",
+    "landingPageUpdateDate": "2026-08-24",
+    "printedDocumentPublicationDate": null,
+    "electionDate": "2026-11-03",
+    "pageCount": 4,
+    "verifiedPage": 2,
+    "byteLength": 81156,
+    "sha256": "e2ade372a8b11829f80a60fece3186b76bc57e4f88b4184bc42756272627c621",
+    "accessMethod": "Opened official county candidate page in Edge using CUA, observed the current 8/24/2026 link, downloaded that exact link through the browser, extracted local PDF text and visually inspected rendered page 2. No captcha, authentication or security-warning bypass was involved.",
+    "dateNote": "August 24 is the update label observed on the county landing page. The PDF itself prints the general-election date and Certified Candidate List title, but no publication timestamp was found. The metadata does not misrepresent the landing-page update as a printed PDF date.",
+    "scratchPdf": "C:/Users/rodne/Documents/Codex/2026-11-01/i-ne/work/mchenry-gap-evidence/certified-candidate-list.pdf",
+    "scratchRender": "C:/Users/rodne/Documents/Codex/2026-11-01/i-ne/work/mchenry-gap-evidence/county-office-rosters-page2.png"
+  },
+  "verifiedContests": [
+    {
+      "raceId": "mchenry-clerk",
+      "sourceContestId": "1600",
+      "office": "McHenry County Clerk",
+      "geographicScope": "countywide",
+      "counties": ["McHenry"],
+      "voteFor": 1,
+      "printedVoteInstruction": "Vote For: 1",
+      "term": null,
+      "page": 2,
+      "candidates": [
+        {"name": "Joe Tirio", "party": "Republican", "sourceParty": "Republican"},
+        {"name": "Bill McNeese", "party": "Democrat", "sourceParty": "Democratic"}
+      ],
+      "rosterMatchesExistingData": true,
+      "namedWriteInsListedForThisOffice": false
+    },
+    {
+      "raceId": "mchenry-treasurer",
+      "sourceContestId": "1610",
+      "office": "McHenry County Treasurer",
+      "geographicScope": "countywide",
+      "counties": ["McHenry"],
+      "voteFor": 1,
+      "printedVoteInstruction": "Vote For: 1",
+      "term": null,
+      "page": 2,
+      "candidates": [
+        {"name": "Donna M. Kurtz", "party": "Republican", "sourceParty": "Republican"},
+        {"name": "Amin Karim", "party": "Democrat", "sourceParty": "Democratic"}
+      ],
+      "rosterMatchesExistingData": true,
+      "namedWriteInsListedForThisOffice": false
+    },
+    {
+      "raceId": "mchenry-sheriff",
+      "sourceContestId": "1620",
+      "office": "McHenry County Sheriff",
+      "geographicScope": "countywide",
+      "counties": ["McHenry"],
+      "voteFor": 1,
+      "printedVoteInstruction": "Vote For: 1",
+      "term": null,
+      "page": 2,
+      "candidates": [
+        {"name": "Robb Tadelman", "party": "Republican", "sourceParty": "Republican"}
+      ],
+      "rosterMatchesExistingData": true,
+      "namedWriteInsListedForThisOffice": false
+    }
+  ],
+  "integration": {
+    "recommendedRosterStatus": "official-certified-candidate-list",
+    "recommendedVerificationNote": "Candidate names, parties and vote-for-one limits verified November 1, 2026 on page 2 of the McHenry County Clerk's current linked certified list for the November 3 general election. The county labels the link updated August 24, 2026. Confirm any later changes and write-in eligibility with the Clerk.",
+    "replaceStaleSource": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+    "removeResolvedLimitation": "Latest county list blocked; using older June candidate list.",
+    "candidateIdentityChangesRequired": false,
+    "voteLimitsNewlyVerified": true,
+    "incumbencyRechecked": false,
+    "termLengthsNotPrinted": true
+  },
+  "limits": [
+    "The absence of a named write-in from these three list entries is not a separate certification that no later write-in is eligible.",
+    "This is an office-roster check, not an address-specific ballot determination.",
+    "No other candidates or offices in the four-page PDF were imported or audited in this bounded gap-closing task.",
+    "Only public names, parties, offices and vote limits were transcribed; no personal addresses or contact details were included."
+  ]
+}

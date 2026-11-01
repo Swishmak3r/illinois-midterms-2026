@@ -1,0 +1,60 @@
+{
+  "sourceUrl": "https://www.cookcountyclerkil.gov/elections/current-elections/view-all-candidates",
+  "sourceTitle": "Cook County Clerk — View All Candidates",
+  "accessed": "2026-11-01",
+  "retrieval": "Official page loaded in Microsoft Edge through the connected browser; waited for the current election candidate grid to finish loading, then read its rendered headings and complete associated tables.",
+  "electionHeading": "November 03, 2026 Gubernatorial General Election",
+  "captureKind": "Exact rendered-text excerpts, not a raw HTTP response or downloaded certification PDF. All rows in each of the two office tables are included.",
+  "excerpts": [
+    {
+      "heading": "Commissioner, 10th County Board District",
+      "termAndVote": "Commissioner, 10th County Board District\n4 Year Term, Vote For 1",
+      "table": "CANDIDATE NAME\tPOLITICAL PARTY\tBALLOT #\nDrake Warren\tDEM\t72"
+    },
+    {
+      "heading": "Commissioner, 16th County Board District",
+      "termAndVote": "Commissioner, 16th County Board District\n4 Year Term, Vote For 1",
+      "table": "CANDIDATE NAME\tPOLITICAL PARTY\tBALLOT #\nMiranda E. Hernandez\tDEM\t72"
+    }
+  ],
+  "verifiedContests": [
+    {
+      "raceId": "cook-comm-10",
+      "office": "Commissioner",
+      "district": 10,
+      "termYears": 4,
+      "voteFor": 1,
+      "candidates": [
+        {
+          "id": "drake-warren",
+          "name": "Drake Warren",
+          "sourceParty": "DEM",
+          "party": "Democrat",
+          "ballotNumber": 72
+        }
+      ]
+    },
+    {
+      "raceId": "cook-comm-16",
+      "office": "Commissioner",
+      "district": 16,
+      "termYears": 4,
+      "voteFor": 1,
+      "candidates": [
+        {
+          "id": "miranda-hernandez",
+          "name": "Miranda E. Hernandez",
+          "sourceParty": "DEM",
+          "party": "Democrat",
+          "ballotNumber": 72
+        }
+      ]
+    }
+  ],
+  "limits": "Establishes the complete printed candidate tables for the selected election and two named offices. Does not establish whether a named write-in qualifies, prove address-specific district eligibility, or verify campaign claims, current officeholding, or other county contests.",
+  "captureHash": {
+    "algorithm": "SHA-256",
+    "scope": "UTF-8 JSON.stringify({electionHeading,excerpts}) in this property order; hashes the exact captured rendered text, not raw server bytes.",
+    "sha256": "4e8fd3e94d2ae212e420ee318f341c209ef5357a1c32b234fde8a66208ed4bac"
+  }
+}

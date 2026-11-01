@@ -1,0 +1,18 @@
+{
+  "finding": "The ballot name Chris Hitzemann and the Jenkins caption name Christopher E. Hitzemann refer to the Monroe County circuit judge. The official circuit roster uses Chris Hitzemann, and the Illinois Department of Corrections identifies the same Monroe County resident judge as Christopher E. Hitzemann.",
+  "checked": "2026-11-01",
+  "evidence": [
+    {
+      "url": "https://24thcircuit.illinoiscourts.gov/monroe-county-illinois/",
+      "title": "24th Judicial Circuit official Monroe County roster",
+      "locator": "Circuit Judge section",
+      "supports": "Judge Chris Hitzemann, Assistant Chief Judge, is listed as Monroe County circuit judge."
+    },
+    {
+      "url": "https://idoc.illinois.gov/content/dam/soi/en/web/idoc/aboutus/jds2017/2024-jail-inspections/Monroe%20County.pdf",
+      "title": "Illinois Department of Corrections, Monroe County jail inspection, September 13, 2024",
+      "locator": "PDF page 2 (printed checklist page 1), Resident Judge field",
+      "supports": "The Monroe County resident judge in the 24th Circuit is identified as Christopher E. Hitzemann."
+    }
+  ]
+}

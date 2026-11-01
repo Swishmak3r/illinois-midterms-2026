@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "checkedAt": "2026-11-01",
+  "scope": "Case-level comparison of documented rulings with specified national party or Trump administration policies; never an assessment of a judge's political identity.",
+  "productionStatus": "Research method and source catalog only. No judge classifications supplied here.",
+  "publicCopy": {
+    "heading": "Rulings and policy comparisons",
+    "intro": "Read what the judge decided, why, and what happened on appeal. When a ruling addresses the same specific issue as a documented party or Trump administration policy, we explain the overlap. That comparison does not establish the judge's personal politics.",
+    "comparisonHeading": "Policy overlap in this ruling",
+    "trumpLabel": "Documented Trump administration policy",
+    "selectionCaution": "These selected public decisions are not a complete record of the judge's work. Missing research is not evidence of neutrality, support, or opposition.",
+    "noScore": "We do not turn selected cases into a partisan score or label a judge 'Trumpist.'"
+  },
+  "fixedTopics": [
+    {"id": "pretrial-system", "question": "Does the holding determine whether a jurisdiction may abolish monetary bail or impose the particular funding condition at issue?", "exclude": "An individual defendant's release, detention, conditions, or statutory eligibility."},
+    {"id": "firearms-restrictions", "question": "Does the holding sustain or invalidate a specifically identified category of firearm restriction addressed by a baseline?", "exclude": "An ordinary firearm conviction, sentence, evidence ruling, or unrelated category of disqualification."},
+    {"id": "election-rules", "question": "Does the holding decide the same voting access, citizenship-document, or ballot-receipt rule as the baseline?", "exclude": "Candidate nomination disputes, routine petition signatures, recount disputes, or simply applying an existing deadline."},
+    {"id": "reproductive-access-funding", "question": "Does the holding address the same abortion access or funding rule, with the same governmental funding source and exceptions?", "exclude": "Inferring a national abortion ban from a federal funding restriction; unrelated malpractice or family-law cases."},
+    {"id": "immigration-authority-process", "question": "Does the holding decide the same civil immigration detention, cooperation authority, or specific removal procedure?", "exclude": "Ordinary criminal or family litigation involving an immigrant; treating every due-process ruling as opposition to enforcement."},
+    {"id": "federal-executive-authority", "question": "Does the holding decide the same federal presidential supervision or executive-branch authority question?", "exclude": "State governor powers, ordinary state agency deference, standing, or jurisdiction without a decision on that authority."}
+  ],
+  "statusDefinitions": {
+    "aligns": "The identified holding or its expressly described effect points in the same direction as the precise baseline proposition. This is an editorial comparison, not a quotation or personal endorsement.",
+    "in-tension": "The identified holding or its expressly described effect points against the precise baseline proposition. This does not establish political opposition by the judge.",
+    "mixed": "Separately identified parts of a holding point in different directions on comparable propositions. Explain each part; do not use this to conceal uncertainty.",
+    "not-comparable": "The known holding and baseline decide different questions, or the decision only applies individualized facts or routine procedure rather than addressing the specified policy.",
+    "insufficient": "The available primary record, attribution, appellate status, or precise policy baseline does not support a reliable comparison. Missing evidence must be named."
+  },
+  "publicationGates": [
+    "Identify the judge, court, case name, citation/docket, decision date, primary decision URL, relevant paragraphs/pages, and the exact action attributable to this judge.",
+    "Read the decision, not only a headnote, search snippet, party brief, or news summary. Separate the trial judge's ruling from the reviewing court's treatment of it.",
+    "Record role: author, joined majority, concurrence, dissent, or trial ruling described by a reviewing court. Mere appearance in a caption or administrative assignment is not a ruling.",
+    "Record the precise legal question, result, governing law, and whether precedent/statute required the result. A legal holding and agreement with the wisdom of the policy are different propositions.",
+    "Verify publication/precedential designation and later treatment. Preserve both the original ruling and what an appellate court affirmed, reversed, vacated, or remanded; reversal is not by itself misconduct.",
+    "Identify a direct, dated, primary policy source on the same proposition and jurisdictional scope. The Republican platform cannot substitute for a Trump administration source, and the positions are not assumed to be opposites.",
+    "For any aligns, in-tension, or mixed label, require at least one precise decision pinpoint and one baseline pinpoint, a one-sentence same-question comparison, and a separate explanation of limits.",
+    "Do not assign an affirmative label if appeal/current-status research is unresolved. A case may be published as researched history with an explicit status limitation and insufficient comparison.",
+    "A preliminary injunction or emergency stay is not a final merits ruling. State the provisional test and posture; ordinarily do not classify it. A procedural-right holding is comparable only if the baseline concerns that exact procedural right.",
+    "Check exact statutes and controlling precedent in force on the decision date, and later amendments before describing current law. These source baselines are dated political positions, not a legal-validity certification."
+  ],
+  "exclusionRules": [
+    "Never infer ideology from a defendant winning/losing, sentence length, a detention rate without validated comparable data, a prosecutor's request, or the party that originally nominated the judge.",
+    "Never describe a jury verdict, settlement, prosecutor's charging choice, or appellate opinion as the trial judge's personal merits decision.",
+    "Do not map an individualized detention ruling to whether cash bail should exist. Detention without money bail and release without money bail can both follow the same Illinois statutory system.",
+    "Exclude merits inferences from lack of standing, untimeliness, waiver, mootness, jurisdiction, preservation, or insufficient pleadings unless the specific procedural rule is itself the declared comparison question.",
+    "Do not assume an affirmance endorses every statement below or a concurrence joins all reasoning; use the actual voting and opinion text.",
+    "Do not present a vacated, superseded, or reversed ruling as operative law. Historical descriptions require the later outcome alongside them.",
+    "Do not call a pre-2025 ruling support for or resistance to the later Trump administration. At most identify overlap with a later policy, explicitly dated as a retrospective comparison.",
+    "Do not substitute a party's accusations about its opponent for the opponent's own policy statement.",
+    "No overall Republican, Democratic, Trump-alignment, ideology, or retention-recommendation score from selected cases. No percentage with unknown cases counted as zero."
+  ],
+  "selectionProtocol": {
+    "topicsDeclaredBeforeJudgeCases": true,
+    "population": "The site's verified 2026 retention roster, with actual research coverage shown per judge.",
+    "searchLogFields": ["judgeId", "nameVariants", "sourcesSearched", "dateRange", "queries", "checkedAt", "resultsReviewed", "inclusionReason", "exclusionReason", "unresolvedGaps"],
+    "caseSelection": "Search the same fixed topics for every researched judge. Include material opposing or qualifying results found; record exclusions. Absence from online opinion indexes means no located public evidence, not no rulings.",
+    "coverage": "Count primary decisions actually reviewed separately from judges merely listed. An official retention roster verifies ballot eligibility, not a complete rulings record.",
+    "review": "A second reader should challenge attribution, proposition matching, and appeal status before an affirmative political comparison is published."
+  },
+  "sources": [
+    {"id": "gop-2024", "type": "national-party-platform", "owner": "Republican National Committee", "title": "2024 Republican Party Platform", "date": "2024", "datePrecision": "year", "dateNote": "Official PDF identifies the 2024 national convention; do not misstate the access date as platform adoption date.", "url": "https://prod-static.gop.com/media/RNC2024-Platform.pdf", "checkedAt": "2026-11-01"},
+    {"id": "dem-2024", "type": "national-party-platform", "owner": "Democratic National Committee", "title": "2024 Democratic Party Platform", "date": "2024-08-18", "dateMeaning": "Official DNC release date, not convention adoption date", "url": "https://democrats.org/wp-content/uploads/2025/07/2024-Democratic-Party-Platform.pdf", "dateSourceUrl": "https://democrats.org/dnc-releases-2024-party-platform-to-be-voted-on-at-convention/", "checkedAt": "2026-11-01", "note": "The old /2024/08/FINAL-MASTER-PLATFORM.pdf link returned 404. The current official file is hosted under /2025/07/ but remains the 2024 platform."},
+    {"id": "trump-bail-2025", "type": "executive-order-policy", "owner": "White House", "title": "Executive Order 14342: Taking Steps to End Cashless Bail to Protect Americans", "date": "2025-08-25", "url": "https://www.whitehouse.gov/presidential-actions/2025/08/taking-steps-to-end-cashless-bail-to-protect-americans/", "pinpoint": "Sections 1-3", "checkedAt": "2026-11-01"},
+    {"id": "trump-bail-2026", "type": "statement-of-administration-policy", "owner": "White House / OMB", "title": "Statement of Administration Policy: H.R. 5625", "date": "2026-05-13", "url": "https://www.whitehouse.gov/wp-content/uploads/2026/05/SAP-HR5625.pdf", "checkedAt": "2026-11-01"},
+    {"id": "trump-guns-2025", "type": "administration-litigation-position", "owner": "U.S. Department of Justice", "title": "United States amicus brief in Barnett v. Raoul", "date": "2025-06-13", "url": "https://www.justice.gov/crt/media/1404361/dl", "landingUrl": "https://www.justice.gov/crt/case-document/brief-amicus-barnett-v-raoul", "pinpoint": "Brief pages 3-5 and 22-27", "checkedAt": "2026-11-01"},
+    {"id": "trump-elections-2025", "type": "executive-order-policy", "owner": "White House", "title": "Executive Order 14248: Preserving and Protecting the Integrity of American Elections", "date": "2025-03-25", "url": "https://www.whitehouse.gov/presidential-actions/2025/03/preserving-and-protecting-the-integrity-of-american-elections/", "pinpoint": "Sections 2(a), 7", "checkedAt": "2026-11-01"},
+    {"id": "trump-hyde-2025", "type": "executive-order-policy", "owner": "White House", "title": "Executive Order 14182: Enforcing the Hyde Amendment", "date": "2025-01-24", "url": "https://www.whitehouse.gov/presidential-actions/2025/01/enforcing-the-hyde-amendment/", "pinpoint": "Sections 1-2", "checkedAt": "2026-11-01"},
+    {"id": "trump-immigration-2025", "type": "executive-order-policy", "owner": "White House", "title": "Executive Order 14159: Protecting the American People Against Invasion", "date": "2025-01-20", "url": "https://www.whitehouse.gov/presidential-actions/2025/01/protecting-the-american-people-against-invasion/", "pinpoint": "Sections 2, 9-11", "checkedAt": "2026-11-01"},
+    {"id": "trump-executive-2025", "type": "executive-order-policy", "owner": "White House", "title": "Executive Order 14215: Ensuring Accountability for All Agencies", "date": "2025-02-18", "url": "https://www.whitehouse.gov/presidential-actions/2025/02/ensuring-accountability-for-all-agencies/", "pinpoint": "Sections 1, 3, 7", "checkedAt": "2026-11-01"},
+    {"id": "illinois-judicial-code", "type": "judicial-conduct-rule", "owner": "Illinois Judicial Inquiry Board", "title": "Illinois Code of Judicial Conduct", "date": "2023-01-01", "dateMeaning": "Effective date displayed on official code page", "url": "https://jib.illinois.gov/code.html", "pinpoint": "Rules 2.2 and 2.4", "checkedAt": "2026-11-01"},
+    {"id": "rowe-2023", "type": "official-court-opinion", "owner": "Illinois Supreme Court", "title": "Rowe v. Raoul, 2023 IL 129248", "date": "2023-07-18", "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/79db4d0e-4bed-4cd2-bec1-88fc1ba8b904/Rowe%20v.%20Raoul,%202023%20IL%20129248.pdf", "pinpoint": "Paragraphs 51-53", "checkedAt": "2026-11-01"},
+    {"id": "illinois-rule-23", "type": "court-rule", "owner": "Illinois Supreme Court", "title": "Rule 23: Disposition of Cases in the Appellate Court", "date": "2025-06-03", "dateMeaning": "Most recent amendment shown in the current official rule", "url": "https://www.illinoiscourts.gov/resources/650f76b5-3cce-40b9-acc3-d93b1aced5f4/file", "pinpoint": "Subparts (b), (c), (e), (g)", "checkedAt": "2026-11-01"}
+  ],
+  "platformBaselines": [
+    {"id": "gop-arms", "topicId": "firearms-restrictions", "sourceId": "gop-2024", "pinpoint": "PDF page 6, promise 7", "position": "Protects the right to keep and bear arms.", "precisionLimit": "Too general alone to classify a particular restriction."},
+    {"id": "gop-elections", "topicId": "election-rules", "sourceId": "gop-2024", "pinpoint": "PDF page 21, chapter 9 section 6", "position": "Favors voter identification, citizenship proof, paper ballots, and same-day voting.", "precisionLimit": "Separate each rule; do not infer every deadline or registration rule."},
+    {"id": "gop-reproductive", "topicId": "reproductive-access-funding", "sourceId": "gop-2024", "pinpoint": "PDF page 20, chapter 9 section 4", "position": "Favors state votes and laws on abortion, opposes late-term abortion, and supports contraception and IVF.", "precisionLimit": "Not a precise federal funding baseline or blanket national-ban commitment."},
+    {"id": "gop-immigration", "topicId": "immigration-authority-process", "sourceId": "gop-2024", "pinpoint": "PDF pages 12-13, chapter 2 sections 2, 3, 5", "position": "Favors deportation, local immigration-enforcement cooperation, and withholding specified sanctuary-jurisdiction funding.", "precisionLimit": "Does not resolve every due-process or state-authority question."},
+    {"id": "dem-guns", "topicId": "firearms-restrictions", "sourceId": "dem-2024", "pinpoint": "Printed page 40, Gun Safety", "position": "Supports universal checks, assault-weapon and high-capacity-magazine bans, safe storage, and a national red-flag law.", "precisionLimit": "Match a particular restriction; a firearm conviction is insufficient."},
+    {"id": "dem-elections", "topicId": "election-rules", "sourceId": "dem-2024", "pinpoint": "Printed pages 47-48, Voting Rights", "position": "Supports the John R. Lewis Voting Rights Advancement Act and Freedom to Vote Act.", "precisionLimit": "Inspect the referenced legislative provision before comparing a specific rule."},
+    {"id": "dem-reproductive", "topicId": "reproductive-access-funding", "sourceId": "dem-2024", "pinpoint": "Printed page 50, Reproductive Freedom", "position": "Supports nationwide Roe protections, contraception, IVF, medication abortion, and repealing Hyde.", "precisionLimit": "Separate access from funding and state law from federal law."},
+    {"id": "dem-immigration", "topicId": "immigration-authority-process", "sourceId": "dem-2024", "pinpoint": "Printed pages 66-67, asylum and emergency border authority", "position": "Favors fair, efficient asylum decisions and counsel access, with removal of people lacking lawful grounds to stay.", "precisionLimit": "Not a general opposition to immigration enforcement."},
+    {"id": "dem-bail-limit", "topicId": "pretrial-system", "sourceId": "dem-2024", "pinpoint": "Printed page 42, Criminal Justice", "position": "Opposes profiteering from bail; this does not establish an express position abolishing cash bail.", "precisionLimit": "Do not code cash-bail abolition from this language."}
+  ],
+  "trumpBaselines": [
+    {"id": "trump-cash-bail", "topicId": "pretrial-system", "sourceIds": ["trump-bail-2025", "trump-bail-2026"], "position": "Opposes federal support for jurisdictions substantially eliminating cash bail for specified public-safety offenses; directs identification of potentially suspendable funds subject to law.", "precisionLimit": "System-wide bail policy or the specified funding condition only; ordinary Illinois detention/release is not comparable."},
+    {"id": "trump-common-use-arms", "topicId": "firearms-restrictions", "sourceIds": ["trump-guns-2025"], "position": "DOJ argues Illinois cannot prohibit law-abiding citizens' possession of the AR-15s and other firearms, magazines, and attachments in common lawful use addressed in its brief.", "precisionLimit": "Advocacy, not a court ruling; retain the brief's category limits and distinguish possession restrictions from unrelated disqualifications."},
+    {"id": "trump-registration-documents", "topicId": "election-rules", "sourceIds": ["trump-elections-2025"], "pinpoint": "Section 2(a)", "position": "Seeks documentary citizenship proof on the federal mail voter-registration form.", "precisionLimit": "Not the same as every state registration rule or candidate nomination requirement."},
+    {"id": "trump-ballot-receipt", "topicId": "election-rules", "sourceIds": ["trump-elections-2025"], "pinpoint": "Section 7", "position": "Seeks an Election Day receipt deadline for federal-election ballots; its funding provision excepts UOCAVA ballots.", "precisionLimit": "Do not describe this as presently enforceable election guidance without a fresh litigation and law check."},
+    {"id": "trump-federal-abortion-funding", "topicId": "reproductive-access-funding", "sourceIds": ["trump-hyde-2025"], "position": "Opposes federal taxpayer funding or promotion of elective abortion and revokes two Biden reproductive-health orders.", "precisionLimit": "Federal funding policy, not a blanket abortion-ban position; match funding source and legally authorized exceptions."},
+    {"id": "trump-immigration-enforcement", "topicId": "immigration-authority-process", "sourceIds": ["trump-immigration-2025"], "position": "Favors expanded immigration enforcement, expedited removal, legally permitted detention pending removal, and federal-state enforcement agreements.", "precisionLimit": "Does not establish a policy of eliminating all due process. Compare the exact authority or procedure."},
+    {"id": "trump-executive-supervision", "topicId": "federal-executive-authority", "sourceIds": ["trump-executive-2025"], "position": "Favors presidential supervision of executive and independent regulatory agencies and executive employees following President/Attorney General legal interpretations.", "precisionLimit": "Federal executive-branch scope only; the order does not govern courts and excludes Federal Reserve monetary-policy functions."}
+  ],
+  "legalContext": [
+    {"sourceId": "illinois-judicial-code", "finding": "Judges must apply law impartially regardless of personal approval and may not allow political interests to influence decisions. A ruling alone cannot establish personal political belief."},
+    {"sourceId": "rowe-2023", "finding": "The Illinois Supreme Court rejected the challenged constitutional objections to the pretrial-release provisions and directed implementation hearings beginning September 18, 2023. Routine compliance is not an endorsement of the policy."},
+    {"sourceId": "illinois-rule-23", "finding": "A publicly available Rule 23 order is not automatically precedential. Subpart (e) limits its effect; qualifying written orders from January 1, 2021 onward may be cited persuasively. Preserve each decision's actual designation."},
+    {"finding": "Executive orders, litigation briefs, and party platforms serve here as evidence of dated policy positions. Current enforceability, intervening amendments, and all related litigation were not certified in this catalog."}
+  ],
+  "caseFieldContract": {
+    "requiredCaseFields": ["judgeId", "caseName", "citationOrDocket", "court", "decisionDate", "judgeRole", "decisionUrl", "decisionPinpoints", "questionPresented", "holding", "governingLaw", "bindingConstraint", "precedentialStatus", "laterTreatment", "statusCheckedAt", "policyOverlap"],
+    "judgeRoleValues": ["author", "joined-majority", "concurrence", "dissent", "trial-ruling-described-on-appeal"],
+    "policyOverlap": {
+      "topicId": "One of fixedTopics.id",
+      "comparisonProposition": "One concrete question; split distinct questions into separate entries.",
+      "republican": {"status": "aligns|in-tension|mixed|not-comparable|insufficient", "explanation": "Required, including the exact issue or missing evidence.", "baselineIds": [], "decisionPinpoints": [], "caution": "Required for affirmative comparison."},
+      "democratic": {"status": "aligns|in-tension|mixed|not-comparable|insufficient", "explanation": "Required, including the exact issue or missing evidence.", "baselineIds": [], "decisionPinpoints": [], "caution": "Required for affirmative comparison."},
+      "trump": {"status": "aligns|in-tension|mixed|not-comparable|insufficient", "explanation": "Required, including the exact issue or missing evidence.", "baselineIds": [], "decisionPinpoints": [], "caution": "Required for affirmative comparison."},
+      "comparisonDate": "YYYY-MM-DD",
+      "retrospective": "Boolean: decision predates policy source",
+      "reviewStatus": "research-only|second-reader-verified"
+    },
+    "sourceResolution": "Each baselineId resolves to sourceId/sourceIds carrying source URLs, dates and pinpoints. Render these beside the comparison rather than burying them in a general source page.",
+    "nullRule": "Use null and a visible explanation for unknown facts. Never manufacture an appeal date, vote, party position, holding, or source pinpoint."
+  }
+}

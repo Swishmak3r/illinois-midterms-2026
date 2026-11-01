@@ -1,0 +1,61 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "/root/source_review_12/batch1b_reader/ryan_walowski",
+  "method": "Independently read the complete cached text extracted from all four primary Illinois Courts PDFs, including Saucedo concurrence. Verified each PDF hash against the researchers source ledger. No new source text was inferred from search results.",
+  "scope": "All selected rulings for Kristyna Colleen Ryan and Ursula Walowski in research-batch-1b.json",
+  "cases": [
+    {
+      "candidateId": "sbe-cook-circuit-retain-ryan-kristyna-colleen-ryan",
+      "caseName": "People v. Saucedo",
+      "citation": "2024 IL App (1st) 232020",
+      "date": "2024-01-22",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/7d0d26e8-fcc9-4dfe-afbc-06797cf210b9/file",
+      "sourceSha256": "d7673e258a4460c1191ddd3fa4eae66604a48b1c2f9eb07ca95d1b74de5242f9",
+      "hashMatches": true,
+      "readScope": "Complete primary PDF text including captions and all opinion paragraphs",
+      "result": "verified-with-pinpoint-refinement",
+      "notes": "Read the full 22-page PDF text, including the published opinion and Ellis concurrence through paragraph 123. The caption identifies Kristyna C. Ryan; paragraphs 23-24 support the October 17 detention order and the applicable proof burden. Paragraphs 38-60 support affirmance and a fair second hearing. The ledger distinguishes errors in the prior October 14 order and an amended prior charge. Ellis is an appellate justice, not Ryan. Extend the last citation range to paragraphs 62-67."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-ryan-kristyna-colleen-ryan",
+      "caseName": "People v. Arrieta",
+      "citation": "2026 IL App (1st) 241513-U",
+      "date": "2026-02-04",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/86fc74b9-ddcf-41eb-8f4d-fef17b3c2783/file",
+      "sourceSha256": "66f5a0cd77c6c78dd18e2e84a679c04ca8605381a03824165b1b7b06b2b72b12",
+      "hashMatches": true,
+      "readScope": "Complete primary PDF text including captions and all opinion paragraphs",
+      "result": "verified",
+      "notes": "Read the complete 11-page Rule 23 order, paragraphs 1-47. The caption identifies Ryan. Paragraphs 27-30 support the evidence exclusion, directed finding, guilty findings and reasoning; paragraph 32 supports review of the video. Paragraph 35 limits the appeal to the DUI count; paragraphs 46-47 affirm."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-walowski-ursula-walowski",
+      "caseName": "People v. Muhammad-Ali",
+      "citation": "2021 IL App (1st) 171721-U",
+      "date": "2021-01-22",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/1171721_R23.pdf/opinion",
+      "sourceSha256": "753ac75ad453929ec44eca6e9cc0554954d5e8cc10b69e615cfa7fa88ca9c1aa",
+      "hashMatches": true,
+      "readScope": "Complete primary PDF text including captions and all opinion paragraphs",
+      "result": "verified",
+      "notes": "Read the complete 12-page Rule 23 order, paragraphs 1-34. The caption identifies Walowski. Paragraph 9 distinguishes both denied continuances and one hospital-related delay; paragraph 15 records the new-trial denial. Paragraphs 25-30 support the fair-trial reversal; paragraphs 33-34 order a new trial. The appellate court did not decide the other asserted errors."
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-walowski-ursula-walowski",
+      "caseName": "People v. Wilson",
+      "citation": "2020 IL App (1st) 181465-U",
+      "date": "2020-09-28",
+      "sourceUrl": "https://www.illinoiscourts.gov/files/1181465_R23.pdf/opinion",
+      "sourceSha256": "c1a3977058c5e371a784e56019287c7d6a098fe2e88cf803e8a79429b8152447",
+      "hashMatches": true,
+      "readScope": "Complete primary PDF text including captions and all opinion paragraphs",
+      "result": "verified",
+      "notes": "Read the complete 5-page Rule 23 order, paragraphs 1-20. The caption identifies Walowski. The jury found guilt; the judge separately denied a new trial. Paragraphs 12-14 record the trial action and paragraphs 17-20 explain affirmance. The ledger does not attribute the jury finding to the judge."
+    }
+  ],
+  "overall": "Substantive claims verified; minor Saucedo paragraph-reference extension requested.",
+  "limits": [
+    "No complete subsequent docket/citator review was performed. Existing historical and later-treatment limitations remain necessary.",
+    "This is source-accuracy review, not an evaluation of judicial merit or political ideology."
+  ]
+}

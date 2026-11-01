@@ -1,0 +1,257 @@
+{
+  "auditDate": "2026-11-01",
+  "judge": "James A. Knecht",
+  "candidateId": "sbe-4th-appellate-retain-knecht-james-a-knecht",
+  "court": "Illinois Appellate Court, Fourth District",
+  "scope": "Four selected appellate decisions, historical election context and 2026 bar assessment. Research only.",
+  "method": "Downloaded the official Illinois Courts PDFs and read every paragraph of each of the four selected decisions, including the dissent in Post. Confirmed panel membership on the cover or first page. Read the later Morgan standard-of-review holding separately. Visually inspected the 1986 party advertisement on newspaper page 8. Raw sources are in work/judicial-research/knecht, outside this repository.",
+  "limits": [
+    "This is a purposive issue sample, not a complete voting record, statistical measure, reversal rate, or judicial quality score.",
+    "Case outcomes establish judicial actions and legal reasoning; they do not establish personal party affiliation, support for Donald Trump, or a numeric ideological score.",
+    "A targeted subsequent-history search did not establish complete appeal histories for these four cases. The listed disposition is the verified action on the stated opinion date. Do not describe the litigation as finally concluded as of this audit.",
+    "Post and Rojas are Rule 23 orders. Their notices say they are not precedent except in the limited circumstances allowed under Rule 23(e)(1).",
+    "The selected 2024 detention decisions predate People v. Morgan, 2025 IL 130626. Their abuse-of-discretion language should not be presented as the current general standard of review.",
+    "No verified substantive decision on abortion access, immigration, presidential power, LGBTQ rights, or election validity is established by this four-case sample. Rojas concerns employment-loss mitigation, not the legality of abortion.",
+    "Historical appellate-campaign party is separate from the nonpartisan 2026 retention question. The historical record does not establish current party affiliation or current political preferences."
+  ],
+  "career": {
+    "appellateFirstElected": 1986,
+    "priorService": "Associate circuit judge, 1975–1978; circuit judge, 1978–1986.",
+    "sourceUrl": "https://www.illinoiscourts.gov/justice/42/James-A-Knecht/justice/",
+    "sourceTitle": "Illinois Courts official biography: James A. Knecht",
+    "checked": "2026-11-01"
+  },
+  "historicalElectionParty": {
+    "party": "Republican",
+    "year": 1986,
+    "recommendedDisplay": "Historical election context: Republican ticket, 1986 appellate campaign",
+    "sourceType": "Contemporaneous party advertisement, preserved by a public-library newspaper archive",
+    "sourceUrl": "https://www.chatswortharealibraryil.org/files/efa0d7ebd/1986-10-30.pdf#page=8",
+    "sourceTitle": "The Chatsworth Plaindealer, October 30, 1986, page 8",
+    "sourceDetail": "The advertisement headed The Republican Ticket for Livingston County in 1986 names James A. Knecht for Illinois Appellate Court Judge, Fourth Judicial District. The footer identifies the Livingston County Republican Central Committee as the payer. The adjacent Rick Jones article also identifies Knecht as a Republican running unopposed for the Ben Miller vacancy.",
+    "verification": "Downloaded original issue and visually inspected PDF page 8; publication's printed page number is Eight. Official court biography independently confirms election to the appellate court in 1986. No official 1986 canvass was successfully downloaded; this party source is a contemporaneous party publication rather than an election-office certification.",
+    "currentRetentionParty": "Nonpartisan",
+    "notEvidenceOf": "Current party affiliation, Trump endorsement, or personal ideology"
+  },
+  "barAssessments": [
+    {
+      "year": 2026,
+      "organization": "Illinois State Bar Association",
+      "type": "Institutional judicial evaluation",
+      "ratingAsPublished": "Yes",
+      "meaning": "ISBA recommends retention. Its narrative describes professional respect, fairness to litigants and lawyers, and preparation for oral argument.",
+      "sourceUrl": "https://www.isba.org/judicial-elections/reports/all-results",
+      "sourceTitle": "2026 General Election: Results for All Counties Outside Cook",
+      "reference": "Fourth Judicial District Appellate Court — Retention — James Knecht",
+      "checked": "2026-11-01"
+    },
+    {
+      "year": 2026,
+      "organization": "Illinois State Bar Association",
+      "type": "Judicial advisory poll of responding lawyers",
+      "ratingAsPublished": "Recommended",
+      "recommendationPercent": 81.58,
+      "numberOfRespondents": 38,
+      "meaning": "A separate advisory poll. ISBA states these are the opinions of lawyers who chose to respond, not the opinion of the association. This percentage is not an ideological score or a vote forecast.",
+      "sourceUrl": "https://www.isba.org/judicial-elections/reports/all-results",
+      "sourceTitle": "2026 General Election: Results for All Counties Outside Cook",
+      "reference": "Fourth Judicial District Appellate Court — Retention — James Knecht",
+      "checked": "2026-11-01"
+    }
+  ],
+  "laterLegalContext": [
+    {
+      "case": "People v. Morgan",
+      "citation": "2025 IL 130626",
+      "date": "2025-02-06",
+      "court": "Illinois Supreme Court",
+      "reference": "paragraph 54",
+      "holding": "Detention decisions and supporting factual findings receive manifest-weight review where live witness testimony was presented. Where the hearing proceeds solely through proffers and documentary evidence, the reviewing court independently reviews that evidence de novo.",
+      "relationship": "Later controlling standard-of-review guidance, not a subsequent appeal in Woods or Post. Knecht did not sit on this Supreme Court decision.",
+      "sourceUrl": "https://www.illinoiscourts.gov/resources/3de9a402-ff0b-4746-b368-5ed59cfea347/People%20v.%20Morgan%2C%202025%20IL%20130626.pdf"
+    }
+  ],
+  "cases": [
+    {
+      "id": "knecht-woods-2024",
+      "case": "People v. Woods",
+      "citation": "2024 IL App (4th) 240190",
+      "date": "2024-04-25",
+      "court": "Illinois Appellate Court, Fourth District",
+      "docket": "4-24-0190",
+      "role": "Authored the court's opinion",
+      "panel": "Knecht authored; Doherty and Lannerd concurred in the judgment and opinion.",
+      "precedentialStatus": "Published opinion; official-reports PDF",
+      "topic": "Pretrial detention and alleged drug dealing",
+      "issue": "Whether the prosecution established a qualifying offense and an individualized danger to the community under the Pretrial Fairness Act.",
+      "holding": "Affirmed detention. Alleged possession of more than three times the statutory cocaine threshold, multiple prior drug-delivery convictions and alleged continued offending while on parole supported dangerousness.",
+      "reasoning": "The opinion rejected the suggestion that nonviolent drug history could not support dangerousness when combined with the statutory recognition of drug-related harm. It expressly left open whether generalized drug harm alone would suffice. An erroneous checked box describing violent history was harmless on this record.",
+      "stageAndLimits": "Merits review of a detention order, not a finding of criminal guilt or a ruling on the constitutionality of ending cash bail.",
+      "disposition": "Affirmed",
+      "evidence": [
+        {
+          "reference": "cover, PDF p.1",
+          "supports": "Date, court, panel and disposition"
+        },
+        {
+          "reference": "paragraphs 13–14",
+          "supports": "Presumption of release and qualifying-offense analysis"
+        },
+        {
+          "reference": "paragraphs 19–22",
+          "supports": "Dangerousness rationale, reserved question and harmless error"
+        },
+        {
+          "reference": "paragraphs 23–27",
+          "supports": "Conditions argument and final disposition"
+        }
+      ],
+      "laterStatus": "No later case-specific disposition verified. Later Morgan (2025) changed the general appellate review framework; Woods used abuse-of-discretion review.",
+      "policyComparison": {
+        "status": "Not directly comparable",
+        "reason": "Individualized application of Illinois detention law; does not establish support for a national party's cash-bail policy or a personal view about defendants generally."
+      },
+      "sourceUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/db1a0f3d-0d27-4415-bcc7-437030012b7b/People%20v.%20Woods%2C%202024%20IL%20App%20%284th%29%20240190.pdf",
+      "rawFile": "woods.pdf",
+      "fullyRead": true,
+      "sha256": "5583ed2b425c12b754d4a81c3fcdf2bdce2cc30da9c5a8b0a69978d69d266fd9"
+    },
+    {
+      "id": "knecht-post-2024",
+      "case": "People v. Post",
+      "citation": "2024 IL App (4th) 241002-U",
+      "date": "2024-10-22",
+      "court": "Illinois Appellate Court, Fourth District",
+      "docket": "4-24-1002",
+      "role": "Joined the majority judgment",
+      "panel": "Grischow authored; Knecht concurred in the judgment; DeArmond dissented.",
+      "precedentialStatus": "Rule 23 nonprecedential order, subject to the exceptions stated in the order",
+      "topic": "Individualized findings before pretrial detention",
+      "issue": "Whether a detention petition was timely and whether the trial court explained why release conditions could not mitigate danger.",
+      "holding": "The petition was timely, but the detention order was vacated and the case remanded for a prompt new detention hearing because the trial court's findings were insufficient for meaningful appellate review.",
+      "reasoning": "Serious charges and dangerousness alone do not resolve whether conditions can mitigate risk. The trial court had not explained why proposed relocation, monitoring, supervision or no-contact restrictions were inadequate; prior failure to pay fines did not supply that explanation.",
+      "stageAndLimits": "Procedural adequacy of detention findings; the panel did not acquit the accused or order unconditional release. The prosecution could present evidence at the new hearing. The dissent considered the existing findings sufficient and the appellate claim forfeited.",
+      "disposition": "Vacated and remanded, 2–1",
+      "evidence": [
+        {
+          "reference": "PDF p.1, panel and paragraph 1",
+          "supports": "Role, date and stated holding"
+        },
+        {
+          "reference": "paragraph 22",
+          "supports": "Timely petition under Supreme Court's Clark decision"
+        },
+        {
+          "reference": "paragraphs 25–29",
+          "supports": "Statutory safeguards, deficient findings and remedy"
+        },
+        {
+          "reference": "paragraphs 31–35",
+          "supports": "Disposition and dissent"
+        }
+      ],
+      "laterStatus": "The post-remand hearing and later case-specific appellate history were not verified. Later Morgan (2025) supplies the current general standard-of-review framework.",
+      "policyComparison": {
+        "status": "Not directly comparable",
+        "reason": "Enforces individualized detention procedure within existing Illinois law. Neither a detention order nor its procedural reversal alone establishes party alignment."
+      },
+      "sourceUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/12fd59c6-8496-469b-9190-a29caef0b2f7/People%20v.%20Post%2C%202024%20IL%20App%20%284th%29%20241002-U.pdf",
+      "rawFile": "post.pdf",
+      "fullyRead": true,
+      "sha256": "c6f267468c4723791afb1bc7ed6a5a1cc40c295716896ef88be9db8d4b042f53"
+    },
+    {
+      "id": "knecht-cadengo-2025",
+      "case": "People v. Cadengo",
+      "citation": "2025 IL App (4th) 240568",
+      "date": "2025-05-12",
+      "court": "Illinois Appellate Court, Fourth District",
+      "docket": "4-24-0568",
+      "role": "Joined the opinion and judgment",
+      "panel": "Vancil authored; Knecht and Cavanagh concurred in the judgment and opinion.",
+      "precedentialStatus": "Published opinion; official-reports PDF dated May 12, 2025, rather than the earlier Rule 23 version",
+      "topic": "Second Amendment and substantive due process",
+      "issue": "Permanent surrender of firearms and FOID card following a felony conviction; constitutionality of an identity-theft provision.",
+      "holding": "Upheld the firearm-surrender order following a felony stalking conviction, rejecting facial and as-applied Second Amendment challenges. Separately struck the identity-theft provision and vacated that conviction, while otherwise affirming.",
+      "reasoning": "Following Fourth District precedent, the panel treated convicted felons, including nonviolent felons, as outside the protection it attributed to law-abiding citizens. It read Rahimi as not deciding categorical felony disarmament. Applying the Illinois Supreme Court's Madrigal precedent and accepting the State's concession, it found the identity-theft clause irrationally criminalized innocent information searches.",
+      "stageAndLimits": "Gun-surrender and identity-theft issues were constitutional merits rulings. The separate felon-in-possession criminal statute, section 24-1.1, was not reviewed on its merits because the defendant lacked standing to challenge an offense with which she was not charged.",
+      "disposition": "Affirmed in part and vacated in part, unanimous",
+      "evidence": [
+        {
+          "reference": "cover, PDF p.1",
+          "supports": "Panel, date and disposition"
+        },
+        {
+          "reference": "paragraphs 33–40",
+          "supports": "Identity-theft due-process ruling and State concession"
+        },
+        {
+          "reference": "paragraphs 55–63",
+          "supports": "Standing distinction and permanent nature of surrender order"
+        },
+        {
+          "reference": "paragraphs 64–72",
+          "supports": "Second Amendment holdings, precedent and nonviolent-felony reasoning"
+        },
+        {
+          "reference": "paragraphs 81–82",
+          "supports": "Final disposition"
+        }
+      ],
+      "laterStatus": "No later case-specific appellate disposition verified. Do not claim a complete current-law treatment or that all felony-disarmament questions are settled nationally.",
+      "policyComparison": {
+        "status": "Narrow issue potentially comparable; baseline review required",
+        "axis": "Keeping firearms restrictions following felony convictions, including nonviolent felony convictions",
+        "reason": "This is an actual constitutional ruling on firearm restrictions. A generic pro-gun versus gun-safety platform is too broad to establish the parties' positions on this precise felony-disarmament rule. Root's independently sourced baseline must establish a genuine match before any overlap label. No personal Trump-support inference."
+      },
+      "sourceUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/1a605535-f80a-4a05-8c48-4a02d6cf33bf/People%20v.%20Cadengo%2C%202025%20IL%20App%20%284th%29%20240568.pdf",
+      "rawFile": "cadengo.pdf",
+      "fullyRead": true,
+      "sha256": "1716deef146117564f19482babbd4d543dbd1d6022c3f5403c01faee3f226528"
+    },
+    {
+      "id": "knecht-rojas-2023",
+      "case": "Rojas v. Martell",
+      "citation": "2023 IL App (4th) 220222-U",
+      "date": "2023-02-22",
+      "court": "Illinois Appellate Court, Fourth District",
+      "docket": "4-22-0222",
+      "role": "Authored the court's order",
+      "panel": "Knecht authored; Cavanagh and Steigmann concurred in the judgment.",
+      "precedentialStatus": "Rule 23 nonprecedential order, subject to the exceptions stated in the order",
+      "topic": "Damages after religious-conscience employment discrimination",
+      "issue": "Whether a nurse who objected to certain contraception and abortion-related services failed to mitigate her employment losses by not pursuing another county nursing job.",
+      "holding": "Affirmed the finding of failure to mitigate damages and dismissed the employer's conditional cross-appeal. The existing judgment for the nurse, including the statutory minimum recovery and fees, remained intact.",
+      "reasoning": "The trial court could find the alternative nursing job substantially equivalent based on pay, benefits, pension preservation, qualifications and similar responsibilities, despite differences in patients and duties. The appellate court found no legal error and no finding against the manifest weight of the evidence.",
+      "stageAndLimits": "Merits review of damages mitigation. Whether the employer violated the Health Care Right of Conscience Act had already been decided for the nurse and was not the merits issue under review. This order does not decide abortion access, fetal personhood or a constitutional right to refuse care.",
+      "disposition": "Affirmed; cross-appeal dismissed",
+      "evidence": [
+        {
+          "reference": "PDF p.1, panel; paragraphs 1–6",
+          "supports": "Role, date, judgment below and limited issues on appeal"
+        },
+        {
+          "reference": "paragraphs 29–35",
+          "supports": "Review standards and accepted mitigation framework"
+        },
+        {
+          "reference": "paragraphs 37–43",
+          "supports": "Rationale and explicit separation of liability from damages"
+        },
+        {
+          "reference": "paragraphs 45–46",
+          "supports": "Disposition"
+        }
+      ],
+      "laterStatus": "No later case-specific disposition verified. The opinion describes an earlier 2020 Second District certified-question appeal; that is not a Knecht-authored appellate ruling.",
+      "policyComparison": {
+        "status": "Not directly comparable",
+        "reason": "Abortion and conscience objections are background facts. The legal question decided was mitigation of employment losses, so assigning an abortion-rights or religious-liberty party label would overstate the ruling."
+      },
+      "sourceUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/1e165121-5f14-4cd5-9439-a56731420917/Rojas%20v.%20Martell%2C%202023%20IL%20App%20%284th%29%20220222-U.pdf",
+      "rawFile": "rojas.pdf",
+      "fullyRead": true,
+      "sha256": "dacb15809b45e387e9f9ec0e19639dc87d6a44e4e4b941e0e2e87cad9112efb5"
+    }
+  ]
+}

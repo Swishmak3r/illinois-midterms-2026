@@ -1,0 +1,330 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Amy M. Bertani-Tomczak and Sarah Jones, Will County, Illinois",
+  "purpose": "Evidence ledger for 2026 retention profiles. These are trial-court actions described by reviewing courts, not appellate opinions authored by the retention judges.",
+  "methodology": [
+    "Read the official Illinois Courts PDF texts, including procedural posture and disposition. Search snippets were leads only.",
+    "Separate trial action and stated reasoning from the reviewing court's analysis. A criminal sentence, conviction, affirmance, or reversal is not coded as a party vote.",
+    "This selected-case sample is not a complete docket audit or an estimated reversal rate. No personal ideology, current partisan affiliation, Trump support, or numeric Trump score is inferred.",
+    "Subsequent-history searches are limited public-web checks, not a citator or live docket certification. Unknown later proceedings remain explicit."
+  ],
+  "judges": [
+    {
+      "name": "Amy M. Bertani-Tomczak",
+      "raceId": "will-retention-amy-m-bertani-tomczak",
+      "court": "Circuit Court of the 12th Judicial Circuit, Will County",
+      "rulings": [
+        {
+          "id": "bertani-sanders-2024",
+          "caseName": "People v. Sanders",
+          "citation": "2024 IL App (3d) 230504-U",
+          "appealDocket": "3-23-0504",
+          "circuitDocket": "23-CF-1202",
+          "decisionDate": "2024-01-02",
+          "trialActionDate": "2023-10-06",
+          "reviewingCourt": "Illinois Appellate Court, Third District",
+          "judgeRole": "Trial judge, identified in caption; not an appellate panel member.",
+          "issue": "Pretrial detention and whether release conditions could mitigate danger.",
+          "trialAction": "Granted the State's petition to detain a defendant accused of armed vehicular hijacking and robbery.",
+          "trialReasoning": "The reported explanation emphasized a handgun, bodily harm, an elderly victim, alleged car hijacking, and masks.",
+          "appellateDisposition": "Affirmed 2–1. The majority found the evidence and circumstances sufficient under the detention statute and abuse-of-discretion review. Justice McDade dissented because the State had not supplied evidence that conditions could not mitigate danger.",
+          "appellateAuthors": "Justice Albrecht; Justice Hettel concurred; Justice McDade dissented.",
+          "paragraphs": [
+            "Caption",
+            "¶¶ 4–6 (trial action)",
+            "¶¶ 9–12 (majority)",
+            "¶¶ 17–23 (dissent)"
+          ],
+          "supportingExcerpt": {
+            "paragraph": "¶ 6",
+            "text": "handgun, bodily harm, senior citizen, an alleged hijacking of a car, masks"
+          },
+          "primaryUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/890109e1-826a-4af2-878c-88441f430d8f/People%20v.%20Sanders%2C%202024%20IL%20App%20%283d%29%20230504-U.pdf",
+          "publicationStatus": "Rule 23 order, not precedent except as allowed by Rule 23(e)(1). Official index metadata still labels it Slip as of November 1, 2026.",
+          "subsequentHistory": "No later case-specific disposition independently established by this review.",
+          "asOf": "2026-11-01",
+          "possibleIssueComparison": "Pretrial liberty versus detention for case-specific public-safety risks.",
+          "comparisonLimit": "Applying Illinois' detention statute in one violent-crime case does not establish opposition to bail reform, a political party preference, or Trumpism.",
+          "sourceSha256": "ea9b087835bf8cdaa9740450af165d06fa85f0413439162816e49bcf8fdce784",
+          "sourceArchive": "../judicial-research/will-bertani-jones/bertani-sanders-2024.pdf",
+          "indexStatus": "Slip"
+        },
+        {
+          "id": "bertani-landerman-2026",
+          "caseName": "People v. Landerman",
+          "citation": "2026 IL App (3d) 250107",
+          "appealDocket": "3-25-0107",
+          "circuitDocket": "13-CF-98",
+          "decisionDate": "2026-10-15",
+          "trialActionDate": "2025-02-26",
+          "reviewingCourt": "Illinois Appellate Court, Third District",
+          "judgeRole": "Trial judge, identified in caption; not an appellate panel member.",
+          "issue": "Access to an evidentiary hearing on a young adult's constitutional challenge to mandatory life imprisonment.",
+          "trialAction": "Dismissed the amended postconviction petition at its second stage.",
+          "trialReasoning": "The opinion reports only that she reviewed the petition and dismissal motion; it does not supply a fuller trial rationale. The original life sentence was mandatory.",
+          "appellateDisposition": "Affirmed dismissal of the federal Eighth Amendment claim; reversed dismissal of the Illinois proportionate-penalties claim and remanded. The expert report and case-specific allegations warranted an evidentiary hearing. The court did not invalidate the sentence.",
+          "appellateAuthors": "Justice Peterson; Justices Holdridge and Davenport concurred.",
+          "paragraphs": [
+            "Caption",
+            "¶ 7 (mandatory sentence)",
+            "¶¶ 9–12 (procedural history and dismissal)",
+            "¶¶ 16–24 (review and result)"
+          ],
+          "supportingExcerpt": {
+            "paragraph": "¶ 22",
+            "text": "Absent an evidentiary hearing, the dismissal of defendant’s petition was premature."
+          },
+          "primaryUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/6a963f67-bb4e-43d0-a4c0-8c4e7f483391/People%20v.%20Landerman%202026%20IL%20App%20%283d%29%20250107.pdf",
+          "publicationStatus": "Slip opinion, listed as Slip on the official index when checked. The opinion may change on rehearing.",
+          "statusSourceUrl": "https://www.illinoiscourts.gov/top-level-opinions?d=3&t=appellate",
+          "subsequentHistory": "A 2022 order had reversed first-stage dismissal and ordered second-stage proceedings. No later disposition of the October 2026 opinion or remand independently established.",
+          "earlierPrimaryUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/0737fe6a-2cf3-4f43-b78d-f531f1ac3542/People%20v.%20Landerman%2C%202022%20IL%20App%20%283d%29%20190597-U.pdf",
+          "asOf": "2026-11-01",
+          "possibleIssueComparison": "Sentencing review, rehabilitation, and emerging-adult constitutional claims.",
+          "comparisonLimit": "This is a procedural entitlement-to-hearing decision. Do not label the mandatory original sentence a discretionary ideological choice or call the defendant exonerated.",
+          "sourceSha256": "405aa1e9d19ffde782a38df3edcff20af75888dbdf3efeb30629430be484fec0",
+          "sourceArchive": "../judicial-research/will-bertani-jones/bertani-landerman-2026.pdf"
+        }
+      ],
+      "coverageGaps": [
+        "No verified trial merits ruling on abortion, LGBTQ rights, elections, immigration, presidential power, or Trump-specific conduct found in the targeted searches.",
+        "Ballard's appellate gun-law discussion was located as a lead, but not used as Bertani-Tomczak's constitutional position because trial-level adjudication of that issue was not established."
+      ],
+      "historicalElectionParty": {
+        "party": "Republican",
+        "electionDate": "1996-11-05",
+        "ballotName": "AMY M. BERTANI",
+        "office": "12th Judicial Circuit, Angelo F. Pistilli vacancy",
+        "finding": "The original Will County canvass lists Amy M. Bertani as REPB, with 82,842 votes, against Robert C. Lorz (DEMO), with 55,541.",
+        "sourceUrl": "https://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/will-il.connect.clarityelections.com/CanvassBooks/1990s/1996/November1996CanvassBook.pdf",
+        "primarySource": "Will County Clerk, November 5, 1996 canvass",
+        "pageReferences": [
+          "PDF pages 98–105 (race)",
+          "PDF page 105 (totals and party key)"
+        ],
+        "sourceSha256": "e602e45a7bb8f8fe176a0191381e750e122361e123606f91ea3444b54567714b",
+        "verification": "Original PDF downloaded; text read; page 105 scan visually inspected.",
+        "nameCaveat": "The ballot uses the shorter name Amy M. Bertani; retain that wording when citing the historical record.",
+        "interpretation": "Historical ballot party only. It does not establish present affiliation, personal ideology, a Trump endorsement, or the party of the nonpartisan 2026 retention question.",
+        "firstElectionClaim": "Not asserted; the record establishes a 1996 election, not that no earlier election occurred.",
+        "identityCorroboration": {
+          "sourceUrl": "https://illinoisjudges.law.northwestern.edu/files/Circuit-NonCook-Alpha.pdf",
+          "sourceTitle": "Northwestern Law, Illinois Circuit Judges excluding Cook County, alphabetical (2015)",
+          "pageReference": "PDF page 2, row 34",
+          "sourceType": "Authoritative academic compilation, secondary to original canvass",
+          "finding": "Row 34 identifies Amy M. Bertani-Tomczak, Will County circuit 12, election in 1996, Republican. Read directly to corroborate the shorter name on the original canvass."
+        }
+      }
+    },
+    {
+      "name": "Sarah Jones",
+      "raceId": "will-retention-sarah-jones",
+      "court": "Circuit Court of the 12th Judicial Circuit, Will County",
+      "rulings": [
+        {
+          "id": "jones-green-2014",
+          "caseName": "People v. Green",
+          "citation": "2014 IL App (3d) 120522",
+          "appealDocket": "3-12-0522",
+          "circuitDocket": "09-CF-78",
+          "decisionDate": "2014-08-26",
+          "modifiedOnDenialOfRehearing": "2014-10-02",
+          "trialActionDate": null,
+          "reviewingCourt": "Illinois Appellate Court, Third District",
+          "judgeRole": "Trial judge, identified in caption; not an appellate panel member.",
+          "issue": "Police stop, due process, and admissibility of custodial statements after part of an interrogation went unrecorded.",
+          "trialAction": "Denied suppression and quashing of arrest, finding a lawful investigatory stop and voluntary, reliable statements. Found the recording failure unintentional.",
+          "trialReasoning": "The reported findings considered the stop circumstances, the defendant's age and capacities, and his lack of objection when officers repeated his earlier statement after recording began.",
+          "appellateDisposition": "Affirmed. The panel found reasonable suspicion, no due-process violation, and sufficient voluntariness/reliability under the statutory exception, considering Miranda waiver, food/restroom opportunities, and the overall interrogation.",
+          "appellateAuthors": "Justice McDade; Justices Holdridge and O’Brien concurred.",
+          "paragraphs": [
+            "Caption",
+            "¶¶ 1–3 (ruling/posture)",
+            "¶¶ 27–45 (stop/due process)",
+            "¶¶ 47–62 (statements)",
+            "¶¶ 64–65 (result)"
+          ],
+          "supportingExcerpt": {
+            "paragraph": "¶ 51",
+            "text": "The trial court found that the failure to record was unintentional."
+          },
+          "primaryUrl": "https://www.illinoiscourts.gov/files/3120522.pdf/opinion",
+          "publicationStatus": "Final, according to the official index metadata saved in will-index-sarah-jones.json; modified on denial of rehearing October 2, 2014.",
+          "subsequentHistory": "No later case-specific disposition independently established by this review.",
+          "asOf": "2026-11-01",
+          "possibleIssueComparison": "Police investigative authority and protections against unlawful seizure or involuntary statements.",
+          "comparisonLimit": "A fact-specific suppression ruling is not a position on police immunity, federal policing policy, party affiliation, or Trump.",
+          "sourceSha256": "072be566759cc9f85f8a7c7c9df4ecc03f99f5e23e1827dd624ea4dceb7c924f",
+          "sourceArchive": "../judicial-research/will-bertani-jones/jones-green-2014.pdf",
+          "recordingCaveat": "At paragraph 52 the appellate panel cautioned that mere silence may not establish agreement with police summaries; that issue was not before it because the defendant conceded accuracy on appeal."
+        },
+        {
+          "id": "jones-haberkorn-2018",
+          "caseName": "People v. Haberkorn",
+          "citation": "2018 IL App (3d) 160599",
+          "appealDocket": "3-16-0599",
+          "circuitDocket": "15-CF-2656",
+          "decisionDate": "2018-04-03",
+          "trialActionDate": "2016-07",
+          "reviewingCourt": "Illinois Appellate Court, Third District",
+          "judgeRole": "Trial judge, identified in caption; not an appellate panel member.",
+          "issue": "Scope of a criminal restriction on a registered offender's presence at facilities serving children.",
+          "trialAction": "Denied a directed verdict and convicted Haberkorn after a bench trial for being on an Easter Seals field-trip bus; imposed probation.",
+          "trialReasoning": "The opinion describes the evidence and outcome, but does not set out Jones's full statutory rationale.",
+          "appellateDisposition": "Reversed conviction and sentence. The facility/program/bus also served adults; the State had not proved the statutory requirement that services be directed exclusively to children. Review was de novo, with the panel also finding evidence insufficient under a deferential standard.",
+          "appellateAuthors": "Justice Schmidt; Presiding Justice Carter and Justice McDade concurred.",
+          "paragraphs": [
+            "Caption",
+            "¶¶ 3–6 (context)",
+            "¶ 14 (directed-verdict denial)",
+            "¶ 19 (conviction)",
+            "¶¶ 25–32 (reversal)"
+          ],
+          "supportingExcerpt": {
+            "paragraph": "¶ 32",
+            "text": "Accordingly, we reverse defendant’s conviction and sentence."
+          },
+          "primaryUrl": "https://www.illinoiscourts.gov/files/3160599.pdf/opinion",
+          "publicationStatus": "Final, according to the official index metadata saved in will-index-sarah-jones.json.",
+          "subsequentHistory": "No later case-specific disposition independently established by this review.",
+          "asOf": "2026-11-01",
+          "possibleIssueComparison": "Strict construction of criminal restrictions and proof of each statutory element.",
+          "comparisonLimit": "The appellate policy criticism of broad offender-registration rules belongs to the appellate panel, not Jones. No party or Trump alignment is inferred from the conviction.",
+          "trialActionDateNote": "July 2016 is the reported commencement of the bench trial; exact conviction date was not stated in the reviewed opinion.",
+          "sourceSha256": "ba301e65d94e35d258206cb26bc63c1a8dd00fba5ccbbac0866c57b8e2b9e201",
+          "sourceArchive": "../judicial-research/will-bertani-jones/jones-haberkorn-2018.pdf"
+        },
+        {
+          "id": "jones-brusaw-2023",
+          "caseName": "People v. Brusaw",
+          "citation": "2023 IL 128474",
+          "appealDocket": "128474",
+          "priorAppealDocket": "3-19-0154",
+          "circuitDocket": null,
+          "decisionDate": "2023-11-30",
+          "trialActionDate": null,
+          "reviewingCourt": "Illinois Supreme Court",
+          "judgeRole": "Trial judge, called Sarah F. Jones in official caption; not a supreme court justice.",
+          "issue": "Unresolved substitution motion and statutory limits on extended sentencing.",
+          "trialAction": "Continued the substitution motion at counsel's request; never ruled on it. Later conducted the bench trial and imposed concurrent nine-year DUI and six-year revoked-license terms.",
+          "trialReasoning": "No merits denial of substitution occurred. The opinion does not report Jones's reason for the extended term.",
+          "appellateDisposition": "Reversed the appellate judgment overturning the convictions: the substitution motion was abandoned by failing to obtain a ruling. Affirmed the DUI sentence, vacated the unauthorized extended term on the lesser offense, and ordered a three-year term.",
+          "appellateAuthors": "Justice Cunningham; Theis, Neville, Overstreet, Holder White and Rochford concurred; O’Brien did not participate.",
+          "paragraphs": [
+            "¶¶ 5–9 (trial actions)",
+            "¶¶ 17–29 (substitution)",
+            "¶¶ 30–38 (sentence correction)"
+          ],
+          "supportingExcerpt": {
+            "paragraph": "¶ 6",
+            "text": "the judge never entered a ruling on the motion"
+          },
+          "primaryUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/e78e8902-7d84-4a7d-ae51-56b53d085a34/People%20v.%20Brusaw%2C%202023%20IL%20128474.pdf",
+          "publicationStatus": "Final, according to the official index metadata saved in will-index-sarah-jones.json.",
+          "subsequentHistory": "Actual implementation of the sentencing remand was not independently checked.",
+          "asOf": "2026-11-01",
+          "possibleIssueComparison": "Access to an impartial tribunal and lawful sentencing limits.",
+          "comparisonLimit": "Do not describe the substitution motion as denied or infer actual bias from the motion's allegation. This record does not support partisan alignment.",
+          "sourceSha256": "6d8de5c9c732c3e18cd2584e7a5af05d37c6f76a5abc61c60c7b49d7a543be6d",
+          "sourceArchive": "../judicial-research/will-bertani-jones/jones-brusaw-2023.pdf"
+        }
+      ],
+      "coverageGaps": [
+        "No verified trial merits ruling on abortion, LGBTQ rights, elections, immigration, presidential power, or Trump-specific conduct found in targeted searches.",
+        "Searches for 2024–2026 Jones opinions produced many unrelated names; the recent Alexander opinion describes a reassignment but does not support attributing the substantive appealed ruling to Jones."
+      ],
+      "historicalElectionParty": {
+        "party": "Democratic",
+        "electionDate": "2008-11-04",
+        "ballotName": "SARAH JONES",
+        "office": "12th Judicial Circuit, 3rd Subcircuit",
+        "finding": "The official canvass lists Sarah Jones (DEM), 26,864 votes (57.09%), against Ray Nash (REP), 20,194 votes (42.91%).",
+        "sourceUrl": "https://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/will-il.connect.clarityelections.com/CanvassBooks/2000s/2008/November2008CanvassBook.pdf",
+        "primarySource": "Will County Clerk, November 4, 2008 official general-election canvass",
+        "pageReferences": [
+          "PDF page 10 (official summary)",
+          "PDF pages 183–184 (precinct details)"
+        ],
+        "sourceSha256": "023ca9ee39b8070f867d3e4a42b65eeb28ff4e3bc6315211f604f9e703581c28",
+        "verification": "Original PDF downloaded; text read; page 10 scan visually inspected.",
+        "interpretation": "Historical ballot party only. It does not establish present affiliation, personal ideology, a Trump position, or the party of the nonpartisan 2026 retention question.",
+        "firstElectionClaim": "Not asserted."
+      }
+    }
+  ],
+  "barEvaluationHandling": "Parent researcher separately verified the joint ISBA/Will County Bar Association 2026 advisory poll at https://www.isba.org/judicial-elections/counties/will. See will-context.json; poll results are professional assessments, not ideology evidence.",
+  "searchLog": [
+    {
+      "queries": [
+        "site.illinoiscourts.gov \"Bertani-Tomczak\" \"constitutional\"",
+        "site.illinoiscourts.gov \"Sarah Jones\" \"suppression\""
+      ],
+      "result": "Official Landerman, Ballard and other Bertani leads; Jones ambiguity required narrower queries."
+    },
+    {
+      "queries": [
+        "site.illinoiscourts.gov \"Sarah Jones\" judge Will appellate",
+        "site.illinoiscourts.gov \"Brusaw\" 2023"
+      ],
+      "result": "Official Green, Haberkorn and Brusaw PDFs identified and read."
+    },
+    {
+      "queries": [
+        "site.illinoiscourts.gov \"Bertani-Tomczak\" \"pretrial\" \"2024\"",
+        "site.illinoiscourts.gov \"Sarah Jones\" \"pretrial\" \"2024\"",
+        "site.illinoiscourts.gov \"Landerman\" \"2026\""
+      ],
+      "result": "Sanders identified; ISBA case page supplied the official 2026 Landerman PDF link."
+    },
+    {
+      "queries": [
+        "\"Sarah Jones\" \"2024 IL App\"",
+        "\"Sarah Jones\" \"2025 IL App\"",
+        "\"Sarah Jones\" \"2026 IL App\""
+      ],
+      "result": "Alexander 2026 lead concerned another trial judge's substantive ruling; not included."
+    },
+    {
+      "queries": [
+        "\"Bertani-Tomczak\" \"Democratic\" 1996 official",
+        "\"Sarah Jones\" judge \"Republican\" 2008 Will county election",
+        "site.willcountyclerk.gov \"2008\" \"Sarah Jones\"",
+        "site.illinoiscourts.gov \"Bertani-Tomczak\" \"1994\" Republican"
+      ],
+      "result": "Clerk directory found and read. Secondary accounts disagree about appointment/election timing; no first-election claim included."
+    },
+    {
+      "queries": [
+        "\"People v. Sanders\" \"230504\" \"appeal\"",
+        "\"People v. Green\" \"120522\" \"appeal denied\"",
+        "\"People v. Haberkorn\" \"160599\" \"appeal denied\"",
+        "\"People v. Landerman\" \"250107\" \"rehearing\""
+      ],
+      "result": "Official index confirms Landerman 2026 remains Slip. No other subsequent-history result independently established."
+    },
+    {
+      "queries": [
+        "\"Amy Bertani-Tomczak\" abortion OR election OR transgender OR Trump",
+        "\"Sarah Jones\" \"Will\" judge abortion OR election OR transgender OR Trump",
+        "\"Bertani-Tomczak\" \"Second Amendment\"",
+        "\"Sarah Jones\" \"Second Amendment\" Illinois judge"
+      ],
+      "result": "No attributable primary merits ruling on those issues established. Jones searches have extensive namesake contamination. A Peterson gun-charge news lead was not used."
+    },
+    {
+      "queries": [
+        "\"Sarah Jones\" site:elections.il.gov 2008",
+        "\"Sarah Jones\" site:clarityelections.com \"2008\"",
+        "\"Bertani\" site:clarityelections.com \"1996\""
+      ],
+      "result": "Search located the official 2008 canvass and ISBE result lead. Web fetch was blocked, but Python requests retrieved the actual original PDF. The 1996 file was found by testing the same official archive's decade/year/filename convention, then verified as the actual 1996 canvass. Both relevant scans were visually read."
+    }
+  ],
+  "excludedSourcesAndClaims": [
+    "Blue Voter Guide assertion that Bertani-Tomczak first ran in 1994: not used. An original 1996 canvass verifies a Republican candidacy under the name Amy M. Bertani; no first-ever-election claim is made.",
+    "No appellate author named Bertani is treated as Amy M. Bertani-Tomczak without full identity verification.",
+    "No judgment about actual criminal guilt beyond the cited court's disposition; allegations in detention proceedings remain allegations.",
+    "No candidate/party endorsement or Trump-specific public statement verified in this review.",
+    "The Clerk directory's R/D labels remain excluded as party evidence; original election canvasses replace them. A directory classification can be historical or stale."
+  ]
+}

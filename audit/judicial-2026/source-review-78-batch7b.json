@@ -1,0 +1,238 @@
+{
+  "reviewed": "2026-11-01",
+  "reviewer": "independent source-review-78/review_batch7b",
+  "input": "audit/judicial-2026/research-batch-7-b.json",
+  "inputSha256": "1bbbf681db5e3c8ed41dd45264db1346dbb284f5fa5e44baac7878a40e894a7a",
+  "scope": {
+    "judges": 8,
+    "caseGroups": 10,
+    "primaryPdfs": 11
+  },
+  "method": "Independently read cached official court primary text at captions, claim-bearing factual and analysis paragraphs, and dispositions. Checked the ledger’s identity, dates, trial-versus-appellate attribution, reported reasoning, appellate outcome and source pinpoints. Matched every cited PDF hash. This was a substantive source review, not only schema validation.",
+  "limitations": [
+    "This review does not certify a complete career docket or an exhaustive later appellate/trial history.",
+    "Case descriptions retain the source-ledger limitation that later proceedings are unknown unless expressly listed.",
+    "No overall ideology, retention recommendation, or party/Trump loyalty conclusion is supported by these selected cases.",
+    "No historical party claims appear in this subledger."
+  ],
+  "result": "All 10 selected case groups verified; no substantive correction required.",
+  "records": [
+    {
+      "candidateId": "sbe-15th-circuit-retain-lee-douglas-e-lee",
+      "judge": "Douglas E. Lee",
+      "caseId": "lee-240696-U",
+      "caseName": "People v. Mills",
+      "citation": "2025 IL App (4th) 240696-U",
+      "decisionDate": "2025-07-15",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Caption and paragraphs 1–23",
+      "findings": "The appealed action is the 2024 summary dismissal, not attribution of the 2005 trial or sentence. The quoted trial order identifies missing medical support; the appellate court affirms and commends the written explanation.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/e56ed58e-c3ec-4cbc-ba96-16c7ab232066/file",
+          "title": "People v. Mills, 2025 IL App (4th) 240696-U",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/lee-240696-U.pdf",
+          "sha256": "be5a1117056fdd8c534f0192d032c6af27bd079845e5b7855be59204094a3f3b",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-15th-circuit-retain-kane-j-jerry-kane",
+      "judge": "J. Jerry Kane",
+      "caseId": "kane-190863-U",
+      "caseName": "People v. Whitten",
+      "citation": "2021 IL App (2d) 190863-U",
+      "decisionDate": "2021-02-04",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Caption and paragraphs 1–23",
+      "findings": "The trial judge accepted consent to a search of the person but excluded the purse. Appellate consent-scope and officer-safety reasoning and affirmance match; the record contains no particularized suspicion.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/7f808caa-98ac-41a3-95bc-840ec968a6d3/file",
+          "title": "People v. Whitten, 2021 IL App (2d) 190863-U",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/kane-190863-U.pdf",
+          "sha256": "50cedf3d780e39b1bdeeb2ccfef4f06e1733831dc8246b19eeddb9665e369dd9",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-15th-circuit-retain-kane-j-jerry-kane",
+      "judge": "J. Jerry Kane",
+      "caseId": "kane-210445",
+      "caseName": "People v. Partin",
+      "citation": "2022 IL App (2d) 210445",
+      "decisionDate": "2022-06-02",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Official report cover; paragraphs 1–3, 20–28, 40–61",
+      "findings": "Correctly separates Kane’s discretionary-impoundment finding and suppression from the appellate rejection. The no-appellee-brief / prima-facie-reversible-error posture is disclosed. Appellate opinion treated the later arrival of the co-owner as immaterial, including its uncertainty about proof of her license.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/fdc7830e-c774-4487-97c2-5229a15b8723/file",
+          "title": "People v. Partin, 2022 IL App (2d) 210445",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/kane-210445.pdf",
+          "sha256": "20b3d76da9c2fd034bbc85a6776a012501d80433d80b070d07a7c1b0f4b89286",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-grady-joseph-m-grady",
+      "judge": "Joseph M. Grady",
+      "caseId": "grady-240049-U",
+      "caseName": "In re Estate of Coolidge",
+      "citation": "2025 IL App (2d) 240049-U",
+      "decisionDate": "2025-11-05",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Caption; paragraphs 1–3, 30–40, 67–77",
+      "findings": "The respondent repeatedly refused in-person attendance, the court treated this as waiver and held a bench hearing. Trial concerns about observation and outside influence, independent plenary guardian, and appellate affirmance are supported. The source date is November 5, 2025.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/d62546eb-0887-432f-a621-0ef301ec2536/file",
+          "title": "In re Estate of Coolidge, 2025 IL App (2d) 240049-U",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/grady-240049-U.pdf",
+          "sha256": "7dcf52c12a970187973131e00f8d6a69c9213f5eed773d6833114a6368d74f7d",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-grady-joseph-m-grady",
+      "judge": "Joseph M. Grady",
+      "caseId": "grady-150823",
+      "caseName": "Auto-Owners Insurance Co. v. Konow",
+      "citation": "2016 IL App (2d) 150823",
+      "decisionDate": "2016-06-23",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Official report cover and paragraphs 1–17",
+      "findings": "The $28,000.38 third-party negligent-misrepresentation judgment is correctly distinguished from the insurer’s separate recovery. Reversal rests on absence of duty to opposing litigant and thus no vicarious client liability.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/3455c246-bf8f-4e91-9366-161bad1132bd/file",
+          "title": "Auto-Owners Insurance Co. v. Konow, 2016 IL App (2d) 150823",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/grady-150823.pdf",
+          "sha256": "a559f9fb036eca98bbd96c60878aaaca14eefc44508d3129dd43caaf61231bdd",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-tegeler-donald-d-j-tegeler",
+      "judge": "Donald (D.J.) Tegeler",
+      "caseId": "tegeler-250121-U",
+      "caseName": "People v. Moore",
+      "citation": "2025 IL App (2d) 250121-U",
+      "decisionDate": "2025-07-02",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Caption; paragraphs 1–2, 13–35",
+      "findings": "Tegeler heard the August 22, 2024 relief motion and adopted LoPiccolo’s initial findings; ledger does not assign him initial detention. Majority affirmed 2–1; McLaren’s dissent concerns intervening unfitness / mootness and available relief, not a merits conclusion that release was required.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/d42fde86-fa11-478a-a818-1a703dc5c8fa/file",
+          "title": "People v. Moore, 2025 IL App (2d) 250121-U",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/tegeler-250121-U.pdf",
+          "sha256": "1348b4fa7f22ab1f555f26e4f7b1dabc17d9bd1e1b33930a0b7ebe5e61f62b01",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-villa-robert-k-villa",
+      "judge": "Robert K. Villa",
+      "caseId": "villa-240620-U",
+      "caseName": "People v. Swift",
+      "citation": "2026 IL App (2d) 240620-U",
+      "decisionDate": "2026-02-18",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Caption; paragraphs 1–2, 15–19, 23–37",
+      "findings": "The own action is dismissal of the amended successive petition for absence of cause. Neither the original 2000 sentence nor the appellate commentary on remorse is attributed to Villa. The cause barrier and counsel-assistance conclusions match.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/803fc084-a0fc-4447-996f-f2ac88478952/file",
+          "title": "People v. Swift, 2026 IL App (2d) 240620-U",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/villa-240620-U.pdf",
+          "sha256": "bdbd08126b813733948b1e5dc25af15b75d3bf6edecb6c1973734ba148d4d8bf",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-flood-elizabeth-flood",
+      "judge": "Elizabeth Flood",
+      "caseId": "flood-230047",
+      "caseName": "People v. Hietschold",
+      "citation": "2024 IL App (2d) 230047; reversed by 2025 IL 130716",
+      "decisionDate": "2024-04-02",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "2024 official cover and paragraphs 1, 5–13, 18–24; 2025 official cover and paragraphs 1, 6–12, 23–34, 36–38",
+      "findings": "The 2024 caption names trial/sentencing judge Kliment, but paragraphs 5–12 expressly identify Flood’s July admonition and September in-absentia ruling. Supreme Court November 20, 2025 opinion unanimously reverses appellate judgment and affirms circuit result while directing full warnings in future. That later outcome is prominently preserved.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/45484805-4ad4-43aa-a324-5e7fec4a8fff/file",
+          "title": "People v. Hietschold, 2024 IL App (2d) 230047; reversed by 2025 IL 130716",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/flood-230047.pdf",
+          "sha256": "773fd34a930b20590a459a5fbd6d3b1d608f2b46d42f74e8bf7826e13252befe",
+          "hashMatchesLedger": true
+        },
+        {
+          "url": "https://www.illinoiscourts.gov/resources/26d0f9c9-c584-40e0-a52a-6e975cff86c2/file",
+          "title": "People v. Hietschold, 2025 IL 130716 (Illinois Supreme Court)",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/flood-130716.pdf",
+          "sha256": "7e24536dd002b431535fa5e7cf5fc8c96744d1f639fc95ffeb722e080d98c770",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-17th-circuit-retain-fabiano-lisa-r-fabiano",
+      "judge": "Lisa R. Fabiano",
+      "caseId": "fabiano-230585",
+      "caseName": "Doe v. Fritch",
+      "citation": "2024 IL App (4th) 230585",
+      "decisionDate": "2024-05-07",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Official report cover; paragraphs 1, 11–18, 27, 39, 49, 64, 71–72",
+      "findings": "Trial liability basis was affidavit/circumstantial evidence/text messages. Paragraph 18 expressly says adverse Fifth Amendment inference was unnecessary; paragraph 39 is appellate additional rationale. All four money amounts match the source and affirmance.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/d16c31d7-8155-4b1b-a9a2-b46383ee7f1b/file",
+          "title": "Doe v. Fritch, 2024 IL App (4th) 230585",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/fabiano-230585.pdf",
+          "sha256": "68088f673492cfe85e78175a04f1ea228cdc19760fe30e3a95802d6cc6bfec7d",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "candidateId": "sbe-17th-circuit-retain-gulley-gwyn-gulley",
+      "judge": "Gwyn Gulley",
+      "caseId": "gulley-230210-U",
+      "caseName": "Maschke v. City of Rockford",
+      "citation": "2023 IL App (4th) 230210-U",
+      "decisionDate": "2023-11-13",
+      "status": "verified-no-correction-required",
+      "primaryTextRead": "Caption; paragraphs 1–4, 18–20, 31–43",
+      "findings": "Trial damages $3,540.76, actual notice, credibility and weather findings match. Discretionary-immunity theory was first raised on appeal and forfeited, correctly not described as a trial merits holding.",
+      "sources": [
+        {
+          "url": "https://www.illinoiscourts.gov/resources/33d3c935-6f13-444a-99c6-4f6aa9ed4884/file",
+          "title": "Maschke v. City of Rockford, 2023 IL App (4th) 230210-U",
+          "cacheFile": "audit/judicial-2026/research-batch-7-cache-b/gulley-230210-U.pdf",
+          "sha256": "77bd03eb12d9c473738eff4e39f0f294b5cafeae0d2377b83bf0714660238cb7",
+          "hashMatchesLedger": true
+        }
+      ],
+      "issues": []
+    }
+  ]
+}

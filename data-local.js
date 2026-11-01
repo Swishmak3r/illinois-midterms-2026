@@ -947,8 +947,8 @@ window.IL_LOCAL_RACES = [
       "Cook"
     ],
     "cities": [],
-    "verificationNote": "This candidate is represented in the research directory, but a complete current official general-election roster was not retrieved. Do not infer an uncontested election; confirm all choices with your election authority.",
-    "rosterStatus": "candidate-corroborated",
+    "verificationNote": "Printed candidates verified against the Cook County Clerk's November 3, 2026 general-election candidate list on November 1. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices.",
+    "rosterStatus": "official-general-candidate-list",
     "candidates": [
       {
         "id": "drake-warren",
@@ -969,6 +969,13 @@ window.IL_LOCAL_RACES = [
         "pacPolicy": "",
         "pacSummary": "",
         "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.cookcountyclerkil.gov/elections/current-elections/view-all-candidates",
+            "title": "Cook County Clerk: November 3, 2026 general-election candidate list",
+            "checked": "2026-11-01",
+            "note": "The official current general-election table identifies Drake Warren as DEM for Commissioner, 10th County Board District."
+          },
           {
             "field": "identity",
             "url": "https://drakefor10.com/",
@@ -1025,10 +1032,10 @@ window.IL_LOCAL_RACES = [
     "evidence": [
       {
         "field": "candidates",
-        "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
-        "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
-        "checked": "2026-10-28",
-        "note": "Candidate identity, district and party corroborated by the campaign and the endorsing organization. A complete certified general-election roster was not available in the sources reviewed; this listing does not establish that the candidate is unopposed. Confirm your address-specific ballot with the election authority."
+        "url": "https://www.cookcountyclerkil.gov/elections/current-elections/view-all-candidates",
+        "title": "Cook County Clerk: November 3, 2026 general-election candidate list",
+        "checked": "2026-11-01",
+        "note": "The complete table for Commissioner, 10th County Board District lists Drake Warren (DEM), ballot number 72. This verifies the listed printed roster; named write-in eligibility is not established."
       },
       {
         "field": "incumbent",
@@ -1036,9 +1043,18 @@ window.IL_LOCAL_RACES = [
         "title": "Cook County: Bridget Gainer",
         "checked": "2026-11-01",
         "note": "Current officeholder: Bridget Gainer (D); not among the represented printed nominees. Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+      },
+      {
+        "field": "ballotRules",
+        "url": "https://www.cookcountyclerkil.gov/elections/current-elections/view-all-candidates",
+        "title": "Cook County Clerk: November 3, 2026 general-election candidate list",
+        "checked": "2026-11-01",
+        "note": "The office heading specifies a four-year term and Vote For 1."
       }
     ],
-    "incumbent": "Bridget Gainer (D); not among the represented printed nominees"
+    "incumbent": "Bridget Gainer (D); not among the represented printed nominees",
+    "rosterChecked": "2026-11-01",
+    "voteFor": 1
   },
   {
     "id": "cook-comm-16",
@@ -1053,12 +1069,12 @@ window.IL_LOCAL_RACES = [
       "Cook"
     ],
     "cities": [],
-    "verificationNote": "Miranda E. Hernandez is corroborated by a reproduction of the Clerk's October 21 Proviso specimen notice. Direct retrieval of a complete official roster was not achieved; confirm all choices and write-ins with the election authority.",
-    "rosterStatus": "candidate-corroborated",
+    "verificationNote": "Printed candidates verified against the Cook County Clerk's November 3, 2026 general-election candidate list on November 1. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices.",
+    "rosterStatus": "official-general-candidate-list",
     "candidates": [
       {
         "id": "miranda-hernandez",
-        "name": "Miranda Hernandez",
+        "name": "Miranda E. Hernandez",
         "party": "Democrat",
         "role": "Candidate for Cook County Commissioner, District 16",
         "photoInitials": "MH",
@@ -1075,6 +1091,13 @@ window.IL_LOCAL_RACES = [
         "pacPolicy": "",
         "pacSummary": "",
         "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.cookcountyclerkil.gov/elections/current-elections/view-all-candidates",
+            "title": "Cook County Clerk: November 3, 2026 general-election candidate list",
+            "checked": "2026-11-01",
+            "note": "The official current general-election table identifies Miranda E. Hernandez as DEM for Commissioner, 16th County Board District."
+          },
           {
             "field": "identity",
             "url": "https://mirandaforcookcounty.org/",
@@ -1131,10 +1154,10 @@ window.IL_LOCAL_RACES = [
     "evidence": [
       {
         "field": "candidates",
-        "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
-        "title": "Chicago Federation of Labor: 2026 general-election endorsements (September 16, 2026)",
-        "checked": "2026-10-28",
-        "note": "Candidate identity, district and party corroborated by the campaign and the endorsing organization. A complete certified general-election roster was not available in the sources reviewed; this listing does not establish that the candidate is unopposed. Confirm your address-specific ballot with the election authority."
+        "url": "https://www.cookcountyclerkil.gov/elections/current-elections/view-all-candidates",
+        "title": "Cook County Clerk: November 3, 2026 general-election candidate list",
+        "checked": "2026-11-01",
+        "note": "The complete table for Commissioner, 16th County Board District lists Miranda E. Hernandez (DEM), ballot number 72. This verifies the listed printed roster; named write-in eligibility is not established."
       },
       {
         "field": "incumbent",
@@ -1142,9 +1165,18 @@ window.IL_LOCAL_RACES = [
         "title": "Cook County: Frank Aguilar",
         "checked": "2026-11-01",
         "note": "Current officeholder: Frank Aguilar (D); not among the represented printed nominees. Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+      },
+      {
+        "field": "ballotRules",
+        "url": "https://www.cookcountyclerkil.gov/elections/current-elections/view-all-candidates",
+        "title": "Cook County Clerk: November 3, 2026 general-election candidate list",
+        "checked": "2026-11-01",
+        "note": "The office heading specifies a four-year term and Vote For 1."
       }
     ],
-    "incumbent": "Frank Aguilar (D); not among the represented printed nominees"
+    "incumbent": "Frank Aguilar (D); not among the represented printed nominees",
+    "rosterChecked": "2026-11-01",
+    "voteFor": 1
   },
   {
     "id": "dupage-board-chair",
@@ -4421,17 +4453,10 @@ window.IL_LOCAL_RACES = [
     "evidence": [
       {
         "field": "candidates",
-        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-        "checked": "2026-10-28",
-        "note": "Official general-election source lists the candidates and party labels for this office."
-      },
-      {
-        "field": "verificationNote",
-        "url": "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
-        "title": "McHenry County Clerk candidate resources (August 24 update linked)",
-        "checked": "2026-10-28",
-        "note": "The updated PDF returned HTTP 403. June list read through official-domain indexed text, not a third-party candidate compilation."
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+        "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+        "checked": "2026-11-01",
+        "note": "Page 2, contest 1620 (McHenry County Sheriff), supplies the complete printed candidate field: Robb Tadelman. The current official PDF was downloaded and read; its update date is supplied by the county's candidate-resources page."
       },
       {
         "field": "incumbent",
@@ -4439,6 +4464,13 @@ window.IL_LOCAL_RACES = [
         "title": "McHenry County Sheriff: office leadership",
         "checked": "2026-11-01",
         "note": "Current officeholder: Robb Tadelman (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+      },
+      {
+        "field": "ballotRules",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+        "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+        "checked": "2026-11-01",
+        "note": "Page 2, contest 1620, specifies Vote For: 1. No term length is inferred."
       }
     ],
     "candidates": [
@@ -4459,11 +4491,18 @@ window.IL_LOCAL_RACES = [
         "issues": {},
         "evidence": [
           {
+            "field": "identity",
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "Page 2, contest 1620, identifies Robb Tadelman for McHenry County Sheriff with the Republican party label."
+          },
+          {
             "field": "role",
-            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-            "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-            "checked": "2026-10-28",
-            "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "The current official certified list identifies Robb Tadelman as a candidate for McHenry County Sheriff; incumbency evidence is cited separately."
           },
           {
             "field": "incumbentStatus",
@@ -4482,9 +4521,11 @@ window.IL_LOCAL_RACES = [
         ]
       }
     ],
-    "verificationNote": "Names match indexed official June candidate-list content checked November 1, 2026. The county advertises an August 24 update, but direct access to the latest list was blocked. Confirm the current roster and any write-ins with the McHenry County Clerk.",
-    "rosterStatus": "older-official-list-newer-source-unavailable",
-    "geographicScope": "countywide"
+    "verificationNote": "Printed candidates verified against the County Clerk's certified November 3, 2026 general-election candidate list on November 1. The county links this list as updated August 24. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices.",
+    "rosterStatus": "official-general-candidate-list",
+    "geographicScope": "countywide",
+    "rosterChecked": "2026-11-01",
+    "voteFor": 1
   },
   {
     "id": "mchenry-clerk",
@@ -4508,17 +4549,10 @@ window.IL_LOCAL_RACES = [
     "evidence": [
       {
         "field": "candidates",
-        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-        "checked": "2026-10-28",
-        "note": "Official general-election source lists the candidates and party labels for this office."
-      },
-      {
-        "field": "verificationNote",
-        "url": "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
-        "title": "McHenry County Clerk candidate resources (August 24 update linked)",
-        "checked": "2026-10-28",
-        "note": "The updated PDF returned HTTP 403. June list read through official-domain indexed text, not a third-party candidate compilation."
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+        "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+        "checked": "2026-11-01",
+        "note": "Page 2, contest 1600 (McHenry County Clerk), supplies the complete printed candidate field: Joe Tirio; Bill McNeese. The current official PDF was downloaded and read; its update date is supplied by the county's candidate-resources page."
       },
       {
         "field": "incumbent",
@@ -4526,6 +4560,13 @@ window.IL_LOCAL_RACES = [
         "title": "McHenry official yearbook: indexed county offices",
         "checked": "2026-11-01",
         "note": "Current officeholder: Joe Tirio (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+      },
+      {
+        "field": "ballotRules",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+        "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+        "checked": "2026-11-01",
+        "note": "Page 2, contest 1600, specifies Vote For: 1. No term length is inferred."
       }
     ],
     "candidates": [
@@ -4546,11 +4587,18 @@ window.IL_LOCAL_RACES = [
         "issues": {},
         "evidence": [
           {
+            "field": "identity",
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "Page 2, contest 1600, identifies Bill McNeese for McHenry County Clerk with the Democratic party label."
+          },
+          {
             "field": "role",
-            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-            "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-            "checked": "2026-10-28",
-            "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "The current official certified list identifies Bill McNeese as a candidate for McHenry County Clerk; incumbency evidence is cited separately."
           },
           {
             "field": "incumbentStatus",
@@ -4585,11 +4633,18 @@ window.IL_LOCAL_RACES = [
         "issues": {},
         "evidence": [
           {
+            "field": "identity",
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "Page 2, contest 1600, identifies Joe Tirio for McHenry County Clerk with the Republican party label."
+          },
+          {
             "field": "role",
-            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-            "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-            "checked": "2026-10-28",
-            "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "The current official certified list identifies Joe Tirio as a candidate for McHenry County Clerk; incumbency evidence is cited separately."
           },
           {
             "field": "incumbentStatus",
@@ -4608,9 +4663,11 @@ window.IL_LOCAL_RACES = [
         ]
       }
     ],
-    "verificationNote": "Names match indexed official June candidate-list content checked November 1, 2026. The county advertises an August 24 update, but direct access to the latest list was blocked. Confirm the current roster and any write-ins with the McHenry County Clerk.",
-    "rosterStatus": "older-official-list-newer-source-unavailable",
-    "geographicScope": "countywide"
+    "verificationNote": "Printed candidates verified against the County Clerk's certified November 3, 2026 general-election candidate list on November 1. The county links this list as updated August 24. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices.",
+    "rosterStatus": "official-general-candidate-list",
+    "geographicScope": "countywide",
+    "rosterChecked": "2026-11-01",
+    "voteFor": 1
   },
   {
     "id": "mchenry-treasurer",
@@ -4634,17 +4691,10 @@ window.IL_LOCAL_RACES = [
     "evidence": [
       {
         "field": "candidates",
-        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-        "checked": "2026-10-28",
-        "note": "Official general-election source lists the candidates and party labels for this office."
-      },
-      {
-        "field": "verificationNote",
-        "url": "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
-        "title": "McHenry County Clerk candidate resources (August 24 update linked)",
-        "checked": "2026-10-28",
-        "note": "The updated PDF returned HTTP 403. June list read through official-domain indexed text, not a third-party candidate compilation."
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+        "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+        "checked": "2026-11-01",
+        "note": "Page 2, contest 1610 (McHenry County Treasurer), supplies the complete printed candidate field: Donna M. Kurtz; Amin Karim. The current official PDF was downloaded and read; its update date is supplied by the county's candidate-resources page."
       },
       {
         "field": "incumbent",
@@ -4652,6 +4702,13 @@ window.IL_LOCAL_RACES = [
         "title": "McHenry County Treasurer: indexed official page",
         "checked": "2026-11-01",
         "note": "Current officeholder: Donna M. Kurtz (R). Incumbent/challenger classifications compare this official directory with the separately cited candidate roster; retirement motives and primary-result explanations are not inferred."
+      },
+      {
+        "field": "ballotRules",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+        "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+        "checked": "2026-11-01",
+        "note": "Page 2, contest 1610, specifies Vote For: 1. No term length is inferred."
       }
     ],
     "candidates": [
@@ -4672,11 +4729,18 @@ window.IL_LOCAL_RACES = [
         "issues": {},
         "evidence": [
           {
+            "field": "identity",
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "Page 2, contest 1610, identifies Amin Karim for McHenry County Treasurer with the Democratic party label."
+          },
+          {
             "field": "role",
-            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-            "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-            "checked": "2026-10-28",
-            "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "The current official certified list identifies Amin Karim as a candidate for McHenry County Treasurer; incumbency evidence is cited separately."
           },
           {
             "field": "incumbentStatus",
@@ -4711,11 +4775,18 @@ window.IL_LOCAL_RACES = [
         "issues": {},
         "evidence": [
           {
+            "field": "identity",
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "Page 2, contest 1610, identifies Donna M. Kurtz for McHenry County Treasurer with the Republican party label."
+          },
+          {
             "field": "role",
-            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
-            "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
-            "checked": "2026-10-28",
-            "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+            "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122937/639231562267270000",
+            "title": "McHenry County Clerk: Certified Candidate List, General - 11/3/2026 (linked as updated August 24, 2026)",
+            "checked": "2026-11-01",
+            "note": "The current official certified list identifies Donna M. Kurtz as a candidate for McHenry County Treasurer; incumbency evidence is cited separately."
           },
           {
             "field": "incumbentStatus",
@@ -4734,9 +4805,11 @@ window.IL_LOCAL_RACES = [
         ]
       }
     ],
-    "verificationNote": "Names match indexed official June candidate-list content checked November 1, 2026. The county advertises an August 24 update, but direct access to the latest list was blocked. Confirm the current roster and any write-ins with the McHenry County Clerk.",
-    "rosterStatus": "older-official-list-newer-source-unavailable",
-    "geographicScope": "countywide"
+    "verificationNote": "Printed candidates verified against the County Clerk's certified November 3, 2026 general-election candidate list on November 1. The county links this list as updated August 24. Named write-in eligibility was not verified. Use an address-specific official ballot for applicable contests and choices.",
+    "rosterStatus": "official-general-candidate-list",
+    "geographicScope": "countywide",
+    "rosterChecked": "2026-11-01",
+    "voteFor": 1
   },
   {
     "id": "sangamon-county-2026",
@@ -13372,56 +13445,45 @@ window.IL_LOCAL_RACES = [
     "sublevel": "Judiciary",
     "office": "4TH APPELLATE - RETAIN KNECHT",
     "districtCode": "IL-4TH-APPELLATE-RETAIN-KNECHT",
-    "districtName": "4TH APPELLATE - RETAIN KNECHT",
+    "districtName": "Fourth Judicial District retention — original district boundaries",
     "region": "Fourth Judicial District",
     "counties": [
-      "Greene",
-      "Jersey",
-      "Macoupin",
-      "Morgan",
-      "Sangamon",
-      "Scott",
       "Adams",
       "Brown",
       "Calhoun",
       "Cass",
-      "Mason",
-      "Menard",
-      "Pike",
-      "Schuyler",
-      "Fulton",
-      "Hancock",
-      "Henderson",
-      "Knox",
-      "McDonough",
-      "Warren",
-      "Marshall",
-      "Peoria",
-      "Putnam",
-      "Stark",
-      "Tazewell",
+      "Champaign",
+      "Clark",
+      "Coles",
+      "Cumberland",
+      "De Witt",
+      "Douglas",
+      "Edgar",
       "Ford",
+      "Greene",
+      "Jersey",
       "Livingston",
       "Logan",
+      "Macon",
+      "Macoupin",
+      "Mason",
       "McLean",
-      "Woodford",
-      "Henry",
-      "Mercer",
-      "Rock Island",
-      "Whiteside",
-      "Carroll",
-      "Jo Daviess",
-      "Lee",
-      "Ogle",
-      "Stephenson",
-      "Boone",
-      "Winnebago"
+      "Menard",
+      "Morgan",
+      "Moultrie",
+      "Piatt",
+      "Pike",
+      "Sangamon",
+      "Schuyler",
+      "Scott",
+      "Vermilion",
+      "Woodford"
     ],
     "cities": [],
     "sbeOffice": "4TH APPELLATE - RETAIN KNECHT",
     "rosterStatus": "official-sbe-general-list",
     "eligibilityScope": "judicial-district",
-    "verificationNote": "This is a separate Yes/No decision for this judge, not a contest against other judges. Retention requires at least 60% Yes among votes cast on this question. Confirm the applicable judicial district or circuit with your election authority.",
+    "verificationNote": "This separate Yes/No retention question uses the 30-county Fourth Judicial District that originally elected Knecht, rather than the current 41-county court district. The official 2026 Clark and Macon ballots list Knecht alongside Fifth District retention candidate Barberis. Retention requires at least 60% Yes among votes cast on this question. Confirm your official ballot with your election authority.",
     "evidence": [
       {
         "field": "candidates",
@@ -13438,11 +13500,39 @@ window.IL_LOCAL_RACES = [
         "note": "Each judge has a separate nonpartisan retention question; three-fifths of votes on that question are required."
       },
       {
-        "field": "jurisdiction",
+        "field": "courtJurisdiction",
         "url": "https://www.illinoiscourts.gov/courts/appellate-court/districts-fourth-district/",
         "title": "Illinois Courts: current judicial districts and circuit counties",
         "checked": "2026-11-01",
-        "note": "Court jurisdiction only. Subcircuit and resident-judge vacancies can have narrower electorates; county membership alone does not establish eligibility for those vacancies."
+        "note": "Current court jurisdiction is retained separately in courtCounties. It is not the electorate for this retention question; the candidate uses the original Fourth District boundaries."
+      },
+      {
+        "field": "retentionGeography",
+        "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4138&Chapter=COURTS&ChapterID=50&MajorTopic=RIGHTS+AND+REMEDIES",
+        "title": "Judicial Districts Act of 2021, 705 ILCS 23/5 and 23/35",
+        "checked": "2026-11-01",
+        "note": "Eligible incumbent appellate judges may select the district that elected them or the redrawn district. Current court geography alone cannot identify a retention electorate."
+      },
+      {
+        "field": "counties",
+        "url": "https://www.ilga.gov/documents/reports/ReportsSubmitted/3346RSGAEmail6565RSGAAttachFY21%20Annual%20Report_UPLOAD.pdf",
+        "title": "Illinois State’s Attorneys Appellate Prosecutor FY21 annual report, Fourth District Office, printed page 21",
+        "checked": "2026-11-01",
+        "note": "Enumerates all 30 counties in the Fourth Judicial District before redistricting. DeWitt normalized to Census county spelling De Witt."
+      },
+      {
+        "field": "retentionGeography",
+        "url": "https://www.clarkcountyil.org/media/2026nov3ilclark-Publication.pdf",
+        "title": "Clark County Clerk: November 3, 2026 official specimen ballot",
+        "checked": "2026-11-01",
+        "note": "Page 1 separately lists Knecht’s Fourth District retention and Barberis’s Fifth District retention. Clark is in the former Fourth and current Fifth. Together with the statutory alternatives, this establishes use of the former Fourth electorate."
+      },
+      {
+        "field": "retentionGeography",
+        "url": "https://maconcounty.illinois.gov/download/specimen-ballot/?filename=2026-General-Specimen-Ballot.pdf&ind=1789592172553&refresh=ea172ebb&wpdmdl=14661",
+        "title": "Macon County Clerk: November 3, 2026 official specimen ballot",
+        "checked": "2026-11-01",
+        "note": "Page 1 independently shows both Knecht and Barberis. This review relies on certified ballot evidence and the statute, not on a retrieved signed retention declaration."
       }
     ],
     "candidates": [
@@ -13496,8 +13586,53 @@ window.IL_LOCAL_RACES = [
     "isOpenSeat": false,
     "incumbent": "James A. Knecht",
     "rosterChecked": "2026-11-01",
-    "geographicScope": "whole-court-district"
+    "geographicScope": "whole-court-district",
+    "courtCounties": [
+      "Greene",
+      "Jersey",
+      "Macoupin",
+      "Morgan",
+      "Sangamon",
+      "Scott",
+      "Adams",
+      "Brown",
+      "Calhoun",
+      "Cass",
+      "Mason",
+      "Menard",
+      "Pike",
+      "Schuyler",
+      "Fulton",
+      "Hancock",
+      "Henderson",
+      "Knox",
+      "McDonough",
+      "Warren",
+      "Marshall",
+      "Peoria",
+      "Putnam",
+      "Stark",
+      "Tazewell",
+      "Ford",
+      "Livingston",
+      "Logan",
+      "McLean",
+      "Woodford",
+      "Henry",
+      "Mercer",
+      "Rock Island",
+      "Whiteside",
+      "Carroll",
+      "Jo Daviess",
+      "Lee",
+      "Ogle",
+      "Stephenson",
+      "Boone",
+      "Winnebago"
+    ],
+    "retentionDistrictVintage": "Fourth Judicial District before the 2021 redistricting"
   },
+
   {
     "id": "sbe-local-5th-appellate-retain-barberis-jr",
     "sourceGroupId": "sbe-2026-judicial-education",

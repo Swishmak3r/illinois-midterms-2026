@@ -1,0 +1,1733 @@
+{
+  "checked": "2026-11-01",
+  "scope": "128 circuit retention profiles; appellate retention handled by separate geography review",
+  "result": "All 128 county arrays match 705 ILCS 35/1 current circuit counties. Circuitwide retention rule confirmed; 24th split choice separately checked with actual 2026 ballots.",
+  "sources": [
+    {
+      "title": "Illinois Constitution Article VI section 12(d), reflected in 10 ILCS 5/7A-1",
+      "url": "https://www.ilga.gov/legislation/ILCS/details?ActID=170&ActName=Election+Code.&ChapAct=10+ILCS+5%2F&Chapter=&ChapterID=3&MajorTopic=&SeqEnd=44400000&SeqStart=44200000",
+      "finding": "Circuit judges seek retention in the circuit, separately and without a party designation.",
+      "access": "Official ILGA current indexed full section read; direct web page returned timeout/502."
+    },
+    {
+      "title": "Circuit Courts Act, 705 ILCS 35/1",
+      "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=1835&ActName=Circuit+Courts+Act.&ChapAct=705%26nbsp%3BILCS%26nbsp%3B35%2F&ChapterID=50&ChapterName=COURTS",
+      "finding": "Current circuit county definitions transcribed for comparison. Twentieth is St. Clair alone and Twenty-fourth is Monroe, Perry, Randolph and Washington on/after December 5, 2022.",
+      "access": "Official ILGA indexed full section read; source P.A. 102-380 effective August 13, 2021."
+    },
+    {
+      "title": "705 ILCS 35/2f-18, resident subcircuit retention",
+      "url": "https://ilga.gov/documents/legislation/ilcs/documents/070500350K2f-18.htm",
+      "finding": "Subcircuit residence governs eligibility for the seat; retention is at large in the circuit."
+    },
+    {
+      "title": "Winnebago County November 3, 2026 official specimen",
+      "url": "https://wincoil.gov/media/attachments/2026/10/03/sample-ballot.pdf",
+      "pinpoint": "PDF pages 3 and 7",
+      "finding": "Both county-composite and individual ballot section list Lisa R. Fabiano, Gwyn Gulley and Ronald J. Ron White as 17th Circuit retention questions, without subcircuit restriction.",
+      "access": "Full PDF text read with web tool; visual page layout not required for this text check."
+    }
+  ],
+  "specialSplitReview": "See circuit-scope-24 files: all four current 24th counties list both Campanella and Hitzemann; East St. Louis/St. Clair sample does not. This supports existing current 24th scope, despite statutory old/new-circuit choice.",
+  "statutoryCounties": {
+    "1": [
+      "Alexander",
+      "Pulaski",
+      "Massac",
+      "Pope",
+      "Johnson",
+      "Union",
+      "Jackson",
+      "Williamson",
+      "Saline"
+    ],
+    "2": [
+      "Hardin",
+      "Gallatin",
+      "White",
+      "Hamilton",
+      "Franklin",
+      "Wabash",
+      "Edwards",
+      "Wayne",
+      "Jefferson",
+      "Richland",
+      "Lawrence",
+      "Crawford"
+    ],
+    "3": [
+      "Madison",
+      "Bond"
+    ],
+    "4": [
+      "Clinton",
+      "Marion",
+      "Clay",
+      "Fayette",
+      "Effingham",
+      "Jasper",
+      "Montgomery",
+      "Shelby",
+      "Christian"
+    ],
+    "5": [
+      "Vermilion",
+      "Edgar",
+      "Clark",
+      "Cumberland",
+      "Coles"
+    ],
+    "6": [
+      "Champaign",
+      "Douglas",
+      "Moultrie",
+      "Macon",
+      "DeWitt",
+      "Piatt"
+    ],
+    "7": [
+      "Sangamon",
+      "Macoupin",
+      "Morgan",
+      "Scott",
+      "Greene",
+      "Jersey"
+    ],
+    "8": [
+      "Adams",
+      "Schuyler",
+      "Mason",
+      "Cass",
+      "Brown",
+      "Pike",
+      "Calhoun",
+      "Menard"
+    ],
+    "9": [
+      "Knox",
+      "Warren",
+      "Henderson",
+      "Hancock",
+      "McDonough",
+      "Fulton"
+    ],
+    "10": [
+      "Peoria",
+      "Marshall",
+      "Putnam",
+      "Stark",
+      "Tazewell"
+    ],
+    "11": [
+      "McLean",
+      "Livingston",
+      "Logan",
+      "Ford",
+      "Woodford"
+    ],
+    "12": [
+      "Will"
+    ],
+    "13": [
+      "Bureau",
+      "LaSalle",
+      "Grundy"
+    ],
+    "14": [
+      "Rock Island",
+      "Mercer",
+      "Whiteside",
+      "Henry"
+    ],
+    "15": [
+      "Jo Daviess",
+      "Stephenson",
+      "Carroll",
+      "Ogle",
+      "Lee"
+    ],
+    "16": [
+      "Kane"
+    ],
+    "17": [
+      "Winnebago",
+      "Boone"
+    ],
+    "18": [
+      "DuPage"
+    ],
+    "19": [
+      "Lake"
+    ],
+    "20": [
+      "St. Clair"
+    ],
+    "21": [
+      "Iroquois",
+      "Kankakee"
+    ],
+    "22": [
+      "McHenry"
+    ],
+    "23": [
+      "DeKalb",
+      "Kendall"
+    ],
+    "24": [
+      "Randolph",
+      "Monroe",
+      "Washington",
+      "Perry"
+    ],
+    "Cook": [
+      "Cook"
+    ]
+  },
+  "counts": {
+    "circuitProfiles": 128,
+    "matchingCurrentCountySets": 128,
+    "mismatches": 0
+  },
+  "checks": [
+    {
+      "candidateId": "amy-m-bertani-tomczak",
+      "raceId": "will-retention-amy-m-bertani-tomczak",
+      "name": "Amy M. Bertani-Tomczak",
+      "circuit": "12",
+      "counties": [
+        "Will"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sarah-jones-judge",
+      "raceId": "will-retention-sarah-jones",
+      "name": "Sarah Jones",
+      "circuit": "12",
+      "counties": [
+        "Will"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "daniel-l-kennedy",
+      "raceId": "will-retention-daniel-l-kennedy",
+      "name": "Daniel L. Kennedy",
+      "circuit": "12",
+      "counties": [
+        "Will"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "daniel-d-rippy",
+      "raceId": "will-retention-daniel-d-rippy",
+      "name": "Daniel D. Rippy",
+      "circuit": "12",
+      "counties": [
+        "Will"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-1st-circuit-retain-thurston-william-j-bill-thurston",
+      "raceId": "sbe-local-1st-circuit-retain-thurston",
+      "name": "William J. \"Bill\" Thurston",
+      "circuit": "1",
+      "counties": [
+        "Alexander",
+        "Jackson",
+        "Johnson",
+        "Massac",
+        "Pope",
+        "Pulaski",
+        "Saline",
+        "Union",
+        "Williamson"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-1st-circuit-retain-tripp-sarah-k-tripp",
+      "raceId": "sbe-local-1st-circuit-retain-tripp",
+      "name": "Sarah K. Tripp",
+      "circuit": "1",
+      "counties": [
+        "Alexander",
+        "Jackson",
+        "Johnson",
+        "Massac",
+        "Pope",
+        "Pulaski",
+        "Saline",
+        "Union",
+        "Williamson"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-2nd-circuit-retain-vaughan-barry-l-vaughan",
+      "raceId": "sbe-local-2nd-circuit-retain-vaughan",
+      "name": "Barry L. Vaughan",
+      "circuit": "2",
+      "counties": [
+        "Crawford",
+        "Edwards",
+        "Franklin",
+        "Gallatin",
+        "Hamilton",
+        "Hardin",
+        "Jefferson",
+        "Lawrence",
+        "Richland",
+        "Wabash",
+        "Wayne",
+        "White"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-2nd-circuit-retain-foster-thomas-j-foster",
+      "raceId": "sbe-local-2nd-circuit-retain-foster",
+      "name": "Thomas J. Foster",
+      "circuit": "2",
+      "counties": [
+        "Crawford",
+        "Edwards",
+        "Franklin",
+        "Gallatin",
+        "Hamilton",
+        "Hardin",
+        "Jefferson",
+        "Lawrence",
+        "Richland",
+        "Wabash",
+        "Wayne",
+        "White"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-2nd-circuit-retain-hudson-william-c-hudson",
+      "raceId": "sbe-local-2nd-circuit-retain-hudson",
+      "name": "William C. Hudson",
+      "circuit": "2",
+      "counties": [
+        "Crawford",
+        "Edwards",
+        "Franklin",
+        "Gallatin",
+        "Hamilton",
+        "Hardin",
+        "Jefferson",
+        "Lawrence",
+        "Richland",
+        "Wabash",
+        "Wayne",
+        "White"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-2nd-circuit-retain-hartrich-matthew-j-hartrich",
+      "raceId": "sbe-local-2nd-circuit-retain-hartrich",
+      "name": "Matthew J. Hartrich",
+      "circuit": "2",
+      "counties": [
+        "Crawford",
+        "Edwards",
+        "Franklin",
+        "Gallatin",
+        "Hamilton",
+        "Hardin",
+        "Jefferson",
+        "Lawrence",
+        "Richland",
+        "Wabash",
+        "Wayne",
+        "White"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-2nd-circuit-retain-cook-tara-r-cook",
+      "raceId": "sbe-local-2nd-circuit-retain-cook",
+      "name": "Tara R. Cook",
+      "circuit": "2",
+      "counties": [
+        "Crawford",
+        "Edwards",
+        "Franklin",
+        "Gallatin",
+        "Hamilton",
+        "Hardin",
+        "Jefferson",
+        "Lawrence",
+        "Richland",
+        "Wabash",
+        "Wayne",
+        "White"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-3rd-circuit-retain-ruth-dennis-r-ruth",
+      "raceId": "sbe-local-3rd-circuit-retain-ruth",
+      "name": "Dennis R. Ruth",
+      "circuit": "3",
+      "counties": [
+        "Bond",
+        "Madison"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-3rd-circuit-retain-maher-amy-maher",
+      "raceId": "sbe-local-3rd-circuit-retain-maher",
+      "name": "Amy Maher",
+      "circuit": "3",
+      "counties": [
+        "Bond",
+        "Madison"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-4th-circuit-retain-brandmeyer-stanley-m-brandmeyer",
+      "raceId": "sbe-local-4th-circuit-retain-brandmeyer",
+      "name": "Stanley M. Brandmeyer",
+      "circuit": "4",
+      "counties": [
+        "Christian",
+        "Clay",
+        "Clinton",
+        "Effingham",
+        "Fayette",
+        "Jasper",
+        "Marion",
+        "Montgomery",
+        "Shelby"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-4th-circuit-retain-siemer-martin-w-siemer",
+      "raceId": "sbe-local-4th-circuit-retain-siemer",
+      "name": "Martin W. Siemer",
+      "circuit": "4",
+      "counties": [
+        "Christian",
+        "Clay",
+        "Clinton",
+        "Effingham",
+        "Fayette",
+        "Jasper",
+        "Marion",
+        "Montgomery",
+        "Shelby"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-4th-circuit-retain-powless-joel-j-c-powless",
+      "raceId": "sbe-local-4th-circuit-retain-powless",
+      "name": "Joel J.C. Powless",
+      "circuit": "4",
+      "counties": [
+        "Christian",
+        "Clay",
+        "Clinton",
+        "Effingham",
+        "Fayette",
+        "Jasper",
+        "Marion",
+        "Montgomery",
+        "Shelby"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-5th-circuit-retain-shick-mitchell-shick",
+      "raceId": "sbe-local-5th-circuit-retain-shick",
+      "name": "Mitchell Shick",
+      "circuit": "5",
+      "counties": [
+        "Clark",
+        "Coles",
+        "Cumberland",
+        "Edgar",
+        "Vermilion"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-5th-circuit-retain-o-shaughnessy-thomas-m-o-shaughnessy",
+      "raceId": "sbe-local-5th-circuit-retain-o-shaughnessy",
+      "name": "Thomas M. O'Shaughnessy",
+      "circuit": "5",
+      "counties": [
+        "Clark",
+        "Coles",
+        "Cumberland",
+        "Edgar",
+        "Vermilion"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-6th-circuit-retain-bollinger-robert-c-r-c-bollinger",
+      "raceId": "sbe-local-6th-circuit-retain-bollinger",
+      "name": "Robert C. \"R.C.\" Bollinger",
+      "circuit": "6",
+      "counties": [
+        "Champaign",
+        "De Witt",
+        "Douglas",
+        "Macon",
+        "Moultrie",
+        "Piatt"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-6th-circuit-retain-bohm-jason-m-bohm",
+      "raceId": "sbe-local-6th-circuit-retain-bohm",
+      "name": "Jason M. Bohm",
+      "circuit": "6",
+      "counties": [
+        "Champaign",
+        "De Witt",
+        "Douglas",
+        "Macon",
+        "Moultrie",
+        "Piatt"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-6th-circuit-retain-rhoades-dana-rhoades",
+      "raceId": "sbe-local-6th-circuit-retain-rhoades",
+      "name": "Dana Rhoades",
+      "circuit": "6",
+      "counties": [
+        "Champaign",
+        "De Witt",
+        "Douglas",
+        "Macon",
+        "Moultrie",
+        "Piatt"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-6th-circuit-retain-sullivan-ramona-m-sullivan",
+      "raceId": "sbe-local-6th-circuit-retain-sullivan",
+      "name": "Ramona M. Sullivan",
+      "circuit": "6",
+      "counties": [
+        "Champaign",
+        "De Witt",
+        "Douglas",
+        "Macon",
+        "Moultrie",
+        "Piatt"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-7th-circuit-retain-reif-christopher-e-chris-reif",
+      "raceId": "sbe-local-7th-circuit-retain-reif",
+      "name": "Christopher E. \"Chris\" Reif",
+      "circuit": "7",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-7th-circuit-retain-madonia-john-m-mo-madonia",
+      "raceId": "sbe-local-7th-circuit-retain-madonia",
+      "name": "John M. \"Mo\" Madonia",
+      "circuit": "7",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-7th-circuit-retain-giganti-adam-giganti",
+      "raceId": "sbe-local-7th-circuit-retain-giganti",
+      "name": "Adam Giganti",
+      "circuit": "7",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-7th-circuit-retain-grischow-raylene-grischow",
+      "raceId": "sbe-local-7th-circuit-retain-grischow",
+      "name": "Raylene Grischow",
+      "circuit": "7",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-7th-circuit-retain-noll-gail-l-noll",
+      "raceId": "sbe-local-7th-circuit-retain-noll",
+      "name": "Gail L. Noll",
+      "circuit": "7",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-7th-circuit-retain-lorton-allison-lorton",
+      "raceId": "sbe-local-7th-circuit-retain-lorton",
+      "name": "Allison Lorton",
+      "circuit": "7",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-7th-circuit-retain-schmidt-zachary-a-schmidt",
+      "raceId": "sbe-local-7th-circuit-retain-schmidt",
+      "name": "Zachary A. Schmidt",
+      "circuit": "7",
+      "counties": [
+        "Greene",
+        "Jersey",
+        "Macoupin",
+        "Morgan",
+        "Sangamon",
+        "Scott"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-8th-circuit-retain-atterberry-michael-l-mike-atterberry",
+      "raceId": "sbe-local-8th-circuit-retain-atterberry",
+      "name": "Michael L. \"Mike\" Atterberry",
+      "circuit": "8",
+      "counties": [
+        "Adams",
+        "Brown",
+        "Calhoun",
+        "Cass",
+        "Mason",
+        "Menard",
+        "Pike",
+        "Schuyler"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-8th-circuit-retain-burch-charles-h-w-burch",
+      "raceId": "sbe-local-8th-circuit-retain-burch",
+      "name": "Charles H.W. Burch",
+      "circuit": "8",
+      "counties": [
+        "Adams",
+        "Brown",
+        "Calhoun",
+        "Cass",
+        "Mason",
+        "Menard",
+        "Pike",
+        "Schuyler"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-8th-circuit-retain-brenner-tad-brenner",
+      "raceId": "sbe-local-8th-circuit-retain-brenner",
+      "name": "Tad Brenner",
+      "circuit": "8",
+      "counties": [
+        "Adams",
+        "Brown",
+        "Calhoun",
+        "Cass",
+        "Mason",
+        "Menard",
+        "Pike",
+        "Schuyler"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-9th-circuit-retain-vancil-jr-david-l-vancil-jr",
+      "raceId": "sbe-local-9th-circuit-retain-vancil-jr",
+      "name": "David L. Vancil, Jr.",
+      "circuit": "9",
+      "counties": [
+        "Fulton",
+        "Hancock",
+        "Henderson",
+        "Knox",
+        "McDonough",
+        "Warren"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-9th-circuit-retain-doyle-andrew-j-doyle",
+      "raceId": "sbe-local-9th-circuit-retain-doyle",
+      "name": "Andrew J. Doyle",
+      "circuit": "9",
+      "counties": [
+        "Fulton",
+        "Hancock",
+        "Henderson",
+        "Knox",
+        "McDonough",
+        "Warren"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-10th-circuit-retain-mack-james-a-mack",
+      "raceId": "sbe-local-10th-circuit-retain-mack",
+      "name": "James A. Mack",
+      "circuit": "10",
+      "counties": [
+        "Marshall",
+        "Peoria",
+        "Putnam",
+        "Stark",
+        "Tazewell"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-10th-circuit-retain-doscotch-christopher-r-doscotch",
+      "raceId": "sbe-local-10th-circuit-retain-doscotch",
+      "name": "Christopher R. Doscotch",
+      "circuit": "10",
+      "counties": [
+        "Marshall",
+        "Peoria",
+        "Putnam",
+        "Stark",
+        "Tazewell"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-11th-circuit-retain-fitton-matthew-j-fitton",
+      "raceId": "sbe-local-11th-circuit-retain-fitton",
+      "name": "Matthew J. Fitton",
+      "circuit": "11",
+      "counties": [
+        "Ford",
+        "Livingston",
+        "Logan",
+        "McLean",
+        "Woodford"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-11th-circuit-retain-chambers-jason-chambers",
+      "raceId": "sbe-local-11th-circuit-retain-chambers",
+      "name": "Jason Chambers",
+      "circuit": "11",
+      "counties": [
+        "Ford",
+        "Livingston",
+        "Logan",
+        "McLean",
+        "Woodford"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-11th-circuit-retain-wright-jonathan-c-wright",
+      "raceId": "sbe-local-11th-circuit-retain-wright",
+      "name": "Jonathan C. Wright",
+      "circuit": "11",
+      "counties": [
+        "Ford",
+        "Livingston",
+        "Logan",
+        "McLean",
+        "Woodford"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-13th-circuit-retain-sobol-sheldon-r-sobol",
+      "raceId": "sbe-local-13th-circuit-retain-sobol",
+      "name": "Sheldon R. Sobol",
+      "circuit": "13",
+      "counties": [
+        "Bureau",
+        "Grundy",
+        "LaSalle"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-14th-circuit-retain-patton-terence-m-patton",
+      "raceId": "sbe-local-14th-circuit-retain-patton",
+      "name": "Terence M. Patton",
+      "circuit": "14",
+      "counties": [
+        "Henry",
+        "Mercer",
+        "Rock Island",
+        "Whiteside"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-14th-circuit-retain-church-peter-w-church",
+      "raceId": "sbe-local-14th-circuit-retain-church",
+      "name": "Peter W. Church",
+      "circuit": "14",
+      "counties": [
+        "Henry",
+        "Mercer",
+        "Rock Island",
+        "Whiteside"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-14th-circuit-retain-mcgehee-john-l-mcgehee",
+      "raceId": "sbe-local-14th-circuit-retain-mcgehee",
+      "name": "John L. McGehee",
+      "circuit": "14",
+      "counties": [
+        "Henry",
+        "Mercer",
+        "Rock Island",
+        "Whiteside"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-15th-circuit-retain-roe-iv-john-b-ben-roe-iv",
+      "raceId": "sbe-local-15th-circuit-retain-roe-iv",
+      "name": "John B. \"Ben\" Roe IV",
+      "circuit": "15",
+      "counties": [
+        "Carroll",
+        "Jo Daviess",
+        "Lee",
+        "Ogle",
+        "Stephenson"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-15th-circuit-retain-lee-douglas-e-lee",
+      "raceId": "sbe-local-15th-circuit-retain-lee",
+      "name": "Douglas E. Lee",
+      "circuit": "15",
+      "counties": [
+        "Carroll",
+        "Jo Daviess",
+        "Lee",
+        "Ogle",
+        "Stephenson"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-15th-circuit-retain-kane-j-jerry-kane",
+      "raceId": "sbe-local-15th-circuit-retain-kane",
+      "name": "J. Jerry Kane",
+      "circuit": "15",
+      "counties": [
+        "Carroll",
+        "Jo Daviess",
+        "Lee",
+        "Ogle",
+        "Stephenson"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-grady-joseph-m-grady",
+      "raceId": "sbe-local-16th-circuit-retain-grady",
+      "name": "Joseph M. Grady",
+      "circuit": "16",
+      "counties": [
+        "Kane"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-tegeler-donald-d-j-tegeler",
+      "raceId": "sbe-local-16th-circuit-retain-tegeler",
+      "name": "Donald (D.J.) Tegeler",
+      "circuit": "16",
+      "counties": [
+        "Kane"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-villa-robert-k-villa",
+      "raceId": "sbe-local-16th-circuit-retain-villa",
+      "name": "Robert K. Villa",
+      "circuit": "16",
+      "counties": [
+        "Kane"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-16th-circuit-retain-flood-elizabeth-flood",
+      "raceId": "sbe-local-16th-circuit-retain-flood",
+      "name": "Elizabeth Flood",
+      "circuit": "16",
+      "counties": [
+        "Kane"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-17th-circuit-retain-fabiano-lisa-r-fabiano",
+      "raceId": "sbe-local-17th-circuit-retain-fabiano",
+      "name": "Lisa R. Fabiano",
+      "circuit": "17",
+      "counties": [
+        "Boone",
+        "Winnebago"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-17th-circuit-retain-gulley-gwyn-gulley",
+      "raceId": "sbe-local-17th-circuit-retain-gulley",
+      "name": "Gwyn Gulley",
+      "circuit": "17",
+      "counties": [
+        "Boone",
+        "Winnebago"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-17th-circuit-retain-white-ronald-j-ron-white",
+      "raceId": "sbe-local-17th-circuit-retain-white",
+      "name": "Ronald J. \"Ron\" White",
+      "circuit": "17",
+      "counties": [
+        "Boone",
+        "Winnebago"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-walsh-ann-celine-walsh",
+      "raceId": "sbe-local-18th-circuit-retain-walsh",
+      "name": "Ann Celine Walsh",
+      "circuit": "18",
+      "counties": [
+        "DuPage"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-o-toole-monique-o-toole",
+      "raceId": "sbe-local-18th-circuit-retain-o-toole",
+      "name": "Monique O'Toole",
+      "circuit": "18",
+      "counties": [
+        "DuPage"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-felice-richard-d-felice",
+      "raceId": "sbe-local-18th-circuit-retain-felice",
+      "name": "Richard D. Felice",
+      "circuit": "18",
+      "counties": [
+        "DuPage"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-18th-circuit-retain-o-connell-margaret-peggy-o-connell",
+      "raceId": "sbe-local-18th-circuit-retain-o-connell",
+      "name": "Margaret \"Peggy\" O'Connell",
+      "circuit": "18",
+      "counties": [
+        "DuPage"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-19th-circuit-retain-booras-james-k-booras",
+      "raceId": "sbe-local-19th-circuit-retain-booras",
+      "name": "James K. Booras",
+      "circuit": "19",
+      "counties": [
+        "Lake"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-19th-circuit-retain-slavin-marnie-m-slavin",
+      "raceId": "sbe-local-19th-circuit-retain-slavin",
+      "name": "Marnie M. Slavin",
+      "circuit": "19",
+      "counties": [
+        "Lake"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-sabol-michael-sabol",
+      "raceId": "sbe-local-21st-circuit-retain-sabol",
+      "name": "Michael Sabol",
+      "circuit": "21",
+      "counties": [
+        "Iroquois",
+        "Kankakee"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-dickenson-william-s-dickenson",
+      "raceId": "sbe-local-21st-circuit-retain-dickenson",
+      "name": "William S. Dickenson",
+      "circuit": "21",
+      "counties": [
+        "Iroquois",
+        "Kankakee"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-21st-circuit-retain-parkhurst-lindsay-parkhurst",
+      "raceId": "sbe-local-21st-circuit-retain-parkhurst",
+      "name": "Lindsay Parkhurst",
+      "circuit": "21",
+      "counties": [
+        "Iroquois",
+        "Kankakee"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-feetterer-michael-w-feetterer",
+      "raceId": "sbe-local-22nd-circuit-retain-feetterer",
+      "name": "Michael W. Feetterer",
+      "circuit": "22",
+      "counties": [
+        "McHenry"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-gervais-david-r-gervais",
+      "raceId": "sbe-local-22nd-circuit-retain-gervais",
+      "name": "David R. Gervais",
+      "circuit": "22",
+      "counties": [
+        "McHenry"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-hansen-justin-m-hansen",
+      "raceId": "sbe-local-22nd-circuit-retain-hansen",
+      "name": "Justin M. Hansen",
+      "circuit": "22",
+      "counties": [
+        "McHenry"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-22nd-circuit-retain-gerhardt-mark-r-gerhardt",
+      "raceId": "sbe-local-22nd-circuit-retain-gerhardt",
+      "name": "Mark R. Gerhardt",
+      "circuit": "22",
+      "counties": [
+        "McHenry"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-23rd-circuit-retain-gleason-jody-p-gleason",
+      "raceId": "sbe-local-23rd-circuit-retain-gleason",
+      "name": "Jody P. Gleason",
+      "circuit": "23",
+      "counties": [
+        "DeKalb",
+        "Kendall"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-24th-circuit-retain-campanella-james-w-campanella",
+      "raceId": "sbe-local-24th-circuit-retain-campanella",
+      "name": "James W. Campanella",
+      "circuit": "24",
+      "counties": [
+        "Monroe",
+        "Perry",
+        "Randolph",
+        "Washington"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-24th-circuit-retain-hitzemann-chris-hitzemann",
+      "raceId": "sbe-local-24th-circuit-retain-hitzemann",
+      "name": "Chris Hitzemann",
+      "circuit": "24",
+      "counties": [
+        "Monroe",
+        "Perry",
+        "Randolph",
+        "Washington"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-nixon-lewis-nixon",
+      "raceId": "sbe-local-cook-circuit-retain-nixon",
+      "name": "Lewis Nixon",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-kennedy-kerry-m-kennedy",
+      "raceId": "sbe-local-cook-circuit-retain-kennedy",
+      "name": "Kerry M. Kennedy",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-powell-joan-e-powell",
+      "raceId": "sbe-local-cook-circuit-retain-powell",
+      "name": "Joan E. Powell",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-ward-kirby-maureen-ward-kirby",
+      "raceId": "sbe-local-cook-circuit-retain-ward-kirby",
+      "name": "Maureen Ward Kirby",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-arce-edward-a-arce",
+      "raceId": "sbe-local-cook-circuit-retain-arce",
+      "name": "Edward A. Arce",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-byrne-thomas-j-byrne",
+      "raceId": "sbe-local-cook-circuit-retain-byrne",
+      "name": "Thomas J. Byrne",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-kenworthy-diana-l-kenworthy",
+      "raceId": "sbe-local-cook-circuit-retain-kenworthy",
+      "name": "Diana L. Kenworthy",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-ryan-kristyna-colleen-ryan",
+      "raceId": "sbe-local-cook-circuit-retain-ryan",
+      "name": "Kristyna Colleen Ryan",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-walowski-ursula-walowski",
+      "raceId": "sbe-local-cook-circuit-retain-walowski",
+      "name": "Ursula Walowski",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-kyriakopoulos-anthony-c-tony-kyriakopoulos",
+      "raceId": "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "name": "Anthony C. \"Tony\" Kyriakopoulos",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-moreland-caroline-kate-moreland",
+      "raceId": "sbe-local-cook-circuit-retain-moreland",
+      "name": "Caroline Kate Moreland",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-carroll-thomas-j-carroll",
+      "raceId": "sbe-local-cook-circuit-retain-carroll",
+      "name": "Thomas J. Carroll",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-buford-andrea-m-buford",
+      "raceId": "sbe-local-cook-circuit-retain-buford",
+      "name": "Andrea M. Buford",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-allegretti-john-michael-allegretti",
+      "raceId": "sbe-local-cook-circuit-retain-allegretti",
+      "name": "John Michael Allegretti",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-rivers-kristal-r-rivers",
+      "raceId": "sbe-local-cook-circuit-retain-rivers",
+      "name": "Kristal R. Rivers",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-watkins-steven-g-watkins",
+      "raceId": "sbe-local-cook-circuit-retain-watkins",
+      "name": "Steven G. Watkins",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-romanek-abbey-fishman-romanek",
+      "raceId": "sbe-local-cook-circuit-retain-romanek",
+      "name": "Abbey Fishman Romanek",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-rice-judith-c-rice",
+      "raceId": "sbe-local-cook-circuit-retain-rice",
+      "name": "Judith C. Rice",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-coughlin-patrick-kevin-coughlin",
+      "raceId": "sbe-local-cook-circuit-retain-coughlin",
+      "name": "Patrick Kevin Coughlin",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-goldish-megan-elizabeth-goldish",
+      "raceId": "sbe-local-cook-circuit-retain-goldish",
+      "name": "Megan Elizabeth Goldish",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-hansen-anjana-m-j-hansen",
+      "raceId": "sbe-local-cook-circuit-retain-hansen",
+      "name": "Anjana M.J. Hansen",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-kuzas-robert-d-kuzas",
+      "raceId": "sbe-local-cook-circuit-retain-kuzas",
+      "name": "Robert D. Kuzas",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-martinez-maritza-martinez",
+      "raceId": "sbe-local-cook-circuit-retain-martinez",
+      "name": "Maritza Martinez",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mcguire-terrence-j-mcguire",
+      "raceId": "sbe-local-cook-circuit-retain-mcguire",
+      "name": "Terrence J. McGuire",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mitchell-bridget-anne-mitchell",
+      "raceId": "sbe-local-cook-circuit-retain-mitchell",
+      "name": "Bridget Anne Mitchell",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-pieczonka-james-p-pieczonka",
+      "raceId": "sbe-local-cook-circuit-retain-pieczonka",
+      "name": "James P. Pieczonka",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-sheahan-patricia-o-brien-sheahan",
+      "raceId": "sbe-local-cook-circuit-retain-sheahan",
+      "name": "Patricia O'Brien Sheahan",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-forti-michael-a-forti",
+      "raceId": "sbe-local-cook-circuit-retain-forti",
+      "name": "Michael A. Forti",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-patton-nichole-c-patton",
+      "raceId": "sbe-local-cook-circuit-retain-patton",
+      "name": "Nichole C. Patton",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-denmark-sondra-n-denmark",
+      "raceId": "sbe-local-cook-circuit-retain-denmark",
+      "name": "Sondra N. Denmark",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-tristan-jr-gerardo-tristan-jr",
+      "raceId": "sbe-local-cook-circuit-retain-tristan-jr",
+      "name": "Gerardo Tristan, Jr.",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-weaver-boyle-lynn-weaver-boyle",
+      "raceId": "sbe-local-cook-circuit-retain-weaver-boyle",
+      "name": "Lynn Weaver Boyle",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-maloney-daniel-edward-maloney",
+      "raceId": "sbe-local-cook-circuit-retain-maloney",
+      "name": "Daniel Edward Maloney",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-cushing-thomas-m-cushing",
+      "raceId": "sbe-local-cook-circuit-retain-cushing",
+      "name": "Thomas M. Cushing",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mulroe-john-g-mulroe",
+      "raceId": "sbe-local-cook-circuit-retain-mulroe",
+      "name": "John G. Mulroe",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-walton-tyria-b-walton",
+      "raceId": "sbe-local-cook-circuit-retain-walton",
+      "name": "Tyria B. Walton",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-antonietti-erin-haggerty-antonietti",
+      "raceId": "sbe-local-cook-circuit-retain-antonietti",
+      "name": "Erin Haggerty Antonietti",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-molina-gonzalez-teresa-molina-gonzalez",
+      "raceId": "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "name": "Teresa Molina-Gonzalez",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-fallon-patricia-maria-fallon",
+      "raceId": "sbe-local-cook-circuit-retain-fallon",
+      "name": "Patricia Maria Fallon",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-henry-sheree-d-henry",
+      "raceId": "sbe-local-cook-circuit-retain-henry",
+      "name": "Sheree D. Henry",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mays-celestia-l-mays",
+      "raceId": "sbe-local-cook-circuit-retain-mays",
+      "name": "Celestia L. Mays",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-smith-jr-levander-smith-jr",
+      "raceId": "sbe-local-cook-circuit-retain-smith-jr",
+      "name": "Levander Smith, Jr.",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-aimen-julie-bess-aimen",
+      "raceId": "sbe-local-cook-circuit-retain-aimen",
+      "name": "Julie Bess Aimen",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-ayala-gonzalez-laura-ayala-gonzalez",
+      "raceId": "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "name": "Laura Ayala-Gonzalez",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-butler-krista-d-butler",
+      "raceId": "sbe-local-cook-circuit-retain-butler",
+      "name": "Krista D. Butler",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-dempsey-marie-aileen-dempsey",
+      "raceId": "sbe-local-cook-circuit-retain-dempsey",
+      "name": "Marie Aileen Dempsey",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-dickler-jamie-guerra-dickler",
+      "raceId": "sbe-local-cook-circuit-retain-dickler",
+      "name": "Jamie Guerra Dickler",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-green-jonathan-clark-green",
+      "raceId": "sbe-local-cook-circuit-retain-green",
+      "name": "Jonathan Clark Green",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-marubio-mary-catherine-marubio",
+      "raceId": "sbe-local-cook-circuit-retain-marubio",
+      "name": "Mary Catherine Marubio",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-mescall-regina-a-mescall",
+      "raceId": "sbe-local-cook-circuit-retain-mescall",
+      "name": "Regina A. Mescall",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-murphy-lorraine-mary-murphy",
+      "raceId": "sbe-local-cook-circuit-retain-murphy",
+      "name": "Lorraine Mary Murphy",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-o-connor-eileen-marie-o-connor",
+      "raceId": "sbe-local-cook-circuit-retain-o-connor",
+      "name": "Eileen Marie O'Connor",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-quinn-jill-rose-quinn",
+      "raceId": "sbe-local-cook-circuit-retain-quinn",
+      "name": "Jill Rose Quinn",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-reaves-harris-pamela-reaves-harris",
+      "raceId": "sbe-local-cook-circuit-retain-reaves-harris",
+      "name": "Pamela Reaves-Harris",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-smith-tiesha-l-smith",
+      "raceId": "sbe-local-cook-circuit-retain-smith",
+      "name": "Tiesha L. Smith",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-stacey-chris-stacey",
+      "raceId": "sbe-local-cook-circuit-retain-stacey",
+      "name": "Chris Stacey",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-tirado-perla-tirado",
+      "raceId": "sbe-local-cook-circuit-retain-tirado",
+      "name": "Perla Tirado",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-walsh-elizabeth-anne-walsh",
+      "raceId": "sbe-local-cook-circuit-retain-walsh",
+      "name": "Elizabeth Anne Walsh",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    },
+    {
+      "candidateId": "sbe-cook-circuit-retain-zeller-maura-mcmahon-zeller",
+      "raceId": "sbe-local-cook-circuit-retain-zeller",
+      "name": "Maura McMahon Zeller",
+      "circuit": "Cook",
+      "counties": [
+        "Cook"
+      ],
+      "matchesCurrentStatutoryCircuit": true
+    }
+  ],
+  "limits": [
+    "No personal voter eligibility is certified by a ZIP or this county-level check.",
+    "All 128 county sets checked against the governing statute; actual 2026 specimens were sampled rather than every precinct ballot.",
+    "The 24th split required individual election evidence because geography alone cannot settle a judge's statutory choice.",
+    "Current appellate service assignments do not convert a circuit retention question into an appellate retention question.",
+    "No production data changed by this reviewer."
+  ],
+  "productionParity": {
+    "checkedFile": "data-local.js",
+    "matchedRaceRecords": 128,
+    "mismatches": [],
+    "fileSha256": "f5393900779f0dd91c6419a716c635373af702bd2723610b7573029645ffa202"
+  }
+}

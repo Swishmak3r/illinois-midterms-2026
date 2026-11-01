@@ -1,0 +1,120 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "Independent source review, batch 2a",
+  "ledger": "audit/judicial-2026/research-batch-2a.json",
+  "profilesReviewed": 5,
+  "casesReviewed": 10,
+  "method": "Read all ten complete primary opinions from the saved PDF text layers, including separate opinions. Matched every saved PDF SHA-256 to the evidence hash in the ledger. Compared identity, role, date, own trial action and reported reasoning, appellate treatment and cited paragraphs. Six opinions were read by the assigned reviewer; four by an independent delegated reader. Search snippets and ledger summaries did not substitute for reading the opinions.",
+  "result": "Verified after two minor pinpoint corrections",
+  "materialFactualErrors": [],
+  "corrections": [
+    {
+      "case": "People v. Rainey",
+      "finding": "The disposition is paragraphs 37–38, not 35–36. Paragraph 35 remains relevant appellate reasoning.",
+      "status": "Corrected in component and canonical ledgers; verified component file after edit."
+    },
+    {
+      "case": "In re K.M.",
+      "finding": "The explicit social-media constitutional holding extends through paragraph 67; the source pinpoint was expanded from 52–62 to 52–67.",
+      "status": "Corrected in component and canonical ledgers; verified component file after edit."
+    }
+  ],
+  "cases": [
+    {
+      "judge": "Kristal R. Rivers",
+      "case": "In re K.M.",
+      "citation": "2018 IL App (1st) 172349",
+      "cache": "batch-2a-cache/Kristal-5.pdf",
+      "sha256": "9316e922e469dc814857c9fa30f90ed20ab513e4085cdaf4887a908593ab1a65",
+      "readScope": "All 112 paragraphs, including partial dissent",
+      "verified": "Trial probation restrictions, gang-contact condition vacatur, social-media condition affirmance, remand, partial dissent, June 29 2018 date and judge attribution. Appellate policy reasoning is not attributed to Rivers."
+    },
+    {
+      "judge": "Kristal R. Rivers",
+      "case": "In re Maurice J.",
+      "citation": "2018 IL App (1st) 172123",
+      "cache": "batch-2a-cache/Kristal-7.pdf",
+      "sha256": "b96af1d253fcc82cfdbd47f3b10b43ec92aa5610f389d75b2591fb6c54929cf3",
+      "readScope": "All 29 paragraphs",
+      "verified": "Suppression denial based on officer credibility, ensuing adjudication and outright reversal for unlawful traffic stop. This concerns the stop, not constitutional gun-law validity."
+    },
+    {
+      "judge": "Steven G. Watkins",
+      "case": "People v. White",
+      "citation": "2020 IL App (1st) 171814",
+      "cache": "batch-2a-cache/Steven-G-Watkins-23.pdf",
+      "sha256": "a4105ebca1d763821f410043c75b6a0e114efcb056337b2ac398071339246fe0",
+      "readScope": "All 38 paragraphs, including concurrence",
+      "verified": "Trial suppression denial, assault/frisk rationale, conviction and two-year probation; appellate suppression reversal and conviction vacatur; Hyman concurrence separately identified."
+    },
+    {
+      "judge": "Steven G. Watkins",
+      "case": "People v. Rainey",
+      "citation": "2025 IL App (1st) 231769",
+      "cache": "batch-2a-cache/Steven-G-Watkins-7.pdf",
+      "sha256": "c09ffeb7551f460e8420cfac1ce5b0466ac9ad01a9b1dee6e0398d4ac714c6bc",
+      "readScope": "All 38 paragraphs",
+      "verified": "Trial credibility findings, excited-utterance and investigation testimony treatment, convictions, five-year sentence and affirmance. Disposition pinpoint corrected to 37–38."
+    },
+    {
+      "judge": "Abbey Fishman Romanek",
+      "case": "In re Marriage of Patel",
+      "citation": "2022 IL App (1st) 211650",
+      "cache": "batch-2a-cache/Romanek-14.pdf",
+      "sha256": "1c97dad3b691a48949c48bb7e8a2276832204f0b4fb529635991d45806017ac0",
+      "readScope": "Complete six-page official report, 33 paragraphs",
+      "verified": "December 17 2021 escrow injunction, emergency procedural sequence, existing support obligations, appellate equitable-power explanation, due-process rejection and December 16 2022 affirmance/remand. Preservation is correctly distinguished from final ownership of funds."
+    },
+    {
+      "judge": "Abbey Fishman Romanek",
+      "case": "In re Marriage of May",
+      "citation": "2024 IL App (1st) 221485-U",
+      "cache": "batch-2a-cache/Romanek-6.pdf",
+      "sha256": "1eb71d025fc0ce845c5460de608e298f166ae2ead755ac9d376a01f7090c0576",
+      "readScope": "Complete 22-page order, 76 paragraphs and footnotes",
+      "verified": "August 24 2021 motion-in-limine ruling barred evidence due to deficient notice; it did not reject dissipation allegations on the merits. Reconsideration denial and December 23 2024 affirmance are correct. Preservation distinctions and mandatory statutory notice analysis read in full."
+    },
+    {
+      "judge": "Judith C. Rice",
+      "case": "Keefe v. Poniedzielska",
+      "citation": "2019 IL App (1st) 180657-U",
+      "cache": "batch-2a-cache/Judith-C-Rice-1.pdf",
+      "sha256": "984c54fd96b5ac442674198b61fc4edc26e24a8215f84ee9066d5e4e718c169a",
+      "readScope": "Complete six-page order, 18 paragraphs",
+      "verified": "March 23 2018 denial of motion to dismiss existing no-contact order and May 24 2019 affirmance due to inadequate record and briefing. The ledger correctly does not invent Rice's undisclosed merits rationale."
+    },
+    {
+      "judge": "Judith C. Rice",
+      "case": "Bouvel v. Duggan",
+      "citation": "2022 IL App (1st) 221320-U",
+      "cache": "batch-2a-cache/Judith-C-Rice-0.pdf",
+      "sha256": "6f17390440746d2ac1332a11648fc3e421980277db63bb0ec0008b2665de4bb5",
+      "readScope": "Complete nine-page order, 40 paragraphs",
+      "verified": "June 28 2022 emergency order, Rice's later requested briefing and readiness to hear vacatur, Amendola's intervening actions, and December 6 2022 jurisdictional dismissal. No substantive merits endorsement is claimed. PDF first-line 211320-U versus docket 1-22-1320 and official-index 221320-U discrepancy correctly disclosed."
+    },
+    {
+      "judge": "Patrick Kevin Coughlin",
+      "case": "People v. Nooner",
+      "citation": "2026 IL App (1st) 241030",
+      "cache": "batch-2a-cache/Coughlin-5.pdf",
+      "sha256": "12369013e3d6e31bc7a62ed1a02f7898b65cd13508372ae908f27689f5bd19dc",
+      "readScope": "Complete 22-page opinion, 57 paragraphs, footnotes and report information",
+      "verified": "March 21 2024 resentencing by Coughlin, statutory-minimum 56-year aggregate adult sentence, expert-evidence rationale and June 24 2026 affirmance. Original 66-year sentence and reversal belonged to a different judge. Twenty-year parole eligibility is correctly retained, without promising parole."
+    },
+    {
+      "judge": "Patrick Kevin Coughlin",
+      "case": "People v. Norfleet",
+      "citation": "2026 IL App (1st) 260828-U",
+      "cache": "batch-2a-cache/Coughlin-3.pdf",
+      "sha256": "59730585a73e49823f5c351e03eb848b43b36f2f18d7fd1f30181020d390bfa2",
+      "readScope": "Complete nine-page order, 31 paragraphs",
+      "verified": "April 27 2026 continued-detention relief denial, identification/ballistics/home-confinement rationale, disclosure finding and June 29 2026 affirmance. Trial detention is correctly distinguished from conviction and from a system-wide cash-bail policy."
+    }
+  ],
+  "limitations": [
+    "This review verifies the historical decisions and source attribution, not a complete later docket or citator history. No independent subsequent-appeal search was performed by this review team.",
+    "Publication-status labels were not treated as proof that all litigation is concluded.",
+    "No selected outcome supports a numerical ideology score or an overall Republican, Democratic or Trump-alignment label.",
+    "Saved primary PDF text layers were read; the PDFs were not freshly downloaded by this second reader. Cryptographic hashes confirm they are the files identified in the evidence ledger."
+  ]
+}

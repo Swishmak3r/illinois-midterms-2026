@@ -1,0 +1,86 @@
+[
+  {
+    "id": "law",
+    "url": "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4138&Chapter=COURTS&ChapterID=50&MajorTopic=RIGHTS+AND+REMEDIES",
+    "checked": "2026-11-01",
+    "directRetrievalError": "403 Client Error: Forbidden for url: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4138&Chapter=COURTS&ChapterID=50&MajorTopic=RIGHTS+AND+REMEDIES",
+    "reviewMethod": "Official source text read through indexed web retrieval; no direct-response hash claimed.",
+    "reviewedSections": [
+      "705 ILCS 23/5",
+      "705 ILCS 23/10",
+      "705 ILCS 23/25",
+      "705 ILCS 23/30",
+      "705 ILCS 23/35"
+    ],
+    "finding": "Eligible incumbent may choose original or redrawn judicial district for retention; current4 has41counties; current5 has48counties; First remainsCook."
+  },
+  {
+    "id": "historic-fourth",
+    "url": "https://www.ilga.gov/documents/reports/ReportsSubmitted/3346RSGAEmail6565RSGAAttachFY21%20Annual%20Report_UPLOAD.pdf",
+    "checked": "2026-11-01",
+    "directRetrievalError": "403 Client Error: Forbidden for url: https://www.ilga.gov/documents/reports/ReportsSubmitted/3346RSGAEmail6565RSGAAttachFY21%20Annual%20Report_UPLOAD.pdf",
+    "reviewMethod": "Web tool parsed the complete official29-page PDF; originalFourth list reviewed at printedpage21/PDFindex21.",
+    "originalFourthCounties": [
+      "Adams",
+      "Brown",
+      "Calhoun",
+      "Cass",
+      "Champaign",
+      "Clark",
+      "Coles",
+      "Cumberland",
+      "De Witt",
+      "Douglas",
+      "Edgar",
+      "Ford",
+      "Greene",
+      "Jersey",
+      "Livingston",
+      "Logan",
+      "Macon",
+      "Macoupin",
+      "Mason",
+      "McLean",
+      "Menard",
+      "Morgan",
+      "Moultrie",
+      "Piatt",
+      "Pike",
+      "Sangamon",
+      "Schuyler",
+      "Scott",
+      "Vermilion",
+      "Woodford"
+    ]
+  },
+  {
+    "id": "clark-ballot",
+    "url": "https://www.clarkcountyil.org/media/2026nov3ilclark-Publication.pdf",
+    "retrievedUrl": "https://www.clarkcountyil.org/media/2026nov3ilclark-Publication.pdf",
+    "checked": "2026-11-01",
+    "status": 200,
+    "sha256": "c13dd14b5e9d528c5907100783e72e4120ffa82985d4cf377de7519d48c8c08e",
+    "bytes": 13444,
+    "excerpts": [
+      {
+        "page": 1,
+        "text": "ballot. No Judge listed is running against any other Judge. The sole question is\nwhether each Judge shall be retained in his or her present office.\"\nAPPELLATE COURT JUDGE\nSHALL\nJames A. Knecht\nbe retained in office as\nJUDGE OF THE APPELLATE COURT\nFOURTH JUDICIAL DISTRICT?\nYes\nNo\nSHALL\nJohn B. Barberis, Jr.\nbe retained in office as\n\nFOURTH JUDICIAL DISTRICT?\nYes\nNo\nSHALL\nJohn B. Barberis, Jr.\nbe retained in office as\nJUDGE OF THE APPELLATE COURT\nFIFTH JUDICIAL DISTRICT?\nYes\nNo\nCIRCUIT COURT JUDGE\nSHALL\nMitchell Shick"
+      }
+    ]
+  },
+  {
+    "id": "macon-ballot",
+    "url": "https://maconcounty.illinois.gov/download/specimen-ballot/?filename=2026-General-Specimen-Ballot.pdf&ind=1789592172553&refresh=ea172ebb&wpdmdl=14661",
+    "retrievedUrl": "https://maconcounty.illinois.gov/download/specimen-ballot/?filename=2026-General-Specimen-Ballot.pdf&ind=1789592172553&refresh=ea172ebb&wpdmdl=14661",
+    "checked": "2026-11-01",
+    "status": 200,
+    "sha256": "b353cd25e06618514fb24b2f75584eee4a786b31ace87718f696087567030e15",
+    "bytes": 15660,
+    "excerpts": [
+      {
+        "page": 1,
+        "text": "ballot. No Judge listed is running against any other Judge. The sole question is\nwhether each Judge shall be retained in his or her present office.\"\nAPPELLATE COURT JUDGE\nSHALL\nJames A. Knecht\nbe retained in office as\nJUDGE OF THE APPELLATE COURT\nFOURTH JUDICIAL DISTRICT?\nYes\nNo\nSHALL\nJohn B. Barberis, Jr.\nbe retained in office as\n\nFOURTH JUDICIAL DISTRICT?\nYes\nNo\nSHALL\nJohn B. Barberis, Jr.\nbe retained in office as\nJUDGE OF THE APPELLATE COURT\nFIFTH JUDICIAL DISTRICT?\nYes\nNo\nCIRCUIT COURT JUDGE\nSHALL\nRobert C. \"R.C.\" Bollinger"
+      }
+    ]
+  }
+]

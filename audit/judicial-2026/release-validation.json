@@ -1,0 +1,1548 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Consolidated final outcomes after documented fixture correction and focused retries; not one uninterrupted clean run. Source interpretation is reviewed separately.",
+  "general": {
+    "passed": 214,
+    "unresolvedFailures": 0,
+    "runs": [
+      {
+        "name": "final-judicial-release",
+        "passed": 208,
+        "failed": 6,
+        "generatedAt": "2026-11-01T20:39:27.770Z"
+      },
+      {
+        "name": "final-judicial-history",
+        "passed": 5,
+        "failed": 1,
+        "generatedAt": "2026-11-01T20:39:52.454Z"
+      },
+      {
+        "name": "final-judicial-history-firefox",
+        "passed": 1,
+        "failed": 0,
+        "generatedAt": "2026-11-01T20:41:33.616Z"
+      }
+    ],
+    "results": [
+      {
+        "context": "node",
+        "name": "All 1,575 Illinois ZIPs and ZIP+4 variants resolve without district guesses",
+        "status": "passed",
+        "milliseconds": 130,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "ZIPs, ZIP+4 and safe fallback",
+        "status": "passed",
+        "milliseconds": 2380,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "Autocomplete ambiguity and keyboard",
+        "status": "passed",
+        "milliseconds": 885,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "History and filter reset keep URL and UI aligned",
+        "status": "passed",
+        "milliseconds": 824,
+        "run": "final-judicial-history"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "Comparison limit, removal and shareable reload",
+        "status": "passed",
+        "milliseconds": 2292,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "Modal focus trap, comparison and restoration",
+        "status": "passed",
+        "milliseconds": 1079,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "Share waits for clipboard and supports manual fallback",
+        "status": "passed",
+        "milliseconds": 1081,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "Sharing includes a search typed immediately before click",
+        "status": "passed",
+        "milliseconds": 965,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "Reduced motion and print controls",
+        "status": "passed",
+        "milliseconds": 1128,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-behavior",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-storage",
+        "name": "Denied local storage preserves lookup and theme controls",
+        "status": "passed",
+        "milliseconds": 1109,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 590,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 89,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 50,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 51,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 45,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 66,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 1157,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 983,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 169,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-desktop-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 526,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 101,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 49,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 47,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 47,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 82,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 1185,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 814,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 171,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-tablet-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "ZIPs, ZIP+4 and safe fallback",
+        "status": "passed",
+        "milliseconds": 1803,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "Autocomplete ambiguity and keyboard",
+        "status": "passed",
+        "milliseconds": 703,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "History and filter reset keep URL and UI aligned",
+        "status": "passed",
+        "milliseconds": 591,
+        "run": "final-judicial-history"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "Comparison limit, removal and shareable reload",
+        "status": "passed",
+        "milliseconds": 2107,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "Modal focus trap, comparison and restoration",
+        "status": "passed",
+        "milliseconds": 992,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "Share waits for clipboard and supports manual fallback",
+        "status": "passed",
+        "milliseconds": 640,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "Sharing includes a search typed immediately before click",
+        "status": "passed",
+        "milliseconds": 563,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "Native share cancellation does not trigger clipboard fallback",
+        "status": "passed",
+        "milliseconds": 926,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "Reduced motion and print controls",
+        "status": "passed",
+        "milliseconds": 927,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-behavior",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-storage",
+        "name": "Denied local storage preserves lookup and theme controls",
+        "status": "passed",
+        "milliseconds": 916,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 477,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 78,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 41,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 47,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 44,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 62,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 899,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 785,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 161,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-390-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 426,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 83,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 40,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 50,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 41,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 62,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 896,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 690,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 153,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-360-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 468,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 83,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 40,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 50,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 42,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 62,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 922,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 785,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 259,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "chromium-mobile-320-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "ZIPs, ZIP+4 and safe fallback",
+        "status": "passed",
+        "milliseconds": 2938,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "Autocomplete ambiguity and keyboard",
+        "status": "passed",
+        "milliseconds": 1020,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "History and filter reset keep URL and UI aligned",
+        "status": "passed",
+        "milliseconds": 1079,
+        "run": "final-judicial-history-firefox"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "Comparison limit, removal and shareable reload",
+        "status": "passed",
+        "milliseconds": 2697,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "Modal focus trap, comparison and restoration",
+        "status": "passed",
+        "milliseconds": 1688,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "Share waits for clipboard and supports manual fallback",
+        "status": "passed",
+        "milliseconds": 906,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "Sharing includes a search typed immediately before click",
+        "status": "passed",
+        "milliseconds": 639,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "Reduced motion and print controls",
+        "status": "passed",
+        "milliseconds": 1447,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-behavior",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-storage",
+        "name": "Denied local storage preserves lookup and theme controls",
+        "status": "passed",
+        "milliseconds": 1152,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 879,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 140,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 79,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 71,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 69,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 76,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 1322,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 1344,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 216,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-desktop-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 1260,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 209,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 117,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 80,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 78,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 73,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 1902,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 1922,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 266,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-tablet-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "ZIPs, ZIP+4 and safe fallback",
+        "status": "passed",
+        "milliseconds": 2729,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "Autocomplete ambiguity and keyboard",
+        "status": "passed",
+        "milliseconds": 1156,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "History and filter reset keep URL and UI aligned",
+        "status": "passed",
+        "milliseconds": 627,
+        "run": "final-judicial-history"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "Comparison limit, removal and shareable reload",
+        "status": "passed",
+        "milliseconds": 2777,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "Modal focus trap, comparison and restoration",
+        "status": "passed",
+        "milliseconds": 1368,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "Share waits for clipboard and supports manual fallback",
+        "status": "passed",
+        "milliseconds": 857,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "Sharing includes a search typed immediately before click",
+        "status": "passed",
+        "milliseconds": 563,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "Native share cancellation does not trigger clipboard fallback",
+        "status": "passed",
+        "milliseconds": 740,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "Reduced motion and print controls",
+        "status": "passed",
+        "milliseconds": 1218,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-behavior",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-storage",
+        "name": "Denied local storage preserves lookup and theme controls",
+        "status": "passed",
+        "milliseconds": 1318,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 697,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 186,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 81,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 67,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 79,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 65,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 1407,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 1236,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 197,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-390-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 733,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 165,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 66,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 69,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 53,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 77,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 1396,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 1204,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 203,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-360-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 756,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 216,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 80,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 69,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 73,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 76,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 1430,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 1248,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 190,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "firefox-mobile-320-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "ZIPs, ZIP+4 and safe fallback",
+        "status": "passed",
+        "milliseconds": 3510,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "Autocomplete ambiguity and keyboard",
+        "status": "passed",
+        "milliseconds": 2146,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "History and filter reset keep URL and UI aligned",
+        "status": "passed",
+        "milliseconds": 1002,
+        "run": "final-judicial-history"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "Comparison limit, removal and shareable reload",
+        "status": "passed",
+        "milliseconds": 4199,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "Modal focus trap, comparison and restoration",
+        "status": "passed",
+        "milliseconds": 2080,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "Share waits for clipboard and supports manual fallback",
+        "status": "passed",
+        "milliseconds": 2101,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "Sharing includes a search typed immediately before click",
+        "status": "passed",
+        "milliseconds": 1749,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "Reduced motion and print controls",
+        "status": "passed",
+        "milliseconds": 2750,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-behavior",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-storage",
+        "name": "Denied local storage preserves lookup and theme controls",
+        "status": "passed",
+        "milliseconds": 1743,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 1790,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 260,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 154,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 145,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 120,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 176,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 2626,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 2801,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 574,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-desktop-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 1849,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 292,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 146,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 145,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 145,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 160,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 2172,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 2734,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 539,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-tablet-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "ZIPs, ZIP+4 and safe fallback",
+        "status": "passed",
+        "milliseconds": 3490,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "Autocomplete ambiguity and keyboard",
+        "status": "passed",
+        "milliseconds": 2198,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "History and filter reset keep URL and UI aligned",
+        "status": "passed",
+        "milliseconds": 939,
+        "run": "final-judicial-history"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "Comparison limit, removal and shareable reload",
+        "status": "passed",
+        "milliseconds": 4440,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "Modal focus trap, comparison and restoration",
+        "status": "passed",
+        "milliseconds": 2104,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "Share waits for clipboard and supports manual fallback",
+        "status": "passed",
+        "milliseconds": 2647,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "Sharing includes a search typed immediately before click",
+        "status": "passed",
+        "milliseconds": 1559,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "Native share cancellation does not trigger clipboard fallback",
+        "status": "passed",
+        "milliseconds": 2487,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "Reduced motion and print controls",
+        "status": "passed",
+        "milliseconds": 2807,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-behavior",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-storage",
+        "name": "Denied local storage preserves lookup and theme controls",
+        "status": "passed",
+        "milliseconds": 1962,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 1883,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 299,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 144,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 148,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 128,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 171,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 2274,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 2791,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 641,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-390-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 1934,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 288,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 146,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 138,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 129,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 148,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 2257,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 2845,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 561,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-360-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "ballot: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 2322,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "towns: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 291,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "issues: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 128,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "pacs: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 135,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "compare: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 180,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "guide: no horizontal overflow and usable controls",
+        "status": "passed",
+        "milliseconds": 162,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "Four-column comparison scrolls inside page",
+        "status": "passed",
+        "milliseconds": 2361,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "Modal fits viewport and close target remains usable",
+        "status": "passed",
+        "milliseconds": 2959,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "Dark theme keeps layout usable",
+        "status": "passed",
+        "milliseconds": 620,
+        "run": "final-judicial-release"
+      },
+      {
+        "context": "webkit-mobile-320-layout",
+        "name": "No unhandled browser errors",
+        "status": "passed",
+        "milliseconds": 0,
+        "run": "final-judicial-release"
+      }
+    ]
+  },
+  "accuracyUI": {
+    "passed": 63,
+    "failed": 0
+  },
+  "sourceFinanceAlignmentUI": {
+    "passed": 36,
+    "failed": 0
+  },
+  "judicialUI": {
+    "passed": 126,
+    "failed": 0,
+    "coverage": {
+      "judges": 131,
+      "withSelectedRulings": 128,
+      "selectedRulings": 200
+    }
+  },
+  "judicialDataGroupsPassed": 7,
+  "alignmentTestsPassed": 9,
+  "financeTestsPassed": 10
+}

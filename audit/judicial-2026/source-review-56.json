@@ -1,0 +1,875 @@
+{
+  "checked": "2026-11-01",
+  "reviewer": "source_review_56",
+  "status": "complete: every included case in batches5 and6 independently reviewed",
+  "method": [
+    "Compared every included case in batch5 against official decision PDFs, using their extracted text, court captions, panel records and operative paragraphs.",
+    "Reviewed each factual summary for judge identity/role, trial action versus appellate reasoning, outcome, dates, source pinpoints and stated later-treatment limitations.",
+    "Recomputed PDF hashes for locally cached sources and checked source headers; this is not a comprehensive docket or citator certification.",
+    "Political comparisons were checked for unsupported ideology inference; no aggregate partisan or Trump score is supported."
+  ],
+  "batch5": {
+    "input": "audit/judicial-2026/research-batch-5.json",
+    "inputSha256": "2f6ce55ef2c3a18f589f483341d73bd5db2f454f72267bf0c06049996ac236a4",
+    "judges": 16,
+    "cases": 19,
+    "materialCorrectionsRequired": 0,
+    "reviews": [
+      {
+        "candidateId": "sbe-1st-circuit-retain-thurston-william-j-bill-thurston",
+        "judge": "William J. \"Bill\" Thurston",
+        "caseId": "sbe-1st-circuit-retain-thurston-william-j-bill-thurston-case-1",
+        "caseName": "People v. Sharp",
+        "citation": "2021 IL App (5th) 190190",
+        "decisionDate": "2021-02-25",
+        "status": "verified-with-stated-limitations",
+        "finding": "Thurston ordered DOC to pay counsel costs; reversal shifted statutory responsibility to county, not denial of right to counsel.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/e055f899-b242-460c-aef2-5c3e1de4e886/file",
+            "reviewedPinpoints": "Caption; paragraphs 6–9,15–24"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-1st-circuit-retain-thurston-william-j-bill-thurston",
+        "judge": "William J. \"Bill\" Thurston",
+        "caseId": "sbe-1st-circuit-retain-thurston-william-j-bill-thurston-case-2",
+        "caseName": "In re A.H.",
+        "citation": "2017 IL App (5th) 160415-U",
+        "decisionDate": "2017-04-25",
+        "status": "verified-with-stated-limitations",
+        "finding": "Termination and service-plan reasoning confirmed. Trial court expressly excluded refusal to admit abuse; appellate jurisdiction limits and self-incrimination ruling preserved.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/Resources/599ad7f7-7b67-4ba9-954d-3874dadfadb9/5160415_R23.pdf",
+            "reviewedPinpoints": "Caption; paragraphs 17,27–37,41–46,53–55"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-1st-circuit-retain-tripp-sarah-k-tripp",
+        "judge": "Sarah K. Tripp",
+        "caseId": "sbe-1st-circuit-retain-tripp-sarah-k-tripp-case-1",
+        "caseName": "People v. Beers",
+        "citation": "2025 IL App (5th) 241323-U",
+        "decisionDate": "2025-03-21",
+        "status": "verified-with-stated-limitations",
+        "finding": "Tripp detention findings confirmed. Dangerousness appeal waived; release-condition issue adjudicated on evidence. No cash-bail-policy inference.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/883c0aa2-888b-4fe5-8c7b-37e419de20d6/file",
+            "reviewedPinpoints": "Caption; paragraphs 2,12–14,17–24"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-1st-circuit-retain-tripp-sarah-k-tripp",
+        "judge": "Sarah K. Tripp",
+        "caseId": "sbe-1st-circuit-retain-tripp-sarah-k-tripp-case-2",
+        "caseName": "Donham v. Illinois Department of Natural Resources",
+        "citation": "2026 IL App (5th) 250810-U",
+        "decisionDate": "2026-08-07",
+        "status": "verified-with-stated-limitations",
+        "finding": "Tripp sovereign-immunity and FOIA pleading grounds confirmed. Appellate management-claim affirmance used standing instead; not an environmental merits decision.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/32988330-9a58-4d70-825d-ffdcb574d1ac/file",
+            "reviewedPinpoints": "Caption; paragraphs 2–3,22–28,31–40,42"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-2nd-circuit-retain-vaughan-barry-l-vaughan",
+        "judge": "Barry L. Vaughan",
+        "caseId": "sbe-2nd-circuit-retain-vaughan-barry-l-vaughan-case-1",
+        "caseName": "Accuracy Firearms, LLC v. Pritzker",
+        "citation": "2023 IL App (5th) 230035",
+        "decisionDate": "2023-01-31",
+        "status": "verified-with-stated-limitations",
+        "finding": "Vaughan majority authorship and partial TRO affirmance confirmed. Legislative-process grounds rejected; equal-protection relief provisional. Official 2025 opinion confirms vacatur in 2024 and later dismissal. Exact vacatur day deliberately not asserted.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/9a162f46-797f-443e-996e-af004c07dfb7/file",
+            "reviewedPinpoints": "Panel; paragraphs 1,35–48,57–68"
+          },
+          {
+            "url": "https://www.illinoiscourts.gov/resources/d39b0f1b-5438-4242-b264-0b8bf62c035d/file",
+            "reviewedPinpoints": "Paragraphs 1,5–9"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-2nd-circuit-retain-vaughan-barry-l-vaughan",
+        "judge": "Barry L. Vaughan",
+        "caseId": "sbe-2nd-circuit-retain-vaughan-barry-l-vaughan-case-2",
+        "caseName": "In re L.R.",
+        "citation": "2018 IL App (5th) 170469-U",
+        "decisionDate": "2018-08-07",
+        "status": "verified-with-stated-limitations",
+        "finding": "Vaughan juvenile findings and commitment reasons confirmed. Hate-crime findings and commitment affirmed; criminal-damage adjudication vacated. Date identifies amended commitment order.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/898e8ab3-a57f-4231-9580-043aac87404d/5170469_R23.pdf",
+            "reviewedPinpoints": "Caption; paragraphs 1–4,34–39,66–79"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-2nd-circuit-retain-foster-thomas-j-foster",
+        "judge": "Thomas J. Foster",
+        "caseId": "sbe-2nd-circuit-retain-foster-thomas-j-foster-case-1",
+        "caseName": "Midwest Neurosurgeons, LLC v. F.W. Electric, Inc.",
+        "citation": "2025 IL App (5th) 240957",
+        "decisionDate": "2025-10-14",
+        "status": "verified-with-stated-limitations",
+        "finding": "Foster dismissal and sanctions denial confirmed. Contract ruling affirmed; sanctions affirmance rests on incomplete appellate record rather than an independently established trial rationale.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/f93dea58-c0a4-49b9-ad9a-a6e528d73df2/file",
+            "reviewedPinpoints": "Caption; paragraphs 1,8,17–23,27–31"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-2nd-circuit-retain-hudson-william-c-hudson",
+        "judge": "William C. Hudson",
+        "caseId": "sbe-2nd-circuit-retain-hudson-william-c-hudson-case-1",
+        "caseName": "People v. Covalt",
+        "citation": "2025 IL App (5th) 220346",
+        "decisionDate": "2025-10-22",
+        "status": "verified-with-stated-limitations",
+        "finding": "Hudson speedy-trial ruling confirmed. Appellate court used different compulsory-joinder reasoning; two convictions vacated and resentencing ordered. November 17, 2025 rehearing denial confirmed on official cover.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/eea94b58-265f-44ab-a23d-fde11dd46d72/file",
+            "reviewedPinpoints": "Caption; paragraphs 16–18, 56–63, 68, 149–157"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-2nd-circuit-retain-hartrich-matthew-j-hartrich",
+        "judge": "Matthew J. Hartrich",
+        "caseId": "sbe-2nd-circuit-retain-hartrich-matthew-j-hartrich-case-1",
+        "caseName": "People v. Harvey",
+        "citation": "2025 IL App (5th) 230057-U",
+        "decisionDate": "2025-02-10",
+        "status": "verified-with-stated-limitations",
+        "finding": "Hartrich seven-year sentence and mistaken extended-term range confirmed. Sentence vacated and MSR correction ordered; counsel inquiry claim rejected/waived.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/7ae92b15-d891-4243-ba21-5a8269d6b226/file",
+            "reviewedPinpoints": "Caption; paragraphs 5, 11, 14–15, 22–28"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-2nd-circuit-retain-cook-tara-r-cook",
+        "judge": "Tara R. Cook",
+        "caseId": "sbe-2nd-circuit-retain-cook-tara-r-cook-case-1",
+        "caseName": "Perkins v. Glodich",
+        "citation": "2026 IL App (5th) 250647-U",
+        "decisionDate": "2026-08-24",
+        "status": "verified-with-stated-limitations",
+        "finding": "Cook one-incident docket entry and missing-transcript limitation confirmed. Statutory two-act requirement supports affirmance; petition allegations not treated as findings.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/22259aea-ece9-445a-8329-6f4388da64b5/file",
+            "reviewedPinpoints": "Caption; paragraphs 2, 7–8, 12–13, 16–20"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-3rd-circuit-retain-ruth-dennis-r-ruth",
+        "judge": "Dennis R. Ruth",
+        "caseId": "sbe-3rd-circuit-retain-ruth-dennis-r-ruth-case-1",
+        "caseName": "Azcon Metals v. Illinois Workers' Compensation Commission",
+        "citation": "2026 IL App (5th) 250301WC",
+        "decisionDate": "2026-02-26",
+        "status": "verified-with-stated-limitations",
+        "finding": "Ruth adoption of Commission interpretation and worker-protection rationale verified in paragraph 37 special concurrence quoting trial order. Disability award affirmed, credit denial reversed; remand to Commission confirmed.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/463cf6c7-b854-45c9-9cda-99faa658e293/file",
+            "reviewedPinpoints": "Caption; paragraphs 8–10, 26–31, 37"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-3rd-circuit-retain-maher-amy-maher",
+        "judge": "Amy Maher",
+        "caseId": "sbe-3rd-circuit-retain-maher-amy-maher-2026-05-01",
+        "caseName": "People v. McGauley",
+        "citation": "2026 IL App (5th) 240876-U",
+        "decisionDate": "2026-05-01",
+        "status": "verified-with-stated-limitations",
+        "finding": "Maher first-stage dismissal and July 1, 2024 date confirmed. Appellate remand only advances collateral review; no innocence finding.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/746c0827-f4cb-4bde-adcc-0e34b10d694b/file",
+            "reviewedPinpoints": "Caption; paragraphs 13–24, 26–27"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-4th-circuit-retain-brandmeyer-stanley-m-brandmeyer",
+        "judge": "Stanley M. Brandmeyer",
+        "caseId": "sbe-4th-circuit-retain-brandmeyer-stanley-m-brandmeyer-2018-04-06",
+        "caseName": "People v. Burchell",
+        "citation": "2018 IL App (5th) 170079",
+        "decisionDate": "2018-04-06",
+        "status": "verified-with-stated-limitations",
+        "finding": "Brandmeyer adopted deadline reasoning, which the appellate court rejected while affirming on the deficient consecutive-day allegation. Difference preserved.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/Resources/d831ba1c-607d-4cd4-bcbb-10b883cbe5c7/5170079.pdf",
+            "reviewedPinpoints": "Caption; paragraphs 3–4, 11, 14, 19–24"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-4th-circuit-retain-siemer-martin-w-siemer",
+        "judge": "Martin W. Siemer",
+        "caseId": "sbe-4th-circuit-retain-siemer-martin-w-siemer-2019-09-06",
+        "caseName": "Moldenhauer v. Dennison",
+        "citation": "2019 IL App (5th) 180212-U",
+        "decisionDate": "2019-09-06",
+        "status": "verified-with-stated-limitations",
+        "finding": "Siemer voided deed under fiduciary presumption but rejected statutory financial exploitation for insufficient proof; appeal and cross-appeal both affirmed.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/1fa5a1e0-4259-4342-ba9c-e784f9bfc1eb/file",
+            "reviewedPinpoints": "Caption; paragraphs 46–49, 57–61, 64–71"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-4th-circuit-retain-powless-joel-j-c-powless",
+        "judge": "Joel J.C. Powless",
+        "caseId": "sbe-4th-circuit-retain-powless-joel-j-c-powless-2026-06-26",
+        "caseName": "People v. Denning",
+        "citation": "2026 IL App (5th) 250217-U",
+        "decisionDate": "2026-06-26",
+        "status": "verified-with-stated-limitations",
+        "finding": "Powless restitution order, reconsideration rationale, lack of economic-loss proof and new restitution hearing confirmed; conviction not reversed.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/f11ceb67-7a9f-493a-8fb0-d9a80684ba89/file",
+            "reviewedPinpoints": "Caption; paragraphs 5–13, 16–22"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-5th-circuit-retain-shick-mitchell-shick",
+        "judge": "Mitchell Shick",
+        "caseId": "shick-petak-2024",
+        "caseName": "People v. Petak",
+        "citation": "2024 IL App (5th) 220641-U",
+        "decisionDate": "2024-06-12",
+        "status": "verified-with-stated-limitations",
+        "finding": "Shick suppression denial without evidentiary hearing and Frye denial confirmed. Ineffective assistance and erroneous trial handling led to vacatur/new trial; no acquittal.",
+        "sources": [
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/d55cb973-427d-411f-8c68-ce691e9a9860/People%20v.%20Petak%202024%20IL%20App%20%285th%29%20220641-U.pdf",
+            "reviewedPinpoints": "Caption; paragraphs 8–16, 28–40, 41–49"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-5th-circuit-retain-o-shaughnessy-thomas-m-o-shaughnessy",
+        "judge": "Thomas M. O'Shaughnessy",
+        "caseId": "oshaughnessy-km-2019",
+        "caseName": "In re K.M.",
+        "citation": "2019 IL App (4th) 190308-U",
+        "decisionDate": "2019-10-11",
+        "status": "verified-with-stated-limitations",
+        "finding": "Unfitness finding excludes desertion, followed by distinct best-interest finding. OShaughnessy attribution and affirmance confirmed.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/Resources/db6a1eb2-f7d0-47f8-a63d-ec6e93412eba/4190308_R23.pdf",
+            "reviewedPinpoints": "Caption; paragraphs 5–16, 22–32"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-6th-circuit-retain-bollinger-robert-c-r-c-bollinger",
+        "judge": "Robert C. \"R.C.\" Bollinger",
+        "caseId": "bollinger-decatur-police-2012",
+        "caseName": "Decatur Police Benevolent & Protective Association Labor Committee v. City of Decatur",
+        "citation": "2012 IL App (4th) 110764",
+        "decisionDate": "2012-04-20",
+        "status": "verified-with-stated-limitations",
+        "finding": "Bollinger vacated arbitration award on domestic-violence/truthfulness public policy. Preponderance findings belong to arbitrator; no criminal conviction represented.",
+        "sources": [
+          {
+            "url": "https://www.illinoiscourts.gov/Resources/2330ca16-adf7-4b72-8ec2-b2d96fac5690/4110764.pdf",
+            "reviewedPinpoints": "Caption; paragraphs 1–2, 15–16, 30–35, 39–48"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-6th-circuit-retain-bohm-jason-m-bohm",
+        "judge": "Jason M. Bohm",
+        "caseId": "bohm-kloeppel-2021",
+        "caseName": "Kloeppel v. Champaign County Board",
+        "citation": "2021 IL App (4th) 210091; subsequent review: 2022 IL 127997",
+        "decisionDate": "2021-11-12",
+        "status": "verified-with-stated-limitations",
+        "finding": "Bohm local appointment summary judgment confirmed; appellate reversal and unanimous November 28, 2022 Supreme Court affirmance of reversal both checked.",
+        "sources": [
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/8af28da6-c59f-4a51-b2dd-644466965a1d/Kloeppel%20v.%20Champaign%20County%20Board%2C%202021%20IL%20App%20%284th%29%20210091.pdf",
+            "reviewedPinpoints": "Caption; paragraphs 7–11, 51–54"
+          },
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/ed4cc512-2ac0-4522-b4a9-bc27e0639196/Kloeppel%20v.%20Champaign%20County%20Board%2C%202022%20IL%20127997.pdf",
+            "reviewedPinpoints": "Caption and concurrence list; paragraphs 9, 13–24, 26–28"
+          }
+        ]
+      }
+    ],
+    "historicalContextChecks": [
+      {
+        "judge": "Amy Maher",
+        "finding": "Official county page identifies Republican winner of November 3, 2020 circuit election; no current-affiliation inference.",
+        "source": "https://electionhistory.madisoncountyil.gov/eng/candidates/view/AMY-MAHER"
+      },
+      {
+        "judge": "Barry L. Vaughan",
+        "finding": "Official court biography confirms circuit election in 2002 and assignment to Fifth Appellate District in December 2020.",
+        "source": "https://www.illinoiscourts.gov/justice/967/Barry-L-Vaughan/justice/"
+      }
+    ]
+  },
+  "batch6": {
+    "checked": "2026-11-01",
+    "reviewer": "/root/source_review_56/review_batch6",
+    "ledger": "audit/judicial-2026/research-batch-6.json",
+    "judgesReviewed": 16,
+    "casesReviewed": 28,
+    "method": "Independent reading of official-PDF text layers/captions and operative trial-history, legal-reasoning and disposition paragraphs for every included case. Read all12pages of the signed Collazo trial order and its SupremeCourt disposition, plus the official Zillow settlement minutes. Used existing primary-source caches; independently fetched Courtois. This is substantive source checking, not merely schema validation, but does not claim a complete citator or current docket audit.",
+    "findings": [
+      {
+        "severity": "minor",
+        "case": "In re K.D.",
+        "issue": "Explicitly distinguish forfeited reasonable-efforts challenge from alternative reasonable-progress merits review.",
+        "status": "Owner applied correction in6b and canonical6."
+      },
+      {
+        "severity": "integration",
+        "issue": "Several case date fields describe trial action rather than reviewing opinion. Preserve dateMeaning or map to labeled trialActionDate; do not present those as appellate opinion dates.",
+        "status": "Owner preserved dateMeaning in canonical6; root notified."
+      },
+      {
+        "severity": "context",
+        "case": "People v. Woods",
+        "issue": "Morgan2025 changed appellate detention review standard. Existing summary describes historical action and makes no current-standard claim; add caveat for consistency with Knecht duplicate profile.",
+        "status": "Owner/root advised; not a same-case reversal."
+      }
+    ],
+    "materialErrorsRemaining": 0,
+    "limitations": [
+      "No complete subsequent-history citator was run. Retain each case ledger’s unknown later-proceedings qualification.",
+      "No current-law certification or overall political/Trump-alignment score is established by this selected-case sample.",
+      "The underlying signed trial orders were not generally obtained; most trial actions are established through reviewing-court accounts. Collazo is a directly read signed trial order."
+    ],
+    "cases": [
+      {
+        "candidateId": "sbe-6th-circuit-retain-rhoades-dana-rhoades",
+        "judge": "Dana Rhoades",
+        "caseId": "dana-rhoades-2025-il-app-5th-240307-u",
+        "caseName": "Zillow, Inc. v. Moultrie County",
+        "citation": "2025 IL App (5th) 240307-U",
+        "date": "2025-01-09",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Trial disclosure and fee entitlement findings match paragraphs6–9. Appeal dismissed for premature Rule304(a) certification, not merits. County minutes independently checked: approved proposed $30,000 settlement, not proof of execution.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/9a114a66-69ce-4078-b9ff-6b7d753ef1fe/file",
+            "pinpoint": "Caption; paragraphs 2, 6-9, 15-19"
+          },
+          {
+            "url": "https://www.moultriecountyil.gov/Agendas%20%26%20Minutes/2025/8.14.25%20-%20Co%20Brd%20Minutes.pdf?t=202606021119380",
+            "pinpoint": "PDF page 5, printed page 947, return to open meeting"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-6th-circuit-retain-rhoades-dana-rhoades",
+        "judge": "Dana Rhoades",
+        "caseId": "dana-rhoades-2025-il-app-5th-230340-u",
+        "caseName": "People v. Schmidt",
+        "citation": "2025 IL App (5th) 230340-U",
+        "date": "2025-08-05",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Rhoades bench findings, rejection of self-defense, youth mitigation,50-year sentence and20-year parole-review eligibility all supported. Appellate sufficiency and sentencing affirmance accurately attributed.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/fc848540-fdfa-4248-b429-db93197b3525/file",
+            "pinpoint": "Caption; paragraphs 50-54, 63-68, 78-80, 98-106, 108-109"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-6th-circuit-retain-sullivan-ramona-m-sullivan",
+        "judge": "Ramona M. Sullivan",
+        "caseId": "ramona-m-sullivan-2021-il-app-4th-210386-u",
+        "caseName": "In re Marriage of Jeffrey F.",
+        "citation": "2021 IL App (4th) 210386-U",
+        "date": "2021-11-09",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Sullivan modification and bond removal supported by paragraphs27,34–35. Best-interest/bond review distinguished from moot2021summer travel and barred objections.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/3f56dab4-09b8-4a36-9e2b-bdd3670abda3/file",
+            "pinpoint": "Caption; paragraphs 27, 34-35, 45-49, 52-59, 65-70"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-6th-circuit-retain-sullivan-ramona-m-sullivan",
+        "judge": "Ramona M. Sullivan",
+        "caseId": "ramona-m-sullivan-2021-il-app-4th-210215-u",
+        "caseName": "In re Guardianship of A.N.B.",
+        "citation": "2021 IL App (4th) 210215-U",
+        "date": "2021-09-13",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Sullivan used Probate Act best-interest approach despite living parents; appellate rejection of both available statutory routes supported. No parental-rights ideological inference justified.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/5bcb6d95-3740-4940-b4c3-88243d88c95d/file",
+            "pinpoint": "Caption; paragraphs 10-11, 21, 25-30, 36, 40-45"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-reif-christopher-e-chris-reif",
+        "judge": "Christopher E. \"Chris\" Reif",
+        "caseId": "christopher-e-chris-reif-2024-il-app-4th-240190",
+        "caseName": "People v. Woods",
+        "citation": "2024 IL App (4th) 240190",
+        "date": "2024-04-25",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Reif detention reasoning and erroneous violence-checkbox finding accurately separated from Knecht appellate opinion. Affirmance and harmless-error characterization supported. Later Morgan2025 review-standard change should accompany any current-law discussion; not a same-case reversal.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/db1a0f3d-0d27-4415-bcc7-437030012b7b/file",
+            "pinpoint": "Caption; paragraphs 4-8, 14-24, 26-27"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-reif-christopher-e-chris-reif",
+        "judge": "Christopher E. \"Chris\" Reif",
+        "caseId": "christopher-e-chris-reif-2021-il-app-4th-210094-u",
+        "caseName": "Manker v. Electoral Board of the Village of South Jacksonville",
+        "citation": "2021 IL App (4th) 210094-U",
+        "date": "2021-03-25",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Caption identifies Reif. Review concerned sufficiency of objection; appellate court reviewed board directly and treated additional issues as forfeited. Summary correctly preserves this scope.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/583d56d9-f135-4893-974b-36520d78283f/file",
+            "pinpoint": "Caption; paragraphs 2, 4-7, 11, 15-18, 23-28"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-madonia-john-m-mo-madonia",
+        "judge": "John M. \"Mo\" Madonia",
+        "caseId": "john-m-mo-madonia-2025-il-app-4th-241356-u",
+        "caseName": "People v. Powell",
+        "citation": "2025 IL App (4th) 241356-U",
+        "date": "2025-02-19",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Both Madonia detention orders and different appellate outcomes supported. One reversed for lack of individualized danger evidence; other affirmed. Summary avoids treating firearm charge alone as detention policy.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/06daf7a7-f3b5-4964-8344-e5af5d8256a6/file",
+            "pinpoint": "Caption; paragraphs 8-11, 20, 25-29, 39-50"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-madonia-john-m-mo-madonia",
+        "judge": "John M. \"Mo\" Madonia",
+        "caseId": "john-m-mo-madonia-2025-il-app-4th-241630",
+        "caseName": "Eddington v. City of Springfield",
+        "citation": "2025 IL App (4th) 241630",
+        "date": "2025-10-28",
+        "dateMeaning": "appellate-decision",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Madonia voluntary-undertaking and immunity reasoning supported by paragraphs13–14. Appellate statutory-immunity reversal clearly disclosed, with negligence distinct from immunity.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/48815db5-ca5a-413a-9de7-23f63eac2d19/file",
+            "pinpoint": "Decision-under-review caption; paragraphs 1, 13-14, 17, 30-39, 41-44"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-giganti-adam-giganti",
+        "judge": "Adam Giganti",
+        "caseId": "giganti-erickson-2025",
+        "caseName": "Erickson v. Mitrione",
+        "citation": "2025 IL App (4th) 250297",
+        "date": "2025-12-02",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Giganti relief from $24,500 judgment and Rule13 reasoning supported. Appellate reversal based on no legally meritorious defense and lack of diligence accurately summarized.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/ac4fb78a-3560-4436-8d0a-30224ad8697c/file",
+            "pinpoint": "Caption; paragraphs 10-15, 19-23, 33-47"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-giganti-adam-giganti",
+        "judge": "Adam Giganti",
+        "caseId": "giganti-hopson-2026",
+        "caseName": "People v. Hopson",
+        "citation": "2026 IL App (4th) 241316-U",
+        "date": "2026-01-29",
+        "dateMeaning": "Appellate decision date (official index notes correction March 6, 2026)",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Giganti waiver/admonishment action verified. Appellate affirmance based on forfeiture and unavailability of second-prong plain error, not validation of every procedure. Warning error and jury-poll limitations preserved.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/e5b9e40f-1cf2-4c99-b931-dad47875e2e5/file",
+            "pinpoint": "Caption; paragraphs 1-8, 17-31"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-grischow-raylene-grischow",
+        "judge": "Raylene Grischow",
+        "caseId": "grischow-allen-2022",
+        "caseName": "Allen v. North Mac Community Unit School District No. 34",
+        "citation": "2022 IL App (4th) 220307-U",
+        "date": "2022-04-08",
+        "dateMeaning": "Trial TRO date; appellate decision April 20, 2022",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Caption identifies Grischow; April8,2022 TRO and April20,2022 vacatur confirmed. Employer-specific vaccination/testing rule and Illinois health-department jurisdiction are accurately described; not a final universal vaccine prohibition.",
+        "sourcesReviewed": [
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/1ba660d1-7060-411c-92e0-fb8d03ed7137/Allen%20v.%20%20North%20Mac%20Community%20Unit%20School%20District%20No.34%2C%202022%20IL%20App%20%284th%29%20220307-U%20.pdf",
+            "pinpoint": "Caption on PDF page 4; paragraphs 1-2, 4, 10-12, 17-23"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-grischow-raylene-grischow",
+        "judge": "Raylene Grischow",
+        "caseId": "grischow-moore-2025",
+        "caseName": "People v. Moore",
+        "citation": "2025 IL App (4th) 240444-U",
+        "date": "2025-03-17",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Grischow authored appellate order; Lannerd/Knecht concurred. Paragraphs54–63 actually reach facial and nonviolent-felony as-applied claims; attribution and constitutional reasoning accurate. Trial judge Chambers not misattributed.",
+        "sourcesReviewed": [
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/47b22b1d-f1b5-444b-8de7-c80a05f07e08/People%20v.%20Moore%2C%202025%20IL%20App%20%284th%29%20240444-U.pdf",
+            "pinpoint": "Caption; paragraphs 1-2, 54-66"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-noll-gail-l-noll",
+        "judge": "Gail L. Noll",
+        "caseId": "noll-collazo-2024",
+        "caseName": "Collazo v. Illinois State Board of Elections",
+        "citation": "Sangamon County No. 2024 CH 000032; appeal 2024 IL 130769",
+        "date": "2024-06-05",
+        "dateMeaning": "Signed trial-court memorandum opinion and order",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Independently read signed Noll order PDF432–443/SR420–431 and SupremeCourt disposition. Relief limited to named2024plaintiffs; strict scrutiny plus alternative Anderson-Burdick reasoning supported. Supreme dismissal after recusals/equal division is not merits precedent.",
+        "sourcesReviewed": [
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/ef004539-a679-4811-ad91-bdc00e4a827c/130769_MOT.pdf",
+            "pinpoint": "Trial order pages 1-12, especially 6-12; PDF pages 432-443; record SR 420-431"
+          },
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/041be7cb-dbaf-4083-8ea0-0fdb76d192a9/Collazo%20v.%20Illinois%20State%20Board%20of%20Elections%2C%202024%20IL%20130769.pdf",
+            "pinpoint": "Decision-under-review caption; paragraphs 1-2"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-lorton-allison-lorton",
+        "judge": "Allison Lorton",
+        "caseId": "lorton-woolsey-2024",
+        "caseName": "Woolsey v. The Illinois State Police",
+        "citation": "2024 IL App (4th) 210467-UB",
+        "date": "2021-03-12",
+        "dateMeaning": "Trial summary-judgment date; latest reviewed appellate decision March 19, 2024",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Lorton March12,2021 disclosure decision and fee award verified.2024 appellate decision expressly vacates prior affirmance under Hart supervisory direction, reverses disclosure and vacates fees; all material later treatment disclosed.",
+        "sourcesReviewed": [
+          {
+            "url": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/b6c8ff2c-2fa2-48af-af18-f7a1f3f093e7/Woolsey%20v.%20The%20Illinois%20State%20Police%2C%202024%20IL%20App%20%284th%29%20210467-UB.pdf",
+            "pinpoint": "Caption; paragraphs 1-3, 5-9, 15-24"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-lorton-allison-lorton",
+        "judge": "Allison Lorton",
+        "caseId": "lorton-search-warrant-2026",
+        "caseName": "In re Complaint for Search Warrant",
+        "citation": "2026 IL App (4th) 260038-U",
+        "date": "2025-12-04",
+        "dateMeaning": "First trial dismissal; subsequent orders January 2 and 29, 2026; appellate disposition August 7, 2026",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Lorton December4,2025 and later dismissals supported by quoted orders. Appellate dismissal arises from unauthorized nonparty motions/appeals. No determination of retaliation or warrant merits is claimed.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/0510a5d8-058d-4284-9500-a42f11395672/file",
+            "pinpoint": "Caption; paragraphs 1-2, 10-18, 20-27"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-schmidt-zachary-a-schmidt",
+        "judge": "Zachary A. Schmidt",
+        "caseId": "zachary-a-schmidt-2026-il-app-4th-241561-u",
+        "caseName": "People v. East",
+        "citation": "2026 IL App (4th) 241561-U",
+        "date": "2026-01-27",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Schmidt case reassignment confirmed at paragraph28. DUI counsel inquiry affirmed; misdemeanor postconviction petitions handled under wrong framework and remanded to second stage. No petition-merits finding inferred.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/1cffa93e-0f2f-4f84-9732-eea66fbea30b/file",
+            "pinpoint": "Caption; paragraphs 28, 47-58, 101-104, 113-121"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-7th-circuit-retain-schmidt-zachary-a-schmidt",
+        "judge": "Zachary A. Schmidt",
+        "caseId": "zachary-a-schmidt-2026-il-app-4th-251027-u",
+        "caseName": "In re K.D.",
+        "citation": "2026 IL App (4th) 251027-U",
+        "date": "2026-02-19",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Schmidt unfitness and best-interest trial findings/burdens supported. Requested precision to disclose forfeited reasonable-efforts challenge and alternative reasonable-progress merits analysis; owner incorporated correction.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/531f9b01-7cc5-4365-9925-926145574228/file",
+            "pinpoint": "Caption; paragraphs 16-21, 25-31, 34-39"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-8th-circuit-retain-atterberry-michael-l-mike-atterberry",
+        "judge": "Michael L. \"Mike\" Atterberry",
+        "caseId": "michael-l-mike-atterberry-2018-il-app-4th-180240-u",
+        "caseName": "Onken's American Recyclers, Inc. v. California Insurance Co.",
+        "citation": "2018 IL App (4th) 180240-U",
+        "date": "2018-09-10",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Atterberry delegation-clause and Nebraska-law/McCarran-Ferguson reasoning verified in paragraphs15,20–22. Appellate affirmance and limited arbitration issue supported.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/files/4180240_R23.pdf/opinion",
+            "pinpoint": "Caption; paragraphs 15, 20-22, 36-43, 49-60"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-8th-circuit-retain-atterberry-michael-l-mike-atterberry",
+        "judge": "Michael L. \"Mike\" Atterberry",
+        "caseId": "michael-l-mike-atterberry-2020-il-app-4th-180498-u",
+        "caseName": "People v. Gustafson",
+        "citation": "2020 IL App (4th) 180498-U",
+        "date": "2020-08-20",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Atterberry witness exclusion, counsel inquiry and sentence/restitution verified. Forfeiture/plain-error limitations and remand for restitution payment method/deadline accurately disclosed.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/files/4180498_R23.pdf/opinion",
+            "pinpoint": "Caption; paragraphs 2, 10, 14-16, 23-31, 38-43, 47-49"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-8th-circuit-retain-burch-charles-h-w-burch",
+        "judge": "Charles H.W. Burch",
+        "caseId": "charles-h-w-burch-2019-il-app-4th-190088-u",
+        "caseName": "In re Marriage of Green",
+        "citation": "2019 IL App (4th) 190088-U",
+        "date": "2019-09-04",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Burch child-support calculation and four-child allocation verified; appellate holding credited full available/verifiable premium. Reversal and remand supported, no present-law generalization.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/files/4190088_R23.pdf/opinion",
+            "pinpoint": "Caption; paragraphs 10-15, 20-25, 28-31"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-8th-circuit-retain-brenner-tad-brenner",
+        "judge": "Tad Brenner",
+        "caseId": "tad-brenner-2024-il-app-4th-230370",
+        "caseName": "People v. Masters",
+        "citation": "2024 IL App (4th) 230370",
+        "date": "2024-12-03",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Brenner rejected individualized emerging-adult sentencing claim after evidentiary hearing; nine reported evidentiary reasons reviewed. Affirmance and Knecht special concurrence verified. Final officialPDF filing date December3,2024 controls over index discrepancy.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/93d78776-54a0-4024-b325-be70eb96af96/file",
+            "pinpoint": "Caption; paragraphs 2-3, 38-49, 111-119"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-8th-circuit-retain-brenner-tad-brenner",
+        "judge": "Tad Brenner",
+        "caseId": "tad-brenner-2024-il-app-4th-231524",
+        "caseName": "People v. Dyer",
+        "citation": "2024 IL App (4th) 231524",
+        "date": "2024-02-28",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Brenner detention under probation-release statute verified. Appellate vacatur, noncriminal original petition and different treatment of later amended criminal petition all accurately disclosed.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/3f289fea-f716-43c9-9c07-833a1e8adb0d/file",
+            "pinpoint": "Caption; paragraphs 12-14, 20-29"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-9th-circuit-retain-vancil-jr-david-l-vancil-jr",
+        "judge": "David L. Vancil, Jr.",
+        "caseId": "david-l-vancil-jr-2020-il-app-3d-180652-u",
+        "caseName": "People v. Isbell",
+        "citation": "2020 IL App (3d) 180652-U",
+        "date": "2020-12-22",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Vancil mistakenly said no probation-credit authority; appellate court remanded for discretionary consideration, not mandatory credit. Caption/date/outcome verified.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/bee83b8b-5117-497c-b33b-df2bfe3a18bf/file",
+            "pinpoint": "Caption; paragraphs 4–5, 7–12"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-9th-circuit-retain-vancil-jr-david-l-vancil-jr",
+        "judge": "David L. Vancil, Jr.",
+        "caseId": "david-l-vancil-jr-2014-il-app-3d-130648-u",
+        "caseName": "In re Marriage of Courtois",
+        "citation": "2014 IL App (3d) 130648-U",
+        "date": "2014-10-30",
+        "dateMeaning": "Appellate decision date",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Fresh officialPDF fetched and inspected: Vancil $800maintenance/$2500fees, statutory factors and affirmance supported. Pre2015law context is qualified.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/Resources/c7e00a9f-ee89-4e8e-8fc0-ea3392956f83/3130648_R23.pdf",
+            "pinpoint": "Caption; paragraphs 8, 11–16, 18–19"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-9th-circuit-retain-doyle-andrew-j-doyle",
+        "judge": "Andrew J. Doyle",
+        "caseId": "andrew-j-doyle-2026-il-app-4th-250994",
+        "caseName": "People v. Bell",
+        "citation": "2026 IL App (4th) 250994",
+        "date": "2026-07-16",
+        "dateMeaning": "Appellate decision date; underlying plea and admonitions August 5, 2025",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Doyle negotiated plea, abbreviated oral warning and overbroad written form verified. Remand only for Rule605(c) compliance accurately distinguished from acquittal or gun-law merits.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/642a48d2-b638-480e-ab7d-d17dfdb46c41/file",
+            "pinpoint": "Caption; paragraphs 1–3, 7–11, 30–31, 50–58, 63, 75–76"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-10th-circuit-retain-mack-james-a-mack",
+        "judge": "James A. Mack",
+        "caseId": "james-a-mack-2022-il-app-4th-220976",
+        "caseName": "Alms v. Peoria County Election Commission",
+        "citation": "2022 IL App (4th) 220976",
+        "date": "2022-12-21",
+        "dateMeaning": "Appellate explanatory opinion date; preliminary appellate affirmance November 21, 2022; trial denial October 19, 2022",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Mack denied preliminary injunction; adoption-versus-filing rationale and irreparable-harm gap supported. Appellate affirmance preserves forfeiture and preliminary posture.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/e7dbd0ac-1a7c-4a17-b810-8e9ca1b68629/file",
+            "pinpoint": "Caption; paragraphs 1–2, 4–6, 14–18, 24, 27–33, 35–46, 53–56"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-10th-circuit-retain-doscotch-christopher-r-doscotch",
+        "judge": "Christopher R. Doscotch",
+        "caseId": "christopher-r-doscotch-2026-il-app-4th-250795",
+        "caseName": "People v. Wallace",
+        "citation": "2026 IL App (4th) 250795",
+        "date": "2026-06-05",
+        "dateMeaning": "Appellate decision date; underlying suppression ruling March 2025 and constitutional motion May 2025",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Doscotch suppression reasoning and separate denial of as-applied firearm challenge confirmed paragraphs28–32. Constitutional trial rationale absent from appellate account and appropriately not invented. Affirmance accurately stated.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/21ee8091-16cf-45e3-8dc5-f7630853e4f6/file",
+            "pinpoint": "Caption; paragraphs 28–33, 92–103, 105–106"
+          }
+        ]
+      },
+      {
+        "candidateId": "sbe-10th-circuit-retain-doscotch-christopher-r-doscotch",
+        "judge": "Christopher R. Doscotch",
+        "caseId": "christopher-r-doscotch-2024-il-app-4th-241051",
+        "caseName": "People v. Roa",
+        "citation": "2024 IL App (4th) 241051",
+        "date": "2024-12-18",
+        "dateMeaning": "Appellate decision date; release motions denied July 29 and August 1, 2024",
+        "result": "verified-with-stated-limits",
+        "reviewNote": "Doscotch11-day calculation and appellate14-day alternative ground supported. Affirmance explicitly does not endorse original rationale; no cash-bail ideology inferred.",
+        "sourcesReviewed": [
+          {
+            "url": "https://www.illinoiscourts.gov/resources/841f56e6-6bb5-4737-b28a-df7c175909af/file",
+            "pinpoint": "Caption; paragraphs 10–17, 24–29, 32–33"
+          }
+        ]
+      }
+    ],
+    "inputSha256": "67cfd667596571b573070dbfa8af2d4c0b0805c199adfd31a04809a2f2884720"
+  },
+  "limitations": [
+    "Later case history is limited to identified official reviewing decisions and explicitly documented proceedings; absence of later history is not proof no appeal or remand occurred.",
+    "Selected cases cannot establish a career pattern, reversal rate, personal political ideology or support for Trump."
+  ],
+  "coverage": {
+    "judges": 32,
+    "caseRecords": 47,
+    "batch5Cases": 19,
+    "batch6Cases": 28
+  },
+  "materialErrorsRemaining": 0
+}

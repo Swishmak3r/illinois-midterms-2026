@@ -9,7 +9,8 @@ This release corrects Antigravity commit `d94c1aa` and rechecks retained researc
 | Federal and statewide | All 17 U.S. House districts, U.S. Senate, and five statewide offices match the active Illinois SBE list. The 53 individual SBE records become 50 printed-choice profiles because governor/lieutenant-governor candidates are joint tickets. Fourteen documented write-in profiles are separately labeled and authority-limited. |
 | Legislature | All 118 House districts and all 39 Senate contests listed for 2026: 157 races and 232 active candidates. Added 124 missing races. Incumbency separately compared with all 177 official ILGA member entries; indexed-source limits recorded. |
 | Judicial and regional education | Every active office in the SBE source: 211 offices and 219 active candidate rows. All 131 retention questions are separate Yes/No decisions. |
-| County-filed offices | 74 represented contests, 69 checked against a current source November 1. Five original-source gaps remain below. Local coverage is selective. |
+| County-filed offices | All 74 represented contests checked against current official sources November 1. The five Cook/McHenry source-access gaps are closed. Local coverage remains selective. |
+| Retention research | All 131 judges matched to 2026 professional assessments; 200 primary-source ruling examples for 128 judges, including 13 for Will County. Three documented research gaps remain. Historical party facts and public statements are separately sourced. |
 | Issues and endorsements | All 400 issue summaries and 118 endorsement entries reconciled to semantic source-review ledgers: 510 directly supported, eight supported with explicit qualifications, zero unresolved retained claims. |
 | State/local finance | All 126 displayed committee reports: 1,638 comparisons, zero mismatches, including two visually reviewed scans. |
 | Federal finance | All 223 bundled FEC totals and all 38 explicit identities compared with fresh official data: zero mismatches. |
@@ -26,10 +27,13 @@ The primary roster source is the [Illinois SBE general-election list](https://ww
 - Removed unsupported AFL-CIO endorsements for Amy Christiansen and Sonni Choi Williams. Corrected UDP's committee classification, removed unsupported PAC dollar assertions, and distinguished AIPAC's reported announced plans from a completed shutdown.
 - Added direct district/office browsing and a county filter based on documented overlaps. Fixed postal-city share links and record-specific review dates. Link counts are not factual proof.
 - Corrected mail-request versus in-person application deadlines and preserved missing-postmark alternatives. [Voting rules audit](audit/2026-11-01-voting-rules.md).
+- Verified the Cook Clerk's current commissioner rosters for districts 10/16 and McHenry's certified general-election candidate PDF. Corrected Miranda E. Hernandez's full name; existing McHenry names and parties matched. [Five-gap report](audit/2026-11-01-gap-report.md).
+- Corrected Knecht's retention electorate from the current 41-county court jurisdiction to the original 30-county Fourth District. Rechecked all 1,575 ZIPs and 70 communities; 130 ZIP associations were added and 287 removed. Checked all 128 circuit-retention county lists, including the Twenty-Fourth Circuit split. [Appellate geography](audit/judicial-2026/geography-review.md), [circuit scope](audit/judicial-2026/circuit-scope-review.md).
+- Added retention-specific profiles with the judge's actual ruling, appeal outcome, source paragraphs and later-law caveats. Removed legislative Trump scores and generic campaign-policy rows from retention profiles. Bar polls, institutional evaluations, historical party records and political statements remain distinct.
 
 ## Explicit remaining qualifications
 
-**Five county-roster gaps:** Cook commissioner districts 10 and 16, and McHenry clerk, sheriff and treasurer. Precise source-age/access limits remain visible. These entries do not assert complete fields or unopposed status. [Local report](audit/2026-11-01-local-report.md).
+**Judicial research limits:** the 200 examples are selected public rulings, not complete career dockets, statistical ideology measures or reversal rates. No attributable primary ruling was located for Daniel Edward Maloney, John G. Mulroe or Pamela Reaves-Harris in the documented searches; professional reports remain available. Unknown later proceedings stay unknown. Ballot spelling differences for Dempsey and Stacey are explicitly cross-referenced to court records. [Judicial review](audit/judicial-2026/release-report.md).
 
 **Eight content qualifications:** three La Shawn Ford positions use his accessible primary-era platform; three Kam Buckner claims have full indexed primary support while the live page returns 404; two endorsements name the governor candidate individually rather than both ticket members. Those distinctions remain in the evidence and displayed labels. [Content ledger](audit/2026-11-01-content-final.json).
 
@@ -39,7 +43,7 @@ The primary roster source is the [Illinois SBE general-election list](https://ww
 
 **Finance:** checks establish faithful transcription and committee association, not an independent audit of campaign transactions. State figures describe a single committee and quarter, not cycle totals or amounts exclusive to one race. FEC totals use the stated two-year query, not live balances. Paper-report committee-number, subtotal and period-heading conflicts are disclosed without changing filed amounts. [State audit](audit/2026-11-01-finance-full-state.md), [federal audit](audit/2026-11-01-finance-full-federal.md).
 
-**Alignment:** the percentage remains an equal-weight sample of six Trump-backed House measures from January–July 2025, not overall ideology, endorsement or loyalty. At least three documented measures are needed; absences and unknowns are excluded. All scored votes match archived House Clerk XML. [Methodology](audit/alignment-methodology.md).
+**Alignment:** House percentages remain an equal-weight sample of six Trump-backed measures from January–July 2025, not overall ideology, endorsement or loyalty. At least three documented measures are needed; absences and unknowns are excluded. All scored votes match archived House Clerk XML. Retention judges have no numeric score: case-level policy comparisons require the same precise question and dated primary evidence. Ordinary detention, conviction, sentence or procedural outcomes do not establish personal politics. [House method](audit/alignment-methodology.md), [judicial method](audit/judicial-2026/policy-method.md).
 
 ## Reproduction
 

@@ -79,13 +79,7 @@
     "madison-regional-superintendent",
     "st-clair-regional-superintendent"
   ],
-  "countyFreshnessNotReasserted": [
-    "cook-comm-10",
-    "cook-comm-16",
-    "mchenry-sheriff",
-    "mchenry-clerk",
-    "mchenry-treasurer"
-  ],
+  "countyFreshnessNotReasserted": [],
   "localDirectoryContests": 285,
   "status": "passed",
   "limits": "Source parity and regression checks do not independently verify every campaign claim, every county ballot, or address-specific eligibility."

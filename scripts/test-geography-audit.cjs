@@ -108,4 +108,30 @@ for (const town of w.IL_TOWNS_DIRECTORY) {
   for (const key of ['usHouse','stateSenate','stateHouse']) for (const code of town[key]) assert.ok(currentCodes.has(code), town.id + ' stale ' + code);
   for (const id of town.localRaces) assert.ok(local.has(id), town.id + ' stale ' + id);
 }
+// Retention electorates can retain an earlier district map. Court jurisdiction
+// must not overwrite the distinct electorate demonstrated by official ballots.
+const retentionReview = JSON.parse(fs.readFileSync(path.join(root, 'audit/judicial-2026/geography-review-correction.json'), 'utf8'));
+const knechtId = retentionReview.changedRaceId, knecht = local.get(knechtId);
+assert.deepEqual(plain(knecht.counties).sort(), retentionReview.originalFourthCounties.slice().sort());
+assert.equal(knecht.counties.length, 30);
+assert.equal(knecht.courtCounties.length, 41);
+assert.equal(local.get('sbe-local-5th-appellate-retain-barberis-jr').counties.length, 48);
+assert.deepEqual(plain(local.get('sbe-local-1st-appellate-retain-lampkin').counties), ['Cook']);
+const changedZips = { added: [], removed: [] };
+for (const [zip] of w.IL_ZIP_DATA.illinois) {
+  const result = resolve(zip), counties = w.IL_GEOGRAPHY_DATA.zips[zip]?.counties || [];
+  const expected = counties.some(c => retentionReview.originalFourthCounties.includes(c));
+  const previous = counties.some(c => retentionReview.previousCounties.includes(c));
+  assert.equal(Boolean(result.town?.localRaces.includes(knechtId)), expected, zip + ' incorrect retention electorate');
+  if (expected && !previous) changedZips.added.push(zip);
+  if (!expected && previous) changedZips.removed.push(zip);
+}
+for (const town of w.IL_TOWNS_DIRECTORY) {
+  const expected = town.counties.some(c => retentionReview.originalFourthCounties.includes(c));
+  assert.equal(town.localRaces.includes(knechtId), expected, town.id + ' incorrect retention electorate');
+}
+for (const zip of ['61820', '62521']) assert.ok(resolve(zip).town.localRaces.includes(knechtId), zip);
+for (const zip of ['61602', '61101', '61201']) assert.ok(!resolve(zip).town.localRaces.includes(knechtId), zip);
+fs.writeFileSync(path.join(root, 'audit/judicial-2026/geography-review-locations.json'), JSON.stringify({ checked:'2026-11-01', raceId:knechtId, allPostalZipsChecked:1575, allCommunitiesChecked:70, addedZipCount:changedZips.added.length, removedZipCount:changedZips.removed.length, ...changedZips }, null, 2) + '\n');
 console.log(`PASS: all 1,575 postal ZIPs, 1,396 Census crosswalks, 179 explicit fallbacks, 70 communities, all 17/118/59 geographic districts, current-cycle filtering, local scope containment, and source-failure behavior.`);
+console.log(`PASS: original Fourth District retention scope for all ZIPs/communities; corrected ${changedZips.added.length} added and ${changedZips.removed.length} removed ZIP associations.`);

@@ -405,3 +405,65 @@ html[data-theme=dark] .party-badge-ind{color:#d3c5e0}
 @media(min-width:700px) and (max-width:1023px){.candidate-card>.candidate-finance{grid-column:2;grid-row:1/3;margin-top:0;align-self:start}}
 @media(max-width:699px){.candidate-finance{align-self:stretch;margin-top:0}.alignment-scale>span{font-size:21px}.alignment-scale small{font-size:10px;line-height:1.65}}
 @media(max-width:699px){.modal-body .finance-detailed{grid-template-columns:1fr}.modal-body .finance-detailed dd{font-size:23px}}
+
+/* Retention records keep legal decisions, professional assessments and party history distinct. */
+.candidate-card.candidate-retention{display:flex;flex-direction:column}
+.judicial-summary{min-width:0;width:100%;align-self:stretch;border-top:1px solid var(--line);padding-top:15px;margin-top:8px}
+.judicial-summary-heading{display:flex;align-items:baseline;justify-content:space-between;gap:15px;font-size:11px;line-height:1.6}
+.judicial-summary-heading strong{font-size:14px;font-weight:600}
+.judicial-summary>p{font-size:12px;line-height:1.75;color:var(--secondary);margin-top:9px;max-width:800px}
+.judicial-summary>p strong{font-size:11px;font-weight:600}
+.judicial-summary>.btn-text{margin-top:7px;font-size:12px}
+.judicial-record{min-width:0;overflow-wrap:anywhere}
+.judicial-record>h4,.judicial-history>h4,.judicial-methodology h4{font-size:17px;line-height:1.5;font-weight:600;margin:25px 0 12px}
+.judicial-record>p{font-size:13px;line-height:1.8;margin-bottom:14px;color:var(--secondary)}
+.judicial-record .source-note{background:transparent;padding:0;border-radius:0}
+.judicial-record .coverage-note{background:var(--sage);padding:14px}
+.judicial-history{border-left:3px solid var(--line);padding-left:18px;margin:24px 0}
+.judicial-history p{font-size:13px;line-height:1.8;color:var(--secondary);margin:8px 0}
+.judicial-rulings{display:grid;gap:14px}
+.judicial-ruling{border:1px solid var(--line);border-radius:9px;background:var(--paper);padding:0 19px;min-width:0}
+.judicial-ruling>summary{font-size:15px;font-weight:600;line-height:1.5;min-height:60px;padding:15px 0;cursor:pointer}
+.judicial-ruling>summary>span{display:inline;min-width:0}
+.judicial-ruling>summary small{display:block;margin-top:5px;font-size:11px;font-weight:400;color:var(--secondary)}
+.judicial-case-citation{font-size:12px;line-height:1.7;color:var(--secondary);padding:0 0 14px;border-bottom:1px solid var(--line)}
+.judicial-case-facts>div{padding:13px 0;border-bottom:1px solid var(--line)}
+.judicial-case-facts dt{font-size:11px;line-height:1.6;font-weight:650;color:var(--ink);margin-bottom:5px}
+.judicial-case-facts dd{font-size:13px;line-height:1.8;color:var(--secondary)}
+.judicial-source-list{list-style:none;padding:0;margin:11px 0 16px;display:grid;gap:5px}
+.judicial-source-list li{font-size:11px;line-height:1.7;min-width:0;overflow-wrap:anywhere}
+.judicial-source-list li>span{display:block;color:var(--secondary)}
+.judicial-source-list .evidence-link{font-size:12px;line-height:1.7}
+.judicial-comparisons{border-top:1px solid var(--line);padding:7px 0 15px;margin-top:8px}
+.judicial-comparisons>summary,.judicial-method-disclosure>summary,.judicial-poll-detail>summary{font-size:12px;line-height:1.7;font-weight:600;min-height:44px;cursor:pointer}
+.judicial-comparisons>p{font-size:12px;line-height:1.8;margin:10px 0}
+.judicial-comparisons dl>div{padding:12px 0;border-top:1px solid var(--line)}
+.judicial-comparisons dt{font-size:12px;font-weight:600;line-height:1.7;display:flex;justify-content:space-between;align-items:start;gap:12px;flex-wrap:wrap}
+.judicial-comparisons dd{font-size:12px;line-height:1.8;color:var(--secondary);margin-top:8px}
+.judicial-status{font-size:10px;font-weight:500;padding:2px 6px;border:1px solid var(--line);border-radius:4px}
+.judicial-alignment-note{border-left:3px solid var(--line);padding-left:15px;margin-top:22px}
+.judicial-method-disclosure{border-block:1px solid var(--line);padding:7px 0;margin:18px 0 28px}
+.judicial-methodology p,.judicial-methodology li{font-size:13px;line-height:1.8;color:var(--secondary);margin:10px 0;max-width:850px}
+.judicial-methodology ul:not(.judicial-source-list){padding-left:20px}
+.judicial-methodology-inline>h4{margin-top:10px}
+.judicial-profile-limits{padding-left:20px;margin:12px 0}
+.judicial-profile-limits li{font-size:13px;line-height:1.8;color:var(--secondary);margin:9px 0}
+.judicial-method-disclosure>h4{font-size:15px;line-height:1.6;margin-top:15px}
+.judicial-identity-notes{border-left:3px solid var(--line);padding-left:15px;margin:18px 0}
+.judicial-assessments{display:grid;gap:16px;margin-top:18px}
+.judicial-assessment{border:1px solid var(--line);border-radius:9px;padding:18px 20px;background:var(--paper)}
+.judicial-assessment h5{font-size:14px;font-weight:600;line-height:1.6;margin:0 0 4px}
+.judicial-assessment p{font-size:12px;line-height:1.8;color:var(--secondary);margin:8px 0}
+.judicial-assessment .judicial-assessment-kind{font-size:10px;line-height:1.7;margin:0 0 10px}
+.judicial-assessment .judicial-rating{font-size:19px;font-weight:600;line-height:1.4;color:var(--ink)}
+.judicial-poll-detail{margin-top:12px}
+.judicial-member-ratings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;margin:9px 0}
+.judicial-member-ratings>div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:8px 0;font-size:11px;line-height:1.6}
+.judicial-member-ratings dt{color:var(--secondary)}
+.judicial-member-ratings dd{font-weight:550;text-align:right}
+.comparison-table .judicial-summary{border:0;padding:0;margin:0}
+.comparison-table .judicial-summary-heading{display:block}
+.comparison-table .judicial-summary-heading strong{display:block;margin-top:5px}
+.comparison-table .judicial-summary>p{font-size:11px}
+@media(max-width:699px){.judicial-summary-heading{display:block}.judicial-summary-heading strong{display:block;margin-top:4px}.judicial-ruling{padding-inline:13px}.judicial-ruling>summary{font-size:14px}.judicial-case-facts dd{font-size:12px}.judicial-assessment{padding:15px}.judicial-member-ratings{grid-template-columns:1fr}.judicial-history{padding-left:13px}.judicial-record>h4{font-size:16px}.judicial-source-list .evidence-link{font-size:11px}.judicial-comparisons dt{display:block}.judicial-status{display:table;margin-top:5px}}
+@media print{.judicial-ruling,.judicial-assessment{break-inside:avoid;background:white;border-color:#bbb}.judicial-summary{break-inside:avoid}.judicial-summary>.btn-text{display:none!important}.judicial-status{color:#222;background:white}.judicial-source-list a{display:inline;color:#222}.judicial-record .source-note,.judicial-summary>p{color:#333}}

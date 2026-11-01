@@ -1,0 +1,384 @@
+{
+  "batch": 3,
+  "scope": "cook",
+  "count": 15,
+  "sourceInventory": "audit/judicial-2026/inventory-retention.json",
+  "instructions": "Verify meaningful primary-source ruling examples; distinguish the judge from panel members and cited authorities. Search hits do not establish participation. Lack of retrieved examples does not mean no rulings or no political alignment. Do not label personal ideology. Use official retention source to resolve identity. Keep relevant case metadata, no unrelated personal information.",
+  "judges": [
+    {
+      "raceId": "sbe-local-cook-circuit-retain-denmark",
+      "candidateId": "sbe-cook-circuit-retain-denmark-sondra-n-denmark",
+      "name": "Sondra N. Denmark",
+      "sbeName": "Denmark, Sondra N.",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN DENMARK",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-DENMARK",
+      "localDistrictName": "COOK CIRCUIT - RETAIN DENMARK",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=XPZYvZWOXzFPLRKlGwV5JA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=bXAZYm9dHWENUUNYdr38aA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-tristan-jr",
+      "candidateId": "sbe-cook-circuit-retain-tristan-jr-gerardo-tristan-jr",
+      "name": "Gerardo Tristan, Jr.",
+      "sbeName": "Tristan, Jr., Gerardo",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN TRISTAN, JR.",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-TRISTAN-JR",
+      "localDistrictName": "COOK CIRCUIT - RETAIN TRISTAN, JR.",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=adMhdJTqhw8M2MGiAqmpVw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=zq%2b2SE5WfViu5Ou8D1UK4w%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-weaver-boyle",
+      "candidateId": "sbe-cook-circuit-retain-weaver-boyle-lynn-weaver-boyle",
+      "name": "Lynn Weaver Boyle",
+      "sbeName": "Weaver Boyle, Lynn",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN WEAVER BOYLE",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-WEAVER-BOYLE",
+      "localDistrictName": "COOK CIRCUIT - RETAIN WEAVER BOYLE",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=XPZYvZWOXzEaEsgYV8uCTg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=bXAZYm9dHWFShY64PXvOnA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-maloney",
+      "candidateId": "sbe-cook-circuit-retain-maloney-daniel-edward-maloney",
+      "name": "Daniel Edward Maloney",
+      "sbeName": "Maloney, Daniel Edward",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN MALONEY",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-MALONEY",
+      "localDistrictName": "COOK CIRCUIT - RETAIN MALONEY",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=kAnU%2bpVEQ7TtRchMeRtBsw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=nABJoK5aV2gZvZVSqjYeHw%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-cushing",
+      "candidateId": "sbe-cook-circuit-retain-cushing-thomas-m-cushing",
+      "name": "Thomas M. Cushing",
+      "sbeName": "Cushing, Thomas M.",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN CUSHING",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-CUSHING",
+      "localDistrictName": "COOK CIRCUIT - RETAIN CUSHING",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ZIocGV1shq6utt%2fGo5ZvaQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=EmgZ9SLXXgrTbzjmJiwuRA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-mulroe",
+      "candidateId": "sbe-cook-circuit-retain-mulroe-john-g-mulroe",
+      "name": "John G. Mulroe",
+      "sbeName": "Mulroe, John G.",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN MULROE",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-MULROE",
+      "localDistrictName": "COOK CIRCUIT - RETAIN MULROE",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=5t9YCfiDfmx9C0i2RFWZAw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=zq%2b2SE5WfVgwzm4rR8HXNw%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-walton",
+      "candidateId": "sbe-cook-circuit-retain-walton-tyria-b-walton",
+      "name": "Tyria B. Walton",
+      "sbeName": "Walton, Tyria B.",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN WALTON",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-WALTON",
+      "localDistrictName": "COOK CIRCUIT - RETAIN WALTON",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=XPZYvZWOXzFo0aaHZrNchA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=bXAZYm9dHWEmciEXtvym3w%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-antonietti",
+      "candidateId": "sbe-cook-circuit-retain-antonietti-erin-haggerty-antonietti",
+      "name": "Erin Haggerty Antonietti",
+      "sbeName": "Antonietti, Erin Haggerty",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN ANTONIETTI",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-ANTONIETTI",
+      "localDistrictName": "COOK CIRCUIT - RETAIN ANTONIETTI",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=kAnU%2bpVEQ7S4BGbn6Yi%2fsA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=nABJoK5aV2gyTU8t9iHA4Q%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "candidateId": "sbe-cook-circuit-retain-molina-gonzalez-teresa-molina-gonzalez",
+      "name": "Teresa Molina-Gonzalez",
+      "sbeName": "Molina-Gonzalez, Teresa",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN MOLINA-GONZALEZ",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-MOLINA-GONZALEZ",
+      "localDistrictName": "COOK CIRCUIT - RETAIN MOLINA-GONZALEZ",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=eILPYVrihD0NhtfzKUyFzw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=QAle%2bojJBj3D6UgOZPq1Wg%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-fallon",
+      "candidateId": "sbe-cook-circuit-retain-fallon-patricia-maria-fallon",
+      "name": "Patricia Maria Fallon",
+      "sbeName": "Fallon, Patricia Maria",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN FALLON",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-FALLON",
+      "localDistrictName": "COOK CIRCUIT - RETAIN FALLON",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=emkdcQQ5FzfwgzbAiwGb%2fQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=zq%2b2SE5WfVgLT26yFT6cTA%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-henry",
+      "candidateId": "sbe-cook-circuit-retain-henry-sheree-d-henry",
+      "name": "Sheree D. Henry",
+      "sbeName": "Henry, Sheree D.",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN HENRY",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-HENRY",
+      "localDistrictName": "COOK CIRCUIT - RETAIN HENRY",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=Xrf9E%2f2zOGD5drTwyLThPA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=QAle%2bojJBj3OjL4fguR7Yw%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-mays",
+      "candidateId": "sbe-cook-circuit-retain-mays-celestia-l-mays",
+      "name": "Celestia L. Mays",
+      "sbeName": "Mays, Celestia L.",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN MAYS",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-MAYS",
+      "localDistrictName": "COOK CIRCUIT - RETAIN MAYS",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=eILPYVrihD1%2flafVck50%2bQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=QAle%2bojJBj15xgiQmaC96g%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-smith-jr",
+      "candidateId": "sbe-cook-circuit-retain-smith-jr-levander-smith-jr",
+      "name": "Levander Smith, Jr.",
+      "sbeName": "Smith, Jr., Levander",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN SMITH, JR.",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-SMITH-JR",
+      "localDistrictName": "COOK CIRCUIT - RETAIN SMITH, JR.",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ZyGrv3oGaRSNxGMhudBXjw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=A9bkQmAm67%2f9nZWjFO7%2f7g%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-aimen",
+      "candidateId": "sbe-cook-circuit-retain-aimen-julie-bess-aimen",
+      "name": "Julie Bess Aimen",
+      "sbeName": "Aimen, Julie Bess",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN AIMEN",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-AIMEN",
+      "localDistrictName": "COOK CIRCUIT - RETAIN AIMEN",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ZIocGV1shq6fQlJ%2bmEc0Iw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=EmgZ9SLXXgri1gWszmk%2bjQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    },
+    {
+      "raceId": "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "candidateId": "sbe-cook-circuit-retain-ayala-gonzalez-laura-ayala-gonzalez",
+      "name": "Laura Ayala-Gonzalez",
+      "sbeName": "Ayala-Gonzalez, Laura",
+      "courtType": "Circuit",
+      "courtGroup": "COOK CIRCUIT",
+      "sbeOffice": "COOK CIRCUIT - RETAIN AYALA-GONZALEZ",
+      "localDistrictCode": "IL-COOK-CIRCUIT-RETAIN-AYALA-GONZALEZ",
+      "localDistrictName": "COOK CIRCUIT - RETAIN AYALA-GONZALEZ",
+      "judicialDistrict": "First Judicial District",
+      "counties": [
+        "Cook"
+      ],
+      "geographicScope": "whole-court-district",
+      "eligibilityScope": "circuit",
+      "retentionStatus": {
+        "status": "Active 5/7/2026",
+        "checked": "2026-11-01",
+        "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=3xoudL7AYH11K0vxl3C74g%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+        "officeUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=QAle%2bojJBj1PxahcSDFftQ%3d%3d"
+      },
+      "reviewStatus": "Not yet researched by inventory task",
+      "casesFound": null
+    }
+  ]
+}
