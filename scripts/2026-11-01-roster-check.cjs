@@ -1,0 +1,34 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const vm=require('node:vm');
+const root=path.resolve(__dirname,'..');
+const source=JSON.parse(fs.readFileSync(path.join(root,'audit/2026-11-01-roster-sbe.json'),'utf8'));
+const scope={window:{}};
+vm.runInNewContext(fs.readFileSync(path.join(root,'data-legislature.js'),'utf8'),scope);
+const actual=scope.window.IL_LEGISLATURE_RACES;
+const normalize=s=>String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const party=s=>({DEMOCRATIC:'Democrat',REPUBLICAN:'Republican',INDEPENDENT:'Independent','WORKING CLASS PARTY':'Working Class Party'}[s]||s);
+const fullName=s=>{const p=s.split(',').map(x=>x.trim());return p.length===1?s:[p.at(-1),p[0],...p.slice(1,-1)].join(' ');};
+const expected=source.records.filter(r=>/^\d+(ST|ND|RD|TH) (SENATE|REPRESENTATIVE)$/.test(r.office)&&r.status.startsWith('Active '));
+const expectedCode=r=>`${r.office.endsWith('SENATE')?'SD':'HD'}-${parseInt(r.office)}`;
+const expectedKeys=expected.map(r=>`${expectedCode(r)}|${normalize(fullName(r.name))}|${party(r.party)}`).sort();
+const actualKeys=actual.flatMap(r=>r.candidates.filter(c=>!c.writeIn&&!c.isWriteIn).map(c=>`${r.districtCode}|${normalize(c.name)}|${c.party}`)).sort();
+assert.deepEqual(Array.from(actualKeys),expectedKeys,'Every active official candidate must appear once in the same district and party; no removed/withdrawn candidate may appear as a printed choice');
+assert.equal(actual.filter(r=>r.districtCode.startsWith('HD-')).length,118);
+assert.equal(actual.filter(r=>r.districtCode.startsWith('SD-')).length,39);
+assert.equal(new Set(actual.map(r=>r.districtCode)).size,157);
+assert.equal(actualKeys.length,232);
+for(const row of expected){
+  const race=actual.find(r=>r.districtCode===expectedCode(row));
+  const candidate=race.candidates.find(c=>normalize(c.name)===normalize(fullName(row.name)));
+  assert.equal(candidate.sbeCandidateUrl,row.candidateUrl);
+  assert.equal(candidate.ballotStatusChecked,source.checked);
+  assert.ok(candidate.evidence.some(e=>e.url===row.candidateUrl&&e.checked===source.checked));
+  assert.ok(race.evidence.some(e=>e.field==='candidates'&&e.url===row.officeUrl&&e.checked===source.checked));
+}
+for (const n of [19,34,43,52]) assert.ok(!actual.some(r=>r.districtCode===`SD-${n}`),`SD-${n} is not a 2026 election`);
+assert.ok(actual.find(r=>r.districtCode==='HD-97').candidates.some(c=>c.name==='Jessica Dixon Heitman'));
+assert.ok(!actual.flatMap(r=>r.candidates).some(c=>c.name==='Harry Benton'));
+console.log('PASS: exact official roster match for 118 House + 39 Senate districts, 232 active candidates; all identity/source links and cycle exclusions verified.');

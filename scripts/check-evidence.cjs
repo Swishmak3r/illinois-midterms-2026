@@ -12,6 +12,7 @@ for (const name of ['data-federal.js', 'data-statewide.js', 'data-legislature.js
 const w = scope.window;
 const races = [...w.IL_FEDERAL_RACES, ...w.IL_STATEWIDE_RACES, ...w.IL_LEGISLATURE_RACES, ...w.IL_LOCAL_RACES];
 const problems = [], urls = new Set(), raceIds = new Set(), candidateIds = new Set();
+const checkedToday = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 let positions = 0, endorsements = 0, evidenceCount = 0;
 function problem(message) { problems.push(message); }
 function sources(record, label) {
@@ -21,7 +22,7 @@ function sources(record, label) {
     if (!e.field || !e.title || !e.checked) problem(`${label}: incomplete evidence metadata`);
     try { const u = new URL(e.url); if (u.protocol !== 'https:') problem(`${label}: source must use HTTPS: ${e.url}`); }
     catch { problem(`${label}: invalid source URL ${e.url}`); }
-    if (e.checked && !/^2026-10-28$/.test(e.checked)) problem(`${label}: unexpected audit date ${e.checked}`);
+    if (e.checked && (!/^\d{4}-\d{2}-\d{2}$/.test(e.checked) || !Number.isFinite(Date.parse(e.checked)) || new Date(e.checked).toISOString().slice(0, 10) !== e.checked || e.checked > checkedToday)) problem(`${label}: invalid or future audit date ${e.checked}`);
     urls.add(e.url); evidenceCount++;
   }
   return evidence;
@@ -58,7 +59,7 @@ for (const town of w.IL_TOWNS_DIRECTORY) {
   for (const key of ['localContext', 'mayor', 'population']) if (town[key]) problem(`${town.id}: unaudited legacy town field ${key}`);
   for (const id of town.localRaces || []) if (!raceIds.has(id)) problem(`${town.id}: stale local race link ${id}`);
 }
-const report = { checked: '2026-10-28', races: races.length, candidates: candidateIds.size, sourcedPositions: positions, endorsementEntries: endorsements, evidenceEntries: evidenceCount, uniqueSourceUrls: urls.size, errors: problems };
+const report = { checked: checkedToday, scope: 'Structural source metadata only; passing is not factual verification.', races: races.length, candidates: candidateIds.size, sourcedPositions: positions, endorsementEntries: endorsements, evidenceEntries: evidenceCount, uniqueSourceUrls: urls.size, errors: problems };
 fs.mkdirSync(path.join(root, 'output', 'audit'), { recursive: true });
 fs.writeFileSync(path.join(root, 'output', 'audit', 'evidence-coverage.json'), JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify({ ...report, errors: problems.slice(0, 25), errorCount: problems.length }, null, 2));

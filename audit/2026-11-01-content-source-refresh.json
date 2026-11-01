@@ -1,0 +1,3716 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Refresh only these exact candidateId/field/URL evidence entries after semantic source review. Preserve sourceDate and published. Do not blanket stamp unrelated fields at sameURL. Indexed-source caveats remain in scope ledgers.",
+  "entries": [
+    {
+      "candidateId": "juliana-stratton",
+      "field": "issues.economy",
+      "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "issues.healthcare",
+      "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "issues.immigration",
+      "url": "https://www.julianastratton.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "issues.energy",
+      "url": "https://www.julianastratton.com/_files/ugd/9308f6_244b22e9eb1e4b8983aee97742ba61ac.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "issues.taxes",
+      "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "issues.reproductive",
+      "url": "https://www.julianastratton.com/_files/ugd/9308f6_f10229b2fc7142fea157fa78764b1e05.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "endorsements",
+      "url": "https://www.nationalnursesunited.org/press/national-nurses-united-endorses-juliana-stratton-for-us-senate-in-illinois",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "endorsements",
+      "url": "https://emilyslist.org/news/emilys-list-endorses-illinois-lieutenant-governor-juliana-stratton-in-the-u-s-senate-race/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "juliana-stratton",
+      "field": "endorsements",
+      "url": "https://actorsequity.org/news/PR/2026/09/29/actors-equity-association-endorses-juliana-stratton-for-united-states-senate",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "don-tracy",
+      "field": "issues.economy",
+      "url": "https://dontracyforil.com/lower-the-cost-of-living/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "don-tracy",
+      "field": "issues.healthcare",
+      "url": "https://dontracyforil.com/lower-the-cost-of-living/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "don-tracy",
+      "field": "issues.immigration",
+      "url": "https://dontracyforil.com/common-sense-solutions/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "don-tracy",
+      "field": "issues.energy",
+      "url": "https://dontracyforil.com/lower-the-cost-of-living/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "don-tracy",
+      "field": "issues.taxes",
+      "url": "https://dontracyforil.com/common-sense-solutions/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "don-tracy",
+      "field": "endorsements",
+      "url": "https://ifa-pac.org/endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "whitfield-harrington",
+      "field": "issues.economy",
+      "url": "https://whit4ilsenate.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "whitfield-harrington",
+      "field": "issues.healthcare",
+      "url": "https://whit4ilsenate.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "whitfield-harrington",
+      "field": "issues.immigration",
+      "url": "https://whit4ilsenate.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "whitfield-harrington",
+      "field": "issues.energy",
+      "url": "https://whit4ilsenate.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "whitfield-harrington",
+      "field": "issues.foreignPolicy",
+      "url": "https://whit4ilsenate.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jonathan-jackson",
+      "field": "issues.economy",
+      "url": "https://jonathanjackson.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jonathan-jackson",
+      "field": "issues.healthcare",
+      "url": "https://www.govinfo.gov/app/details/BILLS-119hr3069ih",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jonathan-jackson",
+      "field": "issues.immigration",
+      "url": "https://jonathanjackson.house.gov/media/press-releases/congressman-jonathan-l-jackson-denounces-extreme-maga-republican-agenda",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jonathan-jackson",
+      "field": "issues.reproductive",
+      "url": "https://www.govinfo.gov/content/pkg/CRI-2023/html/CRI-2023-JACKSON-JONATHAN-L-A44AE4.htm",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jonathan-jackson",
+      "field": "issues.foreignPolicy",
+      "url": "https://jonathanjackson.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jonathan-jackson",
+      "field": "issues.guns",
+      "url": "https://jonathanjackson.house.gov/media/press-releases/representative-jackson-and-senator-duckworth-reintroduce-legislation-help",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jonathan-jackson",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christian-maxwell",
+      "field": "issues.economy",
+      "url": "https://christianmaxwellforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christian-maxwell",
+      "field": "issues.healthcare",
+      "url": "https://christianmaxwellforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christian-maxwell",
+      "field": "issues.immigration",
+      "url": "https://christianmaxwellforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christian-maxwell",
+      "field": "issues.taxes",
+      "url": "https://christianmaxwellforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christian-maxwell",
+      "field": "issues.reproductive",
+      "url": "https://christianmaxwellforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christian-maxwell",
+      "field": "issues.guns",
+      "url": "https://christianmaxwellforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christian-maxwell",
+      "field": "endorsements",
+      "url": "https://ifa-pac.org/endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "issues.economy",
+      "url": "https://donnaforcongress.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "issues.healthcare",
+      "url": "https://donnaforcongress.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "issues.immigration",
+      "url": "https://donnaforcongress.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "issues.energy",
+      "url": "https://donnaforcongress.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "issues.taxes",
+      "url": "https://donnaforcongress.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "issues.reproductive",
+      "url": "https://donnaforcongress.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "issues.guns",
+      "url": "https://donnaforcongress.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "endorsements",
+      "url": "https://emilyslist.org/candidate/donna-miller/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "donna-miller",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-noack",
+      "field": "issues.healthcare",
+      "url": "https://noack4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-noack",
+      "field": "issues.energy",
+      "url": "https://noack4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-noack",
+      "field": "issues.immigration",
+      "url": "https://noack4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-noack",
+      "field": "issues.taxes",
+      "url": "https://noack4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-noack",
+      "field": "issues.economy",
+      "url": "https://noack4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "issues.economy",
+      "url": "https://www.deliaforcongress.com/issues/worker-rights",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "issues.healthcare",
+      "url": "https://www.deliaforcongress.com/issues/healthcare",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "issues.immigration",
+      "url": "https://ramirez.house.gov/media/press-releases/ramirez-introduces-reimagining-safety-act-legislation-dismantle-dhs-abolish",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "issues.energy",
+      "url": "https://www.deliaforcongress.com/issues/climate-change-and-clean-energy",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "issues.reproductive",
+      "url": "https://www.deliaforcongress.com/issues/reproductive-rights",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "issues.foreignPolicy",
+      "url": "https://www.deliaforcongress.com/issues/housing-mtwp5",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "issues.guns",
+      "url": "https://www.deliaforcongress.com/issues/public-safety",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "endorsements",
+      "url": "https://www.ctulocal1.org/movement/school-board-election-2026-11/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "delia-ramirez",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "angel-oakley",
+      "field": "issues.economy",
+      "url": "https://www.libertyangel.us/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "angel-oakley",
+      "field": "issues.healthcare",
+      "url": "https://www.libertyangel.us/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "angel-oakley",
+      "field": "issues.immigration",
+      "url": "https://www.libertyangel.us/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "angel-oakley",
+      "field": "issues.energy",
+      "url": "https://www.libertyangel.us/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "angel-oakley",
+      "field": "issues.taxes",
+      "url": "https://www.libertyangel.us/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "issues.economy",
+      "url": "https://pattyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "issues.healthcare",
+      "url": "https://pattyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "issues.immigration",
+      "url": "https://pattyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "issues.energy",
+      "url": "https://pattyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "issues.taxes",
+      "url": "https://pattyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "issues.reproductive",
+      "url": "https://pattyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "issues.foreignPolicy",
+      "url": "https://pattyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "endorsements",
+      "url": "https://www.boldpac.com/candidates/patty-garcia",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "patty-garcia",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "lupe-castillo",
+      "field": "issues.economy",
+      "url": "https://castillolupe.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "lupe-castillo",
+      "field": "issues.immigration",
+      "url": "https://castillolupe.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "lupe-castillo",
+      "field": "issues.taxes",
+      "url": "https://castillolupe.com/values/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "lupe-castillo",
+      "field": "issues.guns",
+      "url": "https://castillolupe.com/about/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christopher-getty",
+      "field": "issues.economy",
+      "url": "https://www.chrisgettyforcongress.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christopher-getty",
+      "field": "issues.healthcare",
+      "url": "https://www.chrisgettyforcongress.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christopher-getty",
+      "field": "issues.immigration",
+      "url": "https://www.chrisgettyforcongress.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christopher-getty",
+      "field": "issues.energy",
+      "url": "https://www.chrisgettyforcongress.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christopher-getty",
+      "field": "issues.taxes",
+      "url": "https://www.chrisgettyforcongress.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christopher-getty",
+      "field": "issues.reproductive",
+      "url": "https://www.chrisgettyforcongress.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "christopher-getty",
+      "field": "issues.guns",
+      "url": "https://www.chrisgettyforcongress.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "edward-hershey",
+      "field": "issues.economy",
+      "url": "https://workingclassfight.com/blog/working-class-party-program-statement-for-2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "edward-hershey",
+      "field": "issues.economy",
+      "url": "https://www.workingclassfight.com/elections/wcp-2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "edward-hershey",
+      "field": "issues.foreignPolicy",
+      "url": "https://workingclassfight.com/blog/working-class-party-program-statement-for-2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "edward-hershey",
+      "field": "issues.foreignPolicy",
+      "url": "https://www.workingclassfight.com/elections/wcp-2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "issues.healthcare",
+      "url": "https://quigley.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "issues.immigration",
+      "url": "https://quigley.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "issues.energy",
+      "url": "https://quigley.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "issues.reproductive",
+      "url": "https://quigley.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "issues.foreignPolicy",
+      "url": "https://quigley.house.gov/about/biography",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "issues.guns",
+      "url": "https://quigley.house.gov/issues/gun-control",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "mike-quigley",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "tommy-hanson",
+      "field": "issues.economy",
+      "url": "https://votetommyhanson.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "tommy-hanson",
+      "field": "issues.immigration",
+      "url": "https://votetommyhanson.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "tommy-hanson",
+      "field": "issues.taxes",
+      "url": "https://votetommyhanson.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "issues.economy",
+      "url": "https://casten.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "issues.healthcare",
+      "url": "https://casten.house.gov/issues/health-care",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "issues.energy",
+      "url": "https://casten.house.gov/issues/climate-change",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "issues.taxes",
+      "url": "https://casten.house.gov/issues/climate-change",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "issues.reproductive",
+      "url": "https://casten.house.gov/issues/womens-rights",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "issues.foreignPolicy",
+      "url": "https://casten.house.gov/issues/foreign-affairs",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "issues.guns",
+      "url": "https://casten.house.gov/issues/gun-violence-prevention",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "sean-casten",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "niki-conforti",
+      "field": "issues.economy",
+      "url": "https://conforti4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "niki-conforti",
+      "field": "issues.healthcare",
+      "url": "https://conforti4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "niki-conforti",
+      "field": "issues.immigration",
+      "url": "https://conforti4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "niki-conforti",
+      "field": "issues.taxes",
+      "url": "https://conforti4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "niki-conforti",
+      "field": "issues.reproductive",
+      "url": "https://conforti4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "niki-conforti",
+      "field": "issues.guns",
+      "url": "https://conforti4congress.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "niki-conforti",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "la-shawn-ford",
+      "field": "issues.economy",
+      "url": "https://fordforcongress.com/women-for-ford-a-governing-platform/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "la-shawn-ford",
+      "field": "issues.healthcare",
+      "url": "https://fordforcongress.com/healthcare-that-puts-people-first/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "la-shawn-ford",
+      "field": "issues.reproductive",
+      "url": "https://fordforcongress.com/women-for-ford-a-governing-platform/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "la-shawn-ford",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "la-shawn-ford",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "chad-koppie",
+      "field": "issues.taxes",
+      "url": "https://www.koppieforcongress.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "chad-koppie",
+      "field": "issues.reproductive",
+      "url": "https://www.koppieforcongress.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "chad-koppie",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "melissa-bean",
+      "field": "issues.economy",
+      "url": "https://www.melissabeanforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "melissa-bean",
+      "field": "issues.healthcare",
+      "url": "https://www.melissabeanforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "melissa-bean",
+      "field": "issues.immigration",
+      "url": "https://www.melissabeanforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "melissa-bean",
+      "field": "issues.energy",
+      "url": "https://www.melissabeanforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "melissa-bean",
+      "field": "issues.reproductive",
+      "url": "https://www.melissabeanforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "melissa-bean",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "melissa-bean",
+      "field": "endorsements",
+      "url": "https://teamster.org/2026/10/teamsters-joint-council-25-endorses-slate-of-pro-union-candidates-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jennifer-davis",
+      "field": "issues.economy",
+      "url": "https://www.votejenniferdavis.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jennifer-davis",
+      "field": "issues.immigration",
+      "url": "https://www.votejenniferdavis.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jennifer-davis",
+      "field": "issues.energy",
+      "url": "https://www.votejenniferdavis.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "jennifer-davis",
+      "field": "issues.foreignPolicy",
+      "url": "https://www.votejenniferdavis.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-one.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.economy",
+      "url": "https://www.danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.healthcare",
+      "url": "https://www.danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.immigration",
+      "url": "https://www.danielbiss.com/issues/a-welcoming-immigration-policy",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.energy",
+      "url": "https://www.danielbiss.com/issues/protecting-our-democracy",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.taxes",
+      "url": "https://www.danielbiss.com/issues/combating-income-inequality-by-taking-on-wealth-hoarding",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.reproductive",
+      "url": "https://www.danielbiss.com/issues/protecting-civil-rights-and-civil-liberties-for-all",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.foreignPolicy",
+      "url": "https://www.danielbiss.com/issues/a-foreign-policy-rooted-in-peace-democracy-and-global-justice",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "issues.guns",
+      "url": "https://www.danielbiss.com/issues/ending-gun-violence-with-common-sense-reform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "daniel-biss",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "john-elleson",
+      "field": "issues.economy",
+      "url": "https://johnelleson.com/stances/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "john-elleson",
+      "field": "issues.healthcare",
+      "url": "https://johnelleson.com/stances/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.economy",
+      "url": "https://schneider.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.healthcare",
+      "url": "https://schneider.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.immigration",
+      "url": "https://schneider.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.energy",
+      "url": "https://schneider.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.taxes",
+      "url": "https://schneider.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.reproductive",
+      "url": "https://schneider.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.foreignPolicy",
+      "url": "https://schneider.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "issues.guns",
+      "url": "https://schneider.house.gov/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "brad-schneider",
+      "field": "endorsements",
+      "url": "https://ilnow.org/uncategorized/il-now-pac-2026-general-election-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "issues.economy",
+      "url": "https://www.billfoster.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "issues.healthcare",
+      "url": "https://www.billfoster.com/issue/healthcare/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "issues.immigration",
+      "url": "https://www.billfoster.com/issue/immigration/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "issues.energy",
+      "url": "https://www.billfoster.com/issue/combating-the-climate-crisis/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "issues.reproductive",
+      "url": "https://www.billfoster.com/issue/reproductive-freedom/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "issues.guns",
+      "url": "https://www.billfoster.com/issue/reducing-gun-violence/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "bill-foster",
+      "field": "endorsements",
+      "url": "https://ilnow.org/uncategorized/il-now-pac-2026-general-election-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-walter",
+      "field": "issues.economy",
+      "url": "https://www.jeffwalterforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-walter",
+      "field": "issues.taxes",
+      "url": "https://www.jeffwalterforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-walter",
+      "field": "issues.immigration",
+      "url": "https://www.jeffwalterforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-walter",
+      "field": "issues.healthcare",
+      "url": "https://www.jeffwalterforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-walter",
+      "field": "issues.foreignPolicy",
+      "url": "https://www.jeffwalterforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mike-bost",
+      "field": "issues.taxes",
+      "url": "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mike-bost",
+      "field": "issues.immigration",
+      "url": "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mike-bost",
+      "field": "issues.healthcare",
+      "url": "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mike-bost",
+      "field": "issues.energy",
+      "url": "https://bost.house.gov/energy",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mike-bost",
+      "field": "endorsements",
+      "url": "https://www.nrapvf.org/grades/illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "julie-fortier",
+      "field": "issues.economy",
+      "url": "https://www.juliefortier.org/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "julie-fortier",
+      "field": "issues.healthcare",
+      "url": "https://www.juliefortier.org/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "julie-fortier",
+      "field": "issues.energy",
+      "url": "https://www.juliefortier.org/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "julie-fortier",
+      "field": "issues.reproductive",
+      "url": "https://www.juliefortier.org/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "julie-fortier",
+      "field": "issues.guns",
+      "url": "https://www.juliefortier.org/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "julie-fortier",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "field": "issues.economy",
+      "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "field": "issues.healthcare",
+      "url": "https://budzinski.house.gov/posts/budzinski-schrier-introduce-legislation-to-lower-co-pays-and-deductibles",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "field": "issues.healthcare",
+      "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "field": "issues.energy",
+      "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "field": "endorsements",
+      "url": "https://cwa-union.org/candidates-il",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "field": "issues.economy",
+      "url": "https://www.wilsonforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "field": "issues.immigration",
+      "url": "https://www.wilsonforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "field": "issues.energy",
+      "url": "https://www.wilsonforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "field": "issues.guns",
+      "url": "https://www.wilsonforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "field": "issues.healthcare",
+      "url": "https://underwoodforcongress.com/healthcare-costs/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "field": "issues.immigration",
+      "url": "https://underwoodforcongress.com/immigration-border-security/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "field": "issues.energy",
+      "url": "https://underwoodforcongress.com/climate-change/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "field": "issues.reproductive",
+      "url": "https://underwoodforcongress.com/reproductive-freedom/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "field": "issues.guns",
+      "url": "https://underwoodforcongress.com/gun-violence/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "field": "endorsements",
+      "url": "https://cwa-union.org/candidates-il",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.economy",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.healthcare",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.immigration",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.energy",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.taxes",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.reproductive",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.foreignPolicy",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "issues.guns",
+      "url": "https://marter4congress.us/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "james-marter",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mary-miller",
+      "field": "issues.immigration",
+      "url": "https://marymiller.house.gov/media/press-releases/rep-miller-sen-budd-lead-bill-close-loophole-exploited-illegal-aliens-employed",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mary-miller",
+      "field": "issues.energy",
+      "url": "https://norman.house.gov/news/documentsingle.aspx?DocumentID=3214",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mary-miller",
+      "field": "issues.taxes",
+      "url": "https://rsc-pfluger.house.gov/media/press-releases/what-they-are-saying-its-tax-day-and-americans-are-winning-thanks-working",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mary-miller",
+      "field": "issues.reproductive",
+      "url": "https://hageman.house.gov/issues/family-values",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mary-miller",
+      "field": "issues.guns",
+      "url": "https://millermeeks.house.gov/media/press-releases/miller-meeks-joins-feenstra-legislation-protect-second-amendment-rights",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mary-miller",
+      "field": "endorsements",
+      "url": "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "mary-miller",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "field": "issues.economy",
+      "url": "https://www.jentodd2026.us/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "field": "issues.healthcare",
+      "url": "https://www.jentodd2026.us/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "field": "issues.immigration",
+      "url": "https://www.jentodd2026.us/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "field": "issues.reproductive",
+      "url": "https://www.jentodd2026.us/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "darin-lahood",
+      "field": "issues.economy",
+      "url": "https://lahood.house.gov/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "darin-lahood",
+      "field": "issues.healthcare",
+      "url": "https://lahood.house.gov/news?ID=7248C71D-983E-4BAD-974A-8ACFACC8E5FF",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "darin-lahood",
+      "field": "issues.immigration",
+      "url": "https://lahood.house.gov/immigration",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "darin-lahood",
+      "field": "issues.energy",
+      "url": "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "darin-lahood",
+      "field": "issues.taxes",
+      "url": "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "darin-lahood",
+      "field": "endorsements",
+      "url": "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "paul-nolley",
+      "field": "issues.economy",
+      "url": "https://www.nolleyforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "paul-nolley",
+      "field": "issues.healthcare",
+      "url": "https://www.nolleyforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "paul-nolley",
+      "field": "issues.energy",
+      "url": "https://www.nolleyforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "paul-nolley",
+      "field": "issues.taxes",
+      "url": "https://www.nolleyforcongress.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "paul-nolley",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "paul-nolley",
+      "field": "endorsements",
+      "url": "https://cwa-union.org/candidates-il",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "field": "issues.economy",
+      "url": "https://www.ericforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "field": "issues.healthcare",
+      "url": "https://www.ericforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "field": "issues.energy",
+      "url": "https://www.ericforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "field": "issues.reproductive",
+      "url": "https://www.ericforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "field": "endorsements",
+      "url": "https://cwa-union.org/candidates-il",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "dillan-vancil",
+      "field": "issues.economy",
+      "url": "https://www.vancilforcongress.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "dillan-vancil",
+      "field": "issues.healthcare",
+      "url": "https://www.vancilforcongress.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-federal-two.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.safetAct",
+      "url": "https://jbpritzker.com/latest/accomplishment/improving-public-safety/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.budgetTaxes",
+      "url": "https://jbpritzker.com/latest/accomplishment/building-a-strong-fiscal-foundation/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.energyGrid",
+      "url": "https://jbpritzker.com/latest/accomplishment/creating-the-economy-of-the-future/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.transit",
+      "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-signs-northern-illinois-transit-authority-act",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.healthcare",
+      "url": "https://jbpritzker.com/latest/accomplishment/expanding-quality-affordable-health-care/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.education",
+      "url": "https://jbpritzker.com/latest/accomplishment/improving-education-from-cradle-to-career/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "endorsements",
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "endorsements",
+      "url": "https://irma.org/illinois-retail-merchants-association-endorses-jb-pritzker-for-governor/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.propertyTaxes",
+      "url": "https://baileyforillinois.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.safetAct",
+      "url": "https://baileyforillinois.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.budgetTaxes",
+      "url": "https://baileyforillinois.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.education",
+      "url": "https://baileyforillinois.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "endorsements",
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600607/html/DCPD-202600607.htm",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.collinforil.com/platform/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.collinforil.com/affordability/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.pensions",
+      "url": "https://www.collinforil.com/platform/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.energyGrid",
+      "url": "https://www.collinforil.com/affordability/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.healthcare",
+      "url": "https://www.collinforil.com/affordability/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.education",
+      "url": "https://www.collinforil.com/grow/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.safetAct",
+      "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-issues-statement-on-illinois-supreme-court-ruling-upholding-the-elimination-of-cash-bail-in-illinois",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.healthcare",
+      "url": "https://kwameraoul.com/ontheissues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.healthcare",
+      "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-continues-fight-to-protect-affordable-care-act-coverage",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.healthcare",
+      "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-wins-lawsuit-protecting-gender-affirming-care-court-issues-final-written-order",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.energyGrid",
+      "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-challenges-epa-rollback-of-greenhouse-gas-pollution-limits-for-power-plants",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.education",
+      "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-stops-trump-administrations-illegal-weaponization-of-public-service-loan-forgiveness-program",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.publicServices",
+      "url": "https://kwameraoul.com/ontheissues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.publicServices",
+      "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-joins-illinois-coalition-against-domestic-violence-to-highlight-ring-collaboration-2-2-26",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "endorsements",
+      "url": "https://cwa-union.org/candidates-il",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "issues.safetAct",
+      "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "issues.ethics",
+      "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "issues.education",
+      "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.publicServices",
+      "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.publicServices",
+      "url": "https://www.ilsos.gov/news/2026/august-14-2026-giannoulias-vows-to-fight-trump-administrations-demand-for-sensitive-driver-data.html",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.publicServices",
+      "url": "https://www.ilsos.gov/skip-the-line.html",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.education",
+      "url": "https://www.ila.org/content/documents/a._giannoulias_2026_sos_responses.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.ethics",
+      "url": "https://www.ilsos.gov/content/dam/news/2023/january/230110d1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "issues.publicServices",
+      "url": "https://harrisforsos.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "issues.budgetTaxes",
+      "url": "https://harrisforsos.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "issues.education",
+      "url": "https://www.ila.org/content/documents/d._harris_2026_sos_responses.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "issues.budgetTaxes",
+      "url": "https://crokeforillinois.com/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "issues.healthcare",
+      "url": "https://my.ilga.gov/Legislation/BillStatus?DocNum=695&DocTypeID=HR&GAID=18&LegID=167973",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "bryan-drew",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.drewforillinois.com/transparency",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "bryan-drew",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.drewforillinois.com/affordability",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "bryan-drew",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.drewforillinois.com/accountability",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "anna-schiefelbein",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.ilgp.org/gogreen2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "anna-schiefelbein",
+      "field": "issues.energyGrid",
+      "url": "https://www.ilgp.org/gogreen2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.illinoistreasurer.gov/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.pensions",
+      "url": "https://www.illinoistreasurer.gov/news/illinois-treasurer-michael-frerichs-relaunches-state-retirement-program-for-small-businesses-with-lower-fees-and-new-name/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.energyGrid",
+      "url": "https://illinoistreasurer.gov/home/office-of-the-treasurer/raising-the-bar/sustainable-investing/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.healthcare",
+      "url": "https://www.illinoistreasurer.gov/news/state-treasurer-frerichs-announces-250000-more-illinoisans-with-disabilities-eligible-for-able-accounts/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.education",
+      "url": "https://illinoistreasurer.gov/news/in-observance-of-national-529-day-illinois-treasurer-michael-frerichs-encourages-families-to-save-for-higher-education-costs/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "max-solomon",
+      "field": "issues.budgetTaxes",
+      "url": "https://maxsolomon.info/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "max-solomon",
+      "field": "issues.education",
+      "url": "https://maxsolomon.info/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "max-solomon",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "timothea-papas",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.ilgp.org/gogreen2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "timothea-papas",
+      "field": "issues.pensions",
+      "url": "https://www.ilgp.org/gogreen2026/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-statewide.json"
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "field": "issues.healthcare",
+      "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "field": "issues.education",
+      "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "field": "endorsements",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "field": "issues.healthcare",
+      "url": "https://robyngabel.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "field": "issues.energyGrid",
+      "url": "https://robyngabel.com/gabel-led-historic-clean-and-reliable-grid-affordability-act-signed-into-law/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "field": "issues.safetAct",
+      "url": "https://robyngabel.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kam-buckner",
+      "field": "issues.transit",
+      "url": "https://www.bscactionfund.org/kam-buckner",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kam-buckner",
+      "field": "issues.energyGrid",
+      "url": "https://www.bscactionfund.org/kam-buckner",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kam-buckner",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kam-buckner",
+      "field": "endorsements",
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kam-buckner",
+      "field": "endorsements",
+      "url": "https://www.bscactionfund.org/kam-buckner",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "field": "issues.budgetTaxes",
+      "url": "https://repsheehan.com/about/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "field": "issues.safetAct",
+      "url": "https://repsheehan.com/2025/12/22/rep-sheehan-joins-colleagues-in-letter-to-gov-pritzker-on-his-stated-willingness-to-reform-safe-t-act/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "field": "issues.propertyTaxes",
+      "url": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400HB5009.html",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.janetforillinois.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "issues.healthcare",
+      "url": "https://www.janetforillinois.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "issues.education",
+      "url": "https://www.janetforillinois.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "ajay-gupta",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.ajayforilhouse41.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "ajay-gupta",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.ajayforilhouse41.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "ajay-gupta",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.dailyherald.com/20261019/illinois-state-politics/ajay-gupta-2026-candidate-for-illinois-house-district-41/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "ajay-gupta",
+      "field": "issues.safetAct",
+      "url": "https://www.dailyherald.com/20261019/illinois-state-politics/ajay-gupta-2026-candidate-for-illinois-house-district-41/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "field": "issues.propertyTaxes",
+      "url": "https://ericaforil47.com/my-priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "field": "issues.safetAct",
+      "url": "https://ericaforil47.com/my-priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "field": "issues.education",
+      "url": "https://ericaforil47.com/my-priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "field": "issues.energyGrid",
+      "url": "https://ericaforil47.com/my-priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "robert-vrankovich",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.robertforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "robert-vrankovich",
+      "field": "endorsements",
+      "url": "https://www.dailyherald.com/20261027/endorsements/endorsement-vrankovich-for-house-district-47/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "maria-peterson",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.mariafor52.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "maria-peterson",
+      "field": "issues.energyGrid",
+      "url": "https://www.mariafor52.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "maria-peterson",
+      "field": "issues.safetAct",
+      "url": "https://www.mariafor52.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "maria-peterson",
+      "field": "issues.healthcare",
+      "url": "https://www.mariafor52.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "maria-peterson",
+      "field": "issues.education",
+      "url": "https://www.mariafor52.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "maria-peterson",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "field": "issues.propertyTaxes",
+      "url": "https://repmclaughlin.com/2026/01/27/rep-mclaughlin-restore-local-tax-dollars-stop-the-empty-promises/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "field": "issues.budgetTaxes",
+      "url": "https://repmclaughlin.com/2026/02/18/mclaughlin-calls-for-8-billion-in-spending-reductions-says-governor-playing-blame-game-on-budget-reality/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "field": "issues.energyGrid",
+      "url": "https://repmclaughlin.com/2025/10/30/rep-mclaughlin-slams-latest-energy-bill-illinois-families-cant-afford-any-more-expensive-help/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "field": "issues.education",
+      "url": "https://repmclaughlin.com/2026/04/24/rep-martin-mclaughlin-stands-up-for-illinois-students-urges-common-sense/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "dave-vella",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.davevella.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "dave-vella",
+      "field": "issues.safetAct",
+      "url": "https://www.davevella.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "dave-vella",
+      "field": "issues.education",
+      "url": "https://www.davevella.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "dave-vella",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "dave-vella",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kathy-easton",
+      "field": "issues.propertyTaxes",
+      "url": "https://kathyeaston.com/sleeves-up-plan/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kathy-easton",
+      "field": "issues.budgetTaxes",
+      "url": "https://kathyeaston.com/sleeves-up-plan/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kathy-easton",
+      "field": "issues.safetAct",
+      "url": "https://kathyeaston.com/sleeves-up-plan/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kathy-easton",
+      "field": "issues.education",
+      "url": "https://kathyeaston.com/sleeves-up-plan/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kathy-easton",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "field": "issues.budgetTaxes",
+      "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "field": "issues.healthcare",
+      "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "field": "issues.education",
+      "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "liz-bishop",
+      "field": "issues.propertyTaxes",
+      "url": "https://electlizbishop.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "liz-bishop",
+      "field": "issues.budgetTaxes",
+      "url": "https://electlizbishop.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "liz-bishop",
+      "field": "issues.healthcare",
+      "url": "https://electlizbishop.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "liz-bishop",
+      "field": "issues.energyGrid",
+      "url": "https://electlizbishop.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "liz-bishop",
+      "field": "endorsements",
+      "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "saba-haider",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.sabahaider.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "saba-haider",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.sabahaider.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "saba-haider",
+      "field": "issues.healthcare",
+      "url": "https://www.sabahaider.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "saba-haider",
+      "field": "issues.energyGrid",
+      "url": "https://www.sabahaider.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "saba-haider",
+      "field": "issues.education",
+      "url": "https://www.sabahaider.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "saba-haider",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "saba-haider",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brian-scopa",
+      "field": "issues.budgetTaxes",
+      "url": "https://scopaforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brian-scopa",
+      "field": "issues.safetAct",
+      "url": "https://scopaforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brian-scopa",
+      "field": "issues.education",
+      "url": "https://scopaforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brian-scopa",
+      "field": "endorsements",
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "issues.budgetTaxes",
+      "url": "https://ilhousedems.com/2026/06/01/avelar-passes-state-budget-prioritizing-affordability-for-illinois-communities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "issues.healthcare",
+      "url": "https://ilhousedems.com/2026/06/01/avelar-passes-state-budget-prioritizing-affordability-for-illinois-communities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "issues.education",
+      "url": "https://ilhousedems.com/2025/09/16/avelar-sponsors-resolution-calls-for-protection-of-important-will-county-educational-programs-from-federal-cuts/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.mccombieforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.mccombieforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "field": "issues.safetAct",
+      "url": "https://www.mccombieforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "field": "issues.education",
+      "url": "https://www.mccombieforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "sharon-chung",
+      "field": "issues.healthcare",
+      "url": "https://ilhousedems.com/2026/02/27/chung-backed-resolution-opposes-extreme-anti-choice-senate-bill/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "sharon-chung",
+      "field": "issues.education",
+      "url": "https://ilhousedems.com/2026/04/21/chung-bill-protecting-independence-of-media-that-partner-with-public-universities-passes-house/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "sharon-chung",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "sharon-chung",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "field": "issues.safetAct",
+      "url": "https://ilhousedems.com/2026/01/16/gordon-booth-led-clean-slate-act-signed-into-law-automatically-seals-records-for-certain-offenses-helping-to-remove-barriers/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "field": "issues.budgetTaxes",
+      "url": "https://ilhousedems.com/2026/02/18/gordon-booth-reacts-to-governors-budget-address-emphasizes-need-for-responsible-and-compassionate-plan/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "field": "issues.healthcare",
+      "url": "https://ilhousedems.com/2026/08/24/gordon-booth-congratulates-peoria-based-healthcare-centers-on-nearly-6-million-in-grant-funding/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.jdhfor97.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.jdhfor97.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "issues.safetAct",
+      "url": "https://www.jdhfor97.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "issues.transit",
+      "url": "https://www.jdhfor97.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "issues.healthcare",
+      "url": "https://www.jdhfor97.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "issues.education",
+      "url": "https://www.jdhfor97.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.gabbyforillinois.com/plan",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.gabbyforillinois.com/plan",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "field": "issues.healthcare",
+      "url": "https://www.gabbyforillinois.com/plan",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "field": "issues.education",
+      "url": "https://www.gabbyforillinois.com/plan",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "field": "endorsements",
+      "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "issues.budgetTaxes",
+      "url": "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "issues.healthcare",
+      "url": "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "issues.publicServices",
+      "url": "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "nona-parker",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.nonaparker4staterep.com/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "nona-parker",
+      "field": "issues.safetAct",
+      "url": "https://www.nonaparker4staterep.com/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "nona-parker",
+      "field": "issues.education",
+      "url": "https://www.nonaparker4staterep.com/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.robersonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "field": "issues.safetAct",
+      "url": "https://www.robersonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.robersonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "field": "issues.healthcare",
+      "url": "https://www.robersonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "field": "issues.education",
+      "url": "https://www.robersonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brandun-schweizer",
+      "field": "issues.energyGrid",
+      "url": "https://repschweizer.com/2024/11/19/schweizer-says-we-need-to-get-back-to-business-and-protect-the-mahomet-aquifer/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brandun-schweizer",
+      "field": "issues.healthcare",
+      "url": "https://repschweizer.com/stop-assisted-suicide-in-illinois/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brandun-schweizer",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "katie-stuart",
+      "field": "issues.budgetTaxes",
+      "url": "https://stuartforilrep.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "katie-stuart",
+      "field": "issues.pensions",
+      "url": "https://stuartforilrep.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "katie-stuart",
+      "field": "issues.healthcare",
+      "url": "https://stuartforilrep.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "katie-stuart",
+      "field": "issues.education",
+      "url": "https://stuartforilrep.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "katie-stuart",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "katie-stuart",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "katie-stuart",
+      "field": "endorsements",
+      "url": "https://stand.org/illinois/our-stories/2026-general-elections-endorsements/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "george-mcclellan-jr",
+      "field": "endorsements",
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kevin-schmidt",
+      "field": "issues.budgetTaxes",
+      "url": "https://repschmidt.com/2026/07/27/state-rep-kevin-schmidts-commitment-to-the-114th-district/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kevin-schmidt",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "kevin-schmidt",
+      "field": "endorsements",
+      "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "ram-villivalam",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "field": "issues.healthcare",
+      "url": "https://www.hanleyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "field": "issues.energyGrid",
+      "url": "https://www.hanleyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "field": "issues.education",
+      "url": "https://www.hanleyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "field": "issues.transit",
+      "url": "https://www.hanleyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.hanleyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "issues.budgetTaxes",
+      "url": "https://senatorlauraellman.com/news/press-releases/342-ellman-budget-focuses-on-affordability-and-public-health",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "issues.energyGrid",
+      "url": "https://senatorlauraellman.com/news/press-releases/342-ellman-budget-focuses-on-affordability-and-public-health",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "issues.education",
+      "url": "https://senatorlauraellman.com/news/press-releases/364-ellman-highlights-need-to-fully-fund-healthy-school-meals-for-all-program",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "julie-berkowicz",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.julieberkowicz.net/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "julie-berkowicz",
+      "field": "issues.safetAct",
+      "url": "https://www.julieberkowicz.net/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "julie-berkowicz",
+      "field": "issues.energyGrid",
+      "url": "https://www.julieberkowicz.net/priorities",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature-additions.json"
+    },
+    {
+      "candidateId": "ben-mcadams",
+      "field": "issues.healthcare",
+      "url": "https://www.mcadamsforil.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "ben-mcadams",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.mcadamsforil.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "ben-mcadams",
+      "field": "issues.energyGrid",
+      "url": "https://www.mcadamsforil.com/platform",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "seth-lewis",
+      "field": "issues.budgetTaxes",
+      "url": "https://senatorlewis.com/a-message-from-senator-seth-lewis-to-the-people-of-the-24th-district/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.nabeelasyed.com/economy",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "field": "issues.healthcare",
+      "url": "https://www.nabeelasyed.com/healthcare",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "field": "issues.energyGrid",
+      "url": "https://www.nabeelasyed.com/environment",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "darby-hills",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3868&DocTypeID=SB&GAID=18&LegId=167298&SessionID=114",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "darby-hills",
+      "field": "issues.education",
+      "url": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400SB3783.html",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.carinaforsenate.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "field": "issues.pensions",
+      "url": "https://www.carinaforsenate.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "field": "issues.safetAct",
+      "url": "https://www.carinaforsenate.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "field": "issues.healthcare",
+      "url": "https://adrianejohnsonforil.com/healthcare/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "field": "issues.education",
+      "url": "https://adrianejohnsonforil.com/education-college-affordability/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "field": "issues.energyGrid",
+      "url": "https://adrianejohnsonforil.com/jobs-the-environment/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "field": "endorsements",
+      "url": "https://www.lakedemwomen.org/2026-endorsed-candidates",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "michele-clark",
+      "field": "issues.propertyTaxes",
+      "url": "https://micheleforilsenate.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "michele-clark",
+      "field": "issues.education",
+      "url": "https://micheleforilsenate.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "michele-clark",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "danielle-penman",
+      "field": "issues.safetAct",
+      "url": "https://www.daniellepenman.com/key-issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "danielle-penman",
+      "field": "issues.healthcare",
+      "url": "https://www.daniellepenman.com/key-issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "danielle-penman",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.daniellepenman.com/key-issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "mike-halpin",
+      "field": "issues.education",
+      "url": "https://www.senatorhalpin.com/news/press-releases/175-halpin-encourages-local-organizations-to-request-funding-for-pre-apprenticeships",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "mike-halpin",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brad-beekman",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.beekmanforsenate.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "brad-beekman",
+      "field": "issues.education",
+      "url": "https://www.beekmanforsenate.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "don-harmon",
+      "field": "issues.healthcare",
+      "url": "https://harmonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "don-harmon",
+      "field": "issues.education",
+      "url": "https://harmonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "don-harmon",
+      "field": "issues.safetAct",
+      "url": "https://harmonforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "john-curran",
+      "field": "issues.budgetTaxes",
+      "url": "https://senatorcurran.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "doris-turner",
+      "field": "issues.education",
+      "url": "https://www.senatordoristurner.com/news/press-releases/341-turner-secures-strong-investment-to-expand-central-illinois-workforce-training",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "doris-turner",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "frank-lesko",
+      "field": "issues.propertyTaxes",
+      "url": "https://www.friendsoffranklesko.com/about.htm",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "frank-lesko",
+      "field": "issues.budgetTaxes",
+      "url": "https://www.friendsoffranklesko.com/about.htm",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "marsia-geldert-murphey",
+      "field": "issues.healthcare",
+      "url": "https://marsieforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "marsia-geldert-murphey",
+      "field": "issues.education",
+      "url": "https://marsieforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "marsia-geldert-murphey",
+      "field": "issues.transit",
+      "url": "https://marsieforillinois.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "erica-harriss",
+      "field": "issues.healthcare",
+      "url": "https://senatorericaharriss.com/senator-harriss-issues-statement-on-aetna-insurance-changes-affecting-state-employees/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "erica-harriss",
+      "field": "endorsements",
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-legislature.json"
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "field": "issues.assessmentBurden",
+      "url": "https://tonipreckwinkle.org/taxes/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "field": "issues.migrantBudgets",
+      "url": "https://tonipreckwinkle.org/ice/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "michael-murphy-cook",
+      "field": "issues.assessmentBurden",
+      "url": "https://go-murphy.com/issues/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "field": "issues.assessmentBurden",
+      "url": "https://www.assessorhynes.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "nico-tsatsoulis",
+      "field": "issues.assessmentBurden",
+      "url": "https://nicotheassessor.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "tom-dart",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "brad-sandefur",
+      "field": "issues.localPublicSafety",
+      "url": "https://sandefurforsheriff.org/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "field": "issues.electionAdministration",
+      "url": "https://monicaforcookcounty.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "field": "issues.assessmentBurden",
+      "url": "https://www.mariapappas.net/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "field": "issues.assessmentBurden",
+      "url": "https://www.lizfor2.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "field": "issues.localPublicSafety",
+      "url": "https://elyseforcookcounty.com/priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "field": "issues.leadWaterFlood",
+      "url": "https://elyseforcookcounty.com/priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "drake-warren",
+      "field": "issues.assessmentBurden",
+      "url": "https://drakefor10.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "drake-warren",
+      "field": "issues.localPublicSafety",
+      "url": "https://drakefor10.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "drake-warren",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "field": "issues.assessmentBurden",
+      "url": "https://mirandaforcookcounty.org/policy-priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "field": "issues.localPublicSafety",
+      "url": "https://mirandaforcookcounty.org/policy-priorities/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "field": "endorsements",
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "field": "issues.assessmentBurden",
+      "url": "https://garyfordupage.org/policies/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "field": "issues.localPublicSafety",
+      "url": "https://garyfordupage.org/policies/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "sandy-hart",
+      "field": "issues.assessmentBurden",
+      "url": "https://sandyhart.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "roman-buchberger",
+      "field": "issues.localPublicSafety",
+      "url": "https://www.romanforlakecounty.com/issues",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "michelle-stiff",
+      "field": "issues.assessmentBurden",
+      "url": "https://michellestiff4countyclerk.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "patrick-jones",
+      "field": "issues.localPublicSafety",
+      "url": "https://www.patrickjonesforsheriff.com/about",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "james-reilly",
+      "field": "issues.localPublicSafety",
+      "url": "https://reillyforsheriff.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "carmen-maurella",
+      "field": "issues.assessmentBurden",
+      "url": "https://www.electmaurella.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "theresa-rouse",
+      "field": "issues.education",
+      "url": "https://www.rouse4roe.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "margaret-peggy-oconnell",
+      "field": "endorsements",
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "field": "issues.localPublicSafety",
+      "url": "https://www.sheriffdustin.com/accomplishments",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "field": "endorsements",
+      "url": "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "joshua-crockett",
+      "field": "issues.electionAdministration",
+      "url": "https://joshuacrockett.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "maggie-mcgrath-crouch",
+      "field": "endorsements",
+      "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "field": "issues.localPublicSafety",
+      "url": "https://herbertforsheriff.com/about-marcus/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "field": "endorsements",
+      "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "jamie-m-shoemaker",
+      "field": "issues.localPublicSafety",
+      "url": "https://www.shoemakerforsheriff.com/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    },
+    {
+      "candidateId": "nick-camlin",
+      "field": "endorsements",
+      "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+      "checked": "2026-11-01",
+      "reviewLedger": "audit/2026-11-01-content-local.json"
+    }
+  ]
+}

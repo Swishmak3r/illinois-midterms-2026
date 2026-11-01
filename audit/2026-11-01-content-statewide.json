@@ -1,0 +1,1346 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Every retained nonempty issue and endorsement in data-statewide.js; supplemental role/hometown review for 13 substantive profiles.",
+  "productionSha256": "4de171999cf8be3706e7d8328be0e3cae50acf253b44f8a7d78b030fe2f9dc5f",
+  "counts": {
+    "candidates": 13,
+    "issues": 44,
+    "endorsements": 11,
+    "claims": 55,
+    "verified": 53,
+    "supportedWithQualification": 2,
+    "contradicted": 0,
+    "inaccessible": 0,
+    "biographyClaims": 20,
+    "correctedOriginalClaims": 5
+  },
+  "methodology": "Compared each complete summary and each endorsement against substantive official/campaign/endorser source text. URLs and HTTP success alone were not treated as proof. Campaign claims are verified as attributed positions, not independently verified policy effects. PDFs were text-extracted; Max Solomon was also rendered in Edge.",
+  "limitations": [
+    "Verification is bounded to the displayed text and sources available on November 1, 2026, not a guarantee against future changes.",
+    "IRMA and Trump endorsements name the governor candidate individually, not both members of the joint ticket; evidence notes preserve this distinction.",
+    "The biography hometown field can mean documented hometown or current city of residence; it is not a formal voter-registration address claim.",
+    "Printed/write-in candidacy clauses were checked against the shared SBE extraction and current GPUS list; comprehensive roster and county eligibility reconciliation belongs to the separate roster audit.",
+    "No nonempty issue or endorsement claim remains inaccessible after alternate primary-source access and rendering. The Raoul Blue Book PDF failed in web access; his role was independently corroborated through his current campaign biography and official AG releases."
+  ],
+  "claims": [
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.safetAct",
+      "claim": "His campaign supports pretrial detention based on danger rather than ability to pay, gun restrictions, police staffing and violence-prevention funding.",
+      "status": "verified",
+      "urls": [
+        "https://jbpritzker.com/latest/accomplishment/improving-public-safety/"
+      ],
+      "support": "Campaign page supports risk-based pretrial detention, firearm restrictions, additional trooper staffing and violence-prevention investment.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign emphasizes balanced budgets, debt repayment and reserve savings, alongside grocery-tax relief for households.",
+      "status": "verified",
+      "urls": [
+        "https://jbpritzker.com/latest/accomplishment/building-a-strong-fiscal-foundation/"
+      ],
+      "support": "Campaign fiscal page discusses balancing budgets, paying obligations, growing reserves and ending the state grocery tax.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.energyGrid",
+      "claim": "His campaign supports the clean-energy transition toward a 2050 target and investment in electric-vehicle manufacturing.",
+      "status": "verified",
+      "urls": [
+        "https://jbpritzker.com/latest/accomplishment/creating-the-economy-of-the-future/"
+      ],
+      "support": "Campaign describes a 2050 clean-energy goal and investment in electric-vehicle production.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.transit",
+      "claim": "Signed the Northern Illinois Transit Authority Act on December 16, 2025, establishing regional oversight of CTA, Metra and Pace and additional transit funding.",
+      "status": "verified",
+      "urls": [
+        "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-signs-northern-illinois-transit-authority-act"
+      ],
+      "support": "Governor announcement dated December 16, 2025 records signing SB 2111, regional transit oversight and added operating funding.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.healthcare",
+      "claim": "His campaign supports abortion access, lower prescription costs, mental-health coverage and expanded maternal care.",
+      "status": "verified",
+      "urls": [
+        "https://jbpritzker.com/latest/accomplishment/expanding-quality-affordable-health-care/"
+      ],
+      "support": "Campaign health page supports reproductive care, prescription affordability, mental-health treatment and maternal services.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "issues.education",
+      "claim": "His campaign supports early-childhood education, vocational training and college financial assistance.",
+      "status": "verified",
+      "urls": [
+        "https://jbpritzker.com/latest/accomplishment/improving-education-from-cradle-to-career/"
+      ],
+      "support": "Campaign education page describes early learning, vocational preparation and college financial assistance.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser July 2026 general-election PDF names both Pritzker for governor and Mitchell for lieutenant governor.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "endorsements[1]",
+      "claim": "SEIU Healthcare Illinois Indiana",
+      "status": "verified",
+      "urls": [
+        "https://seiuhcilin.org/resources/election-information/"
+      ],
+      "support": "Endorser 2026 general-election page names Pritzker and Mitchell in their respective offices.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "endorsements[2]",
+      "claim": "Illinois Retail Merchants Association (Pritzker)",
+      "status": "supported-with-qualification",
+      "urls": [
+        "https://irma.org/illinois-retail-merchants-association-endorses-jb-pritzker-for-governor/"
+      ],
+      "support": "October 26, 2026 endorser announcement supports Pritzker for governor. It does not separately endorse Mitchell; existing evidence note states this limitation.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.propertyTaxes",
+      "claim": "His campaign proposes property-tax relief through spending restraint and increased government accountability.",
+      "status": "verified",
+      "urls": [
+        "https://baileyforillinois.com/issues/"
+      ],
+      "support": "Campaign property-tax section proposes addressing spending waste and accountability to provide relief.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.safetAct",
+      "claim": "His campaign proposes greater support and training for law enforcement and stronger action against repeat violent offenders.",
+      "status": "verified",
+      "urls": [
+        "https://baileyforillinois.com/issues/"
+      ],
+      "support": "Campaign public-safety section prioritizes police support and training and action against repeat violent offenders.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign calls for lower taxes, reduced government waste and policies supporting businesses and job creation.",
+      "status": "verified",
+      "urls": [
+        "https://baileyforillinois.com/issues/"
+      ],
+      "support": "Campaign economic section calls for lower taxation, waste reduction and business/job growth.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "issues.education",
+      "claim": "His campaign supports adequate school funding, parental choice, teacher resources and reduced administrative requirements.",
+      "status": "verified",
+      "urls": [
+        "https://baileyforillinois.com/issues/"
+      ],
+      "support": "Campaign education section calls for school funding, parent choice, teacher resources and less bureaucracy.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "endorsements[0]",
+      "claim": "Donald Trump (Bailey)",
+      "status": "supported-with-qualification",
+      "urls": [
+        "https://www.govinfo.gov/content/pkg/DCPD-202600607/html/DCPD-202600607.htm"
+      ],
+      "support": "Official September 13, 2026 remarks explicitly reaffirm endorsing Bailey. Del Mar is not separately named; existing evidence note identifies Bailey as the endorsement recipient.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.propertyTaxes",
+      "claim": "His campaign proposes increasing state school and municipal funding, reducing unfunded mandates and rewarding local property-tax reductions.",
+      "status": "verified",
+      "urls": [
+        "https://www.collinforil.com/platform/"
+      ],
+      "support": "Platform links property-tax relief to state school/local funding, fewer unfunded mandates and incentives for local tax reductions.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign proposes an initial discretionary-spending freeze, a gas-tax freeze and review of programs against measurable outcomes.",
+      "status": "verified",
+      "urls": [
+        "https://www.collinforil.com/affordability/"
+      ],
+      "support": "Affordability page proposes freezing discretionary spending and gas taxes and measuring program results.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.pensions",
+      "claim": "His platform proposes putting part of unexpected revenue toward pension debt, expanding voluntary buyouts and limiting pension spiking.",
+      "status": "verified",
+      "urls": [
+        "https://www.collinforil.com/platform/"
+      ],
+      "support": "Platform proposes dedicating some windfall revenue to pension debt, voluntary buyouts and curbing pension spiking.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.energyGrid",
+      "claim": "His campaign supports natural gas, nuclear, wind and solar generation; data-center incentives would pause until energy and water safeguards are established.",
+      "status": "verified",
+      "urls": [
+        "https://www.collinforil.com/affordability/"
+      ],
+      "support": "Affordability page lists natural gas, nuclear, wind and solar and would pause data-center incentives pending energy/water safeguards.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.healthcare",
+      "claim": "His campaign proposes health-price transparency, Certificate of Need reform and review of insurance mandates that increase costs.",
+      "status": "verified",
+      "urls": [
+        "https://www.collinforil.com/affordability/"
+      ],
+      "support": "Affordability page proposes Certificate of Need reform, price disclosure and review of costly coverage mandates.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "issues.education",
+      "claim": "His campaign supports career and technical education, apprenticeships and scholarships.",
+      "status": "verified",
+      "urls": [
+        "https://www.collinforil.com/grow/"
+      ],
+      "support": "Growth page supports career/technical education, apprenticeships and scholarships.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.safetAct",
+      "claim": "Defended the elimination of cash bail in court and supports pretrial detention based on public-safety or flight risk rather than ability to pay.",
+      "status": "verified",
+      "urls": [
+        "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-issues-statement-on-illinois-supreme-court-ruling-upholding-the-elimination-of-cash-bail-in-illinois"
+      ],
+      "support": "July 18, 2023 Attorney General statement documents defending cash-bail elimination and pretrial decisions based on safety and flight risk.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.healthcare",
+      "claim": "His campaign supports reproductive care. His office has defended access to gender-affirming care and filed a September 2026 brief opposing federal rules that restrict ACA enrollment.",
+      "status": "verified",
+      "urls": [
+        "https://kwameraoul.com/ontheissues/",
+        "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-continues-fight-to-protect-affordable-care-act-coverage",
+        "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-wins-lawsuit-protecting-gender-affirming-care-court-issues-final-written-order"
+      ],
+      "support": "Campaign supports reproductive care. April 20, 2026 official release documents defending gender-affirming providers; September 10 release documents an ACA enrollment brief.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.energyGrid",
+      "claim": "Joined an October 2026 lawsuit seeking to restore federal greenhouse-gas standards for coal- and gas-fired power plants.",
+      "status": "verified",
+      "urls": [
+        "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-challenges-epa-rollback-of-greenhouse-gas-pollution-limits-for-power-plants"
+      ],
+      "support": "October 1, 2026 official release records a challenge to EPA repeal of greenhouse-gas limits for fossil-fuel power plants.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.education",
+      "claim": "Challenged federal restrictions on Public Service Loan Forgiveness eligibility for employees of government and nonprofit organizations.",
+      "status": "verified",
+      "urls": [
+        "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-stops-trump-administrations-illegal-weaponization-of-public-service-loan-forgiveness-program"
+      ],
+      "support": "October 22, 2026 official release describes challenging a rule limiting PSLF eligibility for government/nonprofit workers.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.publicServices",
+      "claim": "His campaign prioritizes gun-trafficking enforcement and workplace rights. His office supports services for survivors of violence.",
+      "status": "verified",
+      "urls": [
+        "https://kwameraoul.com/ontheissues/",
+        "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-joins-illinois-coalition-against-domestic-violence-to-highlight-ring-collaboration-2-2-26"
+      ],
+      "support": "Campaign issues page supports gun-trafficking and workplace enforcement. February 2, 2026 official release describes grants, reimbursements and services for violence survivors.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser July 2026 general-election PDF names Kwame Raoul for the relevant statewide office.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "endorsements[1]",
+      "claim": "Communications Workers of America District 4 (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://cwa-union.org/candidates-il"
+      ],
+      "support": "CWA District 4 page names Raoul for Attorney General under November 3, 2026 general-election recommendations.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "issues.safetAct",
+      "claim": "His campaign proposes revising detention standards for repeat violent offenders, publishing pretrial-release outcomes, and creating an independent public-safety oversight council.",
+      "status": "verified",
+      "urls": [
+        "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families"
+      ],
+      "support": "Campaign proposes stricter detention standards for repeat violence, outcome reporting and independent public-safety/victim oversight.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "issues.ethics",
+      "claim": "Proposes donor-conflict disclosure and recusal rules, limits on fundraising from investigated entities, and public disclosure of outside-counsel contracts.",
+      "status": "verified",
+      "urls": [
+        "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families"
+      ],
+      "support": "Campaign proposes donor-conflict recusals, fundraising limits involving investigated entities and disclosure of outside counsel contracts.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "issues.education",
+      "claim": "His campaign says it would enforce laws guaranteeing students and families equal access and fair treatment.",
+      "status": "verified",
+      "urls": [
+        "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice"
+      ],
+      "support": "Campaign expressly proposes enforcing equal-access and fair-treatment protections for students and families.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.publicServices",
+      "claim": "Prioritizes modernizing DMV services through online transactions, appointment scheduling, mobile units and self-service kiosks. Opposes the federal demand for bulk sensitive driver records without legal and privacy safeguards.",
+      "status": "verified",
+      "urls": [
+        "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+        "https://www.ilsos.gov/news/2026/august-14-2026-giannoulias-vows-to-fight-trump-administrations-demand-for-sensitive-driver-data.html",
+        "https://www.ilsos.gov/skip-the-line.html"
+      ],
+      "support": "Blue Book describes online/mobile/kiosk modernization; official Skip-the-Line page confirms appointments. August 14, 2026 release opposes bulk federal driver-data demands without safeguards.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.education",
+      "claim": "In his 2026 library questionnaire, supports wider library access, statewide digital resources and protections against censorship as a condition of State Library grants.",
+      "status": "verified",
+      "urls": [
+        "https://www.ila.org/content/documents/a._giannoulias_2026_sos_responses.pdf"
+      ],
+      "support": "Candidate-authored 2026 ILA questionnaire supports wider library access, IRIS digital resources and anti-censorship requirements tied to library grants.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.ethics",
+      "claim": "His 2023 executive order prohibited office employees and contractual employees from contributing to his political fund and strengthened access to the Inspector General complaint process.",
+      "status": "verified",
+      "urls": [
+        "https://www.ilsos.gov/content/dam/news/2023/january/230110d1.pdf"
+      ],
+      "support": "January 10, 2023 official release covers employees and contractual employees, plus Inspector General complaint access. It does not establish a blanket ban on every outside contractor.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser July 2026 general-election PDF names Alexi Giannoulias for the relevant statewide office.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "issues.publicServices",
+      "claim": "Proposes walk-in DMV service, more kiosks and mobile services, a unified online portal, and stronger cybersecurity. She also proposes reviewing voter-registration records and sharing driver information with other government offices.",
+      "status": "verified",
+      "urls": [
+        "https://harrisforsos.com/issues"
+      ],
+      "support": "Campaign issues page proposes walk-ins, kiosks, mobile services, an online portal, cybersecurity, registration-record review and government data sharing.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign proposes reviewing the Secretary of State office budget for waste and working with legislators to lower fees for seniors, veterans and DMV customers.",
+      "status": "verified",
+      "urls": [
+        "https://harrisforsos.com/issues"
+      ],
+      "support": "Campaign proposes budget review for waste and legislative cooperation to reduce customer fees.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "issues.education",
+      "claim": "Her library questionnaire supports expanding access through shared-cost agreements or nonresident fees, business partnerships and grants with continuing-maintenance requirements.",
+      "status": "verified",
+      "urls": [
+        "https://www.ila.org/content/documents/d._harris_2026_sos_responses.pdf"
+      ],
+      "support": "Candidate-authored ILA questionnaire supports shared-cost or nonresident access, business partnerships and grant maintenance requirements.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "endorsements[0]",
+      "claim": "Illinois Family Action (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/"
+      ],
+      "support": "October 26, 2026 endorser general-election list explicitly names Diane M. Harris for the relevant statewide office.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign proposes a public budget-to-payment tracking system, modernized financial reporting and predictive tools to detect waste. She says she would continue withholding payments from employers that violate the Prevailing Wage Act.",
+      "status": "verified",
+      "urls": [
+        "https://crokeforillinois.com/priorities"
+      ],
+      "support": "Campaign priorities describe budget-to-billing software, predictive financial tools, transparency and withholding payments for prevailing-wage violations.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "issues.healthcare",
+      "claim": "Sponsored HR 695 in February 2026 opposing penalties for reproductive health care and restrictions on IVF. The House adopted the resolution; it is a statement of policy, not a new insurance-coverage law.",
+      "status": "verified",
+      "urls": [
+        "https://my.ilga.gov/Legislation/BillStatus?DocNum=695&DocTypeID=HR&GAID=18&LegID=167973"
+      ],
+      "support": "ILGA HR 695 records Croke sponsorship, reproductive-care/IVF policy opposition and House adoption on February 25, 2026. It is a resolution.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser July 2026 general-election PDF names Margaret Croke for the relevant statewide office.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "bryan-drew",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign proposes reducing waste, independently scrutinizing state spending and making financial data easier for residents to understand. He would publish plain-language explanations of spending and support public oversight.",
+      "status": "verified",
+      "urls": [
+        "https://www.drewforillinois.com/transparency",
+        "https://www.drewforillinois.com/affordability",
+        "https://www.drewforillinois.com/accountability"
+      ],
+      "support": "Campaign transparency, affordability and accountability pages call for waste reduction, independent scrutiny, understandable financial information and citizen oversight.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "anna-schiefelbein",
+      "field": "issues.budgetTaxes",
+      "claim": "In her candidate statement published by the Illinois Green Party, she calls for fiscal accountability and ending state investment restrictions on companies that choose to boycott.",
+      "status": "verified",
+      "urls": [
+        "https://www.ilgp.org/gogreen2026/"
+      ],
+      "support": "Candidate statement calls for fiscal accountability and removing investment restrictions on businesses choosing boycotts.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "anna-schiefelbein",
+      "field": "issues.energyGrid",
+      "claim": "Her candidate platform calls for investment relationships that account for environmental protection.",
+      "status": "verified",
+      "urls": [
+        "https://www.ilgp.org/gogreen2026/"
+      ],
+      "support": "Candidate statement calls for environmentally responsible investment relationships.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.budgetTaxes",
+      "claim": "His office publishes investment and financial information through The Vault and operates the ICash unclaimed-property program.",
+      "status": "verified",
+      "urls": [
+        "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
+        "https://www.illinoistreasurer.gov/"
+      ],
+      "support": "Official office page describes The Vault investment transparency service; official home page identifies ICash unclaimed-property services.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.pensions",
+      "claim": "His office facilitates retirement saving for workers without employer plans. Illinois Secure Choice became My Illinois Savings on June 15, 2026, with lower fees and updated technology.",
+      "status": "verified",
+      "urls": [
+        "https://www.illinoistreasurer.gov/news/illinois-treasurer-michael-frerichs-relaunches-state-retirement-program-for-small-businesses-with-lower-fees-and-new-name/"
+      ],
+      "support": "May 6, 2026 official announcement describes the June 15 Secure Choice relaunch as My Illinois Savings, lower fees and updated technology for workers lacking employer plans.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.energyGrid",
+      "claim": "In his official investment statement, Frerichs supports considering financially material climate, labor and governance risks as part of fiduciary investment decisions.",
+      "status": "verified",
+      "urls": [
+        "https://illinoistreasurer.gov/home/office-of-the-treasurer/raising-the-bar/sustainable-investing/"
+      ],
+      "support": "Signed official statement advocates considering financially material climate, labor and governance factors as part of fiduciary investment analysis.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.healthcare",
+      "claim": "His office administers Illinois ABLE accounts. In March 2026 he welcomed the federal eligibility expansion to people whose disability began before age 46.",
+      "status": "verified",
+      "urls": [
+        "https://www.illinoistreasurer.gov/news/state-treasurer-frerichs-announces-250000-more-illinoisans-with-disabilities-eligible-for-able-accounts/"
+      ],
+      "support": "March 9, 2026 official release identifies the Treasurer as ABLE administrator and welcomes federal expansion based on disability onset before age 46.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "issues.education",
+      "claim": "He administers Bright Start and Bright Directions education savings plans. His office announced lower fees, updated account tools and a Bright Directions mobile app in its May 2026 program update.",
+      "status": "verified",
+      "urls": [
+        "https://illinoistreasurer.gov/news/in-observance-of-national-529-day-illinois-treasurer-michael-frerichs-encourages-families-to-save-for-higher-education-costs/"
+      ],
+      "support": "May 29, 2026 official release describes Bright Start/Bright Directions administration, fee reductions, account tools and a Bright Directions mobile app.",
+      "checked": "2026-11-01",
+      "verificationScope": "Official record or program statement supporting this factual summary."
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser July 2026 general-election PDF names Michael W. Frerichs for the relevant statewide office.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "max-solomon",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign proposes a public investment dashboard, diversified investments with fiduciary safeguards, and deposits in community banks and credit unions across Illinois.",
+      "status": "verified",
+      "urls": [
+        "https://maxsolomon.info/"
+      ],
+      "support": "Live campaign page rendered in Edge proposes an investment dashboard, diversified fiduciary investing and community-bank/credit-union deposits statewide.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects.",
+      "access": "Rendered public campaign page in installed Edge; server HTML alone contains little substantive text."
+    },
+    {
+      "candidateId": "max-solomon",
+      "field": "issues.education",
+      "claim": "His campaign supports strengthening Bright Start and Bright Directions college savings and financial-literacy programs.",
+      "status": "verified",
+      "urls": [
+        "https://maxsolomon.info/"
+      ],
+      "support": "Live campaign page rendered in Edge names both college-savings plans and lists financial literacy among its policy priorities.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects.",
+      "access": "Rendered public campaign page in installed Edge; server HTML alone contains little substantive text."
+    },
+    {
+      "candidateId": "max-solomon",
+      "field": "endorsements[0]",
+      "claim": "Illinois Family Action (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/"
+      ],
+      "support": "October 26, 2026 endorser general-election list explicitly names Max Solomon for the relevant statewide office.",
+      "checked": "2026-11-01",
+      "electionScope": "2026 general election; not a primary-only endorsement"
+    },
+    {
+      "candidateId": "timothea-papas",
+      "field": "issues.budgetTaxes",
+      "claim": "In her candidate statement published by the Illinois Green Party, she calls for accountable public investment and a two-term limit for the Treasurer.",
+      "status": "verified",
+      "urls": [
+        "https://www.ilgp.org/gogreen2026/"
+      ],
+      "support": "Candidate statement calls for accountable public investing and a limit of two four-year Treasurer terms.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    },
+    {
+      "candidateId": "timothea-papas",
+      "field": "issues.pensions",
+      "claim": "Her candidate platform supports making required pension payments and a financial-transactions tax to increase state revenue.",
+      "status": "verified",
+      "urls": [
+        "https://www.ilgp.org/gogreen2026/"
+      ],
+      "support": "Candidate statement calls for required pension contributions and a LaSalle Street financial-transactions tax.",
+      "checked": "2026-11-01",
+      "verificationScope": "Published candidate position, not independent confirmation of outcomes or effects."
+    }
+  ],
+  "corrections": [
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "endorsements[2]",
+      "originalClaim": "Illinois Retail Merchants Association",
+      "originalStatus": "supported-with-qualification",
+      "issue": "Visible endorsement label now names the governor candidate actually endorsed rather than implying separate endorsement of the running mate.",
+      "replacementClaim": "Illinois Retail Merchants Association (Pritzker)",
+      "resolved": true
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "endorsements[0]",
+      "originalClaim": "Donald Trump",
+      "originalStatus": "supported-with-qualification",
+      "issue": "Visible endorsement label now names the governor candidate actually endorsed rather than implying separate endorsement of the running mate.",
+      "replacementClaim": "Donald Trump (Bailey)",
+      "resolved": true
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.healthcare",
+      "originalClaim": "His campaign supports reproductive care and gender-affirming care. His office filed a September 2026 brief opposing federal rules that restrict ACA enrollment.",
+      "originalStatus": "supported-with-qualification",
+      "issue": "Original cited issues page did not directly support every campaign attribution; official actions now have precise attribution and primary sources.",
+      "replacementClaim": "His campaign supports reproductive care. His office has defended access to gender-affirming care and filed a September 2026 brief opposing federal rules that restrict ACA enrollment.",
+      "resolved": true
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "issues.publicServices",
+      "originalClaim": "His campaign prioritizes gun-trafficking enforcement, support for survivors of violence, and enforcement of workplace rights.",
+      "originalStatus": "supported-with-qualification",
+      "issue": "Original cited issues page did not directly support every campaign attribution; official actions now have precise attribution and primary sources.",
+      "replacementClaim": "His campaign prioritizes gun-trafficking enforcement and workplace rights. His office supports services for survivors of violence.",
+      "resolved": true
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "issues.ethics",
+      "originalClaim": "His 2023 executive order prohibited office employees and contractors from contributing to his political fund and strengthened access to the Inspector General complaint process.",
+      "originalStatus": "supported-with-qualification",
+      "issue": "Contractors was broader than the source wording contractual employees.",
+      "replacementClaim": "His 2023 executive order prohibited office employees and contractual employees from contributing to his political fund and strengthened access to the Inspector General complaint process.",
+      "resolved": true
+    }
+  ],
+  "biographyClaims": [
+    {
+      "candidateId": "jb-pritzker-christian-mitchell",
+      "field": "role",
+      "claim": "Governor of Illinois; Christian Mitchell is a former state representative and deputy governor.",
+      "status": "verified",
+      "urls": [
+        "https://gov.illinois.gov/",
+        "https://jbpritzker.com/meet-christian-mitchell/"
+      ],
+      "support": "Official governor site identifies Pritzker; Mitchell campaign biography documents prior state-representative and deputy-governor service.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "darren-bailey-aaron-del-mar",
+      "field": "role",
+      "claim": "Former Illinois state representative and senator; Aaron Del Mar is a former Palatine councilman and entrepreneur.",
+      "status": "verified",
+      "urls": [
+        "https://baileyforillinois.com/darren/",
+        "https://baileyforillinois.com/aaron/"
+      ],
+      "support": "Both current campaign biographies support the listed legislative/council service and entrepreneurship.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "collin-corbett-carolyn-schofield",
+      "field": "role",
+      "claim": "Independent candidates for governor and lieutenant governor.",
+      "status": "verified",
+      "urls": [
+        "https://www.collinforil.com/",
+        "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D"
+      ],
+      "support": "Current campaign identifies both office candidacies; the shared November 1 SBE source extraction records both as active Independent candidates.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "role",
+      "claim": "Illinois Attorney General since 2019; former Illinois state senator.",
+      "status": "verified",
+      "urls": [
+        "https://kwameraoul.com/about-us/",
+        "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-wins-lawsuit-protecting-gender-affirming-care-court-issues-final-written-order"
+      ],
+      "support": "Current campaign biography states January 2019 inauguration and fourteen prior years as state senator; current official AG releases corroborate present office.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "kwame-raoul",
+      "field": "hometown",
+      "claim": "Chicago, IL",
+      "status": "verified",
+      "urls": [
+        "https://kwameraoul.com/about-us/"
+      ],
+      "support": "Current campaign biography identifies Chicago as his birthplace.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "role",
+      "claim": "Attorney and former Chicago 2nd Ward alderman.",
+      "status": "verified",
+      "urls": [
+        "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice"
+      ],
+      "support": "Campaign biography describes legal practice and election to the 2nd Ward alderman office in 2007 and 2011.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "bob-fioretti",
+      "field": "hometown",
+      "claim": "Chicago, IL",
+      "status": "verified",
+      "urls": [
+        "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice"
+      ],
+      "support": "Campaign biography explicitly describes Chicago upbringing and current residence.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "role",
+      "claim": "Illinois Secretary of State since 2023; former Illinois State Treasurer.",
+      "status": "verified",
+      "urls": [
+        "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf"
+      ],
+      "support": "Official 2025-2026 Blue Book identifies 2023 Secretary of State inauguration and earlier Treasurer service.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "alexi-giannoulias",
+      "field": "hometown",
+      "claim": "Chicago, IL",
+      "status": "verified",
+      "urls": [
+        "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf"
+      ],
+      "support": "Official Blue Book explicitly states he lives in Chicago.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "role",
+      "claim": "Joliet Junior College trustee; retired ComEd employee and former IBEW steward.",
+      "status": "verified",
+      "urls": [
+        "https://jjc.edu/about-jjc/college-leadership/board-trustees",
+        "https://harrisforsos.com/meet_diane"
+      ],
+      "support": "Current JJC roster lists Harris for a 2023-2029 term; current campaign biography describes ComEd retirement and IBEW stewardship.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "diane-harris",
+      "field": "hometown",
+      "claim": "Joliet, IL",
+      "status": "verified",
+      "urls": [
+        "https://jjc.edu/about-jjc/college-leadership/board-trustees"
+      ],
+      "support": "Current official JJC trustee roster lists Joliet as residence.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "role",
+      "claim": "Illinois State Representative, 12th District; chair of the House Financial Institutions & Licensing Committee",
+      "status": "verified",
+      "urls": [
+        "https://my.ilga.gov/House/members/details/3384"
+      ],
+      "support": "Current ILGA 104th General Assembly member page identifies District 12 and Financial Institutions & Licensing chairmanship.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "margaret-croke",
+      "field": "hometown",
+      "claim": "Chicago, Illinois",
+      "status": "verified",
+      "urls": [
+        "https://my.ilga.gov/House/members/details/3384"
+      ],
+      "support": "ILGA biography explicitly states Chicago residence.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "bryan-drew",
+      "field": "role",
+      "claim": "Attorney, business owner and former chair of the Rend Lake College board, according to his campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://www.drewforillinois.com/about"
+      ],
+      "support": "Current campaign biography describes legal practice, business ownership and former Rend Lake College board chairmanship.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "bryan-drew",
+      "field": "hometown",
+      "claim": "Benton area, Illinois",
+      "status": "verified",
+      "urls": [
+        "https://www.drewforillinois.com/about"
+      ],
+      "support": "Current campaign biography identifies upbringing in the Benton area.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "anna-schiefelbein",
+      "field": "role",
+      "claim": "Green Party write-in candidate for Illinois Comptroller (removed from statewide printed ballot July 14, 2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "https://www.gpelections.org/election-history/write-ins/"
+      ],
+      "support": "GPUS current write-in list names Schiefelbein for Comptroller; shared November 1 SBE source extraction records removal July 14. County eligibility remains separately qualified.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "anna-schiefelbein",
+      "field": "hometown",
+      "claim": "Woodridge, Illinois",
+      "status": "verified",
+      "urls": [
+        "https://www.ilgp.org/gogreen2026/"
+      ],
+      "support": "Candidate-authored ILGP statement explicitly identifies current Woodridge residence.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "mike-frerichs",
+      "field": "role",
+      "claim": "Illinois State Treasurer",
+      "status": "verified",
+      "urls": [
+        "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/"
+      ],
+      "support": "Current official Treasurer pages identify Michael Frerichs as the officeholder.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "max-solomon",
+      "field": "role",
+      "claim": "Attorney and adjunct instructor, according to his campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://maxsolomon.info/"
+      ],
+      "support": "Live campaign page rendered in Edge describes practicing law and adjunct teaching of political science and law.",
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "timothea-papas",
+      "field": "role",
+      "claim": "Green Party write-in candidate for Illinois State Treasurer (removed from statewide printed ballot July 14, 2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "https://www.gpelections.org/election-history/write-ins/"
+      ],
+      "support": "GPUS current write-in list names Timi Papas for Treasurer; shared November 1 SBE extraction records Timothea Papas removal July 14. County eligibility remains separately qualified.",
+      "checked": "2026-11-01"
+    }
+  ],
+  "sourceReviews": [
+    {
+      "url": "https://baileyforillinois.com/aaron/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://baileyforillinois.com/darren/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://baileyforillinois.com/issues/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\d304b8c71ad6e518d32d.txt",
+      "sourceSha256": "96c67e6eac187ea83506b8dd0630b01e986f8443da1cef07c884258a52ec9084"
+    },
+    {
+      "url": "https://crokeforillinois.com/priorities",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\c8fdafb6a3addce8ff6f.txt",
+      "sourceSha256": "8dd6e03297282c23976b53e28ea7daed68849b7216c784a3bc179fb650decb12"
+    },
+    {
+      "url": "https://cwa-union.org/candidates-il",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\f85c4b3a643d655c62e9.txt",
+      "sourceSha256": "65f5661ef0f77962b7c55038737f124d6426b6c87e05384431664fa4805b5fa5"
+    },
+    {
+      "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-signs-northern-illinois-transit-authority-act",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\da1b8cc78bc7b6c2f747.txt",
+      "sourceSha256": "9bcf64eb024beeaeb69a43c71a90b89faf0be05e6af8e764f9dcc372e0b07126"
+    },
+    {
+      "url": "https://gov.illinois.gov/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://harrisforsos.com/issues",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\92b0bdfd14c909902843.txt",
+      "sourceSha256": "bd3df41c7c7a8f9f1bc048c2e1d500835d55a9538c4de7ba02a05bf1a3a69a2f"
+    },
+    {
+      "url": "https://harrisforsos.com/meet_diane",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-issues-statement-on-illinois-supreme-court-ruling-upholding-the-elimination-of-cash-bail-in-illinois",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\c0745fe35eb070729805.txt",
+      "sourceSha256": "cf1e27221a0b597bcfe4d93c1e76afc0133c722182d33f73a3d2c2eebd85f42e"
+    },
+    {
+      "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-joins-illinois-coalition-against-domestic-violence-to-highlight-ring-collaboration-2-2-26",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-wins-lawsuit-protecting-gender-affirming-care-court-issues-final-written-order",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\bc21b370921b556991fa.txt",
+      "sourceSha256": "0b7c01fee4e3708d621e6458e0e7941fab3310798b91c0429673ab2e94fe86a7"
+    },
+    {
+      "url": "https://illinoistreasurer.gov/home/office-of-the-treasurer/raising-the-bar/sustainable-investing/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\848f17fc1c02ca9ff6cf.txt",
+      "sourceSha256": "46796152392db06e9bd06c3e027341bf8b8706dcaea5b6786cc3e82f65493fcd"
+    },
+    {
+      "url": "https://illinoistreasurer.gov/news/in-observance-of-national-529-day-illinois-treasurer-michael-frerichs-encourages-families-to-save-for-higher-education-costs/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\080abb9e901ed7964a3a.txt",
+      "sourceSha256": "dd4d49e026b9f4403de38634b6e5f093a14d9d4b2f616a674b52bc8778ed3420"
+    },
+    {
+      "url": "https://irma.org/illinois-retail-merchants-association-endorses-jb-pritzker-for-governor/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\b27ee7ed471d5e39e3c5.txt",
+      "sourceSha256": "e60181203058309fb9356fa6adcb21496f253cd31f02887670a706f28a3c1e02"
+    },
+    {
+      "url": "https://jbpritzker.com/latest/accomplishment/building-a-strong-fiscal-foundation/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\ef7ceda8b78ff22a9e7d.txt",
+      "sourceSha256": "4622db422cef440a9bac28e2df5c706414b4f82981565ed2281c0f5b56d91112"
+    },
+    {
+      "url": "https://jbpritzker.com/latest/accomplishment/creating-the-economy-of-the-future/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\25db89f2636f9aa6a199.txt",
+      "sourceSha256": "ef0ad3540976673279e381e30645da6967fd209c9b717f00f948ed9e34b23c31"
+    },
+    {
+      "url": "https://jbpritzker.com/latest/accomplishment/expanding-quality-affordable-health-care/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\3a8ad6502fc9c08ef7f4.txt",
+      "sourceSha256": "094fd1346bb7f962a616c875d4b6beccad63bbaf8b0eb7b8deca1bae8f300370"
+    },
+    {
+      "url": "https://jbpritzker.com/latest/accomplishment/improving-education-from-cradle-to-career/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\3c168d6f62564698e02c.txt",
+      "sourceSha256": "2a0ed8dc23434136d006d1ec0b21569d9e1d3006155f682d8189e3d02e6c9ef9"
+    },
+    {
+      "url": "https://jbpritzker.com/latest/accomplishment/improving-public-safety/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\c0f174ce63b25fed5400.txt",
+      "sourceSha256": "5c19359ffacb981b52b4d56525dd36b7f94d444b28c01aafb7fa73818ed37f5a"
+    },
+    {
+      "url": "https://jbpritzker.com/meet-christian-mitchell/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://kwameraoul.com/about-us/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://kwameraoul.com/ontheissues/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\6acb9f26e3b5483370d4.txt",
+      "sourceSha256": "d95f46e3417a71a02a018e91e2e4b3d8e6906a05430cfb0212d43e25fd2aa796"
+    },
+    {
+      "url": "https://maxsolomon.info/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit/source-cache/statewide/2026-11-01-content-statewide-max-rendered.txt",
+      "sourceSha256": "39fe0aef0264ca39484fd855834864e617182ce224c81addb30969d5198e0aef",
+      "access": "Live rendered Edge page; actual visible body text inspected."
+    },
+    {
+      "url": "https://my.ilga.gov/House/members/details/3384",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://my.ilga.gov/Legislation/BillStatus?DocNum=695&DocTypeID=HR&GAID=18&LegID=167973",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\1cab4aeced2d2b79a540.txt",
+      "sourceSha256": "a9b9458f269090c6c4a93b69d97d78c2d4f4bcbaef7e3e07b929489c1a1dd396"
+    },
+    {
+      "url": "https://seiuhcilin.org/resources/election-information/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\6d6fa2528f09d1541ebc.txt",
+      "sourceSha256": "5528520db112192f3dc1b0af050e933a3e70b7147819c85d56551b088a874fe7"
+    },
+    {
+      "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\7999c344139ce786bc9d.txt",
+      "sourceSha256": "69dd97d7eb5937b014b36ea55e504dc7424bd505c5962346f114028defb22db9"
+    },
+    {
+      "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\360a255cdd387aa8e40e.txt",
+      "sourceSha256": "73cca1459b3a8dfefd6717b4cf27b0a59286bf8c24122c9497bbae0b370f39bc"
+    },
+    {
+      "url": "https://www.collinforil.com/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://www.collinforil.com/affordability/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\f6761af719866571d5cb.txt",
+      "sourceSha256": "ae360bdf8cffe1466ee09f9f7681a36bd634d5728beb31a7e0085779e0d1b1d1"
+    },
+    {
+      "url": "https://www.collinforil.com/grow/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\ed515345b75c99dca597.txt",
+      "sourceSha256": "4ac7a0205cbfa6abd014c94db6f5ea0d99f64ef8f95a0abb76bee1a33512a9ce"
+    },
+    {
+      "url": "https://www.collinforil.com/platform/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\6c009b38662bf6195a2d.txt",
+      "sourceSha256": "2859dd87519595edbb655fae278fe61d73279dca414ed61089e8ddeb7acb80dd"
+    },
+    {
+      "url": "https://www.drewforillinois.com/about",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://www.drewforillinois.com/accountability",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\dd6c0de91870766ba6c0.txt",
+      "sourceSha256": "388a7075686519cc0507a4bdc3c30fdfe0e3ab166d445571025a655579e618d0"
+    },
+    {
+      "url": "https://www.drewforillinois.com/affordability",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\042bc22575e79c14bd64.txt",
+      "sourceSha256": "6efbc9e2543940b7e657c45c5668b2d485ce34fd22a93eb7d6d56498ff83e972"
+    },
+    {
+      "url": "https://www.drewforillinois.com/transparency",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\965ad9b0ca43c4c81a57.txt",
+      "sourceSha256": "3e6397bd3128b5e22fbb575edcebe9fff0b35f1fcb91550256125ccbb6f5ccea"
+    },
+    {
+      "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+      "checked": "2026-11-01",
+      "reviewed": "Relevant source rows inspected in shared SBE extraction retrieved November 1; not a separate live roster crawl by this content auditor.",
+      "cacheText": "audit/2026-11-01-roster-sbe.json"
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600607/html/DCPD-202600607.htm",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\7531cf1e3a6b1800721d.txt",
+      "sourceSha256": "5609fffbda66c132ac9111cc7094393e2d3fffe6042e1991354dcc1a4f4da7bd"
+    },
+    {
+      "url": "https://www.gpelections.org/election-history/write-ins/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    },
+    {
+      "url": "https://www.ila.org/content/documents/a._giannoulias_2026_sos_responses.pdf",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\4a0f3664f211265c20f2.txt",
+      "sourceSha256": "6571e3d97aa02bc6edf7c340fd70b76701f4edb6c6b39d432769e8b67d11a4a5"
+    },
+    {
+      "url": "https://www.ila.org/content/documents/d._harris_2026_sos_responses.pdf",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\7c932c4177fa52b3e8ce.txt",
+      "sourceSha256": "92c04919d171ebf621286002e9d90551aacc9391f8edce75ce8e888d6c64a757"
+    },
+    {
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+      "sourceSha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310"
+    },
+    {
+      "url": "https://www.ilgp.org/gogreen2026/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\23d22589f13ed4926943.txt",
+      "sourceSha256": "36163d5f7780b4db0d4316b1a9e1d18b825aa7f1f3ebf69bbba67d574c548b6c"
+    },
+    {
+      "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-challenges-epa-rollback-of-greenhouse-gas-pollution-limits-for-power-plants",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\9b8eb86cdc83a5a94192.txt",
+      "sourceSha256": "d05452adeb072100802ea89e320a5b6b0d534e74730096ab72e36cb1eb339a0c"
+    },
+    {
+      "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-continues-fight-to-protect-affordable-care-act-coverage",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\1a6f54d4b1dc6e5c723e.txt",
+      "sourceSha256": "7f406a37bcbe2f5953e7ab6bdf0df938439b45d6580ad97324ad7264782ebe25"
+    },
+    {
+      "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-stops-trump-administrations-illegal-weaponization-of-public-service-loan-forgiveness-program",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\cfae0d7780c348e6da98.txt",
+      "sourceSha256": "eb58a5a257a2bf30c7de115575e8f751372fcc122a8f373e3342838588d899c6"
+    },
+    {
+      "url": "https://www.illinoistreasurer.gov/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\10d62c59da41786c6724.txt",
+      "sourceSha256": "c4f6edca07905150ad2ce58ad0c53fe3938f8be024bc6719cf519c1a9751159a"
+    },
+    {
+      "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\30d0b0abda97ceccc49d.txt",
+      "sourceSha256": "311740356043b7dadeb562dfc8a9d6b3334441393081ef7feecc868044c6c6b4"
+    },
+    {
+      "url": "https://www.illinoistreasurer.gov/news/illinois-treasurer-michael-frerichs-relaunches-state-retirement-program-for-small-businesses-with-lower-fees-and-new-name/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\5f8f1670672b3d0ab530.txt",
+      "sourceSha256": "6907579d7d5282a97dd9b304b2cd09a546017f2bd3e783876718d78151c67c7f"
+    },
+    {
+      "url": "https://www.illinoistreasurer.gov/news/state-treasurer-frerichs-announces-250000-more-illinoisans-with-disabilities-eligible-for-able-accounts/",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\3b3a5ce102ad3fadef3d.txt",
+      "sourceSha256": "6fe6dbf4bec0ab6a9596357f3fcff18bebf145818a686accf210d608deea23e2"
+    },
+    {
+      "url": "https://www.ilsos.gov/content/dam/news/2023/january/230110d1.pdf",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\c0b829b09fcc215001ab.txt",
+      "sourceSha256": "612aab2173ed4dfa0ad79116fbe3c4d7df5f8cfbf1ec080092b75616ad09f943"
+    },
+    {
+      "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\8c8502e33681c14d124a.txt",
+      "sourceSha256": "a271ffffeaddd82a72b9b8283878be795efd7f60355ef8022108b22d657e4c21"
+    },
+    {
+      "url": "https://www.ilsos.gov/news/2026/august-14-2026-giannoulias-vows-to-fight-trump-administrations-demand-for-sensitive-driver-data.html",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger.",
+      "cacheText": "audit\\source-cache\\content-sweep\\8373f2d0fd75e458d53c.txt",
+      "sourceSha256": "cfa3beb09ddcc04c7e0e919a098117d18c999c4f36e6fb3242cdb83d7bee7108"
+    },
+    {
+      "url": "https://www.ilsos.gov/skip-the-line.html",
+      "checked": "2026-11-01",
+      "reviewed": "Actual source text inspected for the specific claims cited in this ledger."
+    }
+  ]
+}

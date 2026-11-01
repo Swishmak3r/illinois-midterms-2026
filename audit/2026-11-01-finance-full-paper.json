@@ -1,0 +1,44 @@
+{
+  "checked": "2026-11-01",
+  "method": "Official scanned D-2 summary pages rendered with Poppler and visually read. Only committee name, period and summary fields transcribed; no mailing addresses, signatures or donor data retained.",
+  "records": {
+    "michael-murphy-cook": {
+      "checked": "2026-11-01",
+      "page": 1,
+      "sha256": "9f80a1d0bc947423747a19e08814ded879e800560bbdc7c7ea2f235d8e778720",
+      "report": {
+        "committeeName": "Friends of Michael Murphy",
+        "reportType": "D-2 Quarterly Report (paper filing)",
+        "coverageStart": "2026-07-01",
+        "coverageEnd": "2026-09-30",
+        "beginningFunds": 476.36,
+        "receipts": 20,
+        "disbursements": 1.28,
+        "cashOnHand": 495.08,
+        "debts": 0,
+        "inKind": null,
+        "reportedSubtotal": 496.36
+      },
+      "notes": "The paper form prints 408384; the official SBE hosting committee is 40838, with matching name and office identity. In-kind is blank, not zero."
+    },
+    "kari-gabbert": {
+      "checked": "2026-11-01",
+      "page": 1,
+      "sha256": "a354f2eca56a322d86a3bdc1e08e404b0e458c658f9a38b2bbe2dc6b2b94f1f0",
+      "report": {
+        "committeeName": "Friends of Kari Gabbert",
+        "reportType": "D-2 Quarterly Report (paper filing)",
+        "coverageStart": "2026-07-01",
+        "coverageEnd": "2026-09-30",
+        "beginningFunds": 65.18,
+        "receipts": 4000,
+        "disbursements": 2703.35,
+        "cashOnHand": 1361.83,
+        "debts": null,
+        "inKind": null,
+        "reportedSubtotal": 4000
+      },
+      "notes": "The paper form prints 4101714; official SBE hosting committee is 41017, with matching name and office identity. The subtotal line is 4000 rather than 4065.18; ending funds 1361.83 reconcile to beginning+receipts-expenditures. Debt and in-kind are blank, not zero. Page 2 Schedule B heading says June 1 whereas the signed summary and official report table say July 1; published coverage follows the summary."
+    }
+  }
+}

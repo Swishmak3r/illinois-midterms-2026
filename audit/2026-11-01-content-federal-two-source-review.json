@@ -1,0 +1,388 @@
+{
+  "checked": "2026-11-01",
+  "counts": {
+    "uniqueLinkedSourcesRead": 62,
+    "directPrimary": 60,
+    "indexedPrimary": 2
+  },
+  "refreshRule": "Safe to refresh checked only for reviewed candidateId/field/URL combinations in issue/endorsement and biography ledgers. Do not refresh other fields just because their URL matches. SourceDate/published remains unchanged.",
+  "sources": [
+    {
+      "url": "https://www.danielbiss.com/issues/a-foreign-policy-rooted-in-peace-democracy-and-global-justice",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/combating-income-inequality-by-taking-on-wealth-hoarding",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/protecting-civil-rights-and-civil-liberties-for-all",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/a-welcoming-immigration-policy",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/ending-gun-violence-with-common-sense-reform",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/protecting-our-democracy",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://schneider.house.gov/about",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger. Reviewed role claims also supported unless qualification remains."
+    },
+    {
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.billfoster.com/issue/healthcare/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://schneider.house.gov/issues",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.billfoster.com/issue/combating-the-climate-crisis/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.billfoster.com/issue/reducing-gun-violence/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.billfoster.com/issue/reproductive-freedom/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.billfoster.com/issues/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.billfoster.com/issue/immigration/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://johnelleson.com/stances/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.jeffwalterforcongress.com/issues",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://ilnow.org/uncategorized/il-now-pac-2026-general-election-endorsements/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.juliefortier.org/issues",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://bost.house.gov/energy",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.nrapvf.org/grades/illinois/",
+      "method": "indexed-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.wilsonforcongress.com/issues",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://cwa-union.org/candidates-il",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://underwoodforcongress.com/immigration-border-security/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://underwoodforcongress.com/climate-change/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://marter4congress.us/issues/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://underwoodforcongress.com/healthcare-costs/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger. Reviewed role claims also supported unless qualification remains."
+    },
+    {
+      "url": "https://underwoodforcongress.com/gun-violence/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://marymiller.house.gov/media/press-releases/rep-miller-sen-budd-lead-bill-close-loophole-exploited-illegal-aliens-employed",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://norman.house.gov/news/documentsingle.aspx?DocumentID=3214",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://underwoodforcongress.com/reproductive-freedom/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/",
+      "method": "indexed-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://millermeeks.house.gov/media/press-releases/miller-meeks-joins-feenstra-legislation-protect-second-amendment-rights",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://lahood.house.gov/about",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger. Reviewed role claims also supported unless qualification remains."
+    },
+    {
+      "url": "https://www.jentodd2026.us/issues",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://rsc-pfluger.house.gov/media/press-releases/what-they-are-saying-its-tax-day-and-americans-are-winning-thanks-working",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://lahood.house.gov/news?ID=7248C71D-983E-4BAD-974A-8ACFACC8E5FF",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://hageman.house.gov/issues/family-values",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://lahood.house.gov/immigration",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.nolleyforcongress.com/issues",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.vancilforcongress.com/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://www.ericforillinois.com/issues",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger. Reviewed role claims also supported unless qualification remains."
+    },
+    {
+      "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://budzinski.house.gov/posts/budzinski-schrier-introduce-legislation-to-lower-co-pays-and-deductibles",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Only reviewed issue/endorsement fields in companion claim ledger."
+    },
+    {
+      "url": "https://foster.house.gov/about",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://www.danielbiss.com/about",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://bost.house.gov/biography",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://www.jeffwalterforcongress.com/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://content.govdelivery.com/accounts/ILEVANSTON/bulletins/41d88f0",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://budzinski.house.gov/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://www.juliefortier.org/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://www.wilsonforcongress.com/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://marter4congress.us/meet-jim/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://marymiller.house.gov/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://www.jentodd2026.us/about",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://www.nolleyforcongress.com/about",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://www.vancilforcongress.com/about-dillan",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    },
+    {
+      "url": "https://johnelleson.com/",
+      "method": "direct-primary",
+      "eligibleForCheckedDateRefresh": "2026-11-01",
+      "scope": "Reviewed role source content; two precision qualifications recorded in biography ledger."
+    }
+  ],
+  "supplementalSourceRead": {
+    "url": "https://www.wilsonforcongress.com/about",
+    "method": "indexed-primary",
+    "purpose": "Corroborated nuclear-industry career and county-board self-description."
+  }
+}

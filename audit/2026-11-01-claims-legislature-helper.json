@@ -1,0 +1,182 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Precise primary-source replacements for the three Antigravity-added incumbent profiles. Other evidence fields, including identity and endorsements, require separate review and should be preserved unless separately corrected.",
+  "applyInstructions": "For each candidate: replace role, hometown and the entire issues object; remove prior evidence with field role, hometown or beginning issues.; append evidence listed here. Preserve all other candidate fields. Data ID for Manley is natalie-a-manley, not natalie-manley.",
+  "candidates": [
+    {
+      "id": "natalie-a-manley",
+      "role": "State representative for the 98th District since January 2013; certified public accountant and chair of the House Health Care Availability and Access Committee.",
+      "hometown": "Joliet",
+      "issues": {
+        "budgetTaxes": "Her June 2026 legislative statement supports state-budget investment in education, senior services, first responders and healthcare.",
+        "healthcare": "Supports allowing qualified speech-language pathologists to diagnose autism in children under three to improve access to care.",
+        "publicServices": "As a founder of the Illinois Legislative Neurodiversity Caucus, emphasizes access to services and support for neurodivergent residents and their families."
+      },
+      "evidence": [
+        {
+          "field": "role",
+          "url": "https://www.ilga.gov/House/Members/Details/3302",
+          "title": "Illinois General Assembly: Natalie A. Manley, 104th General Assembly",
+          "checked": "2026-11-01",
+          "note": "Correct member ID is 3302. Confirms district, service since January 2013 and Health Care Availability and Access chair. Antigravity's ID 3232 identifies another member."
+        },
+        {
+          "field": "role",
+          "url": "https://www.repmanley.com/about",
+          "title": "Representative Natalie Manley: official biography",
+          "checked": "2026-11-01",
+          "note": "Confirms CPA background and current committee chair. Assistant Majority Leader title omitted because current ILGA profile and official biography do not list it; some caucus page footers retain that title."
+        },
+        {
+          "field": "hometown",
+          "url": "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/",
+          "title": "Illinois House Democratic Caucus: Manley Addresses Affordability, Schools, Autism",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-06-01",
+          "note": "Identifies Manley as D-Joliet. The district office in Romeoville is not used as residency evidence."
+        },
+        {
+          "field": "issues.budgetTaxes",
+          "url": "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/",
+          "title": "Manley: June 2026 budget and legislative priorities",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-06-01",
+          "note": "Attributed budget priorities; does not independently certify fiscal outcomes or infer property-tax policy."
+        },
+        {
+          "field": "issues.healthcare",
+          "url": "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/",
+          "title": "Manley: autism diagnosis access proposal",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-06-01",
+          "note": "Describes support for HB 5225. The profile states her position rather than claiming current enactment status."
+        },
+        {
+          "field": "issues.publicServices",
+          "url": "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/",
+          "title": "Manley: Illinois Legislative Neurodiversity Caucus priorities",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-06-01",
+          "note": "Attributed support for neurodivergent residents and families."
+        }
+      ],
+      "auditNote": "Removed unsupported broad senior property-tax/school-funding claim, paying-down-liabilities claim, and generic prescription-cost claim. Replacement summaries use exact substantive pages rather than homepage links."
+    },
+    {
+      "id": "dagmara-avelar",
+      "role": "State representative for the 85th District since January 2021; Assistant Majority Leader.",
+      "hometown": "Bolingbrook",
+      "issues": {
+        "budgetTaxes": "Says her budget priorities include avoiding additional debt and making healthcare, education and food more affordable.",
+        "healthcare": "Her office says she supports easier hospital-financial-assistance applications and upfront disclosure of healthcare fees.",
+        "education": "Sponsored a resolution calling for protection of federal support for English learners and language access for parents."
+      },
+      "evidence": [
+        {
+          "field": "role",
+          "url": "https://www.ilga.gov/house/members/details/3391",
+          "title": "Illinois General Assembly: Dagmara Avelar, 104th General Assembly",
+          "checked": "2026-11-01",
+          "note": "Correct member ID 3391 confirms Assistant Majority Leader, 85th District and service since January 2021. The official indexed page was readable; one direct retrieval failed. Replaces incorrect ID 3399."
+        },
+        {
+          "field": "role",
+          "url": "https://www.repdagmara.org/meet-rep-avelar",
+          "title": "Representative Avelar: official biography",
+          "checked": "2026-11-01",
+          "note": "Corroborates Assistant Majority Leader and 85th District."
+        },
+        {
+          "field": "hometown",
+          "url": "https://www.elections.il.gov/campaigndisclosure/CandidateDetailCD.aspx?ID=hV%2FlSAaqXm9j0HYCbwGvgQ%3D%3D",
+          "title": "Illinois SBE: Dagmara Avelar campaign-disclosure candidate record",
+          "checked": "2026-11-01",
+          "note": "Official indexed candidate record lists Bolingbrook and House District 85. Only city is reproduced; district-office location is not used as residency evidence."
+        },
+        {
+          "field": "issues.budgetTaxes",
+          "url": "https://ilhousedems.com/2026/06/01/avelar-passes-state-budget-prioritizing-affordability-for-illinois-communities/",
+          "title": "Avelar: state budget and affordability priorities",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-06-01",
+          "note": "Attributed priorities from Avelar's own statement; claims of delivered savings and no new taxes are not asserted as independently established outcomes."
+        },
+        {
+          "field": "issues.healthcare",
+          "url": "https://ilhousedems.com/2026/06/01/avelar-passes-state-budget-prioritizing-affordability-for-illinois-communities/",
+          "title": "Avelar: hospital financial assistance and fee disclosure",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-06-01",
+          "note": "Her office identifies support for financial-assistance access and upfront fee disclosure. Profile does not claim these bills' current enactment status."
+        },
+        {
+          "field": "issues.education",
+          "url": "https://ilhousedems.com/2025/09/16/avelar-sponsors-resolution-calls-for-protection-of-important-will-county-educational-programs-from-federal-cuts/",
+          "title": "Avelar: resolution supporting English-learner programs",
+          "checked": "2026-11-01",
+          "sourceDate": "2025-09-16",
+          "note": "Describes her sponsorship of HR 459 and requested protection of language-access programs; does not infer a general school-funding or college-affordability platform."
+        }
+      ],
+      "auditNote": "Removed homepage-based working-family tax-credit/child-tax-relief, prescription-drug, reproductive-health and trades/college claims not established by those cited pages. Replacement record uses precise candidate-authored statements."
+    },
+    {
+      "id": "laura-ellman",
+      "role": "State senator for the 21st District since 2019; chair of the Senate Environment and Conservation Committee.",
+      "hometown": "Naperville",
+      "issues": {
+        "budgetTaxes": "Her February 2026 budget statement prioritizes affordability while meeting state commitments and maintaining services for vulnerable residents.",
+        "energyGrid": "Calls for lower energy costs and state action to protect drinking water, including PFAS detection and response.",
+        "education": "Calls for full funding of the Healthy School Meals for All Program to expand access to free school meals."
+      },
+      "evidence": [
+        {
+          "field": "role",
+          "url": "https://www.ilga.gov/Senate/Members/Details/3339",
+          "title": "Illinois General Assembly: Laura Ellman, 104th General Assembly",
+          "checked": "2026-11-01",
+          "note": "Official indexed record confirms 21st District and service since 2019; direct retrieval intermittently failed."
+        },
+        {
+          "field": "role",
+          "url": "https://www.senatorlauraellman.com/biography",
+          "title": "Senator Laura Ellman: official biography",
+          "checked": "2026-11-01",
+          "note": "Lists Environment and Conservation chair role."
+        },
+        {
+          "field": "hometown",
+          "url": "https://www.senatorlauraellman.com/biography",
+          "title": "Senator Laura Ellman: official biography",
+          "checked": "2026-11-01",
+          "note": "Identifies her as a longtime Naperville community member; ILGA biography also explicitly lists Naperville residence."
+        },
+        {
+          "field": "issues.budgetTaxes",
+          "url": "https://senatorlauraellman.com/news/press-releases/342-ellman-budget-focuses-on-affordability-and-public-health",
+          "title": "Ellman: Budget focuses on affordability and public health",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-02-18",
+          "note": "Attributed response to the governor's budget proposal; no fiscal result or credit-rating claim is independently asserted."
+        },
+        {
+          "field": "issues.energyGrid",
+          "url": "https://senatorlauraellman.com/news/press-releases/342-ellman-budget-focuses-on-affordability-and-public-health",
+          "title": "Ellman: energy affordability and drinking-water protection priorities",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-02-18",
+          "note": "Exact statement supports energy affordability, environmental protection and PFAS detection/response; no grid-reliability inference from committee title."
+        },
+        {
+          "field": "issues.education",
+          "url": "https://senatorlauraellman.com/news/press-releases/364-ellman-highlights-need-to-fully-fund-healthy-school-meals-for-all-program",
+          "title": "Ellman: fund Healthy School Meals for All",
+          "checked": "2026-11-01",
+          "sourceDate": "2026-04-30",
+          "note": "Describes her call for funding and SB 1419 proposal; does not claim appropriation enactment."
+        }
+      ],
+      "auditNote": "ID 3339 is correct. Replaced broad homepage-based credit-rating/tax-relief, grid-reliability and STEM/higher-education assertions with specific sourced positions."
+    }
+  ]
+}

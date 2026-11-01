@@ -1,0 +1,81 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Hashes of locally reviewed official documents and renderings. Raw files are not included in publication; original source URLs remain in race evidence and detailed reports.",
+  "files": [
+    {
+      "file": "jackson-attempt0.pdf",
+      "bytes": 1440937,
+      "sha256": "57969116f857117b50067989fb245e6314e3c9f731c2b0b8327e2b5e5ce658e2"
+    },
+    {
+      "file": "jackson-page1.png",
+      "bytes": 374715,
+      "sha256": "2d7e8b209712e65edeb8b236e16b81c6547eb58e6a6874786a9fff19e63e7566"
+    },
+    {
+      "file": "jackson-page2.png",
+      "bytes": 368453,
+      "sha256": "1b7697d29d54f20369d57b01df1ec0f9201ce20e28c5dbbdd3003199a347a1b7"
+    },
+    {
+      "file": "jackson-page3.png",
+      "bytes": 438446,
+      "sha256": "3553bf0ff818f97fa3fb27a8e6277f58583489641870973be3d009ad8f006fc3"
+    },
+    {
+      "file": "jackson-page4.png",
+      "bytes": 102270,
+      "sha256": "fca41b7de53e4308dd1f78d99b7069232cdb950d8b1fb0f3d7baf47bad1d49c0"
+    },
+    {
+      "file": "jackson-solverson-crop.png",
+      "bytes": 161976,
+      "sha256": "ba17e153e1b1a678b2bbf1260b5d5a576d44e0d0bec6ca3f433357066df8ec52"
+    },
+    {
+      "file": "madison-page1.png",
+      "bytes": 311237,
+      "sha256": "5edeae97402d9ffb3f8698d71c0827d53d4a48b2034a4e551e6416ae3f2f0e92"
+    },
+    {
+      "file": "madison-page2.png",
+      "bytes": 247518,
+      "sha256": "a844302b4a9ed61196457026969df20856e5f5e36fc418238447aa45276ed4b9"
+    },
+    {
+      "file": "madison-page3.png",
+      "bytes": 295066,
+      "sha256": "ce1d09949f32e3f7e5fc966c9857e0d0017f0cc86f696e19496ebdd303cb95ac"
+    },
+    {
+      "file": "madison.pdf",
+      "bytes": 192629,
+      "sha256": "e833b9c30bfe261c6ecc998e684791f60795db193d3dd89266811d894fb8dcad"
+    },
+    {
+      "file": "st-clair-guide.pdf",
+      "bytes": 5065427,
+      "sha256": "d390b1ca9ed5185525ac177591aecb21a78d20bd3d6e5e3e7e12d1cc1e87cba8"
+    },
+    {
+      "file": "st-clair-guide.txt",
+      "bytes": 3007,
+      "sha256": "c53ee36b7ca847b30b3a31b757e0f4f2fa9336d14696ce4312a17ee835ee8596"
+    },
+    {
+      "file": "st-clair-page5.png",
+      "bytes": 161277,
+      "sha256": "d99857ed4cf4fa0b6bc6a7e0c964c3127d5f63b1caa521098c49a474fefbc5aa"
+    },
+    {
+      "file": "st-clair-page6.png",
+      "bytes": 198475,
+      "sha256": "af7e3b55f51fa111e73e36c38604c71dfa702312227db4ad8a59e70393c91f57"
+    },
+    {
+      "file": "st-clair-page7.png",
+      "bytes": 191691,
+      "sha256": "cec23756332c6c846f13abc56171566da757660a2bae90de096110e83439955f"
+    }
+  ]
+}

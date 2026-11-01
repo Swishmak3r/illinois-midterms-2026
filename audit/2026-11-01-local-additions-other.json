@@ -1,0 +1,228 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Evidence-only extraction of missing county offices and single-county-named education regions from already reviewed primary sources; no ZIP or address eligibility inferred.",
+  "sources": {
+    "winnebago": {
+      "url": "https://wincoil.gov/media/attachments/2026/10/03/sample-ballot.pdf",
+      "title": "Winnebago County Clerk: November 3, 2026 general-election sample ballot",
+      "page": 2,
+      "method": "Official PDF readable text; county offices and vote limits read directly"
+    },
+    "peoria": {
+      "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
+      "title": "Peoria County Election Commission: November 3, 2026 general-election sample ballot",
+      "page": 2,
+      "method": "Official PDF readable text; county offices and vote limits read directly"
+    },
+    "sangamon": {
+      "url": "https://sangamondepartments.blob.core.windows.net/dnnfiles/Clerk/Elections/Candidates/2026%20Election/11-3-26%20Co%20Wide%20and%20Co%20Board%20Candidate%20Listing.pdf?si=DNNFileManagerPolicy&sig=R018BKkJgc9t9fEMtDxNLHZcKGq2gO%2Ftnwnsc4zcEv8%3D&sr=b&sv=2017-04-17",
+      "title": "Sangamon County Clerk: November 3, 2026 countywide and county-board candidate listing",
+      "page": 1,
+      "sourceDate": "2026-08-26",
+      "method": "Official candidate list readable text; District column explicitly says Sangamon Co.; no vote limit supplied by this list"
+    },
+    "rock-island": {
+      "url": "https://www.rockislandcountyil.gov/DocumentCenter/View/3377",
+      "title": "Rock Island County Clerk: November 3, 2026 general-election sample ballot",
+      "page": 2,
+      "method": "Official PDF readable text"
+    },
+    "st-clair": {
+      "url": "https://www.co.st-clair.il.us/webdocuments/departments/countyclerk/elections/2026%20General%20Election%20Voters%20Guide.pdf",
+      "title": "St. Clair County Clerk: 2026 General Election Voter's Guide, certified specimen ballot",
+      "page": 6,
+      "method": "Downloaded official PDF, rendered and visually read page 6; footer certified by County Clerk Thomas Holbrook",
+      "localFile": "audit/2026-11-01-local-sources/st-clair-guide.pdf",
+      "localImage": "audit/2026-11-01-local-sources/st-clair-page6.png",
+      "sha256": "d390b1ca9ed5185525ac177591aecb21a78d20bd3d6e5e3e7e12d1cc1e87cba8"
+    },
+    "madison": {
+      "url": "https://www.madisoncountyil.gov/document_center/CountyClerk/2026%20Election/Candidate%20list.pdf?t=20260930111710911",
+      "title": "Madison County Clerk: 2026 general-election candidate list",
+      "page": 2,
+      "method": "Downloaded official image-only PDF, rendered and visually read; Madison ROE Nancy Werden corroborates St. Clair specimen page 6, which supplies vote limit",
+      "localFile": "audit/2026-11-01-local-sources/madison.pdf",
+      "localImage": "audit/2026-11-01-local-sources/madison-page2.png",
+      "sha256": "e833b9c30bfe261c6ecc998e684791f60795db193d3dd89266811d894fb8dcad"
+    },
+    "jackson": {
+      "url": "https://www.jacksoncounty-il.gov/DocumentCenter/View/1197/2026-Preview-Ballot?bidId=",
+      "title": "Jackson County Clerk: November 3, 2026 general-election preview ballot",
+      "sourceDate": "2026-09-17",
+      "printedTimestamp": "09/17/2026 14:39:38",
+      "page": 2,
+      "method": "Downloaded official PDF using browser User-Agent and query suffix; rendered and visually read page 2. Earlier 404 retrieval obstacle resolved.",
+      "linkedFrom": "https://jacksoncounty-il.gov/197/Clerk-Recorder--Election-Authority",
+      "localFile": "audit/2026-11-01-local-sources/jackson-attempt0.pdf",
+      "localImage": "audit/2026-11-01-local-sources/jackson-page2.png",
+      "sha256": "57969116f857117b50067989fb245e6314e3c9f731c2b0b8327e2b5e5ce658e2"
+    }
+  },
+  "additions": [
+    {
+      "suggestedId": "winnebago-clerk",
+      "office": "Winnebago County Clerk",
+      "printedOffice": "FOR COUNTY CLERK",
+      "counties": ["Winnebago"],
+      "jurisdictionType": "countywide",
+      "voteFor": 1,
+      "source": "winnebago",
+      "candidates": [{"name": "Lori Gummow", "party": "Republican"}],
+      "note": "Democratic line says No Candidate; no named write-in qualification verified."
+    },
+    {
+      "suggestedId": "winnebago-treasurer",
+      "office": "Winnebago County Treasurer",
+      "printedOffice": "FOR COUNTY TREASURER",
+      "counties": ["Winnebago"],
+      "jurisdictionType": "countywide",
+      "voteFor": 1,
+      "source": "winnebago",
+      "candidates": [{"name": "Theresa Grennan", "party": "Democrat"}],
+      "note": "Republican line says No Candidate; no named write-in qualification verified."
+    },
+    {
+      "suggestedId": "peoria-sheriff",
+      "office": "Peoria County Sheriff",
+      "printedOffice": "FOR SHERIFF",
+      "counties": ["Peoria"],
+      "jurisdictionType": "countywide",
+      "voteFor": 1,
+      "source": "peoria",
+      "candidates": [{"name": "Chris Watkins", "party": "Republican"}],
+      "note": "Democratic line says No Candidate; no named write-in qualification verified."
+    },
+    {
+      "suggestedId": "peoria-treasurer",
+      "office": "Peoria County Treasurer",
+      "printedOffice": "FOR COUNTY TREASURER",
+      "counties": ["Peoria"],
+      "jurisdictionType": "countywide",
+      "voteFor": 1,
+      "source": "peoria",
+      "candidates": [{"name": "Randy Stevens", "party": "Democrat"}, {"name": "Branden Martin", "party": "Republican"}]
+    },
+    {
+      "suggestedId": "sangamon-clerk",
+      "office": "Sangamon County Clerk",
+      "printedOffice": "County Clerk",
+      "counties": ["Sangamon"],
+      "jurisdictionType": "countywide",
+      "voteFor": null,
+      "source": "sangamon",
+      "candidates": [{"name": "Don Gray", "party": "Republican"}],
+      "note": "Official list supplies name, party, office and Sangamon Co. scope. Vote limit is not printed in this source and was not inferred. Democratic line says No Candidate."
+    },
+    {
+      "suggestedId": "sangamon-treasurer",
+      "office": "Sangamon County Treasurer",
+      "printedOffice": "County Treasurer",
+      "counties": ["Sangamon"],
+      "jurisdictionType": "countywide",
+      "voteFor": null,
+      "source": "sangamon",
+      "candidates": [{"name": "Joe Aiello", "party": "Republican"}],
+      "note": "Official list supplies name, party, office and Sangamon Co. scope. Vote limit is not printed in this source and was not inferred. Democratic line says No Candidate."
+    },
+    {
+      "suggestedId": "st-clair-assessor",
+      "office": "St. Clair County Assessor",
+      "printedOffice": "FOR COUNTY ASSESSOR",
+      "counties": ["St. Clair"],
+      "jurisdictionType": "countywide",
+      "voteFor": 1,
+      "source": "st-clair",
+      "candidates": [{"name": "Jennifer Gomric Minton", "party": "Democrat"}],
+      "note": "Printed under COUNTY, without subdistrict. Republican line says No Candidate."
+    },
+    {
+      "suggestedId": "st-clair-board-of-review",
+      "office": "St. Clair County Board of Review",
+      "printedOffice": "FOR COUNTY BOARD OF REVIEW",
+      "counties": ["St. Clair"],
+      "jurisdictionType": "countywide",
+      "voteFor": 1,
+      "source": "st-clair",
+      "candidates": [{"name": "Brian Triska", "party": "Republican"}, {"name": "Irma G. Golliday", "party": "Democrat"}],
+      "note": "Printed under COUNTY, without subdistrict; separate from numbered COUNTY BOARD races."
+    },
+    {
+      "suggestedId": "peoria-regional-superintendent",
+      "office": "Regional Superintendent of Schools — Peoria County education region",
+      "printedOffice": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (PEORIA COUNTY)",
+      "counties": ["Peoria"],
+      "jurisdictionType": "education-region",
+      "requiresAddressConfirmation": true,
+      "voteFor": 1,
+      "source": "peoria",
+      "candidates": [{"name": "George McKenna", "party": "Democrat"}],
+      "note": "The specimen also contains other regional superintendent contests. County name in region title is not proof this race applies to every address in the county. Do not assign countywide ZIP eligibility."
+    },
+    {
+      "suggestedId": "rock-island-regional-superintendent",
+      "office": "Regional Superintendent of Schools — Rock Island County education region",
+      "printedOffice": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (ROCK ISLAND COUNTY)",
+      "counties": ["Rock Island"],
+      "jurisdictionType": "education-region",
+      "requiresAddressConfirmation": true,
+      "voteFor": 1,
+      "source": "rock-island",
+      "candidates": [{"name": "Tammy L. Muerhoff", "party": "Democrat"}],
+      "note": "The specimen contains several education regions. Do not infer region boundaries from county or ZIP."
+    },
+    {
+      "suggestedId": "madison-regional-superintendent",
+      "office": "Regional Superintendent of Schools — Madison County education region",
+      "printedOffice": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (MADISON COUNTY)",
+      "counties": ["Madison"],
+      "jurisdictionType": "education-region",
+      "requiresAddressConfirmation": true,
+      "voteFor": 1,
+      "source": "st-clair",
+      "corroboratingSources": ["madison"],
+      "candidates": [{"name": "Nancy Werden", "party": "Republican"}],
+      "note": "Madison candidate list p2 lists Nancy Werden R. St. Clair official specimen p6 confirms name/party, exact region title and vote-for-one instruction. This cross-county appearance demonstrates that county names alone do not define education-region eligibility."
+    },
+    {
+      "suggestedId": "st-clair-regional-superintendent",
+      "office": "Regional Superintendent of Schools — St. Clair County education region",
+      "printedOffice": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (ST. CLAIR COUNTY)",
+      "counties": ["St. Clair"],
+      "jurisdictionType": "education-region",
+      "requiresAddressConfirmation": true,
+      "voteFor": 1,
+      "source": "st-clair",
+      "candidates": [{"name": "Lori Costello", "party": "Democrat"}],
+      "note": "The specimen contains several education regions. Do not infer region boundaries from county or ZIP."
+    }
+  ],
+  "replaceRosterSources": [
+    {"raceId": "jackson-clerk", "source": "jackson", "voteFor": 1, "printedOffice": "FOR COUNTY CLERK", "candidates": [{"name": "Doug Gill", "party": "Republican"}, {"name": "Frank L Byrd", "party": "Democrat"}]},
+    {"raceId": "jackson-treasurer", "source": "jackson", "voteFor": 1, "printedOffice": "FOR COUNTY TREASURER", "candidates": [{"name": "Liz Stevenson", "party": "Democrat"}]},
+    {"raceId": "jackson-sheriff", "source": "jackson", "voteFor": 1, "printedOffice": "FOR COUNTY SHERIFF", "candidates": [{"name": "Jay Wittenborn", "party": "Republican"}, {"name": "Robert \"Bob\" Burns", "party": "Democrat"}]},
+    {"raceId": "jackson-assessor", "source": "jackson", "voteFor": 1, "printedOffice": "FOR COUNTY ASSESSOR", "candidates": [{"name": "Tammy Ehlers", "party": "Democrat"}], "note": "Keep County Assessor ballot-office label; official staff job title Chief County Assessment Officer does not replace printed office name."},
+    {"raceId": "st-clair-clerk", "source": "st-clair", "voteFor": 1, "printedOffice": "FOR COUNTY CLERK", "candidates": [{"name": "Gary Hursey", "party": "Republican"}, {"name": "Laura Kaemmerer", "party": "Democrat"}]},
+    {"raceId": "st-clair-treasurer", "source": "st-clair", "voteFor": 1, "printedOffice": "FOR COUNTY TREASURER", "candidates": [{"name": "Myki Rhodes", "party": "Republican"}, {"name": "Andrew Lopinot", "party": "Democrat"}]},
+    {"raceId": "st-clair-sheriff", "source": "st-clair", "voteFor": 1, "printedOffice": "FOR COUNTY SHERIFF", "candidates": [{"name": "Richard \"Rick\" Watson", "party": "Democrat"}], "note": "Republican line explicitly No Candidate; Patterson not printed."}
+  ],
+  "judicialScopeCorroboration": {
+    "raceId": "sbe-local-1st-circuit-solverson-vacancy",
+    "source": "jackson",
+    "page": 3,
+    "printedOffice": "FOR JUDGE OF THE CIRCUIT COURT FIRST JUDICIAL CIRCUIT JACKSON COUNTY (To fill the vacancy of the Hon. Christy Solverson)",
+    "jurisdictionType": "countywide",
+    "counties": ["Jackson"],
+    "voteFor": 1,
+    "candidates": [{"name": "Lenoard \"Jamie\" Snyder", "party": "Republican"}, {"name": "Benjamin W. Reed", "party": "Democrat"}],
+    "localImage": "audit/2026-11-01-local-sources/jackson-page3.png",
+    "localCrop": "audit/2026-11-01-local-sources/jackson-solverson-crop.png",
+    "note": "High-resolution crop confirms the unusual spelling Lenoard, matching the SBE list. Do not silently correct to Leonard. Jackson County is explicitly part of the printed circuit vacancy title."
+  },
+  "notAdded": [
+    "Multi-county education regions were not added in this bounded extraction.",
+    "Winnebago forest-preserve commissioner candidates and vote-for-two instruction were observed, but district-wide eligibility was not independently established here; no countywide assumption made.",
+    "St. Clair election notice p3 mentions County Recorder, but no named Recorder contest appears in the reviewed specimen pages; no roster invented.",
+    "Sangamon new office vote limits remain null because the available primary candidate list does not state them.",
+    "No current-incumbency, policy, endorsement or finance claims are established for new candidates by these ballot excerpts."
+  ]
+}

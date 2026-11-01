@@ -1,0 +1,1495 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Every retained nonempty issue summary and endorsement item in IL-09 through IL-17, inventoried during repair. Candidate rosters and biographies excluded. Campaign-authored policy statements are verified as positions, not proof of claimed outcomes.",
+  "method": "Actual source text manually compared per claim. Direct HTTPS retrieval with trusted certificates; primary indexed web content resolved NFIB403 and NRA age-gate sources. No fabricated substitutions.",
+  "counts": {
+    "claims": 103,
+    "verified": 103,
+    "supportedWithQualification": 0,
+    "contradicted": 0,
+    "inaccessible": 0,
+    "uniqueEvidenceUrls": 48,
+    "repairsConfirmed": 2
+  },
+  "claims": [
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.economy",
+      "claim": "His platform proposes more affordable housing construction, rental and down-payment assistance, and a cap on family child-care costs.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first"
+      ],
+      "support": "Campaign lists new housing, rental/down-payment support and a family child-care spending cap."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.healthcare",
+      "claim": "Supports Medicare for All, reversing Trump-era Medicaid cuts, and expanding Medicare drug-price negotiation.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first"
+      ],
+      "support": "Campaign expressly proposes universal Medicare, reversing Medicaid cuts and broader drug negotiation."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.immigration",
+      "claim": "Calls for abolishing ICE, limiting raids to violent-crime suspects, protecting asylum and legal representation, and a path to citizenship for Dreamers.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/a-welcoming-immigration-policy"
+      ],
+      "support": "Campaign expressly calls for abolishing ICE, violent-record limits on raids, asylum representation and Dreamer citizenship."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.energy",
+      "claim": "Supports a Green New Deal, restoring Inflation Reduction Act climate provisions, ending fossil-fuel subsidies, and opposing new federal fossil-fuel infrastructure.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/protecting-our-democracy"
+      ],
+      "support": "Climate page at this unexpectedly named URL expressly includes every summarized proposal, including opposition to new fossil infrastructure."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.taxes",
+      "claim": "Proposes a wealth tax, higher corporate taxes, reversing Trump tax cuts for the highest earners, ending carried interest, and reversing Trump tariffs.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/combating-income-inequality-by-taking-on-wealth-hoarding"
+      ],
+      "support": "Campaign lists wealth and corporate taxes, highest-earner tax-cut reversal, ending carried interest and reversing tariffs."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.reproductive",
+      "claim": "Supports nationwide abortion protections, medication abortion, repealing the Hyde Amendment, and federal protections for contraception and IVF.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/protecting-civil-rights-and-civil-liberties-for-all"
+      ],
+      "support": "Campaign lists federal abortion protection, medication access, Hyde repeal, contraception and IVF safeguards."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.foreignPolicy",
+      "claim": "Supports restoring USAID, congressional approval for military action, a two-state Israeli-Palestinian settlement, and military and humanitarian aid to Ukraine with oversight.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/a-foreign-policy-rooted-in-peace-democracy-and-global-justice"
+      ],
+      "support": "Campaign lists USAID restoration, congressional authorization, two-state diplomacy and Ukraine aid with oversight."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "issues.guns",
+      "claim": "Calls for repealing the Second Amendment, universal background checks, a federal assault-weapons ban, red-flag laws, safe storage, and ending gun-industry immunity.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/issues/ending-gun-violence-with-common-sense-reform"
+      ],
+      "support": "Campaign explicitly lists Second Amendment repeal and the five accompanying gun-law proposals; repeal is not an inferred position."
+    },
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "john-elleson",
+      "district": "IL-09",
+      "field": "issues.economy",
+      "claim": "His campaign proposes reducing burdensome business regulations and supporting local businesses and community economic revitalization.",
+      "status": "verified",
+      "urls": [
+        "https://johnelleson.com/stances/"
+      ],
+      "support": "Campaign names reduced regulations, local businesses and community economic revitalization."
+    },
+    {
+      "candidateId": "john-elleson",
+      "district": "IL-09",
+      "field": "issues.healthcare",
+      "claim": "His campaign calls for expanded local clinics and affordability initiatives, and practical assistance for addiction, homelessness and mental health.",
+      "status": "verified",
+      "urls": [
+        "https://johnelleson.com/stances/"
+      ],
+      "support": "Campaign lists clinics/affordability and practical addiction, homelessness and mental-health assistance."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.economy",
+      "claim": "His office prioritizes manufacturing jobs, infrastructure investment, and education linked to well-paying careers.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/issues"
+      ],
+      "support": "Official issues page names manufacturing, infrastructure and education for career opportunities."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.healthcare",
+      "claim": "Supports strengthening the Affordable Care Act and protecting Medicare and Social Security.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/about"
+      ],
+      "support": "Official biography names protecting ACA, Medicare and Social Security."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.immigration",
+      "claim": "His office calls for bipartisan comprehensive immigration reform.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/issues"
+      ],
+      "support": "Official issues page calls for bipartisan comprehensive reform."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.energy",
+      "claim": "His office identifies climate change as a serious threat and supports environmental protection.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/issues"
+      ],
+      "support": "Official issues page calls climate change a grave threat and advocates environmental protection."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.taxes",
+      "claim": "His official biography identifies repeal of the state-and-local-tax deduction cap as a legislative priority.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/about"
+      ],
+      "support": "Official biography lists repeal of the SALT deduction cap."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.reproductive",
+      "claim": "Supports abortion rights, according to his official biography.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/about"
+      ],
+      "support": "Official biography expressly supports a woman’s right to choose."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.foreignPolicy",
+      "claim": "Emphasizes working with allies and strengthening the U.S.-Israel relationship; co-chairs the bipartisan Abraham Accords Caucus.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/about"
+      ],
+      "support": "Official biography identifies allies, Israel and Abraham Accords Caucus co-chair role."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "issues.guns",
+      "claim": "His office supports legislation to reduce gun violence while protecting lawful gun ownership.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/issues"
+      ],
+      "support": "Official issues page supports gun-violence legislation while protecting lawful owners’ constitutional rights."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "endorsements[1]",
+      "claim": "National NOW PAC",
+      "status": "verified",
+      "urls": [
+        "https://ilnow.org/uncategorized/il-now-pac-2026-general-election-endorsements/"
+      ],
+      "support": "Illinois NOW’s general-election page explicitly lists this candidate under National NOW PAC endorsements, distinct from state PAC endorsements."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "issues.economy",
+      "claim": "His campaign prioritizes American manufacturing and investments in scientific research.",
+      "status": "verified",
+      "urls": [
+        "https://www.billfoster.com/issues/"
+      ],
+      "support": "Campaign index identifies manufacturing and scientific research as issue priorities."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "issues.healthcare",
+      "claim": "Supports strengthening the ACA, a public insurance option, expanded Medicaid eligibility, and Medicare prescription-drug negotiation.",
+      "status": "verified",
+      "urls": [
+        "https://www.billfoster.com/issue/healthcare/"
+      ],
+      "support": "Campaign supports ACA, public option, Medicaid expansion and drug negotiation. Some background text is old; summary makes only position claims."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "issues.immigration",
+      "claim": "Supports the DREAM Act and comprehensive reform combining border security, a conditional path to citizenship, worker-visa changes and employment verification.",
+      "status": "verified",
+      "urls": [
+        "https://www.billfoster.com/issue/immigration/"
+      ],
+      "support": "Campaign explicitly supports DREAM and the 2013 reform framework with border security, conditional citizenship, visas and e-verify."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "issues.energy",
+      "claim": "Supports clean-energy research, energy efficiency and storage, the Inflation Reduction Act, and research into advanced nuclear technologies.",
+      "status": "verified",
+      "urls": [
+        "https://www.billfoster.com/issue/combating-the-climate-crisis/"
+      ],
+      "support": "Campaign lists clean-energy R&D, efficiency, storage, IRA and advanced nuclear technologies."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "issues.reproductive",
+      "claim": "Supports national protections for abortion and contraception access, including the Women's Health Protection Act.",
+      "status": "verified",
+      "urls": [
+        "https://www.billfoster.com/issue/reproductive-freedom/"
+      ],
+      "support": "Campaign supports national abortion protections, WHPA and contraception legislation."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "issues.guns",
+      "claim": "Supports an assault-weapons ban, universal background checks, restrictions for domestic abusers, and gun-violence restraining orders.",
+      "status": "verified",
+      "urls": [
+        "https://www.billfoster.com/issue/reducing-gun-violence/"
+      ],
+      "support": "Campaign explicitly supports assault-weapons restriction, universal checks, domestic-abuse restrictions and restraining orders."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "endorsements[1]",
+      "claim": "National NOW PAC",
+      "status": "verified",
+      "urls": [
+        "https://ilnow.org/uncategorized/il-now-pac-2026-general-election-endorsements/"
+      ],
+      "support": "Illinois NOW’s general-election page explicitly lists this candidate under National NOW PAC endorsements, distinct from state PAC endorsements."
+    },
+    {
+      "candidateId": "jeff-walter",
+      "district": "IL-11",
+      "field": "issues.economy",
+      "claim": "Supports Trump's economic agenda, including tariffs to protect American workers, reduced regulation, and domestic energy production.",
+      "status": "verified",
+      "urls": [
+        "https://www.jeffwalterforcongress.com/issues"
+      ],
+      "support": "Campaign expressly supports Trump’s agenda, tariffs, domestic energy and reduced red tape."
+    },
+    {
+      "candidateId": "jeff-walter",
+      "district": "IL-11",
+      "field": "issues.taxes",
+      "claim": "Supports making Trump tax cuts permanent and reducing federal waste and spending.",
+      "status": "verified",
+      "urls": [
+        "https://www.jeffwalterforcongress.com/issues"
+      ],
+      "support": "Campaign lists permanent Trump cuts and reducing waste/spending."
+    },
+    {
+      "candidateId": "jeff-walter",
+      "district": "IL-11",
+      "field": "issues.immigration",
+      "claim": "Supports securing the border, completing the border wall, and stopping drug trafficking.",
+      "status": "verified",
+      "urls": [
+        "https://www.jeffwalterforcongress.com/issues"
+      ],
+      "support": "Campaign lists border security, completing wall and stopping drugs."
+    },
+    {
+      "candidateId": "jeff-walter",
+      "district": "IL-11",
+      "field": "issues.healthcare",
+      "claim": "His platform pledges to protect Medicare and Social Security from cuts.",
+      "status": "verified",
+      "urls": [
+        "https://www.jeffwalterforcongress.com/issues"
+      ],
+      "support": "Campaign says he will not cut Medicare or Social Security."
+    },
+    {
+      "candidateId": "jeff-walter",
+      "district": "IL-11",
+      "field": "issues.foreignPolicy",
+      "claim": "Supports Trump's peace-through-strength approach and negotiations to end the war in Ukraine.",
+      "status": "verified",
+      "urls": [
+        "https://www.jeffwalterforcongress.com/issues"
+      ],
+      "support": "Campaign supports peace through strength and Trump negotiating Ukraine peace."
+    },
+    {
+      "candidateId": "mike-bost",
+      "district": "IL-12",
+      "field": "issues.taxes",
+      "claim": "Supported the final 2025 reconciliation law and its permanent extension of Trump-era tax cuts.",
+      "status": "verified",
+      "urls": [
+        "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent"
+      ],
+      "support": "July 3 official release reports vote for final reconciliation bill and permanent Trump tax cuts."
+    },
+    {
+      "candidateId": "mike-bost",
+      "district": "IL-12",
+      "field": "issues.immigration",
+      "claim": "Supported the 2025 reconciliation bill's border-security funding, border-wall construction, and additional border and customs officers.",
+      "status": "verified",
+      "urls": [
+        "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent"
+      ],
+      "support": "July 3 official release lists border funding, wall completion and additional officers."
+    },
+    {
+      "candidateId": "mike-bost",
+      "district": "IL-12",
+      "field": "issues.healthcare",
+      "claim": "His July 2025 statement supports work requirements for working-age Medicaid beneficiaries in the reconciliation law.",
+      "status": "verified",
+      "urls": [
+        "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent"
+      ],
+      "support": "July 3 official release expressly supports work requirements for healthy working-age Medicaid beneficiaries."
+    },
+    {
+      "candidateId": "mike-bost",
+      "district": "IL-12",
+      "field": "issues.energy",
+      "claim": "His office supports an all-of-the-above approach using U.S. oil, natural gas and coal.",
+      "status": "verified",
+      "urls": [
+        "https://bost.house.gov/energy"
+      ],
+      "support": "Official issue page advocates domestic oil, gas, coal and an all-resource policy."
+    },
+    {
+      "candidateId": "mike-bost",
+      "district": "IL-12",
+      "field": "endorsements[0]",
+      "claim": "NRA Political Victory Fund",
+      "status": "verified",
+      "urls": [
+        "https://www.nrapvf.org/grades/illinois/"
+      ],
+      "support": "NRA current November 3 2026 indexed grades page explicitly marks Bost with the NRA Endorsed icon; this is separate from the letter grade. Direct retrieval showed an age gate."
+    },
+    {
+      "candidateId": "julie-fortier",
+      "district": "IL-12",
+      "field": "issues.economy",
+      "claim": "Supports organized labor, farmers' right to repair, and expanded farm markets; opposes tariffs that raise agricultural costs.",
+      "status": "verified",
+      "urls": [
+        "https://www.juliefortier.org/issues"
+      ],
+      "support": "Campaign lists unions, right to repair, agricultural markets and opposition to tariffs increasing farm costs."
+    },
+    {
+      "candidateId": "julie-fortier",
+      "district": "IL-12",
+      "field": "issues.healthcare",
+      "claim": "Supports more rural healthcare services and moving toward universal coverage; opposes privatizing the VA.",
+      "status": "verified",
+      "urls": [
+        "https://www.juliefortier.org/issues"
+      ],
+      "support": "Campaign supports rural care, universal options and keeping VA public."
+    },
+    {
+      "candidateId": "julie-fortier",
+      "district": "IL-12",
+      "field": "issues.energy",
+      "claim": "Supports action on climate change that includes energy workers and communities; opposes new data centers in Southern Illinois.",
+      "status": "verified",
+      "urls": [
+        "https://www.juliefortier.org/issues"
+      ],
+      "support": "Campaign calls for climate action including energy communities and explicitly opposes Southern Illinois data centers."
+    },
+    {
+      "candidateId": "julie-fortier",
+      "district": "IL-12",
+      "field": "issues.reproductive",
+      "claim": "Supports restoring nationwide abortion protections through federal legislation.",
+      "status": "verified",
+      "urls": [
+        "https://www.juliefortier.org/issues"
+      ],
+      "support": "Campaign calls for federal legislation restoring nationwide abortion protection."
+    },
+    {
+      "candidateId": "julie-fortier",
+      "district": "IL-12",
+      "field": "issues.guns",
+      "claim": "Supports the Second Amendment and responsible ownership, with measures to keep guns from dangerous individuals and promote safety education.",
+      "status": "verified",
+      "urls": [
+        "https://www.juliefortier.org/issues"
+      ],
+      "support": "Campaign supports Second Amendment rights, safety education and measures against dangerous possession."
+    },
+    {
+      "candidateId": "julie-fortier",
+      "district": "IL-12",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "district": "IL-13",
+      "field": "issues.economy",
+      "claim": "Her February 2026 affordability agenda calls for a higher minimum wage, national paid family and medical leave, and more housing construction.",
+      "status": "verified",
+      "urls": [
+        "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis"
+      ],
+      "support": "February 11 official agenda explicitly includes higher minimum wage, national paid leave and housing construction."
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "district": "IL-13",
+      "field": "issues.healthcare",
+      "claim": "Introduced legislation in January 2026 to expand ACA marketplace cost-sharing assistance and lower co-pays and deductibles. Her agenda supports extending ACA tax credits and funding Medicaid.",
+      "status": "verified",
+      "urls": [
+        "https://budzinski.house.gov/posts/budzinski-schrier-introduce-legislation-to-lower-co-pays-and-deductibles",
+        "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis"
+      ],
+      "support": "Jan21 release verifies ACA cost-sharing bill; Feb11 agenda verifies extending ACA credits and funding Medicaid.",
+      "recommendation": "Add the February 11 affordability agenda as healthcare field evidence.",
+      "initialStatus": "supported-with-qualification",
+      "resolution": "Current source record contains both the Jan21 bill and Feb11 agenda sources under healthcare; source check refreshed Nov1."
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "district": "IL-13",
+      "field": "issues.energy",
+      "claim": "Her affordability agenda favors faster permitting for energy generation and transmission, energy efficiency, and protecting consumers from grid costs associated with data centers.",
+      "status": "verified",
+      "urls": [
+        "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis"
+      ],
+      "support": "February 11 official agenda lists permitting, efficiency and allocating grid costs away from consumers facing data-center expansion."
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "district": "IL-13",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "district": "IL-13",
+      "field": "endorsements[1]",
+      "claim": "Communications Workers of America (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://cwa-union.org/candidates-il"
+      ],
+      "support": "CWA’s November 3 2026 Illinois general-election list explicitly names this candidate and district."
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "district": "IL-13",
+      "field": "issues.economy",
+      "claim": "His campaign emphasizes reducing regulations, strengthening farms and supply chains, workforce development and job growth.",
+      "status": "verified",
+      "urls": [
+        "https://www.wilsonforcongress.com/issues"
+      ],
+      "support": "Campaign supports reduced regulation, farms/supply chains, workforce development and job growth.",
+      "recommendation": "Replace 'manufacturing jobs' with 'job growth'.",
+      "originalClaim": "His campaign emphasizes reducing regulations, strengthening farms and supply chains, workforce development and manufacturing jobs.",
+      "initialStatus": "supported-with-qualification",
+      "resolution": "Roster owner replaced unsupported manufacturing-specific wording with source-backed job growth."
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "district": "IL-13",
+      "field": "issues.immigration",
+      "claim": "His campaign supports border security and enforcement against drug and human trafficking.",
+      "status": "verified",
+      "urls": [
+        "https://www.wilsonforcongress.com/issues"
+      ],
+      "support": "Campaign calls for border security and action against drugs and human trafficking."
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "district": "IL-13",
+      "field": "issues.energy",
+      "claim": "His campaign supports expanding nuclear energy, oil and natural gas production.",
+      "status": "verified",
+      "urls": [
+        "https://www.wilsonforcongress.com/issues"
+      ],
+      "support": "Campaign explicitly lists expanding nuclear, oil and natural gas."
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "district": "IL-13",
+      "field": "issues.guns",
+      "claim": "His campaign states support for Second Amendment rights.",
+      "status": "verified",
+      "urls": [
+        "https://www.wilsonforcongress.com/issues"
+      ],
+      "support": "Campaign expressly supports Second Amendment rights."
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "district": "IL-13",
+      "field": "endorsements[0]",
+      "claim": "Illinois Family Action (2026 primary endorsement)",
+      "status": "verified",
+      "urls": [
+        "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/"
+      ],
+      "support": "IFA’s March 17 2026 primary endorsement announcement explicitly names this candidate. Existing primary-only label is necessary and retained."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "issues.healthcare",
+      "claim": "Her campaign prioritizes affordable coverage, lower insulin costs, maternal health and an expanded mental-health workforce.",
+      "status": "verified",
+      "urls": [
+        "https://underwoodforcongress.com/healthcare-costs/"
+      ],
+      "support": "Campaign highlights affordability, insulin, maternal health and mental-health workforce."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "issues.immigration",
+      "claim": "Her campaign supports comprehensive immigration reform with a citizenship pathway, border funding and modernization of agricultural-worker visas.",
+      "status": "verified",
+      "urls": [
+        "https://underwoodforcongress.com/immigration-border-security/"
+      ],
+      "support": "Campaign identifies citizenship pathway, border funding and agricultural-worker visa modernization."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "issues.energy",
+      "claim": "Her campaign supports a fully clean-energy economy by 2050 and the Inflation Reduction Act's climate investments.",
+      "status": "verified",
+      "urls": [
+        "https://underwoodforcongress.com/climate-change/"
+      ],
+      "support": "Campaign states fully clean energy by 2050 and supports IRA climate investment."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "issues.reproductive",
+      "claim": "Her campaign supports legal abortion access, codifying Roe protections, contraception and insurance coverage for IVF.",
+      "status": "verified",
+      "urls": [
+        "https://underwoodforcongress.com/reproductive-freedom/"
+      ],
+      "support": "Campaign states legal abortion, Roe codification, contraception and IVF coverage."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "issues.guns",
+      "claim": "Her campaign supports universal background checks and federal gun-violence research.",
+      "status": "verified",
+      "urls": [
+        "https://underwoodforcongress.com/gun-violence/"
+      ],
+      "support": "Campaign supports universal checks and federal gun-violence research."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "endorsements[1]",
+      "claim": "Communications Workers of America (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://cwa-union.org/candidates-il"
+      ],
+      "support": "CWA’s November 3 2026 Illinois general-election list explicitly names this candidate and district."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.economy",
+      "claim": "His campaign supports reduced federal spending, a balanced budget and a smaller federal government.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign calls for reduced spending, smaller government and balanced budgets."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.healthcare",
+      "claim": "His campaign calls for repeal of the Affordable Care Act.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign explicitly calls for ACA repeal."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.immigration",
+      "claim": "His campaign calls for enforcing immigration law and securing the border.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign calls for enforcing immigration law and securing the border."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.energy",
+      "claim": "His campaign advocates energy independence.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign explicitly supports energy independence."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.taxes",
+      "claim": "His campaign supports lower taxes for workers and families.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign calls for lower taxes for working people and families."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.reproductive",
+      "claim": "His campaign describes him as pro-life and opposes federal funding for Planned Parenthood.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign identifies pro-life position and opposition to Planned Parenthood funding."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.foreignPolicy",
+      "claim": "His campaign advocates an America First foreign policy and a strong military.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign separately states America First foreign policy and strong military support."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "issues.guns",
+      "claim": "His campaign states firm support for Second Amendment rights.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/issues/"
+      ],
+      "support": "Campaign expressly supports Second Amendment rights."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "endorsements[0]",
+      "claim": "Illinois Family Action (2026 primary endorsement)",
+      "status": "verified",
+      "urls": [
+        "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/"
+      ],
+      "support": "IFA’s March 17 2026 primary endorsement announcement explicitly names this candidate. Existing primary-only label is necessary and retained."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "issues.immigration",
+      "claim": "In February 2026 she introduced legislation to prohibit people without legal immigration status from possessing government-issued firearms while employed as law-enforcement officers.",
+      "status": "verified",
+      "urls": [
+        "https://marymiller.house.gov/media/press-releases/rep-miller-sen-budd-lead-bill-close-loophole-exploited-illegal-aliens-employed"
+      ],
+      "support": "February 25 official release verifies bill introduction and described firearms restriction; summary does not adopt the release’s accusations."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "issues.energy",
+      "claim": "In a 2025 joint statement, she called for ending Inflation Reduction Act wind and solar subsidies during Trump's term.",
+      "status": "verified",
+      "urls": [
+        "https://norman.house.gov/news/documentsingle.aspx?DocumentID=3214"
+      ],
+      "support": "June 26 coauthored official-hosted opinion explicitly includes Mary Miller and ending wind/solar subsidies during Trump term."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "issues.taxes",
+      "claim": "In an April 2026 official statement, she supported the Working Families Tax Cuts enacted in the One Big Beautiful Bill Act.",
+      "status": "verified",
+      "urls": [
+        "https://rsc-pfluger.house.gov/media/press-releases/what-they-are-saying-its-tax-day-and-americans-are-winning-thanks-working"
+      ],
+      "support": "April 15 official RSC release contains Miller statement supporting Working Families tax cuts."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "issues.reproductive",
+      "claim": "An official January 2026 release lists her as an original cosponsor of legislation to revoke tax-exempt status from organizations that perform or fund abortions.",
+      "status": "verified",
+      "urls": [
+        "https://hageman.house.gov/issues/family-values"
+      ],
+      "support": "January 30 official Hageman release lists Mary Miller as original cosponsor of the described tax-exemption bill."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "issues.guns",
+      "claim": "In a July 2023 official statement, she supported legislation protecting lawful firearm ownership in federally assisted rental housing.",
+      "status": "verified",
+      "urls": [
+        "https://millermeeks.house.gov/media/press-releases/miller-meeks-joins-feenstra-legislation-protect-second-amendment-rights"
+      ],
+      "support": "July 26 2023 official release quotes Mary Miller supporting firearms rights in federally assisted rental housing."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "endorsements[0]",
+      "claim": "NFIB FedPAC (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/"
+      ],
+      "support": "NFIB’s October 1 2026 official announcement explicitly names Miller and LaHood and identifies the issuing entity as FedPAC. Direct retrieval returned403; indexed official page read."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "endorsements[1]",
+      "claim": "Illinois Family Action (2026 primary endorsement)",
+      "status": "verified",
+      "urls": [
+        "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/"
+      ],
+      "support": "IFA’s March 17 2026 primary endorsement announcement explicitly names this candidate. Existing primary-only label is necessary and retained."
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "district": "IL-15",
+      "field": "issues.economy",
+      "claim": "Her campaign supports action against price gouging and wage theft, collective bargaining rights, paid leave and more affordable housing and childcare.",
+      "status": "verified",
+      "urls": [
+        "https://www.jentodd2026.us/issues"
+      ],
+      "support": "Campaign includes price gouging, wage theft, organizing rights, paid leave, housing and childcare."
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "district": "IL-15",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports lower prescription costs, stronger rural hospitals, expanded mental-health services, and protecting Medicare and Medicaid.",
+      "status": "verified",
+      "urls": [
+        "https://www.jentodd2026.us/issues"
+      ],
+      "support": "Campaign explicitly includes prescription costs, rural hospitals, mental health, Medicare and Medicaid."
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "district": "IL-15",
+      "field": "issues.immigration",
+      "claim": "Her campaign supports border security and immigration-law enforcement alongside due process and humane treatment.",
+      "status": "verified",
+      "urls": [
+        "https://www.jentodd2026.us/issues"
+      ],
+      "support": "Campaign supports law enforcement and secure borders together with due process and dignity."
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "district": "IL-15",
+      "field": "issues.reproductive",
+      "claim": "Her campaign supports families making personal healthcare decisions without government interference and expanded reproductive and fertility care for veterans.",
+      "status": "verified",
+      "urls": [
+        "https://www.jentodd2026.us/issues"
+      ],
+      "support": "Campaign supports personal healthcare decisions and reproductive/fertility care for veterans."
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "district": "IL-15",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "darin-lahood",
+      "district": "IL-16",
+      "field": "issues.economy",
+      "claim": "His official biography supports reducing the federal deficit and expanding international markets for Illinois farmers.",
+      "status": "verified",
+      "urls": [
+        "https://lahood.house.gov/about"
+      ],
+      "support": "Official biography identifies reducing deficits and expanding international markets for Illinois farmers."
+    },
+    {
+      "candidateId": "darin-lahood",
+      "district": "IL-16",
+      "field": "issues.healthcare",
+      "claim": "His July 2025 statement supports expanding access to health savings accounts.",
+      "status": "verified",
+      "urls": [
+        "https://lahood.house.gov/news?ID=7248C71D-983E-4BAD-974A-8ACFACC8E5FF"
+      ],
+      "support": "July 7 2025 official statement includes increasing access to health savings accounts."
+    },
+    {
+      "candidateId": "darin-lahood",
+      "district": "IL-16",
+      "field": "issues.immigration",
+      "claim": "His official issue page supports securing the southern border and enforcing immigration laws while preserving legal immigration.",
+      "status": "verified",
+      "urls": [
+        "https://lahood.house.gov/immigration"
+      ],
+      "support": "Official issue page pairs southern-border enforcement with welcoming lawful immigration."
+    },
+    {
+      "candidateId": "darin-lahood",
+      "district": "IL-16",
+      "field": "issues.energy",
+      "claim": "He supported extending the 45Z clean-fuel production tax credit in the 2025 tax legislation.",
+      "status": "verified",
+      "urls": [
+        "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB"
+      ],
+      "support": "August 1 official statement identifies support for extending 45Z biofuel credit."
+    },
+    {
+      "candidateId": "darin-lahood",
+      "district": "IL-16",
+      "field": "issues.taxes",
+      "claim": "His August 2025 statement supports permanent small-business deductions, research-and-development expensing and business-interest deductions.",
+      "status": "verified",
+      "urls": [
+        "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB"
+      ],
+      "support": "August 1 official statement supports permanent 199A deductions, R&D expensing and interest deductions."
+    },
+    {
+      "candidateId": "darin-lahood",
+      "district": "IL-16",
+      "field": "endorsements[0]",
+      "claim": "NFIB FedPAC (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/"
+      ],
+      "support": "NFIB’s October 1 2026 official announcement explicitly names Miller and LaHood and identifies the issuing entity as FedPAC. Direct retrieval returned403; indexed official page read."
+    },
+    {
+      "candidateId": "paul-nolley",
+      "district": "IL-16",
+      "field": "issues.economy",
+      "claim": "His campaign supports collective bargaining, higher wages, domestic manufacturing, paid family leave and affordable childcare.",
+      "status": "verified",
+      "urls": [
+        "https://www.nolleyforcongress.com/issues"
+      ],
+      "support": "Campaign supports collective bargaining, wages, manufacturing, paid leave and childcare."
+    },
+    {
+      "candidateId": "paul-nolley",
+      "district": "IL-16",
+      "field": "issues.healthcare",
+      "claim": "His campaign proposes Medicare coverage for every American, regardless of age, without premiums, co-pays or deductibles, and strengthening Medicaid.",
+      "status": "verified",
+      "urls": [
+        "https://www.nolleyforcongress.com/issues"
+      ],
+      "support": "Campaign explicitly proposes Medicare for all ages without premiums, copays or deductibles and strengthening Medicaid."
+    },
+    {
+      "candidateId": "paul-nolley",
+      "district": "IL-16",
+      "field": "issues.energy",
+      "claim": "His campaign supports clean-energy union jobs and holding polluters accountable.",
+      "status": "verified",
+      "urls": [
+        "https://www.nolleyforcongress.com/issues"
+      ],
+      "support": "Campaign proposes union clean-energy jobs and accountability for polluters."
+    },
+    {
+      "candidateId": "paul-nolley",
+      "district": "IL-16",
+      "field": "issues.taxes",
+      "claim": "His campaign supports an increased Child Tax Credit.",
+      "status": "verified",
+      "urls": [
+        "https://www.nolleyforcongress.com/issues"
+      ],
+      "support": "Campaign explicitly proposes increasing Child Tax Credit."
+    },
+    {
+      "candidateId": "paul-nolley",
+      "district": "IL-16",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "paul-nolley",
+      "district": "IL-16",
+      "field": "endorsements[1]",
+      "claim": "Communications Workers of America (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://cwa-union.org/candidates-il"
+      ],
+      "support": "CWA’s November 3 2026 Illinois general-election list explicitly names this candidate and district."
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "district": "IL-17",
+      "field": "issues.economy",
+      "claim": "His campaign promotes affordable housing, lower generic-drug costs, help for farmers and local infrastructure investment.",
+      "status": "verified",
+      "urls": [
+        "https://www.ericforillinois.com/issues"
+      ],
+      "support": "Campaign names affordable housing, generic medicines, farmers and infrastructure."
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "district": "IL-17",
+      "field": "issues.healthcare",
+      "claim": "His campaign supports affordable healthcare and opposes cuts to or privatization of Medicare and Social Security.",
+      "status": "verified",
+      "urls": [
+        "https://www.ericforillinois.com/issues"
+      ],
+      "support": "Campaign states affordable care and opposition to Medicare/Social Security cuts or privatization."
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "district": "IL-17",
+      "field": "issues.energy",
+      "claim": "His campaign supports year-round E15 fuel sales.",
+      "status": "verified",
+      "urls": [
+        "https://www.ericforillinois.com/issues"
+      ],
+      "support": "Campaign explicitly lists year-round E15 sales."
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "district": "IL-17",
+      "field": "issues.reproductive",
+      "claim": "His campaign supports codifying Roe v. Wade protections.",
+      "status": "verified",
+      "urls": [
+        "https://www.ericforillinois.com/issues"
+      ],
+      "support": "Campaign supports Roe codification."
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "district": "IL-17",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "Endorser’s July 2026 general-election sheet explicitly names this candidate and congressional district."
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "district": "IL-17",
+      "field": "endorsements[1]",
+      "claim": "Communications Workers of America (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://cwa-union.org/candidates-il"
+      ],
+      "support": "CWA’s November 3 2026 Illinois general-election list explicitly names this candidate and district."
+    },
+    {
+      "candidateId": "dillan-vancil",
+      "district": "IL-17",
+      "field": "issues.economy",
+      "claim": "His campaign supports small businesses, manufacturing jobs and funding for students and labor.",
+      "status": "verified",
+      "urls": [
+        "https://www.vancilforcongress.com/"
+      ],
+      "support": "Campaign states small-business advocacy, manufacturing jobs, and student/labor funding."
+    },
+    {
+      "candidateId": "dillan-vancil",
+      "district": "IL-17",
+      "field": "issues.healthcare",
+      "claim": "His campaign supports healthcare price transparency.",
+      "status": "verified",
+      "urls": [
+        "https://www.vancilforcongress.com/"
+      ],
+      "support": "Campaign expressly calls for healthcare price transparency."
+    }
+  ],
+  "retrievals": [
+    {
+      "url": "https://www.danielbiss.com/issues/a-foreign-policy-rooted-in-peace-democracy-and-global-justice",
+      "status": 200,
+      "file": "00.html",
+      "finalUrl": "https://www.danielbiss.com/issues/a-foreign-policy-rooted-in-peace-democracy-and-global-justice",
+      "sha256": "e2b3cf51d70fdc7ffa2203b5bd969d474cfc815085ffc03d1cb096f96006fa29"
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/combating-income-inequality-by-taking-on-wealth-hoarding",
+      "status": 200,
+      "file": "01.html",
+      "finalUrl": "https://www.danielbiss.com/issues/combating-income-inequality-by-taking-on-wealth-hoarding",
+      "sha256": "afd4b33fd406f8b3f9fd6e64aa1da394ff9daedb77620061cc18bc3697b4cff8"
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first",
+      "status": 200,
+      "file": "02.html",
+      "finalUrl": "https://www.danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first",
+      "sha256": "9eeb1ca7ddc196546fdd1d01f0a1edb58ff2123e7e767e39ce233f73410868fb"
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/protecting-civil-rights-and-civil-liberties-for-all",
+      "status": 200,
+      "file": "03.html",
+      "finalUrl": "https://www.danielbiss.com/issues/protecting-civil-rights-and-civil-liberties-for-all",
+      "sha256": "08bd6895bf9bfc0bc392698d9c3d54b70bedb952f21ba55f6c5603391eda7600"
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/a-welcoming-immigration-policy",
+      "status": 200,
+      "file": "04.html",
+      "finalUrl": "https://www.danielbiss.com/issues/a-welcoming-immigration-policy",
+      "sha256": "6ce412beacdd9cdcd9d19552130e9fd00693694edca55955dfc57c329347ce7e"
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/ending-gun-violence-with-common-sense-reform",
+      "status": 200,
+      "file": "05.html",
+      "finalUrl": "https://www.danielbiss.com/issues/ending-gun-violence-with-common-sense-reform",
+      "sha256": "ce7cbe01c499a5924bdfbe2574fe6f2dbc62bd076642c07468587d73f9a64858"
+    },
+    {
+      "url": "https://www.danielbiss.com/issues/protecting-our-democracy",
+      "status": 200,
+      "file": "06.html",
+      "finalUrl": "https://www.danielbiss.com/issues/protecting-our-democracy",
+      "sha256": "1c0f291057cd742ce95367fe8a7056cccf65302b2db5c29dae12a8ab55f3df23"
+    },
+    {
+      "url": "https://schneider.house.gov/about",
+      "status": 200,
+      "file": "07.html",
+      "finalUrl": "https://schneider.house.gov/about",
+      "sha256": "9da459b8d98613e4e64b5719f583653b4bfddee7cbe2d53a6f3c607b412333a9"
+    },
+    {
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "status": 200,
+      "file": "08.pdf",
+      "finalUrl": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310"
+    },
+    {
+      "url": "https://www.billfoster.com/issue/healthcare/",
+      "status": 200,
+      "file": "09.html",
+      "finalUrl": "https://www.billfoster.com/issue/healthcare/",
+      "sha256": "bf5fc90390e384db79938eb3af5a319ef23c31825212b1327a5a35c77763d497"
+    },
+    {
+      "url": "https://schneider.house.gov/issues",
+      "status": 200,
+      "file": "10.html",
+      "finalUrl": "https://schneider.house.gov/issues",
+      "sha256": "e1d5f8453489a35079aa0cbe23c0eb5a0c891bd94575c940e237fa1aee8fff33"
+    },
+    {
+      "url": "https://www.billfoster.com/issue/combating-the-climate-crisis/",
+      "status": 200,
+      "file": "11.html",
+      "finalUrl": "https://www.billfoster.com/issue/combating-the-climate-crisis/",
+      "sha256": "be1f11aef2cb32460ab41e81a28a6ac368eba76342aafdeb7f5f81c9e8e2a743"
+    },
+    {
+      "url": "https://www.billfoster.com/issue/reducing-gun-violence/",
+      "status": 200,
+      "file": "12.html",
+      "finalUrl": "https://www.billfoster.com/issue/reducing-gun-violence/",
+      "sha256": "6ca184630ea4aba8b8bcc51b362ca9e98559358b428a6c2ec37330e3e2dfcdb8"
+    },
+    {
+      "url": "https://www.billfoster.com/issue/reproductive-freedom/",
+      "status": 200,
+      "file": "13.html",
+      "finalUrl": "https://www.billfoster.com/issue/reproductive-freedom/",
+      "sha256": "425e87fda0833650bc1767f872666cd7ad7c6154aea511a287bcc6edc8027e6b"
+    },
+    {
+      "url": "https://www.billfoster.com/issues/",
+      "status": 200,
+      "file": "14.html",
+      "finalUrl": "https://www.billfoster.com/issues/",
+      "sha256": "769a9e89d581bc1f447caa7859e1345d7978e74a0553da3bd960e9ea455cdc8e"
+    },
+    {
+      "url": "https://www.billfoster.com/issue/immigration/",
+      "status": 200,
+      "file": "15.html",
+      "finalUrl": "https://www.billfoster.com/issue/immigration/",
+      "sha256": "9ceded8a98b2c1e91ce5e95f0d885c43b1cab9a66a61d37eaf5384f03042469a"
+    },
+    {
+      "url": "https://johnelleson.com/stances/",
+      "status": 200,
+      "file": "16.html",
+      "finalUrl": "https://johnelleson.com/stances/",
+      "sha256": "04b6ffdd554581d7eb44682c4694844e0e332f62fb97b9c841fed62bd0767019"
+    },
+    {
+      "url": "https://www.jeffwalterforcongress.com/issues",
+      "status": 200,
+      "file": "17.html",
+      "finalUrl": "https://www.jeffwalterforcongress.com/issues",
+      "sha256": "38ee50ad08b00803e4b08b35e9826180d4c8dfa4db4ecdc23ab50770e1be77ba"
+    },
+    {
+      "url": "https://ilnow.org/uncategorized/il-now-pac-2026-general-election-endorsements/",
+      "status": 200,
+      "file": "18.html",
+      "finalUrl": "https://ilnow.org/uncategorized/il-now-pac-2026-general-election-endorsements/",
+      "sha256": "7ae9e08da503f842a5c83aa7226db34878a2088b3ff36b2203b687975528e8a0"
+    },
+    {
+      "url": "https://www.juliefortier.org/issues",
+      "status": 200,
+      "file": "19.html",
+      "finalUrl": "https://www.juliefortier.org/issues",
+      "sha256": "34e88be19472892695c1879240fc4a2aaecbc2e984fe6caa733ca86c79d0eb33"
+    },
+    {
+      "url": "https://bost.house.gov/energy",
+      "status": 200,
+      "file": "20.html",
+      "finalUrl": "https://bost.house.gov/energy",
+      "sha256": "6fbed644eeaf77f88bf2daf68f0da5ad51a594b335d5458a5125d7641d5a0275"
+    },
+    {
+      "url": "https://www.nrapvf.org/grades/illinois/",
+      "status": 200,
+      "file": "21.html",
+      "finalUrl": "https://agegateway.nrahq.org/?s=IL&r=https%3A%2F%2Fwww.nrapvf.org%2Fgrades%2Fillinois%2F",
+      "sha256": "24615e9d5408ed6e2a3511df2837729fa22d4a52ffd54fa6e5bf533a9dd2f1b9"
+    },
+    {
+      "url": "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent",
+      "status": 200,
+      "file": "22.html",
+      "finalUrl": "https://bost.house.gov/2025/7/bost-votes-for-one-big-beautiful-bill-to-make-trump-tax-cuts-permanent",
+      "sha256": "f51745afbd5430883fa5c05b4ca41a999b53cbeb483524e84b6b57216b9bd413"
+    },
+    {
+      "url": "https://www.wilsonforcongress.com/issues",
+      "status": 200,
+      "file": "23.html",
+      "finalUrl": "https://www.wilsonforcongress.com/issues",
+      "sha256": "b87b0402a71b5dac7d061ead21f1059d06cb17c82a12866d2f4fe6976dd4a978"
+    },
+    {
+      "url": "https://cwa-union.org/candidates-il",
+      "status": 200,
+      "file": "24.html",
+      "finalUrl": "https://cwa-union.org/candidates-il",
+      "sha256": "65f5661ef0f77962b7c55038737f124d6426b6c87e05384431664fa4805b5fa5"
+    },
+    {
+      "url": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "status": 200,
+      "file": "25.html",
+      "finalUrl": "https://illinoisfamilyaction.org/2026/03/ifas-2026-primary-election-endorsements/",
+      "sha256": "88c9fce57ce34f62e6622c88816a086408d00975f6c330c457c22eba7189efc4"
+    },
+    {
+      "url": "https://underwoodforcongress.com/immigration-border-security/",
+      "status": 200,
+      "file": "26.html",
+      "finalUrl": "https://underwoodforcongress.com/immigration-border-security/",
+      "sha256": "6930d8ad7f4b117e863e4ac43534d1b0e83a976746feec2f05a15394c8feb298"
+    },
+    {
+      "url": "https://underwoodforcongress.com/climate-change/",
+      "status": 200,
+      "file": "27.html",
+      "finalUrl": "https://underwoodforcongress.com/climate-change/",
+      "sha256": "1c79a001d104363fb9bd3c18124b29e0135dc2d4490c880017ba3da7c01b33d7"
+    },
+    {
+      "url": "https://marter4congress.us/issues/",
+      "status": 200,
+      "file": "28.html",
+      "finalUrl": "https://marter4congress.us/issues/",
+      "sha256": "d86953451a038d045ffdf81de485631e5ef2f234670bdcdfedf356fee4289f2b"
+    },
+    {
+      "url": "https://underwoodforcongress.com/healthcare-costs/",
+      "status": 200,
+      "file": "29.html",
+      "finalUrl": "https://underwoodforcongress.com/healthcare-costs/",
+      "sha256": "73e9be7dea9862e853f215bd7f11e1f555ad5e5e4d4982f6f3c748fa3bea69be"
+    },
+    {
+      "url": "https://underwoodforcongress.com/gun-violence/",
+      "status": 200,
+      "file": "30.html",
+      "finalUrl": "https://underwoodforcongress.com/gun-violence/",
+      "sha256": "beccc49fc16fa871e4c2fc8904eee041c628e965885fbf29e297161418d18870"
+    },
+    {
+      "url": "https://marymiller.house.gov/media/press-releases/rep-miller-sen-budd-lead-bill-close-loophole-exploited-illegal-aliens-employed",
+      "status": 200,
+      "file": "31.html",
+      "finalUrl": "https://marymiller.house.gov/media/press-releases/rep-miller-sen-budd-lead-bill-close-loophole-exploited-illegal-aliens-employed",
+      "sha256": "63297c5a847ae75e528726ca8164c67b6764d396c1925842ad3d57b604b7dc14"
+    },
+    {
+      "url": "https://norman.house.gov/news/documentsingle.aspx?DocumentID=3214",
+      "status": 200,
+      "file": "32.html",
+      "finalUrl": "https://norman.house.gov/news/documentsingle.aspx?DocumentID=3214",
+      "sha256": "6ef066103f74b7400189558144463f23c984869726e169ff254705b9e9afdebb"
+    },
+    {
+      "url": "https://underwoodforcongress.com/reproductive-freedom/",
+      "status": 200,
+      "file": "33.html",
+      "finalUrl": "https://underwoodforcongress.com/reproductive-freedom/",
+      "sha256": "4376f4b29a0010544c95c7d042f1b8c4f09dece5bbf0e87d9e0bfc322c4106e0"
+    },
+    {
+      "url": "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/",
+      "status": 403,
+      "file": "34.html",
+      "finalUrl": "https://www.nfib.com/news/press-release/nfib-endorses-pro-small-business-candidates-to-represent-illinois-in-congress/",
+      "sha256": "f261423d1da97890ff6bfccd31ff4ee0b74f69351cf75095fbe791cb16cbf5bd"
+    },
+    {
+      "url": "https://millermeeks.house.gov/media/press-releases/miller-meeks-joins-feenstra-legislation-protect-second-amendment-rights",
+      "status": 200,
+      "file": "35.html",
+      "finalUrl": "https://millermeeks.house.gov/media/press-releases/miller-meeks-joins-feenstra-legislation-protect-second-amendment-rights",
+      "sha256": "d5125b4b5fad941e52b953f0d277ae5a869dc6ce7460e7bbd3e82e21f25e2375"
+    },
+    {
+      "url": "https://lahood.house.gov/about",
+      "status": 200,
+      "file": "36.html",
+      "finalUrl": "https://lahood.house.gov/about",
+      "sha256": "a9d0ddedac1730e22582ebc3e8e59f7f495472cdbe9b01504fb8551a1cc93ddf"
+    },
+    {
+      "url": "https://www.jentodd2026.us/issues",
+      "status": 200,
+      "file": "37.html",
+      "finalUrl": "https://www.jentodd2026.us/issues",
+      "sha256": "04e7cf2cf0f80d5d6ece0900cb1ac705a40c4d2fae96d3990075ca9699d6f461"
+    },
+    {
+      "url": "https://rsc-pfluger.house.gov/media/press-releases/what-they-are-saying-its-tax-day-and-americans-are-winning-thanks-working",
+      "status": 200,
+      "file": "38.html",
+      "finalUrl": "https://rsc-pfluger.house.gov/media/press-releases/what-they-are-saying-its-tax-day-and-americans-are-winning-thanks-working",
+      "sha256": "c3c63872fd7f44e4b6230a967acf28fa06b436dc9bb718eac4cd170306713b15"
+    },
+    {
+      "url": "https://lahood.house.gov/news?ID=7248C71D-983E-4BAD-974A-8ACFACC8E5FF",
+      "status": 200,
+      "file": "39.html",
+      "finalUrl": "https://lahood.house.gov/news?ID=7248C71D-983E-4BAD-974A-8ACFACC8E5FF",
+      "sha256": "d33a68253d1dd6e3d077825cfa5388c496103b2fc47532454c8d3dc248db7c58"
+    },
+    {
+      "url": "https://hageman.house.gov/issues/family-values",
+      "status": 200,
+      "file": "40.html",
+      "finalUrl": "https://hageman.house.gov/issues/family-values",
+      "sha256": "42f09e7e660240f6e616b479388ecf2f05220abef603ca51bc437f6404e414b2"
+    },
+    {
+      "url": "https://lahood.house.gov/immigration",
+      "status": 200,
+      "file": "41.html",
+      "finalUrl": "https://lahood.house.gov/immigration",
+      "sha256": "abc4035fac29c1f18f72177c6d4bb709e520934ee5c7ab8219e5eb3b148767e9"
+    },
+    {
+      "url": "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB",
+      "status": 200,
+      "file": "42.html",
+      "finalUrl": "https://lahood.house.gov/news?ID=FBD50C60-70C4-4299-9B6D-6244F575DDEB",
+      "sha256": "1a3000eb7d08678c3f8e090eac0361fe1a93c595fd7b44fd68de5ac57aaa0965"
+    },
+    {
+      "url": "https://www.nolleyforcongress.com/issues",
+      "status": 200,
+      "file": "43.html",
+      "finalUrl": "https://www.nolleyforcongress.com/issues",
+      "sha256": "6dc40220b1fc67acdee1de8a9cdad5a08bc0e5dbe5620b0453b475d21ec9fbe4"
+    },
+    {
+      "url": "https://www.vancilforcongress.com/",
+      "status": 200,
+      "file": "44.html",
+      "finalUrl": "https://www.vancilforcongress.com/",
+      "sha256": "6588afb6c0f071a393ec445acc06ebec8d38e6f1812f4e0ca9935e9ee4c7f26b"
+    },
+    {
+      "url": "https://www.ericforillinois.com/issues",
+      "status": 200,
+      "file": "45.html",
+      "finalUrl": "https://www.ericforillinois.com/issues",
+      "sha256": "3961138f5f34efb85113f3379eefe4c37815fe17b9106ec101038a80b3d9568c"
+    },
+    {
+      "url": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
+      "status": 200,
+      "file": "46.html",
+      "finalUrl": "https://budzinski.house.gov/posts/budzinski-unveils-affordability-agenda-to-address-the-cost-of-living-crisis",
+      "sha256": "fda8fa35f61401ec4f8c2b5a6c5e19925e6fe689d68e90a3ae52af18a21faed7"
+    },
+    {
+      "url": "https://budzinski.house.gov/posts/budzinski-schrier-introduce-legislation-to-lower-co-pays-and-deductibles",
+      "status": 200,
+      "file": "47.html",
+      "finalUrl": "https://budzinski.house.gov/posts/budzinski-schrier-introduce-legislation-to-lower-co-pays-and-deductibles",
+      "sha256": "b30814a445bbe8c30c7a80d9fe8d7a7e98ca5c46da8a17f7401db26378094bb5"
+    }
+  ]
+}

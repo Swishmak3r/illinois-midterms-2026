@@ -1,0 +1,40 @@
+{
+  "checked": "2026-11-01",
+  "evidenceReplacements": [
+    {
+      "candidateId": "patrick-sheehan",
+      "field": "issues.propertyTaxes",
+      "newUrl": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400HB5009.html",
+      "title": "Illinois General Assembly: HB5009, 104th General Assembly",
+      "note": "Official stable bill status records February 4 filing, lesser-of-3%-or-CPI assessment proposal and pending Rules status. Replaces a rolling daily PDF now covering different bills."
+    },
+    {
+      "candidateId": "mike-halpin",
+      "field": "issues.education",
+      "newUrl": "https://www.senatorhalpin.com/news/press-releases/175-halpin-encourages-local-organizations-to-request-funding-for-pre-apprenticeships",
+      "title": "Senator Mike Halpin: September 9, 2026 pre-apprenticeship funding statement",
+      "note": "Dated official release supports the attributed training policy; replaces mutable homepage."
+    }
+  ],
+  "evidenceAdditions": [
+    {
+      "candidateId": "katie-stuart",
+      "field": "role",
+      "url": "https://my.ilga.gov/Documents/House/104th_House_Officers.pdf",
+      "title": "Illinois House of Representatives: officers, 104th General Assembly",
+      "note": "Official officers list identifies Katie Stuart as Assistant Majority Leader and Floor Whip."
+    }
+  ],
+  "accessNote": [
+    {
+      "candidateId": "kam-buckner",
+      "fields": [
+        "issues.transit",
+        "issues.energyGrid",
+        "endorsements"
+      ],
+      "url": "https://www.bscactionfund.org/kam-buckner",
+      "note": "2026 questionnaire and endorsement verified from complete indexed primary-page text Nov1; live page currently returns404. Content supported; retain only with explicit access qualification or remove if requiring all evidence currently clickable."
+    }
+  ]
+}

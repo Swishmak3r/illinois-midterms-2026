@@ -1,0 +1,79 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Triaged all 94 original local candidate profiles still present from Antigravity commit d94c1aa. All hometown fields were absent or blank. Ordinary candidate/incumbent/challenger/open-seat role wording remains covered by the separate local roster and official-officeholder audit. This focused follow-up independently reread seven profession or appointed-judge role claims; it did not rereview every minimal imported candidate or certify every current officeholder a second time.",
+  "triagedProfiles": 94,
+  "nonemptyHometownClaims": 0,
+  "claims": [
+    {
+      "candidateId": "michelle-stiff",
+      "field": "role",
+      "subclaim": "Director of Workforce Services for Will County",
+      "status": "verified",
+      "urls": ["https://will.works/About"],
+      "access": "direct web retrieval",
+      "support": "The official workforce agency About page identifies Michelle Stiff as director under Workforce Services. The corrected role does not call her county auditor."
+    },
+    {
+      "candidateId": "margaret-peggy-oconnell",
+      "field": "role",
+      "subclaim": "Circuit Judge",
+      "status": "verified",
+      "urls": ["https://www.judgeoconnell.com/", "https://cms5.revize.com/revize/dupage/Document_Center/Elected%20Officials/%2018th%20Judicial%20Circuit%20Court/Press%20Releases/2024/DuPage%20County%20Judge%20Appointed%20to%20Illinois%20Courts%20Commission%20122324.pdf"],
+      "access": "campaign directly retrieved; official December 23, 2024 court release read via indexed source",
+      "support": "The campaign describes current circuit-court service. The official court release independently confirms her circuit judgeship and commission appointment. Current campaign confirmation is distinct from the older official release.",
+      "recommendation": "Add role-field citation: the production campaign citation was attached only to incumbentStatus while the role citation was a specimen ballot. Sent to local owner."
+    },
+    {
+      "candidateId": "jason-a-helland",
+      "field": "role",
+      "subclaim": "Circuit Court Judge",
+      "status": "verified",
+      "urls": ["https://www.lasallecountyil.gov/413/Courtroom-Live-Stream", "https://www.lasallecountyil.gov/DocumentCenter/View/2700/Exhibit-A-D-PDF"],
+      "access": "current court page directly retrieved; older official organization chart read via indexed source",
+      "support": "The current LaSalle County court page lists Helland as the judge for courtroom 204. The official organization chart separately identifies him among circuit judges. The corrected biography does not call him current Grundy State's Attorney."
+    },
+    {
+      "candidateId": "johnpaul-ivec",
+      "field": "role",
+      "subclaim": "attorney",
+      "status": "verified",
+      "urls": ["https://www.ivecforjudge.com/"],
+      "access": "primary campaign directly retrieved and indexed text read",
+      "support": "His candidate-authored campaign describes him as an attorney with decades of trial and appellate experience. This verifies his published professional identity, not a fresh independent bar-license status check.",
+      "recommendation": "Add role-field campaign citation: the production role evidence only cited a ballot. Sent to local owner."
+    },
+    {
+      "candidateId": "jon-albee",
+      "field": "role",
+      "subclaim": "Operations Commander",
+      "status": "verified",
+      "urls": ["https://mcleancountyil.gov/m/directory/department?did=27", "https://www.mcleancountyil.gov/m/directory/employee?eid=252"],
+      "access": "official indexed directory text; direct department open returned cache miss",
+      "support": "The McLean Sheriff staff directory names Albee Operations Commander and separately names Matt Lane Sheriff. The corrected role does not identify Albee as the current sheriff."
+    },
+    {
+      "candidateId": "amy-christiansen",
+      "field": "role",
+      "subclaim": "Appointed Circuit Judge, 12th Circuit, First Subcircuit, Carlson vacancy",
+      "status": "verified",
+      "urls": ["https://www.illinoiscourts.gov/News/1381/Illinois-Supreme-Court-appoints-Amy-B-Christiansen-as-Circuit-Judge-in-Will-County/news-detail/"],
+      "access": "official court announcement directly retrieved",
+      "support": "Illinois Supreme Court announcement identifies the First Subcircuit Carlson vacancy and an appointment from June 7, 2024 through December 7, 2026."
+    },
+    {
+      "candidateId": "sonni-choi-williams",
+      "field": "role",
+      "subclaim": "Appointed Circuit Judge, 12th Circuit, Third Subcircuit, Anderson vacancy",
+      "status": "verified",
+      "urls": ["https://www.illinoiscourts.gov/News/1486/Illinois-Supreme-Court-appoints-Sonni-Choi-Williams-as-Circuit-Judge-in-Twelfth-Judicial-Circuit/news-detail/"],
+      "access": "official court announcement directly retrieved",
+      "support": "Illinois Supreme Court announcement identifies the Third Subcircuit Anderson vacancy and appointment from February 10, 2025 through December 7, 2026. The separate only-printed-candidate qualification is covered by the roster audit."
+    }
+  ],
+  "limits": [
+    "No new contradictory professional or hometown claim was identified in the corrected production data.",
+    "Candidate roster facts, party and current officeholder labels remain separately verified by local_audit; this report does not manufacture new source-check dates for their sources.",
+    "Seven focused professional-role subclaims were reviewed; 94 triaged profiles is not a claim that 94 biographies received an independent exhaustive fresh source audit.",
+    "The seven source entries specify direct versus indexed access. Update source dates only for the content actually reviewed."
+  ]
+}

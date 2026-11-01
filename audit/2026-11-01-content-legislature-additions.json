@@ -1,0 +1,336 @@
+{
+  "checked": "2026-11-01",
+  "scope": "The seven Antigravity-added legislative profiles independently audited by claims_audit; exact final wording reconciled to patch evidence; union endorsements also checked independently in full source text and rendered PDF.",
+  "claims": [
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign proposes more school funding to ease local property-tax pressure and an annual property-tax rebate for families.",
+      "status": "verified",
+      "urls": [
+        "https://www.janetforillinois.com/platform"
+      ],
+      "support": "Summary of the candidate-stated proposal, not an independently established outcome.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports coverage for pre-existing conditions, limits on premium increases and lower prescription-drug costs. Her campaign supports abortion rights and funding for Planned Parenthood.",
+      "status": "verified",
+      "urls": [
+        "https://www.janetforillinois.com/platform"
+      ],
+      "support": "Summary of the candidate-stated proposal, not an independently established outcome. Summary of the candidate-stated proposal, not an independently established outcome.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "issues.education",
+      "claim": "Her campaign supports affordable education at public colleges, universities and trade schools.",
+      "status": "verified",
+      "urls": [
+        "https://www.janetforillinois.com/platform"
+      ],
+      "support": "Summary of the candidate-stated proposal, not an independently established outcome.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The 2026 general-election AFL-CIO PDF names this candidate and district; PDF table visually checked.",
+      "reviewer": "claims_audit plus content_sweep independent endorsement-source check"
+    },
+    {
+      "candidateId": "janet-yang-rohr",
+      "field": "endorsements[1]",
+      "claim": "AFSCME Council 31",
+      "status": "verified",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "support": "AFSCME Council31 September19 general-election recommendations name this candidate and district; actual primary text checked.",
+      "reviewer": "claims_audit plus content_sweep independent endorsement-source check"
+    },
+    {
+      "candidateId": "ajay-gupta",
+      "field": "issues.propertyTaxes",
+      "claim": "His campaign proposes pension reform and shifting teacher-pension costs to the state to reduce pressure on local property taxes.",
+      "status": "verified",
+      "urls": [
+        "https://www.ajayforilhouse41.com/"
+      ],
+      "support": "Candidate proposal; no promised reduction is asserted as an achieved result.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "ajay-gupta",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign proposes state spending caps tied to inflation and population growth. His October 2026 questionnaire also calls for independent audits.",
+      "status": "verified",
+      "urls": [
+        "https://www.ajayforilhouse41.com/",
+        "https://www.dailyherald.com/20261019/illinois-state-politics/ajay-gupta-2026-candidate-for-illinois-house-district-41/"
+      ],
+      "support": "Calls for inflation/population-based spending caps. First-person candidate answers support independent audits; not a claim that the newspaper endorses the policies.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "ajay-gupta",
+      "field": "issues.safetAct",
+      "claim": "In his October 2026 questionnaire, he calls for greater judicial discretion to detain high-risk and repeat defendants, stricter rearrest consequences and county-level charge-and-release data.",
+      "status": "verified",
+      "urls": [
+        "https://www.dailyherald.com/20261019/illinois-state-politics/ajay-gupta-2026-candidate-for-illinois-house-district-41/"
+      ],
+      "support": "First-person response on pretrial detention policy. Does not restate campaign allegations about crime as fact.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "issues.budgetTaxes",
+      "claim": "Says her budget priorities include avoiding additional debt and making healthcare, education and food more affordable.",
+      "status": "verified",
+      "urls": [
+        "https://ilhousedems.com/2026/06/01/avelar-passes-state-budget-prioritizing-affordability-for-illinois-communities/"
+      ],
+      "support": "Attributed priorities from Avelar's own statement; claims of delivered savings and no new taxes are not asserted as independently established outcomes.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "issues.healthcare",
+      "claim": "Her office says she supports easier hospital-financial-assistance applications and upfront disclosure of healthcare fees.",
+      "status": "verified",
+      "urls": [
+        "https://ilhousedems.com/2026/06/01/avelar-passes-state-budget-prioritizing-affordability-for-illinois-communities/"
+      ],
+      "support": "Her office identifies support for financial-assistance access and upfront fee disclosure. Profile does not claim these bills' current enactment status.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "issues.education",
+      "claim": "Sponsored a resolution calling for protection of federal support for English learners and language access for parents.",
+      "status": "verified",
+      "urls": [
+        "https://ilhousedems.com/2025/09/16/avelar-sponsors-resolution-calls-for-protection-of-important-will-county-educational-programs-from-federal-cuts/"
+      ],
+      "support": "Describes her sponsorship of HR 459 and requested protection of language-access programs; does not infer a general school-funding or college-affordability platform.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The 2026 general-election AFL-CIO PDF names this candidate and district; PDF table visually checked.",
+      "reviewer": "claims_audit plus content_sweep independent endorsement-source check"
+    },
+    {
+      "candidateId": "dagmara-avelar",
+      "field": "endorsements[1]",
+      "claim": "AFSCME Council 31",
+      "status": "verified",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "support": "AFSCME Council31 September19 general-election recommendations name this candidate and district; actual primary text checked.",
+      "reviewer": "claims_audit plus content_sweep independent endorsement-source check"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "issues.budgetTaxes",
+      "claim": "Her June 2026 legislative statement supports state-budget investment in education, senior services, first responders and healthcare.",
+      "status": "verified",
+      "urls": [
+        "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/"
+      ],
+      "support": "Attributed budget priorities; does not independently certify fiscal outcomes or infer property-tax policy.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "issues.healthcare",
+      "claim": "Supports allowing qualified speech-language pathologists to diagnose autism in children under three to improve access to care.",
+      "status": "verified",
+      "urls": [
+        "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/"
+      ],
+      "support": "Describes support for HB 5225. The profile states her position rather than claiming current enactment status.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "issues.publicServices",
+      "claim": "As a founder of the Illinois Legislative Neurodiversity Caucus, emphasizes access to services and support for neurodivergent residents and their families.",
+      "status": "verified",
+      "urls": [
+        "https://ilhousedems.com/2026/06/01/manley-addresses-affordability-schools-autism/"
+      ],
+      "support": "Attributed support for neurodivergent residents and families.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The 2026 general-election AFL-CIO PDF names this candidate and district; PDF table visually checked.",
+      "reviewer": "claims_audit plus content_sweep independent endorsement-source check"
+    },
+    {
+      "candidateId": "natalie-a-manley",
+      "field": "endorsements[1]",
+      "claim": "AFSCME Council 31",
+      "status": "verified",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "support": "AFSCME Council31 September19 general-election recommendations name this candidate and district; actual primary text checked.",
+      "reviewer": "claims_audit plus content_sweep independent endorsement-source check"
+    },
+    {
+      "candidateId": "nona-parker",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign calls for tax relief, spending restraints, financial transparency and reduced waste.",
+      "status": "verified",
+      "urls": [
+        "https://www.nonaparker4staterep.com/about"
+      ],
+      "support": "Primary campaign position retrieved directly on November 1; factual outcomes are not inferred.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "nona-parker",
+      "field": "issues.safetAct",
+      "claim": "Her campaign calls for repealing the SAFE-T Act and changing the criminal-justice system with a focus on policing, prosecution and community safety.",
+      "status": "verified",
+      "urls": [
+        "https://www.nonaparker4staterep.com/about"
+      ],
+      "support": "Primary campaign position retrieved directly on November 1; factual outcomes are not inferred.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "nona-parker",
+      "field": "issues.education",
+      "claim": "Her campaign supports parental rights and school choice, child mental-health support, and changes to foster-care services.",
+      "status": "verified",
+      "urls": [
+        "https://www.nonaparker4staterep.com/about"
+      ],
+      "support": "Primary campaign position retrieved directly on November 1; factual outcomes are not inferred.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "issues.budgetTaxes",
+      "claim": "Her February 2026 budget statement prioritizes affordability while meeting state commitments and maintaining services for vulnerable residents.",
+      "status": "verified",
+      "urls": [
+        "https://senatorlauraellman.com/news/press-releases/342-ellman-budget-focuses-on-affordability-and-public-health"
+      ],
+      "support": "Attributed response to the governor's budget proposal; no fiscal result or credit-rating claim is independently asserted.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "issues.energyGrid",
+      "claim": "Calls for lower energy costs and state action to protect drinking water, including PFAS detection and response.",
+      "status": "verified",
+      "urls": [
+        "https://senatorlauraellman.com/news/press-releases/342-ellman-budget-focuses-on-affordability-and-public-health"
+      ],
+      "support": "Exact statement supports energy affordability, environmental protection and PFAS detection/response; no grid-reliability inference from committee title.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "issues.education",
+      "claim": "Calls for full funding of the Healthy School Meals for All Program to expand access to free school meals.",
+      "status": "verified",
+      "urls": [
+        "https://senatorlauraellman.com/news/press-releases/364-ellman-highlights-need-to-fully-fund-healthy-school-meals-for-all-program"
+      ],
+      "support": "Describes her call for funding and SB 1419 proposal; does not claim appropriation enactment.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-helper.json"
+    },
+    {
+      "candidateId": "laura-ellman",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The 2026 general-election AFL-CIO PDF names this candidate and district; PDF table visually checked.",
+      "reviewer": "claims_audit plus content_sweep independent endorsement-source check"
+    },
+    {
+      "candidateId": "julie-berkowicz",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign calls for scrutiny of new taxes, fees and spending, budgets focused on essential services, and measurable outcomes.",
+      "status": "verified",
+      "urls": [
+        "https://www.julieberkowicz.net/priorities"
+      ],
+      "support": "Summarizes the published position; specific repeal or revision of SAFE-T pretrial provisions is not inferred.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "julie-berkowicz",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports law enforcement and mental-health services, and says criminal-justice policy should be reviewed for gaps involving repeat violent offenders.",
+      "status": "verified",
+      "urls": [
+        "https://www.julieberkowicz.net/priorities"
+      ],
+      "support": "Summarizes the published position; specific repeal or revision of SAFE-T pretrial provisions is not inferred.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    },
+    {
+      "candidateId": "julie-berkowicz",
+      "field": "issues.energyGrid",
+      "claim": "Her campaign supports dependable power generation and disclosure of energy proposals' costs, rate impacts and reliability risks.",
+      "status": "verified",
+      "urls": [
+        "https://www.julieberkowicz.net/priorities"
+      ],
+      "support": "Summarizes the published position; specific repeal or revision of SAFE-T pretrial provisions is not inferred.",
+      "reviewer": "claims_audit; exact final wording reconciled by content_sweep",
+      "sourceReviewLedger": "audit/2026-11-01-claims-legislature-fixes.json"
+    }
+  ]
+}

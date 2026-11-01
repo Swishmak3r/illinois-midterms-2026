@@ -1,0 +1,340 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Displayed role and hometown text for17 original substantive IL09–17 profiles. All17 hometown fields empty;17 role claims examined. Campaign biographies establish attributed self-description; no professional-license/background investigation performed.",
+  "claims": [
+    {
+      "candidateId": "daniel-biss",
+      "district": "IL-09",
+      "field": "role",
+      "claim": "Former Illinois state legislator and mathematician; served as Evanston mayor.",
+      "status": "verified",
+      "urls": [
+        "https://www.danielbiss.com/about",
+        "https://content.govdelivery.com/accounts/ILEVANSTON/bulletins/41d88f0"
+      ],
+      "support": "Campaign supports mathematics and legislative service. City bulletin documents mayoral service and announced Oct18 resignation; neutral served-as-mayor wording avoids stale campaign now-mayor wording."
+    },
+    {
+      "candidateId": "john-elleson",
+      "district": "IL-09",
+      "field": "role",
+      "claim": "Pastor with decades of community service, according to his campaign biography.",
+      "status": "verified",
+      "urls": [
+        "https://johnelleson.com/"
+      ],
+      "support": "Campaign home quotes his four decades as pastor and describes community service, but does not establish that the service was unpaid volunteering.",
+      "recommendation": "Use Pastor with decades of community service, according to his campaign biography.",
+      "originalClaim": "Pastor and community volunteer.",
+      "initialStatus": "supported-with-qualification",
+      "resolution": "Roster owner applied source-specific precision wording; confirmed in current data."
+    },
+    {
+      "candidateId": "brad-schneider",
+      "district": "IL-10",
+      "field": "role",
+      "claim": "U.S. Representative for Illinois District 10; chair of the New Democrat Coalition.",
+      "status": "verified",
+      "urls": [
+        "https://schneider.house.gov/about"
+      ],
+      "support": "Official House biography identifies IL10 service and chair of New Democrat Coalition."
+    },
+    {
+      "candidateId": "bill-foster",
+      "district": "IL-11",
+      "field": "role",
+      "claim": "U.S. Representative for Illinois District 11; scientist and businessman.",
+      "status": "verified",
+      "urls": [
+        "https://foster.house.gov/about"
+      ],
+      "support": "Official House about page explicitly identifies scientist, businessman and IL11 representation."
+    },
+    {
+      "candidateId": "jeff-walter",
+      "district": "IL-11",
+      "field": "role",
+      "claim": "Mayor of Elburn; businessman and retired U.S. Navy Master Chief.",
+      "status": "verified",
+      "urls": [
+        "https://www.jeffwalterforcongress.com/"
+      ],
+      "support": "Campaign home explicitly identifies Elburn mayor, businessman and retired Navy Master Chief Petty Officer."
+    },
+    {
+      "candidateId": "mike-bost",
+      "district": "IL-12",
+      "field": "role",
+      "claim": "U.S. Representative for Illinois District 12; House Veterans' Affairs Committee chair.",
+      "status": "verified",
+      "urls": [
+        "https://bost.house.gov/biography"
+      ],
+      "support": "Official biography identifies IL12 representation and Veterans’ Affairs chair in119th Congress."
+    },
+    {
+      "candidateId": "julie-fortier",
+      "district": "IL-12",
+      "field": "role",
+      "claim": "Air Force veteran and biomedical researcher.",
+      "status": "verified",
+      "urls": [
+        "https://www.juliefortier.org/"
+      ],
+      "support": "Campaign home explicitly identifies Air Force veteran and biomedical/cancer researcher."
+    },
+    {
+      "candidateId": "nikki-budzinski",
+      "district": "IL-13",
+      "field": "role",
+      "claim": "U.S. Representative for Illinois' 13th District",
+      "status": "verified",
+      "urls": [
+        "https://budzinski.house.gov/"
+      ],
+      "support": "Current official House homepage identifies IL13 representation, including current dated releases."
+    },
+    {
+      "candidateId": "jeff-wilson",
+      "district": "IL-13",
+      "field": "role",
+      "claim": "Navy veteran, nuclear engineer and Champaign County Board member, according to his campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://www.wilsonforcongress.com/"
+      ],
+      "support": "Campaign home identifies Navy service, nuclear-engineering master’s and current county-board service; supplemental about page describes nuclear-industry career."
+    },
+    {
+      "candidateId": "lauren-underwood",
+      "district": "IL-14",
+      "field": "role",
+      "claim": "U.S. Representative and registered nurse, according to her campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://underwoodforcongress.com/healthcare-costs/"
+      ],
+      "support": "Campaign healthcare page explicitly identifies registered nurse and work in Congress."
+    },
+    {
+      "candidateId": "james-marter",
+      "district": "IL-14",
+      "field": "role",
+      "claim": "Software consulting business owner who served three terms as Kendall County Republican chairman, according to his campaign biography.",
+      "status": "verified",
+      "urls": [
+        "https://marter4congress.us/meet-jim/"
+      ],
+      "support": "Campaign biography identifies software-consulting company ownership and three full terms as county Republican chairman; it does not explicitly establish current/former status.",
+      "recommendation": "Use Software consulting business owner who served three terms as Kendall County Republican chairman, according to his campaign biography.",
+      "originalClaim": "Software consulting business owner and former Kendall County Republican chairman, according to his campaign biography",
+      "initialStatus": "supported-with-qualification",
+      "resolution": "Roster owner applied source-specific precision wording; confirmed in current data."
+    },
+    {
+      "candidateId": "mary-miller",
+      "district": "IL-15",
+      "field": "role",
+      "claim": "U.S. Representative for Illinois' 15th District",
+      "status": "verified",
+      "urls": [
+        "https://marymiller.house.gov/"
+      ],
+      "support": "Current official House homepage identifies Representative Mary Miller IL15, including Oct30 release."
+    },
+    {
+      "candidateId": "jennifer-todd",
+      "district": "IL-15",
+      "field": "role",
+      "claim": "Registered nurse and former school nurse, according to her campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://www.jentodd2026.us/about"
+      ],
+      "support": "Campaign biography explicitly identifies registered nurse and former school nurse."
+    },
+    {
+      "candidateId": "darin-lahood",
+      "district": "IL-16",
+      "field": "role",
+      "claim": "U.S. Representative for Illinois' 16th District since 2023; previously represented the 18th District from 2015 to 2023",
+      "status": "verified",
+      "urls": [
+        "https://lahood.house.gov/about"
+      ],
+      "support": "Official biography explicitly distinguishes current IL16 from2015–2023 IL18 service."
+    },
+    {
+      "candidateId": "paul-nolley",
+      "district": "IL-16",
+      "field": "role",
+      "claim": "Executive director of Project First Rate, according to his campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://www.nolleyforcongress.com/about"
+      ],
+      "support": "Campaign biography explicitly says he currently serves as Project First Rate executive director."
+    },
+    {
+      "candidateId": "eric-sorensen",
+      "district": "IL-17",
+      "field": "role",
+      "claim": "U.S. Representative and former broadcast meteorologist, according to his campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://www.ericforillinois.com/issues"
+      ],
+      "support": "Campaign page identifies congressional service and prior two decades as community meteorologist."
+    },
+    {
+      "candidateId": "dillan-vancil",
+      "district": "IL-17",
+      "field": "role",
+      "claim": "Small-business owner and former SMART-TD state legislative director, according to his campaign biography",
+      "status": "verified",
+      "urls": [
+        "https://www.vancilforcongress.com/about-dillan"
+      ],
+      "support": "Campaign biography identifies business ownership and prior SMART-TD state legislative-director service; homepage previously read also explicitly says previously served."
+    }
+  ],
+  "retrievals": [
+    {
+      "url": "https://schneider.house.gov/about",
+      "status": 200,
+      "file": "00.html",
+      "finalUrl": "https://schneider.house.gov/about",
+      "sha256": "9da459b8d98613e4e64b5719f583653b4bfddee7cbe2d53a6f3c607b412333a9"
+    },
+    {
+      "url": "https://foster.house.gov/about",
+      "status": 200,
+      "file": "01.html",
+      "finalUrl": "https://foster.house.gov/about",
+      "sha256": "00d68593cfc308fd17404b7d2613f8c954bf62ced7dad8a0a393f7c5bec2056f"
+    },
+    {
+      "url": "https://www.danielbiss.com/about",
+      "status": 200,
+      "file": "02.html",
+      "finalUrl": "https://www.danielbiss.com/about",
+      "sha256": "699a58a5c5ecef65bd49406977c9f50e7a9591e08b263a1ac24a72e5481a7533"
+    },
+    {
+      "url": "https://bost.house.gov/biography",
+      "status": 200,
+      "file": "03.html",
+      "finalUrl": "https://bost.house.gov/biography",
+      "sha256": "403a11dca4eadf70146d761fea1d3d69cb1e6c583a2c86914eb291a097795e71"
+    },
+    {
+      "url": "https://www.jeffwalterforcongress.com/",
+      "status": 200,
+      "file": "04.html",
+      "finalUrl": "https://www.jeffwalterforcongress.com/",
+      "sha256": "3521ce7c3e571f7415d678a932e8479762f81479ee2c90eaa8a247c68606ec36"
+    },
+    {
+      "url": "https://content.govdelivery.com/accounts/ILEVANSTON/bulletins/41d88f0",
+      "status": 200,
+      "file": "05.html",
+      "finalUrl": "https://content.govdelivery.com/accounts/ILEVANSTON/bulletins/41d88f0",
+      "sha256": "25fd99817c5895b94e6f7456433a4e2371138d3df3395ca503733cf70ea6938b"
+    },
+    {
+      "url": "https://budzinski.house.gov/",
+      "status": 200,
+      "file": "06.html",
+      "finalUrl": "https://budzinski.house.gov/",
+      "sha256": "afe00b38c066f729e2beba00a89f7f57f15b3a0f9fcc7a0e71b7a276a3c3a4a1"
+    },
+    {
+      "url": "https://underwoodforcongress.com/healthcare-costs/",
+      "status": 200,
+      "file": "07.html",
+      "finalUrl": "https://underwoodforcongress.com/healthcare-costs/",
+      "sha256": "b13dbf2c515b931368a8b50f17e2e87d19bf2d666735e71136333b1090e93c1b"
+    },
+    {
+      "url": "https://www.juliefortier.org/",
+      "status": 200,
+      "file": "08.html",
+      "finalUrl": "https://www.juliefortier.org/",
+      "sha256": "d6cd42e08b4530768042df7ac413770caf97f9c2609f3a963163cb7eaeefeb27"
+    },
+    {
+      "url": "https://www.wilsonforcongress.com/",
+      "status": 200,
+      "file": "09.html",
+      "finalUrl": "https://www.wilsonforcongress.com/",
+      "sha256": "ff589409d939a2b54265b1be4414d4b00dea0ec4bc05488ba713c3d2da12be90"
+    },
+    {
+      "url": "https://marter4congress.us/meet-jim/",
+      "status": 200,
+      "file": "10.html",
+      "finalUrl": "https://marter4congress.us/meet-jim/",
+      "sha256": "d97d0182d65b6b1e853375b48fef57c2ba5a1b1492f2e54831671bf4412d7bcb"
+    },
+    {
+      "url": "https://marymiller.house.gov/",
+      "status": 200,
+      "file": "11.html",
+      "finalUrl": "https://marymiller.house.gov/",
+      "sha256": "5595db621a2b5e95385646447565f99cd0dad08bbe39a445a43c82c0eccde498"
+    },
+    {
+      "url": "https://lahood.house.gov/about",
+      "status": 200,
+      "file": "12.html",
+      "finalUrl": "https://lahood.house.gov/about",
+      "sha256": "a9d0ddedac1730e22582ebc3e8e59f7f495472cdbe9b01504fb8551a1cc93ddf"
+    },
+    {
+      "url": "https://www.jentodd2026.us/about",
+      "status": 200,
+      "file": "13.html",
+      "finalUrl": "https://www.jentodd2026.us/about",
+      "sha256": "7db4fc5a067e89603d0b34f12653f19197efdad55ed05a7d89032e66d44d6fec"
+    },
+    {
+      "url": "https://www.nolleyforcongress.com/about",
+      "status": 200,
+      "file": "14.html",
+      "finalUrl": "https://www.nolleyforcongress.com/about",
+      "sha256": "afe81215b46a24af1306ddf8ef9324d79eace4121bb0e8cd4f472662e35f5208"
+    },
+    {
+      "url": "https://www.ericforillinois.com/issues",
+      "status": 200,
+      "file": "15.html",
+      "finalUrl": "https://www.ericforillinois.com/issues",
+      "sha256": "3961138f5f34efb85113f3379eefe4c37815fe17b9106ec101038a80b3d9568c"
+    },
+    {
+      "url": "https://www.vancilforcongress.com/about-dillan",
+      "status": 200,
+      "file": "16.html",
+      "finalUrl": "https://www.vancilforcongress.com/about-dillan",
+      "sha256": "95af95d8efdee65ccfd07f2e52e4487b6ad24fb66293877ed50959e8347d4f7b"
+    },
+    {
+      "url": "https://johnelleson.com/",
+      "status": 200,
+      "file": "17.html",
+      "finalUrl": "https://johnelleson.com/",
+      "sha256": "326768335fa680255860cbcddc07fa950ca5b00fab65a2b66fa70863f69f1419"
+    }
+  ],
+  "counts": {
+    "roleClaims": 17,
+    "nonemptyHometowns": 0,
+    "verified": 17,
+    "supportedWithQualification": 0,
+    "contradicted": 0,
+    "inaccessible": 0,
+    "uniqueLinkedBiographySources": 18,
+    "repairsConfirmed": 2
+  }
+}

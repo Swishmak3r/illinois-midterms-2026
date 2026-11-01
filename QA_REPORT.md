@@ -1,55 +1,43 @@
-# Redesign verification · October 27, 2026
+# Release verification — November 1, 2026
 
-Historical report for the design release. Candidate research and finance were subsequently audited on October 28; see FACT_CHECK.md and the audit reports for the current data, alignment methodology and validation.
+All required release checks passed. These are software/source-parity tests plus the separately documented human-style semantic source audit; test counts alone do not establish factual accuracy.
 
-## Result
+| Validation | Result |
+| --- | --- |
+| General browser/data suite | 214 passed, 0 failed |
+| Accuracy-specific UI suite | 63 passed, 0 failed |
+| Existing source/finance/alignment UI suite | 36 passed, 0 failed |
+| Legislative source parity | All 118 House and 39 current-cycle Senate districts; all 232 active candidates |
+| Federal/statewide source parity | All 53 active individual SBE records; 50 printed-choice profiles; 14 authority-specific write-in profiles separately checked |
+| Judicial/education source parity | All 211 active SBE offices and 219 candidate rows; 131 separate retention questions |
+| County-filed coverage | 74 represented contests; 69 current-source checks and five explicit original-source gaps |
+| Geographic integrity | All 1,575 postal ZIPs, 1,396 Census overlaps, 179 explicit fallbacks, 70 community unions, all 194 geographic districts |
+| Retained substantive content | Exact source-ledger match for 518 claims: 400 issues and 118 endorsements; 510 verified and eight qualified; zero unresolved |
+| Source metadata | 465 contests, 645 profiles, 3,561 evidence entries; zero structural errors |
+| Alignment regression | 9 passed, including all scored votes against archived official XML |
+| Finance regression | 10 passed |
+| Fresh finance source audit | 126 state/local reports, 1,638 comparisons, 223 FEC totals and 38 identities: zero mismatches |
+| Build and diff | JavaScript syntax valid, portable index rebuilt, git diff whitespace check passed |
 
-214 automated browser/data checks passed; zero failed on the final built site. Eight separate offline FEC regression tests passed. Twelve focused modal regressions also passed after a WebKit focus-timing repair. The final source bundle passes Node syntax validation and git diff --check.
+## Browser and visual review
 
-The final matrix report is generated locally at output/playwright/final-checks/report.json. Screenshots and test artifacts are intentionally excluded from Git. Reproduce with the commands in README.md.
+Edge/Chromium, Firefox and WebKit were exercised on Windows at 1440px desktop, 768px tablet and 390/360/320px phone widths. Focused accuracy checks used 1440/390/320px. These are browser-engine/viewport checks, not physical-device certification.
 
-## Browser matrix
+Checks include ZIP+4, invalid/out-of-state input, missing Census geography, autocomplete ambiguity, history/URL synchronization, county filtering, complete district selection, Ringwood postal-city share/reload, separate Yes/No retention decisions, multi-seat vote limits, source links, missing-versus-zero finance/alignment, comparison containment, focus traps, storage denial, clipboard/native-share fallbacks, dark theme, print controls and no script errors/overflow.
 
-| Engine | Viewports |
-|---|---|
-| Chromium / Microsoft Edge | 1440×1000, 768×1024, 390×844, 360×800, 320×740 |
-| Firefox | Same five sizes |
-| WebKit | Same five sizes |
+Independent integration review found two defects during development: newly added districts disappeared under unsupported manual region filtering, and synthetic postal-city IDs broke shared links. Both were corrected and independently rechecked. The replacement county selector uses Census county overlaps; all 786 synthetic postal-city names round-trip correctly. [Review](audit/2026-11-01-integration-review.md).
 
-All six research views were checked at every size for horizontal page overflow and usable controls. Modal sizing, four-candidate internal table scrolling, dark mode and unhandled errors were checked at each size. Desktop and 390px phone contexts received the full interaction suite.
+Visual inspection covered Bolingbrook 60490, House District 98 and a separate Will judicial retention question at desktop/mobile sizes. A narrow-phone selected-district note wrapping issue was fixed and the 63-check focused suite rerun successfully.
 
-This is browser-engine and viewport/touch emulation on the Windows host. It does not certify physical Android, iOS or macOS hardware. The application uses standard browser APIs and self-hosted assets, with no platform-specific runtime dependency.
+## Reproduce
 
-## Behavior covered
+Start `npm run dev`, then run:
 
-- All 1,575 bundled Illinois ZIP codes and their ZIP+4 variants.
-- Representative urban/rural lookups; invalid, unknown and out-of-state inputs; approximate coverage and statewide fallback.
-- Ambiguous place choices, keyboard autocomplete and merged overlapping research areas.
-- Filters, empty states, URL restoration, Back/Forward and location-preserving reset.
-- Four-candidate comparison limit, removal, shared reload and internal horizontal scrolling.
-- Dialog focus trap/restoration, Escape and touch close targets. A redundant next-frame focus reset was removed after reproducing a Safari/WebKit race.
-- Successful and denied clipboard operations, manual-copy fallback, native mobile sharing cancellation and sharing during an immediate text search.
-- Denied local storage, theme controls, reduced motion and print layout.
-- No unhandled JavaScript errors in the final matrix.
+    npm run verify
+    npm test
+    npm run test:audit-ui
+    npm run test:accuracy-ui
 
-## Finance/build checks
+Generated local reports: output/playwright/final-accuracy-release/report.json, output/playwright/factcheck-features/report.json, output/audit/accuracy-ui.json and output/audit/evidence-coverage.json. The scripts reproduce these ignored test artifacts. CI runs offline source integrity and verifies the committed static build; it does not silently claim a new external-source review.
 
-The FEC fixtures cover complete pagination, malformed/duplicate/partial results, encoded keys, bounded requests, truthful API failures, error cache policy, atomic snapshot replacement, retained prior data on failure and script-safe serialization. No live data was fabricated or overwritten during the tests.
-
-The build now includes the postal resolver and local CSS, checks the exact combined JavaScript and generates index.html atomically without mutating source data or writing to a developer-specific machine path. The latest upstream automated snapshot at commit 802f6f0 was preserved before publication.
-
-## Visual review
-
-Desktop first-paint and settled screenshots plus phone, candidate, issue, money, community, guide, comparison and dark-mode views were inspected. Both local font families loaded. Final desktop and phone captures reported no failed asset requests, no broken images and no document overflow.
-
-MotionSites rubric (editorial judgment, not automated scoring): first glance 9; signature 9; typography 9; composition 8.5; color 9; media integration 8.5; restrained motion 8; mobile 8.5; copy 8.5; polish 8.5. Mean 8.65, no category below 7.
-
-Specific refinements: minimum 44px action targets, mobile date no-wrap, narrow search width, aligned phone candidate facts, larger substantive mobile copy, safe comparison-table containment, short lookup placeholder and adaptive filters.
-
-## Material content limitations
-
-Postal geography is a directory, not a certified district/ballot crosswalk. 583 listed ZIPs connect to existing community research; 992 show statewide research without invented district assignments. Source provenance and limits appear in GEOGRAPHY_SOURCES.md.
-
-Original candidate, issue, endorsement and PAC prose remains curated research, not independently fact-checked content. The redesign labels that limitation, removes fabricated political-alignment scores and missing-position fallbacks, and directs visitors to official address-based election resources. Dated matched FEC figures are distinguished from unmatched curated finance summaries.
-
-Official procedural references are linked in the voting guide. Local officials remain the source of record for current polling hours, registration requirements, locations and ballot eligibility.
+See [FACT_CHECK.md](FACT_CHECK.md) for factual scope and remaining qualifications. The [October 27 report](audit/2026-10-27-qa-report.md) is preserved as historical evidence.

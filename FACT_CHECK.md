@@ -1,63 +1,50 @@
-# Source audit · October 28, 2026
+# Source audit — November 1, 2026
 
-This release audits every inherited candidate, issue, endorsement, finance and PAC record. It replaces unsupported assertions with sourced statements or an explicit absence of verified evidence. It does not claim complete coverage of every Illinois contest, every endorsement, every campaign position or all late write-ins.
+This release corrects Antigravity commit `d94c1aa` and rechecks retained research against actual source content. The directory contains **465 contests and 645 candidate/ticket profiles**. It is a research directory, not a certified personal ballot or a guarantee of complete local coverage.
 
-The resulting directory contains 100 contests and 185 candidate/ticket profiles, including distinctly labeled declared write-ins. There are 378 retained issue summaries, 110 endorsement entries, 1,066 field-level evidence entries and 384 distinct source URLs in the candidate/race/organization audit. These counts exclude the separate finance and Trump-alignment source records.
+## Verified coverage
 
-## Source rules
+| Scope | What was checked |
+| --- | --- |
+| Federal and statewide | All 17 U.S. House districts, U.S. Senate, and five statewide offices match the active Illinois SBE list. The 53 individual SBE records become 50 printed-choice profiles because governor/lieutenant-governor candidates are joint tickets. Fourteen documented write-in profiles are separately labeled and authority-limited. |
+| Legislature | All 118 House districts and all 39 Senate contests listed for 2026: 157 races and 232 active candidates. Added 124 missing races. Incumbency separately compared with all 177 official ILGA member entries; indexed-source limits recorded. |
+| Judicial and regional education | Every active office in the SBE source: 211 offices and 219 active candidate rows. All 131 retention questions are separate Yes/No decisions. |
+| County-filed offices | 74 represented contests, 69 checked against a current source November 1. Five original-source gaps remain below. Local coverage is selective. |
+| Issues and endorsements | All 400 issue summaries and 118 endorsement entries reconciled to semantic source-review ledgers: 510 directly supported, eight supported with explicit qualifications, zero unresolved retained claims. |
+| State/local finance | All 126 displayed committee reports: 1,638 comparisons, zero mismatches, including two visually reviewed scans. |
+| Federal finance | All 223 bundled FEC totals and all 38 explicit identities compared with fresh official data: zero mismatches. |
+| Geography | Official Census polygon intersections for 1,396 of 1,575 postal ZIPs. The other 179 have no ZCTA match and fall back to statewide results. All 70 community groups use sourced unions. |
 
-- Candidate status and office: election authorities' candidate lists, specimen ballots and published official legal notices. Where only an older or indexed record could be read, the limitation is retained in the profile or race note. Public-agency guides corroborate a few incomplete roster checks and are identified as such.
-- Biography and policy: official office records, legislation and candidate-authored campaign pages. Campaign statements are attributed; an allegation, promised result or self-reported achievement is not silently turned into an independently established fact.
-- Endorsements: the endorsing organization's announcement, with primary-election endorsements explicitly distinguished from general-election endorsements. A rating or questionnaire response is not an endorsement. An endorsement is not a contribution.
-- Finance: exact FEC candidate identities and official Illinois SBE committee filings. No finance amount is inferred from affiliation, endorsements or press estimates. Federal and state figures use visibly different reporting periods.
-- Missing evidence: unknown, not zero, opposition, neutrality or absence of endorsements. Inherited unsupported detail was removed rather than replaced with party stereotypes.
+The primary roster source is the [Illinois SBE general-election list](https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D). All 528 rows were retrieved; active/removed/withdrawn status was preserved and candidate addresses omitted. [Sanitized snapshot](audit/2026-11-01-roster-sbe.json).
 
-## Material corrections
+## Material repairs
 
-- Added missing candidates and documented write-ins; corrected party labels and outdated biographies.
-- Replaced generic party-based policy descriptions with candidate-specific source-backed statements, including positions that depart from party stereotypes.
-- Removed four legislative races not on the 2026 cycle. Corrected nominees such as House 84 and Senate 9, and added missing opponents.
-- Replaced combined county slates and fabricated referendum coalitions with 48 individual local contests and 79 people.
-- Replaced 14 conflated PAC/donor groups with 17 separately sourced organizations. Removed unsupported Illinois-only spending totals and funding narratives.
-- Completed the federal snapshot beyond the old first 100 records: 223 official FEC totals records. Queries now use a consistent two-year scope instead of mixing Senate six-year and House two-year totals.
-- Removed 207 unused, unsupported town-context, mayor and population fields. Unverified local district assignments no longer appear as ZIP matches.
+- Replaced manual ZIP guesses with reproducible [Census TIGERweb](https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer) overlaps. ZIPs 60490, 60440 and 60446 no longer inherit a shared community list. For example, 60440 includes DuPage and Will research; 60446 no longer incorrectly includes HD-97. No ZIP assigns a voter's primary district.
+- Removed blanket county assignment of board districts, judicial subcircuits and school regions. A countywide specimen contains multiple ballot styles and does not prove address eligibility.
+- Corrected false challenger/incumbent labels for Thomas Dart, John Idleburg and Jon Albee; open-seat classifications including SD-27/33; Mike Kelley's party; and Michelle Stiff and Jason Helland's professional descriptions.
+- Replaced wrong-person ILGA biography links for Natalie Manley and Dagmara Avelar. Narrowed policy statements to what their sources actually say. Corrected primary/general-election and individual/joint-ticket endorsement distinctions.
+- Removed unsupported AFL-CIO endorsements for Amy Christiansen and Sonni Choi Williams. Corrected UDP's committee classification, removed unsupported PAC dollar assertions, and distinguished AIPAC's reported announced plans from a completed shutdown.
+- Added direct district/office browsing and a county filter based on documented overlaps. Fixed postal-city share links and record-specific review dates. Link counts are not factual proof.
+- Corrected mail-request versus in-person application deadlines and preserved missing-postmark alternatives. [Voting rules audit](audit/2026-11-01-voting-rules.md).
 
-## Finance interpretation
+## Explicit remaining qualifications
 
-The federal snapshot is a 2026 two-year OpenFEC query, not a real-time balance. Every displayed record has its actual filing coverage dates. Receipts may include loans and transfers; they are not only donations. Federal candidate registration does not establish general-election ballot qualification.
+**Five county-roster gaps:** Cook commissioner districts 10 and 16, and McHenry clerk, sheriff and treasurer. Precise source-age/access limits remain visible. These entries do not assert complete fields or unopposed status. [Local report](audit/2026-11-01-local-report.md).
 
-Illinois SBE figures describe a single committee's third-quarter report, July 1–September 30, 2026. They are not election-cycle totals, and the committee may support activity outside the displayed race. In-kind contributions are separate from the reported cash receipts. Later A-1 contribution notices are not added to a quarterly total or used to invent a current cash balance. The detailed profile preserves the report's scope and caveats.
+**Eight content qualifications:** three La Shawn Ford positions use his accessible primary-era platform; three Kam Buckner claims have full indexed primary support while the live page returns 404; two endorsements name the governor candidate individually rather than both ticket members. Those distinctions remain in the evidence and displayed labels. [Content ledger](audit/2026-11-01-content-final.json).
 
-The audit matched 126 state/local quarterly reports across 141 state/local profiles; the remaining 15 have no verified current-quarter total here. Federal matching uses 38 verified identities, with 33 financial totals available. Missing filings remain unavailable rather than zero.
+**Geography:** 2020 ZCTAs approximate postal areas and may contain uninhabited land or small boundary fragments. The 2026 overlay is research context, never address certification. Community views combine listed ZIP areas, not municipal boundaries. The [official address lookup](https://www.elections.il.gov/ElectionOperations/DistrictLocator/DistrictOfficialSearchByAddress.aspx) and [election authority](https://www.elections.il.gov/ElectionOperations/ElectionAuthorities.aspx) determine personal eligibility, sample ballots and later changes. [Geography methods](GEOGRAPHY_SOURCES.md).
 
-## Trump policy alignment
+**Coverage:** county-filed offices, referendums and local write-in declarations are not exhaustive statewide. One listed candidate does not prove no eligible write-in. New minimal profiles contain official identity/office/party information; absent biographies, positions, endorsements and totals remain unknown.
 
-The displayed percentage measures agreement within a fixed six-measure sample of Trump-backed federal legislation from January–July 2025. It does not measure every Trump policy, personal support, endorsements or a scientific ideology scale. Every measure is equally weighted; omnibus packages and companion resolutions are not counted repeatedly.
+**Finance:** checks establish faithful transcription and committee association, not an independent audit of campaign transactions. State figures describe a single committee and quarter, not cycle totals or amounts exclusive to one race. FEC totals use the stated two-year query, not live balances. Paper-report committee-number, subtotal and period-heading conflicts are disclosed without changing filed amounts. [State audit](audit/2026-11-01-finance-full-state.md), [federal audit](audit/2026-11-01-finance-full-federal.md).
 
-Formula: `round(100 × agreements / (agreements + disagreements))`. At least three documented measures are required. Unknowns and absences are excluded, with coverage shown beside every result. 0% and 100% describe only the observed sample. This release supports numerical scores for 12 current House candidates; others display insufficient evidence. Full candidate and administration sources are visible in each profile.
+**Alignment:** the percentage remains an equal-weight sample of six Trump-backed House measures from January–July 2025, not overall ideology, endorsement or loyalty. At least three documented measures are needed; absences and unknowns are excluded. All scored votes match archived House Clerk XML. [Methodology](audit/alignment-methodology.md).
 
-See [the detailed methodology](audit/alignment-methodology.md), [administration support records](audit/trump-baseline.json), and [official vote records](audit/house-alignment-votes.json).
+## Reproduction
 
-## Remaining limits
+`npm run verify` checks exact roster parity, geography and failure behavior, source metadata, alignment, finance safeguards, reviewed content and the static build. These offline checks prevent regression; they do not represent a fresh live source review each run. Browser checks cover Edge, Firefox and WebKit on Windows at desktop, tablet and phone widths. [QA report](QA_REPORT.md).
 
-Race notes explicitly disclose incomplete general-roster access, older official lists and authority-specific write-in evidence. Do not interpret a one-candidate card as proof that an entire contest is unopposed. Use the linked election authority and an official address-based sample ballot for eligibility and later changes. County/ZIP associations remain approximate.
+Detailed reports: [rosters](audit/2026-11-01-roster-report.md), [local](audit/2026-11-01-local-report.md), [geography](audit/2026-11-01-geography-report.md), [PAC corrections](audit/2026-11-01-claims-report.md), [content](audit/2026-11-01-content-report.md), [integration](audit/2026-11-01-integration-review.md).
 
-Source links are evidence trails, not a promise that an external site will remain available. Some Illinois election pages denied direct retrieval; readable official indexed content and county documents were used where documented. No whole-directory “everything verified” guarantee replaces these record-specific qualifications.
-
-## Audit reports
-
-- [Federal Senate and districts 1–8](audit/federal-one-report.md)
-- [Federal districts 9–17](audit/federal-two-report.md)
-- [Statewide offices](audit/statewide-report.md)
-- [State legislature](audit/legislature-report.md)
-- [Local contests](audit/local-report.md)
-- [Finance](audit/finance-report.md)
-- [PAC and organization directory](audit/pacs-report.md)
-
-## Verification
-
-The source-integrity check validates unique IDs, source metadata, evidence for every retained issue and endorsement list, removal of legacy amounts and alignment scores, and current local directory references. Alignment tests check all scored observations against archived official House Clerk XML. Finance regression tests cover pagination, reporting scope, malformed/partial responses and preserving prior data on failure.
-
-Browser checks cover Chromium/Edge, Firefox and WebKit at desktop, tablet and narrow phone widths, plus dedicated checks for source links, known/unknown alignment, method navigation, scoped finance, declared write-ins and comparison containment. These are browser-engine and viewport tests on Windows, not physical-device certification.
-
-Final local validation passed: 214 general browser/data checks, 36 dedicated fact-check feature checks, 9 alignment tests and 10 finance regression tests. The evidence-contract check passed for all 100 races and 185 profiles. Visual review covered desktop, tablet, 390px and 320px layouts without document or modal overflow.
+The [October 28 audit](audit/2026-10-28-fact-check.md) is historical. Its counts do not describe this release. No blanket 100% accuracy claim replaces these evidence boundaries.

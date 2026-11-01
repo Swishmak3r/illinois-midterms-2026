@@ -121,7 +121,7 @@ async function touchTargets(page) {
 }
 async function zipDirectoryChecks() {
   const vm = require('node:vm'), scope = { window: {} };
-  for (const file of ['data-towns-pacs.js', 'data-zips.js', 'location.js']) vm.runInNewContext(fs.readFileSync(path.join(ROOT,file),'utf8'), scope, { filename: file });
+  for (const file of ['data-federal.js', 'data-statewide.js', 'data-legislature.js', 'data-local.js', 'data-towns-pacs.js', 'data-zips.js', 'data-geography.js', 'location.js']) vm.runInNewContext(fs.readFileSync(path.join(ROOT,file),'utf8'), scope, { filename: file });
   const api = scope.window.IL_LOCATION, records = scope.window.IL_ZIP_DATA.illinois;
   assert.equal(records.length, 1575, 'Audit an intentional ZIP directory size change before updating this expectation.');
   assert.equal(api.zipCount, records.length);
@@ -137,7 +137,7 @@ async function zipDirectoryChecks() {
   }
   for (const value of ['6064','606470','60647-123','60647-12345','60647abc','00000','99999','90210','10001']) assert.ok(api.resolve(value).error, `Must reject ${value}`);
   assert.equal(api.resolve('90210').error, 'out_of_state_zip');
-  assert.equal(api.resolve('62999').town, null, 'An unmapped ZIP must never inherit a guessed district.');
+  assert.equal(api.resolve('60001').town, null, 'A postal ZIP with no Census ZCTA must never inherit a guessed district.');
   const chatham = api.resolve('Chatham');
   assert.equal(chatham.error, 'ambiguous_location'); assert.equal(chatham.suggestions.length, 2);
   chatham.suggestions.forEach(choice => assert.ok(api.resolve(choice.query).town));
@@ -155,7 +155,7 @@ async function functionalChecks(browser, engine, viewport) {
   try {
     await check('ZIPs, ZIP+4 and safe fallback', async () => {
       await boot(page);
-      for (const query of ['60647', '60001', '60706', '62701', '61350', '61820', '62901', '60120', '62002', '60647-1234', '62999']) {
+      for (const query of ['60647', '60001', '60706', '62701', '61350', '61820', '62901', '60120', '62002', '60647-1234', '60001']) {
         await lookup(page, query);
         const state = await readState(page); assert.equal(state.locationResult.matchedZip, query.slice(0,5), query);
         assert.equal(state.locationNotice, '');
@@ -194,16 +194,16 @@ async function functionalChecks(browser, engine, viewport) {
     }, page);
     await check('History and filter reset keep URL and UI aligned', async () => {
       await boot(page); await selectFilter(page,'party-select-control','dem');
-      await lookup(page,'62999'); assert.equal((await readState(page)).partyFilter,'all');
-      assert.equal(new URL(page.url()).searchParams.get('zip'),'62999');
+      await lookup(page,'60001'); assert.equal((await readState(page)).partyFilter,'all');
+      assert.equal(new URL(page.url()).searchParams.get('zip'),'60001');
       await page.goBack(); await page.waitForFunction(() => IL_APP.getState().locationResult?.matchedZip === '60647');
       assert.equal((await readState(page)).partyFilter,'dem');
       assert.equal(await page.locator('#party-select-control').inputValue(),'dem');
-      await page.goForward(); await page.waitForFunction(() => IL_APP.getState().locationResult?.matchedZip === '62999');
+      await page.goForward(); await page.waitForFunction(() => IL_APP.getState().locationResult?.matchedZip === '60001');
       assert.equal(await page.locator('#party-select-control').inputValue(),'all');
       await selectFilter(page,'level-select-control','local'); assert.equal(await page.locator('.empty-state').count(),1);
       await page.locator('#reset-all-filters-btn').last().click();
-      assert.equal((await readState(page)).locationResult.matchedZip,'62999');
+      assert.equal((await readState(page)).locationResult.matchedZip,'60001');
       assert.equal((await page.evaluate(() => IL_APP.getFilteredRaceIds())).length,6);
     }, page);
     await check('Comparison limit, removal and shareable reload', async () => {
@@ -310,7 +310,7 @@ async function functionalChecks(browser, engine, viewport) {
   try { await check('Denied local storage preserves lookup and theme controls',async()=>{
     await boot(deniedPage); const before=await deniedPage.locator('html').getAttribute('data-theme'); await deniedPage.locator('#theme-toggle-btn').click();
     assert.notEqual(await deniedPage.locator('html').getAttribute('data-theme'),before);
-    await lookup(deniedPage,'62999'); assert.equal((await readState(deniedPage)).locationResult.matchedZip,'62999'); assert.deepEqual(deniedErrors,[]);
+    await lookup(deniedPage,'60001'); assert.equal((await readState(deniedPage)).locationResult.matchedZip,'60001'); assert.deepEqual(deniedErrors,[]);
   },deniedPage); } finally { await denied.close(); }
 }
 async function layoutChecks(browser,engine,viewport) {

@@ -1,5 +1,5 @@
-// Statewide Illinois general-election profiles, audited October 28, 2026.
-// Source links and jurisdiction notes accompany each race and candidate.
+// Statewide Illinois general-election profiles; active SBE roster checked November 1, 2026.
+// County write-in declarations retain explicit authority and ticket-completeness limits.
 window.IL_STATEWIDE_RACES = [
   {
     "id": "il-governor-2026",
@@ -34,7 +34,7 @@ window.IL_STATEWIDE_RACES = [
         "endorsements": [
           "Illinois AFL-CIO",
           "SEIU Healthcare Illinois Indiana",
-          "Illinois Retail Merchants Association"
+          "Illinois Retail Merchants Association (Pritzker)"
         ],
         "issues": {
           "safetAct": "His campaign supports pretrial detention based on danger rather than ability to pay, gun restrictions, police staffing and violence-prevention funding.",
@@ -47,10 +47,10 @@ window.IL_STATEWIDE_RACES = [
         "evidence": [
           {
             "field": "name",
-            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
             "title": "Illinois State Board of Elections: 2026 general candidate list",
-            "checked": "2026-10-28",
-            "note": "Printed-ticket identity and party; cross-checked with county filing list."
+            "checked": "2026-11-01",
+            "note": "Active printed nominee identity and party rechecked against the complete state list on November 1, 2026."
           },
           {
             "field": "party",
@@ -63,14 +63,14 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://gov.illinois.gov/",
             "title": "Office of the Illinois Governor",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": ""
           },
           {
             "field": "role",
             "url": "https://jbpritzker.com/meet-christian-mitchell/",
             "title": "Meet Christian Mitchell: official campaign biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": ""
           },
           {
@@ -84,67 +84,88 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.safetAct",
             "url": "https://jbpritzker.com/latest/accomplishment/improving-public-safety/",
             "title": "Pritzker campaign: Public safety",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://jbpritzker.com/latest/accomplishment/building-a-strong-fiscal-foundation/",
             "title": "Pritzker campaign: Fiscal policy",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.energyGrid",
             "url": "https://jbpritzker.com/latest/accomplishment/creating-the-economy-of-the-future/",
             "title": "Pritzker campaign: Energy and manufacturing",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.transit",
             "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-signs-northern-illinois-transit-authority-act",
             "title": "Governor’s official release: Northern Illinois Transit Authority Act",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Government record of enactment, December 16, 2025."
           },
           {
             "field": "issues.healthcare",
             "url": "https://jbpritzker.com/latest/accomplishment/expanding-quality-affordable-health-care/",
             "title": "Pritzker campaign: Health care",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.education",
             "url": "https://jbpritzker.com/latest/accomplishment/improving-education-from-cradle-to-career/",
             "title": "Pritzker campaign: Education",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
             "title": "Illinois AFL-CIO: 2026 general-election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists both JB Pritzker and Christian Mitchell."
           },
           {
             "field": "endorsements",
             "url": "https://seiuhcilin.org/resources/election-information/",
             "title": "SEIU Healthcare: 2026 election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists both JB Pritzker and Christian Mitchell."
           },
           {
             "field": "endorsements",
             "url": "https://irma.org/illinois-retail-merchants-association-endorses-jb-pritzker-for-governor/",
             "title": "IRMA endorses JB Pritzker, October 26, 2026",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Governor endorsement; does not separately name Mitchell."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=qQZ93OuptZClfLZlfJhrZw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Pritzker, JB; GOVERNOR AND LIEUTENANT GOVERNOR; DEMOCRATIC; Active 10/27/2025. Retrieved from the complete state candidate list."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtlDPORE6bJppw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Mitchell, Christian; GOVERNOR AND LIEUTENANT GOVERNOR; DEMOCRATIC; Active 10/27/2025. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=qQZ93OuptZClfLZlfJhrZw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtlDPORE6bJppw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "JB Pritzker & Christian Mitchell",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "darren-bailey-aaron-del-mar",
@@ -160,7 +181,7 @@ window.IL_STATEWIDE_RACES = [
         "pacSummary": "",
         "pacs": [],
         "endorsements": [
-          "Donald Trump"
+          "Donald Trump (Bailey)"
         ],
         "issues": {
           "propertyTaxes": "His campaign proposes property-tax relief through spending restraint and increased government accountability.",
@@ -171,10 +192,10 @@ window.IL_STATEWIDE_RACES = [
         "evidence": [
           {
             "field": "name",
-            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
             "title": "Illinois State Board of Elections: 2026 general candidate list",
-            "checked": "2026-10-28",
-            "note": "Printed-ticket identity and party; cross-checked with county filing list."
+            "checked": "2026-11-01",
+            "note": "Active printed nominee identity and party rechecked against the complete state list on November 1, 2026."
           },
           {
             "field": "party",
@@ -187,49 +208,49 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://baileyforillinois.com/darren/",
             "title": "Meet Darren: official campaign biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": ""
           },
           {
             "field": "role",
             "url": "https://baileyforillinois.com/aaron/",
             "title": "Meet Aaron: official campaign biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": ""
           },
           {
             "field": "issues.propertyTaxes",
             "url": "https://baileyforillinois.com/issues/",
             "title": "Bailey campaign: Issues",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.safetAct",
             "url": "https://baileyforillinois.com/issues/",
             "title": "Bailey campaign: Issues",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://baileyforillinois.com/issues/",
             "title": "Bailey campaign: Issues",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.education",
             "url": "https://baileyforillinois.com/issues/",
             "title": "Bailey campaign: Issues",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "endorsements",
             "url": "https://www.govinfo.gov/content/pkg/DCPD-202600607/html/DCPD-202600607.htm",
             "title": "Presidential remarks, September 13, 2026",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Trump explicitly confirmed his endorsement of Darren Bailey in the Illinois gubernatorial-election section."
           },
           {
@@ -238,9 +259,30 @@ window.IL_STATEWIDE_RACES = [
             "title": "Meet Darren: official campaign biography",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=qQZ93OuptZBuhrbAiY1J%2fA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Bailey, Darren; GOVERNOR AND LIEUTENANT GOVERNOR; REPUBLICAN; Active 10/27/2025. Retrieved from the complete state candidate list."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtk3fUDoYpPJgw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Del Mar, Aaron B.; GOVERNOR AND LIEUTENANT GOVERNOR; REPUBLICAN; Active 10/27/2025. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=qQZ93OuptZBuhrbAiY1J%2fA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtk3fUDoYpPJgw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Darren Bailey & Aaron B. Del Mar",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "collin-corbett-carolyn-schofield",
@@ -267,10 +309,10 @@ window.IL_STATEWIDE_RACES = [
         "evidence": [
           {
             "field": "name",
-            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
             "title": "Illinois State Board of Elections: 2026 general candidate list",
-            "checked": "2026-10-28",
-            "note": "Printed-ticket identity and party; cross-checked with county filing list."
+            "checked": "2026-11-01",
+            "note": "Active printed nominee identity and party rechecked against the complete state list on November 1, 2026."
           },
           {
             "field": "party",
@@ -290,42 +332,42 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.propertyTaxes",
             "url": "https://www.collinforil.com/platform/",
             "title": "Corbett campaign: Independent platform",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://www.collinforil.com/affordability/",
             "title": "Corbett campaign: Affordability",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.pensions",
             "url": "https://www.collinforil.com/platform/",
             "title": "Corbett campaign: Independent platform",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.energyGrid",
             "url": "https://www.collinforil.com/affordability/",
             "title": "Corbett campaign: Affordability",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.collinforil.com/affordability/",
             "title": "Corbett campaign: Affordability",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
             "field": "issues.education",
             "url": "https://www.collinforil.com/grow/",
             "title": "Corbett campaign: Economic platform",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate campaign statement; proposed policy, not an independently verified outcome."
           },
           {
@@ -334,20 +376,423 @@ window.IL_STATEWIDE_RACES = [
             "title": "Illinois State Board of Elections: Corbett-Schofield objection record",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtk%2b5Ik%2b7nDAZA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Corbett, Collin; GOVERNOR AND LIEUTENANT GOVERNOR; INDEPENDENT; Active 5/26/2026. Retrieved from the complete state candidate list."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtkjHodoXZu9UQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Schofield, Carolyn; GOVERNOR AND LIEUTENANT GOVERNOR; INDEPENDENT; Active 5/26/2026. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtk%2b5Ik%2b7nDAZA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtkjHodoXZu9UQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Collin Corbett & Carolyn Schofield",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
+      },
+      {
+        "id": "misty-metroz",
+        "name": "Misty Metroz",
+        "party": "Party not stated",
+        "role": "Declared governor write-in; complete ticket not verified.",
+        "hometown": "",
+        "incumbentStatus": "Declared write-in",
+        "photoInitials": "MM",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "writeIn": true,
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "ballotStatus": "Declared write-in; Lake County evidence",
+        "ballotNote": "The cited county list names the governor candidate only and does not supply a lieutenant-governor running mate or party. Confirm the complete ticket and write-in eligibility with your election authority.",
+        "rosterChecked": "2026-11-01",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Listed for Governor/Lt. Governor as a write-in; qualified 2026-08-05."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "The official list explicitly marks this candidate as a write-in; the party column is blank."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "The county election authority lists this candidacy as a valid write-in."
+          },
+          {
+            "field": "identity",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Listed for Governor: Misty Metroz. A lieutenant-governor running mate is not named in the source."
+          }
+        ]
+      },
+      {
+        "id": "mike-vick",
+        "name": "Mike Vick & Gary Pierce",
+        "party": "Party not stated",
+        "role": "Declared governor and lieutenant-governor write-in ticket.",
+        "hometown": "",
+        "incumbentStatus": "Declared write-in",
+        "photoInitials": "MV",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "writeIn": true,
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "ballotStatus": "Declared write-in; Lake County evidence",
+        "ballotNote": "The Winnebago County Clerk’s valid-write-in list identifies both members of this ticket. Lake County separately lists the governor candidate. Party affiliation is not stated in these sources. Eligibility must be confirmed with the voter’s election authority.",
+        "rosterChecked": "2026-11-01",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Listed for Governor/Lt. Governor as a write-in; qualified 2026-08-24."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "The official list explicitly marks this candidate as a write-in; the party column is blank."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "The county election authority lists this candidacy as a valid write-in."
+          },
+          {
+            "field": "identity",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Governor: Mike Vick; lieutenant governor: Gary Pierce."
+          }
+        ]
+      },
+      {
+        "id": "griselda-romero",
+        "name": "Griselda Romero & Eyde Arndell",
+        "party": "Party not stated",
+        "role": "Declared governor and lieutenant-governor write-in ticket.",
+        "hometown": "",
+        "incumbentStatus": "Declared write-in",
+        "photoInitials": "GR",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "writeIn": true,
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "ballotStatus": "Declared write-in; Lake County evidence",
+        "ballotNote": "The Winnebago County Clerk’s valid-write-in list identifies both members of this ticket. Lake County separately lists the governor candidate. Party affiliation is not stated in these sources. Eligibility must be confirmed with the voter’s election authority.",
+        "rosterChecked": "2026-11-01",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Listed for Governor/Lt. Governor as a write-in; qualified 2026-08-26."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "The official list explicitly marks this candidate as a write-in; the party column is blank."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "The county election authority lists this candidacy as a valid write-in."
+          },
+          {
+            "field": "identity",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Governor: Griselda Romero; lieutenant governor: Eyde Arndell."
+          }
+        ]
+      },
+      {
+        "id": "richard-benedict-mayers",
+        "name": "Richard Benedict Mayers",
+        "party": "Party not stated",
+        "role": "Declared governor write-in; complete ticket not verified.",
+        "hometown": "",
+        "incumbentStatus": "Declared write-in",
+        "photoInitials": "RB",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "writeIn": true,
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "ballotStatus": "Declared write-in; Lake County evidence",
+        "ballotNote": "The cited county list names the governor candidate only and does not supply a lieutenant-governor running mate or party. Confirm the complete ticket and write-in eligibility with your election authority.",
+        "rosterChecked": "2026-11-01",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Listed for Governor/Lt. Governor as a write-in; qualified 2026-09-01."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "The official list explicitly marks this candidate as a write-in; the party column is blank."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "The county election authority lists this candidacy as a valid write-in."
+          },
+          {
+            "field": "identity",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Listed for Governor: Richard Benedict Mayers. A lieutenant-governor running mate is not named in the source."
+          }
+        ]
+      },
+      {
+        "id": "elizabeth-ann-sebesta",
+        "name": "Elizabeth Ann Sebesta",
+        "party": "Party not stated",
+        "role": "Declared governor write-in; complete ticket not verified.",
+        "hometown": "",
+        "incumbentStatus": "Declared write-in",
+        "photoInitials": "EA",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "writeIn": true,
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "ballotStatus": "Declared write-in; Lake County evidence",
+        "ballotNote": "The cited county list names the governor candidate only and does not supply a lieutenant-governor running mate or party. Confirm the complete ticket and write-in eligibility with your election authority.",
+        "rosterChecked": "2026-11-01",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Listed for Governor/Lt. Governor as a write-in; qualified 2026-09-02."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "The official list explicitly marks this candidate as a write-in; the party column is blank."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "The county election authority lists this candidacy as a valid write-in."
+          },
+          {
+            "field": "identity",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Listed for Governor: Elizabeth Ann Sebesta. A lieutenant-governor running mate is not named in the source."
+          }
+        ]
+      },
+      {
+        "id": "patricia-l-tillman",
+        "name": "Patricia L. Tillman & Joseph L. Mosley",
+        "party": "Party not stated",
+        "role": "Declared governor and lieutenant-governor write-in ticket.",
+        "hometown": "",
+        "incumbentStatus": "Declared write-in",
+        "photoInitials": "PL",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "writeIn": true,
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "ballotStatus": "Declared write-in; Lake County evidence",
+        "ballotNote": "The Winnebago County Clerk’s valid-write-in list identifies both members of this ticket. Lake County separately lists the governor candidate. Party affiliation is not stated in these sources. Eligibility must be confirmed with the voter’s election authority.",
+        "rosterChecked": "2026-11-01",
+        "evidence": [
+          {
+            "field": "identity",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Listed for Governor/Lt. Governor as a write-in; qualified 2026-09-03."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "The official list explicitly marks this candidate as a write-in; the party column is blank."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "The county election authority lists this candidacy as a valid write-in."
+          },
+          {
+            "field": "identity",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Governor: Patricia L. Tillman; lieutenant governor: Joseph L. Mosley."
+          }
+        ]
+      },
+      {
+        "id": "rafael-varela",
+        "name": "Rafael Varela",
+        "party": "Party not stated",
+        "role": "Declared governor write-in; complete ticket not verified.",
+        "hometown": "",
+        "incumbentStatus": "Declared write-in",
+        "photoInitials": "RV",
+        "fecRaised": "",
+        "fecCashOnHand": "",
+        "pacPolicy": "",
+        "pacSummary": "",
+        "pacs": [],
+        "endorsements": [],
+        "issues": {},
+        "writeIn": true,
+        "writeInAuthorities": [
+          "Winnebago County Clerk"
+        ],
+        "ballotStatus": "Declared write-in; county-specific evidence",
+        "ballotNote": "The cited county list names the governor candidate only and does not supply a lieutenant-governor running mate or party. Confirm the complete ticket and write-in eligibility with your election authority.",
+        "rosterChecked": "2026-11-01",
+        "evidence": [
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "The county election authority lists this candidacy as a valid write-in."
+          },
+          {
+            "field": "identity",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Listed for Governor: Rafael Varela. A lieutenant-governor running mate is not named in the source."
+          }
+        ]
       }
     ],
-    "coverageNote": "Profiles cover the three printed governor tickets. Qualified write-in availability must be checked with the voter’s election authority.",
+    "coverageNote": "Three printed governor/lieutenant-governor tickets match the state list. Seven additional governor write-ins are documented by county election authorities; running mates are documented for three of them. A single name on a county list does not establish a complete ticket. Confirm local eligibility and complete ticket details with your election authority. Other local declarations may exist.",
     "evidence": [
-      {
-        "field": "candidates",
-        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=71",
-        "title": "Illinois State Board of Elections: 2026 general candidate list",
-        "checked": "2026-10-28",
-        "note": "Printed governor tickets; this is not an exhaustive statewide write-in qualification list."
-      },
       {
         "field": "candidates",
         "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
@@ -361,9 +806,33 @@ window.IL_STATEWIDE_RACES = [
         "title": "Office of the Illinois Governor",
         "checked": "2026-10-28",
         "note": "Current governor."
+      },
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=%2fIn13iuXmuD56WVRMXU%2fKg%3d%3d",
+        "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+        "checked": "2026-11-01",
+        "note": "Complete active printed roster reconciled with 6 individual state records on November 1, 2026. Governor/lieutenant-governor names are displayed as joint tickets. This state filing list is not an exhaustive county write-in registry."
+      },
+      {
+        "field": "candidates",
+        "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+        "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+        "checked": "2026-11-01",
+        "sourceDate": "2026-09-09",
+        "note": "Six declared governor write-ins are included separately from the three printed tickets."
+      },
+      {
+        "field": "candidates",
+        "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+        "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+        "checked": "2026-11-01",
+        "sourceDate": "2026-09-16",
+        "note": "Adds Rafael Varela and verifies running mates for Mike Vick, Griselda Romero and Patricia L. Tillman."
       }
     ],
-    "checked": "2026-10-28"
+    "checked": "2026-10-28",
+    "rosterChecked": "2026-11-01"
   },
   {
     "id": "il-attorney-general-2026",
@@ -401,10 +870,10 @@ window.IL_STATEWIDE_RACES = [
         ],
         "issues": {
           "safetAct": "Defended the elimination of cash bail in court and supports pretrial detention based on public-safety or flight risk rather than ability to pay.",
-          "healthcare": "His campaign supports reproductive care and gender-affirming care. His office filed a September 2026 brief opposing federal rules that restrict ACA enrollment.",
+          "healthcare": "His campaign supports reproductive care. His office has defended access to gender-affirming care and filed a September 2026 brief opposing federal rules that restrict ACA enrollment.",
           "energyGrid": "Joined an October 2026 lawsuit seeking to restore federal greenhouse-gas standards for coal- and gas-fired power plants.",
           "education": "Challenged federal restrictions on Public Service Loan Forgiveness eligibility for employees of government and nonprofit organizations.",
-          "publicServices": "His campaign prioritizes gun-trafficking enforcement, support for survivors of violence, and enforcement of workplace rights."
+          "publicServices": "His campaign prioritizes gun-trafficking enforcement and workplace rights. His office supports services for survivors of violence."
         },
         "evidence": [
           {
@@ -418,14 +887,14 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://kwameraoul.com/about-us/",
             "title": "Raoul campaign - biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Confirms January 2019 start and Chicago background."
           },
           {
             "field": "issues.safetAct",
             "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-issues-statement-on-illinois-supreme-court-ruling-upholding-the-elimination-of-cash-bail-in-illinois",
             "title": "Attorney General statement on cash-bail ruling",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "",
             "published": "2023-07-18"
           },
@@ -433,14 +902,14 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.healthcare",
             "url": "https://kwameraoul.com/ontheissues/",
             "title": "Raoul campaign - issue positions",
-            "checked": "2026-10-28",
-            "note": "Candidate-stated priorities, not an independent evaluation of outcomes."
+            "checked": "2026-11-01",
+            "note": "Current campaign page supports reproductive care, gun-trafficking enforcement and workplace rights. Gender-affirming care and survivor services are supported separately by official office statements."
           },
           {
             "field": "issues.healthcare",
             "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-continues-fight-to-protect-affordable-care-act-coverage",
             "title": "Attorney General brief on ACA coverage",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "",
             "published": "2026-09-10"
           },
@@ -448,7 +917,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.energyGrid",
             "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-challenges-epa-rollback-of-greenhouse-gas-pollution-limits-for-power-plants",
             "title": "Attorney General challenge to power-plant emissions rollback",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "",
             "published": "2026-10-01"
           },
@@ -456,7 +925,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.education",
             "url": "https://www.illinoisattorneygeneral.gov/news/story/attorney-general-raoul-stops-trump-administrations-illegal-weaponization-of-public-service-loan-forgiveness-program",
             "title": "Attorney General statement on PSLF litigation",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "",
             "published": "2026-10-22"
           },
@@ -464,21 +933,21 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.publicServices",
             "url": "https://kwameraoul.com/ontheissues/",
             "title": "Raoul campaign - issue positions",
-            "checked": "2026-10-28",
-            "note": "Candidate-stated priorities."
+            "checked": "2026-11-01",
+            "note": "Current campaign page supports reproductive care, gun-trafficking enforcement and workplace rights. Gender-affirming care and survivor services are supported separately by official office statements."
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
             "title": "Illinois AFL-CIO - 2026 general-election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists Kwame Raoul for Attorney General."
           },
           {
             "field": "endorsements",
             "url": "https://cwa-union.org/candidates-il",
             "title": "CWA District 4 - 2026 Illinois endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists Kwame Raoul for Attorney General."
           },
           {
@@ -499,7 +968,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "hometown",
             "url": "https://kwameraoul.com/about-us/",
             "title": "Raoul campaign - biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
@@ -508,9 +977,38 @@ window.IL_STATEWIDE_RACES = [
             "title": "Illinois Blue Book 2025-2026 - Kwame Raoul",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ErFFtcc67AM5unfs5zAd%2fQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Raoul, Kwame; ATTORNEY GENERAL; DEMOCRATIC; Active 10/27/2025. Retrieved from the complete state candidate list."
+          },
+          {
+            "field": "issues.healthcare",
+            "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-wins-lawsuit-protecting-gender-affirming-care-court-issues-final-written-order",
+            "title": "Illinois Attorney General: action protecting access to gender-affirming care",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-04-20",
+            "note": "Official office action supports this position; the current campaign page does not itself state the gender-affirming-care claim."
+          },
+          {
+            "field": "issues.publicServices",
+            "url": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-joins-illinois-coalition-against-domestic-violence-to-highlight-ring-collaboration-2-2-26",
+            "title": "Illinois Attorney General: collaboration supporting survivors of domestic violence",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-02-02",
+            "note": "Official office statement supports survivor services; attributed separately from the current campaign platform."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ErFFtcc67AM5unfs5zAd%2fQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Kwame Raoul",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "bob-fioretti",
@@ -536,14 +1034,14 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
             "title": "Fioretti campaign - biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Campaign biography describes legal career, aldermanic service and Chicago residence."
           },
           {
             "field": "issues.safetAct",
             "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
             "title": "Fioretti campaign - SAFE-T accountability proposals",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate proposals; factual allegations about opponents are not repeated.",
             "published": "2025-12-09"
           },
@@ -551,7 +1049,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.ethics",
             "url": "https://www.bobforillinois.com/post/safe-t-at-a-crossroads-repeat-offenders-conflicts-of-interest-and-the-cost-to-illinois-families",
             "title": "Fioretti campaign - SAFE-T accountability proposals",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "",
             "published": "2025-12-09"
           },
@@ -559,7 +1057,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.education",
             "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
             "title": "Fioretti campaign - policy priorities",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": ""
           },
           {
@@ -580,7 +1078,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "hometown",
             "url": "https://www.bobforillinois.com/post/robert-fioretti-a-new-vision-for-illinois-justice",
             "title": "Fioretti campaign - biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
@@ -589,9 +1087,22 @@ window.IL_STATEWIDE_RACES = [
             "title": "Fioretti campaign - biography",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ErFFtcc67ANjrOIf9hDsYw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Fioretti, Robert W.; ATTORNEY GENERAL; REPUBLICAN; Active 11/3/2025. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ErFFtcc67ANjrOIf9hDsYw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Robert W. Fioretti",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       }
     ],
     "evidence": [
@@ -608,10 +1119,18 @@ window.IL_STATEWIDE_RACES = [
         "title": "Illinois Blue Book 2025-2026",
         "checked": "2026-10-28",
         "note": ""
+      },
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=S4tkO4zuAdQbjHx5ooPHoQ%3d%3d",
+        "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+        "checked": "2026-11-01",
+        "note": "Complete active printed roster reconciled with 2 individual state records on November 1, 2026. Governor/lieutenant-governor names are displayed as joint tickets. This state filing list is not an exhaustive county write-in registry."
       }
     ],
     "checked": "2026-10-28",
-    "coverageNote": "Printed-ballot candidates shown. Any additional qualified write-ins must be confirmed with your local election authority."
+    "coverageNote": "Printed-ballot candidates shown. Any additional qualified write-ins must be confirmed with your local election authority.",
+    "rosterChecked": "2026-11-01"
   },
   {
     "id": "il-secretary-of-state-2026",
@@ -649,28 +1168,28 @@ window.IL_STATEWIDE_RACES = [
         "issues": {
           "publicServices": "Prioritizes modernizing DMV services through online transactions, appointment scheduling, mobile units and self-service kiosks. Opposes the federal demand for bulk sensitive driver records without legal and privacy safeguards.",
           "education": "In his 2026 library questionnaire, supports wider library access, statewide digital resources and protections against censorship as a condition of State Library grants.",
-          "ethics": "His 2023 executive order prohibited office employees and contractors from contributing to his political fund and strengthened access to the Inspector General complaint process."
+          "ethics": "His 2023 executive order prohibited office employees and contractual employees from contributing to his political fund and strengthened access to the Inspector General complaint process."
         },
         "evidence": [
           {
             "field": "role",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
             "title": "Illinois Blue Book 2025-2026 - Alexi Giannoulias",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Official biography confirms offices and Chicago residence."
           },
           {
             "field": "issues.publicServices",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
             "title": "Illinois Blue Book 2025-2026 - service modernization",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": ""
           },
           {
             "field": "issues.publicServices",
             "url": "https://www.ilsos.gov/news/2026/august-14-2026-giannoulias-vows-to-fight-trump-administrations-demand-for-sensitive-driver-data.html",
             "title": "Secretary of State - driver-record privacy statement",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "",
             "published": "2026-08-14"
           },
@@ -678,22 +1197,22 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.education",
             "url": "https://www.ila.org/content/documents/a._giannoulias_2026_sos_responses.pdf",
             "title": "Giannoulias - 2026 Illinois Library Association questionnaire",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-authored response; ILA does not endorse candidates."
           },
           {
             "field": "issues.ethics",
             "url": "https://www.ilsos.gov/content/dam/news/2023/january/230110d1.pdf",
             "title": "Secretary of State - executive ethics order",
-            "checked": "2026-10-28",
-            "note": "",
+            "checked": "2026-11-01",
+            "note": "January 10, 2023 release specifies employees and contractual employees. This wording does not extend the restriction to every external contractor.",
             "published": "2023-01-10"
           },
           {
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
             "title": "Illinois AFL-CIO - 2026 general-election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists Alexi Giannoulias for Secretary of State."
           },
           {
@@ -714,7 +1233,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "hometown",
             "url": "https://www.ilsos.gov/content/dam/publications/illinois-bluebook/2025-26/secretary-of-state-alexi-giannoulias.pdf",
             "title": "Illinois Blue Book 2025-2026 - Alexi Giannoulias",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
@@ -723,9 +1242,29 @@ window.IL_STATEWIDE_RACES = [
             "title": "Illinois Blue Book 2025-2026 - Alexi Giannoulias",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXcsgSbDXgWGeg%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Giannoulias, Alexi; SECRETARY OF STATE; DEMOCRATIC; Active 10/27/2025. Retrieved from the complete state candidate list."
+          },
+          {
+            "field": "issues.publicServices",
+            "url": "https://www.ilsos.gov/skip-the-line.html",
+            "title": "Illinois Secretary of State: Skip-the-Line appointments",
+            "checked": "2026-11-01",
+            "note": "Official program page specifically confirms appointment scheduling, supporting the appointment component of the service-modernization summary."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXcsgSbDXgWGeg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Alexi Giannoulias",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "diane-harris",
@@ -753,42 +1292,42 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
             "title": "Joliet Junior College - Board of Trustees",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Official roster lists Harris as a trustee with a 2023-2029 term and Joliet residence."
           },
           {
             "field": "role",
             "url": "https://harrisforsos.com/meet_diane",
             "title": "Harris campaign - biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Campaign biography describes ComEd employment and IBEW stewardship."
           },
           {
             "field": "issues.publicServices",
             "url": "https://harrisforsos.com/issues",
             "title": "Harris campaign - issue positions",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate proposals, not claims that another officeholder violated the law."
           },
           {
             "field": "issues.budgetTaxes",
             "url": "https://harrisforsos.com/issues",
             "title": "Harris campaign - budget and fee proposals",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": ""
           },
           {
             "field": "issues.education",
             "url": "https://www.ila.org/content/documents/d._harris_2026_sos_responses.pdf",
             "title": "Harris - 2026 Illinois Library Association questionnaire",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-authored response; ILA does not endorse candidates."
           },
           {
             "field": "endorsements",
             "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
             "title": "Illinois Family Action - 2026 general-election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists Diane Harris as endorsed.",
             "published": "2026-10-26"
           },
@@ -810,7 +1349,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "hometown",
             "url": "https://jjc.edu/about-jjc/college-leadership/board-trustees",
             "title": "Joliet Junior College - Board of Trustees",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Biography documents the displayed hometown or residence."
           },
           {
@@ -819,9 +1358,22 @@ window.IL_STATEWIDE_RACES = [
             "title": "Joliet Junior College - Board of Trustees",
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXedo6Wp%2fk1LhA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Harris, Diane M.; SECRETARY OF STATE; REPUBLICAN; Active 11/3/2025. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXedo6Wp%2fk1LhA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Diane M. Harris",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       }
     ],
     "evidence": [
@@ -838,10 +1390,18 @@ window.IL_STATEWIDE_RACES = [
         "title": "Illinois Blue Book 2025-2026",
         "checked": "2026-10-28",
         "note": ""
+      },
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=b3l9OOoBLkjdUU%2f%2bj0m%2fWw%3d%3d",
+        "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+        "checked": "2026-11-01",
+        "note": "Complete active printed roster reconciled with 2 individual state records on November 1, 2026. Governor/lieutenant-governor names are displayed as joint tickets. This state filing list is not an exhaustive county write-in registry."
       }
     ],
     "checked": "2026-10-28",
-    "coverageNote": "Printed-ballot candidates shown. Any additional qualified write-ins must be confirmed with your local election authority."
+    "coverageNote": "Printed-ballot candidates shown. Any additional qualified write-ins must be confirmed with your local election authority.",
+    "rosterChecked": "2026-11-01"
   },
   {
     "id": "il-comptroller-2026",
@@ -901,7 +1461,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://my.ilga.gov/House/members/details/3384",
             "title": "Illinois General Assembly: Margaret Croke",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Current member biography and committee list identify her district and committee chairmanship.",
             "sourceType": "official record"
           },
@@ -909,7 +1469,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "hometown",
             "url": "https://my.ilga.gov/House/members/details/3384",
             "title": "Illinois General Assembly: Margaret Croke",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Official biography says she lives in Chicago.",
             "sourceType": "official record"
           },
@@ -917,7 +1477,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://crokeforillinois.com/priorities",
             "title": "Margaret Croke campaign: Priorities",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-stated comptroller platform; proposed actions, not completed achievements.",
             "sourceType": "candidate campaign"
           },
@@ -925,7 +1485,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.healthcare",
             "url": "https://my.ilga.gov/Legislation/BillStatus?DocNum=695&DocTypeID=HR&GAID=18&LegID=167973",
             "title": "Illinois General Assembly: HR 695",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Croke is chief sponsor; resolution adopted February 25, 2026.",
             "sourceType": "official record"
           },
@@ -933,7 +1493,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
             "title": "Illinois AFL-CIO: 2026 general election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "General-election list names Margaret Croke for Comptroller.",
             "sourceType": "endorser"
           },
@@ -944,9 +1504,22 @@ window.IL_STATEWIDE_RACES = [
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder.",
             "sourceType": "official record"
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WR5hUNLTKxlTBI%2fT3%2fkcww%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Croke, Margaret; COMPTROLLER; DEMOCRATIC; Active 10/27/2025. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WR5hUNLTKxlTBI%2fT3%2fkcww%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Margaret Croke",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "bryan-drew",
@@ -986,7 +1559,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://www.drewforillinois.com/about",
             "title": "Bryan Drew campaign: Meet Bryan",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Campaign biography describes legal work, business ownership and former Rend Lake College board role.",
             "sourceType": "candidate campaign"
           },
@@ -994,7 +1567,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "hometown",
             "url": "https://www.drewforillinois.com/about",
             "title": "Bryan Drew campaign: Meet Bryan",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Campaign says he was born and raised in the Benton area and operates a Benton business.",
             "sourceType": "candidate campaign"
           },
@@ -1002,7 +1575,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://www.drewforillinois.com/transparency",
             "title": "Bryan Drew campaign: Increase Transparency",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-stated plan for accessible expenditure data and public oversight.",
             "sourceType": "candidate campaign"
           },
@@ -1010,7 +1583,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://www.drewforillinois.com/affordability",
             "title": "Bryan Drew campaign: Stop Government Waste",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate links reducing waste with lower costs for families.",
             "sourceType": "candidate campaign"
           },
@@ -1018,7 +1591,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://www.drewforillinois.com/accountability",
             "title": "Bryan Drew campaign: Accountability",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-stated independent oversight position; accusations about opponents are not repeated as fact.",
             "sourceType": "candidate campaign"
           },
@@ -1029,9 +1602,22 @@ window.IL_STATEWIDE_RACES = [
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder.",
             "sourceType": "candidate campaign"
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WR5hUNLTKxm870rLz%2b3egA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Drew, Bryan; COMPTROLLER; REPUBLICAN; Active 10/31/2025. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WR5hUNLTKxm870rLz%2b3egA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Bryan Drew",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "anna-schiefelbein",
@@ -1039,7 +1625,7 @@ window.IL_STATEWIDE_RACES = [
         "party": "Green",
         "role": "Green Party write-in candidate for Illinois Comptroller (removed from statewide printed ballot July 14, 2026)",
         "hometown": "Woodridge, Illinois",
-        "incumbentStatus": "Removed from statewide ballot (Jul 14); local write-in",
+        "incumbentStatus": "Declared write-in",
         "photoInitials": "AS",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1063,7 +1649,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
             "title": "Illinois State Board of Elections: 2026 general election candidate list",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Confirms July 14, 2026 removal from the statewide printed ballot."
           },
           {
@@ -1078,7 +1664,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://www.gpelections.org/election-history/write-ins/",
             "title": "Green Party of the United States: 2026 write-in campaigns",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists Anna Schiefelbein as an Illinois Comptroller write-in candidate. County eligibility must be confirmed.",
             "sourceType": "candidate party"
           },
@@ -1094,7 +1680,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "hometown",
             "url": "https://www.ilgp.org/gogreen2026/",
             "title": "Illinois Green Party: Anna Schiefelbein statement",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate says she resides in Woodridge.",
             "sourceType": "candidate statement"
           },
@@ -1102,7 +1688,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://www.ilgp.org/gogreen2026/",
             "title": "Illinois Green Party: Anna Schiefelbein platform",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-authored platform, attributed as a proposal.",
             "sourceType": "candidate statement"
           },
@@ -1110,7 +1696,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.energyGrid",
             "url": "https://www.ilgp.org/gogreen2026/",
             "title": "Illinois Green Party: Anna Schiefelbein platform",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-authored platform, attributed as a proposal.",
             "sourceType": "candidate statement"
           },
@@ -1137,12 +1723,41 @@ window.IL_STATEWIDE_RACES = [
             "checked": "2026-10-28",
             "note": "Lists Anna Schiefelbein as an Illinois Comptroller write-in candidate. County eligibility must be confirmed.",
             "sourceType": "candidate party"
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Explicitly listed as a write-in, qualified September 2, 2026."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: November 3, 2026 candidate filings",
+            "checked": "2026-11-01",
+            "note": "Active filing dated September 2, 2026. Corroborates the later filing separately from the removed state printed-ballot petition."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Listed as a valid write-in for this office."
           }
         ],
         "checked": "2026-10-28",
         "isWriteIn": true,
-        "ballotNote": "The official Illinois State Board of Elections candidate list records Anna Schiefelbein (Green Party) as filed May 26, 2026 and Removed on July 14, 2026. She does not appear on the printed statewide ballot (verified on the Will County and St. Clair County specimen ballots). A September 2, 2026 write-in declaration is on file in St. Clair County; write-in votes count only in jurisdictions where a timely declaration was filed.",
-        "ballotStatus": "Removed from the Illinois State Board of Elections candidate list on July 14, 2026; later filed a September 2, 2026 declaration of intent to be a write-in candidate in St. Clair County"
+        "ballotNote": "The Illinois state list records removal from the printed ballot on July 14, 2026. Lake County’s September 9 list explicitly identifies this candidate as a write-in; St. Clair County also records a September 2 filing. These records do not establish eligibility in every election jurisdiction.",
+        "ballotStatus": "Declared write-in; removed from printed ballot July 14, 2026",
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "St. Clair County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "rosterChecked": "2026-11-01"
       }
     ],
     "evidence": [
@@ -1169,10 +1784,18 @@ window.IL_STATEWIDE_RACES = [
         "checked": "2026-10-28",
         "note": "Official current board page identifies the designee for Comptroller Susana Mendoza.",
         "sourceType": "official record"
+      },
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=1f2RMr3gR8FcmTMeqH3%2frA%3d%3d",
+        "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+        "checked": "2026-11-01",
+        "note": "Complete active printed roster reconciled with 2 individual state records on November 1, 2026. Governor/lieutenant-governor names are displayed as joint tickets. This state filing list is not an exhaustive county write-in registry."
       }
     ],
     "checked": "2026-10-28",
-    "coverageNote": "Printed nominees and the documented write-in campaign shown. Write-in qualification can differ by election authority; confirm eligibility locally. This is not an exhaustive statewide write-in certification list."
+    "coverageNote": "Printed nominees and the documented write-in campaign shown. Write-in qualification can differ by election authority; confirm eligibility locally. This is not an exhaustive statewide write-in certification list.",
+    "rosterChecked": "2026-11-01"
   },
   {
     "id": "il-treasurer-2026",
@@ -1235,7 +1858,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
             "title": "Illinois State Treasurer: Office overview",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Official office identifies Michael Frerichs as Treasurer.",
             "sourceType": "official record"
           },
@@ -1243,7 +1866,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://www.illinoistreasurer.gov/home/office-of-the-treasurer/doing-business-with-the-treasurer/",
             "title": "Illinois State Treasurer: Office overview",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Official office describes The Vault investment transparency tool.",
             "sourceType": "official record"
           },
@@ -1251,7 +1874,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://www.illinoistreasurer.gov/",
             "title": "Illinois State Treasurer: Programs",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Official site describes ICash unclaimed-property services.",
             "sourceType": "official record"
           },
@@ -1259,7 +1882,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.pensions",
             "url": "https://www.illinoistreasurer.gov/news/illinois-treasurer-michael-frerichs-relaunches-state-retirement-program-for-small-businesses-with-lower-fees-and-new-name/",
             "title": "Treasurer: My Illinois Savings relaunch",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "May 6, 2026 announcement documents June 15 relaunch, lower fees and updated technology.",
             "sourceType": "official record"
           },
@@ -1267,7 +1890,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.energyGrid",
             "url": "https://illinoistreasurer.gov/home/office-of-the-treasurer/raising-the-bar/sustainable-investing/",
             "title": "Treasurer Frerichs: Sustainable investing statement",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Official signed statement explains his investment approach.",
             "sourceType": "official record"
           },
@@ -1275,7 +1898,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.healthcare",
             "url": "https://www.illinoistreasurer.gov/news/state-treasurer-frerichs-announces-250000-more-illinoisans-with-disabilities-eligible-for-able-accounts/",
             "title": "Treasurer: ABLE eligibility expansion",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "March 9, 2026 announcement attributes expanded eligibility to a federal law change, not unilateral action by Frerichs.",
             "sourceType": "official record"
           },
@@ -1283,7 +1906,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.education",
             "url": "https://illinoistreasurer.gov/news/in-observance-of-national-529-day-illinois-treasurer-michael-frerichs-encourages-families-to-save-for-higher-education-costs/",
             "title": "Treasurer: May 29, 2026 college savings update",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Describes Bright Start/Bright Directions administration and lower fees and improved tools.",
             "sourceType": "official record"
           },
@@ -1291,7 +1914,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "endorsements",
             "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
             "title": "Illinois AFL-CIO: 2026 general election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "General-election list names Michael Frerichs for Treasurer.",
             "sourceType": "endorser"
           },
@@ -1302,9 +1925,22 @@ window.IL_STATEWIDE_RACES = [
             "checked": "2026-10-28",
             "note": "Officeholder biography and official candidate roster establish whether the candidate is the current officeholder.",
             "sourceType": "official record"
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXdo7cAkruNsMQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Frerichs, Michael W.; TREASURER; DEMOCRATIC; Active 10/27/2025. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXdo7cAkruNsMQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Michael W. Frerichs",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "max-solomon",
@@ -1347,7 +1983,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://maxsolomon.info/",
             "title": "Max Solomon campaign: Biography",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Campaign describes him as an attorney and adjunct political science and law instructor.",
             "sourceType": "candidate campaign"
           },
@@ -1355,7 +1991,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://maxsolomon.info/",
             "title": "Max Solomon campaign: Financial roadmap",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-stated transparency, investment and local deposit proposals.",
             "sourceType": "candidate campaign"
           },
@@ -1363,7 +1999,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.education",
             "url": "https://maxsolomon.info/",
             "title": "Max Solomon campaign: Education funding and priorities",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate supports college savings and financial literacy; no claim of K-12 voucher support is inferred.",
             "sourceType": "candidate campaign"
           },
@@ -1379,12 +2015,25 @@ window.IL_STATEWIDE_RACES = [
             "field": "endorsements",
             "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
             "title": "Illinois Family Action - 2026 general-election endorsements",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "published": "2026-10-26",
             "note": "Lists Max Solomon as endorsed."
+          },
+          {
+            "field": "ballotStatus",
+            "url": "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=bCcGIQ6Y0bgfVFgjxvxasQ%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+            "checked": "2026-11-01",
+            "note": "Solomon, Max; TREASURER; REPUBLICAN; Active 4/23/2026. Retrieved from the complete state candidate list."
           }
         ],
-        "checked": "2026-10-28"
+        "checked": "2026-10-28",
+        "sbeCandidateUrls": [
+          "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=bCcGIQ6Y0bgfVFgjxvxasQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+        ],
+        "ballotName": "Max Solomon",
+        "ballotStatus": "Printed-ballot candidate",
+        "rosterChecked": "2026-11-01"
       },
       {
         "id": "timothea-papas",
@@ -1392,7 +2041,7 @@ window.IL_STATEWIDE_RACES = [
         "party": "Green",
         "role": "Green Party write-in candidate for Illinois State Treasurer (removed from statewide printed ballot July 14, 2026)",
         "hometown": "",
-        "incumbentStatus": "Removed from statewide ballot (Jul 14); local write-in",
+        "incumbentStatus": "Declared write-in",
         "photoInitials": "TP",
         "fecRaised": "",
         "fecCashOnHand": "",
@@ -1416,7 +2065,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
             "title": "Illinois State Board of Elections: 2026 general election candidate list",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Confirms July 14, 2026 removal from the statewide printed ballot."
           },
           {
@@ -1431,7 +2080,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "role",
             "url": "https://www.gpelections.org/election-history/write-ins/",
             "title": "Green Party of the United States: 2026 write-in campaigns",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Lists Timi Papas as an Illinois Treasurer write-in candidate. County eligibility must be confirmed.",
             "sourceType": "candidate party"
           },
@@ -1447,7 +2096,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.budgetTaxes",
             "url": "https://www.ilgp.org/gogreen2026/",
             "title": "Illinois Green Party: Timi Papas platform",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-authored proposals; speculative allegations and financial amounts are not reproduced.",
             "sourceType": "candidate statement"
           },
@@ -1455,7 +2104,7 @@ window.IL_STATEWIDE_RACES = [
             "field": "issues.pensions",
             "url": "https://www.ilgp.org/gogreen2026/",
             "title": "Illinois Green Party: Timi Papas platform",
-            "checked": "2026-10-28",
+            "checked": "2026-11-01",
             "note": "Candidate-authored proposal for pension payments and a LaSalle Street tax.",
             "sourceType": "candidate statement"
           },
@@ -1482,12 +2131,41 @@ window.IL_STATEWIDE_RACES = [
             "checked": "2026-10-28",
             "note": "Lists Timi Papas as an Illinois Treasurer write-in candidate. County eligibility must be confirmed.",
             "sourceType": "candidate party"
+          },
+          {
+            "field": "writeIn",
+            "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+            "title": "Lake County Clerk: November 3, 2026 candidate list (printed September 9, 2026)",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-09",
+            "note": "Explicitly listed as a write-in, qualified September 2, 2026."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+            "title": "St. Clair County Clerk: November 3, 2026 candidate filings",
+            "checked": "2026-11-01",
+            "note": "Active filing dated September 2, 2026. Corroborates the later filing separately from the removed state printed-ballot petition."
+          },
+          {
+            "field": "writeIn",
+            "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+            "title": "Winnebago County Clerk: valid write-in candidates for November 3, 2026",
+            "checked": "2026-11-01",
+            "sourceDate": "2026-09-16",
+            "note": "Listed as a valid write-in for this office."
           }
         ],
         "checked": "2026-10-28",
         "isWriteIn": true,
-        "ballotNote": "The official Illinois State Board of Elections candidate list records Timothea Papas (Green Party) as filed May 26, 2026 and Removed on July 14, 2026. She does not appear on the printed statewide ballot (verified on the Will County and St. Clair County specimen ballots). A September 2, 2026 write-in declaration is on file in St. Clair County; write-in votes count only in jurisdictions where a timely declaration was filed.",
-        "ballotStatus": "Removed from the Illinois State Board of Elections candidate list on July 14, 2026; later filed a September 2, 2026 declaration of intent to be a write-in candidate in St. Clair County"
+        "ballotNote": "The Illinois state list records removal from the printed ballot on July 14, 2026. Lake County’s September 9 list explicitly identifies this candidate as a write-in; St. Clair County also records a September 2 filing. These records do not establish eligibility in every election jurisdiction.",
+        "ballotStatus": "Declared write-in; removed from printed ballot July 14, 2026",
+        "writeInAuthorities": [
+          "Lake County Clerk",
+          "St. Clair County Clerk",
+          "Winnebago County Clerk"
+        ],
+        "rosterChecked": "2026-11-01"
       }
     ],
     "evidence": [
@@ -1514,9 +2192,17 @@ window.IL_STATEWIDE_RACES = [
         "checked": "2026-10-28",
         "note": "Current official officeholder.",
         "sourceType": "official record"
+      },
+      {
+        "field": "candidates",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=b3l9OOoBLkg7y%2bGNymT1vw%3d%3d",
+        "title": "Illinois State Board of Elections: November 3, 2026 candidate list",
+        "checked": "2026-11-01",
+        "note": "Complete active printed roster reconciled with 2 individual state records on November 1, 2026. Governor/lieutenant-governor names are displayed as joint tickets. This state filing list is not an exhaustive county write-in registry."
       }
     ],
     "checked": "2026-10-28",
-    "coverageNote": "Printed nominees and the documented write-in campaign shown. Write-in qualification can differ by election authority; confirm eligibility locally. This is not an exhaustive statewide write-in certification list."
+    "coverageNote": "Printed nominees and the documented write-in campaign shown. Write-in qualification can differ by election authority; confirm eligibility locally. This is not an exhaustive statewide write-in certification list.",
+    "rosterChecked": "2026-11-01"
   }
 ];

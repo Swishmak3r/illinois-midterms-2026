@@ -3,7 +3,14 @@
   "use strict";
 
   const data = root.IL_ZIP_DATA || { illinois: [], otherUSRanges: [], meta: {} };
-  const towns = root.IL_TOWNS_DIRECTORY || [];
+  const geography = root.IL_GEOGRAPHY_DATA || { zips: {}, meta: {} };
+  const localRaces = root.IL_LOCAL_RACES || [];
+  const currentDistricts = new Set([...(root.IL_FEDERAL_RACES || []), ...(root.IL_LEGISLATURE_RACES || [])].map(function (race) { return race.districtCode; }));
+  const towns = (root.IL_TOWNS_DIRECTORY || []).map(function (town) {
+    return Object.assign({}, town, geographyForZips(town.zips || []));
+  });
+  // Every consumer (including community cards) receives the same sourced arrays.
+  root.IL_TOWNS_DIRECTORY = towns;
   const zips = new Map();
   const postalCities = new Map();
   const names = new Map();
@@ -11,7 +18,7 @@
   const townsByZip = new Map();
   const addressLookupUrl = "https://www.elections.il.gov/ElectionOperations/DistrictLocator/DistrictOfficialSearchByAddress.aspx";
   const electionAuthorityUrl = "https://www.elections.il.gov/ElectionOperations/ElectionAuthorities.aspx";
-  const coverageNote = "ZIP codes and communities can cross voting districts. This is an approximate research view, not an official ballot. Confirm your districts and ballot using your street address with your election authority.";
+  const coverageNote = "Districts are approximate overlaps of Census 2020 ZIP Code Tabulation Areas with 2026 district maps. ZCTAs are not current postal delivery boundaries and overlaps can include uninhabited areas or small boundary fragments. Local results include selected countywide and courtwide contests; subcounty races and ballot questions may be missing. This is not an official ballot. Confirm your districts and all local contests using your street address with your election authority.";
 
   function normalize(value) {
     return String(value == null ? "" : value).trim().normalize("NFKD")
@@ -21,6 +28,31 @@
 
   function unique(values) {
     return Array.from(new Set(values.filter(Boolean)));
+  }
+
+  function countywideResearch(race) {
+    return ["countywide", "whole-court-district"].includes(race.geographicScope) ||
+      (race.contestType === "retention" && ["circuit", "judicial-district"].includes(race.eligibilityScope));
+  }
+
+  function geographyForZips(zipList) {
+    const mapped = unique(zipList.map(String)).filter(function (zip) { return geography.zips[zip]; });
+    const records = mapped.map(function (zip) { return geography.zips[zip]; });
+    const counties = unique(records.flatMap(function (record) { return record.counties || []; })).sort();
+    const result = {
+      county: counties.join(" / "), counties: counties, mappedGeographyZips: mapped,
+      geographyStatus: mapped.length ? "census-zcta-overlap" : "no-zcta",
+      geographyChecked: geography.meta.checked || null,
+      localRaces: localRaces.filter(function (race) {
+        return countywideResearch(race) && (race.counties || []).some(function (county) { return counties.includes(county); });
+      }).map(function (race) { return race.id; })
+    };
+    ["usHouse", "stateSenate", "stateHouse"].forEach(function (key) {
+      result[key] = unique(records.flatMap(function (record) { return record[key] || []; }))
+        .filter(function (code) { return currentDistricts.has(code); })
+        .sort(function (a, b) { return Number(a.split("-")[1]) - Number(b.split("-")[1]); });
+    });
+    return result;
   }
 
   function addToIndex(index, key, value) {
@@ -75,26 +107,24 @@
   }
 
   function unionTown(matches, location) {
-    if (!matches.length) return null;
-    if (matches.length === 1) return matches[0];
-    const fields = ["usHouse", "stateSenate", "stateHouse", "localRaces", "zips", "aliases"];
-    const merged = {
+    const mapped = geographyForZips([location.zip]);
+    if (!mapped.mappedGeographyZips.length) return null;
+    return Object.assign({
       id: "zip-" + location.zip,
       name: location.city + " area · " + location.zip,
-      county: unique(matches.map(function (town) { return town.county; })).join(" / "),
       region: unique(matches.map(function (town) { return town.region; })).join(" / "),
-      localContext: "Research entries from overlapping community groups. Your address determines which races are on your ballot.",
+      zips: [location.zip], aliases: [],
       researchAreaIds: matches.map(function (town) { return town.id; }),
-      isMergedResearchArea: true
-    };
-    fields.forEach(function (field) {
-      merged[field] = unique(matches.reduce(function (all, town) { return all.concat(town[field] || []); }, []));
-    });
-    return merged;
+      isMergedResearchArea: matches.length > 1
+    }, mapped);
   }
 
   function resultForZip(zip) {
-    const location = zips.get(zip);
+    const postalLocation = zips.get(zip);
+    const sourceGeography = geography.zips[zip];
+    const location = postalLocation && Object.assign({}, postalLocation, {
+      counties: sourceGeography ? sourceGeography.counties.slice() : postalLocation.counties.slice()
+    });
     if (!location) {
       return isKnownOtherUSZip(zip)
         ? { error: "out_of_state_zip", zip: zip, message: "That ZIP code is outside Illinois. Enter an Illinois ZIP code or browse statewide races." }
@@ -105,17 +135,21 @@
     return {
       town: town, towns: matches, location: location,
       matchedLabel: location.city + " · " + zip, matchedZip: zip,
-      approximate: true, coverage: town ? "community-research" : "statewide-only",
-      coverageNote: town ? coverageNote : "This ZIP is in Illinois, but this guide has no mapped local research entry for it. Showing statewide races only. Use the official address lookup to find your district and local ballot.",
+      approximate: true, coverage: town ? "census-zcta-research" : "statewide-only",
+      coverageNote: town ? coverageNote : "This Illinois postal ZIP has no Census ZCTA crosswalk in this guide. Showing statewide races only; no district is guessed from a nearby ZIP or community. Use the official address lookup to find your district and local ballot.",
+      geographySourceUrl: geography.meta.sourceUrl,
       addressLookupUrl: addressLookupUrl, electionAuthorityUrl: electionAuthorityUrl
     };
   }
 
   function resultForTown(town) {
+    const mapped = town.mappedGeographyZips.length > 0;
     return {
-      town: town, towns: [town], matchedLabel: town.name, matchedZip: "",
-      location: { zip: "", city: town.name, cities: [town.name], state: "IL", stateName: "Illinois", counties: town.county ? [town.county] : [] },
-      approximate: true, coverage: "community-research", coverageNote: coverageNote,
+      town: mapped ? town : null, towns: [town], matchedLabel: town.name, matchedZip: "",
+      location: { zip: "", city: town.name, cities: [town.name], state: "IL", stateName: "Illinois", counties: town.counties || [] },
+      approximate: true, coverage: mapped ? "community-research" : "statewide-only",
+      coverageNote: mapped ? "This community view combines its listed postal-code areas; it is not a municipal boundary. " + coverageNote : "This community has no Census ZCTA crosswalk in this guide. Use the official address lookup for your districts and local ballot.",
+      geographySourceUrl: geography.meta.sourceUrl,
       addressLookupUrl: addressLookupUrl, electionAuthorityUrl: electionAuthorityUrl
     };
   }
@@ -141,11 +175,15 @@
     const locations = postalCities.get(query);
     if (locations && locations.length) {
       const city = locations[0].cities.find(function (name) { return normalize(name) === query; }) || locations[0].city;
+      const area = geographyForZips(locations.map(function (item) { return item.zip; }));
+      const mapped = area.mappedGeographyZips.length > 0;
       return {
-        town: null, towns: [], matchedLabel: city + ", Illinois", matchedZip: "",
-        location: { zip: "", city: city, cities: [city], state: "IL", stateName: "Illinois", counties: unique(locations.reduce(function (all, item) { return all.concat(item.counties); }, [])), zips: locations.map(function (item) { return item.zip; }) },
-        approximate: true, coverage: "statewide-only",
-        coverageNote: "This Illinois city is in the postal directory, but this guide has no mapped local research entry for it. Showing statewide races only. Enter a ZIP code or use the official address lookup for your district and local ballot.",
+        town: mapped ? Object.assign({ id: "postal-city-" + query.replace(/\W+/g, "-"), name: city, zips: locations.map(function (item) { return item.zip; }) }, area) : null,
+        towns: [], matchedLabel: city + ", Illinois", matchedZip: "",
+        location: { zip: "", city: city, cities: [city], state: "IL", stateName: "Illinois", counties: mapped ? area.counties : unique(locations.reduce(function (all, item) { return all.concat(item.counties); }, [])), zips: locations.map(function (item) { return item.zip; }) },
+        approximate: true, coverage: mapped ? "postal-city-research" : "statewide-only",
+        coverageNote: mapped ? "This postal-city view combines its mapped postal-code areas; it is not a municipal boundary. " + coverageNote : "This Illinois postal city has no Census ZCTA crosswalk in this guide. Use the official address lookup for your districts and local ballot.",
+        geographySourceUrl: geography.meta.sourceUrl,
         addressLookupUrl: addressLookupUrl, electionAuthorityUrl: electionAuthorityUrl
       };
     }
@@ -163,7 +201,8 @@
     if (!query || query.length > 180) return [];
     if (/^\d{1,5}$/.test(query)) {
       return Array.from(zips.values()).filter(function (item) { return item.zip.indexOf(query) === 0; }).slice(0, limit).map(function (item) {
-        return { query: item.zip, zip: item.zip, label: item.city + " · " + item.zip, detail: item.counties.join(" / ") + " County · Illinois", kind: "zip" };
+        const counties = geography.zips[item.zip] ? geography.zips[item.zip].counties : item.counties;
+        return { query: item.zip, zip: item.zip, label: item.city + " · " + item.zip, detail: counties.join(" / ") + " County · Illinois", kind: "zip" };
       });
     }
     if (/\d/.test(query)) return [];
@@ -187,7 +226,7 @@
   }
 
   root.IL_LOCATION = Object.freeze({
-    resolve: resolve, suggestions: suggestions, meta: data.meta,
+    resolve: resolve, suggestions: suggestions, meta: data.meta, geographyMeta: geography.meta,
     zipCount: zips.size, addressLookupUrl: addressLookupUrl,
     electionAuthorityUrl: electionAuthorityUrl
   });

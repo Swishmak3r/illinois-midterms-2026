@@ -1,0 +1,308 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Five additional contests from the current official DuPage, Lake and Kane general-election lists. Research packet only; not an exact-ballot crosswalk.",
+  "additions": [
+    {
+      "id": "dupage-forest-preserve-president",
+      "office": "President of the Forest Preserve District of DuPage County",
+      "ballotOffice": "Forest Preserve — President",
+      "voteFor": 1,
+      "counties": [
+        "DuPage"
+      ],
+      "eligibilityScope": "countywide",
+      "mappingRecommendation": "May be included in DuPage county research results; a ZIP remains approximate.",
+      "rosterStatus": "official-general-election-list",
+      "candidates": [
+        {
+          "name": "Daniel Hebreard",
+          "party": "Democrat",
+          "incumbentStatus": "Incumbent"
+        },
+        {
+          "name": "Carl Schultz",
+          "party": "Republican",
+          "incumbentStatus": "Challenger"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+          "title": "DuPage County Clerk official 2026 General Election Candidate Listing",
+          "sourceDate": "2026-09-28",
+          "page": 4,
+          "fields": [
+            "identity",
+            "candidates",
+            "voteFor"
+          ],
+          "note": "Forest Preserve, President: Daniel Hebreard (Democratic), Carl Schultz (Republican); vote for 1."
+        },
+        {
+          "url": "https://www.dupageforest.org/about-us/our-board",
+          "title": "Forest Preserve District of DuPage County: Our Board",
+          "sourceDate": null,
+          "page": null,
+          "fields": [
+            "eligibilityScope",
+            "incumbentStatus"
+          ],
+          "note": "The district says its president is elected by the county at large and identifies current President Daniel Hebreard."
+        }
+      ],
+      "limitations": [
+        "No claim of comprehensive write-in coverage."
+      ]
+    },
+    {
+      "id": "dupage-regional-superintendent",
+      "office": "DuPage County Regional Superintendent of Schools",
+      "ballotOffice": "DuPage County Regional Superintendent of Schools",
+      "voteFor": 1,
+      "counties": [
+        "DuPage"
+      ],
+      "eligibilityScope": "educational-service-region",
+      "mappingRecommendation": "Directory only until education-service-region boundaries are mapped; do not attach to every DuPage ZIP. Official DuPage ballot also includes Kane ROE, showing the county alone is insufficient.",
+      "rosterStatus": "official-general-election-list",
+      "candidates": [
+        {
+          "name": "Rebecca Gamboa",
+          "party": "Democrat"
+        },
+        {
+          "name": "Amber M. Quirk",
+          "party": "Republican",
+          "incumbentStatus": "Incumbent"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+          "title": "DuPage County Clerk official 2026 General Election Candidate Listing",
+          "sourceDate": "2026-09-28",
+          "page": 4,
+          "fields": [
+            "identity",
+            "candidates",
+            "voteFor"
+          ],
+          "note": "DuPage County Regional Superintendent of Schools: Rebecca Gamboa (Democratic), Amber M. Quirk (Republican); vote for 1."
+        },
+        {
+          "url": "https://www.dupagecounty.gov/elected_officials/",
+          "title": "DuPage County elected officials",
+          "sourceDate": null,
+          "page": null,
+          "fields": [
+            "incumbentStatus"
+          ],
+          "note": "Lists Regional Office of Education Superintendent Amber Quirk; term expires June 30, 2027."
+        }
+      ],
+      "limitations": [
+        "Eligibility follows the educational service region and must be confirmed by address.",
+        "No claim of comprehensive write-in coverage."
+      ]
+    },
+    {
+      "id": "lake-regional-superintendent",
+      "office": "Lake County Regional Superintendent of Schools",
+      "ballotOffice": "LAKE COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS",
+      "voteFor": 1,
+      "counties": [
+        "Lake"
+      ],
+      "eligibilityScope": "educational-service-region",
+      "serviceRegion": "Lake 34",
+      "mappingRecommendation": "Directory only until educational-service-region boundaries are mapped. The same race is listed by Kane County, so county names are not exact eligibility boundaries.",
+      "rosterStatus": "official-general-election-list",
+      "candidates": [
+        {
+          "name": "Michael L. Karner",
+          "party": "Democrat",
+          "incumbentStatus": "Incumbent"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059",
+          "title": "Lake County Clerk general-election candidate list",
+          "sourceDate": "2026-09-09",
+          "page": 2,
+          "fields": [
+            "identity",
+            "candidates",
+            "voteFor"
+          ],
+          "note": "Regional Superintendent: Michael L. Karner (Democratic); vote for 1."
+        },
+        {
+          "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+          "title": "Kane County Clerk: Candidates for the 2026 General Election",
+          "sourceDate": null,
+          "page": null,
+          "section": "Educational Service Region - Lake 34",
+          "fields": [
+            "identity",
+            "candidates",
+            "voteFor",
+            "eligibilityScope"
+          ],
+          "note": "Lists Michael L. Karner (Democratic), No Candidate (Republican); vote for one. No Candidate is not a person."
+        },
+        {
+          "url": "https://www.lakecountyil.gov/2473/Elected-Officials",
+          "title": "Lake County elected officials",
+          "sourceDate": null,
+          "page": null,
+          "fields": [
+            "incumbentStatus"
+          ],
+          "note": "Identifies Dr. Michael Karner in the Regional Office of Education, term 2023–2027."
+        }
+      ],
+      "limitations": [
+        "Single printed name does not independently establish no valid write-in candidate.",
+        "Eligibility must be confirmed by educational service region."
+      ]
+    },
+    {
+      "id": "kane-regional-superintendent",
+      "office": "Kane County Regional Superintendent of Schools",
+      "ballotOffice": "KANE COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS",
+      "voteFor": 1,
+      "counties": [
+        "Kane"
+      ],
+      "eligibilityScope": "educational-service-region",
+      "serviceRegion": "Kane 31",
+      "mappingRecommendation": "Directory only until educational-service-region boundaries are mapped. The official DuPage list also contains this contest.",
+      "rosterStatus": "official-general-election-list",
+      "candidates": [
+        {
+          "name": "Jerry Cook",
+          "party": "Democrat"
+        },
+        {
+          "name": "John K. Jonak",
+          "party": "Republican"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+          "title": "Kane County Clerk: Candidates for the 2026 General Election",
+          "sourceDate": null,
+          "page": null,
+          "section": "Educational Service Region - Kane 31",
+          "fields": [
+            "identity",
+            "candidates",
+            "voteFor",
+            "eligibilityScope"
+          ],
+          "note": "Lists Jerry Cook (Democratic) and John K Jonak (Republican); vote for one. DuPage's list supplies the punctuation John K. Jonak."
+        },
+        {
+          "url": "https://cms5.revize.com/revize/dupage/Election/Documents/Candidate%20Information/WebsiteListingsByElection/2026GE/2026GE%20Candidate%20Listing.pdf",
+          "title": "DuPage County Clerk official 2026 General Election Candidate Listing",
+          "sourceDate": "2026-09-28",
+          "page": 4,
+          "fields": [
+            "identity",
+            "candidates",
+            "voteFor"
+          ],
+          "note": "Kane County Regional Superintendent of Schools: Jerry Cook (Democratic), John K. Jonak (Republican); vote for 1."
+        }
+      ],
+      "limitations": [
+        "Incumbency and open-seat status not separately verified in this packet.",
+        "Eligibility follows educational service region.",
+        "No claim of comprehensive write-in coverage."
+      ]
+    },
+    {
+      "id": "mchenry-regional-superintendent",
+      "office": "McHenry County Regional Superintendent of Schools",
+      "ballotOffice": "MCHENRY COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS",
+      "voteFor": 1,
+      "counties": [
+        "McHenry"
+      ],
+      "eligibilityScope": "educational-service-region",
+      "serviceRegion": "McHenry 44",
+      "mappingRecommendation": "Directory only until educational-service-region boundaries are mapped. Current roster verified directly through Kane County, which includes portions of this service region.",
+      "rosterStatus": "official-general-election-list",
+      "candidates": [
+        {
+          "name": "Bridget Belcastro",
+          "party": "Democrat"
+        },
+        {
+          "name": "Diana Hartmann",
+          "party": "Republican"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+          "title": "Kane County Clerk: Candidates for the 2026 General Election",
+          "sourceDate": null,
+          "page": null,
+          "section": "Educational Service Region- Mchenry 44",
+          "fields": [
+            "identity",
+            "candidates",
+            "voteFor",
+            "eligibilityScope"
+          ],
+          "note": "Lists Bridget Belcastro (Democratic), Diana Hartmann (Republican); vote for one."
+        }
+      ],
+      "limitations": [
+        "This evidence resolves the new ROE roster without relying on McHenry's blocked updated list; it does not resolve McHenry's clerk, sheriff or treasurer newest-list gap.",
+        "Incumbency not independently rechecked for the additions packet.",
+        "No claim of comprehensive write-in coverage."
+      ]
+    }
+  ],
+  "remainingGaps": [
+    {
+      "raceIds": [
+        "cook-comm-10"
+      ],
+      "status": "complete-current-official-roster-unretrieved",
+      "details": "Fresh searches and official Cook candidate-filing/Chicago election pages did not yield readable general roster. Clerk candidate-filing URL returned HTTP 402; Chicago pages inaccessible/403. Existing campaign and endorser evidence is not certification.",
+      "attemptedOfficialUrls": [
+        "https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-results/candidate-filing",
+        "https://chicagoelections.gov/",
+        "https://chicagoelections.gov/elections/candidate-information"
+      ]
+    },
+    {
+      "raceIds": [
+        "cook-comm-16"
+      ],
+      "status": "official-notice-reproduction-only",
+      "details": "October 21 Clerk Proviso specimen reproduced by NoticeRegistry lists Miranda E. Hernandez, Democratic, Commissioner 16th; no direct publisher/original certified file retrieved. Retain limitation rather than call it directly verified by county.",
+      "reproductionUrl": "https://www.noticeregistry.com/illinois/notice/public-hearing-maywood-3342540"
+    },
+    {
+      "raceIds": [
+        "mchenry-clerk",
+        "mchenry-treasurer",
+        "mchenry-sheriff"
+      ],
+      "status": "newest-official-roster-unretrieved",
+      "details": "June official list remains available as indexed official-domain text and matches represented names. County resources advertises August 24 update, but browser retrieval and direct public HTTP request both returned access denied. October 14 specimen reproduction matches all five printed names; no original retrieved.",
+      "officialUrls": [
+        "https://www.mchenrycountyil.gov/departments/county-clerk/elections/candidate",
+        "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000"
+      ],
+      "reproductionUrl": "https://www.noticeregistry.com/illinois/notice/public-hearing-mchenry-3334507",
+      "reproductionPublication": "McHenry County Chronicle, October 14, 2026, notice 008-362346"
+    }
+  ]
+}

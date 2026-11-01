@@ -160,6 +160,12 @@ window.IL_ISSUE_DEFINITIONS = {
       "label": "Election administration & county services",
       "shortLabel": "Election administration",
       "summary": "Election operations, voter services and county service delivery."
+    },
+    {
+      "key": "education",
+      "label": "Schools & regional education services",
+      "shortLabel": "Education",
+      "summary": "School services, educator support and student wellbeing."
     }
   ]
 };
@@ -173,7 +179,59 @@ window.IL_TOWNS_DIRECTORY = [
       "60602",
       "60603",
       "60604",
-      "60699"
+      "60605",
+      "60606",
+      "60607",
+      "60608",
+      "60609",
+      "60610",
+      "60611",
+      "60612",
+      "60613",
+      "60614",
+      "60615",
+      "60616",
+      "60617",
+      "60618",
+      "60619",
+      "60620",
+      "60621",
+      "60622",
+      "60623",
+      "60624",
+      "60625",
+      "60626",
+      "60628",
+      "60629",
+      "60630",
+      "60631",
+      "60632",
+      "60633",
+      "60634",
+      "60636",
+      "60637",
+      "60638",
+      "60639",
+      "60640",
+      "60641",
+      "60643",
+      "60644",
+      "60645",
+      "60646",
+      "60647",
+      "60649",
+      "60651",
+      "60652",
+      "60653",
+      "60654",
+      "60655",
+      "60656",
+      "60657",
+      "60659",
+      "60660",
+      "60661",
+      "60666",
+      "60706"
     ],
     "aliases": [
       "Chicago",
@@ -192,24 +250,195 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-05",
       "IL-06",
       "IL-07",
+      "IL-08",
       "IL-09"
     ],
     "stateSenate": [
+      "SD-2",
+      "SD-3",
+      "SD-5",
+      "SD-6",
       "SD-8",
       "SD-9",
+      "SD-11",
+      "SD-12",
+      "SD-14",
+      "SD-15",
+      "SD-17",
+      "SD-18",
+      "SD-20",
       "SD-39"
     ],
     "stateHouse": [
+      "HD-1",
+      "HD-2",
+      "HD-3",
+      "HD-4",
+      "HD-5",
+      "HD-6",
+      "HD-8",
+      "HD-9",
+      "HD-10",
+      "HD-11",
+      "HD-12",
+      "HD-13",
+      "HD-14",
+      "HD-15",
+      "HD-16",
+      "HD-18",
+      "HD-19",
+      "HD-20",
+      "HD-21",
+      "HD-22",
+      "HD-23",
+      "HD-24",
+      "HD-25",
       "HD-26",
-      "HD-7"
+      "HD-27",
+      "HD-28",
+      "HD-29",
+      "HD-31",
+      "HD-32",
+      "HD-33",
+      "HD-34",
+      "HD-35",
+      "HD-36",
+      "HD-39",
+      "HD-40",
+      "HD-55",
+      "HD-78"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60601",
+      "60602",
+      "60603",
+      "60604",
+      "60605",
+      "60606",
+      "60607",
+      "60608",
+      "60609",
+      "60610",
+      "60611",
+      "60612",
+      "60613",
+      "60614",
+      "60615",
+      "60616",
+      "60617",
+      "60618",
+      "60619",
+      "60620",
+      "60621",
+      "60622",
+      "60623",
+      "60624",
+      "60625",
+      "60626",
+      "60628",
+      "60629",
+      "60630",
+      "60631",
+      "60632",
+      "60633",
+      "60634",
+      "60636",
+      "60637",
+      "60638",
+      "60639",
+      "60640",
+      "60641",
+      "60643",
+      "60644",
+      "60645",
+      "60646",
+      "60647",
+      "60649",
+      "60651",
+      "60652",
+      "60653",
+      "60654",
+      "60655",
+      "60656",
+      "60657",
+      "60659",
+      "60660",
+      "60661",
+      "60706"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-loop-downtown",
@@ -252,14 +481,21 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Chicago",
     "county": "Cook",
     "usHouse": [
-      "IL-07",
-      "IL-05"
+      "IL-01",
+      "IL-05",
+      "IL-07"
     ],
     "stateSenate": [
-      "SD-8",
-      "SD-39"
+      "SD-3",
+      "SD-5",
+      "SD-6"
     ],
     "stateHouse": [
+      "HD-5",
+      "HD-6",
+      "HD-9",
+      "HD-10",
+      "HD-12",
       "HD-26"
     ],
     "localRaces": [
@@ -267,8 +503,87 @@ window.IL_TOWNS_DIRECTORY = [
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60601",
+      "60602",
+      "60603",
+      "60604",
+      "60605",
+      "60606",
+      "60607",
+      "60610",
+      "60611",
+      "60654",
+      "60661"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-lincoln-park-lakeview",
@@ -307,24 +622,111 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Chicago",
     "county": "Cook",
     "usHouse": [
+      "IL-03",
       "IL-05",
+      "IL-07",
       "IL-09"
     ],
     "stateSenate": [
+      "SD-5",
+      "SD-6",
       "SD-8",
-      "SD-9"
+      "SD-20"
     ],
     "stateHouse": [
-      "HD-26",
-      "HD-18"
+      "HD-9",
+      "HD-10",
+      "HD-11",
+      "HD-12",
+      "HD-13",
+      "HD-14",
+      "HD-15",
+      "HD-16",
+      "HD-19",
+      "HD-39",
+      "HD-40"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60613",
+      "60614",
+      "60618",
+      "60625",
+      "60640",
+      "60657"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-rogers-park-edgewater",
@@ -360,23 +762,102 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Chicago",
     "county": "Cook",
     "usHouse": [
-      "IL-09",
-      "IL-05"
+      "IL-05",
+      "IL-09"
     ],
     "stateSenate": [
       "SD-8",
       "SD-9"
     ],
     "stateHouse": [
-      "HD-18"
+      "HD-13",
+      "HD-14",
+      "HD-15",
+      "HD-16",
+      "HD-18",
+      "HD-19",
+      "HD-20"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60626",
+      "60645",
+      "60646",
+      "60659",
+      "60660"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-logan-square-avondale",
@@ -419,20 +900,103 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-07"
     ],
     "stateSenate": [
+      "SD-2",
+      "SD-5",
       "SD-8",
+      "SD-20",
       "SD-39"
     ],
     "stateHouse": [
-      "HD-7",
-      "HD-26"
+      "HD-3",
+      "HD-4",
+      "HD-8",
+      "HD-10",
+      "HD-15",
+      "HD-19",
+      "HD-39",
+      "HD-40",
+      "HD-78"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60622",
+      "60639",
+      "60641",
+      "60647",
+      "60651"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-jefferson-park-norwood",
@@ -469,23 +1033,105 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Chicago",
     "county": "Cook",
     "usHouse": [
+      "IL-03",
       "IL-05",
-      "IL-03"
+      "IL-08",
+      "IL-09"
     ],
     "stateSenate": [
+      "SD-2",
       "SD-8",
-      "SD-39"
+      "SD-20"
     ],
     "stateHouse": [
-      "HD-7"
+      "HD-3",
+      "HD-15",
+      "HD-19",
+      "HD-20",
+      "HD-39",
+      "HD-40",
+      "HD-55"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60630",
+      "60631",
+      "60634",
+      "60656",
+      "60706"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-pilsen-little-village",
@@ -529,23 +1175,110 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Chicago",
     "county": "Cook",
     "usHouse": [
+      "IL-01",
       "IL-04",
+      "IL-06",
       "IL-07"
     ],
     "stateSenate": [
-      "SD-39"
+      "SD-3",
+      "SD-5",
+      "SD-11",
+      "SD-12"
     ],
     "stateHouse": [
+      "HD-1",
+      "HD-2",
+      "HD-5",
+      "HD-6",
+      "HD-9",
+      "HD-22",
+      "HD-23",
+      "HD-24",
       "HD-26",
-      "HD-7"
+      "HD-32"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60608",
+      "60609",
+      "60616",
+      "60623",
+      "60629",
+      "60632"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-west-side-austin",
@@ -578,22 +1311,102 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Chicago",
     "county": "Cook",
     "usHouse": [
+      "IL-03",
+      "IL-04",
       "IL-07"
     ],
     "stateSenate": [
+      "SD-2",
+      "SD-5",
+      "SD-12",
       "SD-39"
     ],
     "stateHouse": [
-      "HD-7",
-      "HD-26"
+      "HD-4",
+      "HD-8",
+      "HD-9",
+      "HD-10",
+      "HD-23",
+      "HD-78"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60612",
+      "60624",
+      "60644"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-hyde-park-bronzeville",
@@ -638,18 +1451,101 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-07"
     ],
     "stateSenate": [
-      "SD-39"
+      "SD-3",
+      "SD-15",
+      "SD-17"
     ],
     "stateHouse": [
-      "HD-26"
+      "HD-5",
+      "HD-6",
+      "HD-25",
+      "HD-26",
+      "HD-29",
+      "HD-32",
+      "HD-33",
+      "HD-34"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60615",
+      "60617",
+      "60633",
+      "60637",
+      "60649",
+      "60653"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-chatham-englewood",
@@ -687,19 +1583,113 @@ window.IL_TOWNS_DIRECTORY = [
     "county": "Cook",
     "usHouse": [
       "IL-01",
-      "IL-02"
+      "IL-02",
+      "IL-04",
+      "IL-06",
+      "IL-07"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-3",
+      "SD-14",
+      "SD-15",
+      "SD-17",
+      "SD-18"
+    ],
     "stateHouse": [
-      "HD-26"
+      "HD-1",
+      "HD-5",
+      "HD-6",
+      "HD-26",
+      "HD-27",
+      "HD-28",
+      "HD-29",
+      "HD-31",
+      "HD-32",
+      "HD-33",
+      "HD-34",
+      "HD-35",
+      "HD-36"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60619",
+      "60620",
+      "60621",
+      "60628",
+      "60636"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-beverly-mt-greenwood",
@@ -732,20 +1722,107 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Chicago",
     "county": "Cook",
     "usHouse": [
+      "IL-01",
+      "IL-04",
       "IL-06",
-      "IL-01"
+      "IL-07"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-11",
+      "SD-14",
+      "SD-18"
+    ],
     "stateHouse": [
-      "HD-37"
+      "HD-1",
+      "HD-2",
+      "HD-21",
+      "HD-22",
+      "HD-27",
+      "HD-28",
+      "HD-31",
+      "HD-32",
+      "HD-35",
+      "HD-36"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60638",
+      "60643",
+      "60652",
+      "60655"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "evanston",
@@ -769,9 +1846,13 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-09"
     ],
     "stateSenate": [
+      "SD-8",
       "SD-9"
     ],
     "stateHouse": [
+      "HD-14",
+      "HD-16",
+      "HD-17",
       "HD-18"
     ],
     "localRaces": [
@@ -779,8 +1860,80 @@ window.IL_TOWNS_DIRECTORY = [
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60201",
+      "60202",
+      "60203",
+      "60208"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "skokie",
@@ -797,6 +1950,7 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (Near North Suburbs)",
     "county": "Cook",
     "usHouse": [
+      "IL-05",
       "IL-09"
     ],
     "stateSenate": [
@@ -804,6 +1958,9 @@ window.IL_TOWNS_DIRECTORY = [
       "SD-9"
     ],
     "stateHouse": [
+      "HD-15",
+      "HD-16",
+      "HD-17",
       "HD-18"
     ],
     "localRaces": [
@@ -811,8 +1968,78 @@ window.IL_TOWNS_DIRECTORY = [
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60076",
+      "60077"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "glenview",
@@ -831,24 +2058,97 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (North Shore)",
     "county": "Cook",
     "usHouse": [
-      "IL-09",
       "IL-05",
+      "IL-09",
       "IL-10"
     ],
     "stateSenate": [
       "SD-9",
-      "SD-8"
+      "SD-29"
     ],
     "stateHouse": [
-      "HD-18"
+      "HD-17",
+      "HD-55",
+      "HD-57"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60025",
+      "60026",
+      "60029"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "northbrook",
@@ -864,22 +2164,95 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (North Shore)",
     "county": "Cook",
     "usHouse": [
-      "IL-10",
-      "IL-09"
+      "IL-09",
+      "IL-10"
     ],
     "stateSenate": [
-      "SD-9"
+      "SD-9",
+      "SD-29"
     ],
     "stateHouse": [
-      "HD-18"
+      "HD-17",
+      "HD-18",
+      "HD-57",
+      "HD-58"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60062"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "wilmette-winnetka",
@@ -906,18 +2279,94 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-10"
     ],
     "stateSenate": [
-      "SD-9"
+      "SD-9",
+      "SD-29"
     ],
     "stateHouse": [
-      "HD-18"
+      "HD-17",
+      "HD-18",
+      "HD-57",
+      "HD-58"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60022",
+      "60043",
+      "60091",
+      "60093"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "niles-morton-grove",
@@ -935,22 +2384,98 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (Near North Suburbs)",
     "county": "Cook",
     "usHouse": [
-      "IL-09",
-      "IL-05"
+      "IL-05",
+      "IL-09"
     ],
     "stateSenate": [
-      "SD-8"
+      "SD-8",
+      "SD-9"
     ],
     "stateHouse": [
-      "HD-18"
+      "HD-15",
+      "HD-16",
+      "HD-17",
+      "HD-20",
+      "HD-55"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60053",
+      "60712",
+      "60714"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "park-ridge",
@@ -969,22 +2494,96 @@ window.IL_TOWNS_DIRECTORY = [
     "county": "Cook",
     "usHouse": [
       "IL-05",
+      "IL-08",
       "IL-09"
     ],
     "stateSenate": [
-      "SD-27",
-      "SD-39"
+      "SD-8"
     ],
     "stateHouse": [
-      "HD-7"
+      "HD-15",
+      "HD-19",
+      "HD-20",
+      "HD-55",
+      "HD-56"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60068",
+      "60706"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "des-plaines",
@@ -1002,24 +2601,103 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (Northwest Suburbs)",
     "county": "Cook",
     "usHouse": [
+      "IL-03",
+      "IL-05",
       "IL-08",
-      "IL-09",
-      "IL-05"
+      "IL-09"
     ],
     "stateSenate": [
+      "SD-9",
       "SD-27",
-      "SD-8"
+      "SD-29",
+      "SD-39"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-17",
+      "HD-20",
+      "HD-53",
+      "HD-55",
+      "HD-56",
+      "HD-57",
+      "HD-77"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60016",
+      "60018"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "arlington-heights",
@@ -1038,25 +2716,113 @@ window.IL_TOWNS_DIRECTORY = [
       "Wheeling Township"
     ],
     "region": "Suburban Cook (Northwest Suburbs)",
-    "county": "Cook",
+    "county": "Cook / Lake",
     "usHouse": [
-      "IL-08",
+      "IL-03",
       "IL-05",
-      "IL-09"
+      "IL-08",
+      "IL-09",
+      "IL-10"
     ],
     "stateSenate": [
-      "SD-27"
+      "SD-26",
+      "SD-27",
+      "SD-29",
+      "SD-30"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-51",
+      "HD-53",
+      "HD-54",
+      "HD-56",
+      "HD-57",
+      "HD-59"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "lake-clerk",
+      "lake-treasurer",
+      "lake-sheriff",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-19th-circuit-retain-booras",
+      "sbe-local-19th-circuit-retain-slavin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Lake"
+    ],
+    "mappedGeographyZips": [
+      "60004",
+      "60005",
+      "60070",
+      "60090"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "schaumburg",
@@ -1083,25 +2849,122 @@ window.IL_TOWNS_DIRECTORY = [
       "Woodfield"
     ],
     "region": "Suburban Cook (Northwest Suburbs)",
-    "county": "Cook",
+    "county": "Cook / DuPage",
     "usHouse": [
+      "IL-03",
+      "IL-05",
       "IL-08"
     ],
     "stateSenate": [
-      "SD-27",
+      "SD-23",
+      "SD-24",
       "SD-26",
-      "SD-24"
+      "SD-27"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-43",
+      "HD-44",
+      "HD-46",
+      "HD-48",
+      "HD-49",
+      "HD-51",
+      "HD-52",
+      "HD-53",
+      "HD-56"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "dupage-board-chair",
+      "dupage-sheriff",
+      "dupage-clerk",
+      "dupage-treasurer",
+      "will-appellate-court-3rd",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "DuPage"
+    ],
+    "mappedGeographyZips": [
+      "60107",
+      "60133",
+      "60169",
+      "60173",
+      "60192",
+      "60193",
+      "60194",
+      "60195"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "mount-prospect-palatine",
@@ -1122,26 +2985,110 @@ window.IL_TOWNS_DIRECTORY = [
       "Palatine Township"
     ],
     "region": "Suburban Cook (Northwest Suburbs)",
-    "county": "Cook",
+    "county": "Cook / Lake",
     "usHouse": [
-      "IL-08",
+      "IL-03",
       "IL-05",
-      "IL-06"
+      "IL-08",
+      "IL-09"
     ],
     "stateSenate": [
+      "SD-26",
       "SD-27",
-      "SD-26"
+      "SD-29"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-51",
+      "HD-53",
+      "HD-54",
+      "HD-56",
+      "HD-57"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "lake-clerk",
+      "lake-treasurer",
+      "lake-sheriff",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-19th-circuit-retain-booras",
+      "sbe-local-19th-circuit-retain-slavin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Lake"
+    ],
+    "mappedGeographyZips": [
+      "60008",
+      "60056",
+      "60067",
+      "60074"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "elk-grove-village",
@@ -1158,24 +3105,109 @@ window.IL_TOWNS_DIRECTORY = [
       "Elk Grove Township"
     ],
     "region": "Suburban Cook & DuPage (Northwest Suburbs)",
-    "county": "Cook",
+    "county": "Cook / DuPage",
     "usHouse": [
+      "IL-03",
       "IL-08"
     ],
     "stateSenate": [
       "SD-24",
-      "SD-27"
+      "SD-27",
+      "SD-39"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-48",
+      "HD-53",
+      "HD-56",
+      "HD-77"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "dupage-board-chair",
+      "dupage-sheriff",
+      "dupage-clerk",
+      "dupage-treasurer",
+      "will-appellate-court-3rd",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "DuPage"
+    ],
+    "mappedGeographyZips": [
+      "60007",
+      "60143"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "oak-park-river-forest",
@@ -1200,21 +3232,106 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (Near West Suburbs)",
     "county": "Cook",
     "usHouse": [
+      "IL-03",
+      "IL-04",
       "IL-07"
     ],
     "stateSenate": [
+      "SD-2",
+      "SD-11",
       "SD-39"
     ],
     "stateHouse": [
-      "HD-7"
+      "HD-3",
+      "HD-4",
+      "HD-7",
+      "HD-8",
+      "HD-20",
+      "HD-21",
+      "HD-77",
+      "HD-78"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60130",
+      "60301",
+      "60302",
+      "60304",
+      "60305",
+      "60707"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "maywood-proviso",
@@ -1252,22 +3369,112 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (West Suburbs)",
     "county": "Cook",
     "usHouse": [
+      "IL-03",
+      "IL-04",
+      "IL-05",
+      "IL-06",
       "IL-07",
-      "IL-04"
+      "IL-08"
     ],
     "stateSenate": [
+      "SD-23",
       "SD-39"
     ],
     "stateHouse": [
-      "HD-7"
+      "HD-7",
+      "HD-8",
+      "HD-20",
+      "HD-45",
+      "HD-77",
+      "HD-78"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60104",
+      "60131",
+      "60153",
+      "60154",
+      "60155",
+      "60160",
+      "60162",
+      "60163",
+      "60164",
+      "60165",
+      "60171",
+      "60176"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "cicero-berwyn",
@@ -1285,21 +3492,97 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (Near West Suburbs)",
     "county": "Cook",
     "usHouse": [
-      "IL-04"
+      "IL-04",
+      "IL-07"
     ],
     "stateSenate": [
-      "SD-39"
+      "SD-11",
+      "SD-12"
     ],
     "stateHouse": [
-      "HD-7"
+      "HD-1",
+      "HD-2",
+      "HD-8",
+      "HD-21",
+      "HD-23"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60402",
+      "60804"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "la-grange-western-springs",
@@ -1336,25 +3619,136 @@ window.IL_TOWNS_DIRECTORY = [
       "Willow Springs"
     ],
     "region": "Suburban Cook (West Suburbs)",
-    "county": "Cook",
+    "county": "Cook / DuPage / Will",
     "usHouse": [
+      "IL-01",
       "IL-04",
-      "IL-06"
+      "IL-06",
+      "IL-07",
+      "IL-11",
+      "IL-14"
     ],
     "stateSenate": [
-      "SD-41",
-      "SD-39"
+      "SD-11",
+      "SD-18",
+      "SD-23",
+      "SD-41"
     ],
     "stateHouse": [
-      "HD-7"
+      "HD-2",
+      "HD-7",
+      "HD-8",
+      "HD-21",
+      "HD-31",
+      "HD-36",
+      "HD-37",
+      "HD-45",
+      "HD-82",
+      "HD-85"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "dupage-board-chair",
+      "dupage-sheriff",
+      "dupage-clerk",
+      "dupage-treasurer",
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "DuPage",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60439",
+      "60458",
+      "60480",
+      "60501",
+      "60513",
+      "60525",
+      "60526",
+      "60534",
+      "60546",
+      "60558"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "orland-park",
@@ -1371,22 +3765,112 @@ window.IL_TOWNS_DIRECTORY = [
       "Orland Township"
     ],
     "region": "Suburban Cook (Southwest Suburbs)",
-    "county": "Cook",
+    "county": "Cook / Will",
     "usHouse": [
+      "IL-01",
       "IL-06",
-      "IL-01"
+      "IL-11"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-14",
+      "SD-18",
+      "SD-41"
+    ],
     "stateHouse": [
-      "HD-37"
+      "HD-27",
+      "HD-28",
+      "HD-35",
+      "HD-36",
+      "HD-37",
+      "HD-82"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60462",
+      "60464",
+      "60467"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "tinley-park",
@@ -1407,22 +3891,114 @@ window.IL_TOWNS_DIRECTORY = [
       "Bremen Township"
     ],
     "region": "Suburban Cook & Will (Southwest Suburbs)",
-    "county": "Cook",
+    "county": "Cook / Will",
     "usHouse": [
       "IL-01",
+      "IL-02",
       "IL-06"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-14",
+      "SD-15",
+      "SD-18"
+    ],
     "stateHouse": [
-      "HD-37"
+      "HD-27",
+      "HD-28",
+      "HD-30",
+      "HD-35",
+      "HD-37",
+      "HD-38"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60445",
+      "60452",
+      "60477",
+      "60478",
+      "60487"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "oak-lawn-palos",
@@ -1461,19 +4037,117 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (Southwest Suburbs)",
     "county": "Cook",
     "usHouse": [
+      "IL-01",
+      "IL-02",
+      "IL-04",
       "IL-06"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-11",
+      "SD-14",
+      "SD-15",
+      "SD-18",
+      "SD-41"
+    ],
     "stateHouse": [
-      "HD-37"
+      "HD-21",
+      "HD-22",
+      "HD-27",
+      "HD-28",
+      "HD-30",
+      "HD-31",
+      "HD-32",
+      "HD-35",
+      "HD-36",
+      "HD-82"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60406",
+      "60415",
+      "60453",
+      "60455",
+      "60456",
+      "60457",
+      "60459",
+      "60463",
+      "60465",
+      "60482",
+      "60803",
+      "60805"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "chicago-heights-flossmoor",
@@ -1521,21 +4195,129 @@ window.IL_TOWNS_DIRECTORY = [
       "Rich Township"
     ],
     "region": "Suburban Cook (South Suburbs)",
-    "county": "Cook",
+    "county": "Cook / Kankakee / Will",
     "usHouse": [
+      "IL-01",
       "IL-02"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-15",
+      "SD-17"
+    ],
     "stateHouse": [
-      "HD-37"
+      "HD-29",
+      "HD-30",
+      "HD-33",
+      "HD-34",
+      "HD-37",
+      "HD-38",
+      "HD-79",
+      "HD-80"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-21st-circuit-retain-sabol",
+      "sbe-local-21st-circuit-retain-dickenson",
+      "sbe-local-21st-circuit-retain-parkhurst",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Kankakee",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60401",
+      "60411",
+      "60417",
+      "60422",
+      "60423",
+      "60425",
+      "60429",
+      "60430",
+      "60443",
+      "60449",
+      "60461",
+      "60466",
+      "60468",
+      "60471",
+      "60475",
+      "60484"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "calumet-city-harvey-dolton",
@@ -1572,20 +4354,109 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Suburban Cook (South Suburbs)",
     "county": "Cook",
     "usHouse": [
+      "IL-01",
       "IL-02",
-      "IL-01"
+      "IL-06"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-14",
+      "SD-15",
+      "SD-17"
+    ],
     "stateHouse": [
-      "HD-26"
+      "HD-27",
+      "HD-28",
+      "HD-29",
+      "HD-30",
+      "HD-33",
+      "HD-34",
+      "HD-38"
     ],
     "localRaces": [
       "cook-president",
       "cook-assessor",
       "cook-sheriff",
       "cook-clerk",
-      "cook-treasurer"
-    ]
+      "cook-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook"
+    ],
+    "mappedGeographyZips": [
+      "60409",
+      "60419",
+      "60426",
+      "60428",
+      "60438",
+      "60469",
+      "60472",
+      "60473",
+      "60476",
+      "60827"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "naperville",
@@ -1604,31 +4475,60 @@ window.IL_TOWNS_DIRECTORY = [
       "Wheatland Township"
     ],
     "region": "Collar Counties (DuPage & Will)",
-    "county": "DuPage",
+    "county": "DuPage / Will",
     "usHouse": [
+      "IL-03",
+      "IL-06",
       "IL-11",
-      "IL-14",
-      "IL-08"
+      "IL-14"
     ],
     "stateSenate": [
       "SD-21",
+      "SD-24",
       "SD-41",
-      "SD-24"
+      "SD-42"
     ],
     "stateHouse": [
-      "HD-47",
-      "HD-84",
-      "HD-97",
       "HD-41",
-      "HD-85"
+      "HD-42",
+      "HD-47",
+      "HD-49",
+      "HD-50",
+      "HD-81",
+      "HD-84",
+      "HD-85",
+      "HD-97"
     ],
     "localRaces": [
       "dupage-board-chair",
       "dupage-sheriff",
       "dupage-clerk",
       "dupage-treasurer",
-      "will-appellate-court-3rd"
-    ]
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell"
+    ],
+    "counties": [
+      "DuPage",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60540",
+      "60563",
+      "60564",
+      "60565"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "aurora",
@@ -1653,23 +4553,71 @@ window.IL_TOWNS_DIRECTORY = [
       "Fox Valley"
     ],
     "region": "Collar Counties (Kane, DuPage, Will & Kendall)",
-    "county": "Kane",
+    "county": "DuPage / Kane / Kendall / Will",
     "usHouse": [
       "IL-11",
       "IL-14"
     ],
     "stateSenate": [
-      "SD-33"
+      "SD-21",
+      "SD-35",
+      "SD-38",
+      "SD-42"
     ],
     "stateHouse": [
+      "HD-41",
+      "HD-49",
+      "HD-50",
+      "HD-70",
+      "HD-75",
+      "HD-83",
       "HD-84",
       "HD-97"
     ],
     "localRaces": [
+      "dupage-board-chair",
+      "dupage-sheriff",
+      "dupage-clerk",
+      "dupage-treasurer",
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
       "kane-sheriff",
       "kane-clerk",
-      "kane-treasurer"
-    ]
+      "kane-treasurer",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-23rd-circuit-retain-gleason"
+    ],
+    "counties": [
+      "DuPage",
+      "Kane",
+      "Kendall",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60502",
+      "60503",
+      "60504",
+      "60505",
+      "60506",
+      "60538",
+      "60542",
+      "60554"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "joliet",
@@ -1704,29 +4652,66 @@ window.IL_TOWNS_DIRECTORY = [
       "Will County"
     ],
     "region": "Collar Counties (Will & Kendall)",
-    "county": "Will",
+    "county": "Grundy / Kankakee / Kendall / Will",
     "usHouse": [
+      "IL-01",
+      "IL-02",
       "IL-14",
-      "IL-01"
+      "IL-16"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-38",
+      "SD-53"
+    ],
     "stateHouse": [
-      "HD-97",
       "HD-37",
+      "HD-75",
+      "HD-79",
+      "HD-80",
+      "HD-85",
+      "HD-86",
+      "HD-97",
       "HD-98",
-      "HD-85"
+      "HD-106"
     ],
     "localRaces": [
       "will-clerk",
       "will-sheriff",
       "will-treasurer",
-      "will-regional-superintendent",
       "will-appellate-court-3rd",
-      "will-circuit-court-1st-subcircuit",
-      "will-circuit-court-3rd-subcircuit",
-      "will-circuit-court-5th-subcircuit",
-      "will-judicial-retention"
-    ]
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-13th-circuit-retain-sobol",
+      "sbe-local-21st-circuit-retain-sabol",
+      "sbe-local-21st-circuit-retain-dickenson",
+      "sbe-local-21st-circuit-retain-parkhurst",
+      "sbe-local-23rd-circuit-retain-gleason"
+    ],
+    "counties": [
+      "Grundy",
+      "Kankakee",
+      "Kendall",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60403",
+      "60404",
+      "60408",
+      "60410",
+      "60416",
+      "60421",
+      "60431",
+      "60432",
+      "60433",
+      "60435",
+      "60436",
+      "60447",
+      "60481"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "elgin",
@@ -1751,22 +4736,126 @@ window.IL_TOWNS_DIRECTORY = [
       "Plato Center"
     ],
     "region": "Collar Counties (Kane & Cook)",
-    "county": "Kane",
+    "county": "Cook / DeKalb / Kane / McHenry",
     "usHouse": [
+      "IL-03",
       "IL-08",
       "IL-11"
     ],
     "stateSenate": [
-      "SD-33"
+      "SD-33",
+      "SD-35",
+      "SD-45"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-43",
+      "HD-44",
+      "HD-49",
+      "HD-65",
+      "HD-66",
+      "HD-69",
+      "HD-70",
+      "HD-89"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "kane-sheriff",
       "kane-clerk",
-      "kane-treasurer"
-    ]
+      "kane-treasurer",
+      "mchenry-sheriff",
+      "mchenry-clerk",
+      "mchenry-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-22nd-circuit-retain-feetterer",
+      "sbe-local-22nd-circuit-retain-gervais",
+      "sbe-local-22nd-circuit-retain-hansen",
+      "sbe-local-22nd-circuit-retain-gerhardt",
+      "sbe-local-23rd-circuit-retain-gleason",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "DeKalb",
+      "Kane",
+      "McHenry"
+    ],
+    "mappedGeographyZips": [
+      "60120",
+      "60123",
+      "60124",
+      "60136",
+      "60140",
+      "60177"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "waukegan-north-chicago",
@@ -1796,16 +4885,37 @@ window.IL_TOWNS_DIRECTORY = [
       "IL-10"
     ],
     "stateSenate": [
+      "SD-29",
       "SD-30"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-58",
+      "HD-59",
+      "HD-60",
+      "HD-61",
+      "HD-62"
     ],
     "localRaces": [
       "lake-clerk",
       "lake-treasurer",
-      "lake-sheriff"
-    ]
+      "lake-sheriff",
+      "sbe-local-19th-circuit-retain-booras",
+      "sbe-local-19th-circuit-retain-slavin"
+    ],
+    "counties": [
+      "Lake"
+    ],
+    "mappedGeographyZips": [
+      "60064",
+      "60083",
+      "60085",
+      "60087",
+      "60088",
+      "60096",
+      "60099"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "wheaton-glen-ellyn",
@@ -1829,27 +4939,60 @@ window.IL_TOWNS_DIRECTORY = [
       "Milton Township"
     ],
     "region": "Collar Counties (DuPage County)",
-    "county": "DuPage",
+    "county": "DuPage / Kane",
     "usHouse": [
       "IL-03",
       "IL-06",
+      "IL-08",
       "IL-11"
     ],
     "stateSenate": [
       "SD-21",
+      "SD-23",
       "SD-24",
-      "SD-41"
+      "SD-33"
     ],
     "stateHouse": [
+      "HD-41",
+      "HD-42",
+      "HD-46",
       "HD-47",
-      "HD-41"
+      "HD-49",
+      "HD-50",
+      "HD-65"
     ],
     "localRaces": [
       "dupage-board-chair",
       "dupage-sheriff",
       "dupage-clerk",
-      "dupage-treasurer"
-    ]
+      "dupage-treasurer",
+      "will-appellate-court-3rd",
+      "kane-sheriff",
+      "kane-clerk",
+      "kane-treasurer",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell"
+    ],
+    "counties": [
+      "DuPage",
+      "Kane"
+    ],
+    "mappedGeographyZips": [
+      "60137",
+      "60185",
+      "60187",
+      "60189",
+      "60190",
+      "60555"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "downers-grove-hinsdale",
@@ -1879,24 +5022,129 @@ window.IL_TOWNS_DIRECTORY = [
       "Downers Grove Township"
     ],
     "region": "Collar Counties (SE DuPage County)",
-    "county": "DuPage",
+    "county": "Cook / DuPage / Will",
     "usHouse": [
+      "IL-04",
       "IL-06",
       "IL-11"
     ],
     "stateSenate": [
-      "SD-41",
-      "SD-21"
+      "SD-21",
+      "SD-23",
+      "SD-24",
+      "SD-41"
     ],
     "stateHouse": [
-      "HD-47"
+      "HD-7",
+      "HD-42",
+      "HD-45",
+      "HD-47",
+      "HD-81",
+      "HD-82",
+      "HD-85"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "dupage-board-chair",
       "dupage-sheriff",
       "dupage-clerk",
-      "dupage-treasurer"
-    ]
+      "dupage-treasurer",
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "DuPage",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60514",
+      "60515",
+      "60516",
+      "60517",
+      "60521",
+      "60527",
+      "60532",
+      "60559",
+      "60561"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "elmhurst-lombard-oak-brook",
@@ -1916,26 +5164,115 @@ window.IL_TOWNS_DIRECTORY = [
       "York Township"
     ],
     "region": "Collar Counties (East DuPage County)",
-    "county": "DuPage",
+    "county": "Cook / DuPage",
     "usHouse": [
-      "IL-06",
       "IL-03",
+      "IL-04",
+      "IL-06",
+      "IL-07",
       "IL-08"
     ],
     "stateSenate": [
-      "SD-24",
-      "SD-39",
-      "SD-21"
+      "SD-21",
+      "SD-23",
+      "SD-39"
     ],
     "stateHouse": [
-      "HD-47"
+      "HD-7",
+      "HD-42",
+      "HD-45",
+      "HD-46",
+      "HD-77"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "dupage-board-chair",
       "dupage-sheriff",
       "dupage-clerk",
-      "dupage-treasurer"
-    ]
+      "dupage-treasurer",
+      "will-appellate-court-3rd",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "DuPage"
+    ],
+    "mappedGeographyZips": [
+      "60126",
+      "60148",
+      "60181",
+      "60523"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "carol-stream-bloomingdale-bartlett",
@@ -1967,23 +5304,134 @@ window.IL_TOWNS_DIRECTORY = [
       "Addison Township"
     ],
     "region": "Collar Counties (North DuPage & NW Cook)",
-    "county": "DuPage",
+    "county": "Cook / DuPage / Kane",
     "usHouse": [
-      "IL-08",
-      "IL-03"
+      "IL-03",
+      "IL-05",
+      "IL-06",
+      "IL-08"
     ],
     "stateSenate": [
-      "SD-24"
+      "SD-23",
+      "SD-24",
+      "SD-33",
+      "SD-39"
     ],
     "stateHouse": [
-      "HD-47"
+      "HD-43",
+      "HD-44",
+      "HD-45",
+      "HD-46",
+      "HD-47",
+      "HD-48",
+      "HD-49",
+      "HD-56",
+      "HD-65",
+      "HD-77"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "dupage-board-chair",
       "dupage-sheriff",
       "dupage-clerk",
-      "dupage-treasurer"
-    ]
+      "dupage-treasurer",
+      "will-appellate-court-3rd",
+      "kane-sheriff",
+      "kane-clerk",
+      "kane-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "DuPage",
+      "Kane"
+    ],
+    "mappedGeographyZips": [
+      "60101",
+      "60103",
+      "60106",
+      "60108",
+      "60139",
+      "60157",
+      "60172",
+      "60184",
+      "60188",
+      "60191"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "plainfield-oswego-shorewood",
@@ -2009,26 +5457,64 @@ window.IL_TOWNS_DIRECTORY = [
       "Newark"
     ],
     "region": "Collar Counties (Will & Kendall)",
-    "county": "Will",
+    "county": "DeKalb / Kane / Kendall / LaSalle / Will",
     "usHouse": [
+      "IL-11",
       "IL-14"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-21",
+      "SD-35",
+      "SD-38",
+      "SD-42"
+    ],
     "stateHouse": [
+      "HD-41",
+      "HD-70",
+      "HD-75",
+      "HD-83",
+      "HD-84",
+      "HD-85",
       "HD-97",
-      "HD-84"
+      "HD-98"
     ],
     "localRaces": [
       "will-clerk",
       "will-sheriff",
       "will-treasurer",
-      "will-regional-superintendent",
       "will-appellate-court-3rd",
-      "will-circuit-court-1st-subcircuit",
-      "will-circuit-court-3rd-subcircuit",
-      "will-circuit-court-5th-subcircuit",
-      "will-judicial-retention"
-    ]
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "kane-sheriff",
+      "kane-clerk",
+      "kane-treasurer",
+      "sbe-local-13th-circuit-retain-sobol",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-23rd-circuit-retain-gleason"
+    ],
+    "counties": [
+      "DeKalb",
+      "Kane",
+      "Kendall",
+      "LaSalle",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60543",
+      "60544",
+      "60545",
+      "60548",
+      "60560",
+      "60585",
+      "60586"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "new-lenox-frankfort-mokena",
@@ -2051,28 +5537,117 @@ window.IL_TOWNS_DIRECTORY = [
       "Lincoln-Way"
     ],
     "region": "Collar Counties (Will County)",
-    "county": "Will",
+    "county": "Cook / Will",
     "usHouse": [
       "IL-01",
-      "IL-02"
+      "IL-02",
+      "IL-06",
+      "IL-14"
     ],
     "stateSenate": [
+      "SD-14",
       "SD-41"
     ],
     "stateHouse": [
-      "HD-37"
+      "HD-27",
+      "HD-37",
+      "HD-38",
+      "HD-80",
+      "HD-82",
+      "HD-85",
+      "HD-86",
+      "HD-98"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "will-clerk",
       "will-sheriff",
       "will-treasurer",
-      "will-regional-superintendent",
       "will-appellate-court-3rd",
-      "will-circuit-court-1st-subcircuit",
-      "will-circuit-court-3rd-subcircuit",
-      "will-circuit-court-5th-subcircuit",
-      "will-judicial-retention"
-    ]
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60423",
+      "60441",
+      "60442",
+      "60448",
+      "60451",
+      "60491"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "st-charles-geneva-batavia",
@@ -2097,22 +5672,60 @@ window.IL_TOWNS_DIRECTORY = [
       "Kaneville"
     ],
     "region": "Collar Counties (Kane County)",
-    "county": "Kane",
+    "county": "DeKalb / DuPage / Kane",
     "usHouse": [
+      "IL-03",
+      "IL-08",
       "IL-11",
-      "IL-08"
+      "IL-14"
     ],
     "stateSenate": [
-      "SD-33"
+      "SD-33",
+      "SD-35",
+      "SD-42"
     ],
     "stateHouse": [
-      "HD-84"
+      "HD-49",
+      "HD-50",
+      "HD-65",
+      "HD-70",
+      "HD-83"
     ],
     "localRaces": [
+      "dupage-board-chair",
+      "dupage-sheriff",
+      "dupage-clerk",
+      "dupage-treasurer",
+      "will-appellate-court-3rd",
       "kane-sheriff",
       "kane-clerk",
-      "kane-treasurer"
-    ]
+      "kane-treasurer",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell",
+      "sbe-local-23rd-circuit-retain-gleason"
+    ],
+    "counties": [
+      "DeKalb",
+      "DuPage",
+      "Kane"
+    ],
+    "mappedGeographyZips": [
+      "60119",
+      "60134",
+      "60144",
+      "60151",
+      "60174",
+      "60175",
+      "60510"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "carpentersville-dundee-algonquin",
@@ -2135,23 +5748,55 @@ window.IL_TOWNS_DIRECTORY = [
       "Sleepy Hollow"
     ],
     "region": "Collar Counties (North Kane & SE McHenry)",
-    "county": "Kane",
+    "county": "Kane / McHenry",
     "usHouse": [
       "IL-08",
+      "IL-09",
       "IL-11"
     ],
     "stateSenate": [
+      "SD-26",
+      "SD-32",
       "SD-33",
-      "SD-26"
+      "SD-35"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-43",
+      "HD-52",
+      "HD-63",
+      "HD-66",
+      "HD-69",
+      "HD-70"
     ],
     "localRaces": [
       "kane-sheriff",
       "kane-clerk",
-      "kane-treasurer"
-    ]
+      "kane-treasurer",
+      "mchenry-sheriff",
+      "mchenry-clerk",
+      "mchenry-treasurer",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-22nd-circuit-retain-feetterer",
+      "sbe-local-22nd-circuit-retain-gervais",
+      "sbe-local-22nd-circuit-retain-hansen",
+      "sbe-local-22nd-circuit-retain-gerhardt"
+    ],
+    "counties": [
+      "Kane",
+      "McHenry"
+    ],
+    "mappedGeographyZips": [
+      "60102",
+      "60110",
+      "60118",
+      "60142",
+      "60156"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "crystal-lake-cary-mchenry",
@@ -2189,24 +5834,72 @@ window.IL_TOWNS_DIRECTORY = [
       "Bull Valley"
     ],
     "region": "Collar Counties (McHenry County)",
-    "county": "McHenry",
+    "county": "Boone / DeKalb / Lake / McHenry",
     "usHouse": [
-      "IL-11",
+      "IL-05",
+      "IL-09",
       "IL-10",
+      "IL-11",
       "IL-16"
     ],
     "stateSenate": [
       "SD-26",
-      "SD-33"
+      "SD-32",
+      "SD-33",
+      "SD-35",
+      "SD-45"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-52",
+      "HD-63",
+      "HD-64",
+      "HD-66",
+      "HD-69",
+      "HD-70",
+      "HD-89"
     ],
     "localRaces": [
+      "lake-clerk",
+      "lake-treasurer",
+      "lake-sheriff",
       "mchenry-sheriff",
       "mchenry-clerk",
-      "mchenry-treasurer"
-    ]
+      "mchenry-treasurer",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-17th-circuit-retain-fabiano",
+      "sbe-local-17th-circuit-retain-gulley",
+      "sbe-local-17th-circuit-retain-white",
+      "sbe-local-19th-circuit-retain-booras",
+      "sbe-local-19th-circuit-retain-slavin",
+      "sbe-local-22nd-circuit-retain-feetterer",
+      "sbe-local-22nd-circuit-retain-gervais",
+      "sbe-local-22nd-circuit-retain-hansen",
+      "sbe-local-22nd-circuit-retain-gerhardt",
+      "sbe-local-23rd-circuit-retain-gleason"
+    ],
+    "counties": [
+      "Boone",
+      "DeKalb",
+      "Lake",
+      "McHenry"
+    ],
+    "mappedGeographyZips": [
+      "60012",
+      "60013",
+      "60014",
+      "60021",
+      "60033",
+      "60050",
+      "60051",
+      "60071",
+      "60072",
+      "60081",
+      "60097",
+      "60098",
+      "60152"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "barrington-lake-zurich-wauconda",
@@ -2233,23 +5926,129 @@ window.IL_TOWNS_DIRECTORY = [
       "Island Lake"
     ],
     "region": "Collar Counties (SW Lake, NW Cook & SE McHenry)",
-    "county": "Lake",
+    "county": "Cook / Kane / Lake / McHenry",
     "usHouse": [
+      "IL-05",
       "IL-08",
       "IL-09",
-      "IL-10"
+      "IL-10",
+      "IL-11"
     ],
     "stateSenate": [
-      "SD-26"
+      "SD-26",
+      "SD-30",
+      "SD-32",
+      "SD-33"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-43",
+      "HD-51",
+      "HD-52",
+      "HD-59",
+      "HD-63",
+      "HD-66"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "lake-clerk",
       "lake-treasurer",
-      "lake-sheriff"
-    ]
+      "lake-sheriff",
+      "kane-sheriff",
+      "kane-clerk",
+      "kane-treasurer",
+      "mchenry-sheriff",
+      "mchenry-clerk",
+      "mchenry-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-19th-circuit-retain-booras",
+      "sbe-local-19th-circuit-retain-slavin",
+      "sbe-local-22nd-circuit-retain-feetterer",
+      "sbe-local-22nd-circuit-retain-gervais",
+      "sbe-local-22nd-circuit-retain-hansen",
+      "sbe-local-22nd-circuit-retain-gerhardt",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Kane",
+      "Lake",
+      "McHenry"
+    ],
+    "mappedGeographyZips": [
+      "60010",
+      "60042",
+      "60047",
+      "60084"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "highland-park-deerfield-lake-forest",
@@ -2279,23 +6078,113 @@ window.IL_TOWNS_DIRECTORY = [
       "Fort Sheridan"
     ],
     "region": "Collar Counties (SE Lake County)",
-    "county": "Lake",
+    "county": "Cook / Lake",
     "usHouse": [
+      "IL-09",
       "IL-10"
     ],
     "stateSenate": [
-      "SD-30",
-      "SD-9"
+      "SD-26",
+      "SD-29",
+      "SD-30"
     ],
     "stateHouse": [
-      "HD-18",
-      "HD-52"
+      "HD-52",
+      "HD-57",
+      "HD-58",
+      "HD-59",
+      "HD-60",
+      "HD-61",
+      "HD-62"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "lake-clerk",
       "lake-treasurer",
-      "lake-sheriff"
-    ]
+      "lake-sheriff",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-19th-circuit-retain-booras",
+      "sbe-local-19th-circuit-retain-slavin",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Lake"
+    ],
+    "mappedGeographyZips": [
+      "60015",
+      "60035",
+      "60040",
+      "60044",
+      "60045",
+      "60048",
+      "60069"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "buffalo-grove-mundelein-gurnee",
@@ -2333,23 +6222,130 @@ window.IL_TOWNS_DIRECTORY = [
       "Lakemoor"
     ],
     "region": "Collar Counties (Central & North Lake County)",
-    "county": "Lake",
+    "county": "Cook / Lake / McHenry",
     "usHouse": [
+      "IL-05",
+      "IL-09",
       "IL-10",
-      "IL-09"
+      "IL-11"
     ],
     "stateSenate": [
+      "SD-26",
+      "SD-27",
+      "SD-29",
       "SD-30",
-      "SD-26"
+      "SD-32"
     ],
     "stateHouse": [
-      "HD-52"
+      "HD-51",
+      "HD-52",
+      "HD-54",
+      "HD-57",
+      "HD-59",
+      "HD-60",
+      "HD-61",
+      "HD-62",
+      "HD-64"
     ],
     "localRaces": [
+      "cook-president",
+      "cook-assessor",
+      "cook-sheriff",
+      "cook-clerk",
+      "cook-treasurer",
       "lake-clerk",
       "lake-treasurer",
-      "lake-sheriff"
-    ]
+      "lake-sheriff",
+      "mchenry-sheriff",
+      "mchenry-clerk",
+      "mchenry-treasurer",
+      "sbe-local-1st-appellate-hoffman-vacancy",
+      "sbe-local-1st-appellate-retain-lampkin",
+      "sbe-local-19th-circuit-retain-booras",
+      "sbe-local-19th-circuit-retain-slavin",
+      "sbe-local-22nd-circuit-retain-feetterer",
+      "sbe-local-22nd-circuit-retain-gervais",
+      "sbe-local-22nd-circuit-retain-hansen",
+      "sbe-local-22nd-circuit-retain-gerhardt",
+      "sbe-local-cook-circuit-retain-nixon",
+      "sbe-local-cook-circuit-retain-kennedy",
+      "sbe-local-cook-circuit-retain-powell",
+      "sbe-local-cook-circuit-retain-ward-kirby",
+      "sbe-local-cook-circuit-retain-arce",
+      "sbe-local-cook-circuit-retain-byrne",
+      "sbe-local-cook-circuit-retain-kenworthy",
+      "sbe-local-cook-circuit-retain-ryan",
+      "sbe-local-cook-circuit-retain-walowski",
+      "sbe-local-cook-circuit-retain-kyriakopoulos",
+      "sbe-local-cook-circuit-retain-moreland",
+      "sbe-local-cook-circuit-retain-carroll",
+      "sbe-local-cook-circuit-retain-buford",
+      "sbe-local-cook-circuit-retain-allegretti",
+      "sbe-local-cook-circuit-retain-rivers",
+      "sbe-local-cook-circuit-retain-watkins",
+      "sbe-local-cook-circuit-retain-romanek",
+      "sbe-local-cook-circuit-retain-rice",
+      "sbe-local-cook-circuit-retain-coughlin",
+      "sbe-local-cook-circuit-retain-goldish",
+      "sbe-local-cook-circuit-retain-hansen",
+      "sbe-local-cook-circuit-retain-kuzas",
+      "sbe-local-cook-circuit-retain-martinez",
+      "sbe-local-cook-circuit-retain-mcguire",
+      "sbe-local-cook-circuit-retain-mitchell",
+      "sbe-local-cook-circuit-retain-pieczonka",
+      "sbe-local-cook-circuit-retain-sheahan",
+      "sbe-local-cook-circuit-retain-forti",
+      "sbe-local-cook-circuit-retain-patton",
+      "sbe-local-cook-circuit-retain-denmark",
+      "sbe-local-cook-circuit-retain-tristan-jr",
+      "sbe-local-cook-circuit-retain-weaver-boyle",
+      "sbe-local-cook-circuit-retain-maloney",
+      "sbe-local-cook-circuit-retain-cushing",
+      "sbe-local-cook-circuit-retain-mulroe",
+      "sbe-local-cook-circuit-retain-walton",
+      "sbe-local-cook-circuit-retain-antonietti",
+      "sbe-local-cook-circuit-retain-molina-gonzalez",
+      "sbe-local-cook-circuit-retain-fallon",
+      "sbe-local-cook-circuit-retain-henry",
+      "sbe-local-cook-circuit-retain-mays",
+      "sbe-local-cook-circuit-retain-smith-jr",
+      "sbe-local-cook-circuit-retain-aimen",
+      "sbe-local-cook-circuit-retain-ayala-gonzalez",
+      "sbe-local-cook-circuit-retain-butler",
+      "sbe-local-cook-circuit-retain-dempsey",
+      "sbe-local-cook-circuit-retain-dickler",
+      "sbe-local-cook-circuit-retain-green",
+      "sbe-local-cook-circuit-retain-marubio",
+      "sbe-local-cook-circuit-retain-mescall",
+      "sbe-local-cook-circuit-retain-murphy",
+      "sbe-local-cook-circuit-retain-o-connor",
+      "sbe-local-cook-circuit-retain-quinn",
+      "sbe-local-cook-circuit-retain-reaves-harris",
+      "sbe-local-cook-circuit-retain-smith",
+      "sbe-local-cook-circuit-retain-stacey",
+      "sbe-local-cook-circuit-retain-tirado",
+      "sbe-local-cook-circuit-retain-walsh",
+      "sbe-local-cook-circuit-retain-zeller"
+    ],
+    "counties": [
+      "Cook",
+      "Lake",
+      "McHenry"
+    ],
+    "mappedGeographyZips": [
+      "60002",
+      "60020",
+      "60030",
+      "60031",
+      "60041",
+      "60046",
+      "60060",
+      "60061",
+      "60073",
+      "60089"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "rockford-loves-park",
@@ -2391,19 +6387,61 @@ window.IL_TOWNS_DIRECTORY = [
       "New Milford"
     ],
     "region": "Northern Illinois",
-    "county": "Winnebago",
+    "county": "Boone / Ogle / Stephenson / Winnebago",
     "usHouse": [
-      "IL-17",
-      "IL-16"
+      "IL-16",
+      "IL-17"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-35",
+      "SD-45"
+    ],
     "stateHouse": [
+      "HD-67",
       "HD-68",
-      "HD-89"
+      "HD-69",
+      "HD-74",
+      "HD-89",
+      "HD-90"
     ],
     "localRaces": [
-      "winnebago-sheriff"
-    ]
+      "winnebago-sheriff",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-15th-circuit-retain-roe-iv",
+      "sbe-local-15th-circuit-retain-lee",
+      "sbe-local-15th-circuit-retain-kane",
+      "sbe-local-17th-circuit-retain-fabiano",
+      "sbe-local-17th-circuit-retain-gulley",
+      "sbe-local-17th-circuit-retain-white"
+    ],
+    "counties": [
+      "Boone",
+      "Ogle",
+      "Stephenson",
+      "Winnebago"
+    ],
+    "mappedGeographyZips": [
+      "61010",
+      "61016",
+      "61061",
+      "61063",
+      "61072",
+      "61073",
+      "61080",
+      "61088",
+      "61101",
+      "61102",
+      "61103",
+      "61104",
+      "61107",
+      "61108",
+      "61109",
+      "61111",
+      "61114",
+      "61115"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "belvidere-boone",
@@ -2423,16 +6461,41 @@ window.IL_TOWNS_DIRECTORY = [
       "Candlewick Lake"
     ],
     "region": "Northern Illinois",
-    "county": "Boone",
+    "county": "Boone / Winnebago",
     "usHouse": [
+      "IL-11",
       "IL-16",
-      "IL-11"
+      "IL-17"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-35",
+      "SD-45"
+    ],
     "stateHouse": [
-      "HD-68"
+      "HD-68",
+      "HD-69",
+      "HD-89",
+      "HD-90"
     ],
-    "localRaces": []
+    "localRaces": [
+      "winnebago-sheriff",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-17th-circuit-retain-fabiano",
+      "sbe-local-17th-circuit-retain-gulley",
+      "sbe-local-17th-circuit-retain-white"
+    ],
+    "counties": [
+      "Boone",
+      "Winnebago"
+    ],
+    "mappedGeographyZips": [
+      "61008",
+      "61011",
+      "61012",
+      "61065"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "dekalb-sycamore",
@@ -2465,20 +6528,72 @@ window.IL_TOWNS_DIRECTORY = [
       "NIU"
     ],
     "region": "Northern Illinois",
-    "county": "DeKalb",
+    "county": "Boone / DeKalb / Kane / Lee / McHenry / Ogle",
     "usHouse": [
+      "IL-11",
       "IL-14",
-      "IL-16",
-      "IL-11"
+      "IL-16"
     ],
     "stateSenate": [
-      "SD-33"
+      "SD-35",
+      "SD-38",
+      "SD-45"
     ],
     "stateHouse": [
+      "HD-67",
+      "HD-69",
+      "HD-70",
+      "HD-74",
       "HD-76",
       "HD-89"
     ],
-    "localRaces": []
+    "localRaces": [
+      "kane-sheriff",
+      "kane-clerk",
+      "kane-treasurer",
+      "mchenry-sheriff",
+      "mchenry-clerk",
+      "mchenry-treasurer",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-15th-circuit-retain-roe-iv",
+      "sbe-local-15th-circuit-retain-lee",
+      "sbe-local-15th-circuit-retain-kane",
+      "sbe-local-16th-circuit-retain-grady",
+      "sbe-local-16th-circuit-retain-tegeler",
+      "sbe-local-16th-circuit-retain-villa",
+      "sbe-local-16th-circuit-retain-flood",
+      "sbe-local-17th-circuit-retain-fabiano",
+      "sbe-local-17th-circuit-retain-gulley",
+      "sbe-local-17th-circuit-retain-white",
+      "sbe-local-22nd-circuit-retain-feetterer",
+      "sbe-local-22nd-circuit-retain-gervais",
+      "sbe-local-22nd-circuit-retain-hansen",
+      "sbe-local-22nd-circuit-retain-gerhardt",
+      "sbe-local-23rd-circuit-retain-gleason"
+    ],
+    "counties": [
+      "Boone",
+      "DeKalb",
+      "Kane",
+      "Lee",
+      "McHenry",
+      "Ogle"
+    ],
+    "mappedGeographyZips": [
+      "60111",
+      "60112",
+      "60115",
+      "60135",
+      "60145",
+      "60146",
+      "60178",
+      "60520",
+      "60550",
+      "60556",
+      "61068"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "ottawa-lasalle-peru",
@@ -2517,18 +6632,60 @@ window.IL_TOWNS_DIRECTORY = [
       "Starved Rock"
     ],
     "region": "Northern Illinois & Illinois Valley",
-    "county": "LaSalle",
+    "county": "Bureau / Grundy / Kendall / LaSalle / Lee / Livingston",
     "usHouse": [
       "IL-14",
       "IL-16"
     ],
     "stateSenate": [
-      "SD-36"
+      "SD-38",
+      "SD-53"
     ],
     "stateHouse": [
-      "HD-76"
+      "HD-73",
+      "HD-74",
+      "HD-75",
+      "HD-76",
+      "HD-105",
+      "HD-106"
     ],
-    "localRaces": []
+    "localRaces": [
+      "will-appellate-court-3rd",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-11th-circuit-retain-fitton",
+      "sbe-local-11th-circuit-retain-chambers",
+      "sbe-local-11th-circuit-retain-wright",
+      "sbe-local-13th-circuit-retain-sobol",
+      "sbe-local-15th-circuit-retain-roe-iv",
+      "sbe-local-15th-circuit-retain-lee",
+      "sbe-local-15th-circuit-retain-kane",
+      "sbe-local-23rd-circuit-retain-gleason"
+    ],
+    "counties": [
+      "Bureau",
+      "Grundy",
+      "Kendall",
+      "LaSalle",
+      "Lee",
+      "Livingston"
+    ],
+    "mappedGeographyZips": [
+      "60444",
+      "60450",
+      "60479",
+      "61301",
+      "61341",
+      "61342",
+      "61348",
+      "61350",
+      "61354",
+      "61356",
+      "61362",
+      "61364",
+      "61373"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "freeport-galena-savanna",
@@ -2569,18 +6726,53 @@ window.IL_TOWNS_DIRECTORY = [
       "Prophetstown"
     ],
     "region": "Northern & Northwest Illinois",
-    "county": "Stephenson",
+    "county": "Carroll / Jo Daviess / Lee / Ogle / Stephenson / Whiteside",
     "usHouse": [
       "IL-16",
       "IL-17"
     ],
     "stateSenate": [
-      "SD-36"
+      "SD-45"
     ],
     "stateHouse": [
-      "HD-89"
+      "HD-73",
+      "HD-74",
+      "HD-89",
+      "HD-90"
     ],
-    "localRaces": []
+    "localRaces": [
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-14th-circuit-retain-patton",
+      "sbe-local-14th-circuit-retain-church",
+      "sbe-local-14th-circuit-retain-mcgehee",
+      "sbe-local-15th-circuit-retain-roe-iv",
+      "sbe-local-15th-circuit-retain-lee",
+      "sbe-local-15th-circuit-retain-kane"
+    ],
+    "counties": [
+      "Carroll",
+      "Jo Daviess",
+      "Lee",
+      "Ogle",
+      "Stephenson",
+      "Whiteside"
+    ],
+    "mappedGeographyZips": [
+      "61021",
+      "61025",
+      "61030",
+      "61032",
+      "61036",
+      "61048",
+      "61053",
+      "61071",
+      "61074",
+      "61081",
+      "61252",
+      "61270"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "springfield",
@@ -2635,20 +6827,87 @@ window.IL_TOWNS_DIRECTORY = [
       "Virden"
     ],
     "region": "Central Illinois",
-    "county": "Sangamon",
+    "county": "Cass / Christian / Logan / Macoupin / Menard / Montgomery / Morgan / Sangamon / Shelby",
     "usHouse": [
       "IL-13",
       "IL-15"
     ],
     "stateSenate": [
-      "SD-48"
+      "SD-44",
+      "SD-47",
+      "SD-48",
+      "SD-50",
+      "SD-54"
     ],
     "stateHouse": [
-      "HD-92"
+      "HD-87",
+      "HD-94",
+      "HD-95",
+      "HD-96",
+      "HD-99",
+      "HD-100",
+      "HD-107",
+      "HD-108"
     ],
     "localRaces": [
-      "sangamon-county-2026"
-    ]
+      "sangamon-county-2026",
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-4th-circuit-retain-brandmeyer",
+      "sbe-local-4th-circuit-retain-siemer",
+      "sbe-local-4th-circuit-retain-powless",
+      "sbe-local-7th-circuit-retain-reif",
+      "sbe-local-7th-circuit-retain-madonia",
+      "sbe-local-7th-circuit-retain-giganti",
+      "sbe-local-7th-circuit-retain-grischow",
+      "sbe-local-7th-circuit-retain-noll",
+      "sbe-local-7th-circuit-retain-lorton",
+      "sbe-local-7th-circuit-retain-schmidt",
+      "sbe-local-8th-circuit-retain-atterberry",
+      "sbe-local-8th-circuit-retain-burch",
+      "sbe-local-8th-circuit-retain-brenner",
+      "sbe-local-11th-circuit-retain-fitton",
+      "sbe-local-11th-circuit-retain-chambers",
+      "sbe-local-11th-circuit-retain-wright"
+    ],
+    "counties": [
+      "Cass",
+      "Christian",
+      "Logan",
+      "Macoupin",
+      "Menard",
+      "Montgomery",
+      "Morgan",
+      "Sangamon",
+      "Shelby"
+    ],
+    "mappedGeographyZips": [
+      "62056",
+      "62510",
+      "62520",
+      "62557",
+      "62558",
+      "62563",
+      "62568",
+      "62615",
+      "62626",
+      "62629",
+      "62640",
+      "62656",
+      "62670",
+      "62675",
+      "62684",
+      "62701",
+      "62702",
+      "62703",
+      "62704",
+      "62707",
+      "62711",
+      "62712"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "champaign-urbana",
@@ -2695,22 +6954,71 @@ window.IL_TOWNS_DIRECTORY = [
       "UIUC"
     ],
     "region": "Central Illinois",
-    "county": "Champaign",
+    "county": "Champaign / Douglas / Ford / McLean / Piatt",
     "usHouse": [
+      "IL-02",
       "IL-13",
       "IL-15",
-      "IL-02"
+      "IL-16"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-44",
+      "SD-51",
+      "SD-53"
+    ],
     "stateHouse": [
-      "HD-104"
+      "HD-88",
+      "HD-101",
+      "HD-102",
+      "HD-103",
+      "HD-104",
+      "HD-106"
     ],
     "localRaces": [
       "champaign-clerk",
       "champaign-executive",
       "champaign-treasurer",
-      "champaign-sheriff"
-    ]
+      "champaign-sheriff",
+      "mclean-clerk",
+      "mclean-sheriff",
+      "mclean-treasurer",
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-6th-circuit-retain-bollinger",
+      "sbe-local-6th-circuit-retain-bohm",
+      "sbe-local-6th-circuit-retain-rhoades",
+      "sbe-local-6th-circuit-retain-sullivan",
+      "sbe-local-11th-circuit-retain-fitton",
+      "sbe-local-11th-circuit-retain-chambers",
+      "sbe-local-11th-circuit-retain-wright"
+    ],
+    "counties": [
+      "Champaign",
+      "Douglas",
+      "Ford",
+      "McLean",
+      "Piatt"
+    ],
+    "mappedGeographyZips": [
+      "60936",
+      "60957",
+      "61801",
+      "61802",
+      "61820",
+      "61821",
+      "61822",
+      "61847",
+      "61853",
+      "61856",
+      "61866",
+      "61873",
+      "61874",
+      "61880",
+      "61953"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "danville",
@@ -2737,16 +7045,50 @@ window.IL_TOWNS_DIRECTORY = [
       "Marshall"
     ],
     "region": "Central Illinois",
-    "county": "Vermilion",
+    "county": "Clark / Edgar / Iroquois / Vermilion",
     "usHouse": [
       "IL-02",
+      "IL-12",
       "IL-15"
     ],
-    "stateSenate": [],
-    "stateHouse": [
-      "HD-104"
+    "stateSenate": [
+      "SD-51",
+      "SD-53"
     ],
-    "localRaces": []
+    "stateHouse": [
+      "HD-101",
+      "HD-102",
+      "HD-104",
+      "HD-106"
+    ],
+    "localRaces": [
+      "will-appellate-court-3rd",
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-5th-circuit-retain-shick",
+      "sbe-local-5th-circuit-retain-o-shaughnessy",
+      "sbe-local-21st-circuit-retain-sabol",
+      "sbe-local-21st-circuit-retain-dickenson",
+      "sbe-local-21st-circuit-retain-parkhurst"
+    ],
+    "counties": [
+      "Clark",
+      "Edgar",
+      "Iroquois",
+      "Vermilion"
+    ],
+    "mappedGeographyZips": [
+      "60942",
+      "61817",
+      "61832",
+      "61834",
+      "61846",
+      "61858",
+      "61883",
+      "61944"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "bloomington-normal",
@@ -2782,22 +7124,54 @@ window.IL_TOWNS_DIRECTORY = [
       "ISU"
     ],
     "region": "Central Illinois",
-    "county": "McLean",
+    "county": "De Witt / Livingston / McLean / Woodford",
     "usHouse": [
-      "IL-17",
-      "IL-16"
+      "IL-02",
+      "IL-15",
+      "IL-16",
+      "IL-17"
     ],
     "stateSenate": [
-      "SD-36"
+      "SD-44",
+      "SD-53"
     ],
     "stateHouse": [
-      "HD-91"
+      "HD-87",
+      "HD-88",
+      "HD-91",
+      "HD-105",
+      "HD-106"
     ],
     "localRaces": [
       "mclean-clerk",
       "mclean-sheriff",
-      "mclean-treasurer"
-    ]
+      "mclean-treasurer",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-11th-circuit-retain-fitton",
+      "sbe-local-11th-circuit-retain-chambers",
+      "sbe-local-11th-circuit-retain-wright"
+    ],
+    "counties": [
+      "De Witt",
+      "Livingston",
+      "McLean",
+      "Woodford"
+    ],
+    "mappedGeographyZips": [
+      "61701",
+      "61704",
+      "61705",
+      "61727",
+      "61736",
+      "61738",
+      "61745",
+      "61752",
+      "61761",
+      "61764",
+      "61776"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "peoria-east-peoria",
@@ -2846,21 +7220,66 @@ window.IL_TOWNS_DIRECTORY = [
       "Mackinaw"
     ],
     "region": "Central Illinois",
-    "county": "Peoria",
+    "county": "Fulton / Marshall / Peoria / Tazewell / Woodford",
     "usHouse": [
-      "IL-17",
-      "IL-16"
+      "IL-15",
+      "IL-16",
+      "IL-17"
     ],
     "stateSenate": [
-      "SD-36"
+      "SD-44",
+      "SD-47",
+      "SD-53"
     ],
     "stateHouse": [
+      "HD-73",
+      "HD-87",
+      "HD-91",
       "HD-92",
-      "HD-91"
+      "HD-93",
+      "HD-94",
+      "HD-105"
     ],
     "localRaces": [
-      "peoria-clerk"
-    ]
+      "peoria-clerk",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-9th-circuit-retain-vancil-jr",
+      "sbe-local-9th-circuit-retain-doyle",
+      "sbe-local-10th-circuit-retain-mack",
+      "sbe-local-10th-circuit-retain-doscotch",
+      "sbe-local-11th-circuit-retain-fitton",
+      "sbe-local-11th-circuit-retain-chambers",
+      "sbe-local-11th-circuit-retain-wright"
+    ],
+    "counties": [
+      "Fulton",
+      "Marshall",
+      "Peoria",
+      "Tazewell",
+      "Woodford"
+    ],
+    "mappedGeographyZips": [
+      "61520",
+      "61523",
+      "61525",
+      "61530",
+      "61548",
+      "61550",
+      "61554",
+      "61571",
+      "61602",
+      "61603",
+      "61604",
+      "61605",
+      "61606",
+      "61607",
+      "61611",
+      "61614",
+      "61615",
+      "61616"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "decatur",
@@ -2890,18 +7309,60 @@ window.IL_TOWNS_DIRECTORY = [
       "Sullivan"
     ],
     "region": "Central Illinois",
-    "county": "Macon",
+    "county": "Coles / Cumberland / Macon / Moultrie / Shelby",
     "usHouse": [
+      "IL-12",
       "IL-13",
       "IL-15"
     ],
     "stateSenate": [
-      "SD-48"
+      "SD-44",
+      "SD-48",
+      "SD-51",
+      "SD-54"
     ],
     "stateHouse": [
-      "HD-104"
+      "HD-87",
+      "HD-88",
+      "HD-95",
+      "HD-96",
+      "HD-101",
+      "HD-102",
+      "HD-107"
     ],
-    "localRaces": []
+    "localRaces": [
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-4th-circuit-retain-brandmeyer",
+      "sbe-local-4th-circuit-retain-siemer",
+      "sbe-local-4th-circuit-retain-powless",
+      "sbe-local-5th-circuit-retain-shick",
+      "sbe-local-5th-circuit-retain-o-shaughnessy",
+      "sbe-local-6th-circuit-retain-bollinger",
+      "sbe-local-6th-circuit-retain-bohm",
+      "sbe-local-6th-circuit-retain-rhoades",
+      "sbe-local-6th-circuit-retain-sullivan"
+    ],
+    "counties": [
+      "Coles",
+      "Cumberland",
+      "Macon",
+      "Moultrie",
+      "Shelby"
+    ],
+    "mappedGeographyZips": [
+      "61920",
+      "61938",
+      "62521",
+      "62522",
+      "62523",
+      "62526",
+      "62535",
+      "62549",
+      "62565"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "quad-cities-rock-island-moline",
@@ -2939,21 +7400,59 @@ window.IL_TOWNS_DIRECTORY = [
       "Andalusia"
     ],
     "region": "Western Illinois & Quad Cities",
-    "county": "Rock Island",
+    "county": "Bureau / Henry / Mercer / Rock Island / Stark / Whiteside",
     "usHouse": [
+      "IL-16",
       "IL-17"
     ],
     "stateSenate": [
-      "SD-36"
+      "SD-36",
+      "SD-47"
     ],
     "stateHouse": [
-      "HD-76"
+      "HD-71",
+      "HD-72",
+      "HD-73",
+      "HD-93",
+      "HD-94"
     ],
     "localRaces": [
+      "will-appellate-court-3rd",
       "rock-island-clerk",
       "rock-island-sheriff",
-      "rock-island-treasurer"
-    ]
+      "rock-island-treasurer",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-10th-circuit-retain-mack",
+      "sbe-local-10th-circuit-retain-doscotch",
+      "sbe-local-13th-circuit-retain-sobol",
+      "sbe-local-14th-circuit-retain-patton",
+      "sbe-local-14th-circuit-retain-church",
+      "sbe-local-14th-circuit-retain-mcgehee"
+    ],
+    "counties": [
+      "Bureau",
+      "Henry",
+      "Mercer",
+      "Rock Island",
+      "Stark",
+      "Whiteside"
+    ],
+    "mappedGeographyZips": [
+      "61201",
+      "61239",
+      "61240",
+      "61241",
+      "61244",
+      "61254",
+      "61256",
+      "61264",
+      "61265",
+      "61275",
+      "61282",
+      "61443"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "galesburg-monmouth-macomb",
@@ -2982,18 +7481,48 @@ window.IL_TOWNS_DIRECTORY = [
       "WIU"
     ],
     "region": "Western Illinois",
-    "county": "Knox",
+    "county": "Hancock / Henderson / Knox / McDonough / Mercer / Warren",
     "usHouse": [
-      "IL-17",
-      "IL-15"
+      "IL-15",
+      "IL-17"
     ],
     "stateSenate": [
-      "SD-36"
+      "SD-36",
+      "SD-47"
     ],
     "stateHouse": [
-      "HD-76"
+      "HD-71",
+      "HD-93",
+      "HD-94"
     ],
-    "localRaces": []
+    "localRaces": [
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-9th-circuit-retain-vancil-jr",
+      "sbe-local-9th-circuit-retain-doyle",
+      "sbe-local-14th-circuit-retain-patton",
+      "sbe-local-14th-circuit-retain-church",
+      "sbe-local-14th-circuit-retain-mcgehee"
+    ],
+    "counties": [
+      "Hancock",
+      "Henderson",
+      "Knox",
+      "McDonough",
+      "Mercer",
+      "Warren"
+    ],
+    "mappedGeographyZips": [
+      "61231",
+      "61401",
+      "61410",
+      "61422",
+      "61448",
+      "61455",
+      "61462",
+      "62321"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "quincy-jacksonville",
@@ -3022,17 +7551,55 @@ window.IL_TOWNS_DIRECTORY = [
       "White Hall"
     ],
     "region": "Central & Western Illinois",
-    "county": "Adams",
+    "county": "Adams / Brown / Cass / Greene / Jersey / Morgan / Pike / Schuyler / Scott",
     "usHouse": [
       "IL-15"
     ],
     "stateSenate": [
-      "SD-48"
+      "SD-47",
+      "SD-50"
     ],
     "stateHouse": [
-      "HD-92"
+      "HD-94",
+      "HD-99",
+      "HD-100"
     ],
-    "localRaces": []
+    "localRaces": [
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-7th-circuit-retain-reif",
+      "sbe-local-7th-circuit-retain-madonia",
+      "sbe-local-7th-circuit-retain-giganti",
+      "sbe-local-7th-circuit-retain-grischow",
+      "sbe-local-7th-circuit-retain-noll",
+      "sbe-local-7th-circuit-retain-lorton",
+      "sbe-local-7th-circuit-retain-schmidt",
+      "sbe-local-8th-circuit-retain-atterberry",
+      "sbe-local-8th-circuit-retain-burch",
+      "sbe-local-8th-circuit-retain-brenner"
+    ],
+    "counties": [
+      "Adams",
+      "Brown",
+      "Cass",
+      "Greene",
+      "Jersey",
+      "Morgan",
+      "Pike",
+      "Schuyler",
+      "Scott"
+    ],
+    "mappedGeographyZips": [
+      "62052",
+      "62301",
+      "62305",
+      "62353",
+      "62363",
+      "62618",
+      "62650",
+      "62681"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "kankakee-bourbonnais-bradley",
@@ -3060,16 +7627,58 @@ window.IL_TOWNS_DIRECTORY = [
       "Grant Park Village"
     ],
     "region": "Suburban/Downstate Transition (Kankakee County)",
-    "county": "Kankakee",
+    "county": "Ford / Iroquois / Kankakee / Will",
     "usHouse": [
-      "IL-02",
-      "IL-01"
+      "IL-01",
+      "IL-02"
     ],
-    "stateSenate": [],
+    "stateSenate": [
+      "SD-15",
+      "SD-17",
+      "SD-53"
+    ],
     "stateHouse": [
-      "HD-37"
+      "HD-29",
+      "HD-34",
+      "HD-79",
+      "HD-80",
+      "HD-106"
     ],
-    "localRaces": []
+    "localRaces": [
+      "will-clerk",
+      "will-sheriff",
+      "will-treasurer",
+      "will-appellate-court-3rd",
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-11th-circuit-retain-fitton",
+      "sbe-local-11th-circuit-retain-chambers",
+      "sbe-local-11th-circuit-retain-wright",
+      "sbe-local-21st-circuit-retain-sabol",
+      "sbe-local-21st-circuit-retain-dickenson",
+      "sbe-local-21st-circuit-retain-parkhurst"
+    ],
+    "counties": [
+      "Ford",
+      "Iroquois",
+      "Kankakee",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60901",
+      "60914",
+      "60915",
+      "60941",
+      "60950",
+      "60954",
+      "60964",
+      "60970"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "edwardsville-alton-granite-city",
@@ -3120,22 +7729,82 @@ window.IL_TOWNS_DIRECTORY = [
       "Gillespie"
     ],
     "region": "Metro East & Southern Illinois",
-    "county": "Madison",
+    "county": "Bond / Clinton / Fayette / Jersey / Macoupin / Madison / St. Clair",
     "usHouse": [
+      "IL-12",
       "IL-13",
       "IL-15"
     ],
     "stateSenate": [
-      "SD-56"
+      "SD-50",
+      "SD-54",
+      "SD-56",
+      "SD-57"
     ],
     "stateHouse": [
-      "HD-112"
+      "HD-100",
+      "HD-108",
+      "HD-109",
+      "HD-110",
+      "HD-111",
+      "HD-112",
+      "HD-113"
     ],
     "localRaces": [
       "madison-clerk-and-recorder",
       "madison-sheriff",
-      "madison-treasurer"
-    ]
+      "madison-treasurer",
+      "st-clair-clerk",
+      "st-clair-treasurer",
+      "st-clair-sheriff",
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-4th-appellate-retain-knecht",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-3rd-circuit-retain-ruth",
+      "sbe-local-3rd-circuit-retain-maher",
+      "sbe-local-4th-circuit-retain-brandmeyer",
+      "sbe-local-4th-circuit-retain-siemer",
+      "sbe-local-4th-circuit-retain-powless",
+      "sbe-local-7th-circuit-retain-reif",
+      "sbe-local-7th-circuit-retain-madonia",
+      "sbe-local-7th-circuit-retain-giganti",
+      "sbe-local-7th-circuit-retain-grischow",
+      "sbe-local-7th-circuit-retain-noll",
+      "sbe-local-7th-circuit-retain-lorton",
+      "sbe-local-7th-circuit-retain-schmidt"
+    ],
+    "counties": [
+      "Bond",
+      "Clinton",
+      "Fayette",
+      "Jersey",
+      "Macoupin",
+      "Madison",
+      "St. Clair"
+    ],
+    "mappedGeographyZips": [
+      "62002",
+      "62010",
+      "62018",
+      "62024",
+      "62025",
+      "62034",
+      "62035",
+      "62040",
+      "62048",
+      "62060",
+      "62062",
+      "62084",
+      "62090",
+      "62095",
+      "62234",
+      "62246",
+      "62249",
+      "62294",
+      "62471"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "belleville-ofallon-east-st-louis",
@@ -3201,23 +7870,79 @@ window.IL_TOWNS_DIRECTORY = [
       "Metro East"
     ],
     "region": "Metro East & Southern Illinois",
-    "county": "St. Clair",
+    "county": "Clinton / Madison / Monroe / Randolph / St. Clair / Washington",
     "usHouse": [
+      "IL-12",
       "IL-13",
-      "IL-12"
+      "IL-15"
     ],
     "stateSenate": [
-      "SD-56"
+      "SD-56",
+      "SD-57"
     ],
     "stateHouse": [
+      "HD-109",
+      "HD-112",
+      "HD-113",
       "HD-114",
-      "HD-112"
+      "HD-115"
     ],
     "localRaces": [
+      "madison-clerk-and-recorder",
+      "madison-sheriff",
+      "madison-treasurer",
       "st-clair-clerk",
       "st-clair-treasurer",
-      "st-clair-sheriff"
-    ]
+      "st-clair-sheriff",
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-3rd-circuit-retain-ruth",
+      "sbe-local-3rd-circuit-retain-maher",
+      "sbe-local-4th-circuit-retain-brandmeyer",
+      "sbe-local-4th-circuit-retain-siemer",
+      "sbe-local-4th-circuit-retain-powless",
+      "sbe-local-24th-circuit-retain-campanella",
+      "sbe-local-24th-circuit-retain-hitzemann"
+    ],
+    "counties": [
+      "Clinton",
+      "Madison",
+      "Monroe",
+      "Randolph",
+      "St. Clair",
+      "Washington"
+    ],
+    "mappedGeographyZips": [
+      "62201",
+      "62203",
+      "62204",
+      "62205",
+      "62206",
+      "62207",
+      "62208",
+      "62220",
+      "62221",
+      "62223",
+      "62225",
+      "62226",
+      "62232",
+      "62233",
+      "62236",
+      "62239",
+      "62243",
+      "62254",
+      "62257",
+      "62258",
+      "62260",
+      "62264",
+      "62269",
+      "62278",
+      "62286",
+      "62293",
+      "62298"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "carbondale-marion-herrin",
@@ -3261,7 +7986,7 @@ window.IL_TOWNS_DIRECTORY = [
       "SIUC"
     ],
     "region": "Southern Illinois",
-    "county": "Jackson",
+    "county": "Alexander / Franklin / Jackson / Perry / Union / Williamson",
     "usHouse": [
       "IL-12"
     ],
@@ -3269,14 +7994,56 @@ window.IL_TOWNS_DIRECTORY = [
       "SD-59"
     ],
     "stateHouse": [
-      "HD-114"
+      "HD-115",
+      "HD-116",
+      "HD-117",
+      "HD-118"
     ],
     "localRaces": [
       "jackson-clerk",
       "jackson-sheriff",
       "jackson-treasurer",
-      "jackson-assessor"
-    ]
+      "jackson-assessor",
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-1st-circuit-retain-thurston",
+      "sbe-local-1st-circuit-retain-tripp",
+      "sbe-local-2nd-circuit-retain-vaughan",
+      "sbe-local-2nd-circuit-retain-foster",
+      "sbe-local-2nd-circuit-retain-hudson",
+      "sbe-local-2nd-circuit-retain-hartrich",
+      "sbe-local-2nd-circuit-retain-cook",
+      "sbe-local-24th-circuit-retain-campanella",
+      "sbe-local-24th-circuit-retain-hitzemann"
+    ],
+    "counties": [
+      "Alexander",
+      "Franklin",
+      "Jackson",
+      "Perry",
+      "Union",
+      "Williamson"
+    ],
+    "mappedGeographyZips": [
+      "62812",
+      "62832",
+      "62896",
+      "62901",
+      "62902",
+      "62903",
+      "62906",
+      "62918",
+      "62924",
+      "62933",
+      "62948",
+      "62951",
+      "62952",
+      "62959",
+      "62966",
+      "62974"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "mt-vernon-effingham-centralia-cairo",
@@ -3327,17 +8094,86 @@ window.IL_TOWNS_DIRECTORY = [
       "Golconda"
     ],
     "region": "Southern Illinois",
-    "county": "Jefferson",
+    "county": "Alexander / Clay / Clinton / Crawford / Effingham / Franklin / Gallatin / Hamilton / Jefferson / Johnson / Lawrence / Marion / Massac / Pope / Pulaski / Richland / Saline / Shelby / Washington / Wayne / White",
     "usHouse": [
-      "IL-12"
+      "IL-12",
+      "IL-15"
     ],
     "stateSenate": [
+      "SD-51",
+      "SD-54",
       "SD-59"
     ],
     "stateHouse": [
-      "HD-114"
+      "HD-102",
+      "HD-107",
+      "HD-109",
+      "HD-110",
+      "HD-116",
+      "HD-117",
+      "HD-118"
     ],
-    "localRaces": []
+    "localRaces": [
+      "sbe-local-5th-appellate-welch-vacancy",
+      "sbe-local-5th-appellate-retain-barberis-jr",
+      "sbe-local-1st-circuit-retain-thurston",
+      "sbe-local-1st-circuit-retain-tripp",
+      "sbe-local-2nd-circuit-retain-vaughan",
+      "sbe-local-2nd-circuit-retain-foster",
+      "sbe-local-2nd-circuit-retain-hudson",
+      "sbe-local-2nd-circuit-retain-hartrich",
+      "sbe-local-2nd-circuit-retain-cook",
+      "sbe-local-4th-circuit-retain-brandmeyer",
+      "sbe-local-4th-circuit-retain-siemer",
+      "sbe-local-4th-circuit-retain-powless",
+      "sbe-local-24th-circuit-retain-campanella",
+      "sbe-local-24th-circuit-retain-hitzemann"
+    ],
+    "counties": [
+      "Alexander",
+      "Clay",
+      "Clinton",
+      "Crawford",
+      "Effingham",
+      "Franklin",
+      "Gallatin",
+      "Hamilton",
+      "Jefferson",
+      "Johnson",
+      "Lawrence",
+      "Marion",
+      "Massac",
+      "Pope",
+      "Pulaski",
+      "Richland",
+      "Saline",
+      "Shelby",
+      "Washington",
+      "Wayne",
+      "White"
+    ],
+    "mappedGeographyZips": [
+      "62401",
+      "62439",
+      "62450",
+      "62454",
+      "62801",
+      "62821",
+      "62837",
+      "62839",
+      "62859",
+      "62864",
+      "62881",
+      "62914",
+      "62930",
+      "62946",
+      "62960",
+      "62964",
+      "62984",
+      "62995"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "bolingbrook",
@@ -3353,32 +8189,50 @@ window.IL_TOWNS_DIRECTORY = [
       "DuPage Township"
     ],
     "region": "Collar Counties",
-    "county": "Will",
+    "county": "DuPage / Will",
     "usHouse": [
       "IL-11",
       "IL-14"
     ],
     "stateSenate": [
-      "SD-21"
+      "SD-21",
+      "SD-41"
     ],
     "stateHouse": [
-      "HD-98",
-      "HD-97",
+      "HD-41",
+      "HD-81",
       "HD-85",
-      "HD-41"
+      "HD-97",
+      "HD-98"
     ],
     "localRaces": [
+      "dupage-board-chair",
+      "dupage-sheriff",
+      "dupage-clerk",
+      "dupage-treasurer",
       "will-clerk",
       "will-sheriff",
       "will-treasurer",
-      "will-regional-superintendent",
-      "will-board-9",
       "will-appellate-court-3rd",
-      "will-circuit-court-3rd-subcircuit",
-      "will-circuit-court-1st-subcircuit",
-      "will-circuit-court-5th-subcircuit",
-      "will-judicial-retention"
-    ]
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy",
+      "sbe-local-18th-circuit-retain-walsh",
+      "sbe-local-18th-circuit-retain-o-toole",
+      "sbe-local-18th-circuit-retain-felice",
+      "sbe-local-18th-circuit-retain-o-connell"
+    ],
+    "counties": [
+      "DuPage",
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60490",
+      "60440"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   },
   {
     "id": "romeoville",
@@ -3393,27 +8247,33 @@ window.IL_TOWNS_DIRECTORY = [
     "region": "Collar Counties",
     "county": "Will",
     "usHouse": [
+      "IL-01",
       "IL-11",
       "IL-14"
     ],
     "stateSenate": [],
     "stateHouse": [
-      "HD-98",
       "HD-85",
-      "HD-97"
+      "HD-98"
     ],
     "localRaces": [
       "will-clerk",
       "will-sheriff",
       "will-treasurer",
-      "will-regional-superintendent",
-      "will-board-9",
       "will-appellate-court-3rd",
-      "will-circuit-court-3rd-subcircuit",
-      "will-circuit-court-1st-subcircuit",
-      "will-circuit-court-5th-subcircuit",
-      "will-judicial-retention"
-    ]
+      "will-retention-amy-m-bertani-tomczak",
+      "will-retention-sarah-jones",
+      "will-retention-daniel-l-kennedy",
+      "will-retention-daniel-d-rippy"
+    ],
+    "counties": [
+      "Will"
+    ],
+    "mappedGeographyZips": [
+      "60446"
+    ],
+    "geographyStatus": "census-zcta-overlap",
+    "geographyChecked": "2026-11-01"
   }
 ];
 
@@ -3507,8 +8367,8 @@ window.IL_PACS_DIRECTORY = [
     "category": "Federal membership PAC",
     "alignment": "",
     "cycle2026Spending": "",
-    "leaderOrSource": "American Israel Public Affairs Committee connected PAC; announced on October 21, 2026 that it is ending candidate endorsements and direct contributions while affiliated super PAC United Democracy Project continues independent spending.",
-    "description": "Federal multicandidate PAC of the American Israel Public Affairs Committee (FEC ID C00797670). On October 21, 2026, AIPAC announced it is ending candidate endorsements and direct PAC contributions while its affiliated super PAC, United Democracy Project (C00799031), continues independent expenditures. Earlier in the 2025-2026 cycle, the PAC reported $55,442,603 in disbursements through September 30, 2026.",
+    "leaderOrSource": "American Israel Public Affairs Committee connected PAC, FEC ID C00797670.",
+    "description": "FEC-registered membership-organization PAC, distinct from United Democracy Project. Jewish Insider reported on October 21, 2026 that AIPAC announced plans to end formal endorsements, direct PAC contributions and earmarking while continuing individual-donor organizing and UDP activity. This is a reported announcement, not evidence that the PAC closed or all support stopped on that date. Historical contributions and endorsements remain historical facts; check each candidate's dated sources. Financial totals are available in the separate official FEC record.",
     "keyBackedCandidates": [],
     "keyOpposedCandidates": [],
     "issueFocus": "The connected organization states that it works to strengthen the U.S. - Israel relationship.",
@@ -3517,8 +8377,8 @@ window.IL_PACS_DIRECTORY = [
         "field": "description",
         "url": "https://www.fec.gov/data/committee/C00797670/?cycle=2026",
         "title": "FEC: AIPAC PAC",
-        "checked": "2026-10-28",
-        "note": "Official registered name, ID and membership-PAC classification."
+        "checked": "2026-11-01",
+        "note": "Official registered name, ID and membership-organization PAC classification. This record lists an active committee; it does not establish an operational shutdown date."
       },
       {
         "field": "issueFocus",
@@ -3529,19 +8389,18 @@ window.IL_PACS_DIRECTORY = [
       },
       {
         "field": "description",
-        "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
-        "title": "NPR: AIPAC says it is ending endorsements and direct contributions, October 21, 2026",
+        "url": "https://jewishinsider.com/2026/10/aipac-end-candidate-endorsements-pac-contributions/",
+        "title": "Jewish Insider: reporting on AIPAC's letter to members",
         "sourceDate": "2026-10-21",
-        "checked": "2026-10-28",
-        "note": "Reports AIPAC's October 21, 2026 announcement ending direct candidate endorsements and PAC contributions while super PAC United Democracy Project continues independent spending."
+        "checked": "2026-11-01",
+        "note": "Secondary reporting quoting the member letter and an AIPAC spokesperson. The full primary letter was not located in the public sources reviewed."
       },
       {
         "field": "leaderOrSource",
-        "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
-        "title": "NPR: AIPAC says it is ending endorsements and direct contributions, October 21, 2026",
-        "sourceDate": "2026-10-21",
-        "checked": "2026-10-28",
-        "note": "Reports the October 21, 2026 shift from direct PAC endorsements and contributions to independent expenditures via United Democracy Project."
+        "url": "https://www.aipac.org/politics",
+        "title": "AIPAC: Politics",
+        "checked": "2026-11-01",
+        "note": "Primary organizational page identifies the PAC and the AIPAC-backed UDP. The page still describes PAC giving and cannot establish when the announced change takes effect."
       }
     ],
     "committeeId": "C00797670",
@@ -3554,7 +8413,7 @@ window.IL_PACS_DIRECTORY = [
     "alignment": "",
     "cycle2026Spending": "",
     "leaderOrSource": "",
-    "description": "Hybrid PAC and super PAC affiliated with AIPAC (FEC ID C00799031). Following AIPAC's October 21, 2026 announcement ending direct candidate endorsements and PAC contributions, United Democracy Project continues independent expenditures in federal races, having reported $94,918,891 in disbursements during the 2025-2026 cycle through September 30, 2026.",
+    "description": "FEC-registered independent-expenditure-only super PAC, C00799031, identified by AIPAC as AIPAC-backed. It is a separate committee from AIPAC PAC. October 21, 2026 reporting on AIPAC's planned changes said UDP would continue. Its spending must be read in its own FEC filings; total disbursements are not the same measure as independent expenditures or money received by Illinois candidates.",
     "keyBackedCandidates": [],
     "keyOpposedCandidates": [],
     "issueFocus": "",
@@ -3563,16 +8422,23 @@ window.IL_PACS_DIRECTORY = [
         "field": "description",
         "url": "https://www.fec.gov/data/committee/C00799031/?cycle=2026",
         "title": "FEC: United Democracy Project",
-        "checked": "2026-10-28",
-        "note": "Official committee identity, classification and financial-summary categories. FEC explains that independent expenditures are not given to or spent by candidates."
+        "checked": "2026-11-01",
+        "note": "FEC classifies UDP as a Super PAC (Independent Expenditure-Only), not a hybrid PAC. Independent expenditures are not funds directly given to or spent by candidates."
       },
       {
         "field": "description",
-        "url": "https://www.npr.org/2026/10/21/nx-s1-6011531/aipac-campaign-contributions-israel-democrats",
-        "title": "NPR: AIPAC says it is ending endorsements and direct contributions, October 21, 2026",
+        "url": "https://jewishinsider.com/2026/10/aipac-end-candidate-endorsements-pac-contributions/",
+        "title": "Jewish Insider: reporting on AIPAC's letter to members",
         "sourceDate": "2026-10-21",
-        "checked": "2026-10-28",
-        "note": "Reports that AIPAC's super PAC, United Democracy Project, continues independent spending after AIPAC ended direct endorsements and contributions on October 21, 2026."
+        "checked": "2026-11-01",
+        "note": "Reported continuation of UDP; does not establish that AIPAC PAC ended activity on October 21."
+      },
+      {
+        "field": "description",
+        "url": "https://www.aipac.org/politics",
+        "title": "AIPAC: Politics",
+        "checked": "2026-11-01",
+        "note": "Primary source for the relationship between AIPAC and UDP."
       }
     ],
     "committeeId": "C00799031",

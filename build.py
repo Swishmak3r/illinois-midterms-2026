@@ -7,7 +7,7 @@ import os
 ROOT = Path(__file__).resolve().parent
 SCRIPTS = [
     "data-federal.js", "data-statewide.js", "data-legislature.js",
-    "data-local.js", "data-towns-pacs.js", "data-zips.js", "location.js",
+    "data-local.js", "data-towns-pacs.js", "data-zips.js", "data-geography.js", "location.js",
 ]
 if (ROOT / "data-live-sync.js").exists():
     SCRIPTS.append("data-live-sync.js")

@@ -1,0 +1,2218 @@
+[
+  {
+    "file": "data-statewide.js",
+    "race": "il-comptroller-2026",
+    "incumbent": "Susana Mendoza",
+    "id": "anna-schiefelbein",
+    "name": "Anna Schiefelbein",
+    "changes": {
+      "role": [
+        "Comptroller write-in candidate",
+        "Green Party write-in candidate for Illinois Comptroller (removed from statewide printed ballot July 14, 2026)"
+      ],
+      "incumbentStatus": [
+        "Write-in candidate; confirm eligibility with your election authority",
+        "Removed from statewide ballot (Jul 14); local write-in"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "title": "Illinois State Board of Elections: 2026 general election candidate list",
+        "checked": "2026-10-28",
+        "note": "Confirms July 14, 2026 removal from the statewide printed ballot."
+      },
+      {
+        "field": "role",
+        "url": "https://www.gpelections.org/election-history/write-ins/",
+        "title": "Green Party of the United States: 2026 write-in campaigns",
+        "checked": "2026-10-28",
+        "note": "Lists Anna Schiefelbein as an Illinois Comptroller write-in candidate. County eligibility must be confirmed.",
+        "sourceType": "candidate party"
+      },
+      {
+        "field": "incumbentStatus",
+        "url": "https://www.gpelections.org/election-history/write-ins/",
+        "title": "Green Party of the United States: 2026 write-in campaigns",
+        "checked": "2026-10-28",
+        "note": "Write-in status is documented separately from the printed-ballot nominees.",
+        "sourceType": "candidate party"
+      }
+    ]
+  },
+  {
+    "file": "data-statewide.js",
+    "race": "il-treasurer-2026",
+    "incumbent": "Michael W. Frerichs",
+    "id": "timothea-papas",
+    "name": "Timothea Papas",
+    "changes": {
+      "role": [
+        "Treasurer write-in candidate",
+        "Green Party write-in candidate for Illinois State Treasurer (removed from statewide printed ballot July 14, 2026)"
+      ],
+      "incumbentStatus": [
+        "Write-in candidate; confirm eligibility with your election authority",
+        "Removed from statewide ballot (Jul 14); local write-in"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D",
+        "title": "Illinois State Board of Elections: 2026 general election candidate list",
+        "checked": "2026-10-28",
+        "note": "Confirms July 14, 2026 removal from the statewide printed ballot."
+      },
+      {
+        "field": "role",
+        "url": "https://www.gpelections.org/election-history/write-ins/",
+        "title": "Green Party of the United States: 2026 write-in campaigns",
+        "checked": "2026-10-28",
+        "note": "Lists Timi Papas as an Illinois Treasurer write-in candidate. County eligibility must be confirmed.",
+        "sourceType": "candidate party"
+      },
+      {
+        "field": "incumbentStatus",
+        "url": "https://www.gpelections.org/election-history/write-ins/",
+        "title": "Green Party of the United States: 2026 write-in campaigns",
+        "checked": "2026-10-28",
+        "note": "Write-in status is documented separately from the printed-ballot nominees.",
+        "sourceType": "candidate party"
+      }
+    ]
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-08",
+    "incumbent": "Ram Villivalam",
+    "id": "vince-romano",
+    "name": "Vince Romano",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-09",
+    "incumbent": "",
+    "id": "patrick-hanley",
+    "name": "Patrick Hanley",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Open-seat nominee"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.hanleyforillinois.com/",
+        "title": "Patrick Hanley campaign - About",
+        "checked": "2026-10-28",
+        "note": "Campaign identifies Hanley as a small-business owner."
+      }
+    ]
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-09",
+    "incumbent": "",
+    "id": "tom-lally",
+    "name": "Tom Lally",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Open-seat nominee"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2BQmww%3D&OfficeID=KRdCOd2Klj3jr0NsoPmgKw%3D%3D",
+        "title": "Illinois State Board of Elections - 9th Senate candidate list",
+        "checked": "2026-10-28",
+        "note": "Candidate identity only; no issue or biography inference."
+      }
+    ]
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-24",
+    "incumbent": "Seth Lewis",
+    "id": "ben-mcadams",
+    "name": "Benjamin \"Ben\" McAdams",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-26",
+    "incumbent": "Darby Hills",
+    "id": "nabeela-syed",
+    "name": "Nabeela Syed",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-27",
+    "incumbent": "Mark Walker (D)",
+    "id": "carina-santa-maria",
+    "name": "Carina Santa Maria",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-27",
+    "incumbent": "Mark Walker (D)",
+    "id": "david-mathis",
+    "name": "David Mathis",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-33",
+    "incumbent": "Donald P. DeWitte (R)",
+    "id": "michele-clark",
+    "name": "Michele Clark",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-33",
+    "incumbent": "Donald P. DeWitte (R)",
+    "id": "danielle-penman",
+    "name": "Danielle Penman",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-36",
+    "incumbent": "Michael W. Halpin (D)",
+    "id": "brad-beekman",
+    "name": "Brad Beekman",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.beekmanforsenate.com/",
+        "title": "Brad Beekman campaign - Background",
+        "checked": "2026-10-28",
+        "note": "Campaign identifies retired Illinois State Police service."
+      }
+    ]
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-48",
+    "incumbent": "Doris Turner",
+    "id": "frank-lesko",
+    "name": "Frank Lesko",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.friendsoffranklesko.com/about.htm",
+        "title": "Frank Lesko campaign: About",
+        "checked": "2026-10-28",
+        "note": "Campaign describes election as county recorder in 2024."
+      }
+    ]
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-56",
+    "incumbent": "Erica Harriss",
+    "id": "marsia-geldert-murphey",
+    "name": "Marsia Geldert-Murphey",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.asce.org/publications-and-news/civil-engineering-source/authors/marsia-geldert-murphey/",
+        "title": "American Society of Civil Engineers: Marsia Geldert-Murphey",
+        "checked": "2026-10-28",
+        "note": "Professional society biography confirms engineering role and 2023-2024 presidency."
+      }
+    ]
+  },
+  {
+    "file": "data-legislature.js",
+    "race": "il-sen-59",
+    "incumbent": "Paul Jacobs",
+    "id": "tamiko-mueller",
+    "name": "Tamiko \"T.C.\" Mueller",
+    "changes": {
+      "incumbentStatus": [
+        "",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://tcmueller.com/",
+        "title": "T.C. Mueller campaign",
+        "checked": "2026-10-28",
+        "note": "Campaign biography identifies military and business roles; replaces unsupported educator label."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-president",
+    "incumbent": "Toni Preckwinkle (D)",
+    "id": "toni-preckwinkle",
+    "name": "Toni Preckwinkle",
+    "changes": {
+      "role": [
+        "Candidate for President of the Cook County Board of Commissioners",
+        "Incumbent candidate for President of the Cook County Board of Commissioners"
+      ],
+      "incumbentStatus": [
+        null,
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-president",
+    "incumbent": "Toni Preckwinkle (D)",
+    "id": "michael-murphy-cook",
+    "name": "Michael Murphy",
+    "changes": {
+      "role": [
+        "Candidate for President of the Cook County Board of Commissioners",
+        "Challenger for President of the Cook County Board of Commissioners"
+      ],
+      "incumbentStatus": [
+        null,
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-assessor",
+    "incumbent": "Open Seat (Pat Hynes D defeated incumbent Fritz Kaegi in primary)",
+    "id": "pat-hynes",
+    "name": "Pat Hynes",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Assessor",
+        "Open-seat candidate for Cook County Assessor"
+      ],
+      "incumbentStatus": [
+        null,
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-assessor",
+    "incumbent": "Open Seat (Pat Hynes D defeated incumbent Fritz Kaegi in primary)",
+    "id": "nico-tsatsoulis",
+    "name": "Nico Tsatsoulis",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Assessor",
+        "Open-seat candidate for Cook County Assessor"
+      ],
+      "incumbentStatus": [
+        null,
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-sheriff",
+    "incumbent": "Thomas Dart (D)",
+    "id": "tom-dart",
+    "name": "Thomas Dart",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Sheriff",
+        "Challenger for Cook County Sheriff"
+      ],
+      "incumbentStatus": [
+        null,
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-sheriff",
+    "incumbent": "Thomas Dart (D)",
+    "id": "brad-sandefur",
+    "name": "Brad Sandefur",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Sheriff",
+        "Challenger for Cook County Sheriff"
+      ],
+      "incumbentStatus": [
+        null,
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-clerk",
+    "incumbent": "Monica Gordon (D)",
+    "id": "monica-gordon",
+    "name": "Monica Gordon",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Clerk",
+        "Incumbent candidate for Cook County Clerk"
+      ],
+      "incumbentStatus": [
+        null,
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-treasurer",
+    "incumbent": "Maria Pappas (D)",
+    "id": "maria-pappas",
+    "name": "Maria Pappas",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Treasurer",
+        "Incumbent candidate for Cook County Treasurer"
+      ],
+      "incumbentStatus": [
+        null,
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-board-review-2",
+    "incumbent": "Open Seat (Elizabeth 'Liz' Nicholson D defeated incumbent Samantha Steele in primary)",
+    "id": "liz-nicholson",
+    "name": "Elizabeth 'Liz' Nicholson",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Board of Review, District 2",
+        "Open-seat candidate for Cook County Board of Review, District 2"
+      ],
+      "incumbentStatus": [
+        null,
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://glenviewpl.org/blogs/post/voter-information-november-2026/",
+        "title": "Glenview Public Library: November 3, 2026 voter information",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-comm-17",
+    "incumbent": "Open Seat (Sean Morrison R retiring)",
+    "id": "elyse-hoffenberg",
+    "name": "Elyse Hoffenberg",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Commissioner, District 17",
+        "Open-seat candidate for Cook County Commissioner, District 17"
+      ],
+      "incumbentStatus": [
+        null,
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-comm-17",
+    "incumbent": "Open Seat (Sean Morrison R retiring)",
+    "id": "liz-doody-gorman",
+    "name": "Elizabeth 'Liz' Doody Gorman",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Commissioner, District 17",
+        "Open-seat candidate for Cook County Commissioner, District 17"
+      ],
+      "incumbentStatus": [
+        null,
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://marketplace.dailyherald.com/chicago/legals-public-notices/legal-notice/AC1E04BF18eee35C28L6Fi2997DB",
+        "title": "Cook County Clerk official November 3, 2026 specimen ballot, Schaumburg Township legal notice",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-comm-10",
+    "incumbent": "Open Seat (Drake Warren D defeated incumbent Bridget Gainer in primary)",
+    "id": "drake-warren",
+    "name": "Drake Warren",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Commissioner, District 10",
+        "Open-seat candidate for Cook County Commissioner, District 10"
+      ],
+      "incumbentStatus": [
+        null,
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://drakefor10.com/",
+        "title": "Drake Warren official campaign",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "cook-comm-16",
+    "incumbent": "Open Seat (Miranda Hernandez D defeated incumbent Frank Aguilar in primary)",
+    "id": "miranda-hernandez",
+    "name": "Miranda Hernandez",
+    "changes": {
+      "role": [
+        "Candidate for Cook County Commissioner, District 16",
+        "Open-seat candidate for Cook County Commissioner, District 16"
+      ],
+      "incumbentStatus": [
+        null,
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://mirandaforcookcounty.org/",
+        "title": "Miranda Hernandez official campaign",
+        "checked": "2026-10-28",
+        "note": "Candidacy for the stated office; no other biography or incumbency claim is made."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-board-chair",
+    "incumbent": "Deb Conroy (D)",
+    "id": "deb-conroy",
+    "name": "Deb Conroy",
+    "changes": {
+      "role": [
+        "Candidate for DuPage County Board Chairperson",
+        "Incumbent candidate for DuPage County Board Chairperson"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-board-chair",
+    "incumbent": "Deb Conroy (D)",
+    "id": "gary-grasso",
+    "name": "Gary Grasso",
+    "changes": {
+      "role": [
+        "Candidate for DuPage County Board Chairperson",
+        "Challenger for DuPage County Board Chairperson"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-sheriff",
+    "incumbent": "Open Seat (James Mendrick R retiring)",
+    "id": "peter-coolidge",
+    "name": "Peter Joseph Coolidge",
+    "changes": {
+      "role": [
+        "Candidate for DuPage Sheriff",
+        "Open-seat candidate for DuPage Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-sheriff",
+    "incumbent": "Open Seat (James Mendrick R retiring)",
+    "id": "sean-noonan",
+    "name": "Sean T. Noonan",
+    "changes": {
+      "role": [
+        "Candidate for DuPage Sheriff",
+        "Open-seat candidate for DuPage Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-clerk",
+    "incumbent": "Open Seat (Paula Deacon Garcia D defeated incumbent Jean Kaczmarek in primary)",
+    "id": "paula-deacon-garcia",
+    "name": "Paula Deacon Garcia",
+    "changes": {
+      "role": [
+        "Candidate for DuPage County Clerk",
+        "Open-seat candidate for DuPage County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-clerk",
+    "incumbent": "Open Seat (Paula Deacon Garcia D defeated incumbent Jean Kaczmarek in primary)",
+    "id": "patricia-kladis-schiappa",
+    "name": "Patricia Kladis-Schiappa",
+    "changes": {
+      "role": [
+        "Candidate for DuPage County Clerk",
+        "Open-seat candidate for DuPage County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-treasurer",
+    "incumbent": "Gwen Henry (R)",
+    "id": "yeena-yoo",
+    "name": "Yeena Yoo",
+    "changes": {
+      "role": [
+        "Candidate for DuPage County Treasurer",
+        "Challenger for DuPage County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "dupage-treasurer",
+    "incumbent": "Gwen Henry (R)",
+    "id": "gwen-henry",
+    "name": "Gwen Henry",
+    "changes": {
+      "role": [
+        "Candidate for DuPage County Treasurer",
+        "Incumbent candidate for DuPage County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "lake-clerk",
+    "incumbent": "Anthony Vega (D)",
+    "id": "anthony-vega",
+    "name": "Anthony Vega",
+    "changes": {
+      "role": [
+        "Candidate for Lake County Clerk",
+        "Incumbent candidate for Lake County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "lake-treasurer",
+    "incumbent": "Open Seat (Holly Kim D ran for Comptroller)",
+    "id": "sandy-hart",
+    "name": "Sandy Hart",
+    "changes": {
+      "role": [
+        "Candidate for Lake County Treasurer",
+        "Open-seat candidate for Lake County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "lake-treasurer",
+    "incumbent": "Open Seat (Holly Kim D ran for Comptroller)",
+    "id": "david-penaherrera",
+    "name": "David Penaherrera",
+    "changes": {
+      "role": [
+        "Candidate for Lake County Treasurer",
+        "Open-seat candidate for Lake County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "lake-sheriff",
+    "incumbent": "John D. Idleburg (D)",
+    "id": "john-idleburg",
+    "name": "John D. Idleburg",
+    "changes": {
+      "role": [
+        "Candidate for Lake Sheriff",
+        "Challenger for Lake Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "lake-sheriff",
+    "incumbent": "John D. Idleburg (D)",
+    "id": "roman-buchberger",
+    "name": "Roman Buchberger",
+    "changes": {
+      "role": [
+        "Candidate for Lake Sheriff",
+        "Challenger for Lake Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "will-clerk",
+    "incumbent": "Annette Parker (R)",
+    "id": "michelle-stiff",
+    "name": "Michelle Stiff",
+    "changes": {
+      "role": [
+        "Candidate for Will County Clerk",
+        "Challenger for Will County Clerk; Will County Auditor"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "will-clerk",
+    "incumbent": "Annette Parker (R)",
+    "id": "annette-parker",
+    "name": "Annette Parker",
+    "changes": {
+      "role": [
+        "Candidate for Will County Clerk",
+        "Incumbent Will County Clerk seeking a full term"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "will-sheriff",
+    "incumbent": "Open Seat (Mike Kelley R retiring)",
+    "id": "patrick-jones",
+    "name": "Patrick Jones",
+    "changes": {
+      "role": [
+        "Candidate for Will Sheriff",
+        "Open-seat candidate for Will Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "will-sheriff",
+    "incumbent": "Open Seat (Mike Kelley R retiring)",
+    "id": "james-reilly",
+    "name": "James \"Jim\" Reilly",
+    "changes": {
+      "role": [
+        "Candidate for Will Sheriff",
+        "Open-seat candidate for Will Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "will-treasurer",
+    "incumbent": "Tim Brophy (D)",
+    "id": "tim-brophy",
+    "name": "Tim Brophy",
+    "changes": {
+      "role": [
+        "Candidate for Will County Treasurer",
+        "Incumbent Will County Treasurer seeking re-election"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "will-treasurer",
+    "incumbent": "Tim Brophy (D)",
+    "id": "carmen-maurella",
+    "name": "Carmen Maurella III",
+    "changes": {
+      "role": [
+        "Candidate for Will County Treasurer",
+        "Challenger for Will County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": []
+  },
+  {
+    "file": "data-local.js",
+    "race": "kane-sheriff",
+    "incumbent": "Open Seat (Ron Hain D retiring)",
+    "id": "amy-johnson",
+    "name": "Amy Johnson",
+    "changes": {
+      "role": [
+        "Candidate for Kane County Sheriff",
+        "Open-seat candidate for Kane County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: candidates for the 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "kane-sheriff",
+    "incumbent": "Open Seat (Ron Hain D retiring)",
+    "id": "rob-russell",
+    "name": "Rob Russell",
+    "changes": {
+      "role": [
+        "Candidate for Kane County Sheriff",
+        "Open-seat candidate for Kane County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: candidates for the 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "kane-clerk",
+    "incumbent": "John A. 'Jack' Cunningham (R)",
+    "id": "brenda-rodgers",
+    "name": "Brenda Rodgers",
+    "changes": {
+      "role": [
+        "Candidate for Kane County Clerk",
+        "Challenger for Kane County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: candidates for the 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "kane-clerk",
+    "incumbent": "John A. 'Jack' Cunningham (R)",
+    "id": "john-a-jack-cunningham",
+    "name": "John A. \"Jack\" Cunningham",
+    "changes": {
+      "role": [
+        "Candidate for Kane County Clerk",
+        "Incumbent candidate for Kane County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: candidates for the 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "kane-treasurer",
+    "incumbent": "Chris Lauzen (R)",
+    "id": "penny-wegman",
+    "name": "Penny Wegman",
+    "changes": {
+      "role": [
+        "Candidate for Kane County Treasurer",
+        "Challenger for Kane County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: candidates for the 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "kane-treasurer",
+    "incumbent": "Chris Lauzen (R)",
+    "id": "chris-lauzen",
+    "name": "Chris Lauzen",
+    "changes": {
+      "role": [
+        "Candidate for Kane County Treasurer",
+        "Incumbent candidate for Kane County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://applications.kanecountyil.gov/ElectionWebsite/en-US/Candidates/List/31/NP",
+        "title": "Kane County Clerk: candidates for the 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mchenry-sheriff",
+    "incumbent": "Robb Tadelman (R)",
+    "id": "robb-tadelman",
+    "name": "Robb Tadelman",
+    "changes": {
+      "role": [
+        "Candidate for McHenry County Sheriff",
+        "Incumbent candidate for McHenry County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mchenry-clerk",
+    "incumbent": "Joe Tirio (R)",
+    "id": "bill-mcneese",
+    "name": "Bill McNeese",
+    "changes": {
+      "role": [
+        "Candidate for McHenry County Clerk",
+        "Challenger for McHenry County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mchenry-clerk",
+    "incumbent": "Joe Tirio (R)",
+    "id": "joe-tirio",
+    "name": "Joe Tirio",
+    "changes": {
+      "role": [
+        "Candidate for McHenry County Clerk",
+        "Incumbent candidate for McHenry County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mchenry-treasurer",
+    "incumbent": "Donna M. Kurtz (R)",
+    "id": "amin-karim",
+    "name": "Amin Karim",
+    "changes": {
+      "role": [
+        "Candidate for McHenry County Treasurer",
+        "Challenger for McHenry County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mchenry-treasurer",
+    "incumbent": "Donna M. Kurtz (R)",
+    "id": "donna-m-kurtz",
+    "name": "Donna M. Kurtz",
+    "changes": {
+      "role": [
+        "Candidate for McHenry County Treasurer",
+        "Incumbent candidate for McHenry County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.mchenrycountyil.gov/home/showpublisheddocument/122430/639159291500770000",
+        "title": "McHenry County Clerk: general-election candidate list, June 1, 2026",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "sangamon-county-2026",
+    "incumbent": "Paula Crouch (R)",
+    "id": "paula-crouch",
+    "name": "Paula Crouch",
+    "changes": {
+      "role": [
+        "Candidate for Sangamon County Sheriff",
+        "Incumbent candidate for Sangamon County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://sangamondepartments.blob.core.windows.net/dnnfiles/Clerk/Elections/Candidates/2026%20Election/11-3-26%20Co%20Wide%20and%20Co%20Board%20Candidate%20Listing.pdf?si=DNNFileManagerPolicy&sig=R018BKkJgc9t9fEMtDxNLHZcKGq2gO%2Ftnwnsc4zcEv8%3D&sr=b&sv=2017-04-17",
+        "title": "Sangamon County Clerk: candidates for November 3, 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "sangamon-county-2026",
+    "incumbent": "Paula Crouch (R)",
+    "id": "marc-bell",
+    "name": "Marc Bell",
+    "changes": {
+      "role": [
+        "Candidate for Sangamon County Sheriff",
+        "Challenger for Sangamon County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://sangamondepartments.blob.core.windows.net/dnnfiles/Clerk/Elections/Candidates/2026%20Election/11-3-26%20Co%20Wide%20and%20Co%20Board%20Candidate%20Listing.pdf?si=DNNFileManagerPolicy&sig=R018BKkJgc9t9fEMtDxNLHZcKGq2gO%2Ftnwnsc4zcEv8%3D&sr=b&sv=2017-04-17",
+        "title": "Sangamon County Clerk: candidates for November 3, 2026 general election",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "winnebago-sheriff",
+    "incumbent": "Gary Caruana (R)",
+    "id": "gary-caruana",
+    "name": "Gary Caruana",
+    "changes": {
+      "role": [
+        "Candidate for Winnebago County Sheriff",
+        "Incumbent candidate for Winnebago County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://wincoil.gov/media/attachments/2026/10/03/sample-ballot.pdf",
+        "title": "Winnebago County Clerk: November 3, 2026 sample ballot, page 2",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "winnebago-sheriff",
+    "incumbent": "Gary Caruana (R)",
+    "id": "dominick-barcellona",
+    "name": "Dominick Barcellona",
+    "changes": {
+      "role": [
+        "Candidate for Winnebago County Sheriff",
+        "Challenger for Winnebago County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://wincoil.gov/media/attachments/2026/10/03/sample-ballot.pdf",
+        "title": "Winnebago County Clerk: November 3, 2026 sample ballot, page 2",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "peoria-clerk",
+    "incumbent": "Rachael Parker (D)",
+    "id": "rachael-parker",
+    "name": "Rachael Parker",
+    "changes": {
+      "role": [
+        "Candidate for Peoria County Clerk & Recorder",
+        "Incumbent candidate for Peoria County Clerk & Recorder"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
+        "title": "Peoria County Election Commission: 2026 general-election sample ballot, page 2",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "peoria-clerk",
+    "incumbent": "Rachael Parker (D)",
+    "id": "kari-gabbert",
+    "name": "Kari Gabbert",
+    "changes": {
+      "role": [
+        "Candidate for Peoria County Clerk & Recorder",
+        "Challenger for Peoria County Clerk & Recorder"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.peoriaelections.gov/DocumentCenter/View/1454/2026-General-Election---Sample-Ballot",
+        "title": "Peoria County Election Commission: 2026 general-election sample ballot, page 2",
+        "checked": "2026-10-28",
+        "note": "Confirms candidate name, party and office. No policy, endorsement or fundraising inference is made from the ballot listing."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "champaign-clerk",
+    "incumbent": "Aaron Ammons (D)",
+    "id": "aaron-ammons",
+    "name": "Aaron Ammons",
+    "changes": {
+      "role": [
+        "Candidate for Champaign County Clerk",
+        "Incumbent candidate for Champaign County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+        "title": "Champaign County Clerk: 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "champaign-clerk",
+    "incumbent": "Aaron Ammons (D)",
+    "id": "alan-anderson",
+    "name": "Alan Anderson",
+    "changes": {
+      "role": [
+        "Candidate for Champaign County Clerk",
+        "Challenger for Champaign County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+        "title": "Champaign County Clerk: 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "champaign-executive",
+    "incumbent": "Open Seat (Steve Summers D retiring)",
+    "id": "michelle-jett",
+    "name": "Michelle Jett",
+    "changes": {
+      "role": [
+        "Candidate for Champaign County Executive",
+        "Open-seat candidate for Champaign County Executive"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+        "title": "Champaign County Clerk: 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "champaign-treasurer",
+    "incumbent": "Byron Clark (D)",
+    "id": "byron-clark",
+    "name": "Byron Clark",
+    "changes": {
+      "role": [
+        "Candidate for Champaign County Treasurer",
+        "Incumbent candidate for Champaign County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+        "title": "Champaign County Clerk: 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "champaign-sheriff",
+    "incumbent": "Dustin D. Heuerman (D)",
+    "id": "dustin-d-heuerman",
+    "name": "Dustin D. Heuerman",
+    "changes": {
+      "role": [
+        "Candidate for Champaign County Sheriff",
+        "Incumbent candidate for Champaign County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+        "title": "Champaign County Clerk: 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "champaign-sheriff",
+    "incumbent": "Dustin D. Heuerman (D)",
+    "id": "gregory-a-worrell",
+    "name": "Gregory A. Worrell",
+    "changes": {
+      "role": [
+        "Candidate for Champaign County Sheriff",
+        "Challenger for Champaign County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.champaigncountyclerk.com/elections/who-represents-me",
+        "title": "Champaign County Clerk: 2026 candidates",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mclean-clerk",
+    "incumbent": "Kathy Michael (R)",
+    "id": "joshua-crockett",
+    "name": "Joshua Crockett",
+    "changes": {
+      "role": [
+        "Candidate for McLean County Clerk",
+        "Challenger for McLean County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://bloomingtonelectionsil.gov/wp-content/uploads/2026/09/26GILBLO_SAMPLE_3.pdf",
+        "title": "Bloomington Election Commission: November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mclean-clerk",
+    "incumbent": "Kathy Michael (R)",
+    "id": "kathy-michael",
+    "name": "Kathy Michael",
+    "changes": {
+      "role": [
+        "Candidate for McLean County Clerk",
+        "Incumbent candidate for McLean County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://bloomingtonelectionsil.gov/wp-content/uploads/2026/09/26GILBLO_SAMPLE_3.pdf",
+        "title": "Bloomington Election Commission: November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mclean-sheriff",
+    "incumbent": "Jon Albee (R)",
+    "id": "jon-albee",
+    "name": "Jon Albee",
+    "changes": {
+      "role": [
+        "Candidate for McLean County Sheriff",
+        "Incumbent candidate for McLean County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://bloomingtonelectionsil.gov/wp-content/uploads/2026/09/26GILBLO_SAMPLE_3.pdf",
+        "title": "Bloomington Election Commission: November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "mclean-treasurer",
+    "incumbent": "Rebecca C. McNeil (R)",
+    "id": "rebecca-c-mcneil",
+    "name": "Rebecca C. McNeil",
+    "changes": {
+      "role": [
+        "Candidate for McLean County Treasurer",
+        "Incumbent candidate for McLean County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://bloomingtonelectionsil.gov/wp-content/uploads/2026/09/26GILBLO_SAMPLE_3.pdf",
+        "title": "Bloomington Election Commission: November 3, 2026 specimen ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "madison-clerk-and-recorder",
+    "incumbent": "Linda A. Andreas (R)",
+    "id": "rachelle-nicole-bauerle",
+    "name": "Rachelle Nicole Bauerle",
+    "changes": {
+      "role": [
+        "Candidate for Madison County Clerk and Recorder",
+        "Challenger for Madison County Clerk and Recorder"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.madisoncountyil.gov/document_center/CountyClerk/2026%20Election/Candidate%20list.pdf?t=20260930111710911",
+        "title": "Madison County Clerk: 2026 general-election candidate list",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "madison-clerk-and-recorder",
+    "incumbent": "Linda A. Andreas (R)",
+    "id": "linda-a-andreas",
+    "name": "Linda A. Andreas",
+    "changes": {
+      "role": [
+        "Candidate for Madison County Clerk and Recorder",
+        "Incumbent candidate for Madison County Clerk and Recorder"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.madisoncountyil.gov/document_center/CountyClerk/2026%20Election/Candidate%20list.pdf?t=20260930111710911",
+        "title": "Madison County Clerk: 2026 general-election candidate list",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "madison-sheriff",
+    "incumbent": "Jeff C. Connor (R)",
+    "id": "jeff-c-connor",
+    "name": "Jeff C. Connor",
+    "changes": {
+      "role": [
+        "Candidate for Madison County Sheriff",
+        "Incumbent candidate for Madison County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.madisoncountyil.gov/document_center/CountyClerk/2026%20Election/Candidate%20list.pdf?t=20260930111710911",
+        "title": "Madison County Clerk: 2026 general-election candidate list",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "madison-treasurer",
+    "incumbent": "Mike Babcock (R)",
+    "id": "mike-babcock",
+    "name": "Mike Babcock",
+    "changes": {
+      "role": [
+        "Candidate for Madison County Treasurer",
+        "Incumbent candidate for Madison County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.madisoncountyil.gov/document_center/CountyClerk/2026%20Election/Candidate%20list.pdf?t=20260930111710911",
+        "title": "Madison County Clerk: 2026 general-election candidate list",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "st-clair-clerk",
+    "incumbent": "Open Seat (Thomas Holbrook D retiring)",
+    "id": "laura-kaemmerer",
+    "name": "Laura Kaemmerer",
+    "changes": {
+      "role": [
+        "Candidate for St. Clair County Clerk",
+        "Open-seat candidate for St. Clair County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: November 3, 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "st-clair-clerk",
+    "incumbent": "Open Seat (Thomas Holbrook D retiring)",
+    "id": "gary-hursey",
+    "name": "Gary Hursey",
+    "changes": {
+      "role": [
+        "Candidate for St. Clair County Clerk",
+        "Open-seat candidate for St. Clair County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: November 3, 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "st-clair-treasurer",
+    "incumbent": "Andrew Lopinot (D)",
+    "id": "andrew-lopinot",
+    "name": "Andrew Lopinot",
+    "changes": {
+      "role": [
+        "Candidate for St. Clair County Treasurer",
+        "Incumbent candidate for St. Clair County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: November 3, 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "st-clair-treasurer",
+    "incumbent": "Andrew Lopinot (D)",
+    "id": "myki-rhodes",
+    "name": "Myki Rhodes",
+    "changes": {
+      "role": [
+        "Candidate for St. Clair County Treasurer",
+        "Challenger for St. Clair County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: November 3, 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "st-clair-sheriff",
+    "incumbent": "Richard 'Rick' Watson (D)",
+    "id": "richard-rick-watson",
+    "name": "Richard \"Rick\" Watson",
+    "changes": {
+      "role": [
+        "Candidate for St. Clair County Sheriff",
+        "Incumbent candidate for St. Clair County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+        "title": "St. Clair County Clerk: November 3, 2026 candidate filings",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "rock-island-clerk",
+    "incumbent": "Open Seat",
+    "id": "maggie-mcgrath-crouch",
+    "name": "Maggie (McGrath) Crouch",
+    "changes": {
+      "role": [
+        "Candidate for Rock Island County Clerk",
+        "Open-seat candidate for Rock Island County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.rockislandcountyil.gov/DocumentCenter/View/3377",
+        "title": "Rock Island County Clerk: 2026 general-election sample ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "rock-island-clerk",
+    "incumbent": "Open Seat",
+    "id": "steven-g-rugh",
+    "name": "Steven G Rugh",
+    "changes": {
+      "role": [
+        "Candidate for Rock Island County Clerk",
+        "Open-seat candidate for Rock Island County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.rockislandcountyil.gov/DocumentCenter/View/3377",
+        "title": "Rock Island County Clerk: 2026 general-election sample ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "rock-island-sheriff",
+    "incumbent": "Open Seat",
+    "id": "marcus-herbert",
+    "name": "Marcus Herbert",
+    "changes": {
+      "role": [
+        "Candidate for Rock Island County Sheriff",
+        "Open-seat candidate for Rock Island County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.rockislandcountyil.gov/DocumentCenter/View/3377",
+        "title": "Rock Island County Clerk: 2026 general-election sample ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "rock-island-sheriff",
+    "incumbent": "Open Seat",
+    "id": "jamie-m-shoemaker",
+    "name": "Jamie M. Shoemaker",
+    "changes": {
+      "role": [
+        "Candidate for Rock Island County Sheriff",
+        "Open-seat candidate for Rock Island County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Open-seat candidate"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.rockislandcountyil.gov/DocumentCenter/View/3377",
+        "title": "Rock Island County Clerk: 2026 general-election sample ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "rock-island-treasurer",
+    "incumbent": "Nick Camlin (D)",
+    "id": "nick-camlin",
+    "name": "Nick Camlin",
+    "changes": {
+      "role": [
+        "Candidate for Rock Island County Treasurer",
+        "Incumbent candidate for Rock Island County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.rockislandcountyil.gov/DocumentCenter/View/3377",
+        "title": "Rock Island County Clerk: 2026 general-election sample ballot",
+        "checked": "2026-10-28",
+        "note": "Official election record confirms the name, party and office."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "jackson-clerk",
+    "incumbent": "Frank L. Byrd (D)",
+    "id": "frank-l-byrd",
+    "name": "Frank L. Byrd",
+    "changes": {
+      "role": [
+        "Candidate for Jackson County Clerk",
+        "Incumbent candidate for Jackson County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.jacksoncounty-il.gov/DocumentCenter/View/1197/2026-Preview-Ballot",
+        "title": "Jackson County Clerk: 2026 general-election preview ballot, September 17, 2026",
+        "checked": "2026-10-28",
+        "note": "Names, parties and offices visually verified on page 2 of the official image-only ballot."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "jackson-clerk",
+    "incumbent": "Frank L. Byrd (D)",
+    "id": "doug-gill",
+    "name": "Doug Gill",
+    "changes": {
+      "role": [
+        "Candidate for Jackson County Clerk",
+        "Challenger for Jackson County Clerk"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.jacksoncounty-il.gov/DocumentCenter/View/1197/2026-Preview-Ballot",
+        "title": "Jackson County Clerk: 2026 general-election preview ballot, September 17, 2026",
+        "checked": "2026-10-28",
+        "note": "Names, parties and offices visually verified on page 2 of the official image-only ballot."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "jackson-sheriff",
+    "incumbent": "Robert 'Bob' Burns (D)",
+    "id": "robert-bob-burns",
+    "name": "Robert \"Bob\" Burns",
+    "changes": {
+      "role": [
+        "Candidate for Jackson County Sheriff",
+        "Incumbent candidate for Jackson County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.jacksoncounty-il.gov/DocumentCenter/View/1197/2026-Preview-Ballot",
+        "title": "Jackson County Clerk: 2026 general-election preview ballot, September 17, 2026",
+        "checked": "2026-10-28",
+        "note": "Names, parties and offices visually verified on page 2 of the official image-only ballot."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "jackson-sheriff",
+    "incumbent": "Robert 'Bob' Burns (D)",
+    "id": "jay-wittenborn",
+    "name": "Jay Wittenborn",
+    "changes": {
+      "role": [
+        "Candidate for Jackson County Sheriff",
+        "Challenger for Jackson County Sheriff"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Challenger"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.jacksoncounty-il.gov/DocumentCenter/View/1197/2026-Preview-Ballot",
+        "title": "Jackson County Clerk: 2026 general-election preview ballot, September 17, 2026",
+        "checked": "2026-10-28",
+        "note": "Names, parties and offices visually verified on page 2 of the official image-only ballot."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "jackson-treasurer",
+    "incumbent": "Liz Stevenson (D)",
+    "id": "liz-stevenson",
+    "name": "Liz Stevenson",
+    "changes": {
+      "role": [
+        "Candidate for Jackson County Treasurer",
+        "Incumbent candidate for Jackson County Treasurer"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.jacksoncounty-il.gov/DocumentCenter/View/1197/2026-Preview-Ballot",
+        "title": "Jackson County Clerk: 2026 general-election preview ballot, September 17, 2026",
+        "checked": "2026-10-28",
+        "note": "Names, parties and offices visually verified on page 2 of the official image-only ballot."
+      }
+    ]
+  },
+  {
+    "file": "data-local.js",
+    "race": "jackson-assessor",
+    "incumbent": "Tammy Ehlers (D)",
+    "id": "tammy-ehlers",
+    "name": "Tammy Ehlers",
+    "changes": {
+      "role": [
+        "Candidate for Jackson County Assessor",
+        "Incumbent candidate for Jackson County Assessor"
+      ],
+      "incumbentStatus": [
+        "General-election candidate",
+        "Incumbent"
+      ]
+    },
+    "evidence": [
+      {
+        "field": "role",
+        "url": "https://www.jacksoncounty-il.gov/DocumentCenter/View/1197/2026-Preview-Ballot",
+        "title": "Jackson County Clerk: 2026 general-election preview ballot, September 17, 2026",
+        "checked": "2026-10-28",
+        "note": "Names, parties and offices visually verified on page 2 of the official image-only ballot."
+      }
+    ]
+  }
+]

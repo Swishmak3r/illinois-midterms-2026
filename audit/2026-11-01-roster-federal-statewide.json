@@ -1,0 +1,851 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Printed federal and statewide nominees; county-documented write-ins kept separately.",
+  "sourceSnapshot": "2026-11-01-roster-sbe.json",
+  "races": [
+    {
+      "id": "us-senate-il",
+      "districtCode": "IL-SEN",
+      "office": "UNITED STATES SENATOR",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=b3l9OOoBLkjHeNv3Pz40NQ%3d%3d",
+      "printed": [
+        {
+          "id": "juliana-stratton",
+          "name": "Juliana Stratton",
+          "ballotName": "Juliana Stratton",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXeLvnz%2bp%2byDDg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "don-tracy",
+          "name": "Don Tracy",
+          "ballotName": "Don Tracy",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXfHzJDQ%2bCMr%2bg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "whitfield-harrington",
+          "name": "Whitfield Harrington Jr.",
+          "ballotName": "Whitfield Harrington Jr",
+          "party": "American Center Party",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=%2fbB%2fuvsOTddeB9HflGvVcQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": [
+        {
+          "name": "Muhammad, Tyrone F",
+          "party": "INDEPENDENT",
+          "status": "Removed 7/14/2026"
+        }
+      ]
+    },
+    {
+      "id": "us-house-il-01",
+      "districtCode": "IL-01",
+      "office": "1ST CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=7JNovNcc39AEakYCd3QYkw%3d%3d",
+      "printed": [
+        {
+          "id": "jonathan-jackson",
+          "name": "Jonathan L. Jackson",
+          "ballotName": "Jonathan L. Jackson",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=h6pjFZdOMHVyERkweKargA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "christian-maxwell",
+          "name": "Christian Maxwell",
+          "ballotName": "Christian Maxwell",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=KKGj4DYiJUBUG5xSWeIDqQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-02",
+      "districtCode": "IL-02",
+      "office": "2ND CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=C58DPBDIkBig%2bwcgmm4C6w%3d%3d",
+      "printed": [
+        {
+          "id": "donna-miller",
+          "name": "Donna Miller",
+          "ballotName": "Donna Miller",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=d0P6eEAusBJyxp0%2fax%2fRDg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "mike-noack",
+          "name": "Michael Scott Noack",
+          "ballotName": "Michael Scott Noack",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=d0P6eEAusBKDT7%2fTRZ7iuw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-03",
+      "districtCode": "IL-03",
+      "office": "3RD CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=bt1K7iW0hzK3xLcOPoMcJg%3d%3d",
+      "printed": [
+        {
+          "id": "delia-ramirez",
+          "name": "Delia C. Ramirez",
+          "ballotName": "Delia Ramirez",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=T3JeTijrkTlq%2fh1AApQKJQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "angel-oakley",
+          "name": "Angel Oakley",
+          "ballotName": "Angel Oakley",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=T3JeTijrkTna7hB0pMlCyQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-04",
+      "districtCode": "IL-04",
+      "office": "4TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=uvxzyezb8YtBN303KVZ2rA%3d%3d",
+      "printed": [
+        {
+          "id": "patty-garcia",
+          "name": "Patty Garcia",
+          "ballotName": "Patty Garcia",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=xWAtU%2btQwavvp3Pp%2bNvLvg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "lupe-castillo",
+          "name": "Lupe Castillo",
+          "ballotName": "Lupe Castillo",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=xWAtU%2btQwauUPtVZKDd1Ng%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "christopher-getty",
+          "name": "Chris Getty",
+          "ballotName": "Chris Getty",
+          "party": "Independent",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ZyGrv3oGaRRWod%2figU%2fGHw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "edward-hershey",
+          "name": "Ed Hershey",
+          "ballotName": "Ed Hershey",
+          "party": "Working Class Party",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=xWAtU%2btQwavMNhZP0BDhvQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": [
+        {
+          "name": "Macias, Mayra",
+          "party": "INDEPENDENT",
+          "status": "Removed 7/21/2026"
+        },
+        {
+          "name": "Sigcho Lopez, Byron",
+          "party": "INDEPENDENT",
+          "status": "Removed 7/21/2026"
+        }
+      ]
+    },
+    {
+      "id": "us-house-il-05",
+      "districtCode": "IL-05",
+      "office": "5TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=KX%2bTHeYhsHOaXahvbwopiA%3d%3d",
+      "printed": [
+        {
+          "id": "mike-quigley",
+          "name": "Mike Quigley",
+          "ballotName": "Mike Quigley",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=MYt1KJF5eJiVGXQc%2ba0rJw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "tommy-hanson",
+          "name": "Tommy Hanson",
+          "ballotName": "Tommy Hanson",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=MYt1KJF5eJjc064cGc6hWg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-06",
+      "districtCode": "IL-06",
+      "office": "6TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=fTLMhexWMts0KMbbSPX4sg%3d%3d",
+      "printed": [
+        {
+          "id": "sean-casten",
+          "name": "Sean Casten",
+          "ballotName": "Sean Casten",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ELVUbfrXqOpgMxYbbMKw6Q%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "niki-conforti",
+          "name": "Niki Conforti",
+          "ballotName": "Niki Conforti",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ELVUbfrXqOpfMWwsIsW2YA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-07",
+      "districtCode": "IL-07",
+      "office": "7TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=5U%2bolLr39utf3Ltkc6Hu8A%3d%3d",
+      "printed": [
+        {
+          "id": "la-shawn-ford",
+          "name": "La Shawn K. Ford",
+          "ballotName": "La Shawn K. Ford",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=p66kytXP5ipDhfPiMBUwHw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "chad-koppie",
+          "name": "Chad Koppie",
+          "ballotName": "Chad Koppie",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=p66kytXP5ipHH3435lvJvg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-08",
+      "districtCode": "IL-08",
+      "office": "8TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=GwRQvUhLbEFfpvfY%2fVdglA%3d%3d",
+      "printed": [
+        {
+          "id": "melissa-bean",
+          "name": "Melissa L. Bean",
+          "ballotName": "Melissa L. Bean",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=NsqFiRP5inW4T1RXAcLrog%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "jennifer-davis",
+          "name": "Jennifer Davis",
+          "ballotName": "Jennifer Davis",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=NsqFiRP5inX2K0FfiXHwEQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-09",
+      "districtCode": "IL-09",
+      "office": "9TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=KRdCOd2Klj39AxMIRQ54IA%3d%3d",
+      "printed": [
+        {
+          "id": "daniel-biss",
+          "name": "Daniel Biss",
+          "ballotName": "Daniel Biss",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=CKRaifYUAGZy2sZQcG%2fyxA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "john-elleson",
+          "name": "John Elleson",
+          "ballotName": "John Elleson",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=CKRaifYUAGY1Uj96FOZ1dg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-10",
+      "districtCode": "IL-10",
+      "office": "10TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=nNc8m0subkRmscyGTJrM1g%3d%3d",
+      "printed": [
+        {
+          "id": "brad-schneider",
+          "name": "Brad Schneider",
+          "ballotName": "Brad Schneider",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=BQsuCZ6kMbdmJsyClZew4A%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "carl-lambrecht",
+          "name": "Carl Lambrecht",
+          "ballotName": "Carl Lambrecht",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=BQsuCZ6kMbeRlSluYjE5GA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-11",
+      "districtCode": "IL-11",
+      "office": "11TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=0AdTD3sTWYM4dmk%2fjznA4g%3d%3d",
+      "printed": [
+        {
+          "id": "bill-foster",
+          "name": "Bill Foster",
+          "ballotName": "Bill Foster",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=TsmIKB8EsY3qnIsmSHuLJg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "jeff-walter",
+          "name": "Jeff Walter",
+          "ballotName": "Jeff Walter",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=TsmIKB8EsY0%2bdmHbIYiiPQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-12",
+      "districtCode": "IL-12",
+      "office": "12TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=0AdTD3sTWYPgmyJhVRPXWg%3d%3d",
+      "printed": [
+        {
+          "id": "mike-bost",
+          "name": "Mike Bost",
+          "ballotName": "Mike Bost",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WR5hUNLTKxnzQHflCu5dPg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "julie-fortier",
+          "name": "Julie Fortier",
+          "ballotName": "Julie Fortier",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=zikW8Oru0z5z3GiKsnnJ%2fA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-13",
+      "districtCode": "IL-13",
+      "office": "13TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=xL%2frD5sZJ%2b%2fEdcUr6ZbgnA%3d%3d",
+      "printed": [
+        {
+          "id": "nikki-budzinski",
+          "name": "Nikki Budzinski",
+          "ballotName": "Nikki Budzinski",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=zikW8Oru0z4UNUu43%2bxtVA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "jeff-wilson",
+          "name": "Jeff Wilson",
+          "ballotName": "Jeff Wilson",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=zikW8Oru0z4rHvmjWI34gg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-14",
+      "districtCode": "IL-14",
+      "office": "14TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=xL%2frD5sZJ%2b%2bBAlkUFYHpAA%3d%3d",
+      "printed": [
+        {
+          "id": "lauren-underwood",
+          "name": "Lauren Underwood",
+          "ballotName": "Lauren Underwood",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=kEZpfnrWTXDtZkYBAKbieg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "james-marter",
+          "name": "James T. \"Jim\" Marter",
+          "ballotName": "James T. \"Jim\" Marter",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=kEZpfnrWTXCY%2bp%2fPvUFT5A%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-15",
+      "districtCode": "IL-15",
+      "office": "15TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=GsuFFk4X1Y%2fwOvAyefTXkw%3d%3d",
+      "printed": [
+        {
+          "id": "mary-miller",
+          "name": "Mary E. Miller",
+          "ballotName": "Mary E. Miller",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=XBawwcNeZiLW3Fp8sQA0cQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "jennifer-todd",
+          "name": "Jennifer Todd",
+          "ballotName": "Jennifer Todd",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=XBawwcNeZiKuMHdn4nVBAA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-16",
+      "districtCode": "IL-16",
+      "office": "16TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=GsuFFk4X1Y%2bTg1u5QiLYkw%3d%3d",
+      "printed": [
+        {
+          "id": "darin-lahood",
+          "name": "Darin LaHood",
+          "ballotName": "Darin LaHood",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WVKrwM7oDOrZthC0ls4R5w%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "paul-nolley",
+          "name": "Paul Nolley",
+          "ballotName": "Paul Nolley",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WVKrwM7oDOp5B2whm0mWJQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "us-house-il-17",
+      "districtCode": "IL-17",
+      "office": "17TH CONGRESS",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=GsuFFk4X1Y8h7pzCF270oQ%3d%3d",
+      "printed": [
+        {
+          "id": "eric-sorensen",
+          "name": "Eric Sorensen",
+          "ballotName": "Eric Sorensen",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WVKrwM7oDOq40B8ax4hHNg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "dillan-vancil",
+          "name": "Dillan S. Vancil",
+          "ballotName": "Dillan S. Vancil",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WVKrwM7oDOo2c%2f27tERvLw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "il-governor-2026",
+      "districtCode": "IL-GOV",
+      "office": "GOVERNOR AND LIEUTENANT GOVERNOR",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=%2fIn13iuXmuD56WVRMXU%2fKg%3d%3d",
+      "printed": [
+        {
+          "id": "jb-pritzker-christian-mitchell",
+          "name": "JB Pritzker & Christian Mitchell",
+          "ballotName": "JB Pritzker & Christian Mitchell",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=qQZ93OuptZClfLZlfJhrZw%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtlDPORE6bJppw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "darren-bailey-aaron-del-mar",
+          "name": "Darren Bailey & Aaron B. Del Mar",
+          "ballotName": "Darren Bailey & Aaron B. Del Mar",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=qQZ93OuptZBuhrbAiY1J%2fA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtk3fUDoYpPJgw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "collin-corbett-carolyn-schofield",
+          "name": "Collin Corbett & Carolyn Schofield",
+          "ballotName": "Collin Corbett & Carolyn Schofield",
+          "party": "Independent",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtk%2b5Ik%2b7nDAZA%3d%3d&ElectionID=sejIrI%2bQmww%3d",
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=AcJyzlttDtkjHodoXZu9UQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": [
+        {
+          "name": "Arndell, Eyde",
+          "party": "GREEN",
+          "status": "Removed 7/14/2026"
+        },
+        {
+          "name": "Romero, Griselda",
+          "party": "GREEN",
+          "status": "Removed 7/14/2026"
+        },
+        {
+          "name": "Cabrera, Alejandro",
+          "party": "INDEPENDENCE PARTY",
+          "status": "Removed 6/9/2026"
+        },
+        {
+          "name": "Pierce, Gary",
+          "party": "INDEPENDENCE PARTY",
+          "status": "Removed 6/9/2026"
+        },
+        {
+          "name": "Mayers, Richard",
+          "party": "NEW",
+          "status": "Removed 6/9/2026"
+        }
+      ]
+    },
+    {
+      "id": "il-attorney-general-2026",
+      "districtCode": "IL-AG",
+      "office": "ATTORNEY GENERAL",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=S4tkO4zuAdQbjHx5ooPHoQ%3d%3d",
+      "printed": [
+        {
+          "id": "kwame-raoul",
+          "name": "Kwame Raoul",
+          "ballotName": "Kwame Raoul",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ErFFtcc67AM5unfs5zAd%2fQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "bob-fioretti",
+          "name": "Robert W. Fioretti",
+          "ballotName": "Robert W. Fioretti",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=ErFFtcc67ANjrOIf9hDsYw%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": []
+    },
+    {
+      "id": "il-secretary-of-state-2026",
+      "districtCode": "IL-SOS",
+      "office": "SECRETARY OF STATE",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=b3l9OOoBLkjdUU%2f%2bj0m%2fWw%3d%3d",
+      "printed": [
+        {
+          "id": "alexi-giannoulias",
+          "name": "Alexi Giannoulias",
+          "ballotName": "Alexi Giannoulias",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXcsgSbDXgWGeg%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "diane-harris",
+          "name": "Diane M. Harris",
+          "ballotName": "Diane M. Harris",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXedo6Wp%2fk1LhA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": [
+        {
+          "name": "Schiefelbein, Jeffrey",
+          "party": "GREEN",
+          "status": "Removed 7/14/2026"
+        }
+      ]
+    },
+    {
+      "id": "il-comptroller-2026",
+      "districtCode": "IL-COMP",
+      "office": "COMPTROLLER",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=1f2RMr3gR8FcmTMeqH3%2frA%3d%3d",
+      "printed": [
+        {
+          "id": "margaret-croke",
+          "name": "Margaret Croke",
+          "ballotName": "Margaret Croke",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WR5hUNLTKxlTBI%2fT3%2fkcww%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "bryan-drew",
+          "name": "Bryan Drew",
+          "ballotName": "Bryan Drew",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=WR5hUNLTKxm870rLz%2b3egA%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": [
+        {
+          "name": "Schiefelbein, Anna",
+          "party": "GREEN",
+          "status": "Removed 7/14/2026"
+        }
+      ]
+    },
+    {
+      "id": "il-treasurer-2026",
+      "districtCode": "IL-TREAS",
+      "office": "TREASURER",
+      "sourceUrl": "https://www.elections.il.gov/ElectionOperations/CandidateList.aspx?ElectionID=sejIrI%2bQmww%3d&OfficeID=b3l9OOoBLkg7y%2bGNymT1vw%3d%3d",
+      "printed": [
+        {
+          "id": "mike-frerichs",
+          "name": "Michael W. Frerichs",
+          "ballotName": "Michael W. Frerichs",
+          "party": "Democrat",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=HUzqc1BiXXdo7cAkruNsMQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        },
+        {
+          "id": "max-solomon",
+          "name": "Max Solomon",
+          "ballotName": "Max Solomon",
+          "party": "Republican",
+          "sbeCandidateUrls": [
+            "https://www.elections.il.gov/ElectionOperations/CandidateDetailEO.aspx?CandidateID=bCcGIQ6Y0bgfVFgjxvxasQ%3d%3d&ElectionID=sejIrI%2bQmww%3d"
+          ]
+        }
+      ],
+      "excludedStateFilings": [
+        {
+          "name": "Papas, Timothea",
+          "party": "GREEN",
+          "status": "Removed 7/14/2026"
+        }
+      ]
+    }
+  ],
+  "changes": [
+    "Closed the previously unresolved Chad Koppie general-election ballot-status check.",
+    "Added seven previously omitted county-documented governor write-ins, including three verified joint tickets. Remaining running-mate/party limitations are explicit."
+  ],
+  "counts": {
+    "federalRaces": 18,
+    "federalPrintedPeople": 39,
+    "statewideRaces": 5,
+    "statewidePrintedTicketsOrPeople": 11,
+    "documentedFederalWriteIns": 5,
+    "documentedStatewideWriteInProfiles": 9
+  },
+  "countyWriteInSources": [
+    {
+      "url": "https://www.lakecountyil.gov/DocumentCenter/View/13059/Candidate-List",
+      "checked": "2026-11-01",
+      "sourceDate": "2026-09-09",
+      "governor": [
+        {
+          "id": "misty-metroz",
+          "name": "Misty Metroz",
+          "qualified": "2026-08-05"
+        },
+        {
+          "id": "mike-vick",
+          "name": "Mike Vick",
+          "qualified": "2026-08-24"
+        },
+        {
+          "id": "griselda-romero",
+          "name": "Griselda Romero",
+          "qualified": "2026-08-26"
+        },
+        {
+          "id": "richard-benedict-mayers",
+          "name": "Richard Benedict Mayers",
+          "qualified": "2026-09-01"
+        },
+        {
+          "id": "elizabeth-ann-sebesta",
+          "name": "Elizabeth Ann Sebesta",
+          "qualified": "2026-09-02"
+        },
+        {
+          "id": "patricia-l-tillman",
+          "name": "Patricia L. Tillman",
+          "qualified": "2026-09-03"
+        }
+      ],
+      "otherOffices": [
+        "Comptroller: Anna Schiefelbein",
+        "Treasurer: Timothea Papas",
+        "Congress 10: James Jay Mote, Alexandria Keating-Sofiakis, John Minarcik, Thomas Rudd"
+      ]
+    },
+    {
+      "url": "https://vr.platinumvrms.com/county/rslrequest/6?t=2",
+      "checked": "2026-11-01",
+      "note": "September 2 filings for Anna Schiefelbein and Timothea Papas, and several governor filings. Filing list does not pair governor tickets."
+    },
+    {
+      "url": "https://wincoil.gov/media/attachments/2026/09/16/write-in-nov-3-2026.pdf",
+      "checked": "2026-11-01",
+      "sourceDate": "2026-09-16",
+      "governor": [
+        {
+          "id": "misty-metroz",
+          "name": "Misty Metroz"
+        },
+        {
+          "id": "mike-vick",
+          "name": "Mike Vick & Gary Pierce"
+        },
+        {
+          "id": "griselda-romero",
+          "name": "Griselda Romero & Eyde Arndell"
+        },
+        {
+          "id": "richard-benedict-mayers",
+          "name": "Richard Benedict Mayers"
+        },
+        {
+          "id": "elizabeth-ann-sebesta",
+          "name": "Elizabeth Ann Sebesta"
+        },
+        {
+          "id": "patricia-l-tillman",
+          "name": "Patricia L. Tillman & Joseph L. Mosley"
+        },
+        {
+          "id": "rafael-varela",
+          "name": "Rafael Varela"
+        }
+      ],
+      "otherOffices": [
+        "Comptroller: Anna Schiefelbein",
+        "Treasurer: Timothea Papas",
+        "Congress 17: Brad Ahrens"
+      ]
+    }
+  ],
+  "unresolvedWriteInLeads": [
+    {
+      "name": "Naomi Craine (U.S. Senate)",
+      "status": "Not added: current election-authority declaration not retrieved in this pass. Secondary listings do not establish qualification."
+    },
+    {
+      "name": "Je’Rico J. Brown (U.S. House 1)",
+      "status": "Not added: current election-authority declaration not retrieved in this pass. Secondary listings do not establish qualification."
+    },
+    {
+      "name": "John Kitover (U.S. House 16)",
+      "status": "Not added: current election-authority declaration not retrieved in this pass. Secondary listings do not establish qualification."
+    },
+    {
+      "name": "Taegun Eimer (Governor)",
+      "status": "Not added: current election-authority declaration not retrieved in this pass. Secondary listings do not establish qualification."
+    },
+    {
+      "name": "Jeffrey Schiefelbein (Secretary of State)",
+      "status": "Not added: current election-authority declaration not retrieved in this pass. Secondary listings do not establish qualification."
+    }
+  ]
+}

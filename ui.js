@@ -15,7 +15,7 @@
       const label = document.getElementById('global-search-label');
       if (input) input.placeholder = view === 'towns' ? 'Search communities or counties…' : 'Search candidates, issues, or PACs…';
       if (label) label.textContent = view === 'towns' ? 'Search communities or counties' : 'Search candidates, issues or PACs';
-      const count = ['level-select-control','party-select-control','pac-select-control','region-select-control','racetype-select-control']
+      const count = ['district-select-control','level-select-control','party-select-control','pac-select-control','region-select-control','racetype-select-control']
         .reduce((n,id) => n + (document.getElementById(id)?.value !== 'all' ? 1 : 0),0);
       const badge = document.getElementById('filter-active-count');
       if (badge) { badge.textContent = String(count); badge.hidden = !count; }

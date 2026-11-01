@@ -1,0 +1,3746 @@
+{
+  "checked": "2026-11-01",
+  "postalZipCount": 1575,
+  "zctaCount": 1396,
+  "mappedZipCount": 1396,
+  "unmappedPostalZips": [
+    "60001",
+    "60006",
+    "60009",
+    "60011",
+    "60017",
+    "60019",
+    "60037",
+    "60038",
+    "60039",
+    "60055",
+    "60065",
+    "60078",
+    "60079",
+    "60082",
+    "60086",
+    "60094",
+    "60095",
+    "60105",
+    "60116",
+    "60117",
+    "60121",
+    "60122",
+    "60128",
+    "60132",
+    "60138",
+    "60147",
+    "60159",
+    "60161",
+    "60168",
+    "60179",
+    "60186",
+    "60196",
+    "60197",
+    "60199",
+    "60204",
+    "60209",
+    "60303",
+    "60399",
+    "60412",
+    "60434",
+    "60454",
+    "60499",
+    "60507",
+    "60522",
+    "60566",
+    "60567",
+    "60568",
+    "60569",
+    "60572",
+    "60598",
+    "60599",
+    "60664",
+    "60666",
+    "60668",
+    "60669",
+    "60670",
+    "60673",
+    "60674",
+    "60675",
+    "60677",
+    "60678",
+    "60680",
+    "60681",
+    "60682",
+    "60684",
+    "60685",
+    "60686",
+    "60687",
+    "60688",
+    "60689",
+    "60690",
+    "60691",
+    "60693",
+    "60694",
+    "60695",
+    "60696",
+    "60697",
+    "60699",
+    "60701",
+    "60944",
+    "61105",
+    "61106",
+    "61110",
+    "61125",
+    "61126",
+    "61130",
+    "61131",
+    "61132",
+    "61204",
+    "61266",
+    "61299",
+    "61555",
+    "61558",
+    "61601",
+    "61612",
+    "61613",
+    "61629",
+    "61630",
+    "61633",
+    "61634",
+    "61635",
+    "61636",
+    "61637",
+    "61638",
+    "61639",
+    "61641",
+    "61643",
+    "61650",
+    "61651",
+    "61652",
+    "61653",
+    "61654",
+    "61655",
+    "61656",
+    "61702",
+    "61709",
+    "61710",
+    "61758",
+    "61790",
+    "61791",
+    "61799",
+    "61803",
+    "61824",
+    "61825",
+    "61826",
+    "62065",
+    "62070",
+    "62071",
+    "62202",
+    "62222",
+    "62247",
+    "62252",
+    "62259",
+    "62306",
+    "62329",
+    "62435",
+    "62524",
+    "62525",
+    "62651",
+    "62659",
+    "62660",
+    "62662",
+    "62683",
+    "62705",
+    "62708",
+    "62715",
+    "62716",
+    "62719",
+    "62722",
+    "62723",
+    "62726",
+    "62736",
+    "62739",
+    "62756",
+    "62757",
+    "62761",
+    "62762",
+    "62763",
+    "62764",
+    "62765",
+    "62766",
+    "62767",
+    "62769",
+    "62776",
+    "62777",
+    "62781",
+    "62786",
+    "62791",
+    "62794",
+    "62796",
+    "62834",
+    "62840",
+    "62855",
+    "62866",
+    "62909",
+    "62955",
+    "62971",
+    "62973",
+    "62993"
+  ],
+  "smallOverlapsUnder10000SquareMeters": [
+    {
+      "zip": "60051",
+      "field": "usHouse",
+      "district": "IL-09",
+      "overlapSquareMeters": 415.499
+    },
+    {
+      "zip": "60048",
+      "field": "stateHouse",
+      "district": "HD-60",
+      "overlapSquareMeters": 1684.612
+    },
+    {
+      "zip": "60021",
+      "field": "stateSenate",
+      "district": "SD-32",
+      "overlapSquareMeters": 3581.865
+    },
+    {
+      "zip": "60021",
+      "field": "stateHouse",
+      "district": "HD-63",
+      "overlapSquareMeters": 3581.865
+    },
+    {
+      "zip": "60026",
+      "field": "usHouse",
+      "district": "IL-10",
+      "overlapSquareMeters": 1898.975
+    },
+    {
+      "zip": "60026",
+      "field": "stateSenate",
+      "district": "SD-29",
+      "overlapSquareMeters": 1589.9
+    },
+    {
+      "zip": "60026",
+      "field": "stateHouse",
+      "district": "HD-57",
+      "overlapSquareMeters": 1589.9
+    },
+    {
+      "zip": "60007",
+      "field": "stateSenate",
+      "district": "SD-27",
+      "overlapSquareMeters": 680.778
+    },
+    {
+      "zip": "60007",
+      "field": "stateHouse",
+      "district": "HD-53",
+      "overlapSquareMeters": 680.778
+    },
+    {
+      "zip": "60010",
+      "field": "stateSenate",
+      "district": "SD-33",
+      "overlapSquareMeters": 801.258
+    },
+    {
+      "zip": "60010",
+      "field": "stateHouse",
+      "district": "HD-66",
+      "overlapSquareMeters": 801.258
+    },
+    {
+      "zip": "60064",
+      "field": "stateHouse",
+      "district": "HD-59",
+      "overlapSquareMeters": 334.792
+    },
+    {
+      "zip": "60020",
+      "field": "usHouse",
+      "district": "IL-11",
+      "overlapSquareMeters": 1318.744
+    },
+    {
+      "zip": "60025",
+      "field": "usHouse",
+      "district": "IL-10",
+      "overlapSquareMeters": 469.448
+    },
+    {
+      "zip": "60016",
+      "field": "stateSenate",
+      "district": "SD-9",
+      "overlapSquareMeters": 148.428
+    },
+    {
+      "zip": "60016",
+      "field": "stateHouse",
+      "district": "HD-17",
+      "overlapSquareMeters": 148.428
+    },
+    {
+      "zip": "60004",
+      "field": "stateSenate",
+      "district": "SD-26",
+      "overlapSquareMeters": 2310.375
+    },
+    {
+      "zip": "60004",
+      "field": "stateHouse",
+      "district": "HD-51",
+      "overlapSquareMeters": 2310.375
+    },
+    {
+      "zip": "60004",
+      "field": "stateHouse",
+      "district": "HD-53",
+      "overlapSquareMeters": 13.277
+    },
+    {
+      "zip": "60022",
+      "field": "usHouse",
+      "district": "IL-09",
+      "overlapSquareMeters": 200.206
+    },
+    {
+      "zip": "60022",
+      "field": "stateSenate",
+      "district": "SD-9",
+      "overlapSquareMeters": 4312.549
+    },
+    {
+      "zip": "60022",
+      "field": "stateHouse",
+      "district": "HD-18",
+      "overlapSquareMeters": 4312.549
+    },
+    {
+      "zip": "60061",
+      "field": "stateSenate",
+      "district": "SD-31",
+      "overlapSquareMeters": 17.683
+    },
+    {
+      "zip": "60061",
+      "field": "stateHouse",
+      "district": "HD-52",
+      "overlapSquareMeters": 697.659
+    },
+    {
+      "zip": "60061",
+      "field": "stateHouse",
+      "district": "HD-62",
+      "overlapSquareMeters": 17.683
+    },
+    {
+      "zip": "60045",
+      "field": "stateSenate",
+      "district": "SD-30",
+      "overlapSquareMeters": 7950.043
+    },
+    {
+      "zip": "60045",
+      "field": "stateHouse",
+      "district": "HD-59",
+      "overlapSquareMeters": 7844.623
+    },
+    {
+      "zip": "60045",
+      "field": "stateHouse",
+      "district": "HD-60",
+      "overlapSquareMeters": 105.419
+    },
+    {
+      "zip": "60076",
+      "field": "stateHouse",
+      "district": "HD-18",
+      "overlapSquareMeters": 115.664
+    },
+    {
+      "zip": "60112",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 673.229
+    },
+    {
+      "zip": "60112",
+      "field": "stateHouse",
+      "district": "HD-76",
+      "overlapSquareMeters": 673.229
+    },
+    {
+      "zip": "60068",
+      "field": "usHouse",
+      "district": "IL-08",
+      "overlapSquareMeters": 514.933
+    },
+    {
+      "zip": "60106",
+      "field": "usHouse",
+      "district": "IL-05",
+      "overlapSquareMeters": 1356.67
+    },
+    {
+      "zip": "60106",
+      "field": "stateSenate",
+      "district": "SD-28",
+      "overlapSquareMeters": 1115.89
+    },
+    {
+      "zip": "60106",
+      "field": "stateHouse",
+      "district": "HD-56",
+      "overlapSquareMeters": 1115.89
+    },
+    {
+      "zip": "60110",
+      "field": "stateSenate",
+      "district": "SD-26",
+      "overlapSquareMeters": 1084.144
+    },
+    {
+      "zip": "60110",
+      "field": "stateHouse",
+      "district": "HD-52",
+      "overlapSquareMeters": 1084.144
+    },
+    {
+      "zip": "60118",
+      "field": "usHouse",
+      "district": "IL-11",
+      "overlapSquareMeters": 1407.67
+    },
+    {
+      "zip": "60103",
+      "field": "stateSenate",
+      "district": "SD-28",
+      "overlapSquareMeters": 9564.602
+    },
+    {
+      "zip": "60103",
+      "field": "stateHouse",
+      "district": "HD-43",
+      "overlapSquareMeters": 946.686
+    },
+    {
+      "zip": "60103",
+      "field": "stateHouse",
+      "district": "HD-56",
+      "overlapSquareMeters": 9564.602
+    },
+    {
+      "zip": "60069",
+      "field": "usHouse",
+      "district": "IL-09",
+      "overlapSquareMeters": 158.452
+    },
+    {
+      "zip": "60084",
+      "field": "usHouse",
+      "district": "IL-10",
+      "overlapSquareMeters": 101.778
+    },
+    {
+      "zip": "60084",
+      "field": "stateSenate",
+      "district": "SD-32",
+      "overlapSquareMeters": 113.768
+    },
+    {
+      "zip": "60084",
+      "field": "stateHouse",
+      "district": "HD-63",
+      "overlapSquareMeters": 113.768
+    },
+    {
+      "zip": "60146",
+      "field": "stateSenate",
+      "district": "SD-34",
+      "overlapSquareMeters": 1168.695
+    },
+    {
+      "zip": "60146",
+      "field": "stateHouse",
+      "district": "HD-67",
+      "overlapSquareMeters": 1168.695
+    },
+    {
+      "zip": "60160",
+      "field": "usHouse",
+      "district": "IL-03",
+      "overlapSquareMeters": 638.586
+    },
+    {
+      "zip": "60148",
+      "field": "usHouse",
+      "district": "IL-08",
+      "overlapSquareMeters": 142.227
+    },
+    {
+      "zip": "60126",
+      "field": "usHouse",
+      "district": "IL-03",
+      "overlapSquareMeters": 8524.265
+    },
+    {
+      "zip": "60120",
+      "field": "stateHouse",
+      "district": "HD-66",
+      "overlapSquareMeters": 896.633
+    },
+    {
+      "zip": "60142",
+      "field": "stateSenate",
+      "district": "SD-32",
+      "overlapSquareMeters": 2809.807
+    },
+    {
+      "zip": "60142",
+      "field": "stateHouse",
+      "district": "HD-63",
+      "overlapSquareMeters": 2809.807
+    },
+    {
+      "zip": "60154",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 761.07
+    },
+    {
+      "zip": "60176",
+      "field": "usHouse",
+      "district": "IL-08",
+      "overlapSquareMeters": 1036.975
+    },
+    {
+      "zip": "60176",
+      "field": "stateSenate",
+      "district": "SD-39",
+      "overlapSquareMeters": 1550.161
+    },
+    {
+      "zip": "60176",
+      "field": "stateHouse",
+      "district": "HD-77",
+      "overlapSquareMeters": 1550.161
+    },
+    {
+      "zip": "60153",
+      "field": "stateSenate",
+      "district": "SD-39",
+      "overlapSquareMeters": 1070.253
+    },
+    {
+      "zip": "60153",
+      "field": "stateHouse",
+      "district": "HD-78",
+      "overlapSquareMeters": 681.518
+    },
+    {
+      "zip": "60153",
+      "field": "stateHouse",
+      "district": "HD-77",
+      "overlapSquareMeters": 388.735
+    },
+    {
+      "zip": "60163",
+      "field": "stateSenate",
+      "district": "SD-23",
+      "overlapSquareMeters": 3.825
+    },
+    {
+      "zip": "60163",
+      "field": "stateHouse",
+      "district": "HD-45",
+      "overlapSquareMeters": 3.825
+    },
+    {
+      "zip": "60139",
+      "field": "stateSenate",
+      "district": "SD-24",
+      "overlapSquareMeters": 4356.769
+    },
+    {
+      "zip": "60139",
+      "field": "stateHouse",
+      "district": "HD-47",
+      "overlapSquareMeters": 2903.272
+    },
+    {
+      "zip": "60139",
+      "field": "stateHouse",
+      "district": "HD-48",
+      "overlapSquareMeters": 1453.497
+    },
+    {
+      "zip": "60162",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 7621.622
+    },
+    {
+      "zip": "60171",
+      "field": "stateHouse",
+      "district": "HD-78",
+      "overlapSquareMeters": 4.058
+    },
+    {
+      "zip": "60131",
+      "field": "usHouse",
+      "district": "IL-05",
+      "overlapSquareMeters": 1194.339
+    },
+    {
+      "zip": "60173",
+      "field": "stateSenate",
+      "district": "SD-22",
+      "overlapSquareMeters": 719.487
+    },
+    {
+      "zip": "60173",
+      "field": "stateHouse",
+      "district": "HD-44",
+      "overlapSquareMeters": 719.487
+    },
+    {
+      "zip": "60164",
+      "field": "usHouse",
+      "district": "IL-06",
+      "overlapSquareMeters": 1325.669
+    },
+    {
+      "zip": "60164",
+      "field": "stateSenate",
+      "district": "SD-23",
+      "overlapSquareMeters": 2259.309
+    },
+    {
+      "zip": "60164",
+      "field": "stateHouse",
+      "district": "HD-45",
+      "overlapSquareMeters": 2259.309
+    },
+    {
+      "zip": "60304",
+      "field": "stateHouse",
+      "district": "HD-7",
+      "overlapSquareMeters": 670.919
+    },
+    {
+      "zip": "60410",
+      "field": "usHouse",
+      "district": "IL-14",
+      "overlapSquareMeters": 3000.4
+    },
+    {
+      "zip": "60410",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 752.677
+    },
+    {
+      "zip": "60410",
+      "field": "stateHouse",
+      "district": "HD-75",
+      "overlapSquareMeters": 752.677
+    },
+    {
+      "zip": "60187",
+      "field": "usHouse",
+      "district": "IL-08",
+      "overlapSquareMeters": 2185.448
+    },
+    {
+      "zip": "60402",
+      "field": "usHouse",
+      "district": "IL-07",
+      "overlapSquareMeters": 2140.826
+    },
+    {
+      "zip": "60302",
+      "field": "stateSenate",
+      "district": "SD-4",
+      "overlapSquareMeters": 165.81
+    },
+    {
+      "zip": "60302",
+      "field": "stateHouse",
+      "district": "HD-7",
+      "overlapSquareMeters": 165.81
+    },
+    {
+      "zip": "60181",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 2850.745
+    },
+    {
+      "zip": "60177",
+      "field": "stateSenate",
+      "district": "SD-22",
+      "overlapSquareMeters": 793.834
+    },
+    {
+      "zip": "60177",
+      "field": "stateHouse",
+      "district": "HD-43",
+      "overlapSquareMeters": 793.834
+    },
+    {
+      "zip": "60185",
+      "field": "stateHouse",
+      "district": "HD-50",
+      "overlapSquareMeters": 990.019
+    },
+    {
+      "zip": "60192",
+      "field": "usHouse",
+      "district": "IL-03",
+      "overlapSquareMeters": 5.735
+    },
+    {
+      "zip": "60418",
+      "field": "stateSenate",
+      "district": "SD-18",
+      "overlapSquareMeters": 1370.222
+    },
+    {
+      "zip": "60418",
+      "field": "stateHouse",
+      "district": "HD-35",
+      "overlapSquareMeters": 1370.222
+    },
+    {
+      "zip": "60419",
+      "field": "stateSenate",
+      "district": "SD-14",
+      "overlapSquareMeters": 1872.052
+    },
+    {
+      "zip": "60419",
+      "field": "stateHouse",
+      "district": "HD-28",
+      "overlapSquareMeters": 1872.052
+    },
+    {
+      "zip": "60404",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 2650.98
+    },
+    {
+      "zip": "60404",
+      "field": "stateHouse",
+      "district": "HD-75",
+      "overlapSquareMeters": 2650.98
+    },
+    {
+      "zip": "60305",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 1339.055
+    },
+    {
+      "zip": "60202",
+      "field": "stateSenate",
+      "district": "SD-7",
+      "overlapSquareMeters": 331.482
+    },
+    {
+      "zip": "60202",
+      "field": "stateSenate",
+      "district": "SD-8",
+      "overlapSquareMeters": 889.85
+    },
+    {
+      "zip": "60202",
+      "field": "stateHouse",
+      "district": "HD-14",
+      "overlapSquareMeters": 331.482
+    },
+    {
+      "zip": "60202",
+      "field": "stateHouse",
+      "district": "HD-16",
+      "overlapSquareMeters": 889.85
+    },
+    {
+      "zip": "60202",
+      "field": "stateHouse",
+      "district": "HD-17",
+      "overlapSquareMeters": 310.526
+    },
+    {
+      "zip": "60406",
+      "field": "usHouse",
+      "district": "IL-06",
+      "overlapSquareMeters": 1019.378
+    },
+    {
+      "zip": "60406",
+      "field": "stateSenate",
+      "district": "SD-18",
+      "overlapSquareMeters": 542.598
+    },
+    {
+      "zip": "60406",
+      "field": "stateHouse",
+      "district": "HD-35",
+      "overlapSquareMeters": 542.598
+    },
+    {
+      "zip": "60203",
+      "field": "stateHouse",
+      "district": "HD-18",
+      "overlapSquareMeters": 61.916
+    },
+    {
+      "zip": "60188",
+      "field": "stateSenate",
+      "district": "SD-25",
+      "overlapSquareMeters": 1286.185
+    },
+    {
+      "zip": "60188",
+      "field": "stateHouse",
+      "district": "HD-49",
+      "overlapSquareMeters": 1286.185
+    },
+    {
+      "zip": "60411",
+      "field": "stateHouse",
+      "district": "HD-30",
+      "overlapSquareMeters": 1857.787
+    },
+    {
+      "zip": "60411",
+      "field": "stateHouse",
+      "district": "HD-79",
+      "overlapSquareMeters": 391.013
+    },
+    {
+      "zip": "60408",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 772.083
+    },
+    {
+      "zip": "60438",
+      "field": "stateSenate",
+      "district": "SD-15",
+      "overlapSquareMeters": 2953.836
+    },
+    {
+      "zip": "60438",
+      "field": "stateHouse",
+      "district": "HD-29",
+      "overlapSquareMeters": 2953.836
+    },
+    {
+      "zip": "60451",
+      "field": "usHouse",
+      "district": "IL-14",
+      "overlapSquareMeters": 440.354
+    },
+    {
+      "zip": "60451",
+      "field": "stateSenate",
+      "district": "SD-43",
+      "overlapSquareMeters": 493.287
+    },
+    {
+      "zip": "60451",
+      "field": "stateHouse",
+      "district": "HD-86",
+      "overlapSquareMeters": 493.287
+    },
+    {
+      "zip": "60465",
+      "field": "stateSenate",
+      "district": "SD-41",
+      "overlapSquareMeters": 705.615
+    },
+    {
+      "zip": "60465",
+      "field": "stateHouse",
+      "district": "HD-82",
+      "overlapSquareMeters": 705.615
+    },
+    {
+      "zip": "60466",
+      "field": "stateSenate",
+      "district": "SD-15",
+      "overlapSquareMeters": 1725.959
+    },
+    {
+      "zip": "60466",
+      "field": "stateHouse",
+      "district": "HD-30",
+      "overlapSquareMeters": 1725.959
+    },
+    {
+      "zip": "60428",
+      "field": "stateSenate",
+      "district": "SD-19",
+      "overlapSquareMeters": 507.887
+    },
+    {
+      "zip": "60428",
+      "field": "stateHouse",
+      "district": "HD-38",
+      "overlapSquareMeters": 507.887
+    },
+    {
+      "zip": "60431",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 646.416
+    },
+    {
+      "zip": "60431",
+      "field": "stateHouse",
+      "district": "HD-75",
+      "overlapSquareMeters": 646.416
+    },
+    {
+      "zip": "60459",
+      "field": "stateHouse",
+      "district": "HD-21",
+      "overlapSquareMeters": 184.15
+    },
+    {
+      "zip": "60456",
+      "field": "usHouse",
+      "district": "IL-01",
+      "overlapSquareMeters": 176.697
+    },
+    {
+      "zip": "60456",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 1548.206
+    },
+    {
+      "zip": "60456",
+      "field": "stateHouse",
+      "district": "HD-32",
+      "overlapSquareMeters": 1437.345
+    },
+    {
+      "zip": "60439",
+      "field": "usHouse",
+      "district": "IL-06",
+      "overlapSquareMeters": 6.118
+    },
+    {
+      "zip": "60439",
+      "field": "stateSenate",
+      "district": "SD-18",
+      "overlapSquareMeters": 1.633
+    },
+    {
+      "zip": "60439",
+      "field": "stateHouse",
+      "district": "HD-36",
+      "overlapSquareMeters": 1.633
+    },
+    {
+      "zip": "60425",
+      "field": "stateHouse",
+      "district": "HD-30",
+      "overlapSquareMeters": 501.783
+    },
+    {
+      "zip": "60445",
+      "field": "stateSenate",
+      "district": "SD-18",
+      "overlapSquareMeters": 1415.234
+    },
+    {
+      "zip": "60445",
+      "field": "stateHouse",
+      "district": "HD-35",
+      "overlapSquareMeters": 1415.234
+    },
+    {
+      "zip": "60448",
+      "field": "usHouse",
+      "district": "IL-06",
+      "overlapSquareMeters": 196.535
+    },
+    {
+      "zip": "60464",
+      "field": "usHouse",
+      "district": "IL-01",
+      "overlapSquareMeters": 445.966
+    },
+    {
+      "zip": "60422",
+      "field": "stateSenate",
+      "district": "SD-19",
+      "overlapSquareMeters": 1722.92
+    },
+    {
+      "zip": "60422",
+      "field": "stateHouse",
+      "district": "HD-38",
+      "overlapSquareMeters": 1722.92
+    },
+    {
+      "zip": "60463",
+      "field": "stateSenate",
+      "district": "SD-14",
+      "overlapSquareMeters": 6282.373
+    },
+    {
+      "zip": "60463",
+      "field": "stateHouse",
+      "district": "HD-27",
+      "overlapSquareMeters": 6282.373
+    },
+    {
+      "zip": "60440",
+      "field": "stateSenate",
+      "district": "SD-41",
+      "overlapSquareMeters": 2541.09
+    },
+    {
+      "zip": "60440",
+      "field": "stateSenate",
+      "district": "SD-21",
+      "overlapSquareMeters": 258.162
+    },
+    {
+      "zip": "60440",
+      "field": "stateHouse",
+      "district": "HD-41",
+      "overlapSquareMeters": 258.162
+    },
+    {
+      "zip": "60440",
+      "field": "stateHouse",
+      "district": "HD-81",
+      "overlapSquareMeters": 2541.09
+    },
+    {
+      "zip": "60510",
+      "field": "stateSenate",
+      "district": "SD-33",
+      "overlapSquareMeters": 300.348
+    },
+    {
+      "zip": "60510",
+      "field": "stateHouse",
+      "district": "HD-65",
+      "overlapSquareMeters": 300.348
+    },
+    {
+      "zip": "60511",
+      "field": "usHouse",
+      "district": "IL-11",
+      "overlapSquareMeters": 3998.86
+    },
+    {
+      "zip": "60480",
+      "field": "usHouse",
+      "district": "IL-11",
+      "overlapSquareMeters": 1413.781
+    },
+    {
+      "zip": "60480",
+      "field": "stateSenate",
+      "district": "SD-16",
+      "overlapSquareMeters": 9933.669
+    },
+    {
+      "zip": "60480",
+      "field": "stateHouse",
+      "district": "HD-31",
+      "overlapSquareMeters": 9933.669
+    },
+    {
+      "zip": "60534",
+      "field": "stateSenate",
+      "district": "SD-11",
+      "overlapSquareMeters": 371.768
+    },
+    {
+      "zip": "60534",
+      "field": "stateHouse",
+      "district": "HD-21",
+      "overlapSquareMeters": 371.768
+    },
+    {
+      "zip": "60474",
+      "field": "stateSenate",
+      "district": "SD-53",
+      "overlapSquareMeters": 761.085
+    },
+    {
+      "zip": "60474",
+      "field": "stateHouse",
+      "district": "HD-106",
+      "overlapSquareMeters": 761.085
+    },
+    {
+      "zip": "60538",
+      "field": "usHouse",
+      "district": "IL-11",
+      "overlapSquareMeters": 120.454
+    },
+    {
+      "zip": "60538",
+      "field": "stateSenate",
+      "district": "SD-25",
+      "overlapSquareMeters": 180.131
+    },
+    {
+      "zip": "60538",
+      "field": "stateHouse",
+      "district": "HD-50",
+      "overlapSquareMeters": 180.131
+    },
+    {
+      "zip": "60506",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 348.66
+    },
+    {
+      "zip": "60506",
+      "field": "stateHouse",
+      "district": "HD-75",
+      "overlapSquareMeters": 348.66
+    },
+    {
+      "zip": "60477",
+      "field": "stateHouse",
+      "district": "HD-37",
+      "overlapSquareMeters": 380.027
+    },
+    {
+      "zip": "60516",
+      "field": "stateSenate",
+      "district": "SD-21",
+      "overlapSquareMeters": 5.98
+    },
+    {
+      "zip": "60516",
+      "field": "stateHouse",
+      "district": "HD-42",
+      "overlapSquareMeters": 5.98
+    },
+    {
+      "zip": "60512",
+      "field": "stateSenate",
+      "district": "SD-35",
+      "overlapSquareMeters": 895.358
+    },
+    {
+      "zip": "60512",
+      "field": "stateHouse",
+      "district": "HD-70",
+      "overlapSquareMeters": 895.358
+    },
+    {
+      "zip": "60513",
+      "field": "stateSenate",
+      "district": "SD-4",
+      "overlapSquareMeters": 705.334
+    },
+    {
+      "zip": "60513",
+      "field": "stateHouse",
+      "district": "HD-8",
+      "overlapSquareMeters": 705.334
+    },
+    {
+      "zip": "60525",
+      "field": "stateHouse",
+      "district": "HD-7",
+      "overlapSquareMeters": 268.608
+    },
+    {
+      "zip": "60503",
+      "field": "usHouse",
+      "district": "IL-11",
+      "overlapSquareMeters": 1908.573
+    },
+    {
+      "zip": "60523",
+      "field": "stateSenate",
+      "district": "SD-21",
+      "overlapSquareMeters": 5683.647
+    },
+    {
+      "zip": "60523",
+      "field": "stateHouse",
+      "district": "HD-42",
+      "overlapSquareMeters": 5683.647
+    },
+    {
+      "zip": "60478",
+      "field": "stateSenate",
+      "district": "SD-15",
+      "overlapSquareMeters": 530.532
+    },
+    {
+      "zip": "60478",
+      "field": "stateHouse",
+      "district": "HD-30",
+      "overlapSquareMeters": 530.532
+    },
+    {
+      "zip": "60481",
+      "field": "usHouse",
+      "district": "IL-14",
+      "overlapSquareMeters": 549.529
+    },
+    {
+      "zip": "60609",
+      "field": "stateHouse",
+      "district": "HD-23",
+      "overlapSquareMeters": 159.875
+    },
+    {
+      "zip": "60619",
+      "field": "stateSenate",
+      "district": "SD-14",
+      "overlapSquareMeters": 924.891
+    },
+    {
+      "zip": "60619",
+      "field": "stateHouse",
+      "district": "HD-27",
+      "overlapSquareMeters": 924.891
+    },
+    {
+      "zip": "60563",
+      "field": "stateHouse",
+      "district": "HD-50",
+      "overlapSquareMeters": 358.962
+    },
+    {
+      "zip": "60561",
+      "field": "stateSenate",
+      "district": "SD-43",
+      "overlapSquareMeters": 161.207
+    },
+    {
+      "zip": "60561",
+      "field": "stateHouse",
+      "district": "HD-85",
+      "overlapSquareMeters": 161.207
+    },
+    {
+      "zip": "60612",
+      "field": "usHouse",
+      "district": "IL-03",
+      "overlapSquareMeters": 179.818
+    },
+    {
+      "zip": "60610",
+      "field": "stateSenate",
+      "district": "SD-13",
+      "overlapSquareMeters": 9899.284
+    },
+    {
+      "zip": "60610",
+      "field": "stateHouse",
+      "district": "HD-26",
+      "overlapSquareMeters": 9899.284
+    },
+    {
+      "zip": "60610",
+      "field": "stateHouse",
+      "district": "HD-10",
+      "overlapSquareMeters": 383.386
+    },
+    {
+      "zip": "60605",
+      "field": "usHouse",
+      "district": "IL-01",
+      "overlapSquareMeters": 118.734
+    },
+    {
+      "zip": "60611",
+      "field": "stateSenate",
+      "district": "SD-3",
+      "overlapSquareMeters": 338.931
+    },
+    {
+      "zip": "60611",
+      "field": "stateHouse",
+      "district": "HD-5",
+      "overlapSquareMeters": 338.931
+    },
+    {
+      "zip": "60586",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 741.524
+    },
+    {
+      "zip": "60586",
+      "field": "stateHouse",
+      "district": "HD-75",
+      "overlapSquareMeters": 741.524
+    },
+    {
+      "zip": "60545",
+      "field": "stateSenate",
+      "district": "SD-35",
+      "overlapSquareMeters": 8276.663
+    },
+    {
+      "zip": "60545",
+      "field": "stateHouse",
+      "district": "HD-70",
+      "overlapSquareMeters": 8276.663
+    },
+    {
+      "zip": "60542",
+      "field": "stateSenate",
+      "district": "SD-35",
+      "overlapSquareMeters": 2625.725
+    },
+    {
+      "zip": "60542",
+      "field": "stateHouse",
+      "district": "HD-70",
+      "overlapSquareMeters": 2625.725
+    },
+    {
+      "zip": "60585",
+      "field": "stateSenate",
+      "district": "SD-21",
+      "overlapSquareMeters": 1143.383
+    },
+    {
+      "zip": "60585",
+      "field": "stateHouse",
+      "district": "HD-41",
+      "overlapSquareMeters": 1143.383
+    },
+    {
+      "zip": "60549",
+      "field": "stateHouse",
+      "district": "HD-75",
+      "overlapSquareMeters": 478.161
+    },
+    {
+      "zip": "60550",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 2462.657
+    },
+    {
+      "zip": "60636",
+      "field": "usHouse",
+      "district": "IL-01",
+      "overlapSquareMeters": 2.019
+    },
+    {
+      "zip": "60636",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 266.659
+    },
+    {
+      "zip": "60628",
+      "field": "stateHouse",
+      "district": "HD-33",
+      "overlapSquareMeters": 690.932
+    },
+    {
+      "zip": "60623",
+      "field": "stateSenate",
+      "district": "SD-1",
+      "overlapSquareMeters": 177.293
+    },
+    {
+      "zip": "60623",
+      "field": "stateHouse",
+      "district": "HD-2",
+      "overlapSquareMeters": 177.293
+    },
+    {
+      "zip": "60642",
+      "field": "stateSenate",
+      "district": "SD-2",
+      "overlapSquareMeters": 139.803
+    },
+    {
+      "zip": "60642",
+      "field": "stateSenate",
+      "district": "SD-20",
+      "overlapSquareMeters": 164.398
+    },
+    {
+      "zip": "60642",
+      "field": "stateHouse",
+      "district": "HD-4",
+      "overlapSquareMeters": 139.398
+    },
+    {
+      "zip": "60642",
+      "field": "stateHouse",
+      "district": "HD-40",
+      "overlapSquareMeters": 164.398
+    },
+    {
+      "zip": "60661",
+      "field": "stateHouse",
+      "district": "HD-10",
+      "overlapSquareMeters": 688.525
+    },
+    {
+      "zip": "60624",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 185.426
+    },
+    {
+      "zip": "60624",
+      "field": "usHouse",
+      "district": "IL-03",
+      "overlapSquareMeters": 1109.516
+    },
+    {
+      "zip": "60624",
+      "field": "stateSenate",
+      "district": "SD-4",
+      "overlapSquareMeters": 559.716
+    },
+    {
+      "zip": "60624",
+      "field": "stateSenate",
+      "district": "SD-12",
+      "overlapSquareMeters": 185.426
+    },
+    {
+      "zip": "60624",
+      "field": "stateHouse",
+      "district": "HD-23",
+      "overlapSquareMeters": 185.426
+    },
+    {
+      "zip": "60624",
+      "field": "stateHouse",
+      "district": "HD-8",
+      "overlapSquareMeters": 559.716
+    },
+    {
+      "zip": "60630",
+      "field": "stateHouse",
+      "district": "HD-20",
+      "overlapSquareMeters": 90.618
+    },
+    {
+      "zip": "60649",
+      "field": "stateSenate",
+      "district": "SD-3",
+      "overlapSquareMeters": 46.428
+    },
+    {
+      "zip": "60649",
+      "field": "stateHouse",
+      "district": "HD-5",
+      "overlapSquareMeters": 46.428
+    },
+    {
+      "zip": "60638",
+      "field": "stateHouse",
+      "district": "HD-2",
+      "overlapSquareMeters": 4682.987
+    },
+    {
+      "zip": "60640",
+      "field": "stateSenate",
+      "district": "SD-8",
+      "overlapSquareMeters": 733.72
+    },
+    {
+      "zip": "60640",
+      "field": "stateHouse",
+      "district": "HD-16",
+      "overlapSquareMeters": 733.72
+    },
+    {
+      "zip": "60644",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 23.432
+    },
+    {
+      "zip": "60644",
+      "field": "usHouse",
+      "district": "IL-03",
+      "overlapSquareMeters": 65.281
+    },
+    {
+      "zip": "60654",
+      "field": "usHouse",
+      "district": "IL-05",
+      "overlapSquareMeters": 98.237
+    },
+    {
+      "zip": "60654",
+      "field": "stateSenate",
+      "district": "SD-13",
+      "overlapSquareMeters": 9995.139
+    },
+    {
+      "zip": "60654",
+      "field": "stateHouse",
+      "district": "HD-26",
+      "overlapSquareMeters": 9995.139
+    },
+    {
+      "zip": "60654",
+      "field": "stateHouse",
+      "district": "HD-10",
+      "overlapSquareMeters": 318.575
+    },
+    {
+      "zip": "60646",
+      "field": "usHouse",
+      "district": "IL-09",
+      "overlapSquareMeters": 4432.845
+    },
+    {
+      "zip": "60652",
+      "field": "usHouse",
+      "district": "IL-06",
+      "overlapSquareMeters": 163.395
+    },
+    {
+      "zip": "60652",
+      "field": "usHouse",
+      "district": "IL-07",
+      "overlapSquareMeters": 257.377
+    },
+    {
+      "zip": "60633",
+      "field": "stateSenate",
+      "district": "SD-13",
+      "overlapSquareMeters": 1095.681
+    },
+    {
+      "zip": "60633",
+      "field": "stateHouse",
+      "district": "HD-25",
+      "overlapSquareMeters": 1095.681
+    },
+    {
+      "zip": "60620",
+      "field": "usHouse",
+      "district": "IL-06",
+      "overlapSquareMeters": 35.178
+    },
+    {
+      "zip": "60620",
+      "field": "usHouse",
+      "district": "IL-07",
+      "overlapSquareMeters": 2843.041
+    },
+    {
+      "zip": "60620",
+      "field": "stateHouse",
+      "district": "HD-32",
+      "overlapSquareMeters": 710.367
+    },
+    {
+      "zip": "60804",
+      "field": "usHouse",
+      "district": "IL-07",
+      "overlapSquareMeters": 2681.254
+    },
+    {
+      "zip": "60913",
+      "field": "usHouse",
+      "district": "IL-01",
+      "overlapSquareMeters": 5630.754
+    },
+    {
+      "zip": "60935",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 754.499
+    },
+    {
+      "zip": "60935",
+      "field": "usHouse",
+      "district": "IL-01",
+      "overlapSquareMeters": 7279.731
+    },
+    {
+      "zip": "60827",
+      "field": "stateHouse",
+      "district": "HD-27",
+      "overlapSquareMeters": 381.81
+    },
+    {
+      "zip": "60803",
+      "field": "stateHouse",
+      "district": "HD-36",
+      "overlapSquareMeters": 3026.023
+    },
+    {
+      "zip": "60912",
+      "field": "stateSenate",
+      "district": "SD-17",
+      "overlapSquareMeters": 9425.604
+    },
+    {
+      "zip": "60912",
+      "field": "stateHouse",
+      "district": "HD-34",
+      "overlapSquareMeters": 9425.604
+    },
+    {
+      "zip": "60922",
+      "field": "stateSenate",
+      "district": "SD-17",
+      "overlapSquareMeters": 1082.506
+    },
+    {
+      "zip": "60922",
+      "field": "stateHouse",
+      "district": "HD-34",
+      "overlapSquareMeters": 1082.506
+    },
+    {
+      "zip": "60706",
+      "field": "stateSenate",
+      "district": "SD-28",
+      "overlapSquareMeters": 433.073
+    },
+    {
+      "zip": "60706",
+      "field": "stateHouse",
+      "district": "HD-55",
+      "overlapSquareMeters": 433.073
+    },
+    {
+      "zip": "60714",
+      "field": "stateSenate",
+      "district": "SD-9",
+      "overlapSquareMeters": 226.158
+    },
+    {
+      "zip": "60714",
+      "field": "stateSenate",
+      "district": "SD-10",
+      "overlapSquareMeters": 1006.647
+    },
+    {
+      "zip": "60714",
+      "field": "stateHouse",
+      "district": "HD-20",
+      "overlapSquareMeters": 1006.647
+    },
+    {
+      "zip": "60714",
+      "field": "stateHouse",
+      "district": "HD-16",
+      "overlapSquareMeters": 712.121
+    },
+    {
+      "zip": "60714",
+      "field": "stateHouse",
+      "district": "HD-17",
+      "overlapSquareMeters": 226.158
+    },
+    {
+      "zip": "60707",
+      "field": "usHouse",
+      "district": "IL-04",
+      "overlapSquareMeters": 131.764
+    },
+    {
+      "zip": "60712",
+      "field": "usHouse",
+      "district": "IL-05",
+      "overlapSquareMeters": 191.326
+    },
+    {
+      "zip": "60712",
+      "field": "stateHouse",
+      "district": "HD-15",
+      "overlapSquareMeters": 137.209
+    },
+    {
+      "zip": "61030",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 2096.905
+    },
+    {
+      "zip": "60940",
+      "field": "usHouse",
+      "district": "IL-01",
+      "overlapSquareMeters": 815.157
+    },
+    {
+      "zip": "60964",
+      "field": "stateSenate",
+      "district": "SD-40",
+      "overlapSquareMeters": 765.655
+    },
+    {
+      "zip": "60964",
+      "field": "stateHouse",
+      "district": "HD-79",
+      "overlapSquareMeters": 765.655
+    },
+    {
+      "zip": "60949",
+      "field": "stateSenate",
+      "district": "SD-53",
+      "overlapSquareMeters": 536.651
+    },
+    {
+      "zip": "60949",
+      "field": "stateHouse",
+      "district": "HD-106",
+      "overlapSquareMeters": 536.651
+    },
+    {
+      "zip": "61021",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 436.641
+    },
+    {
+      "zip": "61018",
+      "field": "stateHouse",
+      "district": "HD-89",
+      "overlapSquareMeters": 2274.077
+    },
+    {
+      "zip": "61010",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 5866.684
+    },
+    {
+      "zip": "61020",
+      "field": "stateSenate",
+      "district": "SD-34",
+      "overlapSquareMeters": 1434.378
+    },
+    {
+      "zip": "61020",
+      "field": "stateHouse",
+      "district": "HD-67",
+      "overlapSquareMeters": 1434.378
+    },
+    {
+      "zip": "61042",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 3894.138
+    },
+    {
+      "zip": "61052",
+      "field": "stateSenate",
+      "district": "SD-34",
+      "overlapSquareMeters": 3491.591
+    },
+    {
+      "zip": "61052",
+      "field": "stateHouse",
+      "district": "HD-67",
+      "overlapSquareMeters": 3491.591
+    },
+    {
+      "zip": "61054",
+      "field": "stateSenate",
+      "district": "SD-37",
+      "overlapSquareMeters": 996.352
+    },
+    {
+      "zip": "61054",
+      "field": "stateHouse",
+      "district": "HD-74",
+      "overlapSquareMeters": 996.352
+    },
+    {
+      "zip": "61244",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 8.223
+    },
+    {
+      "zip": "61244",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 8.223
+    },
+    {
+      "zip": "61244",
+      "field": "stateHouse",
+      "district": "HD-93",
+      "overlapSquareMeters": 8.223
+    },
+    {
+      "zip": "61260",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 5077.778
+    },
+    {
+      "zip": "61107",
+      "field": "stateSenate",
+      "district": "SD-45",
+      "overlapSquareMeters": 1769.56
+    },
+    {
+      "zip": "61107",
+      "field": "stateHouse",
+      "district": "HD-90",
+      "overlapSquareMeters": 1769.56
+    },
+    {
+      "zip": "61241",
+      "field": "stateSenate",
+      "district": "SD-37",
+      "overlapSquareMeters": 6417.255
+    },
+    {
+      "zip": "61241",
+      "field": "stateHouse",
+      "district": "HD-73",
+      "overlapSquareMeters": 6417.255
+    },
+    {
+      "zip": "61257",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 58.429
+    },
+    {
+      "zip": "61257",
+      "field": "stateSenate",
+      "district": "SD-36",
+      "overlapSquareMeters": 888.567
+    },
+    {
+      "zip": "61257",
+      "field": "stateHouse",
+      "district": "HD-71",
+      "overlapSquareMeters": 114.52
+    },
+    {
+      "zip": "61257",
+      "field": "stateHouse",
+      "district": "HD-72",
+      "overlapSquareMeters": 774.047
+    },
+    {
+      "zip": "61240",
+      "field": "stateHouse",
+      "district": "HD-72",
+      "overlapSquareMeters": 1920.828
+    },
+    {
+      "zip": "61236",
+      "field": "stateHouse",
+      "district": "HD-72",
+      "overlapSquareMeters": 389.12
+    },
+    {
+      "zip": "61252",
+      "field": "stateSenate",
+      "district": "SD-45",
+      "overlapSquareMeters": 9730.412
+    },
+    {
+      "zip": "61252",
+      "field": "stateHouse",
+      "district": "HD-89",
+      "overlapSquareMeters": 9730.412
+    },
+    {
+      "zip": "61312",
+      "field": "stateHouse",
+      "district": "HD-74",
+      "overlapSquareMeters": 3.354
+    },
+    {
+      "zip": "61326",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 7734.32
+    },
+    {
+      "zip": "61326",
+      "field": "stateHouse",
+      "district": "HD-76",
+      "overlapSquareMeters": 7734.32
+    },
+    {
+      "zip": "61332",
+      "field": "stateSenate",
+      "district": "SD-38",
+      "overlapSquareMeters": 1932.48
+    },
+    {
+      "zip": "61332",
+      "field": "stateHouse",
+      "district": "HD-76",
+      "overlapSquareMeters": 1932.48
+    },
+    {
+      "zip": "61345",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 2681.476
+    },
+    {
+      "zip": "61334",
+      "field": "usHouse",
+      "district": "IL-14",
+      "overlapSquareMeters": 341.38
+    },
+    {
+      "zip": "61322",
+      "field": "stateSenate",
+      "district": "SD-37",
+      "overlapSquareMeters": 1908.058
+    },
+    {
+      "zip": "61322",
+      "field": "stateHouse",
+      "district": "HD-73",
+      "overlapSquareMeters": 1908.058
+    },
+    {
+      "zip": "61325",
+      "field": "usHouse",
+      "district": "IL-14",
+      "overlapSquareMeters": 2803.9
+    },
+    {
+      "zip": "61335",
+      "field": "usHouse",
+      "district": "IL-14",
+      "overlapSquareMeters": 5981.65
+    },
+    {
+      "zip": "61353",
+      "field": "usHouse",
+      "district": "IL-14",
+      "overlapSquareMeters": 68.404
+    },
+    {
+      "zip": "61377",
+      "field": "stateHouse",
+      "district": "HD-106",
+      "overlapSquareMeters": 1435.116
+    },
+    {
+      "zip": "61413",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 1357.044
+    },
+    {
+      "zip": "61362",
+      "field": "stateSenate",
+      "district": "SD-37",
+      "overlapSquareMeters": 2760.595
+    },
+    {
+      "zip": "61362",
+      "field": "stateHouse",
+      "district": "HD-73",
+      "overlapSquareMeters": 2760.595
+    },
+    {
+      "zip": "61432",
+      "field": "stateHouse",
+      "district": "HD-93",
+      "overlapSquareMeters": 2676.643
+    },
+    {
+      "zip": "61376",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 6549.013
+    },
+    {
+      "zip": "61451",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 2364.333
+    },
+    {
+      "zip": "61451",
+      "field": "counties",
+      "district": "Stark",
+      "overlapSquareMeters": 1333.841
+    },
+    {
+      "zip": "61483",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 6073.221
+    },
+    {
+      "zip": "61459",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 764.97
+    },
+    {
+      "zip": "61472",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 7498.836
+    },
+    {
+      "zip": "61486",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 493.289
+    },
+    {
+      "zip": "61569",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 442.239
+    },
+    {
+      "zip": "61543",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 2941.918
+    },
+    {
+      "zip": "61605",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 1304.709
+    },
+    {
+      "zip": "61605",
+      "field": "stateHouse",
+      "district": "HD-93",
+      "overlapSquareMeters": 1304.709
+    },
+    {
+      "zip": "61570",
+      "field": "stateSenate",
+      "district": "SD-37",
+      "overlapSquareMeters": 5402.503
+    },
+    {
+      "zip": "61570",
+      "field": "stateHouse",
+      "district": "HD-73",
+      "overlapSquareMeters": 5402.503
+    },
+    {
+      "zip": "61571",
+      "field": "stateSenate",
+      "district": "SD-37",
+      "overlapSquareMeters": 2030.005
+    },
+    {
+      "zip": "61571",
+      "field": "stateHouse",
+      "district": "HD-73",
+      "overlapSquareMeters": 2030.005
+    },
+    {
+      "zip": "61534",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 6663.602
+    },
+    {
+      "zip": "61534",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 2703.168
+    },
+    {
+      "zip": "61554",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 845.845
+    },
+    {
+      "zip": "61533",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 1478.001
+    },
+    {
+      "zip": "61728",
+      "field": "usHouse",
+      "district": "IL-02",
+      "overlapSquareMeters": 725.697
+    },
+    {
+      "zip": "61607",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 98.43
+    },
+    {
+      "zip": "61614",
+      "field": "stateSenate",
+      "district": "SD-53",
+      "overlapSquareMeters": 5.148
+    },
+    {
+      "zip": "61614",
+      "field": "stateHouse",
+      "district": "HD-105",
+      "overlapSquareMeters": 5.148
+    },
+    {
+      "zip": "61610",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 3808.344
+    },
+    {
+      "zip": "61610",
+      "field": "stateHouse",
+      "district": "HD-92",
+      "overlapSquareMeters": 208.936
+    },
+    {
+      "zip": "61705",
+      "field": "stateSenate",
+      "district": "SD-53",
+      "overlapSquareMeters": 403.675
+    },
+    {
+      "zip": "61705",
+      "field": "stateHouse",
+      "district": "HD-105",
+      "overlapSquareMeters": 403.675
+    },
+    {
+      "zip": "61773",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 1484.693
+    },
+    {
+      "zip": "61773",
+      "field": "stateSenate",
+      "district": "SD-44",
+      "overlapSquareMeters": 1484.693
+    },
+    {
+      "zip": "61773",
+      "field": "stateHouse",
+      "district": "HD-88",
+      "overlapSquareMeters": 1484.693
+    },
+    {
+      "zip": "61812",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 3718.079
+    },
+    {
+      "zip": "61801",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 6005.656
+    },
+    {
+      "zip": "61817",
+      "field": "stateSenate",
+      "district": "SD-52",
+      "overlapSquareMeters": 3891.634
+    },
+    {
+      "zip": "61817",
+      "field": "stateHouse",
+      "district": "HD-104",
+      "overlapSquareMeters": 3891.634
+    },
+    {
+      "zip": "61777",
+      "field": "usHouse",
+      "district": "IL-16",
+      "overlapSquareMeters": 3557.312
+    },
+    {
+      "zip": "61775",
+      "field": "stateSenate",
+      "district": "SD-44",
+      "overlapSquareMeters": 1425.655
+    },
+    {
+      "zip": "61775",
+      "field": "stateHouse",
+      "district": "HD-88",
+      "overlapSquareMeters": 1425.655
+    },
+    {
+      "zip": "61778",
+      "field": "usHouse",
+      "district": "IL-17",
+      "overlapSquareMeters": 1317.683
+    },
+    {
+      "zip": "61761",
+      "field": "stateHouse",
+      "district": "HD-87",
+      "overlapSquareMeters": 1282.842
+    },
+    {
+      "zip": "61873",
+      "field": "stateHouse",
+      "district": "HD-101",
+      "overlapSquareMeters": 219.721
+    },
+    {
+      "zip": "61845",
+      "field": "stateSenate",
+      "district": "SD-44",
+      "overlapSquareMeters": 5878.545
+    },
+    {
+      "zip": "61845",
+      "field": "stateHouse",
+      "district": "HD-88",
+      "overlapSquareMeters": 5878.545
+    },
+    {
+      "zip": "61832",
+      "field": "stateSenate",
+      "district": "SD-51",
+      "overlapSquareMeters": 1135.813
+    },
+    {
+      "zip": "61832",
+      "field": "stateHouse",
+      "district": "HD-102",
+      "overlapSquareMeters": 1135.813
+    },
+    {
+      "zip": "61858",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 156.435
+    },
+    {
+      "zip": "61874",
+      "field": "stateHouse",
+      "district": "HD-103",
+      "overlapSquareMeters": 47.425
+    },
+    {
+      "zip": "61849",
+      "field": "usHouse",
+      "district": "IL-02",
+      "overlapSquareMeters": 2060.834
+    },
+    {
+      "zip": "61849",
+      "field": "stateSenate",
+      "district": "SD-52",
+      "overlapSquareMeters": 2060.834
+    },
+    {
+      "zip": "61849",
+      "field": "stateHouse",
+      "district": "HD-104",
+      "overlapSquareMeters": 2060.834
+    },
+    {
+      "zip": "61912",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 28.591
+    },
+    {
+      "zip": "61912",
+      "field": "stateHouse",
+      "district": "HD-101",
+      "overlapSquareMeters": 8297.245
+    },
+    {
+      "zip": "62010",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 894.961
+    },
+    {
+      "zip": "61911",
+      "field": "stateSenate",
+      "district": "SD-44",
+      "overlapSquareMeters": 3989.717
+    },
+    {
+      "zip": "61911",
+      "field": "stateHouse",
+      "district": "HD-88",
+      "overlapSquareMeters": 3989.717
+    },
+    {
+      "zip": "61917",
+      "field": "usHouse",
+      "district": "IL-12",
+      "overlapSquareMeters": 888.307
+    },
+    {
+      "zip": "61925",
+      "field": "stateSenate",
+      "district": "SD-44",
+      "overlapSquareMeters": 1196.278
+    },
+    {
+      "zip": "61925",
+      "field": "stateHouse",
+      "district": "HD-88",
+      "overlapSquareMeters": 1196.278
+    },
+    {
+      "zip": "61913",
+      "field": "usHouse",
+      "district": "IL-13",
+      "overlapSquareMeters": 3437.138
+    },
+    {
+      "zip": "61913",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 1271.174
+    },
+    {
+      "zip": "61913",
+      "field": "stateHouse",
+      "district": "HD-107",
+      "overlapSquareMeters": 1271.174
+    },
+    {
+      "zip": "62018",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 902.931
+    },
+    {
+      "zip": "62018",
+      "field": "stateHouse",
+      "district": "HD-100",
+      "overlapSquareMeters": 902.931
+    },
+    {
+      "zip": "62011",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 1960.834
+    },
+    {
+      "zip": "62011",
+      "field": "stateHouse",
+      "district": "HD-107",
+      "overlapSquareMeters": 1960.834
+    },
+    {
+      "zip": "62032",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 2383.54
+    },
+    {
+      "zip": "62032",
+      "field": "stateHouse",
+      "district": "HD-107",
+      "overlapSquareMeters": 1332.225
+    },
+    {
+      "zip": "62032",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 1051.315
+    },
+    {
+      "zip": "62204",
+      "field": "stateSenate",
+      "district": "SD-56",
+      "overlapSquareMeters": 1517.657
+    },
+    {
+      "zip": "62204",
+      "field": "stateHouse",
+      "district": "HD-112",
+      "overlapSquareMeters": 1517.657
+    },
+    {
+      "zip": "62208",
+      "field": "stateHouse",
+      "district": "HD-114",
+      "overlapSquareMeters": 101.588
+    },
+    {
+      "zip": "62207",
+      "field": "usHouse",
+      "district": "IL-12",
+      "overlapSquareMeters": 108.25
+    },
+    {
+      "zip": "62253",
+      "field": "stateHouse",
+      "district": "HD-109",
+      "overlapSquareMeters": 1494.223
+    },
+    {
+      "zip": "62205",
+      "field": "stateHouse",
+      "district": "HD-113",
+      "overlapSquareMeters": 161.02
+    },
+    {
+      "zip": "62091",
+      "field": "usHouse",
+      "district": "IL-13",
+      "overlapSquareMeters": 1492.834
+    },
+    {
+      "zip": "62091",
+      "field": "stateSenate",
+      "district": "SD-55",
+      "overlapSquareMeters": 17.981
+    },
+    {
+      "zip": "62091",
+      "field": "stateHouse",
+      "district": "HD-109",
+      "overlapSquareMeters": 17.981
+    },
+    {
+      "zip": "62091",
+      "field": "counties",
+      "district": "Bond",
+      "overlapSquareMeters": 22.25
+    },
+    {
+      "zip": "62234",
+      "field": "stateSenate",
+      "district": "SD-57",
+      "overlapSquareMeters": 464.683
+    },
+    {
+      "zip": "62234",
+      "field": "stateHouse",
+      "district": "HD-113",
+      "overlapSquareMeters": 464.683
+    },
+    {
+      "zip": "62097",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 5431.543
+    },
+    {
+      "zip": "62097",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 5431.543
+    },
+    {
+      "zip": "62240",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 3.42
+    },
+    {
+      "zip": "62240",
+      "field": "stateHouse",
+      "district": "HD-115",
+      "overlapSquareMeters": 3.42
+    },
+    {
+      "zip": "62248",
+      "field": "stateSenate",
+      "district": "SD-57",
+      "overlapSquareMeters": 986.591
+    },
+    {
+      "zip": "62248",
+      "field": "stateHouse",
+      "district": "HD-114",
+      "overlapSquareMeters": 986.591
+    },
+    {
+      "zip": "62232",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 1791.404
+    },
+    {
+      "zip": "62214",
+      "field": "stateSenate",
+      "district": "SD-57",
+      "overlapSquareMeters": 345.535
+    },
+    {
+      "zip": "62214",
+      "field": "stateHouse",
+      "district": "HD-114",
+      "overlapSquareMeters": 345.535
+    },
+    {
+      "zip": "62246",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 1556.176
+    },
+    {
+      "zip": "62246",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 1556.176
+    },
+    {
+      "zip": "62324",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 7017.013
+    },
+    {
+      "zip": "62324",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 7017.013
+    },
+    {
+      "zip": "62294",
+      "field": "usHouse",
+      "district": "IL-13",
+      "overlapSquareMeters": 22.691
+    },
+    {
+      "zip": "62284",
+      "field": "stateHouse",
+      "district": "HD-109",
+      "overlapSquareMeters": 1223.774
+    },
+    {
+      "zip": "62260",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 18.451
+    },
+    {
+      "zip": "62260",
+      "field": "stateHouse",
+      "district": "HD-115",
+      "overlapSquareMeters": 18.451
+    },
+    {
+      "zip": "62278",
+      "field": "stateSenate",
+      "district": "SD-57",
+      "overlapSquareMeters": 1521.864
+    },
+    {
+      "zip": "62278",
+      "field": "stateHouse",
+      "district": "HD-114",
+      "overlapSquareMeters": 1521.864
+    },
+    {
+      "zip": "62271",
+      "field": "stateHouse",
+      "district": "HD-110",
+      "overlapSquareMeters": 8068.279
+    },
+    {
+      "zip": "62254",
+      "field": "stateHouse",
+      "district": "HD-113",
+      "overlapSquareMeters": 286.45
+    },
+    {
+      "zip": "62269",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 1379.671
+    },
+    {
+      "zip": "62346",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 3.866
+    },
+    {
+      "zip": "62346",
+      "field": "stateHouse",
+      "district": "HD-99",
+      "overlapSquareMeters": 3.866
+    },
+    {
+      "zip": "62375",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 1444.876
+    },
+    {
+      "zip": "62375",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 1444.876
+    },
+    {
+      "zip": "62442",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 3990.807
+    },
+    {
+      "zip": "62428",
+      "field": "stateHouse",
+      "district": "HD-101",
+      "overlapSquareMeters": 1732.052
+    },
+    {
+      "zip": "62474",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 667.634
+    },
+    {
+      "zip": "62458",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 1411.838
+    },
+    {
+      "zip": "62458",
+      "field": "stateHouse",
+      "district": "HD-107",
+      "overlapSquareMeters": 1411.838
+    },
+    {
+      "zip": "62479",
+      "field": "stateSenate",
+      "district": "SD-55",
+      "overlapSquareMeters": 2966.887
+    },
+    {
+      "zip": "62479",
+      "field": "stateHouse",
+      "district": "HD-110",
+      "overlapSquareMeters": 2966.887
+    },
+    {
+      "zip": "62440",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 1041.129
+    },
+    {
+      "zip": "62452",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 3.357
+    },
+    {
+      "zip": "62452",
+      "field": "stateHouse",
+      "district": "HD-116",
+      "overlapSquareMeters": 3.357
+    },
+    {
+      "zip": "62520",
+      "field": "stateHouse",
+      "district": "HD-95",
+      "overlapSquareMeters": 2351.164
+    },
+    {
+      "zip": "62533",
+      "field": "usHouse",
+      "district": "IL-13",
+      "overlapSquareMeters": 3491.81
+    },
+    {
+      "zip": "62540",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 646.802
+    },
+    {
+      "zip": "62540",
+      "field": "stateHouse",
+      "district": "HD-107",
+      "overlapSquareMeters": 646.802
+    },
+    {
+      "zip": "62551",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 3486.182
+    },
+    {
+      "zip": "62554",
+      "field": "stateHouse",
+      "district": "HD-87",
+      "overlapSquareMeters": 835.411
+    },
+    {
+      "zip": "62522",
+      "field": "stateHouse",
+      "district": "HD-88",
+      "overlapSquareMeters": 373.954
+    },
+    {
+      "zip": "62539",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 9754.631
+    },
+    {
+      "zip": "62539",
+      "field": "stateSenate",
+      "district": "SD-48",
+      "overlapSquareMeters": 985.057
+    },
+    {
+      "zip": "62539",
+      "field": "stateHouse",
+      "district": "HD-96",
+      "overlapSquareMeters": 985.057
+    },
+    {
+      "zip": "62515",
+      "field": "stateSenate",
+      "district": "SD-48",
+      "overlapSquareMeters": 316.996
+    },
+    {
+      "zip": "62515",
+      "field": "stateHouse",
+      "district": "HD-96",
+      "overlapSquareMeters": 316.996
+    },
+    {
+      "zip": "62531",
+      "field": "usHouse",
+      "district": "IL-13",
+      "overlapSquareMeters": 4645.741
+    },
+    {
+      "zip": "62567",
+      "field": "stateHouse",
+      "district": "HD-96",
+      "overlapSquareMeters": 3846.495
+    },
+    {
+      "zip": "62544",
+      "field": "stateHouse",
+      "district": "HD-96",
+      "overlapSquareMeters": 2025.743
+    },
+    {
+      "zip": "62535",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 4.196
+    },
+    {
+      "zip": "62618",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 5295.461
+    },
+    {
+      "zip": "62618",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 5295.461
+    },
+    {
+      "zip": "62617",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 3443.034
+    },
+    {
+      "zip": "62617",
+      "field": "stateHouse",
+      "district": "HD-99",
+      "overlapSquareMeters": 3443.034
+    },
+    {
+      "zip": "62649",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 1207.725
+    },
+    {
+      "zip": "62633",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 617.29
+    },
+    {
+      "zip": "62633",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 617.29
+    },
+    {
+      "zip": "62640",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 2561.481
+    },
+    {
+      "zip": "62640",
+      "field": "stateHouse",
+      "district": "HD-100",
+      "overlapSquareMeters": 2561.481
+    },
+    {
+      "zip": "62601",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 559.364
+    },
+    {
+      "zip": "62601",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 559.364
+    },
+    {
+      "zip": "62666",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 2581.835
+    },
+    {
+      "zip": "62666",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 2581.835
+    },
+    {
+      "zip": "62670",
+      "field": "stateHouse",
+      "district": "HD-100",
+      "overlapSquareMeters": 710.202
+    },
+    {
+      "zip": "62664",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 1637.143
+    },
+    {
+      "zip": "62664",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 1637.143
+    },
+    {
+      "zip": "62655",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 1328.287
+    },
+    {
+      "zip": "62655",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 2174.427
+    },
+    {
+      "zip": "62655",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 2174.427
+    },
+    {
+      "zip": "62655",
+      "field": "stateHouse",
+      "district": "HD-99",
+      "overlapSquareMeters": 1328.287
+    },
+    {
+      "zip": "62671",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 1115.947
+    },
+    {
+      "zip": "62671",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 1115.947
+    },
+    {
+      "zip": "62634",
+      "field": "stateSenate",
+      "district": "SD-54",
+      "overlapSquareMeters": 613.0
+    },
+    {
+      "zip": "62634",
+      "field": "stateHouse",
+      "district": "HD-108",
+      "overlapSquareMeters": 613.0
+    },
+    {
+      "zip": "62690",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 1370.205
+    },
+    {
+      "zip": "62690",
+      "field": "stateHouse",
+      "district": "HD-100",
+      "overlapSquareMeters": 1370.205
+    },
+    {
+      "zip": "62677",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 4718.339
+    },
+    {
+      "zip": "62677",
+      "field": "stateHouse",
+      "district": "HD-99",
+      "overlapSquareMeters": 4718.339
+    },
+    {
+      "zip": "62704",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 1831.575
+    },
+    {
+      "zip": "62675",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 5638.429
+    },
+    {
+      "zip": "62675",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 5638.429
+    },
+    {
+      "zip": "62688",
+      "field": "stateSenate",
+      "district": "SD-50",
+      "overlapSquareMeters": 4712.785
+    },
+    {
+      "zip": "62688",
+      "field": "stateHouse",
+      "district": "HD-99",
+      "overlapSquareMeters": 4712.785
+    },
+    {
+      "zip": "62674",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 6299.396
+    },
+    {
+      "zip": "62691",
+      "field": "stateSenate",
+      "district": "SD-47",
+      "overlapSquareMeters": 6680.321
+    },
+    {
+      "zip": "62691",
+      "field": "stateHouse",
+      "district": "HD-94",
+      "overlapSquareMeters": 6680.321
+    },
+    {
+      "zip": "62832",
+      "field": "stateHouse",
+      "district": "HD-116",
+      "overlapSquareMeters": 1143.232
+    },
+    {
+      "zip": "62819",
+      "field": "stateSenate",
+      "district": "SD-59",
+      "overlapSquareMeters": 4190.738
+    },
+    {
+      "zip": "62819",
+      "field": "stateHouse",
+      "district": "HD-117",
+      "overlapSquareMeters": 4190.738
+    },
+    {
+      "zip": "62807",
+      "field": "usHouse",
+      "district": "IL-15",
+      "overlapSquareMeters": 1637.816
+    },
+    {
+      "zip": "62839",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 22.694
+    },
+    {
+      "zip": "62839",
+      "field": "stateHouse",
+      "district": "HD-116",
+      "overlapSquareMeters": 22.694
+    },
+    {
+      "zip": "62817",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 176.409
+    },
+    {
+      "zip": "62817",
+      "field": "stateHouse",
+      "district": "HD-116",
+      "overlapSquareMeters": 176.409
+    },
+    {
+      "zip": "62841",
+      "field": "stateHouse",
+      "district": "HD-117",
+      "overlapSquareMeters": 1013.2
+    },
+    {
+      "zip": "62876",
+      "field": "stateSenate",
+      "district": "SD-55",
+      "overlapSquareMeters": 607.426
+    },
+    {
+      "zip": "62876",
+      "field": "stateHouse",
+      "district": "HD-109",
+      "overlapSquareMeters": 607.426
+    },
+    {
+      "zip": "62896",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 11.876
+    },
+    {
+      "zip": "62896",
+      "field": "stateHouse",
+      "district": "HD-116",
+      "overlapSquareMeters": 11.876
+    },
+    {
+      "zip": "62903",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 43.768
+    },
+    {
+      "zip": "62903",
+      "field": "stateHouse",
+      "district": "HD-115",
+      "overlapSquareMeters": 43.768
+    },
+    {
+      "zip": "62865",
+      "field": "stateHouse",
+      "district": "HD-118",
+      "overlapSquareMeters": 2051.176
+    },
+    {
+      "zip": "62863",
+      "field": "stateSenate",
+      "district": "SD-51",
+      "overlapSquareMeters": 2607.966
+    },
+    {
+      "zip": "62863",
+      "field": "stateHouse",
+      "district": "HD-102",
+      "overlapSquareMeters": 2607.966
+    },
+    {
+      "zip": "62884",
+      "field": "stateHouse",
+      "district": "HD-115",
+      "overlapSquareMeters": 4936.884
+    },
+    {
+      "zip": "62888",
+      "field": "stateHouse",
+      "district": "HD-116",
+      "overlapSquareMeters": 4580.831
+    },
+    {
+      "zip": "62898",
+      "field": "stateSenate",
+      "district": "SD-55",
+      "overlapSquareMeters": 813.772
+    },
+    {
+      "zip": "62898",
+      "field": "stateHouse",
+      "district": "HD-109",
+      "overlapSquareMeters": 813.772
+    },
+    {
+      "zip": "62908",
+      "field": "stateHouse",
+      "district": "HD-118",
+      "overlapSquareMeters": 514.491
+    },
+    {
+      "zip": "62932",
+      "field": "stateHouse",
+      "district": "HD-116",
+      "overlapSquareMeters": 1839.345
+    },
+    {
+      "zip": "62924",
+      "field": "stateHouse",
+      "district": "HD-117",
+      "overlapSquareMeters": 3183.87
+    },
+    {
+      "zip": "62927",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 2567.341
+    },
+    {
+      "zip": "62927",
+      "field": "stateHouse",
+      "district": "HD-115",
+      "overlapSquareMeters": 2567.341
+    },
+    {
+      "zip": "62918",
+      "field": "stateHouse",
+      "district": "HD-117",
+      "overlapSquareMeters": 3214.011
+    },
+    {
+      "zip": "62942",
+      "field": "stateSenate",
+      "district": "SD-58",
+      "overlapSquareMeters": 2668.374
+    },
+    {
+      "zip": "62942",
+      "field": "stateHouse",
+      "district": "HD-115",
+      "overlapSquareMeters": 2668.374
+    },
+    {
+      "zip": "62983",
+      "field": "stateHouse",
+      "district": "HD-118",
+      "overlapSquareMeters": 2572.369
+    },
+    {
+      "zip": "62992",
+      "field": "stateHouse",
+      "district": "HD-117",
+      "overlapSquareMeters": 912.679
+    }
+  ],
+  "method": "Positive polygon-area intersection (>1 square meter), EPSG:5070; no centroid, proximity or primary-district inference.",
+  "sources": [
+    {
+      "cacheFile": "chicago-metadata.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/4",
+      "parameters": {
+        "f": "json"
+      },
+      "sha256": "3b031083f6ddd04fbcc54c1dc10ea5ba252fa4f462e5b2a3d5b8a7f25ad3ed19",
+      "bytes": 9806,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "chicago.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/4/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "STATE='17' AND BASENAME='Chicago'",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "350d21491f384c4623fa362a0fcbaadb2dff5283575434513c877998b127a7f4",
+      "bytes": 257418,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "counties-metadata.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1",
+      "parameters": {
+        "f": "json"
+      },
+      "sha256": "cc05d07d52e3989061e248e7179f07c674e0a59a86a4f3ca55f81a722fa6af55",
+      "bytes": 6008,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "counties.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "STATE='17'",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "a5365cef77f2c0e18e6c1b5127fb7d774daef07102f60cb239dc91c174196041",
+      "bytes": 6624271,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "stateHouse-metadata.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2",
+      "parameters": {
+        "f": "json"
+      },
+      "sha256": "6b11191114cea036a8e20048b3ceb798b97d611f03cfc25c65a332e2ddd03516",
+      "bytes": 6282,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "stateHouse.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/2/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "STATE='17'",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "174d3c0a37c8c101b7df0ce31504622b4611dab0a6bfc30145a02ca9b2ca2f93",
+      "bytes": 11496347,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "stateSenate-metadata.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1",
+      "parameters": {
+        "f": "json"
+      },
+      "sha256": "a82624a0cc443fade9e36d6a027d7465827b339053940bcad41495a1392bd698",
+      "bytes": 6282,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "stateSenate.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/1/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "STATE='17'",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "0892a331fd65c4b66b480e2e59ebd8e410cf33f4c400d05e0e1a565a9c9f57fe",
+      "bytes": 8639759,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "usHouse-metadata.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0",
+      "parameters": {
+        "f": "json"
+      },
+      "sha256": "5e443f9b488e2f66db2ff71cd3a3dad5b024e1c891fdf51f7811cf05e602c7f5",
+      "bytes": 6299,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "usHouse.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "STATE='17'",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "c5187a15fcd6ae447b4bf0c38484b8546d14e9b5a0c1e9983869cac27bf157ec",
+      "bytes": 6312546,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-00.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60001','60002','60004','60005','60006','60007','60008','60009','60010','60011','60012','60013','60014','60015','60016','60017','60018','60019','60020','60021','60022','60025','60026','60029','60030','60031','60033','60034','60035','60037','60038','60039','60040','60041','60042','60043','60044','60045','60046','60047','60048','60050','60051','60053','60055','60056','60060','60061','60062','60064')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "8723d6a2ae1ca78c715fad2739af8659db5aa58442e0e2c5385018a50a4fc19e",
+      "bytes": 1482695,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-01.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60065','60067','60068','60069','60070','60071','60072','60073','60074','60075','60076','60077','60078','60079','60081','60082','60083','60084','60085','60086','60087','60088','60089','60090','60091','60093','60094','60095','60096','60097','60098','60099','60101','60102','60103','60104','60105','60106','60107','60108','60109','60110','60111','60112','60113','60115','60116','60117','60118','60119')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "333f3e3d5282c747f2654cc996db02e4cdc96a80e709e856b92805ec3be7e52f",
+      "bytes": 1360844,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-02.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60120','60121','60122','60123','60124','60126','60128','60129','60130','60131','60132','60133','60134','60135','60136','60137','60138','60139','60140','60141','60142','60143','60144','60145','60146','60147','60148','60150','60151','60152','60153','60154','60155','60156','60157','60159','60160','60161','60162','60163','60164','60165','60168','60169','60171','60172','60173','60174','60175','60176')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "8fdcda72c7e6663129a0c96287cb7790b3a59d767fb88098bcca87f9c901514a",
+      "bytes": 1208466,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-03.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60177','60178','60179','60180','60181','60183','60184','60185','60186','60187','60188','60189','60190','60191','60192','60193','60194','60195','60196','60197','60199','60201','60202','60203','60204','60208','60209','60301','60302','60303','60304','60305','60399','60401','60402','60403','60404','60406','60407','60408','60409','60410','60411','60412','60415','60416','60417','60418','60419','60420')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "a74e45b0221a8aafb126445e039b23544f3c791951e0b422e13951f084c84834",
+      "bytes": 1126868,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-04.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60421','60422','60423','60424','60425','60426','60428','60429','60430','60431','60432','60433','60434','60435','60436','60437','60438','60439','60440','60441','60442','60443','60444','60445','60446','60447','60448','60449','60450','60451','60452','60453','60454','60455','60456','60457','60458','60459','60460','60461','60462','60463','60464','60465','60466','60467','60468','60469','60470','60471')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "969f0063718bc750cf14b21c58d8f2225eccfc8ce04e1b71b62784227464dda3",
+      "bytes": 1705745,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-05.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60472','60473','60474','60475','60476','60477','60478','60479','60480','60481','60482','60484','60487','60490','60491','60499','60501','60502','60503','60504','60505','60506','60507','60510','60511','60512','60513','60514','60515','60516','60517','60518','60519','60520','60521','60522','60523','60525','60526','60527','60530','60531','60532','60534','60536','60537','60538','60539','60540','60541')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "5ff9be72e21517907dc14db59905841765e6c4903bd906320097ba792a03c3c9",
+      "bytes": 1340924,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-06.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60542','60543','60544','60545','60546','60548','60549','60550','60551','60552','60553','60554','60555','60556','60557','60558','60559','60560','60561','60563','60564','60565','60566','60567','60568','60569','60572','60585','60586','60598','60599','60601','60602','60603','60604','60605','60606','60607','60608','60609','60610','60611','60612','60613','60614','60615','60616','60617','60618','60619')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "12df3c3cc768e75b0cf03d4075354814911190523f37831954a9fee94d3ffaea",
+      "bytes": 1297069,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-07.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60620','60621','60622','60623','60624','60625','60626','60628','60629','60630','60631','60632','60633','60634','60636','60637','60638','60639','60640','60641','60642','60643','60644','60645','60646','60647','60649','60651','60652','60653','60654','60655','60656','60657','60659','60660','60661','60664','60666','60668','60669','60670','60673','60674','60675','60677','60678','60680','60681','60682')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "a2af2387ef95920ebdef257405a90dac6fcc1cb092634fda9963488c6bbf8392",
+      "bytes": 821337,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-08.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60684','60685','60686','60687','60688','60689','60690','60691','60693','60694','60695','60696','60697','60699','60701','60706','60707','60712','60714','60803','60804','60805','60827','60901','60910','60911','60912','60913','60914','60915','60917','60918','60919','60920','60921','60922','60924','60926','60927','60928','60929','60930','60931','60932','60933','60934','60935','60936','60938','60939')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "9d9bb2f9874cd01564a72ed91e3b8f29e31910ebf93b8ee9ec0da746a86fe1a4",
+      "bytes": 793267,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-09.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('60940','60941','60942','60944','60945','60946','60948','60949','60950','60951','60952','60953','60954','60955','60956','60957','60958','60959','60960','60961','60962','60963','60964','60966','60967','60968','60969','60970','60973','60974','61001','61006','61007','61008','61010','61011','61012','61013','61014','61015','61016','61018','61019','61020','61021','61024','61025','61027','61028','61030')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "c841c2d68ed0808c5575ed85084af49e883e26ce2f9e0911c509ce13f1f2b782",
+      "bytes": 1854190,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-10.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61031','61032','61036','61037','61038','61039','61041','61042','61043','61044','61046','61047','61048','61049','61050','61051','61052','61053','61054','61057','61059','61060','61061','61062','61063','61064','61065','61067','61068','61070','61071','61072','61073','61074','61075','61077','61078','61079','61080','61081','61084','61085','61087','61088','61089','61091','61101','61102','61103','61104')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "188aa3a319f2e7856c549dfc0172ecc227ae985c66a4c286452b93690a5bbfc4",
+      "bytes": 2226368,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-11.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61105','61106','61107','61108','61109','61110','61111','61112','61114','61115','61125','61126','61130','61131','61132','61201','61204','61230','61231','61232','61233','61234','61235','61236','61237','61238','61239','61240','61241','61242','61243','61244','61250','61251','61252','61254','61256','61257','61258','61259','61260','61261','61262','61263','61264','61265','61266','61270','61272','61273')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "52cdda2bea3ad1e7e5422f73a3efd252b0b63afcfdb963cb96467863d9b7b380",
+      "bytes": 1814248,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-12.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61274','61275','61276','61277','61278','61279','61281','61282','61283','61284','61285','61299','61301','61310','61311','61312','61313','61314','61315','61316','61317','61318','61319','61320','61321','61322','61323','61324','61325','61326','61327','61328','61329','61330','61331','61332','61333','61334','61335','61336','61337','61338','61340','61341','61342','61344','61345','61346','61348','61349')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "91a77885f91cda7fcc58647c8142883c1a39a856737412520578b2c5fe840c51",
+      "bytes": 1288116,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-13.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61350','61353','61354','61356','61358','61359','61360','61361','61362','61363','61364','61367','61368','61369','61370','61371','61372','61373','61374','61375','61376','61377','61378','61379','61401','61402','61410','61411','61412','61413','61414','61415','61416','61417','61418','61419','61420','61421','61422','61423','61424','61425','61426','61427','61428','61430','61431','61432','61433','61434')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "9e6600539148815e934c4af3e63da8719f7b75869c44746d3dd4508b9765e13f",
+      "bytes": 1544357,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-14.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61435','61436','61437','61438','61439','61440','61441','61442','61443','61447','61448','61449','61450','61451','61452','61453','61454','61455','61458','61459','61460','61462','61465','61466','61467','61468','61469','61470','61471','61472','61473','61474','61475','61476','61477','61478','61479','61480','61482','61483','61484','61485','61486','61488','61489','61490','61491','61501','61516','61517')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "81ae06c679b34ae2a9b1c6e78db4e7958156eb19815f3246a9af9eecf5a391d0",
+      "bytes": 1663044,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-15.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61519','61520','61523','61524','61525','61526','61528','61529','61530','61531','61532','61533','61534','61535','61536','61537','61539','61540','61541','61542','61543','61544','61545','61546','61547','61548','61550','61552','61553','61554','61555','61558','61559','61560','61561','61562','61563','61564','61565','61567','61568','61569','61570','61571','61572','61601','61602','61603','61604','61605')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "d5c6167f57c0488e6d754bd11a14b4ba181af4fe196dbce3f75149050d96c731",
+      "bytes": 1313081,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-16.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61606','61607','61610','61611','61612','61613','61614','61615','61616','61625','61629','61630','61633','61634','61635','61636','61637','61638','61639','61641','61643','61650','61651','61652','61653','61654','61655','61656','61701','61702','61704','61705','61709','61710','61720','61721','61722','61723','61724','61725','61726','61727','61728','61729','61730','61731','61732','61733','61734','61735')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "4b11c96d5ec1e3e5ff581b9f208ec4d8e55e5eaded47efeaaa4a1ab957f9c025",
+      "bytes": 796762,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-17.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61736','61737','61738','61739','61740','61741','61742','61743','61744','61745','61747','61748','61749','61750','61751','61752','61753','61754','61755','61756','61758','61759','61760','61761','61764','61769','61770','61771','61772','61773','61774','61775','61776','61777','61778','61790','61791','61799','61801','61802','61803','61810','61811','61812','61813','61814','61815','61816','61817','61818')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "8338c181a96bcdb476f60b00a8018137d59c5703ee665edd659808d011ff0f2e",
+      "bytes": 1350814,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-18.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61820','61821','61822','61824','61825','61826','61830','61831','61832','61833','61834','61839','61840','61841','61842','61843','61844','61845','61846','61847','61848','61849','61850','61851','61852','61853','61854','61855','61856','61857','61858','61859','61862','61863','61864','61865','61866','61870','61871','61872','61873','61874','61875','61876','61877','61878','61880','61882','61883','61884')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "f70ea6cb65f0693a1dd39b3a3ef3047b679585cdf141df1c85c01df01f193285",
+      "bytes": 2141677,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-19.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('61910','61911','61912','61913','61914','61917','61919','61920','61924','61925','61928','61929','61930','61931','61932','61933','61936','61937','61938','61940','61941','61942','61943','61944','61949','61951','61953','61955','61956','61957','62001','62002','62006','62009','62010','62011','62012','62013','62014','62015','62016','62017','62018','62019','62021','62022','62023','62024','62025','62026')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "c6bf25acd4dcb23259a42d00501d262fe6ab84459c3e0a8c399b51896b8aa27c",
+      "bytes": 1849783,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-20.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62027','62028','62030','62031','62032','62033','62034','62035','62036','62037','62040','62044','62045','62046','62047','62048','62049','62050','62051','62052','62053','62054','62056','62058','62059','62060','62061','62062','62063','62065','62067','62069','62070','62071','62074','62075','62076','62077','62078','62079','62080','62081','62082','62083','62084','62085','62086','62087','62088','62089')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "3b10aab2e439f1d9ddf6f2217d9592cadfc9bea41e6fd4e49c25f0dd83c8462d",
+      "bytes": 1514452,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-21.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62090','62091','62092','62093','62094','62095','62097','62098','62201','62202','62203','62204','62205','62206','62207','62208','62214','62215','62216','62217','62218','62219','62220','62221','62222','62223','62225','62226','62230','62231','62232','62233','62234','62236','62237','62238','62239','62240','62241','62242','62243','62244','62245','62246','62247','62248','62249','62250','62252','62253')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "b8a66b6b10123032d5f27f8c817ac8790c7d3aacc5628f64d8ce31647d449279",
+      "bytes": 1654596,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-22.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62254','62255','62256','62257','62258','62259','62260','62261','62262','62263','62264','62265','62266','62268','62269','62271','62272','62273','62274','62275','62277','62278','62279','62280','62281','62282','62284','62285','62286','62288','62289','62292','62293','62294','62295','62297','62298','62301','62305','62306','62311','62312','62313','62314','62316','62319','62320','62321','62323','62324')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "6e3f7e2fcde416ba089d05f1462d69f81efd310bb7900f8bca57808b0bc68540",
+      "bytes": 2265203,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-23.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62325','62326','62329','62330','62334','62336','62338','62339','62340','62341','62343','62344','62345','62346','62347','62348','62349','62351','62352','62353','62354','62355','62356','62357','62358','62359','62360','62361','62362','62363','62365','62366','62367','62370','62373','62374','62375','62376','62378','62379','62380','62401','62410','62411','62413','62414','62417','62418','62419','62420')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "cecf38ff14ee2373d04ff7a5b838bcd884e356857a8d7a7b0d6b306a8312a9c9",
+      "bytes": 2104447,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-24.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62421','62422','62423','62424','62425','62426','62427','62428','62431','62432','62433','62434','62435','62436','62438','62439','62440','62441','62442','62443','62444','62445','62446','62447','62448','62449','62450','62451','62452','62454','62458','62459','62460','62461','62462','62463','62464','62465','62466','62467','62468','62469','62471','62473','62474','62475','62476','62477','62478','62479')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "66d608889e928662b304fac9d9aaad44708e1a9d66e0c05ff25b3216ec4f6d9a",
+      "bytes": 1784938,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-25.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62480','62481','62501','62510','62512','62513','62514','62515','62517','62518','62519','62520','62521','62522','62523','62524','62525','62526','62530','62531','62532','62533','62534','62535','62536','62537','62538','62539','62540','62541','62543','62544','62545','62546','62547','62548','62549','62550','62551','62553','62554','62555','62556','62557','62558','62560','62561','62563','62565','62567')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "004d07f69ce2d0e1944394f7a38a5d18b0c0831b889489340b558fed93cb9207",
+      "bytes": 2017534,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-26.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62568','62570','62571','62572','62573','62601','62610','62611','62612','62613','62615','62617','62618','62621','62622','62624','62625','62626','62627','62628','62629','62630','62631','62633','62634','62635','62638','62639','62640','62642','62643','62644','62649','62650','62651','62655','62656','62659','62660','62661','62662','62663','62664','62665','62666','62667','62668','62670','62671','62672')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "ba41b8a8af24cdcf75f1e04dc9a9718c744c28c58dd5cfc87b7433deb1221506",
+      "bytes": 1675505,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-27.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62673','62674','62675','62677','62681','62682','62683','62684','62685','62688','62689','62690','62691','62692','62693','62694','62695','62701','62702','62703','62704','62705','62706','62707','62708','62711','62712','62715','62716','62719','62722','62723','62726','62736','62739','62756','62757','62761','62762','62763','62764','62765','62766','62767','62769','62776','62777','62781','62786','62791')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "3cd1cb61f5ded47cf4871a4eef595f995addba524cf294f4b8f4e7579c2c17d9",
+      "bytes": 1137295,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-28.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62794','62796','62801','62803','62806','62807','62808','62809','62810','62811','62812','62814','62815','62816','62817','62818','62819','62820','62821','62822','62823','62824','62825','62827','62828','62829','62830','62831','62832','62833','62834','62835','62836','62837','62838','62839','62840','62841','62842','62843','62844','62846','62848','62849','62850','62851','62852','62853','62854','62855')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "31bbfae45a43aae2a1cf92a1cdeeeb91dd21e7ec1be46508b24b1131279b8fa0",
+      "bytes": 1836862,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-29.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62856','62858','62859','62860','62861','62862','62863','62864','62865','62866','62867','62868','62869','62870','62871','62872','62874','62875','62876','62877','62878','62879','62880','62881','62882','62883','62884','62885','62886','62887','62888','62889','62890','62891','62892','62893','62894','62895','62896','62897','62898','62899','62901','62902','62903','62905','62906','62907','62908','62909')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "67b779b183582389a5a543cf66216488f3db3126781c027d562d5f53c5d0cc41",
+      "bytes": 2477971,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-30.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62910','62912','62914','62915','62916','62917','62918','62919','62920','62921','62922','62923','62924','62926','62927','62928','62930','62931','62932','62933','62934','62935','62938','62939','62940','62941','62942','62943','62946','62947','62948','62949','62950','62951','62952','62953','62954','62955','62956','62957','62958','62959','62960','62961','62962','62963','62964','62965','62966','62967')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "e5be42f49fdd0b7182de8f6d8e2295eee8285a1d2222384ba7777a764f181004",
+      "bytes": 3106251,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-31.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84/query",
+      "parameters": {
+        "f": "geojson",
+        "where": "ZCTA5 IN ('62969','62970','62971','62972','62973','62974','62975','62976','62977','62979','62982','62983','62984','62985','62987','62988','62990','62992','62993','62994','62995','62996','62997','62998','62999')",
+        "outFields": "GEOID,NAME,BASENAME",
+        "outSR": "5070",
+        "returnGeometry": "true"
+      },
+      "sha256": "d7199d661f66f085edad3c01a416fbfe2a2bb245fa9d94a4ad05a66592717bb8",
+      "bytes": 1239479,
+      "checked": "2026-11-01"
+    },
+    {
+      "cacheFile": "zcta-metadata.json",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Census2020/MapServer/84",
+      "parameters": {
+        "f": "json"
+      },
+      "sha256": "d109106868555f29b28f8a7f45780d024e51940cd122949fcc2ea566db5c30dc",
+      "bytes": 6086,
+      "checked": "2026-11-01"
+    }
+  ]
+}

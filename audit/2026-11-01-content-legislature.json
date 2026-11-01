@@ -1,0 +1,3559 @@
+{
+  "checked": "2026-11-01",
+  "scope": "All retained issue and endorsement statements for 42 substantive legislative profiles, excluding the seven separately audited Antigravity profiles. No production files modified by this audit.",
+  "excludedCandidateIds": [
+    "natalie-a-manley",
+    "dagmara-avelar",
+    "laura-ellman",
+    "ajay-gupta",
+    "janet-yang-rohr",
+    "julie-berkowicz",
+    "nona-parker"
+  ],
+  "coverage": {
+    "claims": 159,
+    "issues": 117,
+    "endorsements": 42,
+    "statuses": {
+      "verified": 156,
+      "supported-with-qualification": 3
+    }
+  },
+  "interpretation": "Verified means the cited primary material supports the displayed factual statement or attributed position, not that a promised policy outcome is proven or all possible candidate positions are included. Access qualifications are recorded separately.",
+  "claims": [
+    {
+      "candidateId": "emanuel-chris-welch",
+      "name": "Emanuel \"Chris\" Welch",
+      "district": "HD-7",
+      "field": "issues.budgetTaxes",
+      "claim": "His June 2026 legislative statement supports freezing state gasoline taxes and a back-to-school sales-tax holiday, while closing corporate tax loopholes.",
+      "urls": [
+        "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "June 5 office statement names a gasoline-tax freeze, school-shopping sales-tax holiday, and closing corporate loopholes."
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "name": "Emanuel \"Chris\" Welch",
+      "district": "HD-7",
+      "field": "issues.healthcare",
+      "claim": "His June 2026 statement supports increased state investment in community health centers and safety-net hospitals in response to federal healthcare cuts.",
+      "urls": [
+        "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The same release calls for increased investment in community health centers and safety-net hospitals."
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "name": "Emanuel \"Chris\" Welch",
+      "district": "HD-7",
+      "field": "issues.education",
+      "claim": "His June 2026 statement supports expanding free and reduced-price school lunches.",
+      "urls": [
+        "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The release supports expanded free and reduced-price school meals."
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "name": "Emanuel \"Chris\" Welch",
+      "district": "HD-7",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "emanuel-chris-welch",
+      "name": "Emanuel \"Chris\" Welch",
+      "district": "HD-7",
+      "field": "endorsements",
+      "claim": "Cook County College Teachers Union Local 1600",
+      "urls": [
+        "https://www.ccctu.org/post/november-2026-general-election-endorsements"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s November 2026 general-election endorsement list names the candidate."
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "name": "Robyn Gabel",
+      "district": "HD-18",
+      "field": "issues.healthcare",
+      "claim": "Her official issue page supports affordable health coverage, Medicaid access and reproductive care, including abortion.",
+      "urls": [
+        "https://robyngabel.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://robyngabel.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Office issues page discusses health affordability, Medicaid coverage, abortion and other reproductive care."
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "name": "Robyn Gabel",
+      "district": "HD-18",
+      "field": "issues.energyGrid",
+      "claim": "Her office supports clean energy and the Clean and Reliable Grid Affordability Act, including battery storage, energy-efficiency programs and expanded community solar.",
+      "urls": [
+        "https://robyngabel.com/gabel-led-historic-clean-and-reliable-grid-affordability-act-signed-into-law/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://robyngabel.com/gabel-led-historic-clean-and-reliable-grid-affordability-act-signed-into-law/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Office release describes support for the CRGA legislation, including storage, efficiency and community solar."
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "name": "Robyn Gabel",
+      "district": "HD-18",
+      "field": "issues.safetAct",
+      "claim": "Her official issue page supports criminal-justice reform and community-based gun-violence prevention; this summary does not establish a specific SAFE-T Act vote.",
+      "urls": [
+        "https://robyngabel.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://robyngabel.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Issues page supports justice reform and community violence prevention. It does not establish a SAFE-T vote."
+    },
+    {
+      "candidateId": "robyn-gabel",
+      "name": "Robyn Gabel",
+      "district": "HD-18",
+      "field": "endorsements",
+      "claim": "AFSCME Council 31",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "kam-buckner",
+      "name": "Kam Buckner",
+      "district": "HD-26",
+      "field": "issues.transit",
+      "claim": "In his 2026 questionnaire, Buckner supports more funding for transit, rail and paratransit; improved pedestrian and cyclist safety; and expanded passenger rail, including eventual high-speed rail.",
+      "urls": [
+        "https://www.bscactionfund.org/kam-buckner"
+      ],
+      "status": "supported-with-qualification",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.bscactionfund.org/kam-buckner",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "In the primary organization’s 2026 questionnaire, Buckner calls for greater transit, rail and paratransit resources, pedestrian/cyclist safety measures and eventual high-speed rail.",
+      "limitation": "Claim content matches indexed 2026 primary text, but the live source currently cannot be opened."
+    },
+    {
+      "candidateId": "kam-buckner",
+      "name": "Kam Buckner",
+      "district": "HD-26",
+      "field": "issues.energyGrid",
+      "claim": "In the same questionnaire, he calls for transportation decisions to account for greenhouse-gas reductions and supports electric buses and development near transit.",
+      "urls": [
+        "https://www.bscactionfund.org/kam-buckner"
+      ],
+      "status": "supported-with-qualification",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.bscactionfund.org/kam-buckner",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "The 2026 answer calls for measuring greenhouse-gas reductions and investing in electric buses and transit-oriented development.",
+      "limitation": "Claim content matches indexed 2026 primary text, but the live source currently cannot be opened."
+    },
+    {
+      "candidateId": "kam-buckner",
+      "name": "Kam Buckner",
+      "district": "HD-26",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "kam-buckner",
+      "name": "Kam Buckner",
+      "district": "HD-26",
+      "field": "endorsements",
+      "claim": "Cook County College Teachers Union Local 1600",
+      "urls": [
+        "https://www.ccctu.org/post/november-2026-general-election-endorsements"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s November 2026 general-election endorsement list names the candidate."
+    },
+    {
+      "candidateId": "kam-buckner",
+      "name": "Kam Buckner",
+      "district": "HD-26",
+      "field": "endorsements",
+      "claim": "Better Streets Chicago Action Fund",
+      "urls": [
+        "https://www.bscactionfund.org/kam-buckner"
+      ],
+      "status": "supported-with-qualification",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.bscactionfund.org/kam-buckner",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "The organization’s primary page explicitly endorses Buckner and introduces his 2026 questionnaire. Current direct URL returns 404; complete indexed primary-page text inspected.",
+      "limitation": "Claim content matches indexed 2026 primary text, but the live source currently cannot be opened."
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "name": "Patrick Sheehan",
+      "district": "HD-37",
+      "field": "issues.budgetTaxes",
+      "claim": "His legislative biography supports capping gasoline taxes and eliminating the state grocery tax while protecting local-government revenue.",
+      "urls": [
+        "https://repsheehan.com/about/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repsheehan.com/about/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Office biography states support for capping gas taxes and eliminating grocery taxes while maintaining local revenue."
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "name": "Patrick Sheehan",
+      "district": "HD-37",
+      "field": "issues.safetAct",
+      "claim": "Supports expanding offenses eligible for pretrial detention, allowing prosecutors to seek revocation when release conditions are violated, and restoring warrants for failures to appear.",
+      "urls": [
+        "https://repsheehan.com/2025/12/22/rep-sheehan-joins-colleagues-in-letter-to-gov-pritzker-on-his-stated-willingness-to-reform-safe-t-act/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repsheehan.com/2025/12/22/rep-sheehan-joins-colleagues-in-letter-to-gov-pritzker-on-his-stated-willingness-to-reform-safe-t-act/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "December 22 office release lists expanded detainable offenses, revocation for violations of release conditions and warrants for failures to appear."
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "name": "Patrick Sheehan",
+      "district": "HD-37",
+      "field": "issues.propertyTaxes",
+      "claim": "Filed HB 5009 in February 2026 to limit reassessment increases to the smaller of 3% or inflation. This is a proposal, not a statement that the cap became law.",
+      "urls": [
+        "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400HB5009.html"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400HB5009.html",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Stable ILGA HB5009 status lists Sheehan filing February 4, 2026, a reassessment limit of the lesser of 3% or CPI, and referral to Rules. Additions, improvements and modifications are excepted; bill not enacted.",
+      "originalUrls": [
+        "https://witnessslips.ilga.gov/documents/reports/static/Bill%20Synopsis-All%20Introduced%20Bills-with%20Last%20Action-Wednesday.pdf"
+      ],
+      "sourceRepair": "Replace rolling weekday synopsis: on Nov1 it describes different bills. Stable HB5009 record read directly."
+    },
+    {
+      "candidateId": "patrick-sheehan",
+      "name": "Patrick Sheehan",
+      "district": "HD-37",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "name": "Erica Bray-Parker",
+      "district": "HD-47",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign proposes strengthening the senior homestead exemption, assessment freeze and property-tax deferral programs, alongside broader affordable-housing access.",
+      "urls": [
+        "https://ericaforil47.com/my-priorities/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ericaforil47.com/my-priorities/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign priorities specifically name the senior exemption, freeze and deferral programs, and housing affordability."
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "name": "Erica Bray-Parker",
+      "district": "HD-47",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports the Protect Illinois Communities Act’s assault-weapons ban and further gun-violence prevention. No specific SAFE-T Act position was established.",
+      "urls": [
+        "https://ericaforil47.com/my-priorities/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ericaforil47.com/my-priorities/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign supports the Protect Illinois Communities Act assault-weapons prohibition; it does not establish a SAFE-T position."
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "name": "Erica Bray-Parker",
+      "district": "HD-47",
+      "field": "issues.education",
+      "claim": "Her campaign supports public-school funding, affordable college and trade programs, and opposes state and federal private-school voucher programs.",
+      "urls": [
+        "https://ericaforil47.com/my-priorities/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ericaforil47.com/my-priorities/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Priorities support public schools, affordable postsecondary/trade education and oppose state/federal private-school voucher programs."
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "name": "Erica Bray-Parker",
+      "district": "HD-47",
+      "field": "issues.energyGrid",
+      "claim": "Her campaign supports continued Illinois investment in electric vehicles, renewable energy and clean-energy jobs under the Climate and Equitable Jobs Act.",
+      "urls": [
+        "https://ericaforil47.com/my-priorities/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ericaforil47.com/my-priorities/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Priorities endorse EV and renewable-energy investment and CEJA clean-energy employment."
+    },
+    {
+      "candidateId": "erica-bray-parker",
+      "name": "Erica Bray-Parker",
+      "district": "HD-47",
+      "field": "endorsements",
+      "claim": "AFSCME Council 31",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "robert-vrankovich",
+      "name": "Robert A. Vrankovich",
+      "district": "HD-47",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign identifies reducing taxes and living costs as priorities; the reviewed campaign page does not provide a detailed tax proposal.",
+      "urls": [
+        "https://www.robertforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.robertforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage promises to cut taxes and prices; it supplies no detailed tax mechanism."
+    },
+    {
+      "candidateId": "robert-vrankovich",
+      "name": "Robert A. Vrankovich",
+      "district": "HD-47",
+      "field": "endorsements",
+      "claim": "Daily Herald Editorial Board",
+      "urls": [
+        "https://www.dailyherald.com/20261027/endorsements/endorsement-vrankovich-for-house-district-47/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.dailyherald.com/20261027/endorsements/endorsement-vrankovich-for-house-district-47/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "The October 27, 2026 newspaper editorial explicitly gives its endorsement to Vrankovich in House District 47."
+    },
+    {
+      "candidateId": "maria-peterson",
+      "name": "Maria Peterson",
+      "district": "HD-52",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign supports a more progressive state tax structure, asking higher-income taxpayers to contribute more.",
+      "urls": [
+        "https://www.mariafor52.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mariafor52.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Issues page supports progressive taxation and greater contributions from those earning the most."
+    },
+    {
+      "candidateId": "maria-peterson",
+      "name": "Maria Peterson",
+      "district": "HD-52",
+      "field": "issues.energyGrid",
+      "claim": "Her campaign supports solar, wind and nuclear energy, continued Climate and Equitable Jobs Act progress, and stronger utility accountability.",
+      "urls": [
+        "https://www.mariafor52.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mariafor52.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Issues page names solar, wind, nuclear, CEJA and utility accountability."
+    },
+    {
+      "candidateId": "maria-peterson",
+      "name": "Maria Peterson",
+      "district": "HD-52",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports stronger red-flag and safe-storage laws, protections for domestic-violence survivors and community mental-health crisis response. No specific SAFE-T Act position was established.",
+      "urls": [
+        "https://www.mariafor52.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mariafor52.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Issues page names red-flag and storage laws, domestic-violence protections and mental-health crisis responses, without a specific SAFE-T stance."
+    },
+    {
+      "candidateId": "maria-peterson",
+      "name": "Maria Peterson",
+      "district": "HD-52",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports placing abortion rights in the Illinois Constitution, protecting Planned Parenthood and community-health-center funding, and lowering prescription costs.",
+      "urls": [
+        "https://www.mariafor52.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mariafor52.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Issues page advocates constitutional abortion protection, Planned Parenthood/community-center funding and prescription affordability."
+    },
+    {
+      "candidateId": "maria-peterson",
+      "name": "Maria Peterson",
+      "district": "HD-52",
+      "field": "issues.education",
+      "claim": "Her campaign supports childcare subsidies, universal preschool and inclusive school policies for LGBTQ+ students.",
+      "urls": [
+        "https://www.mariafor52.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mariafor52.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Issues page advocates childcare subsidies, universal preschool and LGBTQ-inclusive policies."
+    },
+    {
+      "candidateId": "maria-peterson",
+      "name": "Maria Peterson",
+      "district": "HD-52",
+      "field": "endorsements",
+      "claim": "AFSCME Council 31",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "name": "Martin McLaughlin",
+      "district": "HD-52",
+      "field": "issues.propertyTaxes",
+      "claim": "He supports returning 10% of state income-tax receipts to local governments, presenting it as a way to reduce pressure on property taxpayers.",
+      "urls": [
+        "https://repmclaughlin.com/2026/01/27/rep-mclaughlin-restore-local-tax-dollars-stop-the-empty-promises/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repmclaughlin.com/2026/01/27/rep-mclaughlin-restore-local-tax-dollars-stop-the-empty-promises/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "January 27 office statement advocates restoring LGDF to 10% and presents that change as property-tax relief."
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "name": "Martin McLaughlin",
+      "district": "HD-52",
+      "field": "issues.budgetTaxes",
+      "claim": "He advocates reducing state spending and promoted an alternative proposal for up to $8 billion in cuts in February 2026.",
+      "urls": [
+        "https://repmclaughlin.com/2026/02/18/mclaughlin-calls-for-8-billion-in-spending-reductions-says-governor-playing-blame-game-on-budget-reality/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repmclaughlin.com/2026/02/18/mclaughlin-calls-for-8-billion-in-spending-reductions-says-governor-playing-blame-game-on-budget-reality/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "February 18 office statement promotes an alternative with up to $8 billion in cuts; the guide attributes the proposal without certifying the claimed savings."
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "name": "Martin McLaughlin",
+      "district": "HD-52",
+      "field": "issues.energyGrid",
+      "claim": "His office advocates additional nuclear power and what it describes as clean fossil-fuel technology as a bridge to future energy sources.",
+      "urls": [
+        "https://repmclaughlin.com/2025/10/30/rep-mclaughlin-slams-latest-energy-bill-illinois-families-cant-afford-any-more-expensive-help/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repmclaughlin.com/2025/10/30/rep-mclaughlin-slams-latest-energy-bill-illinois-families-cant-afford-any-more-expensive-help/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "October 30 office statement supports nuclear power and describes clean fossil-fuel technology as an energy bridge. This is his characterization."
+    },
+    {
+      "candidateId": "martin-mclaughlin",
+      "name": "Martin McLaughlin",
+      "district": "HD-52",
+      "field": "issues.education",
+      "claim": "He supports restoring the Invest in Kids scholarship program and tying additional Chicago Public Schools funding to measurable academic improvement.",
+      "urls": [
+        "https://repmclaughlin.com/2026/04/24/rep-martin-mclaughlin-stands-up-for-illinois-students-urges-common-sense/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repmclaughlin.com/2026/04/24/rep-martin-mclaughlin-stands-up-for-illinois-students-urges-common-sense/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "April 24 office release calls for restoring Invest in Kids and conditioning added CPS funding on measurable academic gains."
+    },
+    {
+      "candidateId": "dave-vella",
+      "name": "Dave Vella",
+      "district": "HD-68",
+      "field": "issues.propertyTaxes",
+      "claim": "His campaign supports broader senior property-tax relief and a long-term homeowner exemption.",
+      "urls": [
+        "https://www.davevella.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.davevella.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issue page supports senior tax relief and a long-term homeowner exemption."
+    },
+    {
+      "candidateId": "dave-vella",
+      "name": "Dave Vella",
+      "district": "HD-68",
+      "field": "issues.safetAct",
+      "claim": "His campaign supports law-enforcement resources, crime prevention and problem-solving courts.",
+      "urls": [
+        "https://www.davevella.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.davevella.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign lists police resources, prevention and problem-solving courts."
+    },
+    {
+      "candidateId": "dave-vella",
+      "name": "Dave Vella",
+      "district": "HD-68",
+      "field": "issues.education",
+      "claim": "His campaign supports teacher pay and expanded career and vocational training.",
+      "urls": [
+        "https://www.davevella.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.davevella.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign lists teacher compensation and vocational/career preparation."
+    },
+    {
+      "candidateId": "dave-vella",
+      "name": "Dave Vella",
+      "district": "HD-68",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "dave-vella",
+      "name": "Dave Vella",
+      "district": "HD-68",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "kathy-easton",
+      "name": "Kathy Easton",
+      "district": "HD-68",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign proposes freezing property taxes and opposing tax increases.",
+      "urls": [
+        "https://kathyeaston.com/sleeves-up-plan/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://kathyeaston.com/sleeves-up-plan/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan calls for a property-tax freeze and opposition to increased taxes."
+    },
+    {
+      "candidateId": "kathy-easton",
+      "name": "Kathy Easton",
+      "district": "HD-68",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign supports a balanced state budget and opposes higher taxes.",
+      "urls": [
+        "https://kathyeaston.com/sleeves-up-plan/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://kathyeaston.com/sleeves-up-plan/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan calls for a balanced budget and no increased taxes."
+    },
+    {
+      "candidateId": "kathy-easton",
+      "name": "Kathy Easton",
+      "district": "HD-68",
+      "field": "issues.safetAct",
+      "claim": "Her campaign calls for repealing the SAFE-T Act and increasing police training and equipment.",
+      "urls": [
+        "https://kathyeaston.com/sleeves-up-plan/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://kathyeaston.com/sleeves-up-plan/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan explicitly calls for SAFE-T repeal and improved police training/equipment."
+    },
+    {
+      "candidateId": "kathy-easton",
+      "name": "Kathy Easton",
+      "district": "HD-68",
+      "field": "issues.education",
+      "claim": "Her campaign supports parental access to school curricula and restricting girls' sports eligibility by biological sex.",
+      "urls": [
+        "https://kathyeaston.com/sleeves-up-plan/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://kathyeaston.com/sleeves-up-plan/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan supports curriculum transparency to parents and restrictions on girls’ sports by biological sex."
+    },
+    {
+      "candidateId": "kathy-easton",
+      "name": "Kathy Easton",
+      "district": "HD-68",
+      "field": "endorsements",
+      "claim": "Illinois Family Action",
+      "urls": [
+        "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The October 2026 general-election guide lists this candidate as endorsed, not merely recommended."
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "name": "Amy \"Murri\" Briel",
+      "district": "HD-76",
+      "field": "issues.budgetTaxes",
+      "claim": "Her office identifies reducing living costs and government waste as priorities.",
+      "urls": [
+        "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "January 8, 2025 inauguration release identifies living costs and wasteful spending as priorities."
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "name": "Amy \"Murri\" Briel",
+      "district": "HD-76",
+      "field": "issues.healthcare",
+      "claim": "Her office supports affordable health care and protections for women's health.",
+      "urls": [
+        "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The office release identifies affordable healthcare and women’s health protections."
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "name": "Amy \"Murri\" Briel",
+      "district": "HD-76",
+      "field": "issues.education",
+      "claim": "Her office lists affordable child care and public education among her priorities.",
+      "urls": [
+        "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The office release identifies affordable childcare and public education."
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "name": "Amy \"Murri\" Briel",
+      "district": "HD-76",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "amy-murri-briel",
+      "name": "Amy \"Murri\" Briel",
+      "district": "HD-76",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "liz-bishop",
+      "name": "Liz Bishop",
+      "district": "HD-76",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign supports property-tax relief to lower household costs.",
+      "urls": [
+        "https://electlizbishop.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://electlizbishop.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage lists relief from property taxes."
+    },
+    {
+      "candidateId": "liz-bishop",
+      "name": "Liz Bishop",
+      "district": "HD-76",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign opposes increased taxes and spending and supports a more business-friendly state.",
+      "urls": [
+        "https://electlizbishop.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://electlizbishop.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage opposes rising taxes/spending and calls for a business-friendly environment."
+    },
+    {
+      "candidateId": "liz-bishop",
+      "name": "Liz Bishop",
+      "district": "HD-76",
+      "field": "issues.healthcare",
+      "claim": "Her campaign seeks to restore local health-care services.",
+      "urls": [
+        "https://electlizbishop.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://electlizbishop.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage advocates restoring local healthcare services."
+    },
+    {
+      "candidateId": "liz-bishop",
+      "name": "Liz Bishop",
+      "district": "HD-76",
+      "field": "issues.energyGrid",
+      "claim": "Her campaign supports local control over land-use decisions, including solar farms and data centers.",
+      "urls": [
+        "https://electlizbishop.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://electlizbishop.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage names solar-farm and data-center decisions as areas for local control."
+    },
+    {
+      "candidateId": "liz-bishop",
+      "name": "Liz Bishop",
+      "district": "HD-76",
+      "field": "endorsements",
+      "claim": "Americans for Prosperity Action",
+      "urls": [
+        "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 10, 2026 announcement names this candidate among eight general-election endorsements."
+    },
+    {
+      "candidateId": "saba-haider",
+      "name": "Saba Haider",
+      "district": "HD-84",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign supports reducing property-tax burdens.",
+      "urls": [
+        "https://www.sabahaider.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.sabahaider.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The People First agenda says to reduce homeowners’ property-tax burden."
+    },
+    {
+      "candidateId": "saba-haider",
+      "name": "Saba Haider",
+      "district": "HD-84",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign says billionaires and large corporations should pay a greater share of taxes.",
+      "urls": [
+        "https://www.sabahaider.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.sabahaider.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The agenda says billionaires and corporations should pay a fair share."
+    },
+    {
+      "candidateId": "saba-haider",
+      "name": "Saba Haider",
+      "district": "HD-84",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports affordable health care, lower prescription costs and reproductive rights.",
+      "urls": [
+        "https://www.sabahaider.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.sabahaider.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The agenda names affordable healthcare, prescription prices and reproductive rights."
+    },
+    {
+      "candidateId": "saba-haider",
+      "name": "Saba Haider",
+      "district": "HD-84",
+      "field": "issues.energyGrid",
+      "claim": "Her campaign supports limits on utility-rate increases.",
+      "urls": [
+        "https://www.sabahaider.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.sabahaider.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The agenda calls for stopping unchecked utility-rate increases."
+    },
+    {
+      "candidateId": "saba-haider",
+      "name": "Saba Haider",
+      "district": "HD-84",
+      "field": "issues.education",
+      "claim": "Her campaign supports full state funding for schools.",
+      "urls": [
+        "https://www.sabahaider.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.sabahaider.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The agenda calls for the state to fulfill its school-funding promise."
+    },
+    {
+      "candidateId": "saba-haider",
+      "name": "Saba Haider",
+      "district": "HD-84",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "saba-haider",
+      "name": "Saba Haider",
+      "district": "HD-84",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "brian-scopa",
+      "name": "Brian Scopa",
+      "district": "HD-84",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign supports audits of state spending and contracts, and funding tied to measurable results.",
+      "urls": [
+        "https://scopaforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://scopaforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page calls for audits and tying spending to measurable results."
+    },
+    {
+      "candidateId": "brian-scopa",
+      "name": "Brian Scopa",
+      "district": "HD-84",
+      "field": "issues.safetAct",
+      "claim": "His campaign proposes revising the SAFE-T Act and mandatory minimum sentences for repeat violent offenders.",
+      "urls": [
+        "https://scopaforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://scopaforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page explicitly proposes SAFE-T changes and minimum sentences for repeat violent offenders."
+    },
+    {
+      "candidateId": "brian-scopa",
+      "name": "Brian Scopa",
+      "district": "HD-84",
+      "field": "issues.education",
+      "claim": "His campaign supports school choice, public access to curricula and stronger classroom safety measures.",
+      "urls": [
+        "https://scopaforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://scopaforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page supports school choice, curriculum access and classroom safety."
+    },
+    {
+      "candidateId": "brian-scopa",
+      "name": "Brian Scopa",
+      "district": "HD-84",
+      "field": "endorsements",
+      "claim": "Illinois Family Action",
+      "urls": [
+        "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The October 2026 general-election guide lists this candidate as endorsed, not merely recommended."
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "name": "Tony M. McCombie",
+      "district": "HD-89",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign links increased state school funding to property-tax relief.",
+      "urls": [
+        "https://www.mccombieforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mccombieforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform links state school-funding increases with reduced local property-tax reliance."
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "name": "Tony M. McCombie",
+      "district": "HD-89",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign opposes unbalanced budgets, tax increases and legislator pay increases, and supports a more open budget process.",
+      "urls": [
+        "https://www.mccombieforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mccombieforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform opposes unbalanced budgets, tax and legislative pay increases, and requests an open budget process."
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "name": "Tony M. McCombie",
+      "district": "HD-89",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports law-enforcement resources, victim protections and addressing the causes of violence.",
+      "urls": [
+        "https://www.mccombieforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mccombieforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform supports law enforcement, victims and addressing violence’s causes."
+    },
+    {
+      "candidateId": "tony-mccombie",
+      "name": "Tony M. McCombie",
+      "district": "HD-89",
+      "field": "issues.education",
+      "claim": "Her campaign supports evidence-based school funding, vocational education and local school control, and opposes unfunded mandates.",
+      "urls": [
+        "https://www.mccombieforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mccombieforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform names evidence-based funding, vocational programs, local control and opposition to unfunded mandates."
+    },
+    {
+      "candidateId": "sharon-chung",
+      "name": "Sharon Chung",
+      "district": "HD-91",
+      "field": "issues.healthcare",
+      "claim": "Her legislative office states that she supports access to abortion and reproductive health care.",
+      "urls": [
+        "https://ilhousedems.com/2026/02/27/chung-backed-resolution-opposes-extreme-anti-choice-senate-bill/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ilhousedems.com/2026/02/27/chung-backed-resolution-opposes-extreme-anti-choice-senate-bill/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "February 27 caucus/office release records support for reproductive and abortion care."
+    },
+    {
+      "candidateId": "sharon-chung",
+      "name": "Sharon Chung",
+      "district": "HD-91",
+      "field": "issues.education",
+      "claim": "She supports editorial independence for media at public universities and sponsored HB 4420.",
+      "urls": [
+        "https://ilhousedems.com/2026/04/21/chung-bill-protecting-independence-of-media-that-partner-with-public-universities-passes-house/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ilhousedems.com/2026/04/21/chung-bill-protecting-independence-of-media-that-partner-with-public-universities-passes-house/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "April 21 office release identifies Chung as HB4420 sponsor and describes editorial independence for public-university media."
+    },
+    {
+      "candidateId": "sharon-chung",
+      "name": "Sharon Chung",
+      "district": "HD-91",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "sharon-chung",
+      "name": "Sharon Chung",
+      "district": "HD-91",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "name": "Jehan Gordon-Booth",
+      "district": "HD-92",
+      "field": "issues.safetAct",
+      "claim": "Her office supports automated sealing of eligible criminal records under the Clean Slate Act to reduce barriers to housing and employment.",
+      "urls": [
+        "https://ilhousedems.com/2026/01/16/gordon-booth-led-clean-slate-act-signed-into-law-automatically-seals-records-for-certain-offenses-helping-to-remove-barriers/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ilhousedems.com/2026/01/16/gordon-booth-led-clean-slate-act-signed-into-law-automatically-seals-records-for-certain-offenses-helping-to-remove-barriers/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "January 16 office release supports the Clean Slate Act’s automated process for eligible records to reduce barriers. It distinguishes sealing from expungement and does not promise every record qualifies."
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "name": "Jehan Gordon-Booth",
+      "district": "HD-92",
+      "field": "issues.budgetTaxes",
+      "claim": "Her office supports a fiscally responsible budget that protects education, child care, health care and essential services.",
+      "urls": [
+        "https://ilhousedems.com/2026/02/18/gordon-booth-reacts-to-governors-budget-address-emphasizes-need-for-responsible-and-compassionate-plan/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ilhousedems.com/2026/02/18/gordon-booth-reacts-to-governors-budget-address-emphasizes-need-for-responsible-and-compassionate-plan/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "February 18 statement supports responsible finances alongside schools, childcare, healthcare and essential services."
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "name": "Jehan Gordon-Booth",
+      "district": "HD-92",
+      "field": "issues.healthcare",
+      "claim": "Her office supports affordable health care and investment in community health-center facilities and technology.",
+      "urls": [
+        "https://ilhousedems.com/2026/08/24/gordon-booth-congratulates-peoria-based-healthcare-centers-on-nearly-6-million-in-grant-funding/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ilhousedems.com/2026/08/24/gordon-booth-congratulates-peoria-based-healthcare-centers-on-nearly-6-million-in-grant-funding/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "August 24 release supports affordable healthcare and grants for clinic buildings, technology and resources."
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "name": "Jehan Gordon-Booth",
+      "district": "HD-92",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "jehan-gordon-booth",
+      "name": "Jehan Gordon-Booth",
+      "district": "HD-92",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign supports property-tax relief and opposes unnecessary taxes and fees.",
+      "urls": [
+        "https://www.jdhfor97.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.jdhfor97.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign calls for property-tax relief and opposition to unnecessary taxes/fees."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign calls for responsible budgeting, transparency and accountability.",
+      "urls": [
+        "https://www.jdhfor97.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.jdhfor97.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign calls for responsible budgeting, transparency and accountability."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports staffing, training and equipment for police, firefighters and paramedics. This source does not state a position on the SAFE-T Act.",
+      "urls": [
+        "https://www.jdhfor97.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.jdhfor97.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign specifies staffing, equipment and training for police, fire and paramedic services; no SAFE-T position inferred."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "issues.transit",
+      "claim": "Her campaign supports investment in district roads and infrastructure.",
+      "urls": [
+        "https://www.jdhfor97.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.jdhfor97.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign calls for district road and infrastructure investment."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports reproductive healthcare, contraception, fertility and maternity care, and a state constitutional guarantee of reproductive freedom.",
+      "urls": [
+        "https://www.jdhfor97.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.jdhfor97.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign lists reproductive, contraceptive, fertility and maternity care plus constitutional reproductive freedom."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "issues.education",
+      "claim": "Her campaign supports fair public-school funding, educators, and career and technical education.",
+      "urls": [
+        "https://www.jdhfor97.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.jdhfor97.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign lists fair public-school funding, educators and career/technical programs."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers (2026 general election)",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "jessica-dixon-heitman",
+      "name": "Jessica Dixon Heitman",
+      "district": "HD-97",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "name": "Gabby Shanahan",
+      "district": "HD-97",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign calls for lower property taxes.",
+      "urls": [
+        "https://www.gabbyforillinois.com/plan"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.gabbyforillinois.com/plan",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan seeks lower property taxes."
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "name": "Gabby Shanahan",
+      "district": "HD-97",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign proposes reducing taxes and wasteful government spending.",
+      "urls": [
+        "https://www.gabbyforillinois.com/plan"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.gabbyforillinois.com/plan",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan calls for cutting taxes and wasteful spending."
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "name": "Gabby Shanahan",
+      "district": "HD-97",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports affordable and accessible healthcare.",
+      "urls": [
+        "https://www.gabbyforillinois.com/plan"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.gabbyforillinois.com/plan",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan advocates affordable, accessible healthcare."
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "name": "Gabby Shanahan",
+      "district": "HD-97",
+      "field": "issues.education",
+      "claim": "Her campaign emphasizes reading, mathematics, parental participation, skilled trades and technical training.",
+      "urls": [
+        "https://www.gabbyforillinois.com/plan"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.gabbyforillinois.com/plan",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign plan emphasizes reading/math, parents and trades/technical pathways."
+    },
+    {
+      "candidateId": "gabby-shanahan",
+      "name": "Gabby Shanahan",
+      "district": "HD-97",
+      "field": "endorsements",
+      "claim": "Americans for Prosperity Action (2026 general election)",
+      "urls": [
+        "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 10, 2026 announcement names this candidate among eight general-election endorsements."
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "name": "Mary Catherine Roberson",
+      "district": "HD-104",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign supports increased state education funding to reduce pressure on local property taxes.",
+      "urls": [
+        "https://www.robersonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.robersonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign explains school-funding changes as a way to reduce local property-tax pressure."
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "name": "Mary Catherine Roberson",
+      "district": "HD-104",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports body cameras, police accountability, mental-health co-responders, and funding police and violence prevention. This source does not establish a SAFE-T Act stance.",
+      "urls": [
+        "https://www.robersonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.robersonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign names body cameras, accountability, co-response, mental health and funding police/prevention. It does not state a SAFE-T stance."
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "name": "Mary Catherine Roberson",
+      "district": "HD-104",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign supports paid family and medical leave, auto-insurance pricing based on driving rather than credit scores, and an Illinois consumer financial protection bureau.",
+      "urls": [
+        "https://www.robersonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.robersonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign Worker & Consumer Rights section supports paid leave, driving-based insurance prices and a state consumer bureau."
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "name": "Mary Catherine Roberson",
+      "district": "HD-104",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports a Prescription Drug Affordability Board, citing HB 1443, to address excessive prescription costs.",
+      "urls": [
+        "https://www.robersonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.robersonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign explicitly supports HB1443’s Prescription Drug Affordability Board; no projected saving is repeated as fact."
+    },
+    {
+      "candidateId": "mary-catherine-roberson",
+      "name": "Mary Catherine Roberson",
+      "district": "HD-104",
+      "field": "issues.education",
+      "claim": "Her campaign supports school-funding formula improvements and opposes diverting public-school funding to private schools.",
+      "urls": [
+        "https://www.robersonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.robersonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign supports revising the funding formula and opposes shifting public funding to private schools."
+    },
+    {
+      "candidateId": "brandun-schweizer",
+      "name": "Brandun Schweizer",
+      "district": "HD-104",
+      "field": "issues.energyGrid",
+      "claim": "In a November 2024 office statement, he supported banning carbon sequestration in and around the Mahomet Aquifer.",
+      "urls": [
+        "https://repschweizer.com/2024/11/19/schweizer-says-we-need-to-get-back-to-business-and-protect-the-mahomet-aquifer/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repschweizer.com/2024/11/19/schweizer-says-we-need-to-get-back-to-business-and-protect-the-mahomet-aquifer/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "November 2024 office release supports a carbon-sequestration ban around the Mahomet Aquifer. Date retained to distinguish historical statement."
+    },
+    {
+      "candidateId": "brandun-schweizer",
+      "name": "Brandun Schweizer",
+      "district": "HD-104",
+      "field": "issues.healthcare",
+      "claim": "His office opposes physician-assisted suicide and advocates expanded hospice, palliative care and caregiver support.",
+      "urls": [
+        "https://repschweizer.com/stop-assisted-suicide-in-illinois/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repschweizer.com/stop-assisted-suicide-in-illinois/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Office petition opposes physician-assisted suicide and advocates hospice, palliative care and caregiver support."
+    },
+    {
+      "candidateId": "brandun-schweizer",
+      "name": "Brandun Schweizer",
+      "district": "HD-104",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "katie-stuart",
+      "name": "Katie Stuart",
+      "district": "HD-112",
+      "field": "issues.budgetTaxes",
+      "claim": "Her undated campaign issues page supports a balanced budget that funds public schools and pension obligations.",
+      "urls": [
+        "https://stuartforilrep.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://stuartforilrep.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Undated campaign issue page calls for balanced budgets supporting schools and pensions.",
+      "limitation": "Campaign page is undated; retained summary explicitly says so and does not claim a new 2026 pledge."
+    },
+    {
+      "candidateId": "katie-stuart",
+      "name": "Katie Stuart",
+      "district": "HD-112",
+      "field": "issues.pensions",
+      "claim": "Her undated campaign issues page calls for full funding of pension obligations.",
+      "urls": [
+        "https://stuartforilrep.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://stuartforilrep.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Undated campaign issue page expressly calls for fully funding pension commitments.",
+      "limitation": "Campaign page is undated; retained summary explicitly says so and does not claim a new 2026 pledge."
+    },
+    {
+      "candidateId": "katie-stuart",
+      "name": "Katie Stuart",
+      "district": "HD-112",
+      "field": "issues.healthcare",
+      "claim": "Her undated campaign issues page supports caps on out-of-pocket medication costs and insurance coverage for essential medical services.",
+      "urls": [
+        "https://stuartforilrep.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://stuartforilrep.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Undated campaign issue page supports medication out-of-pocket caps and essential medical insurance coverage.",
+      "limitation": "Campaign page is undated; retained summary explicitly says so and does not claim a new 2026 pledge."
+    },
+    {
+      "candidateId": "katie-stuart",
+      "name": "Katie Stuart",
+      "district": "HD-112",
+      "field": "issues.education",
+      "claim": "Her undated campaign issues page supports teacher and principal mentoring programs and public-school funding.",
+      "urls": [
+        "https://stuartforilrep.com/issues/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://stuartforilrep.com/issues/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Undated campaign issue page supports mentoring for teachers/principals and school funding.",
+      "limitation": "Campaign page is undated; retained summary explicitly says so and does not claim a new 2026 pledge."
+    },
+    {
+      "candidateId": "katie-stuart",
+      "name": "Katie Stuart",
+      "district": "HD-112",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers (2026 general election)",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "katie-stuart",
+      "name": "Katie Stuart",
+      "district": "HD-112",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "katie-stuart",
+      "name": "Katie Stuart",
+      "district": "HD-112",
+      "field": "endorsements",
+      "claim": "Stand for Children Illinois (2026 general election)",
+      "urls": [
+        "https://stand.org/illinois/our-stories/2026-general-elections-endorsements/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://stand.org/illinois/our-stories/2026-general-elections-endorsements/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "The September 11, 2026 general-election list includes Katie Stuart for House District 112."
+    },
+    {
+      "candidateId": "george-mcclellan-jr",
+      "name": "George McClellan Jr.",
+      "district": "HD-114",
+      "field": "endorsements",
+      "claim": "Illinois Federation of Teachers (2026 general election)",
+      "urls": [
+        "https://www.ift-aft.org/vote"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ift-aft.org/vote",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The union’s current 2026 general-election voting page lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "kevin-schmidt",
+      "name": "Kevin Schmidt",
+      "district": "HD-114",
+      "field": "issues.budgetTaxes",
+      "claim": "His July 2026 office statement calls for lower taxes and reduced government spending.",
+      "urls": [
+        "https://repschmidt.com/2026/07/27/state-rep-kevin-schmidts-commitment-to-the-114th-district/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://repschmidt.com/2026/07/27/state-rep-kevin-schmidts-commitment-to-the-114th-district/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "July 2026 office release calls for lower taxes and reduced spending."
+    },
+    {
+      "candidateId": "kevin-schmidt",
+      "name": "Kevin Schmidt",
+      "district": "HD-114",
+      "field": "endorsements",
+      "claim": "Illinois AFL-CIO (2026 general election)",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "method": "direct-primary-pdf-extracted-text"
+        }
+      ],
+      "support": "The organization’s July 2026 general-election endorsement PDF lists the candidate in the matching House district."
+    },
+    {
+      "candidateId": "kevin-schmidt",
+      "name": "Kevin Schmidt",
+      "district": "HD-114",
+      "field": "endorsements",
+      "claim": "Americans for Prosperity Action (2026 general election)",
+      "urls": [
+        "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 10, 2026 announcement names this candidate among eight general-election endorsements."
+    },
+    {
+      "candidateId": "ram-villivalam",
+      "name": "Ram Villivalam",
+      "district": "SD-8",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "name": "Patrick Hanley",
+      "district": "SD-9",
+      "field": "issues.healthcare",
+      "claim": "His campaign supports abortion rights, wider healthcare access and lower patient costs.",
+      "urls": [
+        "https://www.hanleyforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.hanleyforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page supports abortion access, broader healthcare access and lower costs."
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "name": "Patrick Hanley",
+      "district": "SD-9",
+      "field": "issues.energyGrid",
+      "claim": "His campaign supports clean energy, green infrastructure and protection of the Great Lakes and watersheds.",
+      "urls": [
+        "https://www.hanleyforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.hanleyforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page supports clean-energy/green infrastructure and watershed/Great Lakes protection."
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "name": "Patrick Hanley",
+      "district": "SD-9",
+      "field": "issues.education",
+      "claim": "His campaign supports well-resourced teachers and public schools.",
+      "urls": [
+        "https://www.hanleyforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.hanleyforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page supports teachers and well-resourced public schools."
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "name": "Patrick Hanley",
+      "district": "SD-9",
+      "field": "issues.transit",
+      "claim": "His campaign supports implementing NITA, frequent bus service, accessible rail stations and safer cycling infrastructure.",
+      "urls": [
+        "https://www.hanleyforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.hanleyforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page explicitly supports NITA implementation, frequent buses, accessible rail and safer bicycle routes."
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "name": "Patrick Hanley",
+      "district": "SD-9",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign proposes increasing housing supply, upgrading the grid and supporting food production and small businesses to reduce costs.",
+      "urls": [
+        "https://www.hanleyforillinois.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.hanleyforillinois.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page links affordability with housing supply, grid upgrades, food production and small business."
+    },
+    {
+      "candidateId": "patrick-hanley",
+      "name": "Patrick Hanley",
+      "district": "SD-9",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "ben-mcadams",
+      "name": "Benjamin \"Ben\" McAdams",
+      "district": "SD-24",
+      "field": "issues.healthcare",
+      "claim": "His campaign supports increased state investment in healthcare, including mental and reproductive care, and administering Medicaid within state government instead of through private management intermediaries.",
+      "urls": [
+        "https://www.mcadamsforil.com/platform"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mcadamsforil.com/platform",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform proposes more health investment, including mental/reproductive care, and direct state Medicaid administration instead of private intermediaries."
+    },
+    {
+      "candidateId": "ben-mcadams",
+      "name": "Benjamin \"Ben\" McAdams",
+      "district": "SD-24",
+      "field": "issues.propertyTaxes",
+      "claim": "His campaign supports reducing property-tax reliance by increasing taxes on the wealthiest households and closing corporate tax loopholes to fund public services.",
+      "urls": [
+        "https://www.mcadamsforil.com/platform"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mcadamsforil.com/platform",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform proposes replacing property-tax dependence with greater taxes on wealthy households and closing corporate loopholes."
+    },
+    {
+      "candidateId": "ben-mcadams",
+      "name": "Benjamin \"Ben\" McAdams",
+      "district": "SD-24",
+      "field": "issues.energyGrid",
+      "claim": "His campaign supports clean-energy investment and the POWER Act's proposed environmental requirements for data centers, including water and energy safeguards.",
+      "urls": [
+        "https://www.mcadamsforil.com/platform"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.mcadamsforil.com/platform",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform endorses clean energy and POWER Act data-center water/energy safeguards as proposals."
+    },
+    {
+      "candidateId": "seth-lewis",
+      "name": "Seth Lewis",
+      "district": "SD-24",
+      "field": "issues.budgetTaxes",
+      "claim": "Calls for disciplined budgeting and long-term planning while investing in education, infrastructure and public safety.",
+      "urls": [
+        "https://senatorlewis.com/a-message-from-senator-seth-lewis-to-the-people-of-the-24th-district/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://senatorlewis.com/a-message-from-senator-seth-lewis-to-the-people-of-the-24th-district/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "January 20 office statement supports disciplined budgets and long-term planning with education, infrastructure and public safety investments."
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "name": "Nabeela Syed",
+      "district": "SD-26",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign supports increasing the state's share of school funding through the Evidence-Based Funding Formula to reduce reliance on local property taxes, and expanding senior property-tax relief.",
+      "urls": [
+        "https://www.nabeelasyed.com/economy"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.nabeelasyed.com/economy",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign economic page supports school-funding formula investments to reduce local tax reliance and senior relief."
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "name": "Nabeela Syed",
+      "district": "SD-26",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports reducing prescription-drug costs, restricting pharmacy-benefit-manager pricing practices, and requiring insurance coverage for mental-health and substance-use treatment.",
+      "urls": [
+        "https://www.nabeelasyed.com/healthcare"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.nabeelasyed.com/healthcare",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign healthcare page supports drug-price and PBM reforms and coverage of mental health/substance-use treatment."
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "name": "Nabeela Syed",
+      "district": "SD-26",
+      "field": "issues.energyGrid",
+      "claim": "Her campaign supports moving Illinois to 100% clean, renewable energy and implementing the Climate and Equitable Jobs Act's clean-energy goals.",
+      "urls": [
+        "https://www.nabeelasyed.com/environment"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.nabeelasyed.com/environment",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign environment page supports 100% clean renewable energy and CEJA implementation."
+    },
+    {
+      "candidateId": "nabeela-syed",
+      "name": "Nabeela Syed",
+      "district": "SD-26",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "darby-hills",
+      "name": "Darby Hills",
+      "district": "SD-26",
+      "field": "issues.propertyTaxes",
+      "claim": "Co-sponsored SB3868, a proposal to increase the Illinois income-tax credit for residential property taxes from 5% to 10%. The bill has not become law.",
+      "urls": [
+        "https://www.ilga.gov/Legislation/BillStatus?DocNum=3868&DocTypeID=SB&GAID=18&LegId=167298&SessionID=114"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3868&DocTypeID=SB&GAID=18&LegId=167298&SessionID=114",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Official SB3868 record identifies Hills as cosponsor and proposes increasing the residential property-tax credit from 5% to 10%; no enactment shown."
+    },
+    {
+      "candidateId": "darby-hills",
+      "name": "Darby Hills",
+      "district": "SD-26",
+      "field": "issues.education",
+      "claim": "Introduced SB3783, proposing a tax credit of up to $1,500 per child for eligible preschool expenses. The bill has not become law.",
+      "urls": [
+        "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400SB3783.html"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400SB3783.html",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Official SB3783 record identifies Hills as introducer and proposes up to $1,500 preschool-expense credit; no enactment shown."
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "name": "Carina Santa Maria",
+      "district": "SD-27",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign supports reducing reliance on property taxes to fund essential services.",
+      "urls": [
+        "https://www.carinaforsenate.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.carinaforsenate.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issue page calls for reduced property-tax dependence for essential services."
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "name": "Carina Santa Maria",
+      "district": "SD-27",
+      "field": "issues.pensions",
+      "claim": "Her campaign supports addressing Tier 2 pension inequities and changing the debt repayment schedule through re-amortization.",
+      "urls": [
+        "https://www.carinaforsenate.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.carinaforsenate.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issue page supports fixing Tier 2 inequities and re-amortizing pension debt."
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "name": "Carina Santa Maria",
+      "district": "SD-27",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports retaining the SAFE-T Act while funding law-enforcement training and accountability, trauma-informed policing and alternative crisis responses.",
+      "urls": [
+        "https://www.carinaforsenate.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.carinaforsenate.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issue page supports retaining SAFE-T plus police training/accountability and trauma-informed/alternative crisis responses."
+    },
+    {
+      "candidateId": "carina-santa-maria",
+      "name": "Carina Santa Maria",
+      "district": "SD-27",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "name": "Adriane L. Johnson",
+      "district": "SD-30",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports lowering healthcare costs and protecting access to abortion, including for patients from neighboring states.",
+      "urls": [
+        "https://adrianejohnsonforil.com/healthcare/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://adrianejohnsonforil.com/healthcare/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "Campaign health page supports lower costs and abortion access, including care for visitors from other states."
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "name": "Adriane L. Johnson",
+      "district": "SD-30",
+      "field": "issues.education",
+      "claim": "Her campaign supports public-school funding, lower public-college costs and apprenticeship programs developed with labor unions.",
+      "urls": [
+        "https://adrianejohnsonforil.com/education-college-affordability/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://adrianejohnsonforil.com/education-college-affordability/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "Campaign education page supports schools, lower public-college costs and union apprenticeship partnerships."
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "name": "Adriane L. Johnson",
+      "district": "SD-30",
+      "field": "issues.energyGrid",
+      "claim": "Her campaign supports clean-energy jobs, renewable energy and conservation of water and natural resources.",
+      "urls": [
+        "https://adrianejohnsonforil.com/jobs-the-environment/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://adrianejohnsonforil.com/jobs-the-environment/",
+          "method": "web-indexed-primary-page-full-content"
+        }
+      ],
+      "support": "Campaign jobs/environment page supports clean-energy employment, renewable energy and conservation."
+    },
+    {
+      "candidateId": "adrienne-johnson",
+      "name": "Adriane L. Johnson",
+      "district": "SD-30",
+      "field": "endorsements",
+      "claim": "Lake County Democratic Women (2026 general election)",
+      "urls": [
+        "https://www.lakedemwomen.org/2026-endorsed-candidates"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.lakedemwomen.org/2026-endorsed-candidates",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The organization’s 2026 endorsement page lists Adriane Johnson for Senate District 30."
+    },
+    {
+      "candidateId": "michele-clark",
+      "name": "Michele Clark",
+      "district": "SD-33",
+      "field": "issues.propertyTaxes",
+      "claim": "Her campaign supports policies to freeze property taxes for senior homeowners.",
+      "urls": [
+        "https://micheleforilsenate.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://micheleforilsenate.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page supports a senior property-tax freeze."
+    },
+    {
+      "candidateId": "michele-clark",
+      "name": "Michele Clark",
+      "district": "SD-33",
+      "field": "issues.education",
+      "claim": "Her campaign supports public-school investment, protecting school breakfast and lunch funding, and expanding apprenticeships through partnerships with employers, trade schools and universities.",
+      "urls": [
+        "https://micheleforilsenate.com/issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://micheleforilsenate.com/issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign issues page supports schools and school meals and employer/trade-school/university apprenticeship partnerships."
+    },
+    {
+      "candidateId": "michele-clark",
+      "name": "Michele Clark",
+      "district": "SD-33",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "danielle-penman",
+      "name": "Danielle Penman",
+      "district": "SD-33",
+      "field": "issues.safetAct",
+      "claim": "Her campaign supports restoring cash bail by repealing key provisions of the SAFE-T Act, alongside tougher penalties for repeat violent offenders.",
+      "urls": [
+        "https://www.daniellepenman.com/key-issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.daniellepenman.com/key-issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform explicitly proposes restoring cash bail through repeal of key SAFE-T provisions, and tougher repeat-offender penalties."
+    },
+    {
+      "candidateId": "danielle-penman",
+      "name": "Danielle Penman",
+      "district": "SD-33",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports reducing insurance premiums and prescription-drug costs, protecting coverage for pre-existing conditions, and supporting IVF and fertility care.",
+      "urls": [
+        "https://www.daniellepenman.com/key-issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.daniellepenman.com/key-issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform supports lower insurance/drug costs, pre-existing-condition coverage, IVF and fertility care."
+    },
+    {
+      "candidateId": "danielle-penman",
+      "name": "Danielle Penman",
+      "district": "SD-33",
+      "field": "issues.budgetTaxes",
+      "claim": "Her campaign calls for balancing the budget before seeking additional taxes and opposes legislative pay raises until Illinois reaches a sustainable fiscal position.",
+      "urls": [
+        "https://www.daniellepenman.com/key-issues"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.daniellepenman.com/key-issues",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign platform says to balance the budget before more taxes and opposes legislative raises until finances are sustainable."
+    },
+    {
+      "candidateId": "mike-halpin",
+      "name": "Michael W. Halpin",
+      "district": "SD-36",
+      "field": "issues.education",
+      "claim": "In a September 2026 statement, he supported Illinois Works funding for pre-apprenticeship training in construction and building trades.",
+      "urls": [
+        "https://www.senatorhalpin.com/news/press-releases/175-halpin-encourages-local-organizations-to-request-funding-for-pre-apprenticeships"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.senatorhalpin.com/news/press-releases/175-halpin-encourages-local-organizations-to-request-funding-for-pre-apprenticeships",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "September 9 office release promotes Illinois Works Pre-Apprenticeship grants to community organizations for construction/trades training.",
+      "originalUrls": [
+        "https://www.senatorhalpin.com/"
+      ],
+      "sourceRepair": "Replace changing homepage with directly retrieved dated release."
+    },
+    {
+      "candidateId": "mike-halpin",
+      "name": "Michael W. Halpin",
+      "district": "SD-36",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "brad-beekman",
+      "name": "Brad Beekman",
+      "district": "SD-36",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign prioritizes reducing taxes and utility costs and easing regulation of farms and small businesses.",
+      "urls": [
+        "https://www.beekmanforsenate.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.beekmanforsenate.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage prioritizes tax/utility relief and reduced regulation of farms and small businesses."
+    },
+    {
+      "candidateId": "brad-beekman",
+      "name": "Brad Beekman",
+      "district": "SD-36",
+      "field": "issues.education",
+      "claim": "His campaign calls for school accountability, higher academic standards and a greater role for parents.",
+      "urls": [
+        "https://www.beekmanforsenate.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.beekmanforsenate.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage names school accountability, standards and parents’ voices."
+    },
+    {
+      "candidateId": "don-harmon",
+      "name": "Don Harmon",
+      "district": "SD-39",
+      "field": "issues.healthcare",
+      "claim": "His campaign supports reproductive choice.",
+      "urls": [
+        "https://harmonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://harmonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign page supports reproductive choice."
+    },
+    {
+      "candidateId": "don-harmon",
+      "name": "Don Harmon",
+      "district": "SD-39",
+      "field": "issues.education",
+      "claim": "His campaign supports public-school and early-childhood education funding.",
+      "urls": [
+        "https://harmonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://harmonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign page supports public-school and early-childhood funding."
+    },
+    {
+      "candidateId": "don-harmon",
+      "name": "Don Harmon",
+      "district": "SD-39",
+      "field": "issues.safetAct",
+      "claim": "His campaign supports ending cash bail.",
+      "urls": [
+        "https://harmonforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://harmonforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign page supports ending cash bail."
+    },
+    {
+      "candidateId": "john-curran",
+      "name": "John Curran",
+      "district": "SD-41",
+      "field": "issues.budgetTaxes",
+      "claim": "His official website calls for lower taxes, less regulation and efficient, transparent state government.",
+      "urls": [
+        "https://senatorcurran.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://senatorcurran.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The current office homepage footer explicitly calls for less regulation, lower taxes and efficient, transparent, ethical government."
+    },
+    {
+      "candidateId": "doris-turner",
+      "name": "Doris Turner",
+      "district": "SD-48",
+      "field": "issues.education",
+      "claim": "Supports investment in workforce training and career pathways for people facing barriers to employment.",
+      "urls": [
+        "https://www.senatordoristurner.com/news/press-releases/341-turner-secures-strong-investment-to-expand-central-illinois-workforce-training"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.senatordoristurner.com/news/press-releases/341-turner-secures-strong-investment-to-expand-central-illinois-workforce-training",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "September 9 office release supports workforce pathways and training for people facing employment barriers."
+    },
+    {
+      "candidateId": "doris-turner",
+      "name": "Doris Turner",
+      "district": "SD-48",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    },
+    {
+      "candidateId": "frank-lesko",
+      "name": "Frank Lesko",
+      "district": "SD-48",
+      "field": "issues.propertyTaxes",
+      "claim": "His campaign proposes property-tax cuts.",
+      "urls": [
+        "https://www.friendsoffranklesko.com/about.htm"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.friendsoffranklesko.com/about.htm",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign biography expressly calls for property-tax cuts."
+    },
+    {
+      "candidateId": "frank-lesko",
+      "name": "Frank Lesko",
+      "district": "SD-48",
+      "field": "issues.budgetTaxes",
+      "claim": "His campaign prioritizes reducing wasteful spending and improving government efficiency.",
+      "urls": [
+        "https://www.friendsoffranklesko.com/about.htm"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://www.friendsoffranklesko.com/about.htm",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign biography calls for cutting wasteful spending and efficiency/accountability."
+    },
+    {
+      "candidateId": "marsia-geldert-murphey",
+      "name": "Marsia Geldert-Murphey",
+      "district": "SD-56",
+      "field": "issues.healthcare",
+      "claim": "Her campaign supports protecting Medicaid, strengthening the healthcare workforce and expanding access to care.",
+      "urls": [
+        "https://marsieforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://marsieforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage supports Medicaid, the healthcare workforce and access to care."
+    },
+    {
+      "candidateId": "marsia-geldert-murphey",
+      "name": "Marsia Geldert-Murphey",
+      "district": "SD-56",
+      "field": "issues.education",
+      "claim": "Her campaign supports investment in early-childhood care, public schools and school nutrition.",
+      "urls": [
+        "https://marsieforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://marsieforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage supports early childhood, public education and school nutrition."
+    },
+    {
+      "candidateId": "marsia-geldert-murphey",
+      "name": "Marsia Geldert-Murphey",
+      "district": "SD-56",
+      "field": "issues.transit",
+      "claim": "Her campaign supports investment in roads, bridges and other public infrastructure.",
+      "urls": [
+        "https://marsieforillinois.com/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://marsieforillinois.com/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "Campaign homepage calls for investment in roads, bridges and public infrastructure."
+    },
+    {
+      "candidateId": "erica-harriss",
+      "name": "Erica Harriss",
+      "district": "SD-56",
+      "field": "issues.healthcare",
+      "claim": "Called on the state, Aetna and BJC to preserve retirees' access to their doctors and specialty care after announced insurance-network changes.",
+      "urls": [
+        "https://senatorericaharriss.com/senator-harriss-issues-statement-on-aetna-insurance-changes-affecting-state-employees/"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://senatorericaharriss.com/senator-harriss-issues-statement-on-aetna-insurance-changes-affecting-state-employees/",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "October 22 office statement asks the state, Aetna and BJC to preserve retiree access to existing physicians and specialty care."
+    },
+    {
+      "candidateId": "erica-harriss",
+      "name": "Erica Harriss",
+      "district": "SD-56",
+      "field": "endorsements",
+      "claim": "AFSCME Illinois PEOPLE (2026 general election)",
+      "urls": [
+        "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election"
+      ],
+      "status": "verified",
+      "checked": "2026-11-01",
+      "method": [
+        {
+          "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+          "method": "direct-primary-page-text"
+        }
+      ],
+      "support": "The September 19 AFSCME Illinois PEOPLE 2026 general-election recommendations list the candidate in the matching district."
+    }
+  ],
+  "sourceReviews": [
+    {
+      "url": "https://www.emanuelchriswelch.com/recent-press/2026/6/5/welch-house-democrats-deliver-major-investments-in-affordability-economic-security-for-illinois-families",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\cc066de759a4.txt",
+      "sha256": "117f1e82cc8de030cf36ae667ae6b2cfb36050f3bf0f70bfa4cce17322462b0d"
+    },
+    {
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "method": "direct-primary-pdf-extracted-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\43b4d3fad79c.txt",
+      "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310"
+    },
+    {
+      "url": "https://www.ccctu.org/post/november-2026-general-election-endorsements",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\3732c7f71537.txt",
+      "sha256": "d513e18d45187bcf4e6c15e82b11cd6942124f67a01837302a98ed827791c8d0"
+    },
+    {
+      "url": "https://robyngabel.com/issues/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\7a2d58c8a2f7.txt",
+      "sha256": "d1b79aa18ce3aec684da494dd103e12ec4bfe2a1efa4f38db8084a8e6a023bbb"
+    },
+    {
+      "url": "https://robyngabel.com/gabel-led-historic-clean-and-reliable-grid-affordability-act-signed-into-law/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\651d256e12bf.txt",
+      "sha256": "7196bdda9eb7d8d7b180f050134ee7d7b6099e55172729a4b26a0c40fca16f2b"
+    },
+    {
+      "url": "https://afscme31.org/news/afscme-illinois-people-recommendations-2026-general-election",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\2bd763350a22.txt",
+      "sha256": "6b38959ade1a3e9359dc21b6e634e94cd7e221c7efa81697faa2011be9326fb3"
+    },
+    {
+      "url": "https://www.bscactionfund.org/kam-buckner",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true,
+      "limitation": "Live URL returns404; full 2026 questionnaire and explicit endorsement were read from the indexed primary page, crawled two weeks earlier. No withdrawal inferred."
+    },
+    {
+      "url": "https://repsheehan.com/about/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\source-cache\\content-sweep\\d2043bb421f2060d9042.txt",
+      "sha256": "42544d955e406e29341c25de204926c926646985aa5d6f3810311ea340d64fd8"
+    },
+    {
+      "url": "https://repsheehan.com/2025/12/22/rep-sheehan-joins-colleagues-in-letter-to-gov-pritzker-on-his-stated-willingness-to-reform-safe-t-act/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\source-cache\\content-sweep\\d85b12298136d4f0a3f5.txt",
+      "sha256": "0c0946d8177d89a31f265fed442f4ea1ca4c28541b84b57d4a8b0f2dc27bb6ae"
+    },
+    {
+      "url": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400HB5009.html",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://ericaforil47.com/my-priorities/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\15fd143ca3c3.txt",
+      "sha256": "495bcb23332243af3a6520e0d229542a807d8d54fd707b5a2841ab07d90fce08"
+    },
+    {
+      "url": "https://www.robertforillinois.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\4e5f34b7005e.txt",
+      "sha256": "9e9ea58604b4d377fdff2aa363a3523b7f8bf9270be7b8565c3189a4325152a6"
+    },
+    {
+      "url": "https://www.dailyherald.com/20261027/endorsements/endorsement-vrankovich-for-house-district-47/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://www.mariafor52.com/issues/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\b311b9c1f497.txt",
+      "sha256": "544a0c82c45e18ad034ff067eb284586ca9d3b027e65caa53937a1aa3fe949bf"
+    },
+    {
+      "url": "https://repmclaughlin.com/2026/01/27/rep-mclaughlin-restore-local-tax-dollars-stop-the-empty-promises/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://repmclaughlin.com/2026/02/18/mclaughlin-calls-for-8-billion-in-spending-reductions-says-governor-playing-blame-game-on-budget-reality/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\source-cache\\content-sweep\\5918baf0b2acfe81128f.txt",
+      "sha256": "b7440d5e16f546c9a7a0fe797b925f86a8a34e93251ac7781259e7fb6febf5f7"
+    },
+    {
+      "url": "https://repmclaughlin.com/2025/10/30/rep-mclaughlin-slams-latest-energy-bill-illinois-families-cant-afford-any-more-expensive-help/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://repmclaughlin.com/2026/04/24/rep-martin-mclaughlin-stands-up-for-illinois-students-urges-common-sense/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://www.davevella.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\3b526db9f1d0.txt",
+      "sha256": "de37e5ebda142d7a4a5e5bad883392e49c81aa244f39ac3e1de2f186b3dee67c"
+    },
+    {
+      "url": "https://www.ift-aft.org/vote",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\a1dd5039307c.txt",
+      "sha256": "d5aa676f71ce5e5dbe5deb1631dacdfce60564df07f9c0325026f2ea87954a31"
+    },
+    {
+      "url": "https://kathyeaston.com/sleeves-up-plan/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\bb2aebec2872.txt",
+      "sha256": "da42234e051f306a9f1ea5c338becd8ff5b3a6d3a19ad6be712829cd6af4d897"
+    },
+    {
+      "url": "https://illinoisfamilyaction.org/2026/10/ifas-2026-general-election-endorsements-2/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\bc21b370921b.txt",
+      "sha256": "0e14d7f5ff2d71c96bd1501ec9dd5e2e998588ae9f89dd178e9aa2d1737d503b"
+    },
+    {
+      "url": "https://staterepbriel.com/wp-content/uploads/2025/01/010825-Briel-Inauguration-PR.pdf",
+      "checked": "2026-11-01",
+      "method": "direct-primary-pdf-extracted-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\c11b1c946c9b.txt",
+      "sha256": "97307bcfe9aed050ba740ea67c3ac48b59b76e746e77c0386610b01a1ad97f2c"
+    },
+    {
+      "url": "https://electlizbishop.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\30789962ebfc.txt",
+      "sha256": "bb842040bad3c36a8908e83a8a3623219b8a91c00be4782945d1da3af7e8059f"
+    },
+    {
+      "url": "https://afpaction.com/afp-action-endorses-eight-candidates-for-the-illinois-general-assembly/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\4b174badc695.txt",
+      "sha256": "ef14cb8798ad3d695fd403fb16c72687c033f01a1786256a03c123c5e10ff7a9"
+    },
+    {
+      "url": "https://www.sabahaider.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\da5778620547.txt",
+      "sha256": "d7fa6ffcf3e7a0ebc99e1c67fe443c1b5e468e09e1fd31ab68e1d2d333a77201"
+    },
+    {
+      "url": "https://scopaforillinois.com/issues",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\baf6de29ca77.txt",
+      "sha256": "b6f9904db1c90aa297237ae498607dee46b908cd8356c0ba13d5bec608e2e15f"
+    },
+    {
+      "url": "https://www.mccombieforillinois.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\c639881195d4.txt",
+      "sha256": "3c3080ac773e8f731e2364efc6e4efa465d37d249f53019b405687410b91034a"
+    },
+    {
+      "url": "https://ilhousedems.com/2026/02/27/chung-backed-resolution-opposes-extreme-anti-choice-senate-bill/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\2de35d4de834.txt",
+      "sha256": "74523ab1b2a0ccf368967c8b51ba8666208c9d2efb5585ffa657f4ed2c69f91d"
+    },
+    {
+      "url": "https://ilhousedems.com/2026/04/21/chung-bill-protecting-independence-of-media-that-partner-with-public-universities-passes-house/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\652270ed9788.txt",
+      "sha256": "731f300bda605a384b9ce9ea502585355c98955c960a7ab37855cc764a30cf0e"
+    },
+    {
+      "url": "https://ilhousedems.com/2026/01/16/gordon-booth-led-clean-slate-act-signed-into-law-automatically-seals-records-for-certain-offenses-helping-to-remove-barriers/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\d759d9074314.txt",
+      "sha256": "c652ad186ce3aed2f839de7148ca83e90531ef853887083f8edb10cdc33438a3"
+    },
+    {
+      "url": "https://ilhousedems.com/2026/02/18/gordon-booth-reacts-to-governors-budget-address-emphasizes-need-for-responsible-and-compassionate-plan/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\08f4e88e172d.txt",
+      "sha256": "d91021f9cb05804b4536581f1b4f0943bf7a49e47bde65ec436b479323b8665d"
+    },
+    {
+      "url": "https://ilhousedems.com/2026/08/24/gordon-booth-congratulates-peoria-based-healthcare-centers-on-nearly-6-million-in-grant-funding/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\b977580a3a42.txt",
+      "sha256": "8bf0638fa54bfa55633710239ec7c08b6859e90b343b0a8894fe0cb0b404d2fa"
+    },
+    {
+      "url": "https://www.jdhfor97.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\6eef888975a4.txt",
+      "sha256": "48aef1012edc8ea91a97c64e516ac07a9b3fde16ee6ef2fcaad9c2e61b9c44aa"
+    },
+    {
+      "url": "https://www.gabbyforillinois.com/plan",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\d561d8d8c78c.txt",
+      "sha256": "68702fbb82d5ccb1781d5fb0b4ef76a7bcbc4885eb4ca09edf35e3cdd53fba00"
+    },
+    {
+      "url": "https://www.robersonforillinois.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\b2398f9e2ba0.txt",
+      "sha256": "7bf0d20f317bea37ae12a4f20242adea08fb07797aa7c97f1f5b58b52cbf1569"
+    },
+    {
+      "url": "https://repschweizer.com/2024/11/19/schweizer-says-we-need-to-get-back-to-business-and-protect-the-mahomet-aquifer/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\932b41723073.txt",
+      "sha256": "7d2f06c1dea180172d2502caf1ffa7bad849f5b872170cb79f59d9f6154d7fe6"
+    },
+    {
+      "url": "https://repschweizer.com/stop-assisted-suicide-in-illinois/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\425b23b09278.txt",
+      "sha256": "775f609e1fab84226a2967631b255e707147463ea7987852b6e6e699adcb2d06"
+    },
+    {
+      "url": "https://stuartforilrep.com/issues/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\1d0f54576b65.txt",
+      "sha256": "c2f24f5c654eedb8714531aeb6f0e85c05c3e1b7b7b93c3a62a8bf3176b84641"
+    },
+    {
+      "url": "https://stand.org/illinois/our-stories/2026-general-elections-endorsements/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://repschmidt.com/2026/07/27/state-rep-kevin-schmidts-commitment-to-the-114th-district/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://www.hanleyforillinois.com/issues",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\8b639c6a64df.txt",
+      "sha256": "f79f806e7773b022d1e735757598ce9a810336673d8750fd9a96859639332959"
+    },
+    {
+      "url": "https://www.mcadamsforil.com/platform",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\64ed03d7416b.txt",
+      "sha256": "42810399bb1e4a2975d6527aea9b994507cc6d64155860e55ec8bb989462baba"
+    },
+    {
+      "url": "https://senatorlewis.com/a-message-from-senator-seth-lewis-to-the-people-of-the-24th-district/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\38e9778d6afb.txt",
+      "sha256": "4645b4d7dd48fab912a711b3695abecf7ffcb7b15ee16fd89529bead927363c3"
+    },
+    {
+      "url": "https://www.nabeelasyed.com/economy",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\32d2779d4b03.txt",
+      "sha256": "374d5e7bd02aa7b31886991c8cff3f32faf70e8a3d6220f2ce626c11b9ad42a0"
+    },
+    {
+      "url": "https://www.nabeelasyed.com/healthcare",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\add676d207fc.txt",
+      "sha256": "fcc67cf2b20082a7fe7eeeb24ced214d79bf16c2d3d73dc1c806f1e06dedd397"
+    },
+    {
+      "url": "https://www.nabeelasyed.com/environment",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\2289b7656766.txt",
+      "sha256": "498dfd11af018a3f971c3efa206f3ec826bf597dd1b64740c35ea02311f69c88"
+    },
+    {
+      "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=3868&DocTypeID=SB&GAID=18&LegId=167298&SessionID=114",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\b1a5d69df097.txt",
+      "sha256": "79398d158dabb919c30a34dc89770d916e0c5d4b0e045656ca5ceb3c1555ae94"
+    },
+    {
+      "url": "https://ftp.ilga.gov/Legislation/104/BillStatus/HTML/10400SB3783.html",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\5e8789788d29.txt",
+      "sha256": "8054b916bba5aeb9774a0bfb2ee44b7b813f346edc47a38a4fb25867530f76e0"
+    },
+    {
+      "url": "https://www.carinaforsenate.com/issues",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\d510d1ec4b66.txt",
+      "sha256": "5cd8d4cd7cad4c930586ce7891a797b43afad69602decd0c669755f68efe4209"
+    },
+    {
+      "url": "https://adrianejohnsonforil.com/healthcare/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://adrianejohnsonforil.com/education-college-affordability/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://adrianejohnsonforil.com/jobs-the-environment/",
+      "checked": "2026-11-01",
+      "method": "web-indexed-primary-page-full-content",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://www.lakedemwomen.org/2026-endorsed-candidates",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\181e1fb07ab6.txt",
+      "sha256": "414163887dba9e6d603fa4307566ec2e3e07464e697be7b39c9f714de1325cdb"
+    },
+    {
+      "url": "https://micheleforilsenate.com/issues",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\313304a9ccac.txt",
+      "sha256": "bae597b1fc1c4a8e92963ffd719087b050206001c6066667ae5a95c6c070db96"
+    },
+    {
+      "url": "https://www.daniellepenman.com/key-issues",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\d6bb2faf5bcf.txt",
+      "sha256": "4b80f67670331afde6fc3cceb7a505fb4a25393295b82fcf5f4059bffa3e15c4"
+    },
+    {
+      "url": "https://www.senatorhalpin.com/news/press-releases/175-halpin-encourages-local-organizations-to-request-funding-for-pre-apprenticeships",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true
+    },
+    {
+      "url": "https://www.beekmanforsenate.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\11b94f2b5a7c.txt",
+      "sha256": "20f6a3161bf8a138a9f95664f040ad2fdf1aabc37e8012976cebc9b26b1f5470"
+    },
+    {
+      "url": "https://harmonforillinois.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\98b7edfc94fd.txt",
+      "sha256": "cb808729630390dfd894048ce0c5e33e3c869df57f988045e95e031c23a27d43"
+    },
+    {
+      "url": "https://senatorcurran.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\6052f45f5001.txt",
+      "sha256": "9207297ba7d65f12595f1fc3c76a8c4de306284dd48f39fdf00b4f6c62c9f09f"
+    },
+    {
+      "url": "https://www.senatordoristurner.com/news/press-releases/341-turner-secures-strong-investment-to-expand-central-illinois-workforce-training",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\7b7e7fb06eb7.txt",
+      "sha256": "9069e57efbe49c53bfd415d011144c1a673883e2d150b4817cb2921b125ad3b3"
+    },
+    {
+      "url": "https://www.friendsoffranklesko.com/about.htm",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\source-cache\\content-sweep\\8c1848d461cbbe40c6c1.txt",
+      "sha256": "22d2a309142f5835651cb4332521eeaa792f9c3f1da1fabdd1e5bbc804633e9b"
+    },
+    {
+      "url": "https://marsieforillinois.com/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\55afba3206e6.txt",
+      "sha256": "55d1c85b1d90fd7676fa68e24fc855b7ec2ba6e78278c5717179072300b1e7d5"
+    },
+    {
+      "url": "https://senatorericaharriss.com/senator-harriss-issues-statement-on-aetna-insurance-changes-affecting-state-employees/",
+      "checked": "2026-11-01",
+      "method": "direct-primary-page-text",
+      "contentActuallyRead": true,
+      "cache": "audit\\2026-11-01-content-legislature-cache\\96ddf2311cdd.txt",
+      "sha256": "08540f32c1154d11021916d9389353d38eded167c70da27e7f891e9b7d938f57"
+    }
+  ],
+  "finalReconciliation": {
+    "checked": "2026-11-01",
+    "productionClaims": 159,
+    "ledgerClaims": 159,
+    "differences": [],
+    "missing": []
+  }
+}

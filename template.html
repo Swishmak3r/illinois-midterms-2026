@@ -90,7 +90,7 @@
   <main id="research" class="research-section shell">
     <div class="research-heading">
       <div><p class="eyebrow"><span class="small-rule"></span> THE INFORMATION, IN ONE PLACE</p><h2>Explore the election.</h2></div>
-      <div class="research-heading-note">Primary sources linked.<br><a href="#sources">Reviewed October 28, 2026 <span aria-hidden="true">↗</span></a></div>
+      <div class="research-heading-note">Evidence sources linked.<br><a href="#sources">Source dates & coverage <span aria-hidden="true">↗</span></a></div>
     </div>
     <div class="research-nav-wrap">
       <nav class="research-nav" aria-label="Research views">
@@ -110,12 +110,14 @@
       </div>
       <div class="filter-panel" id="filter-panel" hidden>
         <label for="town-select-control">Community<select id="town-select-control" class="filter-select"></select></label>
+        <label for="district-select-control">District or office<select id="district-select-control" class="filter-select" aria-describedby="district-help"></select></label>
+        <p id="district-help" class="filter-explainer">Selecting a district clears the ZIP and other filters. Use your official address lookup to identify your districts.</p>
         <label for="level-select-control">Government level<select id="level-select-control" class="filter-select"><option value="all">All government levels</option><option value="federal">Federal</option><option value="statewide">Statewide offices</option><option value="state_legislature">State legislature</option><option value="local">County & local research</option></select></label>
         <label for="party-select-control">Party<select id="party-select-control" class="filter-select"><option value="all">All parties</option><option value="dem">Democratic</option><option value="gop">Republican</option><option value="ind">Independent & other</option></select></label>
         <label for="pac-select-control">PAC relationships<select id="pac-select-control" class="filter-select"><option value="all">All relationships</option><option value="no-corp">Rejects corporate PACs</option><option value="fairshake">Crypto / Fairshake</option><option value="aipac">AIPAC / UDP</option><option value="jstreet">J Street / progressive groups</option><option value="local150">Operating Engineers / Local 150</option><option value="teachers">Teachers unions</option><option value="seiu-afl">SEIU / AFL-CIO / AFSCME</option><option value="itla">Trial lawyers</option><option value="realtors">Realtors</option><option value="business">Business & agriculture</option><option value="fop-isra">Police / ISRA / Right to Life</option></select></label>
-        <label for="region-select-control">Region<select id="region-select-control" class="filter-select"><option value="all">All Illinois</option><option value="chicago">Chicago</option><option value="suburban_cook">Suburban Cook</option><option value="collar">Collar counties</option><option value="northern">Northern Illinois</option><option value="central">Central & western Illinois</option><option value="southern">Southern Illinois & Metro East</option></select></label>
+        <label for="region-select-control">County<select id="region-select-control" class="filter-select"><option value="all">All counties</option></select></label>
         <label for="racetype-select-control">Race type<select id="racetype-select-control" class="filter-select"><option value="all">All race types</option><option value="open">Open seats</option></select></label>
-        <p class="filter-explainer">Relationship filters use verified mentions, including support, opposition or rejection. Open profiles for evidence. An endorsement is not a donation.</p>
+        <p class="filter-explainer">County filters use documented district overlaps; local offices without confirmed county mapping remain available in the full directory. Relationship filters use sourced mentions, including support, opposition or rejection. Open profiles for evidence. An endorsement is not a donation.</p>
       </div>
     </section>
 
@@ -136,7 +138,7 @@
 
   <footer class="site-footer shell">
     <div class="footer-top"><a href="./" class="footer-brand">Illinois <span>2026</span></a><p>An independent guide to a more informed election.</p><a href="#hero-heading" class="back-top">Back to top <span aria-hidden="true">↑</span></a></div>
-    <div class="footer-bottom"><p>Not an election authority or a certified ballot. Candidate, issue and PAC coverage is selective and linked to primary evidence. Unknown positions and unmatched finance totals are left unavailable. <button type="button" data-tab-btn="guide">Read the methodology.</button></p><p>ZIP geography: <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. Artwork is decorative, not a district map. No location tracking.</p></div>
+    <div class="footer-bottom"><p>Not an election authority or a certified ballot. Roster coverage and research depth differ; county-filed contests and local write-ins are incomplete. Claims link to sources with individual review dates. Unknown positions and unmatched finance totals are left unavailable. <button type="button" data-tab-btn="guide">Read the methodology.</button></p><p>ZIP geography: <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>. District overlaps: <a href="https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer" target="_blank" rel="noopener noreferrer">U.S. Census Bureau TIGERweb</a>, 2026 districts with 2020 ZCTAs. Artwork is decorative, not a district map. No location tracking.</p></div>
   </footer>
   <div id="candidate-modal-backdrop" class="modal-backdrop hidden" aria-hidden="true"></div>
   <div id="app-status" role="status" aria-live="polite" class="sr-only"></div>

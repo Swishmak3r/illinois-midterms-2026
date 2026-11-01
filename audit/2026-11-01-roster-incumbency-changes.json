@@ -1,0 +1,2074 @@
+{
+  "checked": "2026-11-01",
+  "method": "Official ILGA 104th General Assembly current-member rosters retrieved through search index; live pages returned HTTP 403. Former members excluded.",
+  "openSeatDistricts": [
+    "HD-105",
+    "HD-12",
+    "HD-13",
+    "HD-34",
+    "HD-40",
+    "HD-47",
+    "HD-51",
+    "HD-8",
+    "HD-84",
+    "HD-94",
+    "SD-18",
+    "SD-27",
+    "SD-33",
+    "SD-42",
+    "SD-9"
+  ],
+  "changes": [
+    {
+      "district": "HD-1",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-1",
+      "candidateId": "aaron-m-ortiz",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-2",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-2",
+      "candidateId": "elizabeth-lisa-hernandez",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-2",
+      "candidateId": "laura-hruska",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-3",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-3",
+      "candidateId": "eva-dina-delgado",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-4",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-4",
+      "candidateId": "lilian-jimenez",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-5",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-5",
+      "candidateId": "kimberly-neely-dubuclet",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-6",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-6",
+      "candidateId": "sonya-marie-harper",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-8",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-8",
+      "candidateId": "shantel-franklin",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-9",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-9",
+      "candidateId": "yolonda-morris",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-10",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-10",
+      "candidateId": "jawaharial-omar-williams",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-11",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-11",
+      "candidateId": "ann-m-williams",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-12",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-12",
+      "candidateId": "paul-kendrick",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-12",
+      "candidateId": "justin-j-kumar",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-13",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-13",
+      "candidateId": "demerike-demi-palecek",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-13",
+      "candidateId": "terry-nguyen-le",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-14",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-14",
+      "candidateId": "kelly-m-cassidy",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-15",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-15",
+      "candidateId": "michael-j-kelly",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-16",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-16",
+      "candidateId": "kevin-john-olickal",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-17",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-17",
+      "candidateId": "jennifer-gong-gershowitz",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-17",
+      "candidateId": "james-jim-geldermann",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-19",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-19",
+      "candidateId": "lindsey-lapointe",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-19",
+      "candidateId": "john-jz-zimmers",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-20",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-20",
+      "candidateId": "brad-stephens",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-21",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-21",
+      "candidateId": "abdelnasser-rashid",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-21",
+      "candidateId": "eric-su",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-22",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-22",
+      "candidateId": "angie-guerrero-cuellar",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-23",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-23",
+      "candidateId": "edgar-gonzalez-jr",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-24",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-24",
+      "candidateId": "theresa-mah",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-25",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-25",
+      "candidateId": "curtis-j-tarver-ii",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-25",
+      "candidateId": "antoinette-jewel-simmons",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-27",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-27",
+      "candidateId": "justin-q-slaughter",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-28",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-28",
+      "candidateId": "robert-bob-rita",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-29",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-29",
+      "candidateId": "thaddeus-jones",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-30",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-30",
+      "candidateId": "william-will-davis",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-31",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-31",
+      "candidateId": "michael-mike-crawford",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-32",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-32",
+      "candidateId": "lisa-j-davis",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-33",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-33",
+      "candidateId": "marcus-c-evans-jr",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-34",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-34",
+      "candidateId": "cleopatra-cleo-cowley",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-35",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-35",
+      "candidateId": "mary-gill",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-35",
+      "candidateId": "david-a-dewar",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-36",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-36",
+      "candidateId": "rick-ryan",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-36",
+      "candidateId": "david-sheppard",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-38",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-38",
+      "candidateId": "debbie-meyers-martin",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-39",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-39",
+      "candidateId": "will-guzzardi",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-39",
+      "candidateId": "cesar-a-guillen",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-40",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-40",
+      "candidateId": "miguel-alvelo-rivera",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-42",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-42",
+      "candidateId": "margaret-a-delarosa",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-42",
+      "candidateId": "stephanie-w-trussell",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-43",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-43",
+      "candidateId": "anna-moeller",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-44",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-44",
+      "candidateId": "fred-crespo",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-44",
+      "candidateId": "ralph-black",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-45",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-45",
+      "candidateId": "martha-marti-deuter",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-45",
+      "candidateId": "gina-parrilli",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-46",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-46",
+      "candidateId": "diane-blair-sherlock",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-46",
+      "candidateId": "pedro-jovany-mendoza",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-47",
+      "candidateId": "erica-bray-parker",
+      "field": "incumbentStatus",
+      "before": "Open Seat Nominee",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-47",
+      "candidateId": "robert-vrankovich",
+      "field": "incumbentStatus",
+      "before": "Open Seat Nominee",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-48",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-48",
+      "candidateId": "amanda-zahorak",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-48",
+      "candidateId": "jennifer-sanalitro",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-49",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-49",
+      "candidateId": "maura-hirschauer",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-49",
+      "candidateId": "john-paul-augustynowicz",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-50",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-50",
+      "candidateId": "barbara-hernandez",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-51",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-51",
+      "candidateId": "jenny-levin",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-51",
+      "candidateId": "lori-smith",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-53",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-53",
+      "candidateId": "nicolle-grasse",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-53",
+      "candidateId": "elizabeth-bauer",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-54",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-54",
+      "candidateId": "mary-beth-canty",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-54",
+      "candidateId": "joseph-m-tracy",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-55",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-55",
+      "candidateId": "justin-cochran",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-55",
+      "candidateId": "joseph-johnson",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-56",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-56",
+      "candidateId": "michelle-mussman",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-56",
+      "candidateId": "rhys-read",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-57",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-57",
+      "candidateId": "tracy-katz-muhl",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-57",
+      "candidateId": "daniel-t-behr",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-58",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-58",
+      "candidateId": "bob-morgan",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-59",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-59",
+      "candidateId": "daniel-didech",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-60",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-60",
+      "candidateId": "rita-mayfield",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-61",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-61",
+      "candidateId": "joyce-mason",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-61",
+      "candidateId": "tina-marie-durrant",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-62",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-62",
+      "candidateId": "laura-faver-dias",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-63",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-63",
+      "candidateId": "steven-reick",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-64",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-64",
+      "candidateId": "aj-johnson",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-64",
+      "candidateId": "tom-weber",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-65",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-65",
+      "candidateId": "ricky-rivard",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-65",
+      "candidateId": "dan-ugaste",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-66",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-66",
+      "candidateId": "suzanne-ness",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-66",
+      "candidateId": "laurie-parman",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-67",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-67",
+      "candidateId": "maurice-a-west-ii",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-69",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-69",
+      "candidateId": "peter-janko",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-69",
+      "candidateId": "joe-c-sosnowski",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-70",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-70",
+      "candidateId": "veronica-garcia-martinez",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-70",
+      "candidateId": "jeff-keicher",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-71",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-71",
+      "candidateId": "kermit-thomas",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-71",
+      "candidateId": "dan-swanson",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-72",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-72",
+      "candidateId": "gregg-johnson",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-73",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-73",
+      "candidateId": "nicole-dopler",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-73",
+      "candidateId": "ryan-spain",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-74",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-74",
+      "candidateId": "nolan-kemp",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-74",
+      "candidateId": "bradley-j-fritts",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-75",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-75",
+      "candidateId": "caroline-mccree",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-75",
+      "candidateId": "jed-davis",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-77",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-77",
+      "candidateId": "norma-hernandez",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-77",
+      "candidateId": "anthony-airdo",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-78",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-78",
+      "candidateId": "camille-lilly",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-78",
+      "candidateId": "julian-jahleel-randolph-jemison",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-79",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-79",
+      "candidateId": "jackie-haas",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-80",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-80",
+      "candidateId": "anthony-deluca",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-80",
+      "candidateId": "adam-m-beaty",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-81",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-81",
+      "candidateId": "anne-stava",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-81",
+      "candidateId": "laura-hois",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-82",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-82",
+      "candidateId": "nicole-la-ha",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-83",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-83",
+      "candidateId": "matt-hanson",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-83",
+      "candidateId": "jesse-rodriguez",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-84",
+      "candidateId": "saba-haider",
+      "field": "incumbentStatus",
+      "before": "Open-seat nominee",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-84",
+      "candidateId": "brian-scopa",
+      "field": "incumbentStatus",
+      "before": "Open-seat nominee",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-86",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-86",
+      "candidateId": "lawrence-larry-m-walsh-jr",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-87",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-87",
+      "candidateId": "william-e-hauter",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-88",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-88",
+      "candidateId": "regan-deering",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-90",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-90",
+      "candidateId": "john-m-cabello",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-93",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-93",
+      "candidateId": "travis-weaver",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-94",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-94",
+      "candidateId": "joshua-s-higgins",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-95",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-95",
+      "candidateId": "mike-coffey",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-96",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-96",
+      "candidateId": "sue-scherer",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-99",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-99",
+      "candidateId": "kyle-a-moore",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-100",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-100",
+      "candidateId": "christopher-c-d-davidsmeyer",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-101",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-101",
+      "candidateId": "douglas-fagan",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-101",
+      "candidateId": "chris-g-miller",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-102",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-102",
+      "candidateId": "adam-m-niemerg",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-103",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-103",
+      "candidateId": "carol-ammons",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-105",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "HD-105",
+      "candidateId": "tim-ruestman",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "HD-106",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-106",
+      "candidateId": "jason-r-bunting",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-107",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-107",
+      "candidateId": "brad-halbrook",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-108",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-108",
+      "candidateId": "wayne-a-rosenthal",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-109",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-109",
+      "candidateId": "charlie-meier",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-110",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-110",
+      "candidateId": "blaine-wilhour",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-111",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-111",
+      "candidateId": "rosetta-rosie-brown",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-111",
+      "candidateId": "amy-elik",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-113",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-113",
+      "candidateId": "jay-c-hoffman",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-115",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-115",
+      "candidateId": "david-h-friess",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-116",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-116",
+      "candidateId": "dave-severin",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-117",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-117",
+      "candidateId": "patrick-windhorst",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "HD-118",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "HD-118",
+      "candidateId": "homer-chip-markel",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "HD-118",
+      "candidateId": "scott-doody",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-2",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-2",
+      "candidateId": "omar-aquino",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-3",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-3",
+      "candidateId": "mattie-hunter",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-5",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-5",
+      "candidateId": "lakesia-collins",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-6",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-6",
+      "candidateId": "sara-feigenholtz",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-9",
+      "candidateId": "patrick-hanley",
+      "field": "incumbentStatus",
+      "before": "Open-seat nominee",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-9",
+      "candidateId": "tom-lally",
+      "field": "incumbentStatus",
+      "before": "Open-seat nominee",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-11",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-11",
+      "candidateId": "mike-porfirio",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-12",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-12",
+      "candidateId": "celina-villanueva",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-14",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-14",
+      "candidateId": "emil-jones-iii",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-14",
+      "candidateId": "brian-skala",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-15",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-15",
+      "candidateId": "napoleon-b-harris-iii",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-17",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-17",
+      "candidateId": "elgie-r-sims-jr",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-17",
+      "candidateId": "frederick-l-walls",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-18",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "SD-18",
+      "candidateId": "frances-ann-hurley",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-18",
+      "candidateId": "christine-mcgovern",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-20",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-20",
+      "candidateId": "graciela-guzman",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-23",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-23",
+      "candidateId": "suzanne-suzy-glowiak-hilton",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-23",
+      "candidateId": "linda-z-polacek",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-27",
+      "field": "isOpenSeat",
+      "before": false,
+      "after": true
+    },
+    {
+      "district": "SD-27",
+      "candidateId": "carina-santa-maria",
+      "field": "incumbentStatus",
+      "before": "Challenger",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-27",
+      "candidateId": "david-mathis",
+      "field": "incumbentStatus",
+      "before": "Challenger",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-29",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-29",
+      "candidateId": "julie-a-morrison",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-29",
+      "candidateId": "kate-mcgrath",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-32",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-32",
+      "candidateId": "karen-battaglia",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-32",
+      "candidateId": "craig-wilcox",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-33",
+      "field": "isOpenSeat",
+      "before": false,
+      "after": true
+    },
+    {
+      "district": "SD-33",
+      "candidateId": "michele-clark",
+      "field": "incumbentStatus",
+      "before": "Challenger",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-33",
+      "candidateId": "danielle-penman",
+      "field": "incumbentStatus",
+      "before": "Challenger",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-35",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-35",
+      "candidateId": "sarah-b-mertens",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-35",
+      "candidateId": "dave-syverson",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-38",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-38",
+      "candidateId": "ernie-r-marcelain",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-38",
+      "candidateId": "sue-rezin",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-42",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": true
+    },
+    {
+      "district": "SD-42",
+      "candidateId": "jared-ploger",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-42",
+      "candidateId": "edgardo-eddie-perez",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Open-seat candidate"
+    },
+    {
+      "district": "SD-44",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-44",
+      "candidateId": "sally-j-turner",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-45",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-45",
+      "candidateId": "joseph-h-joe-berning",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    },
+    {
+      "district": "SD-45",
+      "candidateId": "andrew-s-chesney",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-47",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-47",
+      "candidateId": "neil-anderson",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-50",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-50",
+      "candidateId": "jil-tracy",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-51",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-51",
+      "candidateId": "chapin-rose",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-53",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-53",
+      "candidateId": "chris-balkema",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-54",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-54",
+      "candidateId": "steve-mcclure",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-57",
+      "field": "isOpenSeat",
+      "before": null,
+      "after": false
+    },
+    {
+      "district": "SD-57",
+      "candidateId": "christopher-belt",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Incumbent"
+    },
+    {
+      "district": "SD-57",
+      "candidateId": "daniel-rhyne",
+      "field": "incumbentStatus",
+      "before": "Not independently verified",
+      "after": "Challenger"
+    }
+  ]
+}

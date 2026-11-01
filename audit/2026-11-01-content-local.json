@@ -1,0 +1,2947 @@
+{
+  "checked": "2026-11-01",
+  "scope": "Every retained nonempty local candidate issue statement and individual endorsement as inventoried during the Nov 1 repair. Production ownership remains with local_audit; this is a source-review ledger, not production edits.",
+  "candidateCount": 29,
+  "claimCount": 44,
+  "issueClaims": 28,
+  "endorsementClaims": 16,
+  "counts": {
+    "verified": 41,
+    "supported-with-qualification": 1,
+    "contradicted": 2,
+    "inaccessible": 0
+  },
+  "claims": [
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports holding the county property-tax levy flat.",
+      "status": "supported-with-qualification",
+      "urls": [
+        "https://tonipreckwinkle.org/taxes/"
+      ],
+      "support": "The campaign taxes page highlights a past record of no county property-tax increases and a recent budget without new taxes. It does not expressly pledge a future flat levy.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "recommendation": "Replace with: Campaign highlights her record of not raising county property taxes. Avoid converting a claimed historical record into an explicit future flat-levy pledge.",
+      "archivedSources": [
+        {
+          "url": "https://tonipreckwinkle.org/taxes/",
+          "sha256": "8f94a1fbdea632a07a14103b351a1e9ff73c5c605df0397cbeb0cf2f8cc3d00c",
+          "text": "audit\\source-cache\\content-sweep\\59162185257834e8b8f3.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "revised",
+      "revisedClaim": "Her campaign highlights a claimed record of not raising county property taxes. This is a campaign description of her record."
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "issues.migrantBudgets",
+      "claim": "Campaign calls for abolishing ICE and keeping county services available regardless of immigration status.",
+      "status": "verified",
+      "urls": [
+        "https://tonipreckwinkle.org/ice/"
+      ],
+      "support": "The campaign explicitly calls for abolishing ICE and describes county services remaining accessible regardless of immigration status.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://tonipreckwinkle.org/ice/",
+          "sha256": "a97bdb1e04cd7b74311517d10fabc481b367d9c8594496a79200ed429cc687f8",
+          "text": "audit\\source-cache\\content-sweep\\4782312abd6d561f3831.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "michael-murphy-cook",
+      "candidate": "Michael Murphy",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign proposes a property-tax cap of 1% of a property purchase price. This is a proposal, not current law.",
+      "status": "verified",
+      "urls": [
+        "https://go-murphy.com/issues/"
+      ],
+      "support": "The campaign issue index proposes property taxes at one percent of purchase price.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://go-murphy.com/issues/",
+          "sha256": "8ec93246e73cc5780d7d9a8550b5a5f0316b1ef406c63d8767feefd21d3cfcb1",
+          "text": "audit\\source-cache\\content-sweep\\885ca0051a65c649e0c8.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "candidate": "Pat Hynes",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes accurate property records and assessments, and proposes a public-facing economic-development department.",
+      "status": "verified",
+      "urls": [
+        "https://www.assessorhynes.com/issues"
+      ],
+      "support": "The campaign asks for accurate taxable-property records and proposes a public-facing Department of Economic Development.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.assessorhynes.com/issues",
+          "sha256": "60a08044251f240921f1a666933ea86d3d7774457aa6b36c5375918dbfcf2f70",
+          "text": "audit\\source-cache\\content-sweep\\609cc85d7e8a47318cbb.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "candidate": "Pat Hynes",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "nico-tsatsoulis",
+      "candidate": "Nico Tsatsoulis",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign asks Illinois lawmakers to cap property taxes at 1% of purchase price and advocates using actual sale values in assessments.",
+      "status": "verified",
+      "urls": [
+        "https://nicotheassessor.com/"
+      ],
+      "support": "The candidate asks state legislators for a one-percent purchase-value tax cap and advocates transaction-based assessments.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://nicotheassessor.com/",
+          "sha256": "655437052807847511df8817fd4f5d4b62494acc86f28d9ae72eec4fd2c8e3d0",
+          "text": "audit\\source-cache\\content-sweep\\68ca248750915696e361.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "tom-dart",
+      "candidate": "Thomas Dart",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "brad-sandefur",
+      "candidate": "Brad Sandefur",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports major changes to the SAFE-T Act, stronger safeguards concerning repeat offenders, and expanded mental-health diversion and treatment.",
+      "status": "verified",
+      "urls": [
+        "https://sandefurforsheriff.org/"
+      ],
+      "support": "The campaign plan supports changes to pretrial law, repeat-offender safeguards, psychiatric care and diversion or residential addiction treatment.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://sandefurforsheriff.org/",
+          "sha256": "58cec65147c13bbfe99ca5f2d5532dd7a12a32d367a07649a448202c2021a1ce",
+          "text": "audit\\source-cache\\content-sweep\\88778373b4665b496937.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "candidate": "Monica Gordon",
+      "field": "issues.electionAdministration",
+      "claim": "Campaign supports modernizing records and services, accessible elections, and public performance reporting.",
+      "status": "verified",
+      "urls": [
+        "https://monicaforcookcounty.com/"
+      ],
+      "support": "The campaign principles call for modernized processing and records, accessible elections, and regular performance reporting.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://monicaforcookcounty.com/",
+          "sha256": "485bbce37f96e09335a3981eb9d02ee81160c914c7662c59fa196d700031ee62",
+          "text": "audit\\source-cache\\content-sweep\\335c2383189e62d18285.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "candidate": "Monica Gordon",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "candidate": "Maria Pappas",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports public access to information about local-government spending and debt.",
+      "status": "verified",
+      "urls": [
+        "https://www.mariapappas.net/"
+      ],
+      "support": "The campaign says taxpayers should know local-government spending and debt, describing annual disclosure of government financial data.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.mariapappas.net/",
+          "sha256": "483b2d1ca9080b6447f72cc172610e3a52db2038d750f857d9774ba0415efaa1",
+          "text": "audit\\source-cache\\content-sweep\\eb0841beda8f5c9071c5.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "candidate": "Maria Pappas",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "candidate": "Elizabeth 'Liz' Nicholson",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes a fair opportunity for every property owner to appeal an assessment.",
+      "status": "verified",
+      "urls": [
+        "https://www.lizfor2.com/"
+      ],
+      "support": "The campaign promises each property owner a fair opportunity to appeal taxes through the Board of Review.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.lizfor2.com/",
+          "sha256": "20da578b793fbeee2c018bd9a82004fa1edc66b0e97234a26df3986330c2e973",
+          "text": "audit\\source-cache\\content-sweep\\f03b4e35c8e0080e4bf7.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "candidate": "Elizabeth 'Liz' Nicholson",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports violence prevention, professional law enforcement, mental-health services and rehabilitation to reduce repeat offenses.",
+      "status": "verified",
+      "urls": [
+        "https://elyseforcookcounty.com/priorities/"
+      ],
+      "support": "The priorities page identifies prevention through youth and mental-health support, professional enforcement and rehabilitation.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://elyseforcookcounty.com/priorities/",
+          "sha256": "c148faa2a701a77d96f84f845732478ef3e6b5dd0971f35b61129b2165241ab8",
+          "text": "audit\\source-cache\\content-sweep\\edb077ef7bde280b5abd.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "issues.leadWaterFlood",
+      "claim": "Campaign supports expanding green infrastructure and forest-preserve stewardship to improve flood resilience.",
+      "status": "verified",
+      "urls": [
+        "https://elyseforcookcounty.com/priorities/"
+      ],
+      "support": "The campaign connects sustainable spaces with reduced flooding and proposes forest-preserve stewardship and wider green infrastructure.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://elyseforcookcounty.com/priorities/",
+          "sha256": "c148faa2a701a77d96f84f845732478ef3e6b5dd0971f35b61129b2165241ab8",
+          "text": "audit\\source-cache\\content-sweep\\edb077ef7bde280b5abd.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes property-tax fairness and reducing the cost of living.",
+      "status": "verified",
+      "urls": [
+        "https://drakefor10.com/"
+      ],
+      "support": "The campaign homepage lists property-tax fairness and lower living costs as priorities.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://drakefor10.com/",
+          "sha256": "80637d406b2c42e8e182615ddbc7af0f04c05aaa463d1405315abfdef9606fa3",
+          "text": "audit\\source-cache\\content-sweep\\246868dd91468419cbbf.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign lists restorative justice as a priority.",
+      "status": "verified",
+      "urls": [
+        "https://drakefor10.com/"
+      ],
+      "support": "The campaign homepage explicitly lists restorative justice among its priorities.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://drakefor10.com/",
+          "sha256": "80637d406b2c42e8e182615ddbc7af0f04c05aaa463d1405315abfdef9606fa3",
+          "text": "audit\\source-cache\\content-sweep\\246868dd91468419cbbf.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports helping homeowners with property-tax appeals.",
+      "status": "verified",
+      "urls": [
+        "https://mirandaforcookcounty.org/policy-priorities/"
+      ],
+      "support": "The campaign priorities include assistance with property-tax appeals for homeowners.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://mirandaforcookcounty.org/policy-priorities/",
+          "sha256": "890d226928408164e2b92e211fa257b20ddb4c9f940c66e3a83a3e2f363d0308",
+          "text": "audit\\source-cache\\content-sweep\\992ee3ef4c0e536f3715.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports funding law enforcement and public-safety initiatives.",
+      "status": "verified",
+      "urls": [
+        "https://mirandaforcookcounty.org/policy-priorities/"
+      ],
+      "support": "The campaign priorities call for funding law enforcement and public-safety initiatives.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://mirandaforcookcounty.org/policy-priorities/",
+          "sha256": "890d226928408164e2b92e211fa257b20ddb4c9f940c66e3a83a3e2f363d0308",
+          "text": "audit\\source-cache\\content-sweep\\992ee3ef4c0e536f3715.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "candidate": "Gary Grasso",
+      "field": "issues.assessmentBurden",
+      "claim": "His campaign proposes abating the county share of property taxes, freezing or reducing the county gas tax, and auditing county offices and departments.",
+      "status": "verified",
+      "urls": [
+        "https://garyfordupage.org/policies/"
+      ],
+      "support": "The plan proposes county property-tax abatement, freezing or reducing county gasoline tax, and auditing every county department.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://garyfordupage.org/policies/",
+          "sha256": "7abbb427753f14d705179ccebbd06a35d1b18448909dd042b87bf3285e1f05f5",
+          "text": "audit\\source-cache\\content-sweep\\30f17b6337e4d3f88b78.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "candidate": "Gary Grasso",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign proposes shared patrol coverage between the sheriff and municipalities to improve response times.",
+      "status": "verified",
+      "urls": [
+        "https://garyfordupage.org/policies/"
+      ],
+      "support": "The campaign proposes shared sheriff and municipal patrol coverage to improve response times.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://garyfordupage.org/policies/",
+          "sha256": "7abbb427753f14d705179ccebbd06a35d1b18448909dd042b87bf3285e1f05f5",
+          "text": "audit\\source-cache\\content-sweep\\30f17b6337e4d3f88b78.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "sandy-hart",
+      "candidate": "Sandy Hart",
+      "field": "issues.assessmentBurden",
+      "claim": "Her campaign emphasizes safeguarding county investments and public funds, oversight of tax administration, and transparent financial reporting.",
+      "status": "verified",
+      "urls": [
+        "https://sandyhart.com/"
+      ],
+      "support": "The candidacy announcement emphasizes investment management, safeguarding funds, tax-system integrity and transparent financial reporting.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://sandyhart.com/",
+          "sha256": "68aa60ef0a87818ace6483a65d3071c782d2739ea501730ca955eebf41883f93",
+          "text": "audit\\source-cache\\content-sweep\\b557a0f45d77dfc4ab52.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "roman-buchberger",
+      "candidate": "Roman Buchberger",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign calls for stronger staffing and recruitment, changes to jail scheduling, and more outreach in schools and neighborhoods.",
+      "status": "verified",
+      "urls": [
+        "https://www.romanforlakecounty.com/issues"
+      ],
+      "support": "The issue page supports rebuilding staffing, changing jail scheduling and engagement in schools and underserved neighborhoods.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.romanforlakecounty.com/issues",
+          "sha256": "e3757b69f866a6ba234370e198cc354d199ace77f9f2630ea787703742afab87",
+          "text": "audit\\source-cache\\content-sweep\\1aa027d8121ec3c7eacf.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "michelle-stiff",
+      "candidate": "Michelle Stiff",
+      "field": "issues.assessmentBurden",
+      "claim": "Her campaign pledges fiscal discipline and more efficient county administration.",
+      "status": "verified",
+      "urls": [
+        "https://michellestiff4countyclerk.com/"
+      ],
+      "support": "The campaign explicitly promises fiscal discipline, saving taxpayer money and more efficient administration.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://michellestiff4countyclerk.com/",
+          "sha256": "1632dac3b9ea3264a647fcde59f583a6a0e119c58733f895a341b29215b9180d",
+          "text": "audit\\source-cache\\content-sweep\\e6c839cd230e6de9d0ca.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "patrick-jones",
+      "candidate": "Patrick Jones",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign proposes jail trade programs to reduce recidivism, a police and correctional academy, and a neighborhood policing unit.",
+      "status": "verified",
+      "urls": [
+        "https://www.patrickjonesforsheriff.com/about"
+      ],
+      "support": "The campaign vision proposes jail vocational programs, a police/corrections academy and a neighborhood policing unit.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.patrickjonesforsheriff.com/about",
+          "sha256": "f7c77881a50480f9a9aee29093a4857b6c9d3b9e891bfff05190973fdbcd07e2",
+          "text": "audit\\source-cache\\content-sweep\\8bac99b78743305b0ada.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "james-reilly",
+      "candidate": "James \"Jim\" Reilly",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign emphasizes community policing and rebuilding public trust in the sheriff's office.",
+      "status": "verified",
+      "urls": [
+        "https://reillyforsheriff.com/"
+      ],
+      "support": "The campaign homepage emphasizes community policing and restoring trust in the sheriff office.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://reillyforsheriff.com/",
+          "sha256": "e9c59f335cea803f95183776febdf4f7d5922e6ea7f6504a22d5590fa0046d4c",
+          "text": "audit\\source-cache\\content-sweep\\c634649e7559355e1dc7.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "carmen-maurella",
+      "candidate": "Carmen Maurella III",
+      "field": "issues.assessmentBurden",
+      "claim": "His campaign emphasizes financial accountability, modernization, and fiscal responsibility.",
+      "status": "verified",
+      "urls": [
+        "https://www.electmaurella.com/"
+      ],
+      "support": "The campaign lists accountability, information and modernization as goals and describes a commitment to fiscal responsibility.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.electmaurella.com/",
+          "sha256": "5d8c2ad2cedddf1baf56409c1b4430c8d03cfa5b09f056b59d0d848455f2d0b2",
+          "text": "audit\\source-cache\\content-sweep\\4da697b966471a117e0d.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "theresa-rouse",
+      "candidate": "Theresa Rouse",
+      "field": "issues.education",
+      "claim": "Her campaign proposes shared services for smaller school districts and trauma-informed student support, including arts, movement and social-emotional learning.",
+      "status": "verified",
+      "urls": [
+        "https://www.rouse4roe.com/"
+      ],
+      "support": "The campaign proposes shared-service consortia for small districts and trauma-informed learning, arts, movement and social-emotional supports.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.rouse4roe.com/",
+          "sha256": "871e56dba7936c49060ebed791012a2d3bf0554c5374c7c7cfe737b4c0572693",
+          "text": "audit\\source-cache\\content-sweep\\90c12729db0fff7611e8.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "margaret-peggy-oconnell",
+      "candidate": "Margaret 'Peggy' O'Connell",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The Illinois AFL-CIO 2026 general-election PDF expressly names Margaret Peggy O’Connell for Third District Appellate Court.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310",
+          "text": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "amy-christiansen",
+      "candidate": "Amy Christiansen",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "contradicted",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The cited one-page Illinois AFL-CIO PDF has only Judith Rice and Margaret O’Connell in its Judicial section. It does not contain this candidate; the evidence note falsely describes its contents. This does not prove no endorsement exists elsewhere.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "recommendation": "Remove this endorsement and its evidence note unless a separate current endorsing-organization source can establish it. Official-domain searches did not locate such a source.",
+      "scope": "The contradiction is the attached source attribution, not proof of the negative proposition that the organization never endorsed the candidate.",
+      "archivedSources": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310",
+          "text": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "removed"
+    },
+    {
+      "candidateId": "sonni-choi-williams",
+      "candidate": "Sonni Choi Williams",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "contradicted",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The cited one-page Illinois AFL-CIO PDF has only Judith Rice and Margaret O’Connell in its Judicial section. It does not contain this candidate; the evidence note falsely describes its contents. This does not prove no endorsement exists elsewhere.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "recommendation": "Remove this endorsement and its evidence note unless a separate current endorsing-organization source can establish it. Official-domain searches did not locate such a source.",
+      "scope": "The contradiction is the attached source attribution, not proof of the negative proposition that the organization never endorsed the candidate.",
+      "archivedSources": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310",
+          "text": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "removed"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "candidate": "Dustin D. Heuerman",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign emphasizes collaboration with community partners, transparency, staff training and proactive gun-violence prevention.",
+      "status": "verified",
+      "urls": [
+        "https://www.sheriffdustin.com/accomplishments"
+      ],
+      "support": "The campaign accomplishments page highlights community collaboration, transparency, staff training and prevention-oriented gun-crime enforcement.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.sheriffdustin.com/accomplishments",
+          "sha256": "22ef31959fc973d774cad0764cf88a3d07973877b46c2a450f073fc7dd340dc7",
+          "text": "audit\\source-cache\\content-sweep\\8abe64ab92b4b58ed0f4.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "candidate": "Dustin D. Heuerman",
+      "field": "endorsements[0]",
+      "claim": "LGBTQ+ Victory Fund (2026)",
+      "status": "verified",
+      "urls": [
+        "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/"
+      ],
+      "support": "The organization February 26, 2026 announcement names Dustin Heuerman for Champaign County Sheriff in its 2026 incumbent slate.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/",
+          "sha256": "a41972d35eadbb45b18ad0d62493488f198a621741814583dbd4e44da24ba786",
+          "text": "audit\\source-cache\\content-sweep\\2efe929aa79f83d2dca8.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "joshua-crockett",
+      "candidate": "Joshua Crockett",
+      "field": "issues.electionAdministration",
+      "claim": "His campaign prioritizes transparent, accountable administration of the clerk’s office and service to residents across party affiliations.",
+      "status": "verified",
+      "urls": [
+        "https://joshuacrockett.com/"
+      ],
+      "support": "The campaign promises transparency and accountability and says the clerk office should serve people across party affiliations.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://joshuacrockett.com/",
+          "sha256": "577ee64ee1323519d28151e57f8fce8d16dfc08eb688db06a7112d874b99abdc",
+          "text": "audit\\source-cache\\content-sweep\\05f33260bf156d6850e2.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "maggie-mcgrath-crouch",
+      "candidate": "Maggie (McGrath) Crouch",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "candidate": "Marcus Herbert",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign calls for a transparent, responsive sheriff’s office, community-oriented policing and collaboration with other agencies.",
+      "status": "verified",
+      "urls": [
+        "https://herbertforsheriff.com/about-marcus/"
+      ],
+      "support": "The campaign biography describes interagency collaboration and community-oriented policing, and a vision of transparency and responsiveness.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://herbertforsheriff.com/about-marcus/",
+          "sha256": "619d6d308a9d0050cf39ce44cbb8727c360c4212c0d1979075f448ee28eb86ab",
+          "text": "audit\\source-cache\\content-sweep\\18607a60d49eae4c0b09.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "candidate": "Marcus Herbert",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "jamie-m-shoemaker",
+      "candidate": "Jamie M. Shoemaker",
+      "field": "issues.localPublicSafety",
+      "claim": "Her campaign emphasizes mental-health crisis intervention and connecting people to community support services.",
+      "status": "verified",
+      "urls": [
+        "https://www.shoemakerforsheriff.com/"
+      ],
+      "support": "The campaign homepage emphasizes mental-health crisis intervention and connecting residents with community resources through its account of her work.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.shoemakerforsheriff.com/",
+          "sha256": "36eb7b1e56a48308924ac4b626868d6d28e1fae98404729cc9ba49e7302648fe",
+          "text": "audit\\source-cache\\content-sweep\\005ebfd4f12e07510c3c.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "nick-camlin",
+      "candidate": "Nick Camlin",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    }
+  ],
+  "reconciliation": {
+    "checked": "2026-11-01",
+    "retained": 41,
+    "revised": 1,
+    "removed": 2,
+    "currentClaimCount": 42
+  },
+  "historicalClaims": [
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports holding the county property-tax levy flat.",
+      "status": "supported-with-qualification",
+      "urls": [
+        "https://tonipreckwinkle.org/taxes/"
+      ],
+      "support": "The campaign taxes page highlights a past record of no county property-tax increases and a recent budget without new taxes. It does not expressly pledge a future flat levy.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "recommendation": "Replace with: Campaign highlights her record of not raising county property taxes. Avoid converting a claimed historical record into an explicit future flat-levy pledge.",
+      "archivedSources": [
+        {
+          "url": "https://tonipreckwinkle.org/taxes/",
+          "sha256": "8f94a1fbdea632a07a14103b351a1e9ff73c5c605df0397cbeb0cf2f8cc3d00c",
+          "text": "audit\\source-cache\\content-sweep\\59162185257834e8b8f3.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "revised",
+      "revisedClaim": "Her campaign highlights a claimed record of not raising county property taxes. This is a campaign description of her record."
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "issues.migrantBudgets",
+      "claim": "Campaign calls for abolishing ICE and keeping county services available regardless of immigration status.",
+      "status": "verified",
+      "urls": [
+        "https://tonipreckwinkle.org/ice/"
+      ],
+      "support": "The campaign explicitly calls for abolishing ICE and describes county services remaining accessible regardless of immigration status.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://tonipreckwinkle.org/ice/",
+          "sha256": "a97bdb1e04cd7b74311517d10fabc481b367d9c8594496a79200ed429cc687f8",
+          "text": "audit\\source-cache\\content-sweep\\4782312abd6d561f3831.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "michael-murphy-cook",
+      "candidate": "Michael Murphy",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign proposes a property-tax cap of 1% of a property purchase price. This is a proposal, not current law.",
+      "status": "verified",
+      "urls": [
+        "https://go-murphy.com/issues/"
+      ],
+      "support": "The campaign issue index proposes property taxes at one percent of purchase price.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://go-murphy.com/issues/",
+          "sha256": "8ec93246e73cc5780d7d9a8550b5a5f0316b1ef406c63d8767feefd21d3cfcb1",
+          "text": "audit\\source-cache\\content-sweep\\885ca0051a65c649e0c8.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "candidate": "Pat Hynes",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes accurate property records and assessments, and proposes a public-facing economic-development department.",
+      "status": "verified",
+      "urls": [
+        "https://www.assessorhynes.com/issues"
+      ],
+      "support": "The campaign asks for accurate taxable-property records and proposes a public-facing Department of Economic Development.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.assessorhynes.com/issues",
+          "sha256": "60a08044251f240921f1a666933ea86d3d7774457aa6b36c5375918dbfcf2f70",
+          "text": "audit\\source-cache\\content-sweep\\609cc85d7e8a47318cbb.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "candidate": "Pat Hynes",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "nico-tsatsoulis",
+      "candidate": "Nico Tsatsoulis",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign asks Illinois lawmakers to cap property taxes at 1% of purchase price and advocates using actual sale values in assessments.",
+      "status": "verified",
+      "urls": [
+        "https://nicotheassessor.com/"
+      ],
+      "support": "The candidate asks state legislators for a one-percent purchase-value tax cap and advocates transaction-based assessments.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://nicotheassessor.com/",
+          "sha256": "655437052807847511df8817fd4f5d4b62494acc86f28d9ae72eec4fd2c8e3d0",
+          "text": "audit\\source-cache\\content-sweep\\68ca248750915696e361.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "tom-dart",
+      "candidate": "Thomas Dart",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "brad-sandefur",
+      "candidate": "Brad Sandefur",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports major changes to the SAFE-T Act, stronger safeguards concerning repeat offenders, and expanded mental-health diversion and treatment.",
+      "status": "verified",
+      "urls": [
+        "https://sandefurforsheriff.org/"
+      ],
+      "support": "The campaign plan supports changes to pretrial law, repeat-offender safeguards, psychiatric care and diversion or residential addiction treatment.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://sandefurforsheriff.org/",
+          "sha256": "58cec65147c13bbfe99ca5f2d5532dd7a12a32d367a07649a448202c2021a1ce",
+          "text": "audit\\source-cache\\content-sweep\\88778373b4665b496937.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "candidate": "Monica Gordon",
+      "field": "issues.electionAdministration",
+      "claim": "Campaign supports modernizing records and services, accessible elections, and public performance reporting.",
+      "status": "verified",
+      "urls": [
+        "https://monicaforcookcounty.com/"
+      ],
+      "support": "The campaign principles call for modernized processing and records, accessible elections, and regular performance reporting.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://monicaforcookcounty.com/",
+          "sha256": "485bbce37f96e09335a3981eb9d02ee81160c914c7662c59fa196d700031ee62",
+          "text": "audit\\source-cache\\content-sweep\\335c2383189e62d18285.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "candidate": "Monica Gordon",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "candidate": "Maria Pappas",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports public access to information about local-government spending and debt.",
+      "status": "verified",
+      "urls": [
+        "https://www.mariapappas.net/"
+      ],
+      "support": "The campaign says taxpayers should know local-government spending and debt, describing annual disclosure of government financial data.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.mariapappas.net/",
+          "sha256": "483b2d1ca9080b6447f72cc172610e3a52db2038d750f857d9774ba0415efaa1",
+          "text": "audit\\source-cache\\content-sweep\\eb0841beda8f5c9071c5.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "candidate": "Maria Pappas",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "candidate": "Elizabeth 'Liz' Nicholson",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes a fair opportunity for every property owner to appeal an assessment.",
+      "status": "verified",
+      "urls": [
+        "https://www.lizfor2.com/"
+      ],
+      "support": "The campaign promises each property owner a fair opportunity to appeal taxes through the Board of Review.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.lizfor2.com/",
+          "sha256": "20da578b793fbeee2c018bd9a82004fa1edc66b0e97234a26df3986330c2e973",
+          "text": "audit\\source-cache\\content-sweep\\f03b4e35c8e0080e4bf7.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "candidate": "Elizabeth 'Liz' Nicholson",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports violence prevention, professional law enforcement, mental-health services and rehabilitation to reduce repeat offenses.",
+      "status": "verified",
+      "urls": [
+        "https://elyseforcookcounty.com/priorities/"
+      ],
+      "support": "The priorities page identifies prevention through youth and mental-health support, professional enforcement and rehabilitation.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://elyseforcookcounty.com/priorities/",
+          "sha256": "c148faa2a701a77d96f84f845732478ef3e6b5dd0971f35b61129b2165241ab8",
+          "text": "audit\\source-cache\\content-sweep\\edb077ef7bde280b5abd.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "issues.leadWaterFlood",
+      "claim": "Campaign supports expanding green infrastructure and forest-preserve stewardship to improve flood resilience.",
+      "status": "verified",
+      "urls": [
+        "https://elyseforcookcounty.com/priorities/"
+      ],
+      "support": "The campaign connects sustainable spaces with reduced flooding and proposes forest-preserve stewardship and wider green infrastructure.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://elyseforcookcounty.com/priorities/",
+          "sha256": "c148faa2a701a77d96f84f845732478ef3e6b5dd0971f35b61129b2165241ab8",
+          "text": "audit\\source-cache\\content-sweep\\edb077ef7bde280b5abd.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes property-tax fairness and reducing the cost of living.",
+      "status": "verified",
+      "urls": [
+        "https://drakefor10.com/"
+      ],
+      "support": "The campaign homepage lists property-tax fairness and lower living costs as priorities.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://drakefor10.com/",
+          "sha256": "80637d406b2c42e8e182615ddbc7af0f04c05aaa463d1405315abfdef9606fa3",
+          "text": "audit\\source-cache\\content-sweep\\246868dd91468419cbbf.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign lists restorative justice as a priority.",
+      "status": "verified",
+      "urls": [
+        "https://drakefor10.com/"
+      ],
+      "support": "The campaign homepage explicitly lists restorative justice among its priorities.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://drakefor10.com/",
+          "sha256": "80637d406b2c42e8e182615ddbc7af0f04c05aaa463d1405315abfdef9606fa3",
+          "text": "audit\\source-cache\\content-sweep\\246868dd91468419cbbf.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports helping homeowners with property-tax appeals.",
+      "status": "verified",
+      "urls": [
+        "https://mirandaforcookcounty.org/policy-priorities/"
+      ],
+      "support": "The campaign priorities include assistance with property-tax appeals for homeowners.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://mirandaforcookcounty.org/policy-priorities/",
+          "sha256": "890d226928408164e2b92e211fa257b20ddb4c9f940c66e3a83a3e2f363d0308",
+          "text": "audit\\source-cache\\content-sweep\\992ee3ef4c0e536f3715.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports funding law enforcement and public-safety initiatives.",
+      "status": "verified",
+      "urls": [
+        "https://mirandaforcookcounty.org/policy-priorities/"
+      ],
+      "support": "The campaign priorities call for funding law enforcement and public-safety initiatives.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://mirandaforcookcounty.org/policy-priorities/",
+          "sha256": "890d226928408164e2b92e211fa257b20ddb4c9f940c66e3a83a3e2f363d0308",
+          "text": "audit\\source-cache\\content-sweep\\992ee3ef4c0e536f3715.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "candidate": "Gary Grasso",
+      "field": "issues.assessmentBurden",
+      "claim": "His campaign proposes abating the county share of property taxes, freezing or reducing the county gas tax, and auditing county offices and departments.",
+      "status": "verified",
+      "urls": [
+        "https://garyfordupage.org/policies/"
+      ],
+      "support": "The plan proposes county property-tax abatement, freezing or reducing county gasoline tax, and auditing every county department.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://garyfordupage.org/policies/",
+          "sha256": "7abbb427753f14d705179ccebbd06a35d1b18448909dd042b87bf3285e1f05f5",
+          "text": "audit\\source-cache\\content-sweep\\30f17b6337e4d3f88b78.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "candidate": "Gary Grasso",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign proposes shared patrol coverage between the sheriff and municipalities to improve response times.",
+      "status": "verified",
+      "urls": [
+        "https://garyfordupage.org/policies/"
+      ],
+      "support": "The campaign proposes shared sheriff and municipal patrol coverage to improve response times.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://garyfordupage.org/policies/",
+          "sha256": "7abbb427753f14d705179ccebbd06a35d1b18448909dd042b87bf3285e1f05f5",
+          "text": "audit\\source-cache\\content-sweep\\30f17b6337e4d3f88b78.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "sandy-hart",
+      "candidate": "Sandy Hart",
+      "field": "issues.assessmentBurden",
+      "claim": "Her campaign emphasizes safeguarding county investments and public funds, oversight of tax administration, and transparent financial reporting.",
+      "status": "verified",
+      "urls": [
+        "https://sandyhart.com/"
+      ],
+      "support": "The candidacy announcement emphasizes investment management, safeguarding funds, tax-system integrity and transparent financial reporting.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://sandyhart.com/",
+          "sha256": "68aa60ef0a87818ace6483a65d3071c782d2739ea501730ca955eebf41883f93",
+          "text": "audit\\source-cache\\content-sweep\\b557a0f45d77dfc4ab52.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "roman-buchberger",
+      "candidate": "Roman Buchberger",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign calls for stronger staffing and recruitment, changes to jail scheduling, and more outreach in schools and neighborhoods.",
+      "status": "verified",
+      "urls": [
+        "https://www.romanforlakecounty.com/issues"
+      ],
+      "support": "The issue page supports rebuilding staffing, changing jail scheduling and engagement in schools and underserved neighborhoods.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.romanforlakecounty.com/issues",
+          "sha256": "e3757b69f866a6ba234370e198cc354d199ace77f9f2630ea787703742afab87",
+          "text": "audit\\source-cache\\content-sweep\\1aa027d8121ec3c7eacf.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "michelle-stiff",
+      "candidate": "Michelle Stiff",
+      "field": "issues.assessmentBurden",
+      "claim": "Her campaign pledges fiscal discipline and more efficient county administration.",
+      "status": "verified",
+      "urls": [
+        "https://michellestiff4countyclerk.com/"
+      ],
+      "support": "The campaign explicitly promises fiscal discipline, saving taxpayer money and more efficient administration.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://michellestiff4countyclerk.com/",
+          "sha256": "1632dac3b9ea3264a647fcde59f583a6a0e119c58733f895a341b29215b9180d",
+          "text": "audit\\source-cache\\content-sweep\\e6c839cd230e6de9d0ca.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "patrick-jones",
+      "candidate": "Patrick Jones",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign proposes jail trade programs to reduce recidivism, a police and correctional academy, and a neighborhood policing unit.",
+      "status": "verified",
+      "urls": [
+        "https://www.patrickjonesforsheriff.com/about"
+      ],
+      "support": "The campaign vision proposes jail vocational programs, a police/corrections academy and a neighborhood policing unit.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.patrickjonesforsheriff.com/about",
+          "sha256": "f7c77881a50480f9a9aee29093a4857b6c9d3b9e891bfff05190973fdbcd07e2",
+          "text": "audit\\source-cache\\content-sweep\\8bac99b78743305b0ada.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "james-reilly",
+      "candidate": "James \"Jim\" Reilly",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign emphasizes community policing and rebuilding public trust in the sheriff's office.",
+      "status": "verified",
+      "urls": [
+        "https://reillyforsheriff.com/"
+      ],
+      "support": "The campaign homepage emphasizes community policing and restoring trust in the sheriff office.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://reillyforsheriff.com/",
+          "sha256": "e9c59f335cea803f95183776febdf4f7d5922e6ea7f6504a22d5590fa0046d4c",
+          "text": "audit\\source-cache\\content-sweep\\c634649e7559355e1dc7.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "carmen-maurella",
+      "candidate": "Carmen Maurella III",
+      "field": "issues.assessmentBurden",
+      "claim": "His campaign emphasizes financial accountability, modernization, and fiscal responsibility.",
+      "status": "verified",
+      "urls": [
+        "https://www.electmaurella.com/"
+      ],
+      "support": "The campaign lists accountability, information and modernization as goals and describes a commitment to fiscal responsibility.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.electmaurella.com/",
+          "sha256": "5d8c2ad2cedddf1baf56409c1b4430c8d03cfa5b09f056b59d0d848455f2d0b2",
+          "text": "audit\\source-cache\\content-sweep\\4da697b966471a117e0d.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "theresa-rouse",
+      "candidate": "Theresa Rouse",
+      "field": "issues.education",
+      "claim": "Her campaign proposes shared services for smaller school districts and trauma-informed student support, including arts, movement and social-emotional learning.",
+      "status": "verified",
+      "urls": [
+        "https://www.rouse4roe.com/"
+      ],
+      "support": "The campaign proposes shared-service consortia for small districts and trauma-informed learning, arts, movement and social-emotional supports.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.rouse4roe.com/",
+          "sha256": "871e56dba7936c49060ebed791012a2d3bf0554c5374c7c7cfe737b4c0572693",
+          "text": "audit\\source-cache\\content-sweep\\90c12729db0fff7611e8.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "margaret-peggy-oconnell",
+      "candidate": "Margaret 'Peggy' O'Connell",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The Illinois AFL-CIO 2026 general-election PDF expressly names Margaret Peggy O’Connell for Third District Appellate Court.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310",
+          "text": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "amy-christiansen",
+      "candidate": "Amy Christiansen",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "contradicted",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The cited one-page Illinois AFL-CIO PDF has only Judith Rice and Margaret O’Connell in its Judicial section. It does not contain this candidate; the evidence note falsely describes its contents. This does not prove no endorsement exists elsewhere.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "recommendation": "Remove this endorsement and its evidence note unless a separate current endorsing-organization source can establish it. Official-domain searches did not locate such a source.",
+      "scope": "The contradiction is the attached source attribution, not proof of the negative proposition that the organization never endorsed the candidate.",
+      "archivedSources": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310",
+          "text": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "removed"
+    },
+    {
+      "candidateId": "sonni-choi-williams",
+      "candidate": "Sonni Choi Williams",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "contradicted",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The cited one-page Illinois AFL-CIO PDF has only Judith Rice and Margaret O’Connell in its Judicial section. It does not contain this candidate; the evidence note falsely describes its contents. This does not prove no endorsement exists elsewhere.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "recommendation": "Remove this endorsement and its evidence note unless a separate current endorsing-organization source can establish it. Official-domain searches did not locate such a source.",
+      "scope": "The contradiction is the attached source attribution, not proof of the negative proposition that the organization never endorsed the candidate.",
+      "archivedSources": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310",
+          "text": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "removed"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "candidate": "Dustin D. Heuerman",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign emphasizes collaboration with community partners, transparency, staff training and proactive gun-violence prevention.",
+      "status": "verified",
+      "urls": [
+        "https://www.sheriffdustin.com/accomplishments"
+      ],
+      "support": "The campaign accomplishments page highlights community collaboration, transparency, staff training and prevention-oriented gun-crime enforcement.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.sheriffdustin.com/accomplishments",
+          "sha256": "22ef31959fc973d774cad0764cf88a3d07973877b46c2a450f073fc7dd340dc7",
+          "text": "audit\\source-cache\\content-sweep\\8abe64ab92b4b58ed0f4.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "candidate": "Dustin D. Heuerman",
+      "field": "endorsements[0]",
+      "claim": "LGBTQ+ Victory Fund (2026)",
+      "status": "verified",
+      "urls": [
+        "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/"
+      ],
+      "support": "The organization February 26, 2026 announcement names Dustin Heuerman for Champaign County Sheriff in its 2026 incumbent slate.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/",
+          "sha256": "a41972d35eadbb45b18ad0d62493488f198a621741814583dbd4e44da24ba786",
+          "text": "audit\\source-cache\\content-sweep\\2efe929aa79f83d2dca8.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "joshua-crockett",
+      "candidate": "Joshua Crockett",
+      "field": "issues.electionAdministration",
+      "claim": "His campaign prioritizes transparent, accountable administration of the clerk’s office and service to residents across party affiliations.",
+      "status": "verified",
+      "urls": [
+        "https://joshuacrockett.com/"
+      ],
+      "support": "The campaign promises transparency and accountability and says the clerk office should serve people across party affiliations.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://joshuacrockett.com/",
+          "sha256": "577ee64ee1323519d28151e57f8fce8d16dfc08eb688db06a7112d874b99abdc",
+          "text": "audit\\source-cache\\content-sweep\\05f33260bf156d6850e2.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "maggie-mcgrath-crouch",
+      "candidate": "Maggie (McGrath) Crouch",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "candidate": "Marcus Herbert",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign calls for a transparent, responsive sheriff’s office, community-oriented policing and collaboration with other agencies.",
+      "status": "verified",
+      "urls": [
+        "https://herbertforsheriff.com/about-marcus/"
+      ],
+      "support": "The campaign biography describes interagency collaboration and community-oriented policing, and a vision of transparency and responsiveness.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://herbertforsheriff.com/about-marcus/",
+          "sha256": "619d6d308a9d0050cf39ce44cbb8727c360c4212c0d1979075f448ee28eb86ab",
+          "text": "audit\\source-cache\\content-sweep\\18607a60d49eae4c0b09.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "candidate": "Marcus Herbert",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "jamie-m-shoemaker",
+      "candidate": "Jamie M. Shoemaker",
+      "field": "issues.localPublicSafety",
+      "claim": "Her campaign emphasizes mental-health crisis intervention and connecting people to community support services.",
+      "status": "verified",
+      "urls": [
+        "https://www.shoemakerforsheriff.com/"
+      ],
+      "support": "The campaign homepage emphasizes mental-health crisis intervention and connecting residents with community resources through its account of her work.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.shoemakerforsheriff.com/",
+          "sha256": "36eb7b1e56a48308924ac4b626868d6d28e1fae98404729cc9ba49e7302648fe",
+          "text": "audit\\source-cache\\content-sweep\\005ebfd4f12e07510c3c.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    },
+    {
+      "candidateId": "nick-camlin",
+      "candidate": "Nick Camlin",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "productionDisposition": "retained-as-reviewed"
+    }
+  ],
+  "activeProductionClaims": [
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "issues.assessmentBurden",
+      "claim": "Her campaign highlights a claimed record of not raising county property taxes. This is a campaign description of her record.",
+      "status": "verified",
+      "urls": [
+        "https://tonipreckwinkle.org/taxes/"
+      ],
+      "support": "The campaign highlights its historical no-property-tax-increase claim. Current production attributes this record claim to the campaign and does not present it as an independently proven outcome or new future-policy pledge.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://tonipreckwinkle.org/taxes/",
+          "sha256": "8f94a1fbdea632a07a14103b351a1e9ff73c5c605df0397cbeb0cf2f8cc3d00c",
+          "text": "audit\\source-cache\\content-sweep\\59162185257834e8b8f3.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "issues.migrantBudgets",
+      "claim": "Campaign calls for abolishing ICE and keeping county services available regardless of immigration status.",
+      "status": "verified",
+      "urls": [
+        "https://tonipreckwinkle.org/ice/"
+      ],
+      "support": "The campaign explicitly calls for abolishing ICE and describes county services remaining accessible regardless of immigration status.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://tonipreckwinkle.org/ice/",
+          "sha256": "a97bdb1e04cd7b74311517d10fabc481b367d9c8594496a79200ed429cc687f8",
+          "text": "audit\\source-cache\\content-sweep\\4782312abd6d561f3831.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "toni-preckwinkle",
+      "candidate": "Toni Preckwinkle",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "michael-murphy-cook",
+      "candidate": "Michael Murphy",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign proposes a property-tax cap of 1% of a property purchase price. This is a proposal, not current law.",
+      "status": "verified",
+      "urls": [
+        "https://go-murphy.com/issues/"
+      ],
+      "support": "The campaign issue index proposes property taxes at one percent of purchase price.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://go-murphy.com/issues/",
+          "sha256": "8ec93246e73cc5780d7d9a8550b5a5f0316b1ef406c63d8767feefd21d3cfcb1",
+          "text": "audit\\source-cache\\content-sweep\\885ca0051a65c649e0c8.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "candidate": "Pat Hynes",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes accurate property records and assessments, and proposes a public-facing economic-development department.",
+      "status": "verified",
+      "urls": [
+        "https://www.assessorhynes.com/issues"
+      ],
+      "support": "The campaign asks for accurate taxable-property records and proposes a public-facing Department of Economic Development.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.assessorhynes.com/issues",
+          "sha256": "60a08044251f240921f1a666933ea86d3d7774457aa6b36c5375918dbfcf2f70",
+          "text": "audit\\source-cache\\content-sweep\\609cc85d7e8a47318cbb.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "pat-hynes",
+      "candidate": "Pat Hynes",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "nico-tsatsoulis",
+      "candidate": "Nico Tsatsoulis",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign asks Illinois lawmakers to cap property taxes at 1% of purchase price and advocates using actual sale values in assessments.",
+      "status": "verified",
+      "urls": [
+        "https://nicotheassessor.com/"
+      ],
+      "support": "The candidate asks state legislators for a one-percent purchase-value tax cap and advocates transaction-based assessments.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://nicotheassessor.com/",
+          "sha256": "655437052807847511df8817fd4f5d4b62494acc86f28d9ae72eec4fd2c8e3d0",
+          "text": "audit\\source-cache\\content-sweep\\68ca248750915696e361.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "tom-dart",
+      "candidate": "Thomas Dart",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "brad-sandefur",
+      "candidate": "Brad Sandefur",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports major changes to the SAFE-T Act, stronger safeguards concerning repeat offenders, and expanded mental-health diversion and treatment.",
+      "status": "verified",
+      "urls": [
+        "https://sandefurforsheriff.org/"
+      ],
+      "support": "The campaign plan supports changes to pretrial law, repeat-offender safeguards, psychiatric care and diversion or residential addiction treatment.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://sandefurforsheriff.org/",
+          "sha256": "58cec65147c13bbfe99ca5f2d5532dd7a12a32d367a07649a448202c2021a1ce",
+          "text": "audit\\source-cache\\content-sweep\\88778373b4665b496937.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "candidate": "Monica Gordon",
+      "field": "issues.electionAdministration",
+      "claim": "Campaign supports modernizing records and services, accessible elections, and public performance reporting.",
+      "status": "verified",
+      "urls": [
+        "https://monicaforcookcounty.com/"
+      ],
+      "support": "The campaign principles call for modernized processing and records, accessible elections, and regular performance reporting.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://monicaforcookcounty.com/",
+          "sha256": "485bbce37f96e09335a3981eb9d02ee81160c914c7662c59fa196d700031ee62",
+          "text": "audit\\source-cache\\content-sweep\\335c2383189e62d18285.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "monica-gordon",
+      "candidate": "Monica Gordon",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "candidate": "Maria Pappas",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports public access to information about local-government spending and debt.",
+      "status": "verified",
+      "urls": [
+        "https://www.mariapappas.net/"
+      ],
+      "support": "The campaign says taxpayers should know local-government spending and debt, describing annual disclosure of government financial data.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.mariapappas.net/",
+          "sha256": "483b2d1ca9080b6447f72cc172610e3a52db2038d750f857d9774ba0415efaa1",
+          "text": "audit\\source-cache\\content-sweep\\eb0841beda8f5c9071c5.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "maria-pappas",
+      "candidate": "Maria Pappas",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "candidate": "Elizabeth 'Liz' Nicholson",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes a fair opportunity for every property owner to appeal an assessment.",
+      "status": "verified",
+      "urls": [
+        "https://www.lizfor2.com/"
+      ],
+      "support": "The campaign promises each property owner a fair opportunity to appeal taxes through the Board of Review.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.lizfor2.com/",
+          "sha256": "20da578b793fbeee2c018bd9a82004fa1edc66b0e97234a26df3986330c2e973",
+          "text": "audit\\source-cache\\content-sweep\\f03b4e35c8e0080e4bf7.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "liz-nicholson",
+      "candidate": "Elizabeth 'Liz' Nicholson",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports violence prevention, professional law enforcement, mental-health services and rehabilitation to reduce repeat offenses.",
+      "status": "verified",
+      "urls": [
+        "https://elyseforcookcounty.com/priorities/"
+      ],
+      "support": "The priorities page identifies prevention through youth and mental-health support, professional enforcement and rehabilitation.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://elyseforcookcounty.com/priorities/",
+          "sha256": "c148faa2a701a77d96f84f845732478ef3e6b5dd0971f35b61129b2165241ab8",
+          "text": "audit\\source-cache\\content-sweep\\edb077ef7bde280b5abd.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "issues.leadWaterFlood",
+      "claim": "Campaign supports expanding green infrastructure and forest-preserve stewardship to improve flood resilience.",
+      "status": "verified",
+      "urls": [
+        "https://elyseforcookcounty.com/priorities/"
+      ],
+      "support": "The campaign connects sustainable spaces with reduced flooding and proposes forest-preserve stewardship and wider green infrastructure.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://elyseforcookcounty.com/priorities/",
+          "sha256": "c148faa2a701a77d96f84f845732478ef3e6b5dd0971f35b61129b2165241ab8",
+          "text": "audit\\source-cache\\content-sweep\\edb077ef7bde280b5abd.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "elyse-hoffenberg",
+      "candidate": "Elyse Hoffenberg",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign prioritizes property-tax fairness and reducing the cost of living.",
+      "status": "verified",
+      "urls": [
+        "https://drakefor10.com/"
+      ],
+      "support": "The campaign homepage lists property-tax fairness and lower living costs as priorities.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://drakefor10.com/",
+          "sha256": "80637d406b2c42e8e182615ddbc7af0f04c05aaa463d1405315abfdef9606fa3",
+          "text": "audit\\source-cache\\content-sweep\\246868dd91468419cbbf.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign lists restorative justice as a priority.",
+      "status": "verified",
+      "urls": [
+        "https://drakefor10.com/"
+      ],
+      "support": "The campaign homepage explicitly lists restorative justice among its priorities.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://drakefor10.com/",
+          "sha256": "80637d406b2c42e8e182615ddbc7af0f04c05aaa463d1405315abfdef9606fa3",
+          "text": "audit\\source-cache\\content-sweep\\246868dd91468419cbbf.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "drake-warren",
+      "candidate": "Drake Warren",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "issues.assessmentBurden",
+      "claim": "Campaign supports helping homeowners with property-tax appeals.",
+      "status": "verified",
+      "urls": [
+        "https://mirandaforcookcounty.org/policy-priorities/"
+      ],
+      "support": "The campaign priorities include assistance with property-tax appeals for homeowners.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://mirandaforcookcounty.org/policy-priorities/",
+          "sha256": "890d226928408164e2b92e211fa257b20ddb4c9f940c66e3a83a3e2f363d0308",
+          "text": "audit\\source-cache\\content-sweep\\992ee3ef4c0e536f3715.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "issues.localPublicSafety",
+      "claim": "Campaign supports funding law enforcement and public-safety initiatives.",
+      "status": "verified",
+      "urls": [
+        "https://mirandaforcookcounty.org/policy-priorities/"
+      ],
+      "support": "The campaign priorities call for funding law enforcement and public-safety initiatives.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://mirandaforcookcounty.org/policy-priorities/",
+          "sha256": "890d226928408164e2b92e211fa257b20ddb4c9f940c66e3a83a3e2f363d0308",
+          "text": "audit\\source-cache\\content-sweep\\992ee3ef4c0e536f3715.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "miranda-hernandez",
+      "candidate": "Miranda Hernandez",
+      "field": "endorsements[0]",
+      "claim": "Chicago Federation of Labor (2026 general election)",
+      "status": "verified",
+      "urls": [
+        "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf"
+      ],
+      "support": "The organization November 3 general-election PDF lists this candidate for the corresponding Cook County office (page 2).",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+          "sha256": "d0b880b86ba3aca96b5d8b9b312ce5485657bcd9cef288e96beba43596a9840f",
+          "text": "audit\\source-cache\\content-sweep\\5cac740ac0d2dd8cfc06.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "candidate": "Gary Grasso",
+      "field": "issues.assessmentBurden",
+      "claim": "His campaign proposes abating the county share of property taxes, freezing or reducing the county gas tax, and auditing county offices and departments.",
+      "status": "verified",
+      "urls": [
+        "https://garyfordupage.org/policies/"
+      ],
+      "support": "The plan proposes county property-tax abatement, freezing or reducing county gasoline tax, and auditing every county department.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://garyfordupage.org/policies/",
+          "sha256": "7abbb427753f14d705179ccebbd06a35d1b18448909dd042b87bf3285e1f05f5",
+          "text": "audit\\source-cache\\content-sweep\\30f17b6337e4d3f88b78.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "gary-grasso",
+      "candidate": "Gary Grasso",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign proposes shared patrol coverage between the sheriff and municipalities to improve response times.",
+      "status": "verified",
+      "urls": [
+        "https://garyfordupage.org/policies/"
+      ],
+      "support": "The campaign proposes shared sheriff and municipal patrol coverage to improve response times.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://garyfordupage.org/policies/",
+          "sha256": "7abbb427753f14d705179ccebbd06a35d1b18448909dd042b87bf3285e1f05f5",
+          "text": "audit\\source-cache\\content-sweep\\30f17b6337e4d3f88b78.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "sandy-hart",
+      "candidate": "Sandy Hart",
+      "field": "issues.assessmentBurden",
+      "claim": "Her campaign emphasizes safeguarding county investments and public funds, oversight of tax administration, and transparent financial reporting.",
+      "status": "verified",
+      "urls": [
+        "https://sandyhart.com/"
+      ],
+      "support": "The candidacy announcement emphasizes investment management, safeguarding funds, tax-system integrity and transparent financial reporting.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://sandyhart.com/",
+          "sha256": "68aa60ef0a87818ace6483a65d3071c782d2739ea501730ca955eebf41883f93",
+          "text": "audit\\source-cache\\content-sweep\\b557a0f45d77dfc4ab52.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "roman-buchberger",
+      "candidate": "Roman Buchberger",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign calls for stronger staffing and recruitment, changes to jail scheduling, and more outreach in schools and neighborhoods.",
+      "status": "verified",
+      "urls": [
+        "https://www.romanforlakecounty.com/issues"
+      ],
+      "support": "The issue page supports rebuilding staffing, changing jail scheduling and engagement in schools and underserved neighborhoods.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.romanforlakecounty.com/issues",
+          "sha256": "e3757b69f866a6ba234370e198cc354d199ace77f9f2630ea787703742afab87",
+          "text": "audit\\source-cache\\content-sweep\\1aa027d8121ec3c7eacf.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "michelle-stiff",
+      "candidate": "Michelle Stiff",
+      "field": "issues.assessmentBurden",
+      "claim": "Her campaign pledges fiscal discipline and more efficient county administration.",
+      "status": "verified",
+      "urls": [
+        "https://michellestiff4countyclerk.com/"
+      ],
+      "support": "The campaign explicitly promises fiscal discipline, saving taxpayer money and more efficient administration.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://michellestiff4countyclerk.com/",
+          "sha256": "1632dac3b9ea3264a647fcde59f583a6a0e119c58733f895a341b29215b9180d",
+          "text": "audit\\source-cache\\content-sweep\\e6c839cd230e6de9d0ca.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "patrick-jones",
+      "candidate": "Patrick Jones",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign proposes jail trade programs to reduce recidivism, a police and correctional academy, and a neighborhood policing unit.",
+      "status": "verified",
+      "urls": [
+        "https://www.patrickjonesforsheriff.com/about"
+      ],
+      "support": "The campaign vision proposes jail vocational programs, a police/corrections academy and a neighborhood policing unit.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.patrickjonesforsheriff.com/about",
+          "sha256": "f7c77881a50480f9a9aee29093a4857b6c9d3b9e891bfff05190973fdbcd07e2",
+          "text": "audit\\source-cache\\content-sweep\\8bac99b78743305b0ada.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "james-reilly",
+      "candidate": "James \"Jim\" Reilly",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign emphasizes community policing and rebuilding public trust in the sheriff's office.",
+      "status": "verified",
+      "urls": [
+        "https://reillyforsheriff.com/"
+      ],
+      "support": "The campaign homepage emphasizes community policing and restoring trust in the sheriff office.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://reillyforsheriff.com/",
+          "sha256": "e9c59f335cea803f95183776febdf4f7d5922e6ea7f6504a22d5590fa0046d4c",
+          "text": "audit\\source-cache\\content-sweep\\c634649e7559355e1dc7.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "carmen-maurella",
+      "candidate": "Carmen Maurella III",
+      "field": "issues.assessmentBurden",
+      "claim": "His campaign emphasizes financial accountability, modernization, and fiscal responsibility.",
+      "status": "verified",
+      "urls": [
+        "https://www.electmaurella.com/"
+      ],
+      "support": "The campaign lists accountability, information and modernization as goals and describes a commitment to fiscal responsibility.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.electmaurella.com/",
+          "sha256": "5d8c2ad2cedddf1baf56409c1b4430c8d03cfa5b09f056b59d0d848455f2d0b2",
+          "text": "audit\\source-cache\\content-sweep\\4da697b966471a117e0d.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "theresa-rouse",
+      "candidate": "Theresa Rouse",
+      "field": "issues.education",
+      "claim": "Her campaign proposes shared services for smaller school districts and trauma-informed student support, including arts, movement and social-emotional learning.",
+      "status": "verified",
+      "urls": [
+        "https://www.rouse4roe.com/"
+      ],
+      "support": "The campaign proposes shared-service consortia for small districts and trauma-informed learning, arts, movement and social-emotional supports.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.rouse4roe.com/",
+          "sha256": "871e56dba7936c49060ebed791012a2d3bf0554c5374c7c7cfe737b4c0572693",
+          "text": "audit\\source-cache\\content-sweep\\90c12729db0fff7611e8.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "margaret-peggy-oconnell",
+      "candidate": "Margaret 'Peggy' O'Connell",
+      "field": "endorsements[0]",
+      "claim": "Illinois AFL-CIO",
+      "status": "verified",
+      "urls": [
+        "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf"
+      ],
+      "support": "The Illinois AFL-CIO 2026 general-election PDF expressly names Margaret Peggy O’Connell for Third District Appellate Court.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+          "sha256": "287d61c5ac4c4cb37301ad04ae250a46c70a735e84fd0d0c2ed863dad4f98310",
+          "text": "audit\\source-cache\\content-sweep\\43b4d3fad79c36827a77.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "candidate": "Dustin D. Heuerman",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign emphasizes collaboration with community partners, transparency, staff training and proactive gun-violence prevention.",
+      "status": "verified",
+      "urls": [
+        "https://www.sheriffdustin.com/accomplishments"
+      ],
+      "support": "The campaign accomplishments page highlights community collaboration, transparency, staff training and prevention-oriented gun-crime enforcement.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.sheriffdustin.com/accomplishments",
+          "sha256": "22ef31959fc973d774cad0764cf88a3d07973877b46c2a450f073fc7dd340dc7",
+          "text": "audit\\source-cache\\content-sweep\\8abe64ab92b4b58ed0f4.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "dustin-d-heuerman",
+      "candidate": "Dustin D. Heuerman",
+      "field": "endorsements[0]",
+      "claim": "LGBTQ+ Victory Fund (2026)",
+      "status": "verified",
+      "urls": [
+        "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/"
+      ],
+      "support": "The organization February 26, 2026 announcement names Dustin Heuerman for Champaign County Sheriff in its 2026 incumbent slate.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/",
+          "sha256": "a41972d35eadbb45b18ad0d62493488f198a621741814583dbd4e44da24ba786",
+          "text": "audit\\source-cache\\content-sweep\\2efe929aa79f83d2dca8.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "joshua-crockett",
+      "candidate": "Joshua Crockett",
+      "field": "issues.electionAdministration",
+      "claim": "His campaign prioritizes transparent, accountable administration of the clerk’s office and service to residents across party affiliations.",
+      "status": "verified",
+      "urls": [
+        "https://joshuacrockett.com/"
+      ],
+      "support": "The campaign promises transparency and accountability and says the clerk office should serve people across party affiliations.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://joshuacrockett.com/",
+          "sha256": "577ee64ee1323519d28151e57f8fce8d16dfc08eb688db06a7112d874b99abdc",
+          "text": "audit\\source-cache\\content-sweep\\05f33260bf156d6850e2.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "maggie-mcgrath-crouch",
+      "candidate": "Maggie (McGrath) Crouch",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "candidate": "Marcus Herbert",
+      "field": "issues.localPublicSafety",
+      "claim": "His campaign calls for a transparent, responsive sheriff’s office, community-oriented policing and collaboration with other agencies.",
+      "status": "verified",
+      "urls": [
+        "https://herbertforsheriff.com/about-marcus/"
+      ],
+      "support": "The campaign biography describes interagency collaboration and community-oriented policing, and a vision of transparency and responsiveness.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://herbertforsheriff.com/about-marcus/",
+          "sha256": "619d6d308a9d0050cf39ce44cbb8727c360c4212c0d1979075f448ee28eb86ab",
+          "text": "audit\\source-cache\\content-sweep\\18607a60d49eae4c0b09.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "marcus-herbert",
+      "candidate": "Marcus Herbert",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "jamie-m-shoemaker",
+      "candidate": "Jamie M. Shoemaker",
+      "field": "issues.localPublicSafety",
+      "claim": "Her campaign emphasizes mental-health crisis intervention and connecting people to community support services.",
+      "status": "verified",
+      "urls": [
+        "https://www.shoemakerforsheriff.com/"
+      ],
+      "support": "The campaign homepage emphasizes mental-health crisis intervention and connecting residents with community resources through its account of her work.",
+      "sourceReview": "Primary campaign page directly retrieved and read through web tool on November 1, 2026. Verification establishes attributed campaign content, not independently proven accomplishments.",
+      "archivedSources": [
+        {
+          "url": "https://www.shoemakerforsheriff.com/",
+          "sha256": "36eb7b1e56a48308924ac4b626868d6d28e1fae98404729cc9ba49e7302648fe",
+          "text": "audit\\source-cache\\content-sweep\\005ebfd4f12e07510c3c.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    },
+    {
+      "candidateId": "nick-camlin",
+      "candidate": "Nick Camlin",
+      "field": "endorsements[0]",
+      "claim": "Quad City Federation of Labor (2026)",
+      "status": "verified",
+      "urls": [
+        "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/"
+      ],
+      "support": "The organization 2026 Rock Island County endorsement table names this candidate for the corresponding office.",
+      "sourceReview": "Endorsing organization primary source directly retrieved and read through web tool November 1, 2026.",
+      "archivedSources": [
+        {
+          "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+          "sha256": "4e622e24b90eaeb732e747885c7e7e00b04d5c5f4f7e40a5b23af05128a10dde",
+          "text": "audit\\source-cache\\content-sweep\\ad61ce7219ba0d9ea801.txt",
+          "status": 200
+        }
+      ],
+      "checked": "2026-11-01"
+    }
+  ],
+  "activeProductionSummary": {
+    "checked": "2026-11-01",
+    "claims": 42,
+    "issues": 28,
+    "endorsements": 14,
+    "verified": 42,
+    "unresolved": 0
+  },
+  "actuallyReadSources": [
+    {
+      "url": "https://tonipreckwinkle.org/taxes/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://tonipreckwinkle.org/ice/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://chicagolabor.org/wp-content/uploads/CFL-2026-General-Election-Endorsements.pdf",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://go-murphy.com/issues/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.assessorhynes.com/issues",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://nicotheassessor.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://sandefurforsheriff.org/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://monicaforcookcounty.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.mariapappas.net/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.lizfor2.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://elyseforcookcounty.com/priorities/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://drakefor10.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://mirandaforcookcounty.org/policy-priorities/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://garyfordupage.org/policies/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://sandyhart.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.romanforlakecounty.com/issues",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://michellestiff4countyclerk.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.patrickjonesforsheriff.com/about",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://reillyforsheriff.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.electmaurella.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.rouse4roe.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.ilaflcio.org/wp-content/uploads/2026/07/IL-AFL-CIO-General-Endorsements-072026-1.pdf",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.sheriffdustin.com/accomplishments",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://victoryfund.org/news/lgbtq-victory-fund-endorses-43-new-candidates-for-2026-campaigns/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://joshuacrockett.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.quadcityfed.com/political-legislative/local-il-endorsed-candidates/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://herbertforsheriff.com/about-marcus/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    },
+    {
+      "url": "https://www.shoemakerforsheriff.com/",
+      "checked": "2026-11-01",
+      "access": "direct web retrieval",
+      "scope": "Read relevant campaign statement or endorsing-organization entry, not merely HTTP status."
+    }
+  ]
+}
