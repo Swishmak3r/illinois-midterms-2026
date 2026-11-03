@@ -1,6 +1,6 @@
 // Bundled OpenFEC snapshot; updated only after a complete successful fetch.
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-11-02 20:42 UTC",
+  "lastAutomatedSync": "2026-11-03 18:20 UTC",
   "source": "Federal Election Commission - reported candidate totals",
   "sourceUrl": "https://www.fec.gov/data/candidates/?cycle=2026&election_full=false&state=IL",
   "cycle": 2026,
@@ -971,8 +971,8 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-10-14"
     },
     {
-      "candidate_id": "S2IL00200",
-      "name": "CHLEBEK, CASEY",
+      "candidate_id": "S6IL00466",
+      "name": "CHLEBEK, CASIMER MR.",
       "office": "S",
       "district": "00",
       "party": "REP",
@@ -986,8 +986,8 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-07-27"
     },
     {
-      "candidate_id": "S6IL00466",
-      "name": "CHLEBEK, CASIMER MR.",
+      "candidate_id": "S2IL00200",
+      "name": "CHLEBEK, CASEY",
       "office": "S",
       "district": "00",
       "party": "REP",
@@ -2276,56 +2276,11 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": null
     },
     {
-      "candidate_id": "S4IL00529",
-      "name": "SOLOMON, GAVIN",
-      "office": "S",
-      "district": "00",
-      "party": "W",
-      "state": "IL",
-      "cycle": 2026,
-      "two_year_period": 2026,
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand_end_period": "0.00",
-      "coverage_start_date": null,
-      "coverage_end_date": null
-    },
-    {
       "candidate_id": "H4IL08134",
       "name": "BRISENO, JORGE ALBERTO",
       "office": "H",
       "district": "08",
       "party": "IND",
-      "state": "IL",
-      "cycle": 2026,
-      "two_year_period": 2026,
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand_end_period": "0.00",
-      "coverage_start_date": null,
-      "coverage_end_date": null
-    },
-    {
-      "candidate_id": "S6IL00748",
-      "name": "SOLOMON, GAVIN",
-      "office": "S",
-      "district": "00",
-      "party": "W",
-      "state": "IL",
-      "cycle": 2026,
-      "two_year_period": 2026,
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand_end_period": "0.00",
-      "coverage_start_date": null,
-      "coverage_end_date": null
-    },
-    {
-      "candidate_id": "S6IL00755",
-      "name": "SOLOMON, GAVIN",
-      "office": "S",
-      "district": "00",
-      "party": "W",
       "state": "IL",
       "cycle": 2026,
       "two_year_period": 2026,
@@ -2366,6 +2321,36 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-03-31"
     },
     {
+      "candidate_id": "S2IL00333",
+      "name": "SOLOMON, GAVIN",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "state": "IL",
+      "cycle": 2026,
+      "two_year_period": 2026,
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand_end_period": "0.00",
+      "coverage_start_date": null,
+      "coverage_end_date": null
+    },
+    {
+      "candidate_id": "H2IL06124",
+      "name": "GRASSO, GARY",
+      "office": "H",
+      "district": "06",
+      "party": "REP",
+      "state": "IL",
+      "cycle": 2026,
+      "two_year_period": 2026,
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand_end_period": "1558.58",
+      "coverage_start_date": "2025-01-01",
+      "coverage_end_date": "2025-09-30"
+    },
+    {
       "candidate_id": "H2IL01232",
       "name": "BUTLER, CHRISTOPHER",
       "office": "H",
@@ -2381,7 +2366,22 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-06-30"
     },
     {
-      "candidate_id": "S2IL00333",
+      "candidate_id": "H8IL13200",
+      "name": "HORGES, BRADLEY MR.",
+      "office": "H",
+      "district": "13",
+      "party": "W",
+      "state": "IL",
+      "cycle": 2026,
+      "two_year_period": 2026,
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand_end_period": "0.00",
+      "coverage_start_date": null,
+      "coverage_end_date": null
+    },
+    {
+      "candidate_id": "S8IL00249",
       "name": "SOLOMON, GAVIN",
       "office": "S",
       "district": "00",
@@ -2411,36 +2411,6 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": null
     },
     {
-      "candidate_id": "S4IL00511",
-      "name": "SOLOMON, GAVIN",
-      "office": "S",
-      "district": "00",
-      "party": "W",
-      "state": "IL",
-      "cycle": 2026,
-      "two_year_period": 2026,
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand_end_period": "0.00",
-      "coverage_start_date": null,
-      "coverage_end_date": null
-    },
-    {
-      "candidate_id": "H2IL06124",
-      "name": "GRASSO, GARY",
-      "office": "H",
-      "district": "06",
-      "party": "REP",
-      "state": "IL",
-      "cycle": 2026,
-      "two_year_period": 2026,
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand_end_period": "1558.58",
-      "coverage_start_date": "2025-01-01",
-      "coverage_end_date": "2025-09-30"
-    },
-    {
       "candidate_id": "H4IL03077",
       "name": "LIPINSKI, DANIEL WILLIAM WILLIAM",
       "office": "H",
@@ -2456,7 +2426,7 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": null
     },
     {
-      "candidate_id": "H8IL13200",
+      "candidate_id": "H8IL13226",
       "name": "HORGES, BRADLEY MR.",
       "office": "H",
       "district": "13",
@@ -2471,7 +2441,22 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": null
     },
     {
-      "candidate_id": "S8IL00249",
+      "candidate_id": "S0IL00667",
+      "name": "SOLOMON, GAVIN",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
+      "state": "IL",
+      "cycle": 2026,
+      "two_year_period": 2026,
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand_end_period": "0.00",
+      "coverage_start_date": null,
+      "coverage_end_date": null
+    },
+    {
+      "candidate_id": "S0IL00675",
       "name": "SOLOMON, GAVIN",
       "office": "S",
       "district": "00",
@@ -2516,11 +2501,11 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": null
     },
     {
-      "candidate_id": "H8IL13226",
-      "name": "HORGES, BRADLEY MR.",
-      "office": "H",
-      "district": "13",
-      "party": "W",
+      "candidate_id": "S2IL00325",
+      "name": "SOLOMON, GAVIN",
+      "office": "S",
+      "district": "00",
+      "party": "REP",
       "state": "IL",
       "cycle": 2026,
       "two_year_period": 2026,
@@ -2531,10 +2516,10 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": null
     },
     {
-      "candidate_id": "S0IL00667",
-      "name": "SOLOMON, GAVIN",
-      "office": "S",
-      "district": "00",
+      "candidate_id": "H0IL14080",
+      "name": "HULTGREN, RANDY",
+      "office": "H",
+      "district": "14",
       "party": "REP",
       "state": "IL",
       "cycle": 2026,
@@ -2561,11 +2546,26 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": null
     },
     {
-      "candidate_id": "S0IL00675",
+      "candidate_id": "S6IL00748",
       "name": "SOLOMON, GAVIN",
       "office": "S",
       "district": "00",
-      "party": "REP",
+      "party": "W",
+      "state": "IL",
+      "cycle": 2026,
+      "two_year_period": 2026,
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand_end_period": "0.00",
+      "coverage_start_date": null,
+      "coverage_end_date": null
+    },
+    {
+      "candidate_id": "S6IL00755",
+      "name": "SOLOMON, GAVIN",
+      "office": "S",
+      "district": "00",
+      "party": "W",
       "state": "IL",
       "cycle": 2026,
       "two_year_period": 2026,
@@ -2591,6 +2591,21 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2025-09-30"
     },
     {
+      "candidate_id": "S4IL00529",
+      "name": "SOLOMON, GAVIN",
+      "office": "S",
+      "district": "00",
+      "party": "W",
+      "state": "IL",
+      "cycle": 2026,
+      "two_year_period": 2026,
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand_end_period": "0.00",
+      "coverage_start_date": null,
+      "coverage_end_date": null
+    },
+    {
       "candidate_id": "H2IL11157",
       "name": "MILLER, CASSANDRA TANNER",
       "office": "H",
@@ -2606,26 +2621,11 @@ window.IL_LIVE_SYNC_META = {
       "coverage_end_date": "2026-09-30"
     },
     {
-      "candidate_id": "S2IL00325",
+      "candidate_id": "S4IL00511",
       "name": "SOLOMON, GAVIN",
       "office": "S",
       "district": "00",
-      "party": "REP",
-      "state": "IL",
-      "cycle": 2026,
-      "two_year_period": 2026,
-      "receipts": 0.0,
-      "disbursements": 0.0,
-      "cash_on_hand_end_period": "0.00",
-      "coverage_start_date": null,
-      "coverage_end_date": null
-    },
-    {
-      "candidate_id": "H0IL14080",
-      "name": "HULTGREN, RANDY",
-      "office": "H",
-      "district": "14",
-      "party": "REP",
+      "party": "W",
       "state": "IL",
       "cycle": 2026,
       "two_year_period": 2026,
