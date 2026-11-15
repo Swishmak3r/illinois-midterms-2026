@@ -1,6 +1,6 @@
 // Bundled OpenFEC snapshot; updated only after a complete successful fetch.
 window.IL_LIVE_SYNC_META = {
-  "lastAutomatedSync": "2026-11-14 16:56 UTC",
+  "lastAutomatedSync": "2026-11-15 17:38 UTC",
   "source": "Federal Election Commission - reported candidate totals",
   "sourceUrl": "https://www.fec.gov/data/candidates/?cycle=2026&election_full=false&state=IL",
   "cycle": 2026,
